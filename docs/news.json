@@ -1,0 +1,201 @@
+{
+ "meta": {
+  "generated_at": "2026-11-14T14:03:00Z",
+  "categories": {
+   "monetary": "นโยบายการเงิน/ดอกเบี้ย",
+   "inflation": "เงินเฟ้อ",
+   "oil_energy": "น้ำมัน/พลังงาน",
+   "gold": "ทองคำ",
+   "fx": "ค่าเงิน",
+   "economy": "เศรษฐกิจมหภาค",
+   "earnings": "ผลประกอบการ",
+   "tech_ai": "เทคโนโลยี/AI",
+   "trade_geo": "การค้า/ภูมิรัฐศาสตร์",
+   "bank_property": "ธนาคาร/อสังหาฯ",
+   "stock_market": "ตลาดหุ้น/ตราสารหนี้"
+  },
+  "feeds_ok": 4,
+  "feed_errors": [],
+  "total_raw": 12,
+  "total_kept": 8,
+  "snapshot_note": "ข้อมูลตัวอย่างจากหัวข้อข่าวจริงวันที่ 12-14 พ.ย. 2569 (จาก 4 แหล่ง) หน้าเว็บจริงจะอัปเดตเองทุกชั่วโมงเมื่อรันตัวดึงข่าว"
+ },
+ "signals": [
+  {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 1,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
+     "link": "https://www.prachachat.net/economic/news-2096401",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-13T14:57:44Z"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "8cc828759081",
+   "title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.30-34.00 จับตา GDP ไทย-สถานการณ์ตอ.กลาง",
+   "link": "https://www.infoquest.co.th/2026/679571",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T09:44:41Z",
+   "summary": "ตัวอย่าง",
+   "score": 9,
+   "categories": [
+    "fx",
+    "economy",
+    "trade_geo"
+   ],
+   "signals": []
+  },
+  {
+   "id": "d9ae4facb6de",
+   "title": "ประธานบอร์ดธปท. ซัดผู้ว่าฯ ล้มเหลวแก้กม. เหตุกลัวการเมือง-สินเชื่อ SME หดตัวยาว 17 ไตรมาส",
+   "link": "https://www.infoquest.co.th/2026/679563",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T09:34:36Z",
+   "summary": "ตัวอย่าง",
+   "score": 7,
+   "categories": [
+    "bank_property",
+    "monetary"
+   ],
+   "signals": []
+  },
+  {
+   "id": "df9c56f17df7",
+   "title": "จีน-สหรัฐฯ หารือการค้าเกษตรและปรับลดภาษี ก่อนทรัมป์-สี พบกันสัปดาห์หน้า",
+   "link": "https://www.infoquest.co.th/2026/679566",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T09:29:18Z",
+   "summary": "ตัวอย่าง",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": []
+  },
+  {
+   "id": "c59c62bcdc2a",
+   "title": "How low does Nvidia's stock need to go before it's a screaming bargain?",
+   "link": "https://www.marketwatch.com/story/how-low-does-nvidias-stock-need-to-go-before-its-a-screaming-bargain-c25302ed?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-13T17:07:00Z",
+   "summary": "sample",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": []
+  },
+  {
+   "id": "0cba912555e5",
+   "title": "AURA กำไร Q3/69 โต 29.8% พอร์ตขายฝาก “ทองมาเงินไป” นิวไฮแตะ 1.12 หมื่นล้าน",
+   "link": "https://www.prachachat.net/finance/news-2096403",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-13T15:00:35Z",
+   "summary": "ตัวอย่าง",
+   "score": 3,
+   "categories": [
+    "earnings"
+   ],
+   "signals": []
+  },
+  {
+   "id": "068bea1a2f4b",
+   "title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
+   "link": "https://www.prachachat.net/economic/news-2096401",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-13T14:57:44Z",
+   "summary": "ตัวอย่าง",
+   "score": 8,
+   "categories": [
+    "economy",
+    "trade_geo"
+   ],
+   "signals": [
+    "tariff"
+   ]
+  },
+  {
+   "id": "22d3dfcc69d8",
+   "title": "SPRC กำไร Q3 แตะ 308 ล้านดอลลาร์ รับอานิสงส์สต็อกน้ำมัน 9 เดือนกวาด 750 ล้านดอลลาร์",
+   "link": "https://www.prachachat.net/business/news-2096383",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-13T13:37:10Z",
+   "summary": "ตัวอย่าง",
+   "score": 6,
+   "categories": [
+    "oil_energy",
+    "earnings"
+   ],
+   "signals": []
+  },
+  {
+   "id": "b8182560b025",
+   "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+   "source": "Federal Reserve",
+   "feed": "fed",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-12T17:45:00Z",
+   "summary": "sample",
+   "score": 4,
+   "categories": [
+    "monetary"
+   ],
+   "signals": []
+  }
+ ]
+}

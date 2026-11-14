@@ -1,0 +1,57 @@
+{
+  "_note": "แหล่งข่าว RSS ที่ตรวจแล้วว่าใช้ได้เมื่อ 14 พ.ย. 2569 เพิ่ม/ปิดแหล่งได้โดยแก้ไฟล์นี้ (enabled: false = ปิด)",
+  "feeds": [
+    {
+      "id": "prachachat",
+      "name": "ประชาชาติธุรกิจ",
+      "region": "TH",
+      "lang": "th",
+      "url": "https://www.prachachat.net/feed",
+      "enabled": true,
+      "note": "XML ไม่เป๊ะ ใช้ feedparser ซึ่งผ่อนปรนได้"
+    },
+    {
+      "id": "infoquest",
+      "name": "อินโฟเควสท์",
+      "region": "TH",
+      "lang": "th",
+      "url": "https://www.infoquest.co.th/feed",
+      "enabled": true
+    },
+    {
+      "id": "fed",
+      "name": "Federal Reserve",
+      "region": "GLOBAL",
+      "lang": "en",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "enabled": true,
+      "central_bank": true
+    },
+    {
+      "id": "ecb",
+      "name": "ECB",
+      "region": "GLOBAL",
+      "lang": "en",
+      "url": "https://www.ecb.europa.eu/rss/pub.html",
+      "enabled": true,
+      "central_bank": true
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "region": "GLOBAL",
+      "lang": "en",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+      "enabled": true
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "region": "GLOBAL",
+      "lang": "en",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "enabled": false,
+      "note": "เข้าไม่ได้จากเครื่องมือของ Claude ลองเปิด enabled เป็น true แล้วรันบนเครื่องคุณหรือ GitHub Actions"
+    }
+  ]
+}

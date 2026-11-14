@@ -1,0 +1,527 @@
+{
+  "_note": "กฎกรองและจับคู่ข่าวกับหุ้น แก้ไขได้เอง keyword ภาษาอังกฤษไม่สนตัวพิมพ์เล็ก/ใหญ่ ยกเว้นขึ้นต้นด้วย cs: (สนตัวพิมพ์)",
+  "settings": {
+    "min_score": 3,
+    "max_age_days": 7,
+    "max_items": 300,
+    "signal_window_hours": 48,
+    "central_bank_bonus": 1,
+    "signal_bonus": 2,
+    "summary_max_chars": 240,
+    "dedup_similarity": 0.88
+  },
+  "categories": [
+    {
+      "id": "monetary",
+      "name": "นโยบายการเงิน/ดอกเบี้ย",
+      "keywords": [
+        "ดอกเบี้ย",
+        "กนง.",
+        "ธปท.",
+        "ธนาคารแห่งประเทศไทย",
+        "ธนาคารกลาง",
+        "เฟด",
+        "FOMC",
+        "cs:Fed",
+        "Federal Open Market",
+        "rate cut",
+        "rate hike",
+        "interest rate",
+        "ECB",
+        "central bank",
+        "Powell",
+        "พาวเวลล์"
+      ]
+    },
+    {
+      "id": "inflation",
+      "name": "เงินเฟ้อ",
+      "keywords": [
+        "เงินเฟ้อ",
+        "เงินฝืด",
+        "ราคาผู้บริโภค",
+        "CPI",
+        "PCE",
+        "inflation"
+      ]
+    },
+    {
+      "id": "oil_energy",
+      "name": "น้ำมัน/พลังงาน",
+      "keywords": [
+        "น้ำมัน",
+        "ก๊าซ",
+        "พลังงาน",
+        "โอเปก",
+        "OPEC",
+        "oil",
+        "crude",
+        "Brent",
+        "WTI",
+        "LNG",
+        "natural gas"
+      ]
+    },
+    {
+      "id": "gold",
+      "name": "ทองคำ",
+      "keywords": [
+        "ทองคำ",
+        "ราคาทอง",
+        "gold",
+        "bullion"
+      ]
+    },
+    {
+      "id": "fx",
+      "name": "ค่าเงิน",
+      "keywords": [
+        "ค่าเงินบาท",
+        "เงินบาท",
+        "กรอบบาท",
+        "บาทอ่อน",
+        "บาทแข็ง",
+        "ค่าเงิน",
+        "เยน",
+        "หยวน",
+        "yen",
+        "yuan",
+        "forex",
+        "currency",
+        "DXY",
+        "ค่าเงินดอลลาร์",
+        "ดอลลาร์อ่อน",
+        "ดอลลาร์แข็ง",
+        "ดัชนีดอลลาร์",
+        "dollar index",
+        "US dollar",
+        "strong dollar",
+        "weak dollar"
+      ]
+    },
+    {
+      "id": "economy",
+      "name": "เศรษฐกิจมหภาค",
+      "keywords": [
+        "GDP",
+        "จีดีพี",
+        "เศรษฐกิจ",
+        "ส่งออก",
+        "นำเข้า",
+        "การจ้างงาน",
+        "ว่างงาน",
+        "ค้าปลีก",
+        "ถดถอย",
+        "exports",
+        "imports",
+        "jobs report",
+        "payroll",
+        "unemployment",
+        "PMI",
+        "retail sales",
+        "recession",
+        "economy",
+        "economic"
+      ]
+    },
+    {
+      "id": "earnings",
+      "name": "ผลประกอบการ",
+      "keywords": [
+        "กำไร",
+        "ผลประกอบการ",
+        "งบไตรมาส",
+        "งบการเงิน",
+        "earnings",
+        "profit",
+        "revenue",
+        "quarterly results"
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "name": "เทคโนโลยี/AI",
+      "keywords": [
+        "cs:AI",
+        "ปัญญาประดิษฐ์",
+        "Nvidia",
+        "เอ็นวิเดีย",
+        "chip",
+        "semiconductor",
+        "เซมิคอนดักเตอร์",
+        "ชิป",
+        "data center",
+        "ดาต้าเซ็นเตอร์"
+      ]
+    },
+    {
+      "id": "trade_geo",
+      "name": "การค้า/ภูมิรัฐศาสตร์",
+      "keywords": [
+        "ภาษีนำเข้า",
+        "ภาษีศุลกากร",
+        "tariff",
+        "สงครามการค้า",
+        "trade war",
+        "trade deal",
+        "การค้า",
+        "sanction",
+        "คว่ำบาตร",
+        "ทรัมป์",
+        "Trump",
+        "สงคราม",
+        "war",
+        "ตะวันออกกลาง",
+        "ตอ.กลาง",
+        "Middle East",
+        "ยูเครน",
+        "Ukraine"
+      ]
+    },
+    {
+      "id": "bank_property",
+      "name": "ธนาคาร/อสังหาฯ",
+      "keywords": [
+        "ธนาคาร",
+        "สินเชื่อ",
+        "NPL",
+        "หนี้เสีย",
+        "หนี้ครัวเรือน",
+        "อสังหา",
+        "SME",
+        "mortgage",
+        "housing",
+        "bank stocks",
+        "banking crisis",
+        "bank failure",
+        "bank run"
+      ]
+    },
+    {
+      "id": "stock_market",
+      "name": "ตลาดหุ้น/ตราสารหนี้",
+      "keywords": [
+        "ตลาดหุ้น",
+        "หุ้นไทย",
+        "หุ้น",
+        "ดัชนี",
+        "พันธบัตร",
+        "cs:SET",
+        "Wall Street",
+        "S&P 500",
+        "Nasdaq",
+        "Dow Jones",
+        "stocks",
+        "stock market",
+        "bond yield",
+        "Treasury"
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "id": "oil_up",
+      "name": "น้ำมันขึ้น",
+      "patterns": [
+        "(น้ำมัน|ราคาน้ำมัน).{0,15}(ปรับขึ้น|พุ่ง|ขึ้น|เพิ่มขึ้น|แพง|ทะยาน|สูงขึ้น)",
+        "\\b(oil|crude|brent|wti)\\b.{0,30}\\b(rise|rises|rose|rising|jump|jumps|jumped|surge|surges|surged|climb|climbs|climbed|rally|rallies|rallied|higher)\\b"
+      ],
+      "impacts": [
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "พลังงาน/ปิโตรเลียม",
+          "set": [
+            "PTT",
+            "PTTEP",
+            "TOP",
+            "BCP"
+          ],
+          "us": [
+            "XOM",
+            "CVX",
+            "COP"
+          ],
+          "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
+        },
+        {
+          "effect": "ถูกกดดัน",
+          "sector": "สายการบิน/ขนส่ง",
+          "set": [
+            "AAV"
+          ],
+          "us": [
+            "DAL",
+            "UAL"
+          ],
+          "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
+        }
+      ]
+    },
+    {
+      "id": "oil_down",
+      "name": "น้ำมันลง",
+      "patterns": [
+        "(น้ำมัน|ราคาน้ำมัน).{0,15}(ปรับลด|ร่วง|ลดลง|ตก|ดิ่ง|ถูกลง|อ่อนตัว)",
+        "\\b(oil|crude|brent|wti)\\b.{0,30}\\b(fall|falls|fell|drop|drops|dropped|slump|slumps|slid|slide|slides|sliding|tumble|tumbles|lower|decline|declines)\\b"
+      ],
+      "impacts": [
+        {
+          "effect": "ถูกกดดัน",
+          "sector": "พลังงาน/ปิโตรเลียม",
+          "set": [
+            "PTT",
+            "PTTEP",
+            "TOP",
+            "BCP"
+          ],
+          "us": [
+            "XOM",
+            "CVX",
+            "COP"
+          ],
+          "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
+        },
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "สายการบิน/ขนส่ง",
+          "set": [
+            "AAV"
+          ],
+          "us": [
+            "DAL",
+            "UAL"
+          ],
+          "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
+        }
+      ]
+    },
+    {
+      "id": "rate_cut",
+      "name": "ลดดอกเบี้ย",
+      "patterns": [
+        "(?<!ไม่)(ปรับ)?ลด(อัตรา)?ดอกเบี้ย",
+        "ดอกเบี้ย.{0,8}(ลดลง|ปรับลด)",
+        "\\brate cuts?\\b|\\bcuts?\\s+(interest\\s+)?rates?\\b|\\blower(s|ed)?\\s+(interest\\s+)?rates?\\b"
+      ],
+      "impacts": [
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "อสังหาริมทรัพย์",
+          "set": [
+            "LH",
+            "CPN"
+          ],
+          "us": [],
+          "why": "ต้นทุนการเงินและดอกเบี้ยสินเชื่อบ้านลดลง"
+        },
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "หุ้นเติบโต/เทคโนโลยี",
+          "set": [
+            "DELTA"
+          ],
+          "us": [
+            "NVDA",
+            "MSFT"
+          ],
+          "why": "อัตราคิดลดต่ำลงหนุนมูลค่าหุ้นเติบโต"
+        },
+        {
+          "effect": "ถูกกดดัน",
+          "sector": "ธนาคาร",
+          "set": [
+            "KBANK",
+            "SCB",
+            "BBL"
+          ],
+          "us": [
+            "JPM",
+            "BAC"
+          ],
+          "why": "ส่วนต่างดอกเบี้ย (NIM) อาจแคบลง"
+        }
+      ]
+    },
+    {
+      "id": "rate_hike",
+      "name": "ขึ้นดอกเบี้ย",
+      "patterns": [
+        "(?<!ไม่)(ขึ้น|ปรับขึ้น|เพิ่ม)ดอกเบี้ย",
+        "ดอกเบี้ย.{0,8}(ปรับขึ้น|สูงขึ้น)",
+        "\\brate hikes?\\b|\\b(hike|hikes|raise|raises|raised)\\s+(interest\\s+)?rates?\\b"
+      ],
+      "impacts": [
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "ธนาคาร",
+          "set": [
+            "KBANK",
+            "SCB",
+            "BBL"
+          ],
+          "us": [
+            "JPM",
+            "BAC"
+          ],
+          "why": "ส่วนต่างดอกเบี้ย (NIM) มักกว้างขึ้น"
+        },
+        {
+          "effect": "ถูกกดดัน",
+          "sector": "อสังหาริมทรัพย์",
+          "set": [
+            "LH",
+            "CPN"
+          ],
+          "us": [],
+          "why": "ต้นทุนการเงินสูงขึ้น"
+        },
+        {
+          "effect": "ถูกกดดัน",
+          "sector": "หุ้นเติบโต/เทคโนโลยี",
+          "set": [
+            "DELTA"
+          ],
+          "us": [
+            "NVDA",
+            "MSFT"
+          ],
+          "why": "อัตราคิดลดสูงขึ้นกดมูลค่าหุ้นเติบโต"
+        }
+      ]
+    },
+    {
+      "id": "gold_up",
+      "name": "ทองคำขึ้น",
+      "patterns": [
+        "(ทองคำ|ราคาทอง).{0,12}(พุ่ง|ขึ้น|ปรับขึ้น|ทะยาน|นิวไฮ|สูงสุด)",
+        "\\bgold\\b.{0,30}\\b(rise|rises|rose|jump|jumps|jumped|surge|surges|surged|climb|climbs|climbed|rally|rallies|rallied|record|higher)\\b"
+      ],
+      "impacts": [
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "ธุรกิจทอง/เหมืองทอง",
+          "set": [
+            "AURA"
+          ],
+          "us": [
+            "NEM",
+            "GLD"
+          ],
+          "why": "ราคาทองสูงขึ้นหนุนรายได้และมูลค่าสินทรัพย์ (GLD เป็นกองทุน ETF ทองคำ)"
+        }
+      ]
+    },
+    {
+      "id": "baht_weak",
+      "name": "บาทอ่อน",
+      "patterns": [
+        "บาท.{0,6}อ่อน",
+        "เงินบาท.{0,10}(อ่อนค่า|ร่วง)",
+        "\\bbaht\\b.{0,20}\\b(weaken|weakens|weakened|weaker|slump|slumps|falls|fell)\\b"
+      ],
+      "impacts": [
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "ผู้ส่งออก",
+          "set": [
+            "CPF",
+            "TU",
+            "DELTA"
+          ],
+          "us": [],
+          "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้มากขึ้น"
+        },
+        {
+          "effect": "ถูกกดดัน",
+          "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+          "set": [
+            "AAV"
+          ],
+          "us": [],
+          "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
+        }
+      ]
+    },
+    {
+      "id": "baht_strong",
+      "name": "บาทแข็ง",
+      "patterns": [
+        "บาท.{0,6}แข็ง",
+        "เงินบาท.{0,10}แข็งค่า",
+        "\\bbaht\\b.{0,20}\\b(strengthen|strengthens|strengthened|stronger|gains|rallies)\\b"
+      ],
+      "impacts": [
+        {
+          "effect": "ถูกกดดัน",
+          "sector": "ผู้ส่งออก",
+          "set": [
+            "CPF",
+            "TU",
+            "DELTA"
+          ],
+          "us": [],
+          "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้น้อยลง"
+        },
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+          "set": [
+            "AAV"
+          ],
+          "us": [],
+          "why": "ต้นทุนเป็นดอลลาร์ถูกลงเมื่อแปลงเป็นบาท"
+        }
+      ]
+    },
+    {
+      "id": "tariff",
+      "name": "ภาษีนำเข้า/สงครามการค้า",
+      "patterns": [
+        "ภาษีนำเข้า|ภาษีศุลกากร|สงครามการค้า",
+        "\\btariffs?\\b|\\btrade war\\b"
+      ],
+      "impacts": [
+        {
+          "effect": "ต้องจับตา",
+          "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+          "set": [
+            "DELTA",
+            "HANA",
+            "KCE",
+            "CPF",
+            "TU"
+          ],
+          "us": [
+            "AAPL",
+            "TSM"
+          ],
+          "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+        }
+      ]
+    },
+    {
+      "id": "tech_rally",
+      "name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+      "patterns": [
+        "(nvidia|เอ็นวิเดีย|chips?|semiconductors?|ชิป|เซมิคอนดักเตอร์).{0,40}(surge|surges|surged|rally|rallies|rallied|jump|jumps|jumped|record|soar|soars|soared|พุ่ง|ทะยาน|นิวไฮ)"
+      ],
+      "impacts": [
+        {
+          "effect": "ได้ประโยชน์",
+          "sector": "ชิป/อิเล็กทรอนิกส์",
+          "set": [
+            "DELTA",
+            "HANA",
+            "KCE"
+          ],
+          "us": [
+            "NVDA",
+            "TSM",
+            "AMD"
+          ],
+          "why": "ความต้องการชิปและอุปกรณ์อิเล็กทรอนิกส์ที่เกี่ยวข้องดี"
+        }
+      ]
+    }
+  ]
+}
