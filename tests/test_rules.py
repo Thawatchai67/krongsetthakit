@@ -61,6 +61,9 @@ class FilterTests(unittest.TestCase):
             "Federal Reserve Board announces pricing for payment services the Federal Reserve Banks provide",
             "Agencies extend comment period for proposed third-party risk management guidance",
             "ฝนตกหนักภาคใต้ เตือนน้ำท่วมฉับพลัน",
+            "‘ชัชชาติ’ เร่งจัดการขยะ เปิดปฎิบัติการ “สงครามสู้หนู” ย่านสีลม เยาวราช",
+            "ญี่ปุ่นเร่งเสริมกำลังทหาร เล็งเพิ่มงบกลาโหม 5 ปีแตะ 60 ล้านล้านเยน",
+            "From recognition to integration: the ECB’s progress on climate and nature-related risks",
         ]
         for t in noise:
             with self.subTest(title=t):
@@ -73,6 +76,9 @@ class FilterTests(unittest.TestCase):
             "SPRC กำไร Q3 แตะ 308 ล้านดอลลาร์ รับอานิสงส์สต็อกน้ำมัน",
             "Fed's Powell says inflation still too high",
             "ตลาดหุ้นไทยปิดบวก ดัชนี SET ขึ้น 10 จุด",
+            "อิหร่านเผยเรือบรรทุกน้ำมัน 4 ลำชนทุ่นระเบิดใกล้ฮอร์มุซ UN เตือนกระทบการค้าโลก",
+            "ECB monetary policy decisions",
+            "เงินเยนอ่อนค่าหนัก ญี่ปุ่นเตรียมแทรกแซง",
         ]
         for t in good:
             with self.subTest(title=t):

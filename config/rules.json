@@ -27,10 +27,13 @@
         "rate cut",
         "rate hike",
         "interest rate",
-        "ECB",
         "central bank",
         "Powell",
-        "พาวเวลล์"
+        "พาวเวลล์",
+        "monetary policy",
+        "policy rate",
+        "deposit facility rate",
+        "นโยบายการเงิน"
       ]
     },
     {
@@ -82,10 +85,6 @@
         "บาทอ่อน",
         "บาทแข็ง",
         "ค่าเงิน",
-        "เยน",
-        "หยวน",
-        "yen",
-        "yuan",
         "forex",
         "currency",
         "DXY",
@@ -96,7 +95,11 @@
         "dollar index",
         "US dollar",
         "strong dollar",
-        "weak dollar"
+        "weak dollar",
+        "เงินเยน",
+        "ค่าเงินเยน",
+        "เงินหยวน",
+        "ค่าเงินหยวน"
       ]
     },
     {
@@ -169,13 +172,17 @@
         "คว่ำบาตร",
         "ทรัมป์",
         "Trump",
-        "สงคราม",
-        "war",
         "ตะวันออกกลาง",
         "ตอ.กลาง",
         "Middle East",
         "ยูเครน",
-        "Ukraine"
+        "Ukraine",
+        "สงครามยูเครน",
+        "สงครามอิสราเอล",
+        "ความขัดแย้งทางทหาร",
+        "geopolitical",
+        "ฮอร์มุซ",
+        "Hormuz"
       ]
     },
     {
