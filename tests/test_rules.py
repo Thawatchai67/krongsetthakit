@@ -118,6 +118,11 @@ class PriceTests(unittest.TestCase):
         self.assertEqual(p["price"], 100.0)
         self.assertEqual(p["change_pct"], 2.04)
 
+    def test_after_close_float_noise(self):
+        # Yahoo ส่งราคาปิดมีเศษทศนิยมต่างจากราคาตอนนี้นิดเดียว ต้องไม่กลายเป็น 0%
+        p = fp.parse_chart(self.chart(162.85, [160.0, 162.850006]))
+        self.assertEqual(p["change_pct"], 1.78)
+
     def test_intraday(self):
         # ระหว่างวัน: ยังไม่มีปิดวันนี้ เทียบกับปิดล่าสุด
         self.assertEqual(fp.parse_chart(self.chart(101.0, [98.0, 100.0]))["change_pct"], 1.0)

@@ -65,7 +65,7 @@ def parse_chart(data):
     # ราคาปิดก่อนหน้า: ถ้าปิดล่าสุดเท่ากับราคาตอนนี้ (วันนี้ปิดแล้ว) ใช้ตัวก่อนหน้านั้น
     prev = None
     if len(closes) >= 2:
-        prev = closes[-2] if abs(closes[-1] - price) < 1e-9 else closes[-1]
+        prev = closes[-2] if abs(closes[-1] - price) <= max(1e-6, abs(price) * 1e-4) else closes[-1]
     elif meta.get("previousClose") is not None:
         prev = meta["previousClose"]
     change = round((price - prev) / prev * 100, 2) if prev else None
