@@ -96,6 +96,10 @@ section { display: flex; flex-direction: column; gap: 10px; }
 .tag { color: var(--accent); font-weight: 600; }
 .sig { color: var(--watch); background: var(--watch-soft); border-radius: 6px; padding: 0 6px; font-weight: 600; }
 .disclaimer { color: var(--muted); font-size: 0.75rem; text-align: center; }
+.stats { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem; }
+.stats .row { display: flex; justify-content: space-between; gap: 12px; }
+.stats .num { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+.stats .note { color: var(--muted); font-size: 0.75rem; }
 @media (prefers-reduced-motion: no-preference) { .chip { transition: background 0.15s; } }
 </style>
 </head>
@@ -124,6 +128,11 @@ section { display: flex; flex-direction: column; gap: 10px; }
     <div class="row-head"><h2 id="news-h">ข่าวทั้งหมด</h2><span class="meta" id="count"></span></div>
     <div class="chips" role="group" aria-label="กรองข่าว" id="chips"></div>
     <ul class="news" id="news"></ul>
+  </section>
+
+  <section aria-labelledby="st-h">
+    <h2 id="st-h">ความแม่นของสัญญาณ</h2>
+    <div class="stats" id="stats"><span class="note">กำลังโหลด…</span></div>
   </section>
 
   <p class="disclaimer">คัดกรองอัตโนมัติ ไม่ใช่คำแนะนำการลงทุน ตรวจสอบก่อนตัดสินใจทุกครั้ง</p>
@@ -307,6 +316,26 @@ section { display: flex; flex-direction: column; gap: 10px; }
       .catch(function () {});
   }
   loadPrices();
+
+  // สถิติ: ถูก = ▲ แล้วหุ้นชนะดัชนี หรือ ▼ แล้วหุ้นแพ้ดัชนี ภายใน 5 วันทำการ
+  function renderStats(st) {
+    var o = st.overall, d5 = o.d5, d1 = o.d1, el = $("stats");
+    function pct(v) { return v == null ? "–" : v.toFixed(0) + "%"; }
+    var html = '<div class="row"><span>เก็บสัญญาณแล้ว</span><span class="num">' + o.total + " รายการ</span></div>" +
+      '<div class="row"><span>ถูกทาง หลัง 1 วัน</span><span class="num">' + pct(d1.hit_rate) + " (" + d1.evaluated + ")</span></div>" +
+      '<div class="row"><span>ถูกทาง หลัง 5 วัน</span><span class="num">' + pct(d5.hit_rate) + " (" + d5.evaluated + ")</span></div>";
+    (st.signals || []).filter(function (s) { return s.d5.evaluated > 0; }).slice(0, 6).forEach(function (s) {
+      html += '<div class="row"><span>· ' + esc(s.name) + '</span><span class="num">' + pct(s.d5.hit_rate) + " (" + s.d5.evaluated + ")</span></div>";
+    });
+    html += '<span class="note">ถูกทาง = ▲ แล้วหุ้นชนะดัชนี หรือ ▼ แล้วหุ้นแพ้ดัชนี ตัวเลขในวงเล็บคือจำนวนที่ประเมินได้แล้ว' +
+      (d5.evaluated < 30 ? " ข้อมูลยังน้อย อย่าเพิ่งเชื่อตัวเลขนี้" : "") + (st.since ? " เริ่มเก็บ " + esc(st.since) : "") + "</span>";
+    el.innerHTML = html;
+  }
+  if (window.__STATS__) renderStats(window.__STATS__);
+  else fetch("stats.json", { cache: "no-store" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (d) { if (d && d.overall) renderStats(d); else $("stats").innerHTML = '<span class="note">เริ่มเก็บข้อมูลรอบถัดไป</span>'; })
+    .catch(function () { $("stats").innerHTML = '<span class="note">เริ่มเก็บข้อมูลรอบถัดไป</span>'; });
 
   if (window.__NEWS__) { init(window.__NEWS__); return; }
   fetch("news.json", { cache: "no-store" })

@@ -20,7 +20,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-URL = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=5d&interval=1d"
+URL = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=3mo&interval=1d"
+BENCHMARKS = {"^SET": {"symbol": "^SET.BK", "market": "SET"}, "^GSPC": {"symbol": "^GSPC", "market": "US"}}
 UA = "Mozilla/5.0 (KrongSetthakit personal news filter)"
 
 
@@ -37,6 +38,7 @@ def tickers_from_rules():
                 out[t] = {"symbol": t + ".BK", "market": "SET"}
             for t in im.get("us", []):
                 out[t] = {"symbol": t, "market": "US"}
+    out.update(BENCHMARKS)  # ดัชนีตลาด ไว้เทียบว่าหุ้นชนะตลาดไหม
     return out
 
 
@@ -78,6 +80,19 @@ def parse_chart(data):
     }
 
 
+def parse_history(data):
+    """ราคาปิดรายวัน {YYYY-MM-DD: close} ตามวันที่ของตลาดนั้น"""
+    res = ((data.get("chart") or {}).get("result") or [None])[0] or {}
+    ts = res.get("timestamp") or []
+    closes = (((res.get("indicators") or {}).get("quote") or [{}])[0].get("close")) or []
+    off = ((res.get("meta") or {}).get("gmtoffset")) or 0
+    out = {}
+    for t, c in zip(ts, closes):
+        if c is not None:
+            out[datetime.fromtimestamp(t + off, timezone.utc).strftime("%Y-%m-%d")] = round(float(c), 4)
+    return out
+
+
 def run(args):
     out_path = Path(args.out) if args.out else ROOT / "docs" / "prices.json"
     old = {}
@@ -86,10 +101,17 @@ def run(args):
             old = json.loads(out_path.read_text(encoding="utf-8")).get("prices", {})
         except Exception:  # noqa: BLE001
             pass
+    hist_path = Path(args.history) if args.history else ROOT / "data" / "price_history.json"
+    try:
+        history = json.loads(hist_path.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        history = {}
     prices, errors = {}, []
     for name, info in tickers_from_rules().items():
         try:
-            p = parse_chart(fetch_chart(info["symbol"], args.from_dir))
+            raw = fetch_chart(info["symbol"], args.from_dir)
+            history.setdefault(name, {}).update(parse_history(raw))
+            p = parse_chart(raw)
             if not p:
                 raise ValueError("ไม่มีข้อมูลราคา")
             prices[name] = dict(p, market=info["market"], symbol=info["symbol"])
@@ -111,6 +133,9 @@ def run(args):
         "prices": prices,
     }
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    hist_path.parent.mkdir(parents=True, exist_ok=True)
+    history = {k: dict(sorted(v.items())[-400:]) for k, v in sorted(history.items())}  # เก็บไม่เกิน ~1.5 ปีต่อตัว
+    hist_path.write_text(json.dumps(history, separators=(",", ":")) + "\n", encoding="utf-8")
     log(f"เขียน {out_path}: ราคาใหม่ {fresh} ตัว, ผิดพลาด {len(errors)} ตัว")
     return 0
 
@@ -119,6 +144,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--from-dir")
     ap.add_argument("--out")
+    ap.add_argument("--history")
     sys.exit(run(ap.parse_args()))
 
 

@@ -28,12 +28,14 @@ jobs:
         run: python scripts/fetch_news.py
       - name: ดึงราคาหุ้น (ถ้าพังจะข้าม ไม่กระทบข่าว)
         run: python scripts/fetch_prices.py || echo "ดึงราคาไม่สำเร็จ ข้ามไปก่อน"
+      - name: เก็บสถิติความแม่นของสัญญาณ
+        run: python scripts/track_signals.py || echo "เก็บสถิติไม่สำเร็จ ข้ามไปก่อน"
       - name: บันทึกผลถ้ามีการเปลี่ยนแปลง
         run: |
-          if [ -n "$(git status --porcelain docs/news.json docs/prices.json)" ]; then
+          if [ -n "$(git status --porcelain docs data)" ]; then
             git config user.name "krongsetthakit-bot"
             git config user.email "actions@users.noreply.github.com"
-            git add docs/news.json docs/prices.json 2>/dev/null || git add docs/news.json
+            git add docs data
             git commit -m "อัปเดตข่าว $(date -u +'%Y-%m-%d %H:%M') UTC"
             git push
           fi

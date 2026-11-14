@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import fetch_news as fn  # noqa: E402
 import fetch_prices as fp  # noqa: E402
+import track_signals as ts  # noqa: E402
 
 RULES = fn.load_json(ROOT / "config" / "rules.json")
 CATS, SIGS = fn.build_rules(RULES)
@@ -134,6 +135,45 @@ class PriceTests(unittest.TestCase):
         t = fp.tickers_from_rules()
         self.assertEqual(t["PTT"]["symbol"], "PTT.BK")
         self.assertEqual(t["NVDA"]["symbol"], "NVDA")
+
+
+class TrackTests(unittest.TestCase):
+    HIST = {
+        "CPF": {"2026-11-10": 20.0, "2026-11-11": 19.0, "2026-11-12": 18.0},
+        "^SET": {"2026-11-10": 1000.0, "2026-11-11": 1010.0, "2026-11-12": 1000.0},
+    }
+
+    def entry(self, effect):
+        return {"ticker": "CPF", "market": "SET", "effect": effect, "date": "2026-11-11"}
+
+    def test_base_is_close_before_news_day(self):
+        e = self.entry("down")
+        ts.evaluate(e, self.HIST)
+        self.assertEqual(e["base_date"], "2026-11-10")
+        self.assertEqual(e["r1"], -5.0)       # 20 -> 19
+        self.assertEqual(e["x1"], -6.0)       # แพ้ดัชนีที่ขึ้น 1%
+        self.assertNotIn("r5", e)             # ยังไม่ครบ 5 วันทำการ
+
+    def test_hit_uses_benchmark(self):
+        down, up = self.entry("down"), self.entry("up")
+        ts.evaluate(down, self.HIST); ts.evaluate(up, self.HIST)
+        self.assertTrue(ts.is_hit(down, 1))
+        self.assertFalse(ts.is_hit(up, 1))
+        w = self.entry("watch"); ts.evaluate(w, self.HIST)
+        self.assertIsNone(ts.is_hit(w, 1))
+
+    def test_dedup_same_day(self):
+        rules = {"signals": [{"id": "s", "name": "S", "impacts": [{"effect": "ถูกกดดัน", "set": ["CPF"], "us": []}]}]}
+        news = {"items": [
+            {"title": "a", "link": "x", "published": "2026-11-11T02:00:00Z", "signals": ["s"]},
+            {"title": "b", "link": "y", "published": "2026-11-11T08:00:00Z", "signals": ["s"]},
+        ]}
+        log = {}
+        self.assertEqual(ts.add_entries(log, news, rules), 1)
+
+    def test_thai_date(self):
+        # 20:00 UTC = 03:00 ของวันถัดไปตามเวลาไทย
+        self.assertEqual(ts.news_date("2026-11-11T20:00:00Z"), "2026-11-12")
 
 
 if __name__ == "__main__":
