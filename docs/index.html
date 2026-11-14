@@ -328,7 +328,7 @@ section { display: flex; flex-direction: column; gap: 10px; }
       html += '<div class="row"><span>· ' + esc(s.name) + '</span><span class="num">' + pct(s.d5.hit_rate) + " (" + s.d5.evaluated + ")</span></div>";
     });
     html += '<span class="note">ถูกทาง = ▲ แล้วหุ้นชนะดัชนี หรือ ▼ แล้วหุ้นแพ้ดัชนี ตัวเลขในวงเล็บคือจำนวนที่ประเมินได้แล้ว' +
-      (d5.evaluated < 30 ? " ข้อมูลยังน้อย อย่าเพิ่งเชื่อตัวเลขนี้" : "") + (st.since ? " เริ่มเก็บ " + esc(st.since) : "") + "</span>";
+      (d5.evaluated < 30 ? " ข้อมูลยังน้อย อย่าเพิ่งเชื่อตัวเลขนี้" : "") + (st.since ? " ข้อมูลตั้งแต่ " + esc(st.since) : "") + (st.backfill ? " (รวมข่าวต่างประเทศย้อนหลัง " + st.backfill + " รายการ)" : "") + "</span>";
     el.innerHTML = html;
   }
   if (window.__STATS__) renderStats(window.__STATS__);

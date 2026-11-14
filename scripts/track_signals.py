@@ -114,6 +114,7 @@ def summarize(log):
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "since": since,
+        "backfill": sum(1 for e in entries if e.get("backfill")),
         "overall": block(entries),
         "signals": sorted(
             [dict(block(v["entries"]), id=k, name=v["name"]) for k, v in by_sig.items()],
