@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-14T15:05:06Z",
+  "generated_at": "2026-11-14T15:11:08Z",
   "categories": {
    "monetary": "นโยบายการเงิน/ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 30
+  "total_kept": 27
  },
  "signals": [
   {
@@ -134,23 +134,6 @@
    "categories": [
     "tech_ai",
     "stock_market"
-   ],
-   "signals": []
-  },
-  {
-   "id": "48312b94825c",
-   "title": "‘ชัชชาติ’ เร่งจัดการขยะ เปิดปฎิบัติการ “สงครามสู้หนู” ย่านสีลม เยาวราช บรรทัดทอง สุขุมวิท",
-   "link": "https://www.prachachat.net/news/news-2096690",
-   "source": "ประชาชาติธุรกิจ",
-   "feed": "prachachat",
-   "region": "TH",
-   "lang": "th",
-   "central_bank": false,
-   "published": "2026-11-14T12:28:38Z",
-   "summary": "“ชัชชาติ” ลงพื้นที่เขตบางรัก เร่งจัดการขยะ ควบคู่กับเปิด “สงครามสู้หนู” อย่างเป็นระบบ ใช้วิทยาศาสตร์วัดผลปราบกำจัดแหล่งอาศัย เผยวางแผนนำร่อง 4 แห่ง ถนนสีลม เยาวราช บรรทัดทอง สุขุมวิท นายชัชชาติ สิทธิพันธุ์ ผู้ว่าราชการกรุงเทพมหานคร (กทม.)…",
-   "score": 4,
-   "categories": [
-    "trade_geo"
    ],
    "signals": []
   },
@@ -275,10 +258,10 @@
    "central_bank": false,
    "published": "2026-11-14T08:20:44Z",
    "summary": "สถานการณ์ความมั่นคงในตะวันออกกลางยังคงตึงเครียด หลังอิหร่านเปิดเผยในวันนี้ (14 พ.ย.) ว่า เรือบรรทุกน้ำมันอย่างน้อย 4 ลำ รวมถึงเรือบรรทุกน้ำมันขนาดใหญ่พิเศษ ชนทุ่นระเบิดทางทะเลและเกิดเพลิงไหม้ใกล้ช่องแ The post อิหร่านเผยเรือบรรทุกน้ำมัน 4…",
-   "score": 8,
+   "score": 9,
    "categories": [
-    "oil_energy",
-    "trade_geo"
+    "trade_geo",
+    "oil_energy"
    ],
    "signals": []
   },
@@ -349,23 +332,6 @@
    "signals": []
   },
   {
-   "id": "ab0ea4e5e9a7",
-   "title": "ญี่ปุ่นเร่งเสริมกำลังทหาร เล็งเพิ่มงบกลาโหม 5 ปีแตะ 60 ล้านล้านเยน",
-   "link": "https://www.infoquest.co.th/2026/679537",
-   "source": "อินโฟเควสท์",
-   "feed": "infoquest",
-   "region": "TH",
-   "lang": "th",
-   "central_bank": false,
-   "published": "2026-11-14T04:13:25Z",
-   "summary": "รัฐบาลญี่ปุ่นกำลังพิจารณาเพิ่มงบประมาณด้านกลาโหมครั้งใหญ่ โดยตั้งเป้าเพิ่มงบประมาณกลาโหมรวมในช่วง 5 ปี ตั้งแต่ปีงบประมาณ 2570-2574 เป็น 60 ล้านล้านเยน หรือประมาณ 3.76 แสนล้านดอลลาร์สหรัฐ The post ญี่ปุ่นเร่งเสริมกำลังทหาร เล็งเพิ่มงบกลาโหม…",
-   "score": 4,
-   "categories": [
-    "fx"
-   ],
-   "signals": []
-  },
-  {
    "id": "669c23ed07c3",
    "title": "14 dividend stocks selected for long-term growth",
    "link": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
@@ -410,7 +376,7 @@
    "central_bank": false,
    "published": "2026-11-13T22:04:00Z",
    "summary": "It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower diesel prices.",
-   "score": 6,
+   "score": 5,
    "categories": [
     "oil_energy"
    ],
@@ -533,7 +499,7 @@
    "central_bank": true,
    "published": "2026-11-12T09:00:00Z",
    "summary": "This box introduces a new quantitative methodology to evaluate alternative scenarios around the Eurosystem/ECB staff baseline projections, with a focus on their empirical plausibility. In a first step, the methodology constructs joint pred…",
-   "score": 5,
+   "score": 4,
    "categories": [
     "trade_geo"
    ],
@@ -589,34 +555,17 @@
    "signals": []
   },
   {
-   "id": "fbd018105a9d",
-   "title": "Unlocking supervisory effectiveness in credit risk: insights from the ECB’s supervisory findings and measures",
-   "link": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3308~a6e82e37aa.en.pdf",
+   "id": "943750bf1f18",
+   "title": "Bank competitiveness and its role for monetary policy",
+   "link": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202607_07~5cefb128e2.en.html",
    "source": "ECB",
    "feed": "ecb",
    "region": "GLOBAL",
    "lang": "en",
    "central_bank": true,
-   "published": "2026-11-09T10:00:00Z",
-   "summary": "This paper provides an assessment of supervisory effectiveness in credit risk using confidential data from ECB Banking Supervision. The analysis covers 8,106 supervisory measures issued and closed between 2016 and 2025. A central contribut…",
-   "score": 5,
-   "categories": [
-    "monetary"
-   ],
-   "signals": []
-  },
-  {
-   "id": "e989ff908a99",
-   "title": "From recognition to integration: the ECB’s progress on climate and nature-related risks and the role of its climate change centre",
-   "link": "https://www.ecb.europa.eu//press/economic-bulletin/articles/2026/html/ecb.ebart202607_02~410d791050.en.html",
-   "source": "ECB",
-   "feed": "ecb",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": true,
-   "published": "2026-11-09T09:00:00Z",
-   "summary": "The ECB climate change centre (CCC) was established in 2021 to design and steer the ECB’s response to climate-related risks. During its first five years, the centre has evolved from a dedicated coordination hub into a facilitator of the in…",
-   "score": 5,
+   "published": "2026-11-10T13:00:00Z",
+   "summary": "Banks are at the heart of the EU economy, making them a key channel for monetary policy transmission. However, institutional factors continue to lead to fragmentation in the sector, constraining scale, efficiency and competitiveness. As sh…",
+   "score": 6,
    "categories": [
     "monetary"
    ],
