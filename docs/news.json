@@ -1,18 +1,18 @@
 {
  "meta": {
-  "generated_at": "2026-11-14T15:11:08Z",
+  "generated_at": "2026-11-14T15:18:11Z",
   "categories": {
-   "monetary": "นโยบายการเงิน/ดอกเบี้ย",
+   "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
-   "oil_energy": "น้ำมัน/พลังงาน",
+   "oil_energy": "น้ำมัน",
    "gold": "ทองคำ",
    "fx": "ค่าเงิน",
-   "economy": "เศรษฐกิจมหภาค",
+   "economy": "เศรษฐกิจ",
    "earnings": "ผลประกอบการ",
-   "tech_ai": "เทคโนโลยี/AI",
-   "trade_geo": "การค้า/ภูมิรัฐศาสตร์",
-   "bank_property": "ธนาคาร/อสังหาฯ",
-   "stock_market": "ตลาดหุ้น/ตราสารหนี้"
+   "tech_ai": "เทคโนโลยี",
+   "trade_geo": "การค้า",
+   "bank_property": "ธนาคาร",
+   "stock_market": "ตลาดหุ้น"
   },
   "feeds_ok": 5,
   "feed_errors": [],
