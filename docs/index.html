@@ -68,7 +68,9 @@ h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.1rem; marg
 .chip { font-size: 0.875rem; padding: 4px 12px; min-height: 36px; }
 .tab[aria-pressed="true"], .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; }
 .tab:focus-visible, .chip:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
-.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chips { display: flex; gap: 8px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; margin: 0 -16px; padding: 0 16px 2px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: 0 0 auto; white-space: nowrap; }
 
 section { display: flex; flex-direction: column; gap: 12px; }
 .sec-head { display: flex; flex-direction: column; gap: 2px; }
@@ -99,7 +101,7 @@ details ul { margin: 4px 0 0; padding-left: 18px; display: flex; flex-direction:
 .item { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; }
 .item a.title { color: var(--ink); font-weight: 600; text-decoration: none; text-wrap: pretty; }
 .item a.title:hover { text-decoration: underline; }
-.item .sum { margin: 0; color: var(--muted); font-size: 0.875rem; }
+.item .sum { margin: 0; color: var(--muted); font-size: 0.875rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .row { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 0.8125rem; color: var(--muted); }
 .tag { color: var(--accent); background: var(--accent-soft); border-radius: 6px; padding: 0 8px; font-weight: 500; }
 .sig { color: var(--watch); background: var(--watch-soft); border-radius: 6px; padding: 0 8px; font-weight: 600; }
@@ -120,22 +122,21 @@ details ul { margin: 4px 0 0; padding-left: 18px; display: flex; flex-direction:
 
   <section aria-labelledby="sig-h">
     <div class="sec-head">
-      <h2 id="sig-h">สัญญาณเด่นใน 48 ชั่วโมง</h2>
-      <p>จับจากหัวข้อข่าวด้วยกฎคีย์เวิร์ด แล้วโยงกับกลุ่มหุ้นที่มักได้รับผล เป็นข้อมูลประกอบการตัดสินใจเท่านั้น</p>
+      <h2 id="sig-h">สัญญาณเด่น 48 ชม.</h2>
     </div>
     <div class="cards" id="signals"></div>
   </section>
 
   <section aria-labelledby="news-h">
     <div class="sec-head">
-      <h2 id="news-h">ข่าวที่กรองแล้ว</h2>
+      <h2 id="news-h">ข่าว</h2>
       <p id="count"></p>
     </div>
     <div class="chips" role="group" aria-label="กรองตามหมวด" id="chips"></div>
     <ul class="news" id="news"></ul>
   </section>
 
-  <p class="disclaimer">ข้อมูลนี้เป็นการคัดกรองข่าวอัตโนมัติ ไม่ใช่คำแนะนำการลงทุนจากผู้ได้รับใบอนุญาต การจับคู่ข่าวกับหุ้นเป็นกฎทั่วไปที่อาจไม่ตรงกับสถานการณ์จริง โปรดตรวจสอบข้อมูลและประเมินความเสี่ยงด้วยตัวเองก่อนลงทุน</p>
+  <p class="disclaimer">คัดกรองอัตโนมัติ ไม่ใช่คำแนะนำการลงทุน ตรวจสอบก่อนตัดสินใจทุกครั้ง</p>
 </div>
 
 <script>
@@ -199,7 +200,7 @@ details ul { margin: 4px 0 0; padding-left: 18px; display: flex; flex-direction:
   function renderSignals() {
     var sigs = state.data.signals || [];
     if (!sigs.length) {
-      $("signals").innerHTML = '<div class="empty">ยังไม่พบสัญญาณชัดเจนใน 48 ชั่วโมงล่าสุด ดูรายการข่าวด้านล่างได้เลย</div>';
+      $("signals").innerHTML = '<div class="empty">ยังไม่มีสัญญาณใน 48 ชม.</div>';
       return;
     }
     $("signals").innerHTML = sigs.map(function (s) {
@@ -217,16 +218,16 @@ details ul { margin: 4px 0 0; padding-left: 18px; display: flex; flex-direction:
           "</a> <span class=\"meta\">" + esc(x.source) + " · " + ago(x.published) + "</span></li>";
       }).join("");
       return '<article class="card"><div class="card-top"><h3>' + esc(s.name) + '</h3><span class="count">' + s.count +
-        " ข่าว</span></div>" + impacts + "<details><summary>ข่าวที่ทำให้เกิดสัญญาณ</summary><ul>" + ev + "</ul></details></article>";
+        " ข่าว</span></div>" + impacts + "<details><summary>ข่าวต้นทาง</summary><ul>" + ev + "</ul></details></article>";
     }).join("");
   }
 
   function renderNews() {
     var items = visibleItems(), names = state.data.meta.categories;
-    $("count").textContent = "แสดง " + items.length + " จาก " + state.data.items.length + " ข่าว เรียงจากใหม่ไปเก่า";
+    $("count").textContent = items.length + " ข่าว";
     if (!items.length) { $("news").innerHTML = '<li class="empty">ไม่มีข่าวในตัวกรองนี้</li>'; return; }
     $("news").innerHTML = items.map(function (it) {
-      var tags = it.categories.map(function (c) { return '<span class="tag">' + esc(names[c] || c) + "</span>"; }).join("");
+      var tags = it.categories.length ? '<span class="tag">' + esc(names[it.categories[0]] || it.categories[0]) + "</span>" : "";
       var sigs = (it.signals || []).map(function (sid) {
         var found = (state.data.signals || []).filter(function (s) { return s.id === sid; })[0];
         return '<span class="sig">⚑ ' + esc(found ? found.name : sid) + "</span>";
@@ -243,9 +244,9 @@ details ul { margin: 4px 0 0; padding-left: 18px; display: flex; flex-direction:
   function init(data) {
     state.data = data;
     var m = data.meta;
-    $("meta").textContent = "อัปเดต " + fmtDate(m.generated_at) + " · " + data.items.length + " ข่าวที่เกี่ยวข้อง จากแหล่งข่าว " + m.feeds_ok + " แหล่ง";
+    $("meta").textContent = "อัปเดต " + fmtDate(m.generated_at);
     if (m.snapshot_note) $("banner").innerHTML = '<div class="banner">' + esc(m.snapshot_note) + "</div>";
-    else if (m.feed_errors && m.feed_errors.length) $("banner").innerHTML = '<div class="banner">ดึงข่าวไม่ได้ ' + m.feed_errors.length + " แหล่งในรอบล่าสุด: " + esc(m.feed_errors.map(function (e) { return e.feed; }).join(", ")) + "</div>";
+    else if (m.feed_errors && m.feed_errors.length) $("banner").innerHTML = '<div class="banner">ดึงไม่ได้: ' + esc(m.feed_errors.map(function (e) { return e.feed; }).join(", ")) + "</div>";
     renderAll();
   }
 
