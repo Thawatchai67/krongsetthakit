@@ -21,7 +21,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 URL = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=3mo&interval=1d"
-BENCHMARKS = {"^SET": {"symbol": "^SET.BK", "market": "SET"}, "^GSPC": {"symbol": "^GSPC", "market": "US"}}
+# ดัชนี SET (^SET.BK) ใน Yahoo ไม่มีราคาย้อนหลัง จึงใช้ TDEX (ETF ที่ตามดัชนี SET50) แทน
+BENCHMARKS = {"^SET": {"symbol": "TDEX.BK", "market": "SET"}, "^GSPC": {"symbol": "^GSPC", "market": "US"}}
 UA = "Mozilla/5.0 (KrongSetthakit personal news filter)"
 
 
