@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T17:03:06Z",
+ "generated_at": "2026-11-14T17:30:45Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
@@ -242,6 +242,22 @@
    "asof": "2026-11-13T21:00:01Z",
    "market": "US",
    "symbol": "AMD"
+  },
+  "^SET": {
+   "price": 1504.88,
+   "change_pct": null,
+   "currency": "THB",
+   "asof": "2026-11-13T09:49:43Z",
+   "market": "SET",
+   "symbol": "^SET.BK"
+  },
+  "^GSPC": {
+   "price": 7561.67,
+   "change_pct": -0.4,
+   "currency": "USD",
+   "asof": "2026-11-13T21:43:19Z",
+   "market": "US",
+   "symbol": "^GSPC"
   }
  }
 }

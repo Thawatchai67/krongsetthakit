@@ -1,0 +1,64 @@
+{
+ "generated_at": "2026-11-14T17:30:45Z",
+ "since": "2026-11-13",
+ "overall": {
+  "total": 18,
+  "d1": {
+   "evaluated": 0,
+   "hit_rate": null,
+   "avg_edge": null
+  },
+  "d5": {
+   "evaluated": 0,
+   "hit_rate": null,
+   "avg_edge": null
+  },
+  "d20": {
+   "evaluated": 0,
+   "hit_rate": null,
+   "avg_edge": null
+  }
+ },
+ "signals": [
+  {
+   "total": 14,
+   "d1": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "d5": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "d20": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า"
+  },
+  {
+   "total": 4,
+   "d1": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "d5": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "d20": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "id": "baht_strong",
+   "name": "บาทแข็ง"
+  }
+ ]
+}
