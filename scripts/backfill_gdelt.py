@@ -62,11 +62,14 @@ def main():
     while win < end:
         w_end = min(win + timedelta(days=7), end)
         for q in QUERIES:
-            try:
-                arts = fetch(q, win, w_end)
-            except Exception as exc:  # noqa: BLE001
-                print(f"[ผิดพลาด] {q} {win:%Y-%m-%d}: {exc}", file=sys.stderr)
-                arts = []
+            arts = []
+            for wait in (0, 20, 45, 90):  # โดน 429 (ถี่เกินไป) ให้รอแล้วลองใหม่
+                time.sleep(wait)
+                try:
+                    arts = fetch(q, win, w_end)
+                    break
+                except Exception as exc:  # noqa: BLE001
+                    print(f"[ผิดพลาด] {q} {win:%Y-%m-%d}: {exc}", file=sys.stderr)
             for a in arts:
                 it = to_item(a)
                 if not it["title"] or it["link"] in seen:
@@ -75,7 +78,7 @@ def main():
                 _, _, sig_ids = fn.classify(it["title"], "", cats, sigs, rules["settings"])
                 if sig_ids:
                     items.append(dict(it, signals=sig_ids))
-            time.sleep(6)  # GDELT ขอให้ห่างกันอย่างน้อย 5 วินาที
+            time.sleep(8)  # GDELT ขอให้ห่างกันอย่างน้อย 5 วินาที
         print(f"{win:%Y-%m-%d}: สะสมข่าวที่มีสัญญาณ {len(items)}", file=sys.stderr)
         win = w_end
     log_path = ROOT / "data" / "signal_log.json"
