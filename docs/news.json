@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-14T14:03:00Z",
+  "generated_at": "2026-11-14T15:05:06Z",
   "categories": {
    "monetary": "นโยบายการเงิน/ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -14,17 +14,16 @@
    "bank_property": "ธนาคาร/อสังหาฯ",
    "stock_market": "ตลาดหุ้น/ตราสารหนี้"
   },
-  "feeds_ok": 4,
+  "feeds_ok": 5,
   "feed_errors": [],
-  "total_raw": 12,
-  "total_kept": 8,
-  "snapshot_note": "ข้อมูลตัวอย่างจากหัวข้อข่าวจริงวันที่ 12-14 พ.ย. 2569 (จาก 4 แหล่ง) หน้าเว็บจริงจะอัปเดตเองทุกชั่วโมงเมื่อรันตัวดึงข่าว"
+  "total_raw": 85,
+  "total_kept": 30
  },
  "signals": [
   {
    "id": "tariff",
    "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 1,
+   "count": 3,
    "impacts": [
     {
      "effect": "ต้องจับตา",
@@ -45,15 +44,150 @@
    ],
    "evidence": [
     {
+     "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
+     "link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-14T13:30:00Z"
+    },
+    {
+     "title": "จีน-สหรัฐฯ หารือการค้าเกษตรและปรับลดภาษี ก่อนทรัมป์-สี พบกันสัปดาห์หน้า",
+     "link": "https://www.infoquest.co.th/2026/679566",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-14T09:29:18Z"
+    },
+    {
      "title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
      "link": "https://www.prachachat.net/economic/news-2096401",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-13T14:57:44Z"
     }
    ]
+  },
+  {
+   "id": "baht_strong",
+   "name": "บาทแข็ง",
+   "count": 1,
+   "impacts": [
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "ผู้ส่งออก",
+     "set": [
+      "CPF",
+      "TU",
+      "DELTA"
+     ],
+     "us": [],
+     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้น้อยลง"
+    },
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+     "set": [
+      "AAV"
+     ],
+     "us": [],
+     "why": "ต้นทุนเป็นดอลลาร์ถูกลงเมื่อแปลงเป็นบาท"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.30-34.00 จับตา GDP ไทย-สถานการณ์ตอ.กลาง",
+     "link": "https://www.infoquest.co.th/2026/679571",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-14T09:44:41Z"
+    }
+   ]
   }
  ],
  "items": [
+  {
+   "id": "1ca5ff1fbc9e",
+   "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
+   "link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-14T13:30:00Z",
+   "summary": "Americans voted against policies that drove up their costs. Will policymakers ignore them?",
+   "score": 6,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [
+    "tariff"
+   ]
+  },
+  {
+   "id": "89cec8f3c28f",
+   "title": "These 6 battered AI stocks could bounce back big, an analyst says",
+   "link": "https://www.marketwatch.com/story/these-6-battered-ai-stocks-could-bounce-back-big-an-analyst-says-e9f29c24?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-14T13:00:00Z",
+   "summary": "The postelection panic over data centers has led to a widespread tech selloff, but some stocks are more insulated than they seem, according to Bernstein.",
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": []
+  },
+  {
+   "id": "48312b94825c",
+   "title": "‘ชัชชาติ’ เร่งจัดการขยะ เปิดปฎิบัติการ “สงครามสู้หนู” ย่านสีลม เยาวราช บรรทัดทอง สุขุมวิท",
+   "link": "https://www.prachachat.net/news/news-2096690",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T12:28:38Z",
+   "summary": "“ชัชชาติ” ลงพื้นที่เขตบางรัก เร่งจัดการขยะ ควบคู่กับเปิด “สงครามสู้หนู” อย่างเป็นระบบ ใช้วิทยาศาสตร์วัดผลปราบกำจัดแหล่งอาศัย เผยวางแผนนำร่อง 4 แห่ง ถนนสีลม เยาวราช บรรทัดทอง สุขุมวิท นายชัชชาติ สิทธิพันธุ์ ผู้ว่าราชการกรุงเทพมหานคร (กทม.)…",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": []
+  },
+  {
+   "id": "8956f4d4e1c4",
+   "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+   "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-14T12:00:00Z",
+   "summary": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": []
+  },
+  {
+   "id": "7bb5af57cb13",
+   "title": "ปิดฉากสัมมนาหอการค้าฯ เชียงราย ส่งสมุดปกขาว ชง 6 แนวทางสร้าง New Growth",
+   "link": "https://www.prachachat.net/economic/local-economy/news-2096678",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T11:02:42Z",
+   "summary": "ปิดฉากสัมมนาหอการค้าทั่วประเทศ ครั้งที่ 44 จ.เชียงราย หอการค้าไทยส่งมอบ ‘สมุดปกขาว‘ ถึงรัฐบาล รวม 6 ข้อเสนอเชิงนโยบาย เร่งลดต้นทุน ปรับโครงสร้างเศรษฐกิจ ปั้น 7 เครื่องยนต์ใหม่ ยกระดับเกษตร-อาหารไทย-การค้า จี้แก้คอร์รัปชัน พร้อมกระจายโอกาสเ…",
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": []
+  },
   {
    "id": "8cc828759081",
    "title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.30-34.00 จับตา GDP ไทย-สถานการณ์ตอ.กลาง",
@@ -64,14 +198,16 @@
    "lang": "th",
    "central_bank": false,
    "published": "2026-11-14T09:44:41Z",
-   "summary": "ตัวอย่าง",
-   "score": 9,
+   "summary": "ธนาคารกสิกรไทย (KBANK) มองกรอบเงินบาทสัปดาห์หน้า (16-20 พ.ย.) ที่ระดับ 33.30-34.00 บาท/ดอลลาร์ จาก 33.89 บาท/ดอลลาร์ ในวันศุกร์ที่ 13 พ.ย. ทั้งนี้ ในสัปดาห์ที่ผ่านมา เงินบาทแข็งค่าผ่านแนว 33.50 และ The post KBANK คาดกรอบบาทสัปดาห์หน้า 33.3…",
+   "score": 14,
    "categories": [
     "fx",
     "economy",
     "trade_geo"
    ],
-   "signals": []
+   "signals": [
+    "baht_strong"
+   ]
   },
   {
    "id": "d9ae4facb6de",
@@ -83,11 +219,11 @@
    "lang": "th",
    "central_bank": false,
    "published": "2026-11-14T09:34:36Z",
-   "summary": "ตัวอย่าง",
-   "score": 7,
+   "summary": "นายสมชัย สัจจพงษ์ ประธานกรรมการธนาคารแห่งประเทศไทย (ธปท.) เปิดเผยเป็นครั้งแรกหลังดำรงตำแหน่งครบ 1 ปี 6 เดือนโดยประเมินผลงานผู้ว่าการ ธปท. คนปัจจุบัน ส่วนตัวยังให้ผ่าน เนื่องจากผู้ว่าฯ The post ประธานบอร์ดธปท. ซัดผู้ว่าฯ ล้มเหลวแก้กม. เหตุก…",
+   "score": 10,
    "categories": [
-    "bank_property",
-    "monetary"
+    "monetary",
+    "bank_property"
    ],
    "signals": []
   },
@@ -101,10 +237,182 @@
    "lang": "th",
    "central_bank": false,
    "published": "2026-11-14T09:29:18Z",
-   "summary": "ตัวอย่าง",
-   "score": 4,
+   "summary": "จีนและสหรัฐฯ เปิดประชุมสภาการค้าครั้งแรกเมื่อวันศุกร์ (13 พ.ย.) โดยหารือประเด็นการปรับลดภาษีศุลกากร การค้าสินค้าเกษตร และประเด็นอื่น ๆ ที่ทั้งสองฝ่ายให้ความสนใจร่วมกัน ก่อนที่คาดว่าประธานาธิบดีของทั้ง The post จีน-สหรัฐฯ หารือการค้าเกษตรแล…",
+   "score": 8,
    "categories": [
     "trade_geo"
+   ],
+   "signals": [
+    "tariff"
+   ]
+  },
+  {
+   "id": "d401ff949de2",
+   "title": "ประธานแบงก์ชาติ ผิดหวังแก้กฎหมายไม่คืบ-เปิดปมสินเชื่อ SME ทรุดหนัก",
+   "link": "https://www.prachachat.net/politics/news-2096650",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T09:03:23Z",
+   "summary": "‘สมชัย สัจจพงษ์’ ประธานแบงก์ชาติ ผิดหวังแก้กฎหมาย ธปท.ไม่คืบ-กลไกช่วย SME ไม่เวิร์ค สินเชื่อไม่กระเตื้อง ขณะที่มาตรการสกัดทุนเทา ยังมีคำถาม ดร.สมชัย สัจจพงษ์ ประธานกรรมการธนาคารแห่งประเทศไทย (ธปท.) เปิดเผยว่า นับหลังเข้ารับตำแหน่งตั้งแต่ว…",
+   "score": 8,
+   "categories": [
+    "bank_property",
+    "monetary"
+   ],
+   "signals": []
+  },
+  {
+   "id": "a9dd07e34aa1",
+   "title": "อิหร่านเผยเรือบรรทุกน้ำมัน 4 ลำชนทุ่นระเบิดใกล้ฮอร์มุซ UN เตือนกระทบการค้าโลก",
+   "link": "https://www.infoquest.co.th/2026/679561",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T08:20:44Z",
+   "summary": "สถานการณ์ความมั่นคงในตะวันออกกลางยังคงตึงเครียด หลังอิหร่านเปิดเผยในวันนี้ (14 พ.ย.) ว่า เรือบรรทุกน้ำมันอย่างน้อย 4 ลำ รวมถึงเรือบรรทุกน้ำมันขนาดใหญ่พิเศษ ชนทุ่นระเบิดทางทะเลและเกิดเพลิงไหม้ใกล้ช่องแ The post อิหร่านเผยเรือบรรทุกน้ำมัน 4…",
+   "score": 8,
+   "categories": [
+    "oil_energy",
+    "trade_geo"
+   ],
+   "signals": []
+  },
+  {
+   "id": "09046cf8d8f3",
+   "title": "‘ศุภจี’ จ่อเปิดโต๊ะ JC ไทย-จีน ต้นปี’70 ดันทุนจีนใช้วัตถุดิบ-ชิ้นส่วนไทย",
+   "link": "https://www.prachachat.net/economic/news-2096641",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T08:01:12Z",
+   "summary": "รมว.พาณิชย์ ชู Co-Creation ยกระดับความสัมพันธ์ไทย-จีน จากคู่ค้าสู่หุ้นส่วนร่วมสร้างเศรษฐกิจ ดึงเทคโนโลยีจีนเชื่อมฐานการผลิตและวัตถุดิบไทย หนุน SMEs เข้าห่วงโซ่อุปทานโลก พร้อมผลักดันประชุมคณะกรรมการร่วมไทย-จีนต้นปี 2570 ด้าน ‘อนุทิน’ ชวนจี…",
+   "score": 3,
+   "categories": [],
+   "signals": []
+  },
+  {
+   "id": "d32af766132a",
+   "title": "SAMART โชว์ 9เดือน ปี 2569 กำไร 439ล้านบาท",
+   "link": "https://www.prachachat.net/tech/news-2096638",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T07:58:21Z",
+   "summary": "กลุ่ม SAMART โชว์ กำไร 9 เดือนแรกปี 2569 โต 42% แตะ 430 ล้าน Backlog 15,452 ล้านบาท ตั้งเป้าสิ้นปีแตะ 20,000 ล้าน นายวัฒน์ชัย วิไลลักษณ์ รองประธานกรรมการบริหาร ฝ่ายกลยุทธ์องค์กร และพัฒนาธุรกิจใหม่ บริษัท สามารถคอร์ปอเรชั่น จำกัด (มหาชน) เป…",
+   "score": 4,
+   "categories": [
+    "earnings"
+   ],
+   "signals": []
+  },
+  {
+   "id": "57fcedf829de",
+   "title": "อย่าปล่อยให้ AI กำชะตา เปลี่ยนคน เปลี่ยนองค์กร ก่อนโลกเปลี่ยน",
+   "link": "https://www.prachachat.net/tech/news-2096014",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T06:05:00Z",
+   "summary": "“ประชาชาติธุรกิจ” จัดสัมมนา THAILAND 2027 : ปรับ เปลี่ยน ไปต่อ EP.2 “กานติมา เลอเลิศยุติธรรม” รองประธานเจ้าหน้าที่บริหารด้านธุรกิจองค์กร บมจ.แอดวานซ์ อินโฟร์ เซอร์วิส (AIS) แชร์ประสบการณ์ตรงเรื่องคน กับ AI โลกแยกคน 2 กลุ่ม …คนในตลาดแรงงาน…",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": []
+  },
+  {
+   "id": "d1a33affb496",
+   "title": "หอการค้าไทยชง 5 ข้อต่อผู้นำไทย-จีน ดันตั้งศูนย์ลงทุน เร่งรถไฟไทย-ลาว-จีน ลดต้นทุนขนส่ง",
+   "link": "https://www.prachachat.net/economic/news-2096573",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T05:24:38Z",
+   "summary": "หอการค้าไทยยื่น 5 ข้อเสนอต่อผู้นำรัฐบาลไทย-จีน ยกระดับความร่วมมือเศรษฐกิจสองประเทศ ชงตั้งศูนย์ประสานงานการลงทุน เปิดทาง SMEs ไทยบุกตลาดจีน เร่งเชื่อมรถไฟไทย-ลาว-จีน พร้อมผลักดันตรวจสินค้าข้ามแดนแบบ Single Inspection ลดขั้นตอนซ้ำซ้อน หนุนจี…",
+   "score": 6,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": []
+  },
+  {
+   "id": "ab0ea4e5e9a7",
+   "title": "ญี่ปุ่นเร่งเสริมกำลังทหาร เล็งเพิ่มงบกลาโหม 5 ปีแตะ 60 ล้านล้านเยน",
+   "link": "https://www.infoquest.co.th/2026/679537",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-14T04:13:25Z",
+   "summary": "รัฐบาลญี่ปุ่นกำลังพิจารณาเพิ่มงบประมาณด้านกลาโหมครั้งใหญ่ โดยตั้งเป้าเพิ่มงบประมาณกลาโหมรวมในช่วง 5 ปี ตั้งแต่ปีงบประมาณ 2570-2574 เป็น 60 ล้านล้านเยน หรือประมาณ 3.76 แสนล้านดอลลาร์สหรัฐ The post ญี่ปุ่นเร่งเสริมกำลังทหาร เล็งเพิ่มงบกลาโหม…",
+   "score": 4,
+   "categories": [
+    "fx"
+   ],
+   "signals": []
+  },
+  {
+   "id": "669c23ed07c3",
+   "title": "14 dividend stocks selected for long-term growth",
+   "link": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-14T01:58:00Z",
+   "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": []
+  },
+  {
+   "id": "6265171fc13e",
+   "title": "Nvidia’s stock is on a losing streak not seen in 14 years. What comes next?",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-a-losing-streak-not-seen-in-14-years-what-comes-next-a07e801e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-13T22:21:00Z",
+   "summary": "Nvidia wiped out $573 billion in market capitalization this week — its sixth consecutive week of stock declines.",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": []
+  },
+  {
+   "id": "1fb504df8666",
+   "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel.",
+   "link": "https://www.marketwatch.com/story/global-oil-supplies-are-suddenly-flowing-why-a-crude-glut-wont-mean-cheaper-diesel-a5fa80c8?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-13T22:04:00Z",
+   "summary": "It’s official: the world is expected to soon have more oil than it needs for the first time since the Iran war began in February. But more oil doesn’t automatically lead to lower diesel prices.",
+   "score": 6,
+   "categories": [
+    "oil_energy"
    ],
    "signals": []
   },
@@ -190,8 +498,125 @@
    "lang": "en",
    "central_bank": true,
    "published": "2026-11-12T17:45:00Z",
-   "summary": "sample",
+   "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "score": 5,
+   "categories": [
+    "monetary"
+   ],
+   "signals": []
+  },
+  {
+   "id": "0e5f49dc9383",
+   "title": "The macroeconomic effects of defence spending: what impact beyond GDP?",
+   "link": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3310~6ef5699d9a.en.pdf",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-12T10:00:00Z",
+   "summary": "This paper estimates the macroeconomic effects of defence spending for a panel of up to 27 EU member states over 1999–2025 using Panel Local Projections. We look beyond the output multiplier that dominates the literature to trace the price…",
    "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": []
+  },
+  {
+   "id": "28cf56ccdf53",
+   "title": "Narratives and risks: a quantitative toolkit to evaluate scenarios applied to the Middle East conflict",
+   "link": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202607_01~63d20abac5.en.html",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-12T09:00:00Z",
+   "summary": "This box introduces a new quantitative methodology to evaluate alternative scenarios around the Eurosystem/ECB staff baseline projections, with a focus on their empirical plausibility. In a first step, the methodology constructs joint pred…",
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": []
+  },
+  {
+   "id": "dfb203af5af2",
+   "title": "Economic Bulletin Issue 7, 2026",
+   "link": "https://www.ecb.europa.eu//press/economic-bulletin/html/eb202607.en.html",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-12T09:00:00Z",
+   "summary": "",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": []
+  },
+  {
+   "id": "b601eae92472",
+   "title": "Artificial intelligence and European firms: the cost of market-based financing",
+   "link": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202607_06~a36e367caf.en.html",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-12T09:00:00Z",
+   "summary": "This box examines how exposure to artificial intelligence (AI) is reflected in the market-based financing conditions of European firms. Using a novel firm-level measure of AI exposure derived from the earnings call transcripts of STOXX Eur…",
+   "score": 3,
+   "categories": [],
+   "signals": []
+  },
+  {
+   "id": "fa6258529f20",
+   "title": "The role of refining costs and margins in HICP energy inflation",
+   "link": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202607_05~d82730508f.en.html",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-11T09:00:00Z",
+   "summary": "Energy market developments continue to be shaped by the conflict in the Middle East. Global refinery runs have fallen significantly compared to previous years, driven by reduced refinery activity in the Middle East, Russia and Asia. The co…",
+   "score": 5,
+   "categories": [
+    "inflation"
+   ],
+   "signals": []
+  },
+  {
+   "id": "fbd018105a9d",
+   "title": "Unlocking supervisory effectiveness in credit risk: insights from the ECB’s supervisory findings and measures",
+   "link": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3308~a6e82e37aa.en.pdf",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-09T10:00:00Z",
+   "summary": "This paper provides an assessment of supervisory effectiveness in credit risk using confidential data from ECB Banking Supervision. The analysis covers 8,106 supervisory measures issued and closed between 2016 and 2025. A central contribut…",
+   "score": 5,
+   "categories": [
+    "monetary"
+   ],
+   "signals": []
+  },
+  {
+   "id": "e989ff908a99",
+   "title": "From recognition to integration: the ECB’s progress on climate and nature-related risks and the role of its climate change centre",
+   "link": "https://www.ecb.europa.eu//press/economic-bulletin/articles/2026/html/ecb.ebart202607_02~410d791050.en.html",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-09T09:00:00Z",
+   "summary": "The ECB climate change centre (CCC) was established in 2021 to design and steer the ECB’s response to climate-related risks. During its first five years, the centre has evolved from a dedicated coordination hub into a facilitator of the in…",
+   "score": 5,
    "categories": [
     "monetary"
    ],
