@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import fetch_news as fn  # noqa: E402
+import fetch_prices as fp  # noqa: E402
 
 RULES = fn.load_json(ROOT / "config" / "rules.json")
 CATS, SIGS = fn.build_rules(RULES)
@@ -104,6 +105,30 @@ class DedupTests(unittest.TestCase):
         out = fn.dedup(items, ST["dedup_similarity"])
         self.assertEqual(len(out), 2)
         self.assertEqual(out[0]["score"], 8)
+
+
+class PriceTests(unittest.TestCase):
+    def chart(self, price, closes):
+        return {"chart": {"result": [{"meta": {"regularMarketPrice": price, "currency": "THB"},
+                                      "indicators": {"quote": [{"close": closes}]}}]}}
+
+    def test_after_close(self):
+        # ปิดตลาดแล้ว: ปิดล่าสุด = ราคาปัจจุบัน เทียบกับวันก่อนหน้า
+        p = fp.parse_chart(self.chart(100.0, [95.0, None, 98.0, 100.0]))
+        self.assertEqual(p["price"], 100.0)
+        self.assertEqual(p["change_pct"], 2.04)
+
+    def test_intraday(self):
+        # ระหว่างวัน: ยังไม่มีปิดวันนี้ เทียบกับปิดล่าสุด
+        self.assertEqual(fp.parse_chart(self.chart(101.0, [98.0, 100.0]))["change_pct"], 1.0)
+
+    def test_missing(self):
+        self.assertIsNone(fp.parse_chart({"chart": {"result": None}}))
+
+    def test_set_suffix(self):
+        t = fp.tickers_from_rules()
+        self.assertEqual(t["PTT"]["symbol"], "PTT.BK")
+        self.assertEqual(t["NVDA"]["symbol"], "NVDA")
 
 
 if __name__ == "__main__":

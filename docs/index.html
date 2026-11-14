@@ -77,6 +77,8 @@ section { display: flex; flex-direction: column; gap: 10px; }
 .stock.up { background: var(--good-soft); color: var(--good); }
 .stock.down { background: var(--bad-soft); color: var(--bad); }
 .stock.w { background: var(--watch-soft); color: var(--watch); }
+.stock .px { font-size: 0.8125rem; font-variant-numeric: tabular-nums; color: var(--ink); }
+.stock .px .pos { color: var(--good); } .stock .px .neg { color: var(--bad); }
 .empty { color: var(--muted); font-size: 0.875rem; }
 
 /* ข่าวทั้งหมด */
@@ -129,7 +131,7 @@ section { display: flex; flex-direction: column; gap: 10px; }
 
 <script>
 (function () {
-  var state = { filter: "all", data: null };
+  var state = { filter: "all", data: null, prices: {} };
   var EFFECT = { "ได้ประโยชน์": ["up", "▲"], "ถูกกดดัน": ["down", "▼"], "ต้องจับตา": ["w", "◆"] };
 
   function $(id) { return document.getElementById(id); }
@@ -201,6 +203,14 @@ section { display: flex; flex-direction: column; gap: 10px; }
     }).join("");
   }
 
+  function priceHtml(tk) {
+    var p = state.prices[tk];
+    if (!p || p.price == null) return "";
+    var ch = p.change_pct;
+    var chs = ch == null ? "" : ' <span class="' + (ch > 0 ? "pos" : ch < 0 ? "neg" : "") + '">' + (ch > 0 ? "+" : "") + ch.toFixed(2) + "%</span>";
+    return '<span class="px">' + p.price.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + chs + "</span>";
+  }
+
   function renderStocks() {
     var map = {}, order = [];
     (state.data.signals || []).forEach(function (s) {
@@ -221,7 +231,7 @@ section { display: flex; flex-direction: column; gap: 10px; }
     order.sort(function (a, b) { return rank[map[a].cls] - rank[map[b].cls]; });
     $("stocks").innerHTML = order.map(function (tk) {
       var m = map[tk];
-      return '<div class="stock ' + m.cls + '"><b>' + m.mark + " " + esc(tk) + "</b><span>" + esc(m.why) + "</span></div>";
+      return '<div class="stock ' + m.cls + '"><b>' + m.mark + " " + esc(tk) + "</b>" + priceHtml(tk) + "<span>" + esc(m.why) + "</span></div>";
     }).join("");
   }
 
@@ -287,6 +297,16 @@ section { display: flex; flex-direction: column; gap: 10px; }
     if (!t || !state.data) return;
     state.filter = t.dataset.f; renderChips(); renderNews();
   });
+
+  // ราคาหุ้นโหลดแยก ถ้าไม่มีไฟล์หรือโหลดไม่ได้ หน้าเว็บยังใช้ได้ปกติ แค่ไม่มีตัวเลขราคา
+  function loadPrices() {
+    if (window.__PRICES__) { state.prices = window.__PRICES__.prices || {}; if (state.data) renderStocks(); return; }
+    fetch("prices.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) { if (d && d.prices) { state.prices = d.prices; if (state.data) renderStocks(); } })
+      .catch(function () {});
+  }
+  loadPrices();
 
   if (window.__NEWS__) { init(window.__NEWS__); return; }
   fetch("news.json", { cache: "no-store" })
