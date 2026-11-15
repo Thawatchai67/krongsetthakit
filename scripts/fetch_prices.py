@@ -95,8 +95,8 @@ def parse_chart(data):
     prev = None
     if len(closes) >= 2:
         prev = closes[-2] if abs(closes[-1] - price) <= max(1e-6, abs(price) * 1e-4) else closes[-1]
-    elif meta.get("previousClose") is not None:
-        prev = meta["previousClose"]
+    else:  # บางตัว (เช่น ดัชนี SET) ไม่มีราคาปิดย้อนหลัง ใช้ราคาปิดวันก่อนจากส่วน meta แทน
+        prev = meta.get("previousClose") or meta.get("chartPreviousClose")
     change = round((price - prev) / prev * 100, 2) if prev else None
     ts = meta.get("regularMarketTime")
     return {

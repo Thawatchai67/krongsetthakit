@@ -146,6 +146,10 @@ class PriceTests(unittest.TestCase):
         # ระหว่างวัน: ยังไม่มีปิดวันนี้ เทียบกับปิดล่าสุด
         self.assertEqual(fp.parse_chart(self.chart(101.0, [98.0, 100.0]))["change_pct"], 1.0)
 
+    def test_prev_close_from_meta(self):
+        d = {"chart": {"result": [{"meta": {"regularMarketPrice": 101.0, "chartPreviousClose": 100.0}, "indicators": {"quote": [{"close": [101.0]}]}}]}}
+        self.assertEqual(fp.parse_chart(d)["change_pct"], 1.0)
+
     def test_missing(self):
         self.assertIsNone(fp.parse_chart({"chart": {"result": None}}))
 
