@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-15T12:21:27Z",
+  "generated_at": "2026-11-15T14:42:55Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 52
+  "total_kept": 55
  },
  "signals": [
   {
@@ -206,17 +206,9 @@
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 6,
-   "new_24h": 4,
+   "new_24h": 3,
    "latest": "2026-11-15T07:14:55Z",
    "latest_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน"
-  },
-  {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 4,
-   "new_24h": 2,
-   "latest": "2026-11-15T03:28:27Z",
-   "latest_title": "2 นักลงทุนใหญ่จี้บอร์ด Nvidia เปิดทาง “เจน เซนหวง” หวนคืนเก้าอี้ซีอีโอ"
   },
   {
    "id": "oil-mideast",
@@ -241,6 +233,14 @@
    "new_24h": 1,
    "latest": "2026-11-15T03:34:00Z",
    "latest_title": "SET เริ่มใช้ 8 เกณฑ์ใหม่ ลด Tick Size-ปรับขายชอร์ต-เปิดทาง HFT โบรกฯ ประเมินเอฟเฟ็กต์ตลาด"
+  },
+  {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 4,
+   "new_24h": 1,
+   "latest": "2026-11-15T03:28:27Z",
+   "latest_title": "2 นักลงทุนใหญ่จี้บอร์ด Nvidia เปิดทาง “เจน เซนหวง” หวนคืนเก้าอี้ซีอีโอ"
   },
   {
    "id": "thai-economy",
@@ -268,6 +268,61 @@
   }
  ],
  "items": [
+  {
+   "id": "b7b507c9ddb1",
+   "title": "The U.S. is turning more socialist under Trump 2.0, one analyst says. What could change with a Democratic-run Congress?",
+   "link": "https://www.marketwatch.com/story/the-u-s-is-turning-more-socialist-under-trump-2-0-one-analyst-says-what-could-change-with-a-democratic-run-congress-95d7ff17?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-15T13:30:00Z",
+   "summary": "A handy chart shows how the U.S. used to be among the economies with the least state control — until that changed last year.",
+   "score": 3,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "ede6dc09a9f2",
+   "title": "อนุทิน คุย ผู้นำ-เอกชนอาเซียน ชง 3 ทางเชื่อมโยงเศรษฐกิจ หนุนขับเคลื่อนดิจิทัล",
+   "link": "https://www.prachachat.net/politics/news-2096840",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T12:53:31Z",
+   "summary": "นายกฯ หารือ ผู้นำ-สภาที่ปรึกษาธุรกิจอาเซียน เสนอ 3 แนวทางเชื่อมโยงเศรษฐกิจดิจิทัล ร่วมสร้างสรรค์นวัตกรรมและการลงทุนร่วมกัน เพื่อเพิ่มโอกาสธุรกิจ ย้ำไทยพร้อมผลักดันความตกลงกรอบเศรษฐกิจดิจิทัลอาเซียน นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และ รมว.…",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "54e30db5bda5",
+   "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
+   "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-15T12:30:00Z",
+   "summary": "Charts show the potential for more pain ahead",
+   "score": 6,
+   "categories": [
+    "inflation",
+    "gold"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "808af4001632",
    "title": "นายกฯ เสนออาเซียนขยายหุ้นส่วนความร่วมมือ เสริมมั่นคงพลังงาน เพิ่มประสิทธิภาพกลไก ASEAN Troika",
