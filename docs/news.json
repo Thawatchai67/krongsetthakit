@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-15T06:18:31Z",
+  "generated_at": "2026-11-15T12:19:03Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 40
+  "total_kept": 52
  },
  "signals": [
   {
    "id": "tariff",
    "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 3,
+   "count": 4,
    "impacts": [
     {
      "effect": "ต้องจับตา",
@@ -44,6 +44,12 @@
    ],
    "evidence": [
     {
+     "title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
+     "link": "https://www.infoquest.co.th/2026/679623",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-15T07:14:55Z"
+    },
+    {
      "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
      "link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
      "source": "MarketWatch",
@@ -54,12 +60,6 @@
      "link": "https://www.infoquest.co.th/2026/679566",
      "source": "อินโฟเควสท์",
      "published": "2026-11-14T09:29:18Z"
-    },
-    {
-     "title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
-     "link": "https://www.prachachat.net/economic/news-2096401",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-13T14:57:44Z"
     }
    ]
   },
@@ -193,7 +193,272 @@
    ]
   }
  ],
+ "stories": [
+  {
+   "id": "bot",
+   "name": "แบงก์ชาติและดอกเบี้ยไทย",
+   "count": 7,
+   "new_24h": 5,
+   "latest": "2026-11-15T09:32:22Z",
+   "latest_title": "เปิดปมร้าว ประธานบอร์ด-ผู้ว่าฯ แบงก์ชาติ"
+  },
+  {
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
+   "count": 6,
+   "new_24h": 4,
+   "latest": "2026-11-15T07:14:55Z",
+   "latest_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน"
+  },
+  {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 4,
+   "new_24h": 2,
+   "latest": "2026-11-15T03:28:27Z",
+   "latest_title": "2 นักลงทุนใหญ่จี้บอร์ด Nvidia เปิดทาง “เจน เซนหวง” หวนคืนเก้าอี้ซีอีโอ"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 5,
+   "new_24h": 2,
+   "latest": "2026-11-15T01:10:48Z",
+   "latest_title": "ราคาน้ำมันวันนี้ (15 พ.ย. 69) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด"
+  },
+  {
+   "id": "thai-us-china",
+   "name": "ไทยกับสหรัฐ-จีน",
+   "count": 3,
+   "new_24h": 1,
+   "latest": "2026-11-15T03:57:08Z",
+   "latest_title": "‘ไทย-สหรัฐ’ เจรจาภาษี 17 พ.ย. เชื่อ ‘ทรัมป์’ ไม่กดดันเหตุสองฝ่ายพอใจ"
+  },
+  {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 1,
+   "new_24h": 1,
+   "latest": "2026-11-15T03:34:00Z",
+   "latest_title": "SET เริ่มใช้ 8 เกณฑ์ใหม่ ลด Tick Size-ปรับขายชอร์ต-เปิดทาง HFT โบรกฯ ประเมินเอฟเฟ็กต์ตลาด"
+  },
+  {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 6,
+   "new_24h": 1,
+   "latest": "2026-11-15T01:00:35Z",
+   "latest_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 1,
+   "new_24h": 0,
+   "latest": "2026-11-14T09:44:41Z",
+   "latest_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.30-34.00 จับตา GDP ไทย-สถานการณ์ตอ.กลาง"
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 2,
+   "new_24h": 0,
+   "latest": "2026-11-12T17:45:00Z",
+   "latest_title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027"
+  }
+ ],
  "items": [
+  {
+   "id": "808af4001632",
+   "title": "นายกฯ เสนออาเซียนขยายหุ้นส่วนความร่วมมือ เสริมมั่นคงพลังงาน เพิ่มประสิทธิภาพกลไก ASEAN Troika",
+   "link": "https://www.infoquest.co.th/2026/679657",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T10:20:55Z",
+   "summary": "นายเอกภพ เพียรพิเศษ โฆษกประจำสำนักนายกรัฐมนตรี เปิดเผยว่า นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และรมว.มหาดไทย เข้าร่วมการประชุมสุดยอดอาเซียน ครั้งที่ 49 (แบบไม่เป็นทางการ หรือ Retreat Session) ณ The post นายกฯ เสนออาเซียนขยายหุ้นส่วนความร่วมมื…",
+   "score": 7,
+   "categories": [
+    "stock_market",
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e2d89620771f",
+   "title": "เปิดปมร้าว ประธานบอร์ด-ผู้ว่าฯ แบงก์ชาติ",
+   "link": "https://www.prachachat.net/business/news-2096813",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T09:32:22Z",
+   "summary": "นับว่าสร้างความประหลาดใจให้กับสังคม เป็นอย่างมาก ที่อยู่ ๆ “สมชัย สัจจพงษ์” ประธานกรรมการธนาคารแห่งประเทศไทย (ธปท.) ที่เคยอยู่แบบเงียบ ๆ มาตลอด หลังจากเข้าดำรงตำแหน่งประธานบอร์ด ธปท. ตั้งแต่เมื่อวันที่ 2 มิถุนายน 2568 เป็นต้นมา ก็ออกมาให้…",
+   "score": 3,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "b48948191146",
+   "title": "บสย. โชว์ผลงาน 10 เดือน ยอดค้ำประกันกว่า 5.8 หมื่นลบ. เตรียมเปิดตัวสินเชื่อโซลาร์พลัส หนุน SMEs รับงานรัฐ",
+   "link": "https://www.infoquest.co.th/2026/679619",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T09:04:37Z",
+   "summary": "บสย. โชว์ผลงาน 10 เดือนปี 2569 เปิดตัวโครงการค้ำประกันสินเชื่อ “โซลาร์พลัส” วงเงิน 1,000 ล้านบาท ขานรับนโยบายรัฐ ช่วย SMEs กลุ่มผู้รับเหมาติดตั้งระบบโซลาร์เซลล์ รับงานโครงการ “โซลาร์ภาคประชาชน” The post บสย. โชว์ผลงาน 10 เดือน ยอดค้ำประกัน…",
+   "score": 6,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b19171fc410b",
+   "title": "“วิทัย” เปิดเวที 16 พ.ย. แจงการแก้ไข พ.ร.บ. ธปท. หลัง ปธ.บอร์ดแบงก์ชาติ วิจารณ์ฉ่ำ! ทำงานล้มเหลว",
+   "link": "https://www.infoquest.co.th/2026/679645",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T08:32:40Z",
+   "summary": "รายงานข่าวจากธนาคารแห่งประเทศไทย (ธปท.) แจ้งว่า ในวันพรุ่งนี้ (16 พ.ย.) เวลา 14.00 น. ธนาคารแห่งประเทศไทย จะมีการมีการจัดงาน “เล่าสู่กันฟัง เรื่องการแก้ไข พ.ร.บ. ธปท.” นำโดย นายวิทัย รัตนากร The post “วิทัย” เปิดเวที 16 พ.ย. แจงการแก้ไข พ.…",
+   "score": 6,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "92ede3f8b19f",
+   "title": "ไซเบอร์ป่วนตู้แช่ยุโรป อาหารเสียหาย สนค.ชี้ความเสี่ยงใหม่ส่งออกอาหารไทย",
+   "link": "https://www.prachachat.net/economic/news-2096803",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T08:13:02Z",
+   "summary": "สนค.จับตาภัยไซเบอร์โจมตีระบบตู้แช่ซูเปอร์มาร์เก็ตยุโรป ทำระบบทำความเย็นผิดปกติ สินค้าอาหารเสียหาย สะท้อนความเสี่ยงใหม่ต่อความมั่นคงทางอาหารโลก เปิด 6 ปัจจัยท้าทายอุตสาหกรรมอาหาร แนะไทยเร่งยกระดับมาตรฐานความปลอดภัย-ระบบตรวจสอบย้อนกลับ เพิ่ม…",
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c71bc6b55c87",
+   "title": "เกษตรฯ งัด 2 สินเชื่อพยุงข้าวนาปี เตรียมเงินฉุกเฉินให้สหกรณ์รับซื้อ",
+   "link": "https://www.prachachat.net/economic/news-2096789",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T08:04:47Z",
+   "summary": "“ปิยะรัฐชย์” คิกออฟจุดรับซื้อข้าวเปลือกปีการผลิต 2569/70 ที่ร้อยเอ็ด เดินหน้าใช้กลไกสหกรณ์พยุงราคาข้าว เพิ่มอำนาจต่อรองเกษตรกร ชู 2 โครงการสินเชื่อรวบรวมข้าว-ชะลอขาย พร้อมเตรียมเงินสำรองฉุกเฉินจากกองทุนพัฒนาสหกรณ์ รองรับการรับซื้อผลผลิตระห…",
+   "score": 4,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "af004fbaab53",
+   "title": "พาณิชย์เร่งช่วยเหลือชาวสวนลำไย ดูดซับขายทั่วประเทศ 4 หมื่นตัน",
+   "link": "https://www.prachachat.net/economic/news-2096779",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T07:58:11Z",
+   "summary": "กรมการค้าภายในลุยเชียงใหม่-ลำพูน แก้ปัญหาลำไยนอกฤดู 7 แสนตัน หลังประเทศคู่ค้าเข้มงวดนำเข้า ฉุดส่งออกชะลอตัว ขณะที่ผลผลิตออกตลาดแล้ว 20-30% เร่งดูดซับ 4 หมื่นตัน ดึงห้างค้าปลีก-ค้าส่ง ไปรษณีย์ไทย และค่ายอสังหาฯ “แสนสิริ-ศุภาลัย-เอพี-ไอริส”…",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e03c69a687b9",
+   "title": "‘เสนาฯ’ พลิกเกมตลาดอสังหาฯ ดัน ‘โคซี่’ เรือธง ปั้นโมเดลใหม่",
+   "link": "https://www.prachachat.net/real-estate/news-2095943",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T07:54:00Z",
+   "summary": "ร่วม 10 ปีที่บริษัท เสนา ดีเวลลอปเม้นท์ จำกัด (มหาชน) และ บริษัท ฮันคิว ฮันชิน พร็อพเพอร์ตี้ส์ คอร์ป บิ๊กอสังหาฯญี่ปุ่นอายุกว่า 100 ปี จับมือกันพัฒนาที่อยู่อาศัยในไทย 69 โครงการ มูลค่ารวม 84,558 ล้านบาท ภายใต้บริษัทร่วมทุน “เสนา ฮันคิว ฮัน…",
+   "score": 4,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "606f0025edf6",
+   "title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
+   "link": "https://www.infoquest.co.th/2026/679623",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T07:14:55Z",
+   "summary": "นายนันทพงษ์ จิระเลิศพงษ์ ผู้อำนวยการสำนักงานนโยบายและยุทธศาสตร์การค้า (สนค.) กระทรวงพาณิชย์ เปิดเผยว่า อุตสาหกรรมยานยนต์ไทย กำลังเผชิญกับจุดเปลี่ยนสำคัญเมื่อโลกกำลังเปลี่ยนผ่านไปสู่พลังงานสะอาด The post สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเ…",
+   "score": 10,
+   "categories": [
+    "trade_geo",
+    "economy"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "0cbc5f4702cc",
+   "title": "การประชุมสุดยอดอาเซียนครั้งที่ 49 เปิดฉากแล้วที่ฟิลิปปินส์ ชูวาระพลังงาน-อาหาร-เศรษฐกิจ",
+   "link": "https://www.infoquest.co.th/2026/679621",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T07:01:32Z",
+   "summary": "การประชุมสุดยอดสมาคมประชาชาติแห่งเอเชียตะวันออกเฉียงใต้ (อาเซียน) ครั้งที่ 49 และการประชุมที่เกี่ยวข้อง เปิดฉากขึ้นแล้วในวันนี้ (15 พ.ย.) ณ กรุงมะนิลา ประเทศฟิลิปปินส์ โดยผู้นำชาติสมาชิกเตรียมหารือประ The post การประชุมสุดยอดอาเซียนครั้งที…",
+   "score": 6,
+   "categories": [
+    "oil_energy",
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "b708eb4893b3",
    "title": "“ศุภจี” ปิดดีล DEFA อาเซียน ดันใช้กลางปี’70 เปิดตลาดดิจิทัล 2 ล้านล้านดอลลาร์",
@@ -207,7 +472,8 @@
    "summary": "“ศุภจี” เผยอาเซียนลงนามความตกลงเศรษฐกิจดิจิทัล DEFA สำเร็จ หลังไทยนั่งประธานเจรจาตั้งแต่ปี 2566 เดินหน้าลดอุปสรรคการค้าข้ามพรมแดน เชื่อมระบบชำระเงิน-ยืนยันตัวตนดิจิทัล เปิดทาง SMEs ไทยบุกตลาดอาเซียน เร่งกระบวนการให้สัตยาบัน หวังมีผลบังคับใ…",
    "score": 3,
    "categories": [],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "e4f42343cb7a",
@@ -224,7 +490,8 @@
    "categories": [
     "tech_ai"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "29f34437c676",
@@ -241,7 +508,8 @@
    "categories": [
     "trade_geo"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "8ef27a88dec7",
@@ -258,7 +526,11 @@
    "categories": [
     "trade_geo"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "trade-war",
+    "thai-us-china"
+   ]
   },
   {
    "id": "5eba74bdd562",
@@ -275,7 +547,8 @@
    "categories": [
     "bank_property"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "4366d4902e2b",
@@ -292,7 +565,10 @@
    "categories": [
     "stock_market"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
   },
   {
    "id": "5c6d997061e2",
@@ -309,7 +585,10 @@
    "categories": [
     "tech_ai"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
   },
   {
    "id": "764f0a0242c9",
@@ -328,6 +607,9 @@
    ],
    "signals": [
     "rate_cut"
+   ],
+   "stories": [
+    "bot"
    ]
   },
   {
@@ -345,7 +627,10 @@
    "categories": [
     "monetary"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
   },
   {
    "id": "df0237601a95",
@@ -362,7 +647,8 @@
    "categories": [
     "trade_geo"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "9debff897546",
@@ -379,7 +665,10 @@
    "categories": [
     "oil_energy"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
   },
   {
    "id": "905e5f75ceab",
@@ -396,7 +685,10 @@
    "categories": [
     "trade_geo"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "trade-war"
+   ]
   },
   {
    "id": "df8a140510ac",
@@ -417,6 +709,11 @@
    ],
    "signals": [
     "oil_down"
+   ],
+   "stories": [
+    "bot",
+    "oil-mideast",
+    "thai-economy"
    ]
   },
   {
@@ -436,6 +733,9 @@
    ],
    "signals": [
     "tariff"
+   ],
+   "stories": [
+    "trade-war"
    ]
   },
   {
@@ -454,7 +754,10 @@
     "tech_ai",
     "stock_market"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
   },
   {
    "id": "8956f4d4e1c4",
@@ -471,7 +774,8 @@
    "categories": [
     "stock_market"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "7bb5af57cb13",
@@ -488,7 +792,10 @@
    "categories": [
     "trade_geo"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
   },
   {
    "id": "8cc828759081",
@@ -509,6 +816,11 @@
    ],
    "signals": [
     "baht_strong"
+   ],
+   "stories": [
+    "baht",
+    "oil-mideast",
+    "thai-economy"
    ]
   },
   {
@@ -527,7 +839,11 @@
     "monetary",
     "bank_property"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "bot",
+    "thai-economy"
+   ]
   },
   {
    "id": "df9c56f17df7",
@@ -546,6 +862,9 @@
    ],
    "signals": [
     "tariff"
+   ],
+   "stories": [
+    "trade-war"
    ]
   },
   {
@@ -564,7 +883,11 @@
     "bank_property",
     "monetary"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "bot",
+    "thai-economy"
+   ]
   },
   {
    "id": "a9dd07e34aa1",
@@ -582,7 +905,10 @@
     "trade_geo",
     "oil_energy"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
   },
   {
    "id": "09046cf8d8f3",
@@ -597,7 +923,10 @@
    "summary": "รมว.พาณิชย์ ชู Co-Creation ยกระดับความสัมพันธ์ไทย-จีน จากคู่ค้าสู่หุ้นส่วนร่วมสร้างเศรษฐกิจ ดึงเทคโนโลยีจีนเชื่อมฐานการผลิตและวัตถุดิบไทย หนุน SMEs เข้าห่วงโซ่อุปทานโลก พร้อมผลักดันประชุมคณะกรรมการร่วมไทย-จีนต้นปี 2570 ด้าน ‘อนุทิน’ ชวนจี…",
    "score": 3,
    "categories": [],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "thai-us-china"
+   ]
   },
   {
    "id": "d32af766132a",
@@ -614,7 +943,8 @@
    "categories": [
     "earnings"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "57fcedf829de",
@@ -631,7 +961,8 @@
    "categories": [
     "tech_ai"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "d1a33affb496",
@@ -648,7 +979,11 @@
    "categories": [
     "trade_geo"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "thai-us-china",
+    "thai-economy"
+   ]
   },
   {
    "id": "669c23ed07c3",
@@ -665,7 +1000,8 @@
    "categories": [
     "stock_market"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "6265171fc13e",
@@ -682,7 +1018,10 @@
    "categories": [
     "tech_ai"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
   },
   {
    "id": "1fb504df8666",
@@ -699,7 +1038,10 @@
    "categories": [
     "oil_energy"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
   },
   {
    "id": "c59c62bcdc2a",
@@ -716,7 +1058,10 @@
    "categories": [
     "tech_ai"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
   },
   {
    "id": "0cba912555e5",
@@ -733,7 +1078,8 @@
    "categories": [
     "earnings"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "068bea1a2f4b",
@@ -753,6 +1099,9 @@
    ],
    "signals": [
     "tariff"
+   ],
+   "stories": [
+    "trade-war"
    ]
   },
   {
@@ -771,7 +1120,8 @@
     "oil_energy",
     "earnings"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "b8182560b025",
@@ -788,7 +1138,10 @@
    "categories": [
     "monetary"
    ],
-   "signals": []
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
   },
   {
    "id": "0e5f49dc9383",
@@ -805,7 +1158,8 @@
    "categories": [
     "economy"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "28cf56ccdf53",
@@ -822,7 +1176,8 @@
    "categories": [
     "trade_geo"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "dfb203af5af2",
@@ -839,7 +1194,8 @@
    "categories": [
     "economy"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "b601eae92472",
@@ -854,7 +1210,8 @@
    "summary": "This box examines how exposure to artificial intelligence (AI) is reflected in the market-based financing conditions of European firms. Using a novel firm-level measure of AI exposure derived from the earnings call transcripts of STOXX Eur…",
    "score": 3,
    "categories": [],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "fa6258529f20",
@@ -871,7 +1228,8 @@
    "categories": [
     "inflation"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
   },
   {
    "id": "943750bf1f18",
@@ -888,7 +1246,46 @@
    "categories": [
     "monetary"
    ],
-   "signals": []
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "7017250d8c59",
+   "title": "Letter from the ECB President to Mr Eero Heinäluoma and Mr Jonás Fernández, MEPs, on AI-related financing",
+   "link": "https://www.ecb.europa.eu//pub/pdf/other/ecb.mepletter261106_Heinaluoma_Fernandez~6e406be51f.en.pdf",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-06T15:00:00Z",
+   "summary": "",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "847a7abc2726",
+   "title": "Federal Reserve issues FOMC statement",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+   "source": "Federal Reserve",
+   "feed": "fed",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-10-28T18:00:00Z",
+   "summary": "Federal Reserve issues FOMC statement",
+   "score": 5,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
   }
  ]
 }

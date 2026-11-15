@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T08:37:54Z",
+ "generated_at": "2026-11-15T12:19:28Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
@@ -259,5 +259,71 @@
    "market": "US",
    "symbol": "^GSPC"
   }
- }
+ },
+ "market": [
+  {
+   "price": 1504.88,
+   "change_pct": null,
+   "currency": "THB",
+   "asof": "2026-11-13T09:49:43Z",
+   "key": "SET",
+   "name": "SET"
+  },
+  {
+   "price": 7561.67,
+   "change_pct": -0.4,
+   "currency": "USD",
+   "asof": "2026-11-13T21:43:19Z",
+   "key": "SPX",
+   "name": "S&P 500"
+  },
+  {
+   "price": 25136.27,
+   "change_pct": -0.91,
+   "currency": "USD",
+   "asof": "2026-11-13T22:15:59Z",
+   "key": "NDX",
+   "name": "Nasdaq"
+  },
+  {
+   "price": 33.84,
+   "change_pct": -0.03,
+   "currency": "THB",
+   "asof": "2026-11-13T22:33:36Z",
+   "key": "USDTHB",
+   "name": "ดอลลาร์/บาท"
+  },
+  {
+   "price": 3886.3,
+   "change_pct": 0.03,
+   "currency": "USD",
+   "asof": "2026-11-13T21:59:59Z",
+   "key": "GOLD",
+   "name": "ทองคำ"
+  },
+  {
+   "price": 88.56,
+   "change_pct": -0.2,
+   "currency": "USD",
+   "asof": "2026-11-13T22:00:00Z",
+   "key": "OIL",
+   "name": "น้ำมัน WTI"
+  },
+  {
+   "price": 5.15,
+   "change_pct": 1.0,
+   "currency": "USD",
+   "asof": "2026-11-13T19:59:54Z",
+   "key": "US10Y",
+   "name": "บอนด์สหรัฐ 10 ปี"
+  },
+  {
+   "price": 19.3,
+   "change_pct": 3.21,
+   "currency": "USD",
+   "asof": "2026-11-13T21:15:01Z",
+   "key": "VIX",
+   "name": "VIX ดัชนีความกลัว"
+  }
+ ]
 }
