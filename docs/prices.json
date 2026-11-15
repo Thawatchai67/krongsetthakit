@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T12:19:28Z",
+ "generated_at": "2026-11-15T12:21:56Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
@@ -263,7 +263,7 @@
  "market": [
   {
    "price": 1504.88,
-   "change_pct": null,
+   "change_pct": 0.39,
    "currency": "THB",
    "asof": "2026-11-13T09:49:43Z",
    "key": "SET",
