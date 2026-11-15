@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-15T14:42:55Z",
+  "generated_at": "2026-11-15T20:21:55Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 55
+  "total_kept": 56
  },
  "signals": [
   {
    "id": "tariff",
    "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 4,
+   "count": 3,
    "impacts": [
     {
      "effect": "ต้องจับตา",
@@ -211,6 +211,14 @@
    "latest_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน"
   },
   {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 5,
+   "new_24h": 2,
+   "latest": "2026-11-15T15:00:00Z",
+   "latest_title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years"
+  },
+  {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
    "count": 5,
@@ -233,14 +241,6 @@
    "new_24h": 1,
    "latest": "2026-11-15T03:34:00Z",
    "latest_title": "SET เริ่มใช้ 8 เกณฑ์ใหม่ ลด Tick Size-ปรับขายชอร์ต-เปิดทาง HFT โบรกฯ ประเมินเอฟเฟ็กต์ตลาด"
-  },
-  {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 4,
-   "new_24h": 1,
-   "latest": "2026-11-15T03:28:27Z",
-   "latest_title": "2 นักลงทุนใหญ่จี้บอร์ด Nvidia เปิดทาง “เจน เซนหวง” หวนคืนเก้าอี้ซีอีโอ"
   },
   {
    "id": "thai-economy",
@@ -268,6 +268,46 @@
   }
  ],
  "items": [
+  {
+   "id": "8956f4d4e1c4",
+   "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
+   "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-15T15:22:00Z",
+   "summary": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d842a4d076ed",
+   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+   "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-15T15:00:00Z",
+   "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+   "score": 10,
+   "categories": [
+    "earnings",
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
   {
    "id": "b7b507c9ddb1",
    "title": "The U.S. is turning more socialist under Trump 2.0, one analyst says. What could change with a Democratic-run Congress?",
@@ -813,24 +853,6 @@
    "stories": [
     "ai-chips"
    ]
-  },
-  {
-   "id": "8956f4d4e1c4",
-   "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
-   "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-14T12:00:00Z",
-   "summary": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
-   "score": 3,
-   "categories": [
-    "stock_market"
-   ],
-   "signals": [],
-   "stories": []
   },
   {
    "id": "7bb5af57cb13",
