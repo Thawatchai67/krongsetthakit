@@ -10,6 +10,7 @@
 
 "ถูก" หมายถึง: สัญญาณ ▲ แล้วหุ้นชนะดัชนี หรือ ▼ แล้วหุ้นแพ้ดัชนี  (◆ จับตา ไม่นับถูกผิด)
 """
+import bisect
 import json
 import sys
 from datetime import datetime, timedelta, timezone
@@ -59,27 +60,36 @@ def add_entries(log, news, rules):
     return added
 
 
+_DATES = {}
+
+
+def _dates(history, key):
+    """รายการวันที่เรียงแล้ว (cache ไว้ เพราะเรียกซ้ำหลายพันครั้ง)"""
+    if key not in _DATES:
+        _DATES[key] = sorted(history.get(key) or {})
+    return _DATES[key]
+
+
 def evaluate(entry, history):
     """เติมผลลัพธ์ r1/r5/r20 (ผลตอบแทนหุ้น %) และ x1/x5/x20 (ชนะดัชนี %) เท่าที่มีข้อมูล"""
     h = history.get(entry["ticker"]) or {}
     b = history.get(BENCH[entry["market"]]) or {}
-    dates = sorted(h)
-    base = [d for d in dates if d < entry["date"]]
-    if not base:
+    dates = _dates(history, entry["ticker"])
+    i0 = bisect.bisect_left(dates, entry["date"]) - 1   # ปิดล่าสุดก่อนวันข่าว
+    if i0 < 0:
         return
-    d0 = base[-1]
-    after = [d for d in dates if d > d0]
-    bdates = sorted(b)
+    d0 = dates[i0]
+    bdates = _dates(history, BENCH[entry["market"]])
     for n in HORIZONS:
-        if f"r{n}" in entry or len(after) < n:
+        if f"r{n}" in entry or i0 + n >= len(dates):
             continue
-        dn = after[n - 1]
+        dn = dates[i0 + n]
         r = (h[dn] / h[d0] - 1) * 100
         entry[f"r{n}"] = round(r, 2)
-        b0 = [d for d in bdates if d <= d0]
-        bn = [d for d in bdates if d <= dn]
-        if b0 and bn and b[b0[-1]]:
-            br = (b[bn[-1]] / b[b0[-1]] - 1) * 100
+        j0 = bisect.bisect_right(bdates, d0) - 1
+        jn = bisect.bisect_right(bdates, dn) - 1
+        if j0 >= 0 and jn >= 0 and b[bdates[j0]]:
+            br = (b[bdates[jn]] / b[bdates[j0]] - 1) * 100
             entry[f"x{n}"] = round(r - br, 2)
     entry["base_date"] = d0
 
@@ -93,7 +103,7 @@ def is_hit(entry, n):
 
 def summarize(log):
     def block(entries):
-        out = {"total": len(entries)}
+        out = {"total": len(entries), "news": len({(e["news_title"], e["date"]) for e in entries})}
         for n in HORIZONS:
             hits = [is_hit(e, n) for e in entries]
             hits = [h for h in hits if h is not None]
@@ -114,6 +124,7 @@ def summarize(log):
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "since": since,
+        "by_year": {y: block([e for e in entries if e["date"][:4] == y])["d5"] for y in sorted({e["date"][:4] for e in entries})},
         "backfill": sum(1 for e in entries if e.get("backfill")),
         "overall": block(entries),
         "signals": sorted(

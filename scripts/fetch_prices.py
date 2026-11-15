@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-URL = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=3mo&interval=1d"
+URL = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range={rng}&interval=1d"
 # ดัชนี SET (^SET.BK) ใน Yahoo ไม่มีราคาย้อนหลัง จึงใช้ TDEX (ETF ที่ตามดัชนี SET50) แทน
 BENCHMARKS = {"^SET": {"symbol": "TDEX.BK", "market": "SET"}, "^GSPC": {"symbol": "^GSPC", "market": "US"}}
 UA = "Mozilla/5.0 (KrongSetthakit personal news filter)"
@@ -43,10 +43,10 @@ def tickers_from_rules():
     return out
 
 
-def fetch_chart(symbol, from_dir=None):
+def fetch_chart(symbol, from_dir=None, rng="3mo"):
     if from_dir:
         return json.loads((Path(from_dir) / (symbol + ".json")).read_text(encoding="utf-8"))
-    req = urllib.request.Request(URL.format(sym=urllib.parse.quote(symbol)), headers={"User-Agent": UA})
+    req = urllib.request.Request(URL.format(sym=urllib.parse.quote(symbol), rng=rng), headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.loads(r.read().decode("utf-8"))
 
@@ -110,7 +110,7 @@ def run(args):
     prices, errors = {}, []
     for name, info in tickers_from_rules().items():
         try:
-            raw = fetch_chart(info["symbol"], args.from_dir)
+            raw = fetch_chart(info["symbol"], args.from_dir, args.range)
             history.setdefault(name, {}).update(parse_history(raw))
             p = parse_chart(raw)
             if not p:
@@ -135,7 +135,7 @@ def run(args):
     }
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     hist_path.parent.mkdir(parents=True, exist_ok=True)
-    history = {k: dict(sorted(v.items())[-400:]) for k, v in sorted(history.items())}  # เก็บไม่เกิน ~1.5 ปีต่อตัว
+    history = {k: {d: c for d, c in sorted(v.items()) if d >= "2016-06-01"} for k, v in sorted(history.items())}  # เก็บตั้งแต่กลางปี 2016
     hist_path.write_text(json.dumps(history, separators=(",", ":")) + "\n", encoding="utf-8")
     log(f"เขียน {out_path}: ราคาใหม่ {fresh} ตัว, ผิดพลาด {len(errors)} ตัว")
     return 0
@@ -146,6 +146,7 @@ def main():
     ap.add_argument("--from-dir")
     ap.add_argument("--out")
     ap.add_argument("--history")
+    ap.add_argument("--range", default="3mo", help="ช่วงราคาที่ดึง เช่น 3mo, 10y, max")
     sys.exit(run(ap.parse_args()))
 
 
