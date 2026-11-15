@@ -127,6 +127,7 @@ def summarize(log):
         "by_year": {y: block([e for e in entries if e["date"][:4] == y])["d5"] for y in sorted({e["date"][:4] for e in entries})},
         "backfill": sum(1 for e in entries if e.get("backfill")),
         "overall": block(entries),
+        "tickers": {tk: block([e for e in entries if e["ticker"] == tk])["d5"] for tk in sorted({e["ticker"] for e in entries})},
         "signals": sorted(
             [dict(block(v["entries"]), id=k, name=v["name"]) for k, v in by_sig.items()],
             key=lambda x: -x["total"],

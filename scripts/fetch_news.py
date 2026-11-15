@@ -63,6 +63,55 @@ def build_rules(rules):
     return cats, sigs
 
 
+def _kw_regex(raw):
+    if raw.isascii():
+        return re.compile(r"(?<![A-Za-z0-9])" + re.escape(raw) + r"(?:s|es)?(?![A-Za-z0-9])", re.IGNORECASE)
+    return re.compile(re.escape(raw))
+
+
+def build_stories(cfg):
+    out = []
+    for st in cfg.get("stories", []):
+        out.append({
+            "id": st["id"], "name": st["name"],
+            "any": [_kw_regex(k) for k in st.get("any", [])],
+            "all": [_kw_regex(k) for k in st.get("all", [])],
+            "signals": set(st.get("signals", [])),
+        })
+    return out
+
+
+def tag_stories(item, stories):
+    """เรื่องต่อเนื่องที่ข่าวนี้อยู่ (ดูจากหัวข้อเป็นหลัก เนื้อข่าวช่วยได้ถ้ามีสัญญาณตรงกัน)"""
+    title, summary = item["title"], item.get("summary", "")
+    out = []
+    for st in stories:
+        hit = any(rx.search(title) for rx in st["any"]) or bool(st["signals"] & set(item.get("signals", [])))
+        if hit and st["all"]:
+            hit = any(rx.search(title + " " + summary) for rx in st["all"])
+        if hit:
+            out.append(st["id"])
+    return out
+
+
+def build_story_list(items, stories, now):
+    day = (now - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    out = []
+    for st in stories:
+        its = [i for i in items if st["id"] in i.get("stories", [])]
+        if not its:
+            continue
+        its.sort(key=lambda x: x["published"], reverse=True)
+        out.append({
+            "id": st["id"], "name": st["name"], "count": len(its),
+            "new_24h": sum(1 for i in its if i["published"] >= day),
+            "latest": its[0]["published"], "latest_title": its[0]["title"],
+        })
+    out.sort(key=lambda x: x["latest"], reverse=True)
+    out.sort(key=lambda x: x["new_24h"], reverse=True)  # เรื่องที่มีข่าวใหม่มากสุดขึ้นก่อน
+    return out
+
+
 def classify(title, summary, cats, sigs, settings, central_bank=False):
     """คืน (score, category_ids, signal_ids)"""
     score = 0
@@ -211,6 +260,7 @@ def run(args):
     rules = load_json(ROOT / "config" / "rules.json")
     st = rules["settings"]
     cats, sigs = build_rules(rules)
+    stories = build_stories(load_json(ROOT / "config" / "stories.json"))
     out_path = Path(args.out) if args.out else ROOT / "docs" / "news.json"
     socket.setdefaulttimeout(25)
     now = datetime.now(timezone.utc)
@@ -241,6 +291,7 @@ def run(args):
         if score < st["min_score"]:
             continue
         it = dict(it, score=score, categories=cat_ids, signals=sig_ids)
+        it["stories"] = tag_stories(it, stories)
         kept.append(it)
 
     kept = dedup(kept, st["dedup_similarity"])
@@ -257,6 +308,7 @@ def run(args):
             "total_kept": len(kept),
         },
         "signals": build_signal_summary(kept, sigs, st["signal_window_hours"], now),
+        "stories": build_story_list(kept, stories, now),
         "items": kept,
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,6 @@
 name: ดึงข่าวย้อนหลัง
 
-# ดึงหัวข่าวต่างประเทศจาก GDELT ย้อนไปถึงปี 2017 ทีละช่วง ทำต่อจากจุดเดิมทุกรอบ (data/gdelt_state.json)
+# ดึงหัวข่าวต่างประเทศจาก GDELT ไล่จากล่าสุดย้อนกลับไปถึงปี 2017 ทำต่อจากจุดเดิมทุกรอบ (data/gdelt_state.json)
 # รันเองทุก 6 ชั่วโมงจนครบ หลังจากนั้นจะเก็บเฉพาะสัปดาห์ล่าสุดเพิ่ม
 on:
   schedule:
@@ -39,5 +39,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add docs data
           git diff --cached --quiet && exit 0
-          git commit -m "ข่าวย้อนหลังจาก GDELT ถึง $(python -c 'import json;print(json.load(open("data/gdelt_state.json")).get("next",""))' 2>/dev/null)"
+          git commit -m "ข่าวย้อนหลังจาก GDELT ถึง $(python -c 'import json;print(json.load(open("data/gdelt_state.json")).get("oldest",""))' 2>/dev/null)"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 10; done

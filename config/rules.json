@@ -2,8 +2,8 @@
   "_note": "กฎกรองและจับคู่ข่าวกับหุ้น แก้ไขได้เอง keyword ภาษาอังกฤษไม่สนตัวพิมพ์เล็ก/ใหญ่ ยกเว้นขึ้นต้นด้วย cs: (สนตัวพิมพ์)",
   "settings": {
     "min_score": 3,
-    "max_age_days": 7,
-    "max_items": 300,
+    "max_age_days": 30,
+    "max_items": 800,
     "signal_window_hours": 48,
     "central_bank_bonus": 1,
     "signal_bonus": 2,

@@ -108,6 +108,24 @@ class DedupTests(unittest.TestCase):
         self.assertEqual(out[0]["score"], 8)
 
 
+class StoryTests(unittest.TestCase):
+    ST = fn.build_stories(fn.load_json(ROOT / "config" / "stories.json"))
+
+    def tags(self, title, signals=()):
+        return set(fn.tag_stories({"title": title, "summary": "", "signals": list(signals)}, self.ST))
+
+    def test_story_tagging(self):
+        self.assertIn("trade-war", self.tags("‘ไทย-สหรัฐ’ เจรจาภาษี 17 พ.ย."))
+        self.assertIn("bot", self.tags("ผู้ว่าฯ ธปท. โต้ปมวิจารณ์การทำงาน"))
+        self.assertIn("oil-mideast", self.tags("อิหร่านเผยเรือบรรทุกน้ำมันชนทุ่นระเบิดใกล้ฮอร์มุซ"))
+        self.assertIn("ai-chips", self.tags("Nvidia’s stock is on a losing streak"))
+        self.assertIn("baht", self.tags("ข่าวทั่วไป", ["baht_strong"]))  # จากสัญญาณ
+
+    def test_story_negative(self):
+        self.assertEqual(self.tags("ฝนตกหนักภาคใต้"), set())
+        self.assertNotIn("gold", self.tags("Golden State wins"))
+
+
 class PriceTests(unittest.TestCase):
     def chart(self, price, closes):
         return {"chart": {"result": [{"meta": {"regularMarketPrice": price, "currency": "THB"},

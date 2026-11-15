@@ -21,6 +21,17 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 URL = "https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range={rng}&interval=1d"
+# ชีพจรตลาด: แสดงบนหน้าเว็บ (ไม่ใช้วัดผลสัญญาณ)
+MARKET = [
+    {"key": "SET", "name": "SET", "symbol": "^SET.BK"},
+    {"key": "SPX", "name": "S&P 500", "symbol": "^GSPC"},
+    {"key": "NDX", "name": "Nasdaq", "symbol": "^IXIC"},
+    {"key": "USDTHB", "name": "ดอลลาร์/บาท", "symbol": "THB=X"},
+    {"key": "GOLD", "name": "ทองคำ", "symbol": "GC=F"},
+    {"key": "OIL", "name": "น้ำมัน WTI", "symbol": "CL=F"},
+    {"key": "US10Y", "name": "บอนด์สหรัฐ 10 ปี", "symbol": "^TNX"},
+    {"key": "VIX", "name": "VIX ดัชนีความกลัว", "symbol": "^VIX"},
+]
 # ดัชนี SET (^SET.BK) ใน Yahoo ไม่มีราคาย้อนหลัง จึงใช้ TDEX (ETF ที่ตามดัชนี SET50) แทน
 BENCHMARKS = {"^SET": {"symbol": "TDEX.BK", "market": "SET"}, "^GSPC": {"symbol": "^GSPC", "market": "US"}}
 UA = "Mozilla/5.0 (KrongSetthakit personal news filter)"
@@ -40,6 +51,21 @@ def tickers_from_rules():
             for t in im.get("us", []):
                 out[t] = {"symbol": t, "market": "US"}
     out.update(BENCHMARKS)  # ดัชนีตลาด ไว้เทียบว่าหุ้นชนะตลาดไหม
+    return out
+
+
+def ticker_info():
+    """ข้อมูลหุ้นแต่ละตัวจาก rules.json: ตลาด กลุ่ม และสัญญาณที่กระทบ -> docs/tickers.json (ใช้ในหน้าหุ้นรายตัว)"""
+    rules = json.loads((ROOT / "config" / "rules.json").read_text(encoding="utf-8"))
+    out = {}
+    for s in rules["signals"]:
+        for im in s["impacts"]:
+            for market, tks in (("SET", im.get("set", [])), ("US", im.get("us", []))):
+                for t in tks:
+                    d = out.setdefault(t, {"market": market, "sectors": [], "signals": []})
+                    if im["sector"] not in d["sectors"]:
+                        d["sectors"].append(im["sector"])
+                    d["signals"].append({"id": s["id"], "name": s["name"], "effect": im["effect"], "why": im["why"]})
     return out
 
 
@@ -123,6 +149,20 @@ def run(args):
                 prices[name] = dict(old[name], stale=True)
         if not args.from_dir:
             time.sleep(0.4)
+    market = []
+    for m in MARKET:
+        try:
+            raw = fetch_chart(m["symbol"], args.from_dir, "3mo")
+            p = parse_chart(raw)
+            if not p:
+                raise ValueError("ไม่มีข้อมูลราคา")
+            hist = parse_history(raw)
+            history.setdefault("M:" + m["key"], {}).update(hist)
+            market.append(dict(p, key=m["key"], name=m["name"]))
+        except Exception as exc:  # noqa: BLE001
+            log(f"[ผิดพลาด] ตลาด {m['key']}: {str(exc)[:120]}")
+        if not args.from_dir:
+            time.sleep(0.4)
     fresh = len([p for p in prices.values() if not p.get("stale")])
     if fresh == 0:
         log("ดึงราคาไม่ได้เลย: ไม่เขียนทับไฟล์เดิม")
@@ -132,11 +172,16 @@ def run(args):
         "source": "Yahoo Finance",
         "errors": errors,
         "prices": prices,
+        "market": market,
     }
     out_path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     hist_path.parent.mkdir(parents=True, exist_ok=True)
     history = {k: {d: c for d, c in sorted(v.items()) if d >= "2016-06-01"} for k, v in sorted(history.items())}  # เก็บตั้งแต่กลางปี 2016
     hist_path.write_text(json.dumps(history, separators=(",", ":")) + "\n", encoding="utf-8")
+    # ราคาปิดย้อนหลัง ~6 เดือน สำหรับวาดกราฟบนหน้าเว็บ (ไฟล์เล็ก)
+    small = {k: [[d, round(c, 2)] for d, c in sorted(v.items())[-130:]] for k, v in history.items()}
+    (out_path.parent / "tickers.json").write_text(json.dumps(ticker_info(), ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    (out_path.parent / "history.json").write_text(json.dumps(small, separators=(",", ":")) + "\n", encoding="utf-8")
     log(f"เขียน {out_path}: ราคาใหม่ {fresh} ตัว, ผิดพลาด {len(errors)} ตัว")
     return 0
 
