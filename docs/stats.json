@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-14T23:52:38Z",
+ "generated_at": "2026-11-15T06:18:54Z",
  "since": "2026-08-30",
  "backfill": 363,
  "overall": {
-  "total": 381,
+  "total": 401,
   "d1": {
    "evaluated": 300,
    "hit_rate": 55.3,
@@ -82,6 +82,26 @@
    "name": "ภาษีนำเข้า/สงครามการค้า"
   },
   {
+   "total": 30,
+   "d1": {
+    "evaluated": 20,
+    "hit_rate": 60.0,
+    "avg_edge": 0.16
+   },
+   "d5": {
+    "evaluated": 20,
+    "hit_rate": 45.0,
+    "avg_edge": 0.29
+   },
+   "d20": {
+    "evaluated": 20,
+    "hit_rate": 15.0,
+    "avg_edge": -7.08
+   },
+   "id": "oil_down",
+   "name": "น้ำมันลง"
+  },
+  {
    "total": 24,
    "d1": {
     "evaluated": 24,
@@ -103,26 +123,6 @@
   },
   {
    "total": 20,
-   "d1": {
-    "evaluated": 20,
-    "hit_rate": 60.0,
-    "avg_edge": 0.16
-   },
-   "d5": {
-    "evaluated": 20,
-    "hit_rate": 45.0,
-    "avg_edge": 0.29
-   },
-   "d20": {
-    "evaluated": 20,
-    "hit_rate": 15.0,
-    "avg_edge": -7.08
-   },
-   "id": "oil_down",
-   "name": "น้ำมันลง"
-  },
-  {
-   "total": 10,
    "d1": {
     "evaluated": 10,
     "hit_rate": 50.0,
