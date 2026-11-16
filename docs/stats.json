@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T01:01:51Z",
+ "generated_at": "2026-11-16T07:56:02Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -10,12 +10,12 @@
  },
  "backfill": 363,
  "overall": {
-  "total": 408,
-  "news": 48,
+  "total": 425,
+  "news": 50,
   "d1": {
-   "evaluated": 300,
-   "hit_rate": 55.3,
-   "avg_edge": 0.21
+   "evaluated": 321,
+   "hit_rate": 55.1,
+   "avg_edge": 0.2
   },
   "d5": {
    "evaluated": 300,
@@ -182,12 +182,12 @@
  },
  "signals": [
   {
-   "total": 150,
-   "news": 15,
+   "total": 160,
+   "news": 16,
    "d1": {
-    "evaluated": 150,
-    "hit_rate": 50.7,
-    "avg_edge": -0.12
+    "evaluated": 156,
+    "hit_rate": 51.3,
+    "avg_edge": -0.09
    },
    "d5": {
     "evaluated": 150,
@@ -201,6 +201,27 @@
    },
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย"
+  },
+  {
+   "total": 91,
+   "news": 13,
+   "d1": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "d5": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "d20": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า"
   },
   {
    "total": 90,
@@ -224,33 +245,12 @@
    "name": "น้ำมันขึ้น"
   },
   {
-   "total": 84,
-   "news": 12,
-   "d1": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
-   },
-   "d5": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
-   },
-   "d20": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
-   },
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า"
-  },
-  {
    "total": 30,
    "news": 3,
    "d1": {
-    "evaluated": 20,
-    "hit_rate": 60.0,
-    "avg_edge": 0.16
+    "evaluated": 25,
+    "hit_rate": 52.0,
+    "avg_edge": 0.0
    },
    "d5": {
     "evaluated": 20,
@@ -290,9 +290,9 @@
    "total": 20,
    "news": 2,
    "d1": {
-    "evaluated": 10,
-    "hit_rate": 50.0,
-    "avg_edge": 0.65
+    "evaluated": 16,
+    "hit_rate": 43.8,
+    "avg_edge": 0.13
    },
    "d5": {
     "evaluated": 10,
@@ -332,9 +332,9 @@
    "total": 4,
    "news": 1,
    "d1": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
+    "evaluated": 4,
+    "hit_rate": 100.0,
+    "avg_edge": 1.68
    },
    "d5": {
     "evaluated": 0,
