@@ -208,6 +208,19 @@
   "r1": 0.0,
   "x1": 0.0
  },
+ "oil_down|AAV|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": 0.0,
+  "x1": 0.0,
+  "base_date": "2026-11-13"
+ },
  "oil_down|BCP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -257,6 +270,19 @@
   "r1": -0.11,
   "x1": -0.11
  },
+ "oil_down|BCP|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": -0.11,
+  "x1": -0.11,
+  "base_date": "2026-11-13"
+ },
  "oil_down|COP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -302,6 +328,21 @@
   "date": "2026-11-15",
   "news_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
   "news_link": "https://www.prachachat.net/finance/news-2096088",
+  "base_date": "2026-11-13",
+  "r1": -1.48,
+  "x1": 0.18
+ },
+ "oil_down|COP|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": -1.48,
+  "x1": 0.18,
   "base_date": "2026-11-13"
  },
  "oil_down|CVX|2026-09-20": {
@@ -349,6 +390,21 @@
   "date": "2026-11-15",
   "news_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
   "news_link": "https://www.prachachat.net/finance/news-2096088",
+  "base_date": "2026-11-13",
+  "r1": -1.19,
+  "x1": 0.47
+ },
+ "oil_down|CVX|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": -1.19,
+  "x1": 0.47,
   "base_date": "2026-11-13"
  },
  "oil_down|DAL|2026-09-20": {
@@ -396,6 +452,21 @@
   "date": "2026-11-15",
   "news_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
   "news_link": "https://www.prachachat.net/finance/news-2096088",
+  "base_date": "2026-11-13",
+  "r1": 0.17,
+  "x1": 1.83
+ },
+ "oil_down|DAL|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": 0.17,
+  "x1": 1.83,
   "base_date": "2026-11-13"
  },
  "oil_down|PTTEP|2026-09-20": {
@@ -447,6 +518,19 @@
   "r1": 0.35,
   "x1": 0.35
  },
+ "oil_down|PTTEP|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": 0.35,
+  "x1": 0.35,
+  "base_date": "2026-11-13"
+ },
  "oil_down|PTT|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -495,6 +579,19 @@
   "base_date": "2026-11-13",
   "r1": 1.84,
   "x1": 1.84
+ },
+ "oil_down|PTT|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": 1.84,
+  "x1": 1.84,
+  "base_date": "2026-11-13"
  },
  "oil_down|TOP|2026-09-20": {
   "signal": "oil_down",
@@ -545,6 +642,19 @@
   "r1": 0.0,
   "x1": 0.0
  },
+ "oil_down|TOP|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": 0.0,
+  "x1": 0.0,
+  "base_date": "2026-11-13"
+ },
  "oil_down|UAL|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -590,6 +700,21 @@
   "date": "2026-11-15",
   "news_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
   "news_link": "https://www.prachachat.net/finance/news-2096088",
+  "base_date": "2026-11-13",
+  "r1": 0.59,
+  "x1": 2.24
+ },
+ "oil_down|UAL|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": 0.59,
+  "x1": 2.24,
   "base_date": "2026-11-13"
  },
  "oil_down|XOM|2026-09-20": {
@@ -637,6 +762,21 @@
   "date": "2026-11-15",
   "news_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
   "news_link": "https://www.prachachat.net/finance/news-2096088",
+  "base_date": "2026-11-13",
+  "r1": -1.85,
+  "x1": -0.19
+ },
+ "oil_down|XOM|2026-11-16": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-16",
+  "news_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+  "news_link": "https://www.infoquest.co.th/2026/680577",
+  "r1": -1.85,
+  "x1": -0.19,
   "base_date": "2026-11-13"
  },
  "oil_up|AAV|2026-09-01": {
@@ -2286,7 +2426,9 @@
   "date": "2026-11-15",
   "news_title": "วิทัย ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี แก้โครงสร้าง-ลั่นต้องลงมือทำ",
   "news_link": "https://www.prachachat.net/finance/news-2096726",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -1.94,
+  "x1": -0.28
  },
  "rate_cut|BBL|2026-09-06": {
   "signal": "rate_cut",
@@ -2408,7 +2550,9 @@
   "date": "2026-11-15",
   "news_title": "วิทัย ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี แก้โครงสร้าง-ลั่นต้องลงมือทำ",
   "news_link": "https://www.prachachat.net/finance/news-2096726",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -1.98,
+  "x1": -0.32
  },
  "rate_cut|KBANK|2026-09-06": {
   "signal": "rate_cut",
@@ -2499,7 +2643,9 @@
   "date": "2026-11-15",
   "news_title": "วิทัย ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี แก้โครงสร้าง-ลั่นต้องลงมือทำ",
   "news_link": "https://www.prachachat.net/finance/news-2096726",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -0.31,
+  "x1": 1.35
  },
  "rate_cut|NVDA|2026-09-06": {
   "signal": "rate_cut",
@@ -2528,7 +2674,9 @@
   "date": "2026-11-15",
   "news_title": "วิทัย ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี แก้โครงสร้าง-ลั่นต้องลงมือทำ",
   "news_link": "https://www.prachachat.net/finance/news-2096726",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -4.42,
+  "x1": -2.76
  },
  "rate_cut|SCB|2026-09-06": {
   "signal": "rate_cut",
@@ -2838,7 +2986,9 @@
   "date": "2026-11-16",
   "news_title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย",
   "news_link": "https://www.prachachat.net/finance/news-2097065",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -1.94,
+  "x1": -0.28
  },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
@@ -3960,7 +4110,9 @@
   "date": "2026-11-16",
   "news_title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย",
   "news_link": "https://www.prachachat.net/finance/news-2097065",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -1.98,
+  "x1": -0.32
  },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
@@ -4801,7 +4953,9 @@
   "date": "2026-11-16",
   "news_title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย",
   "news_link": "https://www.prachachat.net/finance/news-2097065",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -0.31,
+  "x1": 1.35
  },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
@@ -5080,7 +5234,9 @@
   "date": "2026-11-16",
   "news_title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย",
   "news_link": "https://www.prachachat.net/finance/news-2097065",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -4.42,
+  "x1": -2.76
  },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
@@ -5547,7 +5703,9 @@
   "date": "2026-11-14",
   "news_title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -0.8,
+  "x1": 0.86
  },
  "tariff|AAPL|2026-11-15": {
   "signal": "tariff",
@@ -5558,7 +5716,9 @@
   "date": "2026-11-15",
   "news_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
   "news_link": "https://www.infoquest.co.th/2026/679623",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -0.8,
+  "x1": 0.86
  },
  "tariff|AAPL|2026-11-16": {
   "signal": "tariff",
@@ -5569,7 +5729,9 @@
   "date": "2026-11-16",
   "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
   "news_link": "https://www.prachachat.net/economic/news-2096998",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -0.8,
+  "x1": 0.86
  },
  "tariff|CPF|2026-09-06": {
   "signal": "tariff",
@@ -5771,6 +5933,19 @@
   "r1": -2.9,
   "x1": -2.9
  },
+ "tariff|CPF|2026-11-16": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-16",
+  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
+  "news_link": "https://www.prachachat.net/economic/news-2096998",
+  "r1": -2.9,
+  "x1": -2.9,
+  "base_date": "2026-11-13"
+ },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -5970,6 +6145,19 @@
   "base_date": "2026-11-13",
   "r1": -2.37,
   "x1": -2.37
+ },
+ "tariff|DELTA|2026-11-16": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-16",
+  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
+  "news_link": "https://www.prachachat.net/economic/news-2096998",
+  "r1": -2.37,
+  "x1": -2.37,
+  "base_date": "2026-11-13"
  },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
@@ -6171,6 +6359,19 @@
   "r1": -4.6,
   "x1": -4.6
  },
+ "tariff|HANA|2026-11-16": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-16",
+  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
+  "news_link": "https://www.prachachat.net/economic/news-2096998",
+  "r1": -4.6,
+  "x1": -4.6,
+  "base_date": "2026-11-13"
+ },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6371,6 +6572,19 @@
   "r1": -3.39,
   "x1": -3.39
  },
+ "tariff|KCE|2026-11-16": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-16",
+  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
+  "news_link": "https://www.prachachat.net/economic/news-2096998",
+  "r1": -3.39,
+  "x1": -3.39,
+  "base_date": "2026-11-13"
+ },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6555,7 +6769,9 @@
   "date": "2026-11-14",
   "news_title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -5.7,
+  "x1": -4.04
  },
  "tariff|TSM|2026-11-15": {
   "signal": "tariff",
@@ -6566,7 +6782,9 @@
   "date": "2026-11-15",
   "news_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
   "news_link": "https://www.infoquest.co.th/2026/679623",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -5.7,
+  "x1": -4.04
  },
  "tariff|TSM|2026-11-16": {
   "signal": "tariff",
@@ -6577,7 +6795,9 @@
   "date": "2026-11-16",
   "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
   "news_link": "https://www.prachachat.net/economic/news-2096998",
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r1": -5.7,
+  "x1": -4.04
  },
  "tariff|TU|2026-09-06": {
   "signal": "tariff",
@@ -6778,6 +6998,19 @@
   "base_date": "2026-11-13",
   "r1": -1.49,
   "x1": -1.49
+ },
+ "tariff|TU|2026-11-16": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-16",
+  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
+  "news_link": "https://www.prachachat.net/economic/news-2096998",
+  "r1": -1.49,
+  "x1": -1.49,
+  "base_date": "2026-11-13"
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",

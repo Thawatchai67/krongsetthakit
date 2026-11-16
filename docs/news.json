@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-16T07:55:35Z",
+  "generated_at": "2026-11-16T18:26:05Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,56 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 87
+  "total_kept": 114
  },
  "signals": [
   {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 4,
-   "impacts": [
-    {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
-     "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
-     ],
-     "us": [
-      "AAPL",
-      "TSM"
-     ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
-     "link": "https://www.prachachat.net/economic/news-2096998",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-16T04:46:14Z"
-    },
-    {
-     "title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
-     "link": "https://www.infoquest.co.th/2026/679623",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-15T07:14:55Z"
-    },
-    {
-     "title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
-     "link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-14T13:30:00Z"
-    }
-   ]
-  },
-  {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 1,
+   "count": 2,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -107,10 +64,102 @@
    ],
    "evidence": [
     {
+     "title": "ราคาทองโลกดิ่งต่ำสุดกว่า 1 ปี ดอลล์แข็งทุบตลาด เก็งเฟดขึ้นดอกเบี้ย",
+     "link": "https://www.infoquest.co.th/2026/680579",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-16T16:42:56Z"
+    },
+    {
      "title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย",
      "link": "https://www.prachachat.net/finance/news-2097065",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-16T06:21:30Z"
+    }
+   ]
+  },
+  {
+   "id": "oil_down",
+   "name": "น้ำมันลง",
+   "count": 2,
+   "impacts": [
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "พลังงาน/ปิโตรเลียม",
+     "set": [
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
+     ],
+     "us": [
+      "XOM",
+      "CVX",
+      "COP"
+     ],
+     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
+    },
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "สายการบิน/ขนส่ง",
+     "set": [
+      "AAV"
+     ],
+     "us": [
+      "DAL",
+      "UAL"
+     ],
+     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+     "link": "https://www.infoquest.co.th/2026/680577",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-16T16:07:58Z"
+    },
+    {
+     "title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
+     "link": "https://www.prachachat.net/finance/news-2096088",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-15T01:00:35Z"
+    }
+   ]
+  },
+  {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 2,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
+     "link": "https://www.prachachat.net/economic/news-2096998",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-16T04:46:14Z"
+    },
+    {
+     "title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
+     "link": "https://www.infoquest.co.th/2026/679623",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-15T07:14:55Z"
     }
    ]
   },
@@ -164,118 +213,56 @@
      "published": "2026-11-15T03:06:17Z"
     }
    ]
-  },
-  {
-   "id": "oil_down",
-   "name": "น้ำมันลง",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "พลังงาน/ปิโตรเลียม",
-     "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
-     ],
-     "us": [
-      "XOM",
-      "CVX",
-      "COP"
-     ],
-     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
-    },
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
-     "link": "https://www.prachachat.net/finance/news-2096088",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-15T01:00:35Z"
-    }
-   ]
-  },
-  {
-   "id": "baht_strong",
-   "name": "บาทแข็ง",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "ผู้ส่งออก",
-     "set": [
-      "CPF",
-      "TU",
-      "DELTA"
-     ],
-     "us": [],
-     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้น้อยลง"
-    },
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
-     "set": [
-      "AAV"
-     ],
-     "us": [],
-     "why": "ต้นทุนเป็นดอลลาร์ถูกลงเมื่อแปลงเป็นบาท"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.30-34.00 จับตา GDP ไทย-สถานการณ์ตอ.กลาง",
-     "link": "https://www.infoquest.co.th/2026/679571",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-14T09:44:41Z"
-    }
-   ]
   }
  ],
  "stories": [
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 10,
-   "new_24h": 6,
-   "latest": "2026-11-16T07:51:01Z",
-   "latest_title": "ภาวะตลาดหุ้นโตเกียว: นิกเกอิปิดร่วง 2.42% เซ่นหุ้นชิป-AI อ่อนแรง วิตกอนาคต Nvidia ไม่แน่นอน"
-  },
-  {
-   "id": "bot",
-   "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 8,
-   "new_24h": 3,
-   "latest": "2026-11-16T04:58:49Z",
-   "latest_title": "ธีระชัย อดีต รมว.คลัง ร่อน จม.เปิดผนึกถึงประธานบอร์ด ธปท. เสนอแนะ 5 ประเด็นถกผู้ว่าฯ แบงก์ชาติ"
-  },
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 2,
-   "new_24h": 2,
-   "latest": "2026-11-16T06:55:00Z",
-   "latest_title": "ราคาทองวันนี้ (16 พ.ย. 69) ปรับลง 700 บาท ทองรูปพรรณบาทละ 62,550 บาท"
+   "count": 12,
+   "new_24h": 8,
+   "latest": "2026-11-16T18:11:00Z",
+   "latest_title": "Nvidia’s stock extends declines following harsh words from the U.S. government"
   },
   {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 4,
+   "count": 8,
+   "new_24h": 6,
+   "latest": "2026-11-16T17:53:00Z",
+   "latest_title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out."
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 3,
+   "new_24h": 3,
+   "latest": "2026-11-16T16:42:56Z",
+   "latest_title": "ราคาทองโลกดิ่งต่ำสุดกว่า 1 ปี ดอลล์แข็งทุบตลาด เก็งเฟดขึ้นดอกเบี้ย"
+  },
+  {
+   "id": "bot",
+   "name": "แบงก์ชาติและดอกเบี้ยไทย",
+   "count": 10,
+   "new_24h": 3,
+   "latest": "2026-11-16T11:13:02Z",
+   "latest_title": "ธปท. ชี้วิกฤต “K-Shape” ความเป็นอยู่คนภาคเหนือ 40% รายได้ไม่พอจ่าย จ่อคุม “Buy Now Pay Later”"
+  },
+  {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 8,
    "new_24h": 2,
-   "latest": "2026-11-16T06:21:30Z",
-   "latest_title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย"
+   "latest": "2026-11-16T09:51:21Z",
+   "latest_title": "UOBKH ชู 3 หุ้นแบงก์เด่น รับ สศช.เพิ่มเป้าเศรษฐกิจไทย ลุ้น MSCI หนุน 9 บิ๊กแคป"
+  },
+  {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 3,
+   "new_24h": 2,
+   "latest": "2026-11-16T09:10:18Z",
+   "latest_title": "TISA รอคลังเคาะ ก.ล.ต.ยันลดหย่อนภาษีปี’70 แน่ เร่งเตรียมระบบหุ้น-หุ้นกู้"
   },
   {
    "id": "baht",
@@ -286,20 +273,12 @@
    "latest_title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
-   "count": 2,
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 6,
    "new_24h": 1,
-   "latest": "2026-11-16T07:44:08Z",
-   "latest_title": "RAM ทุ่มงบเฉียด 6 พันลบ. ทำเทนเดอร์หุ้น THG อีก 41.63%ที่ 8 บ./หุ้น ตลท.ออกโรงเตือนนลท.ศึกษาให้ดี"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 7,
-   "new_24h": 1,
-   "latest": "2026-11-16T07:25:14Z",
-   "latest_title": "เปิดประตูตลาดจีน ! หอการค้าไทยผนึก 2 พันธมิตร ดันสินค้าไทยขายหลัวซือวาน"
+   "latest": "2026-11-16T16:07:58Z",
+   "latest_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69"
   },
   {
    "id": "trade-war",
@@ -316,17 +295,581 @@
    "new_24h": 0,
    "latest": "2026-11-15T03:57:08Z",
    "latest_title": "‘ไทย-สหรัฐ’ เจรจาภาษี 17 พ.ย. เชื่อ ‘ทรัมป์’ ไม่กดดันเหตุสองฝ่ายพอใจ"
-  },
-  {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 5,
-   "new_24h": 0,
-   "latest": "2026-11-15T01:10:48Z",
-   "latest_title": "ราคาน้ำมันวันนี้ (15 พ.ย. 69) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด"
   }
  ],
  "items": [
+  {
+   "id": "7a1df2698c83",
+   "title": "Nvidia’s stock extends declines following harsh words from the U.S. government",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-16T18:11:00Z",
+   "summary": "The Commerce Department announced a new rule aimed at restricting China’s remote access to advanced chips.",
+   "image": "https://images.mktw.net/im-76010631",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "26fce05f4bae",
+   "title": "“ทรัมป์” อาจนำเรื่อง “เจนเซน หวง” ถก “สี จิ้นผิง” นอกรอบประชุมเอเปก",
+   "link": "https://www.infoquest.co.th/2026/680583",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T18:07:30Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ กล่าวในวันนี้ (16 พ.ย.) ว่า เขาอาจหยิบยกประเด็นข้อกล่าวหาเรื่องการจารกรรมของจีนที่เกี่ยวข้องกับเจนเซน หวง อดีตซีอีโอของ Nvidia ขึ้นมาหารือในการพบปะกับประธานาธิบดี The post “ทรัมป์” อาจนำเรื่อง “เจนเซน…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "86245ac55376",
+   "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out.",
+   "link": "https://www.marketwatch.com/story/how-will-ai-shake-up-the-economy-warsh-says-the-fed-is-starting-to-figure-that-out-a72f80c4?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-16T17:53:00Z",
+   "summary": "The Federal Reserve staff is in the early days of developing various scenarios of how artificial intelligence’s growing role in business and daily life will impact the economy, Fed Chairman Kevin Warsh said Monday.",
+   "image": "https://images.mktw.net/im-09646512",
+   "score": 11,
+   "categories": [
+    "monetary",
+    "economy",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "88b2060b0531",
+   "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พุ่งกว่า 500 จุด หุ้นแบงก์นำตลาด",
+   "link": "https://www.infoquest.co.th/2026/680581",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T16:55:41Z",
+   "summary": "ดัชนี Sensex ตลาดหุ้นอินเดีย พุ่งขึ้นกว่า 500 จุดในวันนี้ ตามทิศทางตลาดหุ้นทั่วโลก แม้นักลงทุนยังคงมีความกังวลเกี่ยวกับการปรับขึ้นอัตราดอกเบี้ยของธนาคารกลางสหรัฐ (เฟด) เพื่อสกัดเงินเฟ้อ ดัชนี S&P The post ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "monetary"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "ac376635d63e",
+   "title": "ราคาทองโลกดิ่งต่ำสุดกว่า 1 ปี ดอลล์แข็งทุบตลาด เก็งเฟดขึ้นดอกเบี้ย",
+   "link": "https://www.infoquest.co.th/2026/680579",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T16:42:56Z",
+   "summary": "ราคาทองคำดิ่งลงแตะระดับต่ำสุดในรอบกว่า 1 ปีในวันนี้ โดยได้รับผลกระทบจากการแข็งค่าของดอลลาร์ ขณะที่นักลงทุนคาดการณ์ว่า ธนาคารกลางสหรัฐ (เฟด) จะเดินหน้าปรับขึ้นอัตราดอกเบี้ย หลังเจ้าหน้าที่เฟดส่งสัญญาณก The post ราคาทองโลกดิ่งต่ำสุดกว่า 1 ปี…",
+   "image": null,
+   "score": 14,
+   "categories": [
+    "monetary",
+    "gold"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed",
+    "gold"
+   ]
+  },
+  {
+   "id": "d842a4d076ed",
+   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+   "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-16T16:37:00Z",
+   "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+   "image": "https://images.mktw.net/im-53662543",
+   "score": 10,
+   "categories": [
+    "earnings",
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "4ff4d6b1cb68",
+   "title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+   "link": "https://www.infoquest.co.th/2026/680577",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T16:07:58Z",
+   "summary": "ราคาน้ำมันดิบในตลาดโลกร่วงลงในวันนี้ ล่าสุด ราคาน้ำมันดิบเบรนท์ใกล้หลุดระดับ 93 ดอลลาร์/บาร์เรล ส่วนราคาน้ำมันดิบเวสต์เท็กซัส (WTI) ร่วงหลุด 87 ดอลลาร์/บาร์เรล หลังมีสัญญาณการฟื้นตัวของการขนส่งน้ำมันผ The post น้ำมันโลกดิ่งกว่า 2% หลัง IEA…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_down"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "a47076ccacf7",
+   "title": "These 13 S&P 500 stocks can rise up to 70% over the next year, according to analysts",
+   "link": "https://www.marketwatch.com/story/these-13-s-p-500-stocks-can-rise-up-to-70-over-the-next-year-according-to-analysts-21119af9?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-16T15:47:00Z",
+   "summary": "Consensus earnings estimates have continued to increase, especially for semiconductor manufacturers whose share have declined significantly since the end of September, which underscores several calls for investors to load up on stocks.",
+   "image": "https://images.mktw.net/im-84102615",
+   "score": 7,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a1a0889373b3",
+   "title": "“ทรัมป์” เชื่อพฤติกรรม “เจนเซน หวง” ไม่กระทบความมั่นคงแห่งชาติสหรัฐ",
+   "link": "https://www.infoquest.co.th/2026/680575",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T15:26:39Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ กล่าวว่า เขาไม่คิดว่าความสัมพันธ์เชิงชู้สาวระหว่างเจนเซน หวง อดีตซีอีโอของบริษัท Nvidia กับผู้หญิงที่ถูกกล่าวหาว่าเป็นสายลับจีน จะทำให้เกิดความเสี่ยงต่อความมั่นคง The post “ทรัมป์” เชื่อพฤติกรรม “เจนเซ…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "72c13bfc0b80",
+   "title": "ดาวโจนส์ดิ่งกว่า 200 จุด S&P 500/Nasdaq ร่วง หุ้นเทคฯ ฉุดตลาด",
+   "link": "https://www.infoquest.co.th/2026/680573",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T15:07:53Z",
+   "summary": "ดัชนีดาวโจนส์ดิ่งลงกว่า 200 จุดในวันนี้ สอดคล้องดัชนี S&P 500 และ Nasdaq ที่ปรับตัวลงเช่นกัน โดยได้รับแรงกดดันจากหุ้นกลุ่มเทคโนโลยี ขณะที่นักลงทุนรอการเปิดเผยผลประกอบการของบริษัท Nvidia The post ดาวโจนส์ดิ่งกว่า 200 จุด S&P 500/Nasdaq ร่วง…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e5e252879905",
+   "title": "ดอลลาร์ดีดตัววันที่ 5 ทำนิวไฮ 19 เดือน จับตาถ้อยแถลง “เควิน วอร์ช”",
+   "link": "https://www.infoquest.co.th/2026/680571",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T14:50:15Z",
+   "summary": "ดอลลาร์ดีดตัวขึ้นเป็นวันที่ 5 ติดต่อกัน แตะระดับสูงสุดในรอบ 19 เดือน ขณะที่นักลงทุนจับตาถ้อยแถลงของนายเควิน วอร์ช ประธานธนาคารกลางสหรัฐ (เฟด) ในวันนี้ (16 พ.ย.) เพื่อหาสัญญาณบ่งชี้ทิศทางนโยบายการเงินข The post ดอลลาร์ดีดตัววันที่ 5 ทำนิวไฮ…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "0c4def340ed8",
+   "title": "“บัฟเฟตต์” บริจาคหุ้น “เบิร์กเชียร์” เกือบ 2 แสนล้านบาทแก่การกุศลในเทศกาล Thanksgiving",
+   "link": "https://www.infoquest.co.th/2026/680569",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T14:25:28Z",
+   "summary": "วอร์เรน บัฟเฟตต์ นักลงทุนระดับอภิมหาเศรษฐี ประกาศบริจาคหุ้นของบริษัทเบิร์กเชียร์ แฮธาเวย์ มูลค่าราว 5,500 ล้านดอลลาร์สหรัฐ หรือราว 186,400 ล้านบาท ให้แก่กองทุนเพื่อการกุศล 4 แห่ง โดยการบริจาคของเขาในป The post “บัฟเฟตต์” บริจาคหุ้น “เบิร์ก…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "7092ebb83812",
+   "title": "บอนด์ยีลด์ร่วง นักลงทุนจับตาถ้อยแถลง “เควิน วอร์ช”",
+   "link": "https://www.infoquest.co.th/2026/680567",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T13:38:27Z",
+   "summary": "อัตราผลตอบแทนพันธบัตรรัฐบาลสหรัฐปรับตัวลง ขณะที่นักลงทุนจับตาถ้อยแถลงของนายเควิน วอร์ช ประธานธนาคารกลางสหรัฐ (เฟด) ในวันนี้ (16 พ.ย.) เพื่อหาสัญญาณบ่งชี้ทิศทางนโยบายการเงินของเฟด ณ เวลา 20.29 น. The post บอนด์ยีลด์ร่วง นักลงทุนจับตาถ้อยแถล…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "1334e1383354",
+   "title": "ดาวโจนส์ฟิวเจอร์จับมือ S&P 500/Nasdaq ร่วง หุ้นเทคฯ กดดันตลาด",
+   "link": "https://www.infoquest.co.th/2026/680565",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T13:18:36Z",
+   "summary": "ดัชนีดาวโจนส์ฟิวเจอร์ร่วงลงในวันนี้ สอดคล้องดัชนี S&P 500 ฟิวเจอร์ และ Nasdaq ฟิวเจอร์ที่ปรับตัวลงเช่นกัน โดยได้รับแรงกดดันจากหุ้นกลุ่มเทคโนโลยี ขณะที่นักลงทุนรอการเปิดเผยผลประกอบการของบริษัท The post ดาวโจนส์ฟิวเจอร์จับมือ S&P 500/Nasdaq…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "29f993f99b98",
+   "title": "RAM ทุ่ม 5.96 พันล้าน เทกโอเวอร์ THG เพิ่มสัดส่วนถือหุ้นสูงสุด 91.62%",
+   "link": "https://www.prachachat.net/finance/news-2097476",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T12:31:25Z",
+   "summary": "บอร์ด RAM ไฟเขียวทุ่ม 5.96 พันล้านบาท ทำเทนเดอร์หุ้น THG ราคา 8 บาทต่อหุ้น หวังเพิ่มสัดส่วนถือหุ้นจาก 49.99% เป็นสูงสุด 91.62% เตรียมกู้เงินกรุงศรีฯ-ยูโอบี เปิดรับซื้อ 26 พ.ย. 69 ถึง 5 ม.ค. 70 นายแพทย์พิชญ สมบูรณสิน ประธานกรรมการ บริษัท โร…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/1697536802.jpg",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9581cb854acc",
+   "title": "EGCO กำไร Q3 แตะ 5,995 ล้าน ปักหมุดสหรัฐฯ รับกระแส Data Center-AI",
+   "link": "https://www.prachachat.net/business/news-2097456",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T11:30:36Z",
+   "summary": "EGCO Group โชว์กำไรไตรมาส 3/69 พุ่ง 1,014% แตะ 5,995 ล้านบาท ดันกำไร 9 เดือนทะลุ 7,533 ล้านบาท เดินหน้าขยายพอร์ตลงทุนสหรัฐฯ รับดี นายธวัชชัย สำราญวานิช กรรมการผู้จัดการใหญ่ บริษัท ผลิตไฟฟ้า จำกัด (มหาชน) หรือ EGCO Group เปิดเผยผลการดำเนินง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__84828227_0.jpg",
+   "score": 8,
+   "categories": [
+    "earnings",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "5cc7d1094980",
+   "title": "ธปท. ชี้วิกฤต “K-Shape” ความเป็นอยู่คนภาคเหนือ 40% รายได้ไม่พอจ่าย จ่อคุม “Buy Now Pay Later”",
+   "link": "https://www.prachachat.net/economic/local-economy/news-2097426",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T11:13:02Z",
+   "summary": "ธปท. เผยวิกฤต “K-Shape” ความเป็นอยู่คนภาคเหนือ พบครัวเรือน 40% รายได้ไม่พอรายจ่าย ย้ำปัญหาเชิงโครงสร้างแก้ไม่ได้ด้วยโครงการเดียว เผยเด็กยุคใหม่ครึ่งหนึ่งพึ่งสินเชื่อออนไลน์จนเป็น NPL จ่อคุมเข้ม “Buy Now Pay Later” “ซื้อก่อนผ่อนทีหลั … อ่าน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/web-2026-11-16T180445.407.jpg",
+   "score": 6,
+   "categories": [
+    "monetary",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "d61c8b65af13",
+   "title": "ราคาทองวันนี้ (16 พ.ย. 69) ปรับลง 400 บาท ทองรูปพรรณบาทละ 62,850 บาท",
+   "link": "https://www.prachachat.net/finance/news-2096899",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T10:31:56Z",
+   "summary": "อัพเดตล่าสุด 16 พ.ย. 2569 เวลา 17.03 น. ราคาทองคำวันนี้ (16 พ.ย. 2569) ปรับลง 400 บาท เมื่อเทียบกับราคาปิดวานนี้ ทองรูปพรรณขายออกที่บาทละ 62,850 บาท อ้างอิงข้อมูลล่าสุดจากสมาคมค้าทองคำ ที่เผยแพร่ผ่านทางเว็บไซต์ เมื่อเวลา 17.03 น. ที่ผ่านมา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/08/gold-1.jpg",
+   "score": 5,
+   "categories": [
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "9e1dcaf73415",
+   "title": "UOBKH ชู 3 หุ้นแบงก์เด่น รับ สศช.เพิ่มเป้าเศรษฐกิจไทย ลุ้น MSCI หนุน 9 บิ๊กแคป",
+   "link": "https://www.prachachat.net/finance/news-2097368",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T09:51:21Z",
+   "summary": "บล.ยูโอบี เคย์เฮียน มองบวกสภาพัฒน์ปรับเพิ่มคาดการณ์ GDP ไทยปี 2569 เป็น 2.5% หนุนสินเชื่อแบงก์ ชู KBANK-BBL-CREDIT เด่น พร้อมจับตา 9 หุ้นใหญ่รับโอกาส MSCI เพิ่มน้ำหนักลงทุนในตลาดหุ้นไทย บริษัทหลักทรัพย์ ยูโอบี เคย์เฮียน (ประเทศไทย) จำกัด (…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/stock-6.jpg",
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "6ffea958f0a5",
+   "title": "TFG รุกตั้งบริษัทย่อยอินโดนีเซีย ต่อยอดปศุสัตว์ โชว์กำไร 2 พันล้าน",
+   "link": "https://www.prachachat.net/biz-movement/news-2097347",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T09:26:28Z",
+   "summary": "TFG เดินหน้าขยายฐานธุรกิจต่างประเทศ ล่าสุดตั้งบริษัทย่อยในอินโดนีเซีย ลุยฟาร์มไก่และโรงงานอาหารสัตว์ เสริมทัพฐานการผลิตเวียดนามที่เป็น Growth Engine สำคัญ พร้อมโชว์กำไรไตรมาส 3/2569 โต 18.80% กวาดรายได้กว่า 2 หมื่นล้านบาท บอร์ดเคาะจ่ายปันผ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/TFG.jpg",
+   "score": 4,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "1d09a3fdde2d",
+   "title": "เอกนิติ เชื่อมั่นธนาคารกลางต้องอิสระ ยันไม่แทรกแซงกลไกแบงก์ชาติ",
+   "link": "https://www.prachachat.net/finance/news-2097355",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T09:24:08Z",
+   "summary": "เอกนิติย้ำชัดเชื่อในความเป็นอิสระของธนาคารกลาง (Central Bank Independence) ยันไม่แทรกแซงกลไกแบงก์ชาติ-รักษาบทบาท รมว.คลัง ดร.เอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยว่า จากกรณีที่ประธานกรรมการธนาคารแห่…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover1-34.jpg",
+   "score": 9,
+   "categories": [
+    "monetary",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "488deda41154",
+   "title": "เอกนิติ นำทัพเอกชนบินญี่ปุ่นหารือ 3 ธุรกิจ สร้าง Made with Thailand อุ้ม SMEs ไทย",
+   "link": "https://www.prachachat.net/finance/news-2097338",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T09:14:37Z",
+   "summary": "เอกนิติ นำทัพเอกชนบินญี่ปุ่นหารือ 3 ธุรกิจ ยานยนต์-Advanced Electronics-Digital Infrastructure สร้าง Made with Thailand อุ้ม SMEs ไทย ดร.เอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยว่า ในวันที่ 16-21 พ.ย.…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-113.jpg",
+   "score": 4,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0bb258f9e17c",
+   "title": "TISA รอคลังเคาะ ก.ล.ต.ยันลดหย่อนภาษีปี’70 แน่ เร่งเตรียมระบบหุ้น-หุ้นกู้",
+   "link": "https://www.prachachat.net/finance/news-2097328",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T09:10:18Z",
+   "summary": "เลขาธิการ ก.ล.ต.ยัน TISA ยังเดินหน้าตามแผน คาดใช้สิทธิลดหย่อนภาษีได้ในปี 2570 หลังส่งเรื่องให้กระทรวงการคลังแล้ว พร้อมเตรียมระบบรองรับการลงทุนทั้งหุ้น หุ้นกู้ และพันธบัตร แต่ยังไม่ชัดเข้า ครม.วันไหน ศาสตราจารย์ ดร.พรอนงค์ บุษราตระกูล เลขาธ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-13.jpg",
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "22b81466c592",
+   "title": "ธนาคารกลางจีนปรับขึ้นสำรองเงินตราต่างประเทศในรอบ 5 ปี",
+   "link": "https://www.prachachat.net/world/news-2097297",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T09:05:38Z",
+   "summary": "ธนาคารกลางจีน (PBOC) ปรับเพิ่มอัตราเงินสำรองเงินตราต่างประเทศเป็นครั้งแรกในรอบ 5 ปี มุ่งสกัดเงินหยวนแข็งค่า เตรียมพร้อมรับมือปัจจัยลบทางเศรษฐกิจ นิกเคอิ เอเชีย (Nikkei Asia) รายงานว่า ธนาคารกลางของสาธารณรัฐประชาชนจีน (People’s Bank of Chin…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/2026-11-03T030032Z_1107473221_RC23GOA1OCBY_RTRMADP_3_CHINA-CENBANK-scaled.jpg",
+   "score": 10,
+   "categories": [
+    "monetary",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "be132fb3ea86",
+   "title": "Decoding the cyber-AI nexus",
+   "link": "https://www.ecb.europa.eu//press/financial-stability-publications/fsr/special/html/ecb.fsrart202611_02~8cca80a3c3.en.html",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-16T09:00:00Z",
+   "summary": "The rapid evolution of artificial intelligence (AI) is reshaping the cyber-threat landscape, with significant implications for financial stability in the euro area. This special feature explores the complex interplay between AI and cyberse…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "57558c902d37",
+   "title": "เอกนิติ มองคลังเดินถูกทาง ทำจีดีพีพุ่ง 2.9% เน้นการลงทุนต่อเนื่อง ช่วย K ขาล่าง",
+   "link": "https://www.prachachat.net/finance/news-2097302",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T08:54:13Z",
+   "summary": "เอกนิติ มองคลังเดินถูกทาง ทำจีดีพีพุ่ง 2.9% หลังปรับ MPI สอดคล้องความจริง เน้นการลงทุนต่อเนื่อง โต Double Digit 3 ไตรมาสติดต่อกัน หวังช่วย K ขาล่าง ดร.เอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยว่า จากตัว…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-111.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9b56016928f2",
+   "title": "‘อนุทิน’ ชง ‘เกาหลีใต้’ เพิ่มรับซื้อสินค้าเกษตรไทย ดึงลงทุนโรงงานผลิตรถ EV",
+   "link": "https://www.prachachat.net/politics/news-2097269",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T08:38:40Z",
+   "summary": "นายกฯ หารือ ประธานาธิบดีเกาหลีใต้ เร่งขยายการค้าลงทุน เสนอเพิ่มการรับซื้อเปิดตลาดสินค้าเกษตรไทย เร่งเจรจาหุ้นส่วนเศรษฐกิจ-ดึงลงทุนโรงงานผลิตชิ้นส่วนรถยนต์ไฟฟ้า นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และรัฐมนตรีว่าการกระทรวงมหาดไทย หารือทวิภาคีกั…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/20261116142410_5892.jpg",
+   "score": 3,
+   "categories": [],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "16b6c92f04f8",
+   "title": "BAM ปักธงกำไรปี’70 แตะ 1.8 พันล้าน ชูปันผล 90% เร่งปั้น JV 5 แห่ง",
+   "link": "https://www.prachachat.net/finance/news-2097277",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T08:35:00Z",
+   "summary": "BAM ตั้งเป้ากำไรปี 2570 แตะ 1,800 ล้านบาท ปรับเกมรุกสินเชื่อบ้านมาร์จิ้นสูง 70% เร่งตั้ง JV ครบ 5 แห่ง ดันศักยภาพรับโอนหนี้แสนล้านบาทต่อปี พร้อมชูนโยบายปันผล 90% ดร.รักษ์ วรกิจโภคาทร ประธานเจ้าหน้าที่บริหาร บริษัทบริหารสินทรัพย์ กรุงเทพพาณ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/08/BAM-1.jpg",
+   "score": 5,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "d44fab4f8792",
    "title": "GPI ผลงาน 9 เดือนแรกแกร่ง กำไรโต 13.11% รุกจัดคอนเสิร์ตใหญ่หมื่นที่นั่ง-อีเวนต์ไลฟ์สไตล์ดันงบ Q4/69",
@@ -567,27 +1110,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "d61c8b65af13",
-   "title": "ราคาทองวันนี้ (16 พ.ย. 69) ปรับลง 700 บาท ทองรูปพรรณบาทละ 62,550 บาท",
-   "link": "https://www.prachachat.net/finance/news-2096899",
-   "source": "ประชาชาติธุรกิจ",
-   "feed": "prachachat",
-   "region": "TH",
-   "lang": "th",
-   "central_bank": false,
-   "published": "2026-11-16T06:55:00Z",
-   "summary": "อัพเดตล่าสุด 16 พ.ย. 2569 เวลา 13.38 น. ราคาทองคำวันนี้ (16 พ.ย. 2569) ปรับลง 700 บาท เมื่อเทียบกับราคาปิดวานนี้ ทองรูปพรรณขายออกที่บาทละ 62,550 บาท อ้างอิงข้อมูลล่าสุดจากสมาคมค้าทองคำ ที่เผยแพร่ผ่านทางเว็บไซต์ เมื่อเวลา 13.38 น. ที่ผ่านมา…",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/08/gold-1.jpg",
-   "score": 5,
-   "categories": [
-    "gold"
-   ],
-   "signals": [],
-   "stories": [
-    "gold"
-   ]
   },
   {
    "id": "47ee4171deb5",
@@ -957,27 +1479,23 @@
    ]
   },
   {
-   "id": "d842a4d076ed",
-   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
-   "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
+   "id": "bdde0de930e6",
+   "title": "The impact of monetary policy on productivity",
+   "link": "https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op402.en.pdf",
+   "source": "ECB",
+   "feed": "ecb",
    "region": "GLOBAL",
    "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-15T21:32:00Z",
-   "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
-   "image": "https://images.mktw.net/im-53662543",
-   "score": 10,
+   "central_bank": true,
+   "published": "2026-11-15T23:00:00Z",
+   "summary": "This occasional paper extends previous analyses by the WGF Expert Group on Productivity of the impact of monetary policy on productivity by exploring new interactions, particularly the influence of market power and the role of productivity…",
+   "image": null,
+   "score": 5,
    "categories": [
-    "earnings",
-    "tech_ai",
-    "stock_market"
+    "monetary"
    ],
    "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
+   "stories": []
   },
   {
    "id": "8956f4d4e1c4",

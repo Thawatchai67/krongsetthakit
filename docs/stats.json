@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T11:36:00Z",
+ "generated_at": "2026-11-16T18:26:34Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -10,12 +10,12 @@
  },
  "backfill": 363,
  "overall": {
-  "total": 425,
-  "news": 50,
+  "total": 435,
+  "news": 51,
   "d1": {
-   "evaluated": 315,
-   "hit_rate": 54.6,
-   "avg_edge": 0.2
+   "evaluated": 344,
+   "hit_rate": 54.4,
+   "avg_edge": 0.21
   },
   "d5": {
    "evaluated": 300,
@@ -185,9 +185,9 @@
    "total": 160,
    "news": 16,
    "d1": {
-    "evaluated": 156,
-    "hit_rate": 51.3,
-    "avg_edge": -0.09
+    "evaluated": 160,
+    "hit_rate": 50.6,
+    "avg_edge": -0.08
    },
    "d5": {
     "evaluated": 150,
@@ -245,12 +245,12 @@
    "name": "น้ำมันขึ้น"
   },
   {
-   "total": 30,
-   "news": 3,
+   "total": 40,
+   "news": 4,
    "d1": {
-    "evaluated": 25,
-    "hit_rate": 52.0,
-    "avg_edge": 0.04
+    "evaluated": 40,
+    "hit_rate": 50.0,
+    "avg_edge": 0.15
    },
    "d5": {
     "evaluated": 20,
@@ -290,9 +290,9 @@
    "total": 20,
    "news": 2,
    "d1": {
-    "evaluated": 16,
-    "hit_rate": 43.8,
-    "avg_edge": 0.19
+    "evaluated": 20,
+    "hit_rate": 50.0,
+    "avg_edge": 0.11
    },
    "d5": {
     "evaluated": 10,
