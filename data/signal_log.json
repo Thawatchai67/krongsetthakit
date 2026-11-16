@@ -10,7 +10,7 @@
   "news_link": "https://www.infoquest.co.th/2026/679571",
   "base_date": "2026-11-13",
   "r1": 0.0,
-  "x1": 0.29
+  "x1": 0.0
  },
  "baht_strong|CPF|2026-11-14": {
   "signal": "baht_strong",
@@ -22,8 +22,8 @@
   "news_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.30-34.00 จับตา GDP ไทย-สถานการณ์ตอ.กลาง",
   "news_link": "https://www.infoquest.co.th/2026/679571",
   "base_date": "2026-11-13",
-  "r1": -2.66,
-  "x1": -2.36
+  "r1": -2.9,
+  "x1": -2.9
  },
  "baht_strong|DELTA|2026-11-14": {
   "signal": "baht_strong",
@@ -35,8 +35,8 @@
   "news_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.30-34.00 จับตา GDP ไทย-สถานการณ์ตอ.กลาง",
   "news_link": "https://www.infoquest.co.th/2026/679571",
   "base_date": "2026-11-13",
-  "r1": -3.16,
-  "x1": -2.86
+  "r1": -2.37,
+  "x1": -2.37
  },
  "baht_strong|TU|2026-11-14": {
   "signal": "baht_strong",
@@ -49,7 +49,7 @@
   "news_link": "https://www.infoquest.co.th/2026/679571",
   "base_date": "2026-11-13",
   "r1": -1.49,
-  "x1": -1.2
+  "x1": -1.49
  },
  "gold_up|AURA|2026-09-02": {
   "signal": "gold_up",
@@ -206,7 +206,7 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": 0.0,
-  "x1": 0.29
+  "x1": 0.0
  },
  "oil_down|BCP|2026-09-20": {
   "signal": "oil_down",
@@ -254,8 +254,8 @@
   "news_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
-  "r1": 0.11,
-  "x1": 0.4
+  "r1": -0.11,
+  "x1": -0.11
  },
  "oil_down|COP|2026-09-20": {
   "signal": "oil_down",
@@ -444,8 +444,8 @@
   "news_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
-  "r1": 0.69,
-  "x1": 0.99
+  "r1": 0.35,
+  "x1": 0.35
  },
  "oil_down|PTT|2026-09-20": {
   "signal": "oil_down",
@@ -493,8 +493,8 @@
   "news_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
-  "r1": 1.32,
-  "x1": 1.61
+  "r1": 1.84,
+  "x1": 1.84
  },
  "oil_down|TOP|2026-09-20": {
   "signal": "oil_down",
@@ -543,7 +543,7 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": 0.0,
-  "x1": 0.29
+  "x1": 0.0
  },
  "oil_down|UAL|2026-09-20": {
   "signal": "oil_down",
@@ -2317,7 +2317,7 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": -0.27,
-  "x1": 0.02
+  "x1": -0.27
  },
  "rate_cut|CPN|2026-09-06": {
   "signal": "rate_cut",
@@ -2348,7 +2348,7 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": 0.0,
-  "x1": 0.29
+  "x1": 0.0
  },
  "rate_cut|DELTA|2026-09-06": {
   "signal": "rate_cut",
@@ -2378,8 +2378,8 @@
   "news_title": "วิทัย ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี แก้โครงสร้าง-ลั่นต้องลงมือทำ",
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
-  "r1": -3.16,
-  "x1": -2.86
+  "r1": -2.37,
+  "x1": -2.37
  },
  "rate_cut|JPM|2026-09-06": {
   "signal": "rate_cut",
@@ -2438,8 +2438,8 @@
   "news_title": "วิทัย ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี แก้โครงสร้าง-ลั่นต้องลงมือทำ",
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
-  "r1": 0.79,
-  "x1": 1.08
+  "r1": 1.18,
+  "x1": 1.18
  },
  "rate_cut|LH|2026-09-06": {
   "signal": "rate_cut",
@@ -2469,8 +2469,8 @@
   "news_title": "วิทัย ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี แก้โครงสร้าง-ลั่นต้องลงมือทำ",
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
-  "r1": 0.0,
-  "x1": 0.29
+  "r1": 0.56,
+  "x1": 0.56
  },
  "rate_cut|MSFT|2026-09-06": {
   "signal": "rate_cut",
@@ -2559,7 +2559,7 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": 0.65,
-  "x1": 0.94
+  "x1": 0.65
  },
  "rate_hike|BAC|2026-08-30": {
   "signal": "rate_hike",
@@ -5755,8 +5755,8 @@
   "news_title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
-  "r1": -2.66,
-  "x1": -2.36
+  "r1": -2.9,
+  "x1": -2.9
  },
  "tariff|CPF|2026-11-15": {
   "signal": "tariff",
@@ -5768,21 +5768,8 @@
   "news_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
-  "r1": -2.66,
-  "x1": -2.36
- },
- "tariff|CPF|2026-11-16": {
-  "signal": "tariff",
-  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
-  "ticker": "CPF",
-  "market": "SET",
-  "effect": "watch",
-  "date": "2026-11-16",
-  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
-  "news_link": "https://www.prachachat.net/economic/news-2096998",
-  "r1": -2.66,
-  "x1": -2.36,
-  "base_date": "2026-11-13"
+  "r1": -2.9,
+  "x1": -2.9
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -5968,8 +5955,8 @@
   "news_title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
-  "r1": -3.16,
-  "x1": -2.86
+  "r1": -2.37,
+  "x1": -2.37
  },
  "tariff|DELTA|2026-11-15": {
   "signal": "tariff",
@@ -5981,21 +5968,8 @@
   "news_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
-  "r1": -3.16,
-  "x1": -2.86
- },
- "tariff|DELTA|2026-11-16": {
-  "signal": "tariff",
-  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
-  "ticker": "DELTA",
-  "market": "SET",
-  "effect": "watch",
-  "date": "2026-11-16",
-  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
-  "news_link": "https://www.prachachat.net/economic/news-2096998",
-  "r1": -3.16,
-  "x1": -2.86,
-  "base_date": "2026-11-13"
+  "r1": -2.37,
+  "x1": -2.37
  },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
@@ -6181,8 +6155,8 @@
   "news_title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
-  "r1": -5.24,
-  "x1": -4.95
+  "r1": -4.6,
+  "x1": -4.6
  },
  "tariff|HANA|2026-11-15": {
   "signal": "tariff",
@@ -6194,21 +6168,8 @@
   "news_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
-  "r1": -5.24,
-  "x1": -4.95
- },
- "tariff|HANA|2026-11-16": {
-  "signal": "tariff",
-  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
-  "ticker": "HANA",
-  "market": "SET",
-  "effect": "watch",
-  "date": "2026-11-16",
-  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
-  "news_link": "https://www.prachachat.net/economic/news-2096998",
-  "r1": -5.24,
-  "x1": -4.95,
-  "base_date": "2026-11-13"
+  "r1": -4.6,
+  "x1": -4.6
  },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
@@ -6394,8 +6355,8 @@
   "news_title": "Washington can start delivering on affordability by rejecting Trump’s tariffs",
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
-  "r1": -4.66,
-  "x1": -4.37
+  "r1": -3.39,
+  "x1": -3.39
  },
  "tariff|KCE|2026-11-15": {
   "signal": "tariff",
@@ -6407,21 +6368,8 @@
   "news_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
-  "r1": -4.66,
-  "x1": -4.37
- },
- "tariff|KCE|2026-11-16": {
-  "signal": "tariff",
-  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
-  "ticker": "KCE",
-  "market": "SET",
-  "effect": "watch",
-  "date": "2026-11-16",
-  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
-  "news_link": "https://www.prachachat.net/economic/news-2096998",
-  "r1": -4.66,
-  "x1": -4.37,
-  "base_date": "2026-11-13"
+  "r1": -3.39,
+  "x1": -3.39
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -6816,7 +6764,7 @@
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
   "r1": -1.49,
-  "x1": -1.2
+  "x1": -1.49
  },
  "tariff|TU|2026-11-15": {
   "signal": "tariff",
@@ -6829,20 +6777,7 @@
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
   "r1": -1.49,
-  "x1": -1.2
- },
- "tariff|TU|2026-11-16": {
-  "signal": "tariff",
-  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
-  "ticker": "TU",
-  "market": "SET",
-  "effect": "watch",
-  "date": "2026-11-16",
-  "news_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
-  "news_link": "https://www.prachachat.net/economic/news-2096998",
-  "r1": -1.49,
-  "x1": -1.2,
-  "base_date": "2026-11-13"
+  "x1": -1.49
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",

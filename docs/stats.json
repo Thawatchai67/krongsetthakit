@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T07:56:02Z",
+ "generated_at": "2026-11-16T11:36:00Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -13,8 +13,8 @@
   "total": 425,
   "news": 50,
   "d1": {
-   "evaluated": 321,
-   "hit_rate": 55.1,
+   "evaluated": 315,
+   "hit_rate": 54.6,
    "avg_edge": 0.2
   },
   "d5": {
@@ -250,7 +250,7 @@
    "d1": {
     "evaluated": 25,
     "hit_rate": 52.0,
-    "avg_edge": 0.0
+    "avg_edge": 0.04
    },
    "d5": {
     "evaluated": 20,
@@ -292,7 +292,7 @@
    "d1": {
     "evaluated": 16,
     "hit_rate": 43.8,
-    "avg_edge": 0.13
+    "avg_edge": 0.19
    },
    "d5": {
     "evaluated": 10,
@@ -333,8 +333,8 @@
    "news": 1,
    "d1": {
     "evaluated": 4,
-    "hit_rate": 100.0,
-    "avg_edge": 1.68
+    "hit_rate": 75.0,
+    "avg_edge": 1.69
    },
    "d5": {
     "evaluated": 0,
