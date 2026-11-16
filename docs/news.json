@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-16T00:58:19Z",
+  "generated_at": "2026-11-16T01:01:27Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -198,7 +198,7 @@
    "id": "bot",
    "name": "แบงก์ชาติและดอกเบี้ยไทย",
    "count": 7,
-   "new_24h": 5,
+   "new_24h": 4,
    "latest": "2026-11-15T09:32:22Z",
    "latest_title": "เปิดปมร้าว ประธานบอร์ด-ผู้ว่าฯ แบงก์ชาติ"
   },
@@ -214,17 +214,9 @@
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 6,
-   "new_24h": 3,
+   "new_24h": 2,
    "latest": "2026-11-15T07:14:55Z",
    "latest_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน"
-  },
-  {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 5,
-   "new_24h": 2,
-   "latest": "2026-11-15T01:10:48Z",
-   "latest_title": "ราคาน้ำมันวันนี้ (15 พ.ย. 69) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด"
   },
   {
    "id": "baht",
@@ -259,10 +251,18 @@
    "latest_title": "SET เริ่มใช้ 8 เกณฑ์ใหม่ ลด Tick Size-ปรับขายชอร์ต-เปิดทาง HFT โบรกฯ ประเมินเอฟเฟ็กต์ตลาด"
   },
   {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 5,
+   "new_24h": 1,
+   "latest": "2026-11-15T01:10:48Z",
+   "latest_title": "ราคาน้ำมันวันนี้ (15 พ.ย. 69) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด"
+  },
+  {
    "id": "thai-economy",
    "name": "เศรษฐกิจไทย",
    "count": 6,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-15T01:00:35Z",
    "latest_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง"
   }
@@ -279,6 +279,7 @@
    "central_bank": false,
    "published": "2026-11-16T00:54:05Z",
    "summary": "ดัชนีนิกเกอิตลาดหุ้นโตเกียวร่วงลงกว่า 400 จุดหลังตลาดเปิดทำการได้เพียง 15 นาทีในวันนี้ (16 พ.ย.) โดยถูกกดดันจากแรงเทขายหุ้นกลุ่มที่เกี่ยวข้องกับเซมิคอนดักเตอร์ ท่ามกลางความไม่แน่นอนที่เพิ่มขึ้นเกี่ยวก The post ภาวะตลาดหุ้นโตเกียว: นิกเกอิร…",
+   "image": null,
    "score": 10,
    "categories": [
     "stock_market",
@@ -300,6 +301,7 @@
    "central_bank": false,
    "published": "2026-11-16T00:53:32Z",
    "summary": "ค่าเงินบาทวันนี้ (16 พ.ย. 69) เปิดตลาดที่ระดับ 33.87 บาทต่อดอลลาร์ โดยกรอบแนวรับอยู่ที่ 33.60 บาท แนวต้าน 34.00 บาทต่อดอลลาร์ ผู้สื่อข่าวรายงานว่า ฝ่ายธุรกิจตลาดเงินและธุรกรรมระหว่างประเทศ ทีทีบี เปิดเผยว่า ค่าเงินบาทเช้านี้เปิดตลาดที่ระดั…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/10/money.jpg",
    "score": 6,
    "categories": [
     "fx"
@@ -320,6 +322,7 @@
    "central_bank": false,
    "published": "2026-11-16T00:45:19Z",
    "summary": "สรุปภาพรวมการซื้อขายหุ้นผ่าน NVDR ประจำวันที่ 13 พฤศจิกายน 2569 พบว่ามีมูลค่าการซื้อสุทธิรวมทั้งหมด (SET+MAI) จำนวน 1,925.67 ล้านบาท โดยหุ้นที่มีมูลค่าซื้อขายสูงสุด 100 อันดับแรก ได้แก่ ชื่อหุ้น The post รายงานการซื้อขายหุ้นผ่าน NVDR ประจำ…",
+   "image": null,
    "score": 5,
    "categories": [
     "stock_market"
@@ -338,6 +341,7 @@
    "central_bank": false,
    "published": "2026-11-16T00:35:09Z",
    "summary": "รัฐบาลเวียดนามประกาศลดอัตราภาษีสรรพสามิตน้ำมันเบนซินทุกประเภทลงเหลือ 0% เป็นเวลา 5 เดือน เริ่มมีผลตั้งแต่วันที่ 1 พฤศจิกายน 2569 ถึงวันที่ 31 มีนาคม 2570 เพื่อช่วยลดค่าครองชีพ บรรเทาต้นทุนภาคธุรกิจ ควบคุมเงินเฟ้อ และรักษาเสถียรภาพตลาดพลังง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Vietnam-tax-fuel.png",
    "score": 8,
    "categories": [
     "oil_energy",
@@ -357,6 +361,7 @@
    "central_bank": false,
    "published": "2026-11-16T00:25:02Z",
    "summary": "ทั้งนี้ ดัชนีดาวโจนส์ฟิวเจอร์ดีดตัวขึ้น 0.1% ขณะที่ Nasdaq-100 ฟิวเจอร์ ปรับตัวขึ้น 0.6% และดัชนี S&P 500 ฟิวเจอร์ บวก 0.3% บริษัทอินวิเดียมีกำหนดเปิดเผยผลประกอบการหลังตลาดวอลล์สตรีทปิดทำการในวันอ The post World Today: ประเด็นข่าวต่างประเท…",
+   "image": null,
    "score": 3,
    "categories": [
     "stock_market"
@@ -375,6 +380,7 @@
    "central_bank": false,
    "published": "2026-11-16T00:04:09Z",
    "summary": "ข้อมูลการขายชอร์ตและข้อมูลการขายชอร์ตที่ยังไม่ได้ซื้อคืน ภาพรวมตลาด (SET และ mai) วันที่ มูลค่าการขายชอร์ต (ล้านบาท) % มูลค่าการขายชอร์ตเทียบกับมูลค่าการซื้อขายรวม 13 พ.ย. 2569 1,731.20 2.76% The post รายงานหุ้นถูกชอร์ตเซล ประจำวันที่ 13 พ…",
+   "image": null,
    "score": 5,
    "categories": [
     "stock_market"
@@ -393,6 +399,7 @@
    "central_bank": false,
    "published": "2026-11-15T23:47:36Z",
    "summary": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT ในวันศุกร์ (13 พ.ย.) สัญญาธัญพืชปิดบวกทั้งกระดาน โดยสัญญาข้าวสาลีดีดตัวขึ้นกว่า 1.5% หลังมีรายงานว่ารัสเซียและยูเครนยังคงเดินหน้าโจมตีกันอย่างต่อเนื่อง ภายหลังจากทั้งสองฝ่า The post ภาวะตลาดสินค้าโภคภัณฑ์ CBOT:…",
+   "image": null,
    "score": 4,
    "categories": [
     "trade_geo"
@@ -411,6 +418,7 @@
    "central_bank": false,
    "published": "2026-11-15T23:20:04Z",
    "summary": "สัญญาทองแดงตลาดนิวยอร์กปิดลบในวันศุกร์ (13 พ.ย.) โดยตลาดถูกกดดันจากการแข็งค่าของสกุลเงินดอลลาร์ รวมทั้งความกังวลว่าภาวะเงินเฟ้อสูงอาจกดดันให้ธนาคารกลางสหรัฐฯ (เฟด) ปรับขึ้นอัตราดอกเบี้ยเชิงรุก The post ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดลบ 1…",
+   "image": null,
    "score": 7,
    "categories": [
     "monetary"
@@ -431,6 +439,7 @@
    "central_bank": false,
    "published": "2026-11-15T21:32:00Z",
    "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+   "image": "https://images.mktw.net/im-53662543",
    "score": 10,
    "categories": [
     "earnings",
@@ -453,6 +462,7 @@
    "central_bank": false,
    "published": "2026-11-15T15:22:00Z",
    "summary": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
+   "image": "https://images.mktw.net/im-49936413",
    "score": 3,
    "categories": [
     "stock_market"
@@ -489,6 +499,7 @@
    "central_bank": false,
    "published": "2026-11-15T12:53:31Z",
    "summary": "นายกฯ หารือ ผู้นำ-สภาที่ปรึกษาธุรกิจอาเซียน เสนอ 3 แนวทางเชื่อมโยงเศรษฐกิจดิจิทัล ร่วมสร้างสรรค์นวัตกรรมและการลงทุนร่วมกัน เพื่อเพิ่มโอกาสธุรกิจ ย้ำไทยพร้อมผลักดันความตกลงกรอบเศรษฐกิจดิจิทัลอาเซียน นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และ รมว.…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/20261115153831_4857.jpg",
    "score": 4,
    "categories": [
     "economy"
@@ -545,6 +556,7 @@
    "central_bank": false,
    "published": "2026-11-15T09:32:22Z",
    "summary": "นับว่าสร้างความประหลาดใจให้กับสังคม เป็นอย่างมาก ที่อยู่ ๆ “สมชัย สัจจพงษ์” ประธานกรรมการธนาคารแห่งประเทศไทย (ธปท.) ที่เคยอยู่แบบเงียบ ๆ มาตลอด หลังจากเข้าดำรงตำแหน่งประธานบอร์ด ธปท. ตั้งแต่เมื่อวันที่ 2 มิถุนายน 2568 เป็นต้นมา ก็ออกมาให้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/656678.jpg",
    "score": 3,
    "categories": [
     "monetary"
@@ -603,6 +615,7 @@
    "central_bank": false,
    "published": "2026-11-15T08:13:02Z",
    "summary": "สนค.จับตาภัยไซเบอร์โจมตีระบบตู้แช่ซูเปอร์มาร์เก็ตยุโรป ทำระบบทำความเย็นผิดปกติ สินค้าอาหารเสียหาย สะท้อนความเสี่ยงใหม่ต่อความมั่นคงทางอาหารโลก เปิด 6 ปัจจัยท้าทายอุตสาหกรรมอาหาร แนะไทยเร่งยกระดับมาตรฐานความปลอดภัย-ระบบตรวจสอบย้อนกลับ เพิ่ม…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__121323535.jpg",
    "score": 3,
    "categories": [
     "economy"
@@ -621,6 +634,7 @@
    "central_bank": false,
    "published": "2026-11-15T08:04:47Z",
    "summary": "“ปิยะรัฐชย์” คิกออฟจุดรับซื้อข้าวเปลือกปีการผลิต 2569/70 ที่ร้อยเอ็ด เดินหน้าใช้กลไกสหกรณ์พยุงราคาข้าว เพิ่มอำนาจต่อรองเกษตรกร ชู 2 โครงการสินเชื่อรวบรวมข้าว-ชะลอขาย พร้อมเตรียมเงินสำรองฉุกเฉินจากกองทุนพัฒนาสหกรณ์ รองรับการรับซื้อผลผลิตระห…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/557565.jpg",
    "score": 4,
    "categories": [
     "bank_property"
@@ -639,6 +653,7 @@
    "central_bank": false,
    "published": "2026-11-15T07:58:11Z",
    "summary": "กรมการค้าภายในลุยเชียงใหม่-ลำพูน แก้ปัญหาลำไยนอกฤดู 7 แสนตัน หลังประเทศคู่ค้าเข้มงวดนำเข้า ฉุดส่งออกชะลอตัว ขณะที่ผลผลิตออกตลาดแล้ว 20-30% เร่งดูดซับ 4 หมื่นตัน ดึงห้างค้าปลีก-ค้าส่ง ไปรษณีย์ไทย และค่ายอสังหาฯ “แสนสิริ-ศุภาลัย-เอพี-ไอริส”…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__257908758.jpg",
    "score": 4,
    "categories": [
     "economy"
@@ -657,6 +672,7 @@
    "central_bank": false,
    "published": "2026-11-15T07:54:00Z",
    "summary": "ร่วม 10 ปีที่บริษัท เสนา ดีเวลลอปเม้นท์ จำกัด (มหาชน) และ บริษัท ฮันคิว ฮันชิน พร็อพเพอร์ตี้ส์ คอร์ป บิ๊กอสังหาฯญี่ปุ่นอายุกว่า 100 ปี จับมือกันพัฒนาที่อยู่อาศัยในไทย 69 โครงการ มูลค่ารวม 84,558 ล้านบาท ภายใต้บริษัทร่วมทุน “เสนา ฮันคิว ฮัน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/6-1POK-4.jpg",
    "score": 4,
    "categories": [
     "bank_property"
@@ -717,6 +733,7 @@
    "central_bank": false,
    "published": "2026-11-15T05:24:47Z",
    "summary": "“ศุภจี” เผยอาเซียนลงนามความตกลงเศรษฐกิจดิจิทัล DEFA สำเร็จ หลังไทยนั่งประธานเจรจาตั้งแต่ปี 2566 เดินหน้าลดอุปสรรคการค้าข้ามพรมแดน เชื่อมระบบชำระเงิน-ยืนยันตัวตนดิจิทัล เปิดทาง SMEs ไทยบุกตลาดอาเซียน เร่งกระบวนการให้สัตยาบัน หวังมีผลบังคับใ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/909445_0.jpg",
    "score": 3,
    "categories": [],
    "signals": [],
@@ -733,6 +750,7 @@
    "central_bank": false,
    "published": "2026-11-15T05:17:07Z",
    "summary": "นายกฯ ขึ้นเวทีสุดยอดอาเซียน ประกาศวิสัยทัศน์ไทย เสนอ 3 แนวทางขับเคลื่อนรับมือความท้าทายโลก – มุ่งสร้างอาเซียนเป็นหนึ่งเดียว ต่อยอดโครงข่ายไฟฟ้าและพลังงานหมุนเวียน ใช้ประโยชน์ AI เต็มศักยภาพโดยไม่ต้องเลือกข้าง – ยึดประชาชนเป็นศูนย์กลาง นาย…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/20261115095817_7786.jpg",
    "score": 5,
    "categories": [
     "tech_ai"
@@ -769,6 +787,7 @@
    "central_bank": false,
    "published": "2026-11-15T03:57:08Z",
    "summary": "รมว.ต่างประเทศ เผย ไทย – สหรัฐฯ บรรลุหลักการใหญ่เจรจาภาษีแล้ว เหลือปรับถ้อยคำแถลงร่วมเตรียมพูดคุยภาษีการค้าตอบแทน 17 พ.ย.นี้ เชื่อ ‘ทรัมป์’ ไม่ยกปมภาษีกดดันหลังพอใจทั้งสองฝ่าย นายสีหศักดิ์ พวงเกตุแก้ว รองนายกรัฐมนตรี และรัฐมนตรีว่าก … อ่าน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/904002703_4914531805536666_8051572365938427451_n.jpeg",
    "score": 5,
    "categories": [
     "trade_geo"
@@ -808,6 +827,7 @@
    "central_bank": false,
    "published": "2026-11-15T03:34:00Z",
    "summary": "ดีเดย์วันที่ 16 พ.ย. 2569 เป็นต้นไป ตลาดหลักทรัพย์แห่งประเทศไทย (ตลท.) เริ่มบังคับใช้หลักเกณฑ์การซื้อขายหลักทรัพย์ใหม่รวม 8 มาตรการ โดย “อัสสเดช คงสิริ” กรรมการและผู้จัดการ ตลาดหลักทรัพย์ฯ กล่าวว่า การปรับเกณฑ์ครั้งนี้เพื่อให้สอดคล้องกับพฤ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/SET.jpg",
    "score": 3,
    "categories": [
     "stock_market"
@@ -848,6 +868,7 @@
    "central_bank": false,
    "published": "2026-11-15T03:06:17Z",
    "summary": "วิทัย รัตนากร ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี ลดดอกเบี้ย 2 ครั้ง 18 โครงการแก้ปัญหาโครงสร้าง ลั่นต้องลงมือทำ ไม่ใช่วิจารณ์อย่างเดียว นายวิทัย รัตนากร ผู้ว่าการธนาคารแห่งประเทศไทย (ธปท.) โพสต์เฟซบุ๊ก ระบุว่า “ผมมักพูดเสมอว่า “ปัญหาเชิงโคร…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/09/Cover-54.jpg",
    "score": 5,
    "categories": [
     "monetary"
@@ -1363,6 +1384,7 @@
    "central_bank": true,
    "published": "2026-11-12T17:45:00Z",
    "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+   "image": null,
    "score": 5,
    "categories": [
     "monetary"
@@ -1383,6 +1405,7 @@
    "central_bank": true,
    "published": "2026-11-12T10:00:00Z",
    "summary": "This paper estimates the macroeconomic effects of defence spending for a panel of up to 27 EU member states over 1999–2025 using Panel Local Projections. We look beyond the output multiplier that dominates the literature to trace the price…",
+   "image": null,
    "score": 4,
    "categories": [
     "economy"
@@ -1401,6 +1424,7 @@
    "central_bank": true,
    "published": "2026-11-12T09:00:00Z",
    "summary": "This box introduces a new quantitative methodology to evaluate alternative scenarios around the Eurosystem/ECB staff baseline projections, with a focus on their empirical plausibility. In a first step, the methodology constructs joint pred…",
+   "image": null,
    "score": 4,
    "categories": [
     "trade_geo"
@@ -1419,6 +1443,7 @@
    "central_bank": true,
    "published": "2026-11-12T09:00:00Z",
    "summary": "",
+   "image": null,
    "score": 4,
    "categories": [
     "economy"
@@ -1437,6 +1462,7 @@
    "central_bank": true,
    "published": "2026-11-12T09:00:00Z",
    "summary": "This box examines how exposure to artificial intelligence (AI) is reflected in the market-based financing conditions of European firms. Using a novel firm-level measure of AI exposure derived from the earnings call transcripts of STOXX Eur…",
+   "image": null,
    "score": 3,
    "categories": [],
    "signals": [],
@@ -1453,6 +1479,7 @@
    "central_bank": true,
    "published": "2026-11-11T09:00:00Z",
    "summary": "Energy market developments continue to be shaped by the conflict in the Middle East. Global refinery runs have fallen significantly compared to previous years, driven by reduced refinery activity in the Middle East, Russia and Asia. The co…",
+   "image": null,
    "score": 5,
    "categories": [
     "inflation"
@@ -1471,6 +1498,7 @@
    "central_bank": true,
    "published": "2026-11-10T13:00:00Z",
    "summary": "Banks are at the heart of the EU economy, making them a key channel for monetary policy transmission. However, institutional factors continue to lead to fragmentation in the sector, constraining scale, efficiency and competitiveness. As sh…",
+   "image": null,
    "score": 6,
    "categories": [
     "monetary"
@@ -1489,6 +1517,7 @@
    "central_bank": true,
    "published": "2026-11-06T15:00:00Z",
    "summary": "",
+   "image": null,
    "score": 4,
    "categories": [
     "tech_ai"
@@ -1507,6 +1536,7 @@
    "central_bank": true,
    "published": "2026-10-28T18:00:00Z",
    "summary": "Federal Reserve issues FOMC statement",
+   "image": null,
    "score": 5,
    "categories": [
     "monetary"
