@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-15T20:21:55Z",
+  "generated_at": "2026-11-16T00:58:19Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 56
+  "total_kept": 64
  },
  "signals": [
   {
@@ -203,6 +203,14 @@
    "latest_title": "เปิดปมร้าว ประธานบอร์ด-ผู้ว่าฯ แบงก์ชาติ"
   },
   {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 6,
+   "new_24h": 3,
+   "latest": "2026-11-16T00:54:05Z",
+   "latest_title": "ภาวะตลาดหุ้นโตเกียว: นิกเกอิร่วงกว่า 400 จุดเช้านี้ กังวลอนาคต Nvidia ไม่แน่นอน"
+  },
+  {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 6,
@@ -211,20 +219,28 @@
    "latest_title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน"
   },
   {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 5,
-   "new_24h": 2,
-   "latest": "2026-11-15T15:00:00Z",
-   "latest_title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years"
-  },
-  {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
    "count": 5,
    "new_24h": 2,
    "latest": "2026-11-15T01:10:48Z",
    "latest_title": "ราคาน้ำมันวันนี้ (15 พ.ย. 69) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 2,
+   "new_24h": 1,
+   "latest": "2026-11-16T00:53:32Z",
+   "latest_title": "ค่าเงินบาทวันนี้ (16 พ.ย. 69) เปิดตลาด 33.87 บาท บทวิเคราะห์ล่าสุด"
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 3,
+   "new_24h": 1,
+   "latest": "2026-11-15T23:20:04Z",
+   "latest_title": "ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดลบ 1.7% เหตุดอลล์แข็ง-กังวลเฟดขึ้นดบ.กระทบดีมานด์"
   },
   {
    "id": "thai-us-china",
@@ -249,25 +265,183 @@
    "new_24h": 1,
    "latest": "2026-11-15T01:00:35Z",
    "latest_title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง"
-  },
-  {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 1,
-   "new_24h": 0,
-   "latest": "2026-11-14T09:44:41Z",
-   "latest_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.30-34.00 จับตา GDP ไทย-สถานการณ์ตอ.กลาง"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 2,
-   "new_24h": 0,
-   "latest": "2026-11-12T17:45:00Z",
-   "latest_title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027"
   }
  ],
  "items": [
+  {
+   "id": "547aba4bb0bf",
+   "title": "ภาวะตลาดหุ้นโตเกียว: นิกเกอิร่วงกว่า 400 จุดเช้านี้ กังวลอนาคต Nvidia ไม่แน่นอน",
+   "link": "https://www.infoquest.co.th/2026/679693",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T00:54:05Z",
+   "summary": "ดัชนีนิกเกอิตลาดหุ้นโตเกียวร่วงลงกว่า 400 จุดหลังตลาดเปิดทำการได้เพียง 15 นาทีในวันนี้ (16 พ.ย.) โดยถูกกดดันจากแรงเทขายหุ้นกลุ่มที่เกี่ยวข้องกับเซมิคอนดักเตอร์ ท่ามกลางความไม่แน่นอนที่เพิ่มขึ้นเกี่ยวก The post ภาวะตลาดหุ้นโตเกียว: นิกเกอิร…",
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "2960c9d0bd7b",
+   "title": "ค่าเงินบาทวันนี้ (16 พ.ย. 69) เปิดตลาด 33.87 บาท บทวิเคราะห์ล่าสุด",
+   "link": "https://www.prachachat.net/finance/news-2096870",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T00:53:32Z",
+   "summary": "ค่าเงินบาทวันนี้ (16 พ.ย. 69) เปิดตลาดที่ระดับ 33.87 บาทต่อดอลลาร์ โดยกรอบแนวรับอยู่ที่ 33.60 บาท แนวต้าน 34.00 บาทต่อดอลลาร์ ผู้สื่อข่าวรายงานว่า ฝ่ายธุรกิจตลาดเงินและธุรกรรมระหว่างประเทศ ทีทีบี เปิดเผยว่า ค่าเงินบาทเช้านี้เปิดตลาดที่ระดั…",
+   "score": 6,
+   "categories": [
+    "fx"
+   ],
+   "signals": [],
+   "stories": [
+    "baht"
+   ]
+  },
+  {
+   "id": "4d9261e3a380",
+   "title": "รายงานการซื้อขายหุ้นผ่าน NVDR ประจำวันที่ 13 พ.ย. 2569",
+   "link": "https://www.infoquest.co.th/2026/679697",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T00:45:19Z",
+   "summary": "สรุปภาพรวมการซื้อขายหุ้นผ่าน NVDR ประจำวันที่ 13 พฤศจิกายน 2569 พบว่ามีมูลค่าการซื้อสุทธิรวมทั้งหมด (SET+MAI) จำนวน 1,925.67 ล้านบาท โดยหุ้นที่มีมูลค่าซื้อขายสูงสุด 100 อันดับแรก ได้แก่ ชื่อหุ้น The post รายงานการซื้อขายหุ้นผ่าน NVDR ประจำ…",
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "498d0e08cb35",
+   "title": "เวียดนามลดภาษีสรรพสามิตน้ำมันเหลือ 0% นาน 5 เดือน หวังกดราคาขายปลีก-พยุงเศรษฐกิจ",
+   "link": "https://www.prachachat.net/economic/news-2096861",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T00:35:09Z",
+   "summary": "รัฐบาลเวียดนามประกาศลดอัตราภาษีสรรพสามิตน้ำมันเบนซินทุกประเภทลงเหลือ 0% เป็นเวลา 5 เดือน เริ่มมีผลตั้งแต่วันที่ 1 พฤศจิกายน 2569 ถึงวันที่ 31 มีนาคม 2570 เพื่อช่วยลดค่าครองชีพ บรรเทาต้นทุนภาคธุรกิจ ควบคุมเงินเฟ้อ และรักษาเสถียรภาพตลาดพลังง…",
+   "score": 8,
+   "categories": [
+    "oil_energy",
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "06dd09d851af",
+   "title": "World Today: ประเด็นข่าวต่างประเทศน่าติดตามวันนี้",
+   "link": "https://www.infoquest.co.th/2026/679691",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T00:25:02Z",
+   "summary": "ทั้งนี้ ดัชนีดาวโจนส์ฟิวเจอร์ดีดตัวขึ้น 0.1% ขณะที่ Nasdaq-100 ฟิวเจอร์ ปรับตัวขึ้น 0.6% และดัชนี S&P 500 ฟิวเจอร์ บวก 0.3% บริษัทอินวิเดียมีกำหนดเปิดเผยผลประกอบการหลังตลาดวอลล์สตรีทปิดทำการในวันอ The post World Today: ประเด็นข่าวต่างประเท…",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "eec8b613f639",
+   "title": "รายงานหุ้นถูกชอร์ตเซล ประจำวันที่ 13 พฤศจิกายน 2569",
+   "link": "https://www.infoquest.co.th/2026/679689",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-16T00:04:09Z",
+   "summary": "ข้อมูลการขายชอร์ตและข้อมูลการขายชอร์ตที่ยังไม่ได้ซื้อคืน ภาพรวมตลาด (SET และ mai) วันที่ มูลค่าการขายชอร์ต (ล้านบาท) % มูลค่าการขายชอร์ตเทียบกับมูลค่าการซื้อขายรวม 13 พ.ย. 2569 1,731.20 2.76% The post รายงานหุ้นถูกชอร์ตเซล ประจำวันที่ 13 พ…",
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "041395aea916",
+   "title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีปิดบวก คาดรัสเซีย-ยูเครนยกระดับโจมตีกระทบอุปทาน",
+   "link": "https://www.infoquest.co.th/2026/679580",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T23:47:36Z",
+   "summary": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT ในวันศุกร์ (13 พ.ย.) สัญญาธัญพืชปิดบวกทั้งกระดาน โดยสัญญาข้าวสาลีดีดตัวขึ้นกว่า 1.5% หลังมีรายงานว่ารัสเซียและยูเครนยังคงเดินหน้าโจมตีกันอย่างต่อเนื่อง ภายหลังจากทั้งสองฝ่า The post ภาวะตลาดสินค้าโภคภัณฑ์ CBOT:…",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d801db763011",
+   "title": "ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดลบ 1.7% เหตุดอลล์แข็ง-กังวลเฟดขึ้นดบ.กระทบดีมานด์",
+   "link": "https://www.infoquest.co.th/2026/679640",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-15T23:20:04Z",
+   "summary": "สัญญาทองแดงตลาดนิวยอร์กปิดลบในวันศุกร์ (13 พ.ย.) โดยตลาดถูกกดดันจากการแข็งค่าของสกุลเงินดอลลาร์ รวมทั้งความกังวลว่าภาวะเงินเฟ้อสูงอาจกดดันให้ธนาคารกลางสหรัฐฯ (เฟด) ปรับขึ้นอัตราดอกเบี้ยเชิงรุก The post ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดลบ 1…",
+   "score": 7,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "d842a4d076ed",
+   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+   "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-15T21:32:00Z",
+   "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+   "score": 10,
+   "categories": [
+    "earnings",
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
   {
    "id": "8956f4d4e1c4",
    "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
@@ -285,28 +459,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "d842a4d076ed",
-   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
-   "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-15T15:00:00Z",
-   "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
-   "score": 10,
-   "categories": [
-    "earnings",
-    "tech_ai",
-    "stock_market"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
   },
   {
    "id": "b7b507c9ddb1",
