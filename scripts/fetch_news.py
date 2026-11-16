@@ -146,6 +146,28 @@ def clean_text(s, limit=None):
     return s
 
 
+IMG_RE = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.IGNORECASE)
+
+
+def entry_image(e):
+    """รูปประกอบข่าวจาก RSS (media:content / media:thumbnail / enclosure / <img> ในเนื้อข่าว) เฉพาะ https"""
+    cands = []
+    for key in ("media_content", "media_thumbnail"):
+        for m in e.get(key) or []:
+            cands.append(m.get("url"))
+    for enc in e.get("enclosures") or []:
+        if (enc.get("type") or "").startswith("image"):
+            cands.append(enc.get("href") or enc.get("url"))
+    for blob in [e.get("summary") or ""] + [c.get("value", "") for c in (e.get("content") or [])]:
+        m = IMG_RE.search(blob)
+        if m:
+            cands.append(html.unescape(m.group(1)))
+    for u in cands:
+        if u and u.startswith("https://") and not u.lower().endswith((".gif", ".svg")):
+            return u
+    return None
+
+
 def entry_time(e, fallback):
     for k in ("published_parsed", "updated_parsed"):
         t = e.get(k)
@@ -201,6 +223,7 @@ def collect(feeds, from_dir, now, summary_max):
                 "central_bank": bool(feed.get("central_bank")),
                 "published": entry_time(e, now).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "summary": clean_text(e.get("summary") or e.get("description"), summary_max),
+                "image": entry_image(e),
             }
         log(f"[ok] {feed['id']}: {len(d.entries)} รายการ")
     return items, errors, ok
