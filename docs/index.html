@@ -356,7 +356,10 @@ section { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
     var wide = window.matchMedia && window.matchMedia("(min-width: 1024px)").matches;
     var mk = S.market, lim = S.allMarket || wide ? mk.length : 4;
     $("pulse").innerHTML = mk.slice(0, lim).map(function (m) {
-      return '<div class="tick"><span class="n">' + esc(m.name) + '</span><div class="row"><span class="v">' + fmtNum(m.price) + "</span>" + spark(S.hist["M:" + m.key]) +
+      // ดัชนี SET: Yahoo ไม่มีราคาย้อนหลัง ระบบเก็บเองวันละจุด ระหว่างที่ยังไม่ครบ 5 วัน ใช้กราฟ TDEX (ETF ตามดัชนี SET50) แทน
+      var series = S.hist["M:" + m.key], proxy = false;
+      if (m.key === "SET" && (!series || series.length < 5) && S.hist["^SET"]) { series = S.hist["^SET"]; proxy = true; }
+      return '<div class="tick"' + (proxy ? ' title="กราฟจาก TDEX (SET50) ระหว่างรอเก็บข้อมูลดัชนี SET"' : "") + '><span class="n">' + esc(m.name) + '</span><div class="row"><span class="v">' + fmtNum(m.price) + "</span>" + spark(series) +
         '</div><span class="small">' + pctHtml(m.change_pct) + "</span></div>";
     }).join("") + (mk.length > lim ? '<button class="chip pulse-more" type="button" id="moreMk">ตลาดอื่น ' + (mk.length - lim) + " ตัว ▾</button>" : "");
     renderMood();
