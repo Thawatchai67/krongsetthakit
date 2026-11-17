@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-16T18:26:05Z",
+  "generated_at": "2026-11-17T02:27:06Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,9 +17,58 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 114
+  "total_kept": 127
  },
  "signals": [
+  {
+   "id": "oil_down",
+   "name": "น้ำมันลง",
+   "count": 2,
+   "impacts": [
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "พลังงาน/ปิโตรเลียม",
+     "set": [
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
+     ],
+     "us": [
+      "XOM",
+      "CVX",
+      "COP"
+     ],
+     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
+    },
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "สายการบิน/ขนส่ง",
+     "set": [
+      "AAV"
+     ],
+     "us": [
+      "DAL",
+      "UAL"
+     ],
+     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+     "link": "https://www.infoquest.co.th/2026/680654",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-17T01:53:52Z"
+    },
+    {
+     "title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
+     "link": "https://www.infoquest.co.th/2026/680577",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-16T16:07:58Z"
+    }
+   ]
+  },
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
@@ -74,55 +123,6 @@
      "link": "https://www.prachachat.net/finance/news-2097065",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-16T06:21:30Z"
-    }
-   ]
-  },
-  {
-   "id": "oil_down",
-   "name": "น้ำมันลง",
-   "count": 2,
-   "impacts": [
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "พลังงาน/ปิโตรเลียม",
-     "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
-     ],
-     "us": [
-      "XOM",
-      "CVX",
-      "COP"
-     ],
-     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
-    },
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69",
-     "link": "https://www.infoquest.co.th/2026/680577",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-16T16:07:58Z"
-    },
-    {
-     "title": "ชง ครม.เคาะเป้าเงินเฟ้อปี’70 ธปท.คงกรอบ 1-3%-คาดน้ำมันลดลง",
-     "link": "https://www.prachachat.net/finance/news-2096088",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-15T01:00:35Z"
     }
    ]
   },
@@ -219,66 +219,66 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 12,
+   "count": 13,
    "new_24h": 8,
-   "latest": "2026-11-16T18:11:00Z",
-   "latest_title": "Nvidia’s stock extends declines following harsh words from the U.S. government"
+   "latest": "2026-11-17T02:03:15Z",
+   "latest_title": "ตลาดหุ้นเอเชียเปิดลบ นลท.เทขายหุ้นกลุ่มเทคฯ หลังหุ้น Nvidia ร่วงต่อ ก่อนเผยงบ Q3"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 5,
+   "new_24h": 5,
+   "latest": "2026-11-17T02:25:40Z",
+   "latest_title": "แนวโน้มราคาทองวันนี้ (17 พ.ย. 69) บทวิเคราะห์โดย YLG Bullion"
+  },
+  {
+   "id": "bot",
+   "name": "แบงก์ชาติและดอกเบี้ยไทย",
+   "count": 12,
+   "new_24h": 5,
+   "latest": "2026-11-17T02:18:38Z",
+   "latest_title": "ธปท. ให้ 16 ธ.ค. เป็นวันหยุดสถาบันการเงิน เนื่องในพระราชพิธีถวายพระเพลิงพระบรมศพพระพันปีหลวง"
   },
   {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
    "count": 8,
-   "new_24h": 6,
+   "new_24h": 5,
    "latest": "2026-11-16T17:53:00Z",
    "latest_title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out."
   },
   {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 3,
-   "new_24h": 3,
-   "latest": "2026-11-16T16:42:56Z",
-   "latest_title": "ราคาทองโลกดิ่งต่ำสุดกว่า 1 ปี ดอลล์แข็งทุบตลาด เก็งเฟดขึ้นดอกเบี้ย"
-  },
-  {
-   "id": "bot",
-   "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 10,
-   "new_24h": 3,
-   "latest": "2026-11-16T11:13:02Z",
-   "latest_title": "ธปท. ชี้วิกฤต “K-Shape” ความเป็นอยู่คนภาคเหนือ 40% รายได้ไม่พอจ่าย จ่อคุม “Buy Now Pay Later”"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
    "count": 8,
-   "new_24h": 2,
-   "latest": "2026-11-16T09:51:21Z",
-   "latest_title": "UOBKH ชู 3 หุ้นแบงก์เด่น รับ สศช.เพิ่มเป้าเศรษฐกิจไทย ลุ้น MSCI หนุน 9 บิ๊กแคป"
+   "new_24h": 3,
+   "latest": "2026-11-17T02:01:43Z",
+   "latest_title": "ภาวะตลาดหุ้นไทย:แนวโน้มดัชนีเช้าปรับลงต่อรับแรงขายหุ้นเทคฯ-ราคาน้ำมันย่อแรงกดดันตลาด"
   },
   {
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
-   "count": 3,
-   "new_24h": 2,
-   "latest": "2026-11-16T09:10:18Z",
-   "latest_title": "TISA รอคลังเคาะ ก.ล.ต.ยันลดหย่อนภาษีปี’70 แน่ เร่งเตรียมระบบหุ้น-หุ้นกู้"
+   "count": 4,
+   "new_24h": 3,
+   "latest": "2026-11-17T02:01:43Z",
+   "latest_title": "ภาวะตลาดหุ้นไทย:แนวโน้มดัชนีเช้าปรับลงต่อรับแรงขายหุ้นเทคฯ-ราคาน้ำมันย่อแรงกดดันตลาด"
+  },
+  {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 9,
+   "new_24h": 3,
+   "latest": "2026-11-17T01:44:20Z",
+   "latest_title": "แบงก์ชาติแจ้ง 16 ธ.ค. ประกาศหยุดธนาคารเป็นกรณีพิเศษ ตามมติ ครม."
   },
   {
    "id": "baht",
    "name": "ทิศทางเงินบาท",
    "count": 3,
-   "new_24h": 2,
+   "new_24h": 1,
    "latest": "2026-11-16T06:21:30Z",
    "latest_title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย"
-  },
-  {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 6,
-   "new_24h": 1,
-   "latest": "2026-11-16T16:07:58Z",
-   "latest_title": "น้ำมันโลกดิ่งกว่า 2% หลัง IEA เตือนน้ำมันล้นตลาดใน Q4/69"
   },
   {
    "id": "trade-war",
@@ -299,15 +299,285 @@
  ],
  "items": [
   {
+   "id": "1d931372c6aa",
+   "title": "แนวโน้มราคาทองวันนี้ (17 พ.ย. 69) บทวิเคราะห์โดย YLG Bullion",
+   "link": "https://www.prachachat.net/finance/news-2097596",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T02:25:40Z",
+   "summary": "แนวโน้มราคาทองวันนี้ บริษัท วายแอลจี บูลเลี่ยน อินเตอร์เนชั่นแนล จำกัด รายงานราคาทองคำประจำวันที่ 17 พ.ย. 2569 คำแนะนำ • วานนี้ ราคาทำ Low ใหม่บริเวณ $3,832 พร้อมกับเกิดสัญญาณ Bullish Divergence ทำให้ราคาฟื้นตัวกลับ อย่างไรก็ดี หากการดีดตั…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2024/04/YLG.jpg",
+   "score": 6,
+   "categories": [
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "04d1cf84622f",
+   "title": "ปตท. รายงานสถานการณ์ตลาดน้ำมัน สัปดาห์ที่ 16-20 พ.ย. 69",
+   "link": "https://www.infoquest.co.th/2026/680723",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T02:24:47Z",
+   "summary": "บริษัท ปตท. จำกัด (มหาชน) รายงานสถานการณ์ตลาดน้ำมัน สัปดาห์วันที่ 16-20 พ.ย. 69 และแนวโน้มสัปดาห์วันที่ 23-27 พ.ย. 69 โดยสถานการณ์ในตะวันออกกลางยังคงคุกรุ่น ราคาน้ำมันเฉลี่ยรายสัปดาห์ (หน่วย: The post ปตท. รายงานสถานการณ์ตลาดน้ำมัน สัปดาห์…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "94a15bf61c85",
+   "title": "ธปท. ให้ 16 ธ.ค. เป็นวันหยุดสถาบันการเงิน เนื่องในพระราชพิธีถวายพระเพลิงพระบรมศพพระพันปีหลวง",
+   "link": "https://www.infoquest.co.th/2026/680694",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T02:18:38Z",
+   "summary": "ธนาคารแห่งประเทศไทย (ธปท.) ประกาศว่า ตามที่คณะรัฐมนตรี (ครม.) ได้มีมติเมื่อวันอังคารที่ 10 พ.ย. 69 กำหนดให้วันพุธที่ 16 ธ.ค. 69 เป็นวันหยุดราชการกรณีพิเศษ เนื่องในพระราชพิธีถวายพระเพลิงพระบรมศพ The post ธปท. ให้ 16 ธ.ค. เป็นวันหยุดสถาบันกา…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "fe12ae920c29",
+   "title": "กรุงศรีรุกหนัก เทกฯ “ซัมมิท แคปปิตอล” 100% รุกสินเชื่อมอเตอร์ไซค์",
+   "link": "https://www.prachachat.net/finance/news-2097585",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T02:11:00Z",
+   "summary": "กรุงศรี (BAY) รุกสินเชื่อรถจักรยานยนต์ ส่งบริษัทย่อยลงนามซื้อหุ้น “ซัมมิท แคปปิตอล ลีสซิ่ง” 100% จากกลุ่มซูมิโตโม รอไฟเขียวตามเงื่อนไขก่อนโอนหุ้น พร้อมแจงขนาดรายการไม่เกิน 25% ไม่ต้องขอมติผู้ถือหุ้น นายเคนอิจิ ยามาโตะ กรรมการผู้จัดการใหญ่แ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/05/Cover-photo-Logo.jpg",
+   "score": 5,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "64bea67b27d1",
+   "title": "ราคาทองคำแท่งวันนี้ บาทละ 62,000 บาท",
+   "link": "https://www.infoquest.co.th/2026/680704",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T02:08:02Z",
+   "summary": "รายงานราคาทองคำ (ทองคำ 96.5%) ประจำวันที่ 17 พฤศจิกายน 2569 ประกาศครั้งที่ 1 เมื่อเวลา 09.01 น. ตามประกาศของสมาคมค้าทองคำ รับซื้อ (บาท) ขายออก (บาท) ทองคำแท่ง 61,800 62,000 ทองรูปพรรณ 60,564 62,800 The post ราคาทองคำแท่งวันนี้ บาทละ 62,000…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "fcddf5bcf51b",
+   "title": "ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดลบ 1.36% วิตกแนวโน้มธุรกิจ AI – ดอลล์แข็งฉุดตลาด",
+   "link": "https://www.infoquest.co.th/2026/680639",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T02:07:16Z",
+   "summary": "สัญญาทองแดงตลาดนิวยอร์กปิดลบในวันจันทร์ (16 พ.ย.) โดยถูกกดดันจากความวิตกกังวลเกี่ยวกับธุรกิจปัญญาประดิษฐ์ (AI) และการแข็งค่าของสกุลเงินดอลลาร์สหรัฐจากกระแสคาดการณ์ที่ว่า ธนาคารกลางสหรัฐฯ (เฟด) The post ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดลบ 1…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "monetary"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "1556485a98cc",
+   "title": "ตลาดหุ้นเอเชียเปิดลบ นลท.เทขายหุ้นกลุ่มเทคฯ หลังหุ้น Nvidia ร่วงต่อ ก่อนเผยงบ Q3",
+   "link": "https://www.infoquest.co.th/2026/680636",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T02:03:15Z",
+   "summary": "ตลาดหุ้นเอเชียเปิดลบในวันนี้ (17 พ.ย.) เนื่องจากนักลงทุนเทขายหุ้นกลุ่มเทคโนโลยี หลังจากหุ้นอินวิเดีย (Nvidia) ร่วงลงในการซื้อขายนอกเวลาทำการในตลาดวอลล์สตรีท ท่ามกลางความไม่แน่นอนเกี่ยวกับอนาคตของบริษั The post ตลาดหุ้นเอเชียเปิดลบ นลท.เทขา…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "877acd7aec83",
+   "title": "ภาวะตลาดหุ้นไทย:แนวโน้มดัชนีเช้าปรับลงต่อรับแรงขายหุ้นเทคฯ-ราคาน้ำมันย่อแรงกดดันตลาด",
+   "link": "https://www.infoquest.co.th/2026/680675",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T02:01:43Z",
+   "summary": "นักวิเคราะห์ฯคาดตลาดหุ้นไทยวันนี้แกว่งตัวลงตามทิศทางตลาดหุ้นต่างประเทศ จากแรงกดดันแรงขายหุ้นกลุ่มเทคโนโลยี ที่กดดันต่อหุ้นกลุ่มชิ้นส่วนอิเลคทรอนิกส์ไนตลาดหุ้นไทย ประกอบกับราคาน้ำมันย่อตัวหลังจากที่ซัพ The post ภาวะตลาดหุ้นไทย:แนวโน้มดัชนีเ…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast",
+    "thai-market"
+   ]
+  },
+  {
+   "id": "3664f22f945f",
+   "title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+   "link": "https://www.infoquest.co.th/2026/680654",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T01:53:52Z",
+   "summary": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT ในวันจันทร์ (16 พ.ย.) สัญญาข้าวสาลีปิดปรับตัวลง โดยเคลื่อนไหวใกล้ระดับต่ำสุดในรอบหลายเดือนที่ทำไว้เมื่อวันศุกร์ (13 พ.ย.) โบรกเกอร์ระบุว่า ตลาดได้รับแรงกดดันจากเงินดอลลาร์ส The post ภาวะตลาดสินค้าโภคภัณฑ์ CBOT:…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_down"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "ec7864bbd106",
+   "title": "แบงก์ชาติแจ้ง 16 ธ.ค. ประกาศหยุดธนาคารเป็นกรณีพิเศษ ตามมติ ครม.",
+   "link": "https://www.prachachat.net/finance/news-2097576",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T01:44:20Z",
+   "summary": "แบงก์ชาติ ออกประกาศแจ้งให้วันพุธที่ 16 ธันวาคม 2569 เป็นวันหยุดทำการของสถาบันการเงิน-สถาบันการเงินเฉพาะกิจเพิ่มเติมเป็นกรณีพิเศษ สอดรับ มติ ครม. ให้เป็นวันหยุดราชการกรณีพิเศษ เนื่องในพระราชพิธีถวายพระเพลิงพระบรมศพ สมเด็จพระนางเจ้าสิริกิติ์…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/02/fsgdsfh.jpg",
+   "score": 3,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": [
+    "bot",
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "82b50ada835a",
+   "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
+   "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-16T23:28:00Z",
+   "summary": "Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.",
+   "image": "https://images.mktw.net/im-878137",
+   "score": 6,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b32037c1f57c",
+   "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
+   "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-16T22:46:00Z",
+   "summary": "The dollar recently climbed to its strongest level in a year and a half.",
+   "image": "https://images.mktw.net/im-819643",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "96dcbcfad7c4",
+   "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
+   "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-16T22:33:00Z",
+   "summary": "Berkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.",
+   "image": "https://images.mktw.net/im-96950195",
+   "score": 8,
+   "categories": [
+    "bank_property",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
    "id": "7a1df2698c83",
-   "title": "Nvidia’s stock extends declines following harsh words from the U.S. government",
+   "title": "Nvidia’s stock extends decline following harsh words from the U.S. government",
    "link": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
    "source": "MarketWatch",
    "feed": "marketwatch",
    "region": "GLOBAL",
    "lang": "en",
    "central_bank": false,
-   "published": "2026-11-16T18:11:00Z",
+   "published": "2026-11-16T21:53:00Z",
    "summary": "The Commerce Department announced a new rule aimed at restricting China’s remote access to advanced chips.",
    "image": "https://images.mktw.net/im-76010631",
    "score": 4,

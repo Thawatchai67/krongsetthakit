@@ -221,6 +221,17 @@
   "x1": 0.0,
   "base_date": "2026-11-13"
  },
+ "oil_down|AAV|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
+ },
  "oil_down|BCP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -282,6 +293,17 @@
   "r1": -0.11,
   "x1": -0.11,
   "base_date": "2026-11-13"
+ },
+ "oil_down|BCP|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
  },
  "oil_down|COP|2026-09-20": {
   "signal": "oil_down",
@@ -345,6 +367,17 @@
   "x1": 0.18,
   "base_date": "2026-11-13"
  },
+ "oil_down|COP|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
+ },
  "oil_down|CVX|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -406,6 +439,17 @@
   "r1": -1.19,
   "x1": 0.47,
   "base_date": "2026-11-13"
+ },
+ "oil_down|CVX|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
  },
  "oil_down|DAL|2026-09-20": {
   "signal": "oil_down",
@@ -469,6 +513,17 @@
   "x1": 1.83,
   "base_date": "2026-11-13"
  },
+ "oil_down|DAL|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
+ },
  "oil_down|PTTEP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -530,6 +585,17 @@
   "r1": 0.35,
   "x1": 0.35,
   "base_date": "2026-11-13"
+ },
+ "oil_down|PTTEP|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
  },
  "oil_down|PTT|2026-09-20": {
   "signal": "oil_down",
@@ -593,6 +659,17 @@
   "x1": 1.84,
   "base_date": "2026-11-13"
  },
+ "oil_down|PTT|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
+ },
  "oil_down|TOP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -654,6 +731,17 @@
   "r1": 0.0,
   "x1": 0.0,
   "base_date": "2026-11-13"
+ },
+ "oil_down|TOP|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
  },
  "oil_down|UAL|2026-09-20": {
   "signal": "oil_down",
@@ -717,6 +805,17 @@
   "x1": 2.24,
   "base_date": "2026-11-13"
  },
+ "oil_down|UAL|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
+ },
  "oil_down|XOM|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -778,6 +877,17 @@
   "r1": -1.85,
   "x1": -0.19,
   "base_date": "2026-11-13"
+ },
+ "oil_down|XOM|2026-11-17": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
+  "news_link": "https://www.infoquest.co.th/2026/680654",
+  "base_date": "2026-11-16"
  },
  "oil_up|AAV|2026-09-01": {
   "signal": "oil_up",

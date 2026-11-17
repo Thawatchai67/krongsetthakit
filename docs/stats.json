@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T18:26:34Z",
+ "generated_at": "2026-11-17T02:27:32Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -10,8 +10,8 @@
  },
  "backfill": 363,
  "overall": {
-  "total": 435,
-  "news": 51,
+  "total": 445,
+  "news": 52,
   "d1": {
    "evaluated": 344,
    "hit_rate": 54.4,
@@ -245,8 +245,8 @@
    "name": "น้ำมันขึ้น"
   },
   {
-   "total": 40,
-   "news": 4,
+   "total": 50,
+   "news": 5,
    "d1": {
     "evaluated": 40,
     "hit_rate": 50.0,
