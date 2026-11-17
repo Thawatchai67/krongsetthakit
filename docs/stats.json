@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T03:06:18Z",
+ "generated_at": "2026-11-17T11:43:52Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -13,9 +13,9 @@
   "total": 445,
   "news": 52,
   "d1": {
-   "evaluated": 344,
-   "hit_rate": 54.4,
-   "avg_edge": 0.21
+   "evaluated": 349,
+   "hit_rate": 54.7,
+   "avg_edge": 0.23
   },
   "d5": {
    "evaluated": 300,
@@ -248,9 +248,9 @@
    "total": 50,
    "news": 5,
    "d1": {
-    "evaluated": 40,
-    "hit_rate": 50.0,
-    "avg_edge": 0.15
+    "evaluated": 45,
+    "hit_rate": 53.3,
+    "avg_edge": 0.3
    },
    "d5": {
     "evaluated": 20,

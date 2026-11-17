@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-17T02:27:06Z",
+  "generated_at": "2026-11-17T11:43:27Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 127
+  "total_kept": 147
  },
  "signals": [
   {
@@ -129,7 +129,7 @@
   {
    "id": "tariff",
    "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 2,
+   "count": 1,
    "impacts": [
     {
      "effect": "ต้องจับตา",
@@ -154,63 +154,6 @@
      "link": "https://www.prachachat.net/economic/news-2096998",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-16T04:46:14Z"
-    },
-    {
-     "title": "สนค. ชี้จุดเปลี่ยนยานยนต์ไทย ภาษีนำเข้าใหม่ 35% ดึงฐานผลิต EV ลงทุนไทย หนุนห่วงโซ่ HEV-ชิ้นส่วน",
-     "link": "https://www.infoquest.co.th/2026/679623",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-15T07:14:55Z"
-    }
-   ]
-  },
-  {
-   "id": "rate_cut",
-   "name": "ลดดอกเบี้ย",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "อสังหาริมทรัพย์",
-     "set": [
-      "LH",
-      "CPN"
-     ],
-     "us": [],
-     "why": "ต้นทุนการเงินและดอกเบี้ยสินเชื่อบ้านลดลง"
-    },
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "หุ้นเติบโต/เทคโนโลยี",
-     "set": [
-      "DELTA"
-     ],
-     "us": [
-      "NVDA",
-      "MSFT"
-     ],
-     "why": "อัตราคิดลดต่ำลงหนุนมูลค่าหุ้นเติบโต"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "ธนาคาร",
-     "set": [
-      "KBANK",
-      "SCB",
-      "BBL"
-     ],
-     "us": [
-      "JPM",
-      "BAC"
-     ],
-     "why": "ส่วนต่างดอกเบี้ย (NIM) อาจแคบลง"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "วิทัย ผู้ว่าฯ แบงก์ชาติ โพสต์ผลงาน 1 ปี แก้โครงสร้าง-ลั่นต้องลงมือทำ",
-     "link": "https://www.prachachat.net/finance/news-2096726",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-15T03:06:17Z"
     }
    ]
   }
@@ -219,34 +162,42 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 13,
-   "new_24h": 8,
-   "latest": "2026-11-17T02:03:15Z",
-   "latest_title": "ตลาดหุ้นเอเชียเปิดลบ นลท.เทขายหุ้นกลุ่มเทคฯ หลังหุ้น Nvidia ร่วงต่อ ก่อนเผยงบ Q3"
-  },
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 5,
-   "new_24h": 5,
-   "latest": "2026-11-17T02:25:40Z",
-   "latest_title": "แนวโน้มราคาทองวันนี้ (17 พ.ย. 69) บทวิเคราะห์โดย YLG Bullion"
+   "count": 19,
+   "new_24h": 9,
+   "latest": "2026-11-17T11:29:40Z",
+   "latest_title": "BGRIM ยันสหรัฐคุมเข้มส่งออกชิปไม่กระทบโครงการ Topaz Hyperscale เดินหน้าขยาย Data Center 500 MW"
   },
   {
    "id": "bot",
    "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 12,
-   "new_24h": 5,
-   "latest": "2026-11-17T02:18:38Z",
-   "latest_title": "ธปท. ให้ 16 ธ.ค. เป็นวันหยุดสถาบันการเงิน เนื่องในพระราชพิธีถวายพระเพลิงพระบรมศพพระพันปีหลวง"
+   "count": 14,
+   "new_24h": 4,
+   "latest": "2026-11-17T10:45:50Z",
+   "latest_title": "แบงก์ชาติ จับตาสหรัฐคุมเข้มส่งออกชิป อาจกระทบการลงทุนในไทย"
   },
   {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
    "count": 8,
-   "new_24h": 5,
+   "new_24h": 4,
    "latest": "2026-11-16T17:53:00Z",
    "latest_title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out."
+  },
+  {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 6,
+   "new_24h": 3,
+   "latest": "2026-11-17T10:44:04Z",
+   "latest_title": "หุ้นไทยดิ่ง 24.85 จุด KKP ชี้ AI กดดัน ชอร์ตเซลกระทบช่วงสั้น"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 5,
+   "new_24h": 3,
+   "latest": "2026-11-17T02:25:40Z",
+   "latest_title": "แนวโน้มราคาทองวันนี้ (17 พ.ย. 69) บทวิเคราะห์โดย YLG Bullion"
   },
   {
    "id": "oil-mideast",
@@ -257,34 +208,26 @@
    "latest_title": "ภาวะตลาดหุ้นไทย:แนวโน้มดัชนีเช้าปรับลงต่อรับแรงขายหุ้นเทคฯ-ราคาน้ำมันย่อแรงกดดันตลาด"
   },
   {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
    "count": 4,
-   "new_24h": 3,
-   "latest": "2026-11-17T02:01:43Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย:แนวโน้มดัชนีเช้าปรับลงต่อรับแรงขายหุ้นเทคฯ-ราคาน้ำมันย่อแรงกดดันตลาด"
+   "new_24h": 1,
+   "latest": "2026-11-17T10:47:34Z",
+   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.79/80 ลุ้นข้อมูลเศรษฐกิจสหรัฐฯ คาดกรอบพรุ่งนี้ 33.70-33.90"
   },
   {
    "id": "thai-economy",
    "name": "เศรษฐกิจไทย",
    "count": 9,
-   "new_24h": 3,
+   "new_24h": 1,
    "latest": "2026-11-17T01:44:20Z",
    "latest_title": "แบงก์ชาติแจ้ง 16 ธ.ค. ประกาศหยุดธนาคารเป็นกรณีพิเศษ ตามมติ ครม."
-  },
-  {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 3,
-   "new_24h": 1,
-   "latest": "2026-11-16T06:21:30Z",
-   "latest_title": "ทีทีบี คาดเงินบาทสัปดาห์นี้ เคลื่อนไหวกรอบ 33.51-34.10 บาทต่อดอลลาร์ ตลาดกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 7,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-16T04:46:14Z",
    "latest_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก"
   },
@@ -298,6 +241,419 @@
   }
  ],
  "items": [
+  {
+   "id": "00544d4a7e22",
+   "title": "KTC วางเป้าปี 70 ยอดใช้จ่ายผ่านบัตรโต 8-10% พอร์ตสินเชื่อขยาย 1-2% คุมหนี้ NPL ไม่เกิน 2%",
+   "link": "https://www.infoquest.co.th/2026/681310",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T11:42:16Z",
+   "summary": "นางพิทยา วรปัญญาสกุล ประธานเจ้าหน้าที่บริหาร บมจ. บัตรกรุงไทย [KTC] เปิดเผยมุมมองในกิจกรรม Earnings Call สำหรับผลการดำเนินงานไตรมาส 3 ปี 2569 ว่า “ท่ามกลางเศรษฐกิจไทยที่ยังเผชิญแรงกดดันจากหนี้ครัวเรือ The post KTC วางเป้าปี 70 ยอดใช้จ่ายผ่…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "bc8e5fe1e487",
+   "title": "ORI กำไร Q3/69 ร่วง 57% ยอดโอนกรรมสิทธิ-ยอดขายหด เน้นตุน Backlog ปึ้ก 3.2 หมื่นล้านทยอยรับรู้ 4 ปี",
+   "link": "https://www.infoquest.co.th/2026/681267",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T11:38:11Z",
+   "summary": "บมจ.ออริจิ้น พร็อพเพอร์ตี้ [ORI] เผยผลประกอบการไตรมาส 3/69 ทำกำไรสุทธิ 80 ล้านบาท ลดลง 57% รายได้รวมอยู่ที่ 1,999 ล้านบาท ลดลง 18% โดยมีรายได้จากกิจกรรมการโอนกรรมสิทธิ์กว่า 2,500 ล้านบาท ลดลง 17.5% The post ORI กำไร Q3/69 ร่วง 57% ยอดโอนกร…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0506f489bfb8",
+   "title": "BGRIM ยันสหรัฐคุมเข้มส่งออกชิปไม่กระทบโครงการ Topaz Hyperscale เดินหน้าขยาย Data Center 500 MW",
+   "link": "https://www.infoquest.co.th/2026/681298",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T11:29:40Z",
+   "summary": "บมจ. บี.กริม เพาเวอร์ [BGRIM] ชี้แจงกรณีกระทรวงพาณิชย์สหรัฐออกกฎใหม่กำหนดให้การส่งชิปและเซิร์ฟเวอร์ AI ขั้นสูงไปยังไทย มาเลเซีย สิงคโปร์ อินโดนีเซีย และบราซิล ต้องขอใบอนุญาตก่อน เพื่อป้องกันการเข้าถึง The post BGRIM ยันสหรัฐคุมเข้มส่งออกชิ…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "tech_ai",
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "201ab5f4354c",
+   "title": "UOB เปิดอินไซต์ยอดรูดบัตรคนรุ่นใหม่สายฟิตเนสพุ่งดันเศรษฐกิจเวลเนสไทย แนะธุรกิจเร่งปรับตัวชูจุดขาย”ความคุ้มค่า”สู้โจทย์หินค่าครองชีพ-หนี้สินสูง",
+   "link": "https://www.infoquest.co.th/2026/681223",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T11:26:10Z",
+   "summary": "ธนาคารยูโอบี ประเทศไทย เปิดผลศึกษาความเชื่อมั่นผู้บริโภคในอาเซียน ประจำปี 2569 (ASEAN Consumer Sentiment Study 2026 หรือACSS) พบว่า ผู้บริโภคไทยให้ความหมายกับความมั่งคั่งครอบคลุมทั้งความมั่นคงทางการเ The post UOB เปิดอินไซต์ยอดรูดบัตรคนรุ่…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "23861b568153",
+   "title": "ภาวะตลาดอนุพันธ์:ดิ่งลงตามแรงขายหุ้นใหญ่-กลุ่มดาต้าเซ็นเตอร์หลังสหรัฐคุมเข้มส่งออกชิป จับตางบ Nvidia",
+   "link": "https://www.infoquest.co.th/2026/681277",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T11:09:37Z",
+   "summary": "นายจรณเวท ศักดิ์ศรี ผู้ช่วยกรรมการผู้จัดการ สายตราสารทุน บล.พาย กล่าวว่า การซื้อขาย SET50 Index Futures วันนี้ปรับตัวลง จากแรงขายหุ้นขนาดใหญ่ โดยเฉพาะหุ้นที่เกี่ยวข้องกับเทคโนโลยี และดาต้าเซ็นเตอร์ The post ภาวะตลาดอนุพันธ์:ดิ่งลงตามแรงขาย…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "tech_ai",
+    "stock_market",
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "95204cd0f47f",
+   "title": "ภาวะตลาดเงินบาท: ปิด 33.79/80 ลุ้นข้อมูลเศรษฐกิจสหรัฐฯ คาดกรอบพรุ่งนี้ 33.70-33.90",
+   "link": "https://www.infoquest.co.th/2026/681199",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T10:47:34Z",
+   "summary": "เงินบาท [USDTHB.X] ปิดตลาดเย็นนี้ อยู่ที่ระดับ 33.79/80 บาท/ดอลลาร์ แข็งค่าจากช่วงเช้า ที่เปิดตลาดที่ระดับ 33.88 บาท/ดอลลาร์ นักบริหารเงินจากธนาคารกรุงเทพ ระบุว่า ระหว่างวันเงินบาทเคลื่อนไหวในกรอบ The post ภาวะตลาดเงินบาท: ปิด 33.79/80 ลุ้…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "fx",
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "baht"
+   ]
+  },
+  {
+   "id": "e5206cfb2b9e",
+   "title": "Pick the two sectors where earnings growth will accelerate — as long as the 10-year stays below this key level, say strategists",
+   "link": "https://www.marketwatch.com/story/pick-the-two-sectors-where-earnings-growth-will-accelerate-as-long-as-the-10-year-stays-below-this-key-level-say-strategists-e7c13914?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-17T10:47:00Z",
+   "summary": "Strategists at the investment bank recommend hyperscalers and the health care sector in an environment of slowing earnings growth.",
+   "image": "https://images.mktw.net/im-08169245",
+   "score": 4,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f96c9361cd4d",
+   "title": "แบงก์ชาติ จับตาสหรัฐคุมเข้มส่งออกชิป อาจกระทบการลงทุนในไทย",
+   "link": "https://www.prachachat.net/finance/news-2098252",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T10:45:50Z",
+   "summary": "แบงก์ชาติ กำลังประเมินสหรัฐคุมเข้มส่งออกชิปไปยังดาต้า เซ็นเตอร์ในต่างประเทศ อาจจะกระทบผู้ลงทุนในไทย เชื่อว่าหากภาคเอกชนสามารถแสดงเอกสารสำคัญได้ครบจะไม่น่าห่วง พร้อมเตรียมนำตัวเลข MPI ที่ปรับใหม่เข้ามาสู่การพิจารณา กนง. ในวันที่ 23 ธ.ค.นี้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/08/Cover-photo-36.jpg",
+   "score": 9,
+   "categories": [
+    "economy",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "bot",
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "848aa31af7b8",
+   "title": "สมาคมผู้ค้าปลีกไทย เสนอ 6 ข้อ SME – รัฐ ต่อยอดกำแพงภาษีสินค้าออนไลน์",
+   "link": "https://www.prachachat.net/business/news-2098230",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T10:44:39Z",
+   "summary": "สมาคมผู้ค้าปลีกไทย ย้ำ แม้กำแพงภาษีจะเป็นความคืบหน้าสำคัญ แต่ไม่สามารถพึ่งพากำแพงภาษีได้ตลอดไป เสนอ SME – รัฐ ต่อยอดโอกาสเร่งพัฒนาคุณภาพสินค้า สร้างแบรนด์ให้แข็งแกร่ง ต่อยอดนวัตกรรม และยกระดับการบริการ พร้อมเพิ่มมาตรการคัดกรองสินค้า-เข้มสก…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Online-cover.png",
+   "score": 8,
+   "categories": [
+    "economy",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9ac678233273",
+   "title": "หุ้นไทยดิ่ง 24.85 จุด KKP ชี้ AI กดดัน ชอร์ตเซลกระทบช่วงสั้น",
+   "link": "https://www.prachachat.net/finance/news-2098246",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T10:44:04Z",
+   "summary": "หุ้นไทยวันนี้ปิดร่วง 24.85 จุด หรือ 1.66% ดัชนีหลุด 1,500 จุด ลงมาอยู่ที่ 1,474.68 จุด มูลค่าซื้อขายกว่า 8.65 หมื่นล้านบาท KKP ชี้ตลาดกังวลข้อจำกัดส่งออกชิปสหรัฐฯ กระทบการลงทุน AI มากกว่าเกณฑ์ชอร์ตเซลใหม่ พร้อมคงคาดการณ์ GDP ไทยปี 2569 โต…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/03/stock-market-2.jpg",
+   "score": 13,
+   "categories": [
+    "stock_market",
+    "tech_ai",
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "1c28267b474b",
+   "title": "Tepper, Loeb among fund managers piling into Nvidia and other megacap tech on the eve of October drawdown",
+   "link": "https://www.marketwatch.com/story/tepper-loeb-among-fund-managers-piling-into-nvidia-and-other-megacap-tech-on-the-eve-of-october-drawdown-de45f572?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-17T10:28:00Z",
+   "summary": "13-F filings with the SEC offer a snapshot of how large institutional funds were positioning for the fourth quarter. Given the blowup in the AI trade, some positions reported suggest a painful six weeks for many portfolio managers.",
+   "image": "https://images.mktw.net/im-69181277",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "5aca005e2cdf",
+   "title": "‘Nvidia spooked me’: Should I sell my stocks or ride out the market turmoil?",
+   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-17T10:15:00Z",
+   "summary": "“Real estate here in Florida seems to be presenting some interesting opportunities.”",
+   "image": "https://images.mktw.net/im-71982935",
+   "score": 6,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "b582ac5b87ff",
+   "title": "Monetary policy, segmented capital markets and innovation",
+   "link": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3311~66cc2a4d65.en.pdf",
+   "source": "ECB",
+   "feed": "ecb",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-17T10:00:00Z",
+   "summary": "We identify a novel mechanism linking monetary policy, innovation, and capital-market segmentation. When capital markets are imperfectly integrated, contractionary monetary policy tightens the financing constraints of externally financed f…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "90fb0fb3580d",
+   "title": "ธปท.ชี้สินเชื่อรวม Q3 เพิ่มขึ้น 4% แรงหนุนธุรกิจรายใหญ่ รับ SME ยังน่าห่วงติดลบ 17 ไตรมาส",
+   "link": "https://www.prachachat.net/finance/news-2098162",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T09:48:21Z",
+   "summary": "แบงก์ชาติเผยภาพรวมธนาคารพาณิชย์ Q3/69 สินเชื่อในระบบขยายตัว 4% แรงหนุนจากรายใหญ่ลงทุนต่อเนื่องเกี่ยวกับ AI พุ่งแรง 78% ส่วนสินเชื่อ SME ติดลบ 4.2% ยังอยู่ในภาวะติดลบต่อเนื่อง 17 ไตรมาส จับตาหนี้บริโภคเพิ่ม กลุ่มครัวเรือนรายได้น้อยเผชิญความ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-125.jpg",
+   "score": 10,
+   "categories": [
+    "bank_property",
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "36b2f90d279b",
+   "title": "สหรัฐคุมเข้ม ส่งออกชิป AI มาไทย หวั่นถูกส่งต่อไปจีน",
+   "link": "https://www.prachachat.net/tech/news-2098136",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T09:39:50Z",
+   "summary": "สหรัฐประกาศกฎใหม่ คุมเข้มการส่งออกชิป AI มายังไทย สิงคโปร์ มาเลเซีย อินโดนีเซีย และบราซิล หลังประเมินว่ามีความเสี่ยงที่ชิปจะถูกส่งต่อไปยังประเทศที่อยู่ภายใต้มาตรการควบคุมของสหรัฐ พร้อมเพิ่มข้อกำหนดสำหรับศูนย์ข้อมูลในต่างประเทศที่ให้บริการป…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/YZXY2LTJTZJ6JLK72JCJUORLUU.jpg",
+   "score": 10,
+   "categories": [
+    "tech_ai",
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "dc83259b0f39",
+   "title": "สำรวจ ‘Bonifacio Global City’ ย่านเศรษฐกิจระดับท็อปใน ‘ฟิลิปปินส์’",
+   "link": "https://www.prachachat.net/real-estate/news-2098046",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T09:18:28Z",
+   "summary": "การเป็นเจ้าภาพประชุมสุดยอดอาเซียน ครั้งที่ 49 (ASEAN Summit 2026) และการประชุมสุดยอดที่เกี่ยวข้อง ทำให้บรรยากาศในประเทศ “ฟิลิปปินส์” ช่วงสัปดาห์นี้คึกคักเป็นพิเศษ ยิ่งในย่านเศรษฐกิจสำคัญ เช่น Bonifacio Global City หรือ “BGC” ท … อ่านข่าวต้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Bonifacio-Global-City.png",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "4461be1f387a",
+   "title": "CHAYO ปักธงกำไรปีนี้ 300 ล้าน เร่งขายหนี้-ระบาย NPA เติมกระแสเงินสด",
+   "link": "https://www.prachachat.net/finance/news-2098083",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T08:47:56Z",
+   "summary": "CHAYO ตั้งเป้ากำไรสุทธิปี 2569 ไม่น้อยกว่า 300 ล้านบาท คาดผลขาดทุนด้านเครดิต (ECL) ลดลงอย่างมีนัยสำคัญ ปรับลดประมาณการรายได้ธุรกิจซื้อหนี้เสีย 15-20% กันเงินคืนหุ้นกู้ พร้อมเร่งขายทรัพย์เกาะยาวใหญ่ หลังคาดเปลี่ยนเอกสารสิทธิ์เป็นโฉนดต้นปี 2…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/06/money.jpg",
+   "score": 6,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6cd66a82dffa",
+   "title": "จี้ยกระดับวิกฤตลำไย ‘วาระแห่งชาติ’ ชง 5 มาตรการเจรจาจีน ปลดล็อกส่งออก",
+   "link": "https://www.prachachat.net/economic/local-economy/news-2098023",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T08:26:41Z",
+   "summary": "‘วริสา’ อนุกรรมาธิการศึกษาห่วงโซ่อุปทานฯ จี้รัฐบาลยกระดับปัญหาส่งออกลำไยเป็นวาระแห่งชาติ หลังจีนเข้มตรวจสารซัลเฟอร์ไดออกไซด์ทั้งเนื้อและเปลือกไม่เกิน 50 ppm. กระทบความเชื่อมั่นผู้ซื้อและราคาหน้าสวน พร้อมเสนอ 5 ทางออก เร่งเจรจา GACC เปิดทาง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/web-2026-11-17T151357.300.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3d22a16c19b2",
+   "title": "KTC ปักธงกำไรปี’70 โตต่อ ดันยอดรูดบัตรพุ่ง 8-10% คุมหนี้เสียไม่เกิน 2%",
+   "link": "https://www.prachachat.net/finance/news-2098056",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T08:19:33Z",
+   "summary": "KTC มั่นใจกำไรปี 2569 โตแซงปีก่อน หลัง 9 เดือนแรกทำได้แล้ว 6,521 ล้านบาท รับยอดใช้จ่ายผ่านบัตรเครดิตฟื้นตัว พร้อมวางเป้าปี 2570 กำไรโตต่อ ดันยอดรูดบัตรเพิ่ม 8-10% คุม NPL ไม่เกิน 2% เดินหน้าใช้ AI และดิจิทัลเพิ่มประสิทธิภาพธุรกิจ นางพิทยา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/01/KTC-Cards-2024.png",
+   "score": 9,
+   "categories": [
+    "earnings",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3196c1a92b7d",
+   "title": "อีสท์สปริงจ่ายปันผล 3 กองรวด รวม 6 ล้าน หุ้นไทย-Thai ESGX รับสูงสุด 0.50 บาท",
+   "link": "https://www.prachachat.net/finance/news-2097986",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T07:31:02Z",
+   "summary": "บลจ.อีสท์สปริง เตรียมจ่ายปันผล 3 กองทุนหุ้นไทยและ Thai ESGX รวม 6.04 ล้านบาท วันที่ 18 พ.ย.นี้ โดย ES-SET50-D จ่ายสูงสุด 0.50 บาทต่อหน่วย ขณะที่อีก 2 กองทุนจ่าย 0.30-0.40 บาทต่อหน่วย นายยิ่งยง เจียรวุฑฒิ รองกรรมการผู้จัดการ ฝ่ายจัดการลงทุน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2024/12/Cover-photo-Logo-8.jpg",
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
   {
    "id": "1d931372c6aa",
    "title": "แนวโน้มราคาทองวันนี้ (17 พ.ย. 69) บทวิเคราะห์โดย YLG Bullion",
