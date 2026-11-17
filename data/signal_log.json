@@ -380,7 +380,9 @@
   "date": "2026-11-17",
   "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
   "news_link": "https://www.infoquest.co.th/2026/680654",
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r1": -0.58,
+  "x1": 0.7
  },
  "oil_down|CVX|2026-09-20": {
   "signal": "oil_down",
@@ -453,7 +455,9 @@
   "date": "2026-11-17",
   "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
   "news_link": "https://www.infoquest.co.th/2026/680654",
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r1": -0.38,
+  "x1": 0.9
  },
  "oil_down|DAL|2026-09-20": {
   "signal": "oil_down",
@@ -526,7 +530,9 @@
   "date": "2026-11-17",
   "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
   "news_link": "https://www.infoquest.co.th/2026/680654",
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r1": -2.04,
+  "x1": -0.77
  },
  "oil_down|PTTEP|2026-09-20": {
   "signal": "oil_down",
@@ -824,7 +830,9 @@
   "date": "2026-11-17",
   "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
   "news_link": "https://www.infoquest.co.th/2026/680654",
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r1": -3.47,
+  "x1": -2.19
  },
  "oil_down|XOM|2026-09-20": {
   "signal": "oil_down",
@@ -897,7 +905,9 @@
   "date": "2026-11-17",
   "news_title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
   "news_link": "https://www.infoquest.co.th/2026/680654",
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r1": 0.05,
+  "x1": 1.33
  },
  "oil_up|AAV|2026-09-01": {
   "signal": "oil_up",
@@ -1061,6 +1071,19 @@
   "x20": -13.84,
   "base_date": "2026-09-10"
  },
+ "oil_up|AAV|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -2.67,
+  "x1": -1.2,
+  "base_date": "2026-11-16"
+ },
  "oil_up|BCP|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -1222,6 +1245,19 @@
   "r20": -9.05,
   "x20": -6.06,
   "base_date": "2026-09-10"
+ },
+ "oil_up|BCP|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -3.5,
+  "x1": -2.03,
+  "base_date": "2026-11-16"
  },
  "oil_up|COP|2026-09-01": {
   "signal": "oil_up",
@@ -1385,6 +1421,19 @@
   "x20": -4.37,
   "base_date": "2026-09-10"
  },
+ "oil_up|COP|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -0.58,
+  "x1": 0.7,
+  "base_date": "2026-11-16"
+ },
  "oil_up|CVX|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -1546,6 +1595,19 @@
   "r20": -0.57,
   "x20": -2.86,
   "base_date": "2026-09-10"
+ },
+ "oil_up|CVX|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -0.38,
+  "x1": 0.9,
+  "base_date": "2026-11-16"
  },
  "oil_up|DAL|2026-09-01": {
   "signal": "oil_up",
@@ -1709,6 +1771,19 @@
   "x20": 2.7,
   "base_date": "2026-09-10"
  },
+ "oil_up|DAL|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -2.04,
+  "x1": -0.77,
+  "base_date": "2026-11-16"
+ },
  "oil_up|PTTEP|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -1870,6 +1945,19 @@
   "r20": -4.19,
   "x20": -1.21,
   "base_date": "2026-09-10"
+ },
+ "oil_up|PTTEP|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -1.72,
+  "x1": -0.25,
+  "base_date": "2026-11-16"
  },
  "oil_up|PTT|2026-09-01": {
   "signal": "oil_up",
@@ -2033,6 +2121,19 @@
   "x20": -1.77,
   "base_date": "2026-09-10"
  },
+ "oil_up|PTT|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -3.88,
+  "x1": -2.41,
+  "base_date": "2026-11-16"
+ },
  "oil_up|TOP|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -2194,6 +2295,19 @@
   "r20": 13.81,
   "x20": 16.79,
   "base_date": "2026-09-10"
+ },
+ "oil_up|TOP|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -5.35,
+  "x1": -3.88,
+  "base_date": "2026-11-16"
  },
  "oil_up|UAL|2026-09-01": {
   "signal": "oil_up",
@@ -2357,6 +2471,19 @@
   "x20": -1.4,
   "base_date": "2026-09-10"
  },
+ "oil_up|UAL|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": -3.47,
+  "x1": -2.19,
+  "base_date": "2026-11-16"
+ },
  "oil_up|XOM|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -2518,6 +2645,19 @@
   "r20": 1.98,
   "x20": -0.31,
   "base_date": "2026-09-10"
+ },
+ "oil_up|XOM|2026-11-17": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-17",
+  "news_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+  "news_link": "https://www.infoquest.co.th/2026/681350",
+  "r1": 0.05,
+  "x1": 1.33,
+  "base_date": "2026-11-16"
  },
  "rate_cut|BAC|2026-09-06": {
   "signal": "rate_cut",
@@ -3095,7 +3235,9 @@
   "x1": -0.3,
   "r5": 0.08,
   "x5": -0.05,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": -2.31,
+  "x20": 2.75
  },
  "rate_hike|BAC|2026-11-16": {
   "signal": "rate_hike",
@@ -4219,7 +4361,9 @@
   "x1": -0.6,
   "r5": 0.16,
   "x5": 0.03,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": -1.62,
+  "x20": 3.45
  },
  "rate_hike|JPM|2026-11-16": {
   "signal": "rate_hike",
@@ -5062,7 +5206,9 @@
   "x1": -0.38,
   "r5": -0.1,
   "x5": -0.23,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": -5.04,
+  "x20": 0.03
  },
  "rate_hike|MSFT|2026-11-16": {
   "signal": "rate_hike",
@@ -5343,7 +5489,9 @@
   "x1": 1.96,
   "r5": 0.68,
   "x5": 0.55,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": -29.17,
+  "x20": -24.1
  },
  "rate_hike|NVDA|2026-11-16": {
   "signal": "rate_hike",
@@ -5853,6 +6001,19 @@
   "r1": -0.8,
   "x1": 0.86
  },
+ "tariff|AAPL|2026-11-17": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "AAPL",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-17",
+  "news_title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+  "news_link": "https://www.prachachat.net/world/news-2098328",
+  "r1": -0.59,
+  "x1": 0.69,
+  "base_date": "2026-11-16"
+ },
  "tariff|CPF|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6065,6 +6226,19 @@
   "r1": -2.9,
   "x1": -2.9,
   "base_date": "2026-11-13"
+ },
+ "tariff|CPF|2026-11-17": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-17",
+  "news_title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+  "news_link": "https://www.prachachat.net/world/news-2098328",
+  "r1": -0.75,
+  "x1": 0.72,
+  "base_date": "2026-11-16"
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -6279,6 +6453,19 @@
   "x1": -2.37,
   "base_date": "2026-11-13"
  },
+ "tariff|DELTA|2026-11-17": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-17",
+  "news_title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+  "news_link": "https://www.prachachat.net/world/news-2098328",
+  "r1": -4.31,
+  "x1": -2.84,
+  "base_date": "2026-11-16"
+ },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6492,6 +6679,19 @@
   "x1": -4.6,
   "base_date": "2026-11-13"
  },
+ "tariff|HANA|2026-11-17": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-17",
+  "news_title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+  "news_link": "https://www.prachachat.net/world/news-2098328",
+  "r1": -2.47,
+  "x1": -1.0,
+  "base_date": "2026-11-16"
+ },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6704,6 +6904,19 @@
   "r1": -3.39,
   "x1": -3.39,
   "base_date": "2026-11-13"
+ },
+ "tariff|KCE|2026-11-17": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-17",
+  "news_title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+  "news_link": "https://www.prachachat.net/world/news-2098328",
+  "r1": -6.58,
+  "x1": -5.11,
+  "base_date": "2026-11-16"
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -6919,6 +7132,19 @@
   "r1": -5.7,
   "x1": -4.04
  },
+ "tariff|TSM|2026-11-17": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TSM",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-17",
+  "news_title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+  "news_link": "https://www.prachachat.net/world/news-2098328",
+  "r1": -3.77,
+  "x1": -2.5,
+  "base_date": "2026-11-16"
+ },
  "tariff|TU|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -7131,6 +7357,19 @@
   "r1": -1.49,
   "x1": -1.49,
   "base_date": "2026-11-13"
+ },
+ "tariff|TU|2026-11-17": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-17",
+  "news_title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+  "news_link": "https://www.prachachat.net/world/news-2098328",
+  "r1": -0.76,
+  "x1": 0.71,
+  "base_date": "2026-11-16"
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",

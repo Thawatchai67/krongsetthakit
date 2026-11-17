@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-17T11:43:27Z",
+  "generated_at": "2026-11-17T20:49:01Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 147
+  "total_kept": 164
  },
  "signals": [
   {
    "id": "oil_down",
    "name": "น้ำมันลง",
-   "count": 2,
+   "count": 3,
    "impacts": [
     {
      "effect": "ถูกกดดัน",
@@ -56,6 +56,12 @@
    ],
    "evidence": [
     {
+     "title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+     "link": "https://www.infoquest.co.th/2026/681350",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-17T14:35:22Z"
+    },
+    {
      "title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
      "link": "https://www.infoquest.co.th/2026/680654",
      "source": "อินโฟเควสท์",
@@ -66,6 +72,43 @@
      "link": "https://www.infoquest.co.th/2026/680577",
      "source": "อินโฟเควสท์",
      "published": "2026-11-16T16:07:58Z"
+    }
+   ]
+  },
+  {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 2,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+     "link": "https://www.prachachat.net/world/news-2098328",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-17T14:11:15Z"
+    },
+    {
+     "title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
+     "link": "https://www.prachachat.net/economic/news-2096998",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-16T04:46:14Z"
     }
    ]
   },
@@ -127,33 +170,45 @@
    ]
   },
   {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "id": "oil_up",
+   "name": "น้ำมันขึ้น",
    "count": 1,
    "impacts": [
     {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "effect": "ได้ประโยชน์",
+     "sector": "พลังงาน/ปิโตรเลียม",
      "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
      ],
      "us": [
-      "AAPL",
-      "TSM"
+      "XOM",
+      "CVX",
+      "COP"
      ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ขนส่ง",
+     "set": [
+      "AAV"
+     ],
+     "us": [
+      "DAL",
+      "UAL"
+     ],
+     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
     }
    ],
    "evidence": [
     {
-     "title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก",
-     "link": "https://www.prachachat.net/economic/news-2096998",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-16T04:46:14Z"
+     "title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+     "link": "https://www.infoquest.co.th/2026/681350",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-17T14:35:22Z"
     }
    ]
   }
@@ -162,10 +217,18 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 19,
+   "count": 20,
    "new_24h": 9,
-   "latest": "2026-11-17T11:29:40Z",
-   "latest_title": "BGRIM ยันสหรัฐคุมเข้มส่งออกชิปไม่กระทบโครงการ Topaz Hyperscale เดินหน้าขยาย Data Center 500 MW"
+   "latest": "2026-11-17T18:23:09Z",
+   "latest_title": "“เจนเซน หวง” ประกาศพร้อมกลับมาเป็นซีอีโอ Nvidia!"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 10,
+   "new_24h": 4,
+   "latest": "2026-11-17T14:35:22Z",
+   "latest_title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง"
   },
   {
    "id": "bot",
@@ -176,12 +239,12 @@
    "latest_title": "แบงก์ชาติ จับตาสหรัฐคุมเข้มส่งออกชิป อาจกระทบการลงทุนในไทย"
   },
   {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 8,
-   "new_24h": 4,
-   "latest": "2026-11-16T17:53:00Z",
-   "latest_title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out."
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 6,
+   "new_24h": 3,
+   "latest": "2026-11-17T15:50:31Z",
+   "latest_title": "ราคาทองปรับตัวแคบ นลท.จับตารายงานประชุมเฟด"
   },
   {
    "id": "thai-market",
@@ -192,20 +255,20 @@
    "latest_title": "หุ้นไทยดิ่ง 24.85 จุด KKP ชี้ AI กดดัน ชอร์ตเซลกระทบช่วงสั้น"
   },
   {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 5,
-   "new_24h": 3,
-   "latest": "2026-11-17T02:25:40Z",
-   "latest_title": "แนวโน้มราคาทองวันนี้ (17 พ.ย. 69) บทวิเคราะห์โดย YLG Bullion"
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
+   "count": 9,
+   "new_24h": 2,
+   "latest": "2026-11-17T14:11:15Z",
+   "latest_title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 8,
-   "new_24h": 3,
-   "latest": "2026-11-17T02:01:43Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย:แนวโน้มดัชนีเช้าปรับลงต่อรับแรงขายหุ้นเทคฯ-ราคาน้ำมันย่อแรงกดดันตลาด"
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 9,
+   "new_24h": 1,
+   "latest": "2026-11-17T15:50:31Z",
+   "latest_title": "ราคาทองปรับตัวแคบ นลท.จับตารายงานประชุมเฟด"
   },
   {
    "id": "baht",
@@ -224,14 +287,6 @@
    "latest_title": "แบงก์ชาติแจ้ง 16 ธ.ค. ประกาศหยุดธนาคารเป็นกรณีพิเศษ ตามมติ ครม."
   },
   {
-   "id": "trade-war",
-   "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 7,
-   "new_24h": 0,
-   "latest": "2026-11-16T04:46:14Z",
-   "latest_title": "ช็อกสายช็อป ภาษีสินค้าออนไลน์ 30% ดันราคาแพงขึ้น เปิด 5 กลุ่มกระทบหนัก"
-  },
-  {
    "id": "thai-us-china",
    "name": "ไทยกับสหรัฐ-จีน",
    "count": 3,
@@ -241,6 +296,348 @@
   }
  ],
  "items": [
+  {
+   "id": "2bb55bda15f5",
+   "title": "Gold is in a bear market — and hackproof in an increasingly digital world. Is this a good time to buy?",
+   "link": "https://www.marketwatch.com/story/gold-is-in-a-bear-market-and-hackproof-in-an-increasingly-digital-world-is-this-a-good-time-to-buy-fabfd528?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-17T20:24:00Z",
+   "summary": "After the world’s largest crypto hack and a spate of outages in the digital world, physical gold may be the ultimate “antidigital” asset.",
+   "image": "https://images.mktw.net/im-02547283",
+   "score": 4,
+   "categories": [
+    "gold"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "75fe601bba55",
+   "title": "Only two ‘Magnificent Seven’ stocks have managed to beat the S&P 500 since the start of 2025",
+   "link": "https://www.marketwatch.com/story/only-two-magnificent-seven-stocks-have-managed-to-beat-the-s-p-500-since-the-start-of-2025-a3daa0f8?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-17T20:16:00Z",
+   "summary": "Alphabet and Apple have approached artificial intelligence in ways that have resonated on Wall Street.",
+   "image": "https://images.mktw.net/im-26040217",
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "af80f847b337",
+   "title": "The S&P 500 is testing a key technical floor. Is it time to buy, or brace for a bear market?",
+   "link": "https://www.marketwatch.com/story/the-s-p-500-is-testing-a-key-technical-floor-is-it-time-to-buy-or-brace-for-a-bear-market-c432b192?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-17T20:13:00Z",
+   "summary": "The S&P 500 is joining other major U.S. equity indexes in trading below its 200-day moving average as the artificial-intelligence trade continues to struggle.",
+   "image": "https://images.mktw.net/im-86788971",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "ee2fec7f7b80",
+   "title": "These charts show investor fears run even deeper than the stock market’s decline suggests",
+   "link": "https://www.marketwatch.com/story/these-charts-show-investor-fears-run-even-deeper-than-the-stock-markets-decline-suggests-924e2647?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-17T19:22:00Z",
+   "summary": "The yen’s recent strengthening, particularly against the Australian dollar, suggests investors are unwinding risky bets.",
+   "image": "https://images.mktw.net/im-35307319",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "86355c6274af",
+   "title": "“เจนเซน หวง” ประกาศพร้อมกลับมาเป็นซีอีโอ Nvidia!",
+   "link": "https://www.infoquest.co.th/2026/681367",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T18:23:09Z",
+   "summary": "เมื่อสัปดาห์ที่ผ่านมา เจนเซน หวง ได้ประกาศลาออกจากตำแหน่งประธานเจ้าหน้าที่บริหาร (ซีอีโอ) ของบริษัท Nvidia หลังจากดำรงตำแหน่งดังกล่าวมาเป็นเวลา 33 ปี การลาออกครั้งนี้เกิดขึ้นเพียงไม่กี่วันหลังจาก หวง The post “เจนเซน หวง” ประกาศพร้อมกลับมา…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "40d4da457e89",
+   "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พุ่งกว่า 400 จุด แรงซื้อต่างชาติหนุนตลาด",
+   "link": "https://www.infoquest.co.th/2026/681365",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T17:25:18Z",
+   "summary": "ดัชนี Sensex ตลาดหุ้นอินเดีย พุ่งขึ้นกว่า 400 จุดในวันนี้ โดยได้แรงหนุนจากคำสั่งซื้อของนักลงทุนสถาบันต่างชาติ ดัชนี S&P BSE Sensex [BSE.X] ปิดตลาดที่ 82,532.19 บวก 427.40 จุด หรือ 0.52% The post ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พุ่งกว่า 4…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0a07b4fde71a",
+   "title": "‘ปลอดประสพ’ ชง 9 ข้อแก้พิษโลหะหนักแม่น้ำสาย-รวก จี้รัฐงัดมาตรการค้าบีบจีน-ประกาศเขตมลภาวะร้ายแรง",
+   "link": "https://www.prachachat.net/politics/news-2098374",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T16:51:11Z",
+   "summary": "อดีตรองนายกฯ ปลอดประสพ เตือนวิกฤตสารปนเปื้อนโลหะหนักในแม่น้ำสายและแม่น้ำรวก จ.เชียงราย รุนแรงกว่ากรณีห้วยคลิตี้นับสิบเท่า ค้านแนวคิดสร้างฝายดักตะกอนเหตุไม่ได้ผลทางวิศวกรรม พร้อมเสนอ 9 มาตรการเร่งด่วน แนะรัฐประกาศเป็นพื้นที่ประสบมลภาวะร้ายแ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/916578795_1798830491413029_2767640762647878827_n-1.jpg",
+   "score": 3,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6c9bd70d3956",
+   "title": "สหรัฐเผยราคานำเข้าพุ่งเกินคาดในเดือนต.ค.",
+   "link": "https://www.infoquest.co.th/2026/681360",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T16:28:07Z",
+   "summary": "กระทรวงแรงงานสหรัฐเปิดเผยว่า ราคานำเข้าพุ่งขึ้น 1.1% ในเดือนต.ค. เมื่อเทียบรายเดือน ขณะที่นักวิเคราะห์คาดว่าเพิ่มขึ้น 0.7% หลังจากเพิ่มขึ้น 1.1% ในเดือนก.ย. นอกจากนี้ กระทรวงแรงงานสหรัฐเปิดเผยว่า The post สหรัฐเผยราคานำเข้าพุ่งเกินคาดในเดื…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "eb2bc74c7506",
+   "title": "สหรัฐเผยดัชนีความเชื่อมั่นผู้สร้างบ้านต่ำกว่าคาดในเดือนพ.ย.",
+   "link": "https://www.infoquest.co.th/2026/681358",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T16:10:22Z",
+   "summary": "สมาคมผู้สร้างบ้านแห่งชาติ (NAHB) ของสหรัฐเปิดเผยว่า ดัชนีความเชื่อมั่นผู้สร้างบ้านร่วงลง 4 จุด สู่ระดับ 25 ในเดือนพ.ย. ซึ่งเป็นระดับต่ำสุดในรอบ 14 ปี หรือต่ำสุดนับตั้งแต่เดือนเม.ย.2555 The post สหรัฐเผยดัชนีความเชื่อมั่นผู้สร้างบ้านต่ำกว่า…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "68c4fa53cd3c",
+   "title": "ราคาทองปรับตัวแคบ นลท.จับตารายงานประชุมเฟด",
+   "link": "https://www.infoquest.co.th/2026/681356",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T15:50:31Z",
+   "summary": "ราคาทองปรับตัวแคบในวันนี้ โดยถูกกดดันจากการแข็งค่าของดอลลาร์ และการคาดการณ์เกี่ยวกับการปรับขึ้นอัตราดอกเบี้ยของธนาคารกลางสหรัฐ (เฟด) ในเดือนธ.ค. ณ เวลา 22.33 น.ตามเวลาไทย ราคาทองสปอต [GOLD.X] บวก The post ราคาทองปรับตัวแคบ นลท.จับตารายงานป…",
+   "image": null,
+   "score": 11,
+   "categories": [
+    "monetary",
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "fed",
+    "gold"
+   ]
+  },
+  {
+   "id": "b8639cab678a",
+   "title": "สหรัฐเผยยอดค้าปลีก +0.2% เดือนต.ค. สอดคล้องคาดการณ์",
+   "link": "https://www.infoquest.co.th/2026/681354",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T15:32:36Z",
+   "summary": "กระทรวงพาณิชย์สหรัฐเปิดเผยว่า ยอดค้าปลีกเพิ่มขึ้น 0.2% ในเดือนต.ค. เมื่อเทียบรายเดือน สอดคล้องตัวเลขคาดการณ์ของนักวิเคราะห์ หลังจากเพิ่มขึ้น 0.8% ในเดือนก.ย. เมื่อเทียบรายปี ยอดค้าปลีกเพิ่มขึ้น 6.82% The post สหรัฐเผยยอดค้าปลีก +0.2% เดือน…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0be8e59c9b4f",
+   "title": "ดาวโจนส์ดิ่งกว่า 300 จุด หุ้นโฮม ดีโปท์กดดันตลาด",
+   "link": "https://www.infoquest.co.th/2026/681352",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T15:04:02Z",
+   "summary": "ดัชนีดาวโจนส์ดิ่งลงกว่า 300 จุดในวันนี้ โดยได้รับผลกระทบจากการร่วงลงของหุ้นโฮม ดีโปท์ ณ เวลา 21.40 น.ตามเวลาไทย ดัชนีเฉลี่ยอุตสาหกรรมดาวโจนส์ [DJI.X] ลบ 336.54 จุด หรือ 0.65% สู่ระดับ 51,271.63 จุด The post ดาวโจนส์ดิ่งกว่า 300 จุด หุ้นโฮม…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "cef9b826fb96",
+   "title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+   "link": "https://www.infoquest.co.th/2026/681350",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T14:35:22Z",
+   "summary": "ราคาน้ำมันโลกดีดตัวขึ้นในวันนี้ โดยได้แรงหนุนจากการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซที่ยังคงเกิดขึ้นอย่างต่อเนื่อง รวมทั้งการคาดการณ์เกี่ยวกับการลดลงของสต็อกน้ำมันดิบของสหรัฐ ณ เวลา 21.08 The post ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อ…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_up",
+    "oil_down"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "bc0068b74909",
+   "title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
+   "link": "https://www.prachachat.net/world/news-2098328",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T14:11:15Z",
+   "summary": "‘ทรัมป์’ และ ‘อนุทิน’ ลงนามแถลงการณ์ร่วมยืนยันเงื่อนไขข้อตกลงทางการค้าที่จะเกิดขึ้นในอนาคตในกรุงมะนิลา ทรัมป์กล่าวว่าประเทศไทยตกลงที่จะยกเลิกภาษีศุลกากรทั้งหมดสำหรับสินค้าส่งออกของสหรัฐรวมถึงขจัดอุปสรรคทางการค้าที่มิใช่ภาษีในส … อ่านข่าวต้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/AP26321480612482-scaled.jpg",
+   "score": 8,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "1f3e66d88bfe",
+   "title": "ทรัมป์เตือนอิหร่านถูกจัดหนักแน่ หากคิดโจมตีสหรัฐ",
+   "link": "https://www.infoquest.co.th/2026/681348",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T14:04:37Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ ได้เดินทางถึงกรุงมะนิลา ประเทศฟิลิปปินส์แล้ว ซึ่งเป็นจุดหมายแรกของการเดินทางเยือนเอเชีย และได้ตอบคำถามจากสื่อมวลชนเกี่ยวกับประเด็นอิหร่านไปจนถึงกรณีธนาคารดอยช์แบง The post ทรัมป์เตือนอิหร่านถูกจัดหนักแ…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "965e0b0b4ea2",
+   "title": "‘อนุทิน–ทรัมป์’ ลงนามแถลงการณ์ร่วม ยืนยันเจรจาการค้า ART บรรลุข้อสรุปสำคัญ",
+   "link": "https://www.prachachat.net/politics/news-2098317",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T13:08:54Z",
+   "summary": "นายกฯ–ประธานาธิบดีสหรัฐฯ ลงนามแถลงการณ์ร่วม ยืนยันเจรจาการค้า ART บรรลุข้อสรุปสำคัญแล้ว มุ่งรักษาตลาดส่งออกไทย สร้างความเชื่อมั่นภาคธุรกิจ ก่อนเดินหน้าความตกลงฉบับสมบูรณ์ นายเอกภพ เพียรพิเศษ โฆษกประจำสำนักนายกรัฐมนตรี เปิดเผยว่า นายอนุทิน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/477092.jpg",
+   "score": 6,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "f6df173adebf",
+   "title": "สวนดุสิตโพล เปิดผลสำรวจ หากระบบธนาคารล่ม คนไทยมีเงินสดสำรองแค่ไหน?",
+   "link": "https://www.prachachat.net/news/news-2098016",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-17T11:58:46Z",
+   "summary": "สวนดุสิตโพลเผยผลสำรวจประชาชนทั่วประเทศ พบ 50.95% ค่อนข้างกังวลต่อความปลอดภัยของเงินในบัญชีจากข่าวโจมตีไซเบอร์ ขณะที่ 66.42% ห่วงเงินสูญหายหรือถูกโอนโดยไม่ได้รับอนุญาต หากระบบธนาคารขัดข้องเป็นวงกว้าง และ 71.38% เรียกร้องรัฐ-ธนาคารเร่งกำหนดม…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Bank-Cybersecurity.png",
+   "score": 4,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "00544d4a7e22",
    "title": "KTC วางเป้าปี 70 ยอดใช้จ่ายผ่านบัตรโต 8-10% พอร์ตสินเชื่อขยาย 1-2% คุมหนี้ NPL ไม่เกิน 2%",
