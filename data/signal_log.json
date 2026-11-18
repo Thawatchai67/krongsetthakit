@@ -247,6 +247,17 @@
   "x1": -1.07,
   "base_date": "2026-11-17"
  },
+ "oil_down|AAV|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
+ },
  "oil_down|BCP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -335,6 +346,17 @@
   "x1": -1.29,
   "base_date": "2026-11-17"
  },
+ "oil_down|BCP|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
+ },
  "oil_down|COP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -419,7 +441,20 @@
   "date": "2026-11-18",
   "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
   "news_link": "https://www.infoquest.co.th/2026/682061",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -3.27,
+  "x1": -2.98
+ },
+ "oil_down|COP|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
  },
  "oil_down|CVX|2026-09-20": {
   "signal": "oil_down",
@@ -505,7 +540,20 @@
   "date": "2026-11-18",
   "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
   "news_link": "https://www.infoquest.co.th/2026/682061",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -4.55,
+  "x1": -4.25
+ },
+ "oil_down|CVX|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
  },
  "oil_down|DAL|2026-09-20": {
   "signal": "oil_down",
@@ -591,7 +639,20 @@
   "date": "2026-11-18",
   "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
   "news_link": "https://www.infoquest.co.th/2026/682061",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": 1.22,
+  "x1": 1.51
+ },
+ "oil_down|DAL|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
  },
  "oil_down|PTTEP|2026-09-20": {
   "signal": "oil_down",
@@ -681,6 +742,17 @@
   "x1": 0.65,
   "base_date": "2026-11-17"
  },
+ "oil_down|PTTEP|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
+ },
  "oil_down|PTT|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -768,6 +840,17 @@
   "r1": 0.54,
   "x1": 0.84,
   "base_date": "2026-11-17"
+ },
+ "oil_down|PTT|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
  },
  "oil_down|TOP|2026-09-20": {
   "signal": "oil_down",
@@ -857,6 +940,17 @@
   "x1": 0.3,
   "base_date": "2026-11-17"
  },
+ "oil_down|TOP|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
+ },
  "oil_down|UAL|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -941,7 +1035,20 @@
   "date": "2026-11-18",
   "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
   "news_link": "https://www.infoquest.co.th/2026/682061",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": 1.56,
+  "x1": 1.85
+ },
+ "oil_down|UAL|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
  },
  "oil_down|XOM|2026-09-20": {
   "signal": "oil_down",
@@ -1027,7 +1134,20 @@
   "date": "2026-11-18",
   "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
   "news_link": "https://www.infoquest.co.th/2026/682061",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -3.79,
+  "x1": -3.49
+ },
+ "oil_down|XOM|2026-11-19": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682099",
+  "base_date": "2026-11-18"
  },
  "oil_up|AAV|2026-09-01": {
   "signal": "oil_up",
@@ -1204,6 +1324,17 @@
   "x1": -1.2,
   "base_date": "2026-11-16"
  },
+ "oil_up|AAV|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
+ },
  "oil_up|BCP|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -1378,6 +1509,17 @@
   "r1": -3.5,
   "x1": -2.03,
   "base_date": "2026-11-16"
+ },
+ "oil_up|BCP|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
  },
  "oil_up|COP|2026-09-01": {
   "signal": "oil_up",
@@ -1554,6 +1696,17 @@
   "x1": 0.7,
   "base_date": "2026-11-16"
  },
+ "oil_up|COP|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
+ },
  "oil_up|CVX|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -1728,6 +1881,17 @@
   "r1": -0.38,
   "x1": 0.9,
   "base_date": "2026-11-16"
+ },
+ "oil_up|CVX|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
  },
  "oil_up|DAL|2026-09-01": {
   "signal": "oil_up",
@@ -1904,6 +2068,17 @@
   "x1": -0.77,
   "base_date": "2026-11-16"
  },
+ "oil_up|DAL|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
+ },
  "oil_up|PTTEP|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -2078,6 +2253,17 @@
   "r1": -1.72,
   "x1": -0.25,
   "base_date": "2026-11-16"
+ },
+ "oil_up|PTTEP|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
  },
  "oil_up|PTT|2026-09-01": {
   "signal": "oil_up",
@@ -2254,6 +2440,17 @@
   "x1": -2.41,
   "base_date": "2026-11-16"
  },
+ "oil_up|PTT|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
+ },
  "oil_up|TOP|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -2428,6 +2625,17 @@
   "r1": -5.35,
   "x1": -3.88,
   "base_date": "2026-11-16"
+ },
+ "oil_up|TOP|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
  },
  "oil_up|UAL|2026-09-01": {
   "signal": "oil_up",
@@ -2604,6 +2812,17 @@
   "x1": -2.19,
   "base_date": "2026-11-16"
  },
+ "oil_up|UAL|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
+ },
  "oil_up|XOM|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -2778,6 +2997,17 @@
   "r1": 0.05,
   "x1": 1.33,
   "base_date": "2026-11-16"
+ },
+ "oil_up|XOM|2026-11-19": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+  "news_link": "https://www.infoquest.co.th/2026/682097",
+  "base_date": "2026-11-18"
  },
  "rate_cut|BAC|2026-09-06": {
   "signal": "rate_cut",
@@ -3381,7 +3611,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -1.14,
+  "x1": -0.85
  },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
@@ -4563,7 +4795,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -1.57,
+  "x1": -1.28
  },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
@@ -5449,7 +5683,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -0.01,
+  "x1": 0.28
  },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
@@ -5743,7 +5979,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -3.08,
+  "x1": -2.79
  },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
@@ -6277,7 +6515,9 @@
   "date": "2026-11-18",
   "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
   "news_link": "https://www.prachachat.net/economic/news-2098392",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": 0.06,
+  "x1": 0.35
  },
  "tariff|CPF|2026-09-06": {
   "signal": "tariff",
@@ -7471,7 +7711,9 @@
   "date": "2026-11-18",
   "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
   "news_link": "https://www.prachachat.net/economic/news-2098392",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": 0.15,
+  "x1": 0.45
  },
  "tariff|TU|2026-09-06": {
   "signal": "tariff",

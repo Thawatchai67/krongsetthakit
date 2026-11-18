@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-18T11:30:56Z",
+  "generated_at": "2026-11-18T20:25:34Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 202
+  "total_kept": 213
  },
  "signals": [
   {
@@ -56,6 +56,12 @@
    ],
    "evidence": [
     {
+     "title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+     "link": "https://www.infoquest.co.th/2026/682099",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-18T17:46:15Z"
+    },
+    {
      "title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
      "link": "https://www.infoquest.co.th/2026/682061",
      "source": "อินโฟเควสท์",
@@ -66,19 +72,13 @@
      "link": "https://www.infoquest.co.th/2026/681350",
      "source": "อินโฟเควสท์",
      "published": "2026-11-17T14:35:22Z"
-    },
-    {
-     "title": "ภาวะตลาดสินค้าโภคภัณฑ์ CBOT: ข้าวสาลีใกล้โลว์รอบหลายเดือน-ถั่วเหลืองปิดลบ เหตุดอลล์แข็ง-น้ำมันดิ่ง",
-     "link": "https://www.infoquest.co.th/2026/680654",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-17T01:53:52Z"
     }
    ]
   },
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 3,
+   "count": 4,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -119,22 +119,71 @@
    ],
    "evidence": [
     {
+     "title": "ดอลลาร์ทำนิวไฮ 19 เดือน หลังยอดค้าปลีกพุ่ง หนุนเฟดขึ้นดอกเบี้ยเดือนธ.ค.",
+     "link": "https://www.infoquest.co.th/2026/682087",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-18T15:32:45Z"
+    },
+    {
+     "title": "ดาวโจนส์ดิ่งกว่า 400 จุด กังวลเฟดขึ้นดอกเบี้ยแรง",
+     "link": "https://www.infoquest.co.th/2026/682085",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-18T15:04:00Z"
+    },
+    {
      "title": "ภาวะตลาดอนุพันธ์: ผันผวนหนักบ่ายร่วงรับแรงเทขายหุ้นใหญ่ ดอลลาร์แข็งค่า-บอนด์ยีลด์พุ่งรับสัญญาณเฟดเดินหน้าขึ้นดอกเบี้ย",
      "link": "https://www.infoquest.co.th/2026/682028",
      "source": "อินโฟเควสท์",
      "published": "2026-11-18T11:12:01Z"
+    }
+   ]
+  },
+  {
+   "id": "oil_up",
+   "name": "น้ำมันขึ้น",
+   "count": 2,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "พลังงาน/ปิโตรเลียม",
+     "set": [
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
+     ],
+     "us": [
+      "XOM",
+      "CVX",
+      "COP"
+     ],
+     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
     },
     {
-     "title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
-     "link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-17T22:08:00Z"
-    },
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ขนส่ง",
+     "set": [
+      "AAV"
+     ],
+     "us": [
+      "DAL",
+      "UAL"
+     ],
+     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
+    }
+   ],
+   "evidence": [
     {
-     "title": "ราคาทองโลกดิ่งต่ำสุดกว่า 1 ปี ดอลล์แข็งทุบตลาด เก็งเฟดขึ้นดอกเบี้ย",
-     "link": "https://www.infoquest.co.th/2026/680579",
+     "title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+     "link": "https://www.infoquest.co.th/2026/682097",
      "source": "อินโฟเควสท์",
-     "published": "2026-11-16T16:42:56Z"
+     "published": "2026-11-18T17:27:19Z"
+    },
+    {
+     "title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
+     "link": "https://www.infoquest.co.th/2026/681350",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-17T14:35:22Z"
     }
    ]
   },
@@ -174,91 +223,40 @@
      "published": "2026-11-17T14:11:15Z"
     }
    ]
-  },
-  {
-   "id": "oil_up",
-   "name": "น้ำมันขึ้น",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "พลังงาน/ปิโตรเลียม",
-     "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
-     ],
-     "us": [
-      "XOM",
-      "CVX",
-      "COP"
-     ],
-     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
-     "link": "https://www.infoquest.co.th/2026/681350",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-17T14:35:22Z"
-    }
-   ]
   }
  ],
  "stories": [
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 27,
+   "count": 28,
    "new_24h": 9,
-   "latest": "2026-11-18T11:05:01Z",
-   "latest_title": "“เอกนิติ” จีบผู้นำผลิตชิปญี่ปุ่น ปักหมุดไทยศูนย์กลางอุตสาหกรรมชิปแห่งอนาคต ดึงลงทุน 5 แสนลบ. ในปี 73"
+   "latest": "2026-11-18T11:47:18Z",
+   "latest_title": "ดับฝันไทย ฮับดาต้าเซ็นเตอร์? เจาะเกณฑ์ “มะกัน” เข้ม “ซื้อ-เช่าใช้” ชิปขั้นสูง"
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 15,
+   "new_24h": 6,
+   "latest": "2026-11-18T19:00:00Z",
+   "latest_title": "Minutes of the Federal Open Market Committee, October 27-28, 2026"
   },
   {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
-   "count": 13,
+   "count": 15,
    "new_24h": 5,
-   "latest": "2026-11-18T11:17:06Z",
-   "latest_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง"
+   "latest": "2026-11-18T17:46:15Z",
+   "latest_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
    "count": 9,
-   "new_24h": 4,
+   "new_24h": 3,
    "latest": "2026-11-18T10:53:15Z",
    "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.96 อ่อนค่ารอบ 19 เดือน รับราคาทองร่วงแรง-ต่างชาติขายพันธบัตร คาดกรอบพรุ่งนี้ 33.85-34.05"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 11,
-   "new_24h": 3,
-   "latest": "2026-11-18T11:12:01Z",
-   "latest_title": "ภาวะตลาดอนุพันธ์: ผันผวนหนักบ่ายร่วงรับแรงเทขายหุ้นใหญ่ ดอลลาร์แข็งค่า-บอนด์ยีลด์พุ่งรับสัญญาณเฟดเดินหน้าขึ้นดอกเบี้ย"
-  },
-  {
-   "id": "trade-war",
-   "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 10,
-   "new_24h": 3,
-   "latest": "2026-11-18T00:46:34Z",
-   "latest_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล"
   },
   {
    "id": "thai-market",
@@ -285,6 +283,14 @@
    "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.96 อ่อนค่ารอบ 19 เดือน รับราคาทองร่วงแรง-ต่างชาติขายพันธบัตร คาดกรอบพรุ่งนี้ 33.85-34.05"
   },
   {
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
+   "count": 10,
+   "new_24h": 1,
+   "latest": "2026-11-18T00:46:34Z",
+   "latest_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล"
+  },
+  {
    "id": "thai-economy",
    "name": "เศรษฐกิจไทย",
    "count": 9,
@@ -302,6 +308,243 @@
   }
  ],
  "items": [
+  {
+   "id": "1caf8ffa292c",
+   "title": "Fed minutes show growing unease about the outlook for inflation",
+   "link": "https://www.marketwatch.com/story/fed-minutes-show-growing-unease-about-the-outlook-for-inflation-59e3c13d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-18T19:38:00Z",
+   "summary": "The minutes of the Federal Reserve’s October policy meeting showed growing unease among officials about the outlook for inflation, even as they decided to hold interest rates steady.",
+   "image": "https://images.mktw.net/im-43212358",
+   "score": 8,
+   "categories": [
+    "monetary",
+    "inflation"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "dbea10a75a84",
+   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+   "source": "Federal Reserve",
+   "feed": "fed",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-18T19:00:00Z",
+   "summary": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "9cf9faee4c41",
+   "title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+   "link": "https://www.infoquest.co.th/2026/682099",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T17:46:15Z",
+   "summary": "ราคาน้ำมันดิบในตลาดโลกดิ่งลงอย่างหนักในวันนี้ ล่าสุด ราคาน้ำมันดิบเบรนท์หลุดระดับ 91 ดอลลาร์/บาร์เรล ส่วนราคาน้ำมันดิบเวสต์เท็กซัส (WTI) ร่วงหลุด 83 ดอลลาร์/บาร์เรล หลังสหรัฐเปิดเผยสต็อกน้ำมันเพิ่มขึ้ The post น้ำมันโลกดิ่งหนัก เบรนท์หลุด…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_down"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "946e8076e1e9",
+   "title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
+   "link": "https://www.infoquest.co.th/2026/682097",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T17:27:19Z",
+   "summary": "สำนักงานสารสนเทศด้านการพลังงานของรัฐบาลสหรัฐ (EIA) เปิดเผยว่า สต็อกน้ำมันดิบสหรัฐเพิ่มขึ้น 3.4 ล้านบาร์เรลในสัปดาห์ที่แล้ว ขณะที่นักวิเคราะห์คาดว่าเพิ่มขึ้นเพียง 400,000 บาร์เรล สต็อกน้ำมันดิบที่เมือง The post EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "06ee393ce388",
+   "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ร่วง 500 จุด ขายทำกำไรฉุดตลาด",
+   "link": "https://www.infoquest.co.th/2026/682095",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T16:58:53Z",
+   "summary": "ดัชนี Sensex ตลาดหุ้นอินเดีย ร่วงลง 500 จุด โดยถูกกดดันจากแรงขายทำกำไรของนักลงทุน รวมทั้งความวิตกเกี่ยวกับการปรับขึ้นอัตราดอกเบี้ยของธนาคารกลางสหรัฐ (เฟด) ดัชนี S&P BSE Sensex [BSE.X] ปิดตลาดที่ The post ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ร…",
+   "image": null,
+   "score": 13,
+   "categories": [
+    "stock_market",
+    "earnings",
+    "monetary"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "50c6c84cc4c2",
+   "title": "ทองโลกดิ่งเหว! ทรุดกว่า 100 ดอลล์ หลุด $3,800 ต่ำสุดรอบกว่า 1 ปี",
+   "link": "https://www.infoquest.co.th/2026/682089",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T15:52:31Z",
+   "summary": "ราคาทองคำทรุดกว่า 100 ดอลลาร์ แตะระดับต่ำสุดในรอบกว่า 1 ปีในวันนี้ โดยได้รับผลกระทบจากการแข็งค่าของดอลลาร์ ขณะที่นักลงทุนคาดการณ์ว่า ธนาคารกลางสหรัฐ (เฟด) จะเดินหน้าปรับขึ้นอัตราดอกเบี้ย The post ทองโลกดิ่งเหว! ทรุดกว่า 100 ดอลล์ หลุด $3,8…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "monetary",
+    "gold"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "cf64d583bf22",
+   "title": "ดอลลาร์ทำนิวไฮ 19 เดือน หลังยอดค้าปลีกพุ่ง หนุนเฟดขึ้นดอกเบี้ยเดือนธ.ค.",
+   "link": "https://www.infoquest.co.th/2026/682087",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T15:32:45Z",
+   "summary": "ดอลลาร์ดีดตัวแตะระดับสูงสุดในรอบ 19 เดือน หลังข้อมูลเศรษฐกิจของสหรัฐ และความเห็นของเจ้าหน้าที่ธนาคารกลางสหรัฐ (เฟด) ตอกย้ำคาดการณ์ที่ว่าฟดจะปรับขึ้นอัตราดอกเบี้ยในเดือนธ.ค. ณ เวลา 22.15 น.ตามเวลาไทย The post ดอลลาร์ทำนิวไฮ 19 เดือน หลังยอด…",
+   "image": null,
+   "score": 13,
+   "categories": [
+    "monetary",
+    "economy"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "56551dc62774",
+   "title": "ดาวโจนส์ดิ่งกว่า 400 จุด กังวลเฟดขึ้นดอกเบี้ยแรง",
+   "link": "https://www.infoquest.co.th/2026/682085",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T15:04:00Z",
+   "summary": "ดัชนีดาวโจนส์ดิ่งลงกว่า 400 จุด ท่ามกลางความกังวลเกี่ยวกับเงินเฟ้อ และการปรับขึ้นอัตราดอกเบี้ยของธนาคารกลางสหรัฐ (เฟด) สวนทาง Nasdaq ที่ปรับตัวขึ้นในวันนี้ ณ เวลา 21.55 น.ตามเวลาไทย The post ดาวโจนส์ดิ่งกว่า 400 จุด กังวลเฟดขึ้นดอกเบี้ยแรง…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "monetary",
+    "stock_market"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "1ff8b07d98c9",
+   "title": "“วอลเลอร์” เผย เฟดอาจต้องช็อกนักลงทุน ด้วยการขึ้นดบ. 0.50% ในเดือนธ.ค.",
+   "link": "https://www.infoquest.co.th/2026/682082",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T14:32:42Z",
+   "summary": "นายคริสโตเฟอร์ วอลเลอร์ สมาชิกคณะกรรมการผู้ว่าการธนาคารกลางสหรัฐ (เฟด) และเป็นสมาชิกถาวรของคณะกรรมการกำหนดนโยบายการเงินของเฟด (FOMC) กล่าวในวันนี้ว่า เฟดจำเป็นต้องดำเนินมาตรการอย่างเข้มงวดเพื่อควบคุมเ The post “วอลเลอร์” เผย เฟดอาจต้องช็อก…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "3784d852db5a",
+   "title": "CNN วิเคราะห์: “สี จิ้นผิง” ต้อนรับ “ทรัมป์” ถึงสนามบิน สำคัญไฉน?",
+   "link": "https://www.infoquest.co.th/2026/682080",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T13:34:24Z",
+   "summary": "สำนักข่าว CNN รายงานว่า ประธานาธิบดีสี จิ้นผิง ผู้นำจีน สร้างปรากฏการณ์ใหม่ด้วยการเดินทางไปต้อนรับประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ ด้วยตนเองที่ท่าอากาศยานนานาชาติของเมืองเซินเจิ้น มณฑลกวางตุ้ง The post CNN วิเคราะห์: “สี จิ้นผิง” ต้อน…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "473be4d46d6a",
+   "title": "ดับฝันไทย ฮับดาต้าเซ็นเตอร์? เจาะเกณฑ์ “มะกัน” เข้ม “ซื้อ-เช่าใช้” ชิปขั้นสูง",
+   "link": "https://www.prachachat.net/tech/news-2098766",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T11:47:18Z",
+   "summary": "สำนักงานอุตสาหกรรมและความมั่นคง (BIS) กระทรวงพาณิชย์สหรัฐอเมริกา ได้เผยแพร่กฎระเบียบชั่วคราว (Interim Final Rule) เพิ่มมาตรการคุมเข้มการส่งออกและใช้ชิปขั้นสูงในประเทศที่มีความเสี่ยงเป็นทางผ่านให้ เทคจีนฯ ใช้เข้าถึง เทคโนโลยีปัญญาประดิษฐ์ (…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/file_00000000e6a48211a16c2c1aa19743cb.png",
+   "score": 7,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
   {
    "id": "760c18968c13",
    "title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
