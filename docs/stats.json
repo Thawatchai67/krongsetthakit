@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T02:52:17Z",
+ "generated_at": "2026-11-18T11:31:24Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -10,12 +10,12 @@
  },
  "backfill": 363,
  "overall": {
-  "total": 479,
-  "news": 56,
+  "total": 489,
+  "news": 57,
   "d1": {
-   "evaluated": 364,
-   "hit_rate": 54.1,
-   "avg_edge": 0.2
+   "evaluated": 375,
+   "hit_rate": 53.3,
+   "avg_edge": 0.18
   },
   "d5": {
    "evaluated": 300,
@@ -23,9 +23,9 @@
    "avg_edge": 0.49
   },
   "d20": {
-   "evaluated": 294,
-   "hit_rate": 35.7,
-   "avg_edge": -1.1
+   "evaluated": 300,
+   "hit_rate": 36.3,
+   "avg_edge": -0.97
   }
  },
  "tickers": {
@@ -185,9 +185,9 @@
    "total": 170,
    "news": 17,
    "d1": {
-    "evaluated": 160,
-    "hit_rate": 50.6,
-    "avg_edge": -0.08
+    "evaluated": 166,
+    "hit_rate": 50.0,
+    "avg_edge": -0.09
    },
    "d5": {
     "evaluated": 150,
@@ -195,9 +195,9 @@
     "avg_edge": -0.19
    },
    "d20": {
-    "evaluated": 144,
-    "hit_rate": 32.6,
-    "avg_edge": -2.62
+    "evaluated": 150,
+    "hit_rate": 34.0,
+    "avg_edge": -2.31
    },
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย"
@@ -245,12 +245,12 @@
    "name": "น้ำมันขึ้น"
   },
   {
-   "total": 50,
-   "news": 5,
+   "total": 60,
+   "news": 6,
    "d1": {
-    "evaluated": 50,
-    "hit_rate": 48.0,
-    "avg_edge": 0.15
+    "evaluated": 55,
+    "hit_rate": 45.5,
+    "avg_edge": 0.11
    },
    "d5": {
     "evaluated": 20,

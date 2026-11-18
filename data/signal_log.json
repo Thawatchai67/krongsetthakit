@@ -234,6 +234,19 @@
   "r1": -2.67,
   "x1": -1.2
  },
+ "oil_down|AAV|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "r1": -1.37,
+  "x1": -1.07,
+  "base_date": "2026-11-17"
+ },
  "oil_down|BCP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -308,6 +321,19 @@
   "base_date": "2026-11-16",
   "r1": -3.5,
   "x1": -2.03
+ },
+ "oil_down|BCP|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "r1": -1.59,
+  "x1": -1.29,
+  "base_date": "2026-11-17"
  },
  "oil_down|COP|2026-09-20": {
   "signal": "oil_down",
@@ -384,6 +410,17 @@
   "r1": -0.58,
   "x1": 0.7
  },
+ "oil_down|COP|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "base_date": "2026-11-17"
+ },
  "oil_down|CVX|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -458,6 +495,17 @@
   "base_date": "2026-11-16",
   "r1": -0.38,
   "x1": 0.9
+ },
+ "oil_down|CVX|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "base_date": "2026-11-17"
  },
  "oil_down|DAL|2026-09-20": {
   "signal": "oil_down",
@@ -534,6 +582,17 @@
   "r1": -2.04,
   "x1": -0.77
  },
+ "oil_down|DAL|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "base_date": "2026-11-17"
+ },
  "oil_down|PTTEP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -608,6 +667,19 @@
   "base_date": "2026-11-16",
   "r1": -1.72,
   "x1": -0.25
+ },
+ "oil_down|PTTEP|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "r1": 0.35,
+  "x1": 0.65,
+  "base_date": "2026-11-17"
  },
  "oil_down|PTT|2026-09-20": {
   "signal": "oil_down",
@@ -684,6 +756,19 @@
   "r1": -3.88,
   "x1": -2.41
  },
+ "oil_down|PTT|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "r1": 0.54,
+  "x1": 0.84,
+  "base_date": "2026-11-17"
+ },
  "oil_down|TOP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -758,6 +843,19 @@
   "base_date": "2026-11-16",
   "r1": -5.35,
   "x1": -3.88
+ },
+ "oil_down|TOP|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "r1": 0.0,
+  "x1": 0.3,
+  "base_date": "2026-11-17"
  },
  "oil_down|UAL|2026-09-20": {
   "signal": "oil_down",
@@ -834,6 +932,17 @@
   "r1": -3.47,
   "x1": -2.19
  },
+ "oil_down|UAL|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "base_date": "2026-11-17"
+ },
  "oil_down|XOM|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -908,6 +1017,17 @@
   "base_date": "2026-11-16",
   "r1": 0.05,
   "x1": 1.33
+ },
+ "oil_down|XOM|2026-11-18": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+  "news_link": "https://www.infoquest.co.th/2026/682061",
+  "base_date": "2026-11-17"
  },
  "oil_up|AAV|2026-09-01": {
   "signal": "oil_up",
@@ -3529,7 +3649,9 @@
   "x1": -0.63,
   "r5": 2.74,
   "x5": 1.2,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": -0.55,
+  "x20": 3.2
  },
  "rate_hike|BBL|2026-11-16": {
   "signal": "rate_hike",
@@ -3553,7 +3675,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -1.09,
+  "x1": -0.79
  },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
@@ -3821,7 +3945,9 @@
   "x1": 1.0,
   "r5": 4.84,
   "x5": 3.3,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": 6.05,
+  "x20": 9.79
  },
  "rate_hike|CPN|2026-11-16": {
   "signal": "rate_hike",
@@ -3845,7 +3971,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -0.75,
+  "x1": -0.46
  },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
@@ -4113,7 +4241,9 @@
   "x1": -2.26,
   "r5": -5.31,
   "x5": -6.84,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": -26.94,
+  "x20": -23.19
  },
  "rate_hike|DELTA|2026-11-16": {
   "signal": "rate_hike",
@@ -4137,7 +4267,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": 0.85,
+  "x1": 1.14
  },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
@@ -4699,7 +4831,9 @@
   "x1": 1.9,
   "r5": 6.84,
   "x5": 5.3,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": 7.26,
+  "x20": 11.01
  },
  "rate_hike|KBANK|2026-11-16": {
   "signal": "rate_hike",
@@ -4723,7 +4857,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -1.57,
+  "x1": -1.27
  },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
@@ -4991,7 +5127,9 @@
   "x1": 0.76,
   "r5": 1.71,
   "x5": 0.18,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": 1.71,
+  "x20": 5.46
  },
  "rate_hike|LH|2026-11-16": {
   "signal": "rate_hike",
@@ -5015,7 +5153,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -1.11,
+  "x1": -0.81
  },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
@@ -5871,7 +6011,9 @@
   "x1": 0.88,
   "r5": 5.82,
   "x5": 4.28,
-  "base_date": "2026-10-20"
+  "base_date": "2026-10-20",
+  "r20": 5.14,
+  "x20": 8.88
  },
  "rate_hike|SCB|2026-11-16": {
   "signal": "rate_hike",
@@ -5895,7 +6037,9 @@
   "date": "2026-11-18",
   "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -0.32,
+  "x1": -0.03
  },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",
@@ -6370,7 +6514,9 @@
   "date": "2026-11-18",
   "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
   "news_link": "https://www.prachachat.net/economic/news-2098392",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -1.5,
+  "x1": -1.21
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -6607,7 +6753,9 @@
   "date": "2026-11-18",
   "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
   "news_link": "https://www.prachachat.net/economic/news-2098392",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": 0.85,
+  "x1": 1.14
  },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
@@ -6844,7 +6992,9 @@
   "date": "2026-11-18",
   "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
   "news_link": "https://www.prachachat.net/economic/news-2098392",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": 6.21,
+  "x1": 6.51
  },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
@@ -7081,7 +7231,9 @@
   "date": "2026-11-18",
   "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
   "news_link": "https://www.prachachat.net/economic/news-2098392",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": 3.29,
+  "x1": 3.58
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -7556,7 +7708,9 @@
   "date": "2026-11-18",
   "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
   "news_link": "https://www.prachachat.net/economic/news-2098392",
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r1": -1.53,
+  "x1": -1.23
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",
