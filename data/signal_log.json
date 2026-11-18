@@ -3252,6 +3252,17 @@
   "r1": -1.94,
   "x1": -0.28
  },
+ "rate_hike|BAC|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
+ },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -3532,6 +3543,17 @@
   "r1": -0.27,
   "x1": 0.02,
   "base_date": "2026-11-13"
+ },
+ "rate_hike|BBL|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
  },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
@@ -3814,6 +3836,17 @@
   "x1": 0.29,
   "base_date": "2026-11-13"
  },
+ "rate_hike|CPN|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
+ },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4094,6 +4127,17 @@
   "r1": -3.16,
   "x1": -2.86,
   "base_date": "2026-11-13"
+ },
+ "rate_hike|DELTA|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
  },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
@@ -4378,6 +4422,17 @@
   "r1": -1.98,
   "x1": -0.32
  },
+ "rate_hike|JPM|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
+ },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4659,6 +4714,17 @@
   "x1": 1.08,
   "base_date": "2026-11-13"
  },
+ "rate_hike|KBANK|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
+ },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4939,6 +5005,17 @@
   "r1": 0.0,
   "x1": 0.29,
   "base_date": "2026-11-13"
+ },
+ "rate_hike|LH|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
  },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
@@ -5223,6 +5300,17 @@
   "r1": -0.31,
   "x1": 1.35
  },
+ "rate_hike|MSFT|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
+ },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5506,6 +5594,17 @@
   "r1": -4.42,
   "x1": -2.76
  },
+ "rate_hike|NVDA|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
+ },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5787,6 +5886,17 @@
   "x1": 0.94,
   "base_date": "2026-11-13"
  },
+ "rate_hike|SCB|2026-11-18": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-18",
+  "news_title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+  "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+  "base_date": "2026-11-17"
+ },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6014,6 +6124,17 @@
   "x1": 0.69,
   "base_date": "2026-11-16"
  },
+ "tariff|AAPL|2026-11-18": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "AAPL",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-18",
+  "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
+  "news_link": "https://www.prachachat.net/economic/news-2098392",
+  "base_date": "2026-11-17"
+ },
  "tariff|CPF|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6239,6 +6360,17 @@
   "r1": -0.75,
   "x1": 0.72,
   "base_date": "2026-11-16"
+ },
+ "tariff|CPF|2026-11-18": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-18",
+  "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
+  "news_link": "https://www.prachachat.net/economic/news-2098392",
+  "base_date": "2026-11-17"
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -6466,6 +6598,17 @@
   "x1": -2.84,
   "base_date": "2026-11-16"
  },
+ "tariff|DELTA|2026-11-18": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-18",
+  "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
+  "news_link": "https://www.prachachat.net/economic/news-2098392",
+  "base_date": "2026-11-17"
+ },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6692,6 +6835,17 @@
   "x1": -1.0,
   "base_date": "2026-11-16"
  },
+ "tariff|HANA|2026-11-18": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-18",
+  "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
+  "news_link": "https://www.prachachat.net/economic/news-2098392",
+  "base_date": "2026-11-17"
+ },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6917,6 +7071,17 @@
   "r1": -6.58,
   "x1": -5.11,
   "base_date": "2026-11-16"
+ },
+ "tariff|KCE|2026-11-18": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-18",
+  "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
+  "news_link": "https://www.prachachat.net/economic/news-2098392",
+  "base_date": "2026-11-17"
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -7145,6 +7310,17 @@
   "x1": -2.5,
   "base_date": "2026-11-16"
  },
+ "tariff|TSM|2026-11-18": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TSM",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-18",
+  "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
+  "news_link": "https://www.prachachat.net/economic/news-2098392",
+  "base_date": "2026-11-17"
+ },
  "tariff|TU|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -7370,6 +7546,17 @@
   "r1": -0.76,
   "x1": 0.71,
   "base_date": "2026-11-16"
+ },
+ "tariff|TU|2026-11-18": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-18",
+  "news_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
+  "news_link": "https://www.prachachat.net/economic/news-2098392",
+  "base_date": "2026-11-17"
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",
