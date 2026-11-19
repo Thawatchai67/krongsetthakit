@@ -510,7 +510,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.34,
+  "x1": 2.2
  },
  "oil_down|CVX|2026-09-20": {
   "signal": "oil_down",
@@ -609,7 +611,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.21,
+  "x1": 2.07
  },
  "oil_down|DAL|2026-09-20": {
   "signal": "oil_down",
@@ -708,7 +712,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.27,
+  "x1": 0.59
  },
  "oil_down|PTTEP|2026-09-20": {
   "signal": "oil_down",
@@ -1110,7 +1116,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.27,
+  "x1": 0.59
  },
  "oil_down|XOM|2026-09-20": {
   "signal": "oil_down",
@@ -1209,7 +1217,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.03,
+  "x1": 0.83
  },
  "oil_up|AAV|2026-09-01": {
   "signal": "oil_up",
@@ -1771,7 +1781,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.34,
+  "x1": 2.2
  },
  "oil_up|CVX|2026-09-01": {
   "signal": "oil_up",
@@ -1957,7 +1969,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.21,
+  "x1": 2.07
  },
  "oil_up|DAL|2026-09-01": {
   "signal": "oil_up",
@@ -2143,7 +2157,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.27,
+  "x1": 0.59
  },
  "oil_up|PTTEP|2026-09-01": {
   "signal": "oil_up",
@@ -2893,7 +2909,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.27,
+  "x1": 0.59
  },
  "oil_up|XOM|2026-09-01": {
   "signal": "oil_up",
@@ -3079,7 +3097,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.03,
+  "x1": 0.83
  },
  "rate_cut|BAC|2026-09-06": {
   "signal": "rate_cut",
@@ -3696,7 +3716,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -0.88,
+  "x1": 0.98
  },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
@@ -4930,7 +4952,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.11,
+  "x1": 0.75
  },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
@@ -5855,7 +5879,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.42,
+  "x1": 0.44
  },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
@@ -6162,7 +6188,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -2.43,
+  "x1": -0.57
  },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
@@ -6646,7 +6674,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096401",
   "r1": 0.39,
   "x1": 0.8,
-  "base_date": "2026-11-12"
+  "base_date": "2026-11-12",
+  "r5": -1.59,
+  "x5": 3.75
  },
  "tariff|AAPL|2026-11-14": {
   "signal": "tariff",
@@ -7850,7 +7880,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096401",
   "r1": -1.67,
   "x1": -1.26,
-  "base_date": "2026-11-12"
+  "base_date": "2026-11-12",
+  "r5": -12.65,
+  "x5": -7.32
  },
  "tariff|TSM|2026-11-14": {
   "signal": "tariff",

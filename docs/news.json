@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-19T11:30:10Z",
+  "generated_at": "2026-11-19T20:29:10Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 250
+  "total_kept": 262
  },
  "signals": [
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 8,
+   "count": 9,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -64,6 +64,12 @@
    ],
    "evidence": [
     {
+     "title": "Anthropic จุดพลุ Nasdaq พุ่ง สวนทางดาวโจนส์ร่วง กังวลเฟดขึ้นดอกเบี้ย",
+     "link": "https://www.infoquest.co.th/2026/682812",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-19T15:37:18Z"
+    },
+    {
      "title": "ภาวะตลาดหุ้นไทย:ปิดบวก 0.63 จุด พลิกฟื้นช่วงบ่าย รับแรงซื้อกลุ่มโรงไฟฟ้า-นิคมฯ-ชิ้นส่วนฯ หนุน",
      "link": "https://www.infoquest.co.th/2026/682722",
      "source": "อินโฟเควสท์",
@@ -74,19 +80,13 @@
      "link": "https://www.prachachat.net/finance/news-2098888",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-19T02:22:44Z"
-    },
-    {
-     "title": "ตลาดหุ้นเอเชียเปิดลบส่วนใหญ่ ตามทิศทางดาวโจนส์ กังวลเฟดขึ้นดอกเบี้ย",
-     "link": "https://www.infoquest.co.th/2026/682142",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-19T02:05:16Z"
     }
    ]
   },
   {
    "id": "oil_down",
    "name": "น้ำมันลง",
-   "count": 4,
+   "count": 3,
    "impacts": [
     {
      "effect": "ถูกกดดัน",
@@ -174,60 +174,23 @@
    ],
    "evidence": [
     {
+     "title": "ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
+     "link": "https://www.infoquest.co.th/2026/682814",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-19T16:00:13Z"
+    },
+    {
      "title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
      "link": "https://www.infoquest.co.th/2026/682097",
      "source": "อินโฟเควสท์",
      "published": "2026-11-18T17:27:19Z"
-    },
-    {
-     "title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
-     "link": "https://www.infoquest.co.th/2026/681350",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-17T14:35:22Z"
-    }
-   ]
-  },
-  {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 2,
-   "impacts": [
-    {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
-     "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
-     ],
-     "us": [
-      "AAPL",
-      "TSM"
-     ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
-     "link": "https://www.prachachat.net/economic/news-2098392",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-18T00:46:34Z"
-    },
-    {
-     "title": "‘ทรัมป์’ ลงนามแถลงการณ์ร่วมข้อตกลงภาษีสหรัฐ-ไทย",
-     "link": "https://www.prachachat.net/world/news-2098328",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-17T14:11:15Z"
     }
    ]
   },
   {
    "id": "baht_weak",
    "name": "บาทอ่อน",
-   "count": 1,
+   "count": 2,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -252,10 +215,47 @@
    ],
    "evidence": [
     {
+     "title": "เงินบาทแตะระดับ 34.02 บาท/ดอลลาร์ อ่อนสุดในรอบ 19 เดือน",
+     "link": "https://www.prachachat.net/finance/news-2099338",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-19T12:24:13Z"
+    },
+    {
      "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
      "link": "https://www.infoquest.co.th/2026/682160",
      "source": "อินโฟเควสท์",
      "published": "2026-11-19T01:49:14Z"
+    }
+   ]
+  },
+  {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 1,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
+     "link": "https://www.prachachat.net/economic/news-2098392",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-18T00:46:34Z"
     }
    ]
   }
@@ -264,18 +264,18 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 33,
+   "count": 34,
    "new_24h": 8,
-   "latest": "2026-11-19T11:15:00Z",
-   "latest_title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?"
+   "latest": "2026-11-19T19:43:00Z",
+   "latest_title": "Why Micron, Broadcom and other AI stocks have given up their gains"
   },
   {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 17,
-   "new_24h": 6,
-   "latest": "2026-11-19T02:05:16Z",
-   "latest_title": "ตลาดหุ้นเอเชียเปิดลบส่วนใหญ่ ตามทิศทางดาวโจนส์ กังวลเฟดขึ้นดอกเบี้ย"
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 9,
+   "new_24h": 4,
+   "latest": "2026-11-19T12:24:13Z",
+   "latest_title": "เงินบาทแตะระดับ 34.02 บาท/ดอลลาร์ อ่อนสุดในรอบ 19 เดือน"
   },
   {
    "id": "thai-economy",
@@ -294,20 +294,20 @@
    "latest_title": "ภาวะตลาดหุ้นไทย:ปิดบวก 0.63 จุด พลิกฟื้นช่วงบ่าย รับแรงซื้อกลุ่มโรงไฟฟ้า-นิคมฯ-ชิ้นส่วนฯ หนุน"
   },
   {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 8,
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 18,
    "new_24h": 3,
-   "latest": "2026-11-19T10:39:11Z",
-   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.87/89 กลับมาแข็งค่าจากช่วงเช้าตามราคาทองฟื้น"
+   "latest": "2026-11-19T15:37:18Z",
+   "latest_title": "Anthropic จุดพลุ Nasdaq พุ่ง สวนทางดาวโจนส์ร่วง กังวลเฟดขึ้นดอกเบี้ย"
   },
   {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
-   "count": 16,
-   "new_24h": 3,
-   "latest": "2026-11-19T02:27:43Z",
-   "latest_title": "ราคาน้ำมันดิบปรับลด หลังตลาดยังให้น้ำหนักกับอุปทานที่มีแนวโน้มเพิ่มขึ้นต่อเนื่อง"
+   "count": 17,
+   "new_24h": 2,
+   "latest": "2026-11-19T16:00:13Z",
+   "latest_title": "ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ"
   },
   {
    "id": "gold",
@@ -343,6 +343,272 @@
   }
  ],
  "items": [
+  {
+   "id": "a566f1d619ba",
+   "title": "Why Micron, Broadcom and other AI stocks have given up their gains",
+   "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T19:43:00Z",
+   "summary": "The Anthropic enthusiasm has faded while China concerns have intensified.",
+   "image": "https://images.mktw.net/im-63116555",
+   "score": 6,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "b3f470b81c37",
+   "title": "The surprising reason the U.S. economy is speeding up — and might have more room to run",
+   "link": "https://www.marketwatch.com/story/the-surprising-reason-the-u-s-economy-is-speeding-up-and-might-have-more-room-to-run-9016c8db?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T19:13:00Z",
+   "summary": "The main engine of U.S. growth is in overdrive.",
+   "image": "https://images.mktw.net/im-25062036",
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "7d0cdccd27b6",
+   "title": "*IPO พลิกชีวิต! พนักงาน Anthropic “รวยไม่ไหวแล้ว!” หลังหุ้นเข้าตลาด",
+   "link": "https://www.infoquest.co.th/2026/682824",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T19:07:35Z",
+   "summary": "บริษัท แอนโทรปิก (Anthropic) เริ่มทำการซื้อขายหุ้นในตลาดหุ้น Nasdaq ในวันนี้เป็นวันแรก โดยเปิดตลาดที่ระดับ 111.50 ดอลลาร์ต่อหุ้น พุ่งขึ้นถึง 34% เมื่อเทียบกับราคาที่มีการเสนอขายต่อสาธารณชนเป็นครั้งแรก The post *IPO พลิกชีวิต! พนักงาน Anthr…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "184df63b6b20",
+   "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พุ่งเกือบ 1,000 จุด แรงซื้อต่างชาติหนุนตลาด",
+   "link": "https://www.infoquest.co.th/2026/682822",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T17:35:22Z",
+   "summary": "ดัชนี Sensex ตลาดหุ้นอินเดีย พุ่งขึ้นเดือบ 1,000 จุดในวันนี้ โดยได้แรงหนุนจากการปรับตัวลงของราคาน้ำมัน และแรงซื้อจากนักลงทุนต่างชาติ ดัชนี S&P BSE Sensex [BSE.X] ปิดตลาดที่ 83,021.75 บวก 989.94 The post ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พุ…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a6a6bac2866d",
+   "title": "ดอลลาร์อ่อนค่า นักลงทุนชะลอซื้อขาย จับตาหุ้น Anthropic",
+   "link": "https://www.infoquest.co.th/2026/682820",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T17:28:31Z",
+   "summary": "ดอลลาร์อ่อนค่า หลังจากดีดตัวขึ้นติดต่อกัน 7 วัน ขณะที่นักลงทุนชะลอการซื้อขายในวันนี้ เพื่อรอดูการเข้าซื้อขายในตลาดหุ้นเป็นครั้งแรกของบริษัท Anthropic ซึ่งถูกมองว่าเป็นบททดสอบสำคัญที่สะท้อนถึงความต้อง The post ดอลลาร์อ่อนค่า นักลงทุนชะลอซื้…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "stock_market",
+    "fx"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e784bbf374c0",
+   "title": "บอนด์ยีลด์ดีดตัว นักลงทุนจับตาตัวเลขเศรษฐกิจสหรัฐ",
+   "link": "https://www.infoquest.co.th/2026/682818",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T16:35:07Z",
+   "summary": "อัตราผลตอบแทนพันธบัตรรัฐบาลสหรัฐดีดตัวขึ้นในวันนี้ ขณะที่นักลงทุนจับตาตัวเลขเศรษฐกิจสหรัฐ ณ เวลา 23.26 น.ตามเวลาไทย อัตราผลตอบแทนพันธบัตรรัฐบาลอายุ 10 ปี อยู่ที่ระดับ 5.074% ส่วนอัตราผลตอบแทนพันธบัตรร The post บอนด์ยีลด์ดีดตัว นักลงทุนจับต…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "16e370918f44",
+   "title": "สหรัฐเผยตัวเลขผู้ขอสวัสดิการว่างงานสูงกว่าคาด",
+   "link": "https://www.infoquest.co.th/2026/682816",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T16:14:44Z",
+   "summary": "กระทรวงแรงงานสหรัฐเปิดเผยตัวเลขผู้ยื่นขอสวัสดิการว่างงานครั้งแรก เพิ่มขึ้น 1,000 ราย สู่ระดับ 203,000 รายในสัปดาห์ที่แล้ว และสูงกว่าตัวเลขคาดการณ์ของนักวิเคราะห์ที่ระดับ 198,000 ราย The post สหรัฐเผยตัวเลขผู้ขอสวัสดิการว่างงานสูงกว่าคาด ap…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f6a0c59943d9",
+   "title": "ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
+   "link": "https://www.infoquest.co.th/2026/682814",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T16:00:13Z",
+   "summary": "ราคาน้ำมันโลกดีดตัวขึ้นในวันนี้ โดยได้แรงหนุนจากการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซที่ยังคงเกิดขึ้นอย่างต่อเนื่อง ณ เวลา 22.42 น.ตามเวลาไทย ราคาน้ำมันดิบเวสต์เท็กซัส (WTI) [WTI.X] The post ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุ…",
+   "image": null,
+   "score": 11,
+   "categories": [
+    "oil_energy",
+    "trade_geo"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "01d8a225250a",
+   "title": "Anthropic จุดพลุ Nasdaq พุ่ง สวนทางดาวโจนส์ร่วง กังวลเฟดขึ้นดอกเบี้ย",
+   "link": "https://www.infoquest.co.th/2026/682812",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T15:37:18Z",
+   "summary": "ดัชนีดาวโจนส์ดิ่งลงกว่า 200 จุดในวันนี้ ท่ามกลางความกังวลเกี่ยวกับเงินเฟ้อ และการปรับขึ้นอัตราดอกเบี้ยของธนาคารกลางสหรัฐ (เฟด) สวนทางดัชนี S&P 500 และ Nasdaq ที่ดีดตัวขึ้น หลังจากบริษัท Anthropic The post Anthropic จุดพลุ Nasdaq พุ่ง สวนทา…",
+   "image": null,
+   "score": 15,
+   "categories": [
+    "monetary",
+    "stock_market"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "d8da37459351",
+   "title": "ชาวดอยหนาว! ทองโลกดิ่งต่อเนื่อง หลุด $3,700 ต่ำสุด 14 เดือน",
+   "link": "https://www.infoquest.co.th/2026/682809",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T15:13:08Z",
+   "summary": "ราคาทองคำโลกยังคงปรับตัวลงอย่างต่อเนื่องในวันนี้ โดยหลุดระดับ 3,700 ดอลลาร์ แตะระดับต่ำสุดในรอบ 14 เดือน ท่ามกลางความกังวลที่ว่าธนาคารกลางสหรัฐ (เฟด) จะเดินหน้าปรับขึ้นอัตราดอกเบี้ย The post ชาวดอยหนาว! ทองโลกดิ่งต่อเนื่อง หลุด $3,700 ต่ำส…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "monetary",
+    "gold"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a010d5262691",
+   "title": "ทรัมป์เผยดีลอาเซียน 5.7 แสนล้าน-ไทยเล็งซื้อจรวด HIMARS รายแรก",
+   "link": "https://www.prachachat.net/world/news-2099404",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T14:42:47Z",
+   "summary": "แถลงการณ์ทำเนียบขาวแจ้งว่า ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐประกาศข้อตกลงทางการค้าและการลงทุนเชิงกลยุทธ์มูลค่ากว่า 17,000 ล้านดอลลาร์สหรัฐ (ราว 5.7 แสนล้านบาท) สำหรับบริษัทสหรัฐกับหลายชาติในภูมิภาคเอเชียตะวันออกเฉียงใต้ หลังเข้าร่วมการ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Trump_Anutin.jpg",
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6b7a918af706",
+   "title": "“ทรัมป์” ย้ำ 3 ชาติมหาอำนาจมีความรับผิดชอบต่อสันติภาพโลก",
+   "link": "https://www.infoquest.co.th/2026/682805",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T13:25:40Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐฯ กล่าวในวันนี้ว่า สหรัฐฯ จีน และรัสเซีย ในฐานะประเทศที่มีอาวุธนิวเคลียร์ ต่างมีความรับผิดชอบเป็นพิเศษ และมีความสำคัญอย่างยิ่งในการรักษาสันติภาพและเสถียรภาพของโลก The post “ทรัมป์” ย้ำ 3 ชาติมหาอำนาจมีค…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c5533f7ee338",
+   "title": "เงินบาทแตะระดับ 34.02 บาท/ดอลลาร์ อ่อนสุดในรอบ 19 เดือน",
+   "link": "https://www.prachachat.net/finance/news-2099338",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T12:24:13Z",
+   "summary": "ศูนย์วิจัยกสิกรไทย ชี้เงินบาททำสถิติอ่อนค่าสุดในรอบ 19 เดือนที่ 34.02 บาท/ดอลลาร์ ก่อนจะพลิกแข็งค่ามาปิดตลาดที่ระดับ 33.88 บาท/ดอลลาร์ รายงานจากศูนย์วิจัยกสิกรไทย เปิดเผยว่า วันนี้ (19 พ.ย.) เงินบาทอ่อนค่าผ่านแนว 34.00 บาท/ดอลลาร์ ในช่วงแร…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/money-1-1.jpg",
+   "score": 7,
+   "categories": [
+    "fx"
+   ],
+   "signals": [
+    "baht_weak"
+   ],
+   "stories": [
+    "baht"
+   ]
+  },
   {
    "id": "5aca005e2cdf",
    "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
@@ -2252,25 +2518,6 @@
    "stories": [
     "ai-chips"
    ]
-  },
-  {
-   "id": "40d4da457e89",
-   "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พุ่งกว่า 400 จุด แรงซื้อต่างชาติหนุนตลาด",
-   "link": "https://www.infoquest.co.th/2026/681365",
-   "source": "อินโฟเควสท์",
-   "feed": "infoquest",
-   "region": "TH",
-   "lang": "th",
-   "central_bank": false,
-   "published": "2026-11-17T17:25:18Z",
-   "summary": "ดัชนี Sensex ตลาดหุ้นอินเดีย พุ่งขึ้นกว่า 400 จุดในวันนี้ โดยได้แรงหนุนจากคำสั่งซื้อของนักลงทุนสถาบันต่างชาติ ดัชนี S&P BSE Sensex [BSE.X] ปิดตลาดที่ 82,532.19 บวก 427.40 จุด หรือ 0.52% The post ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พุ่งกว่า 4…",
-   "image": null,
-   "score": 6,
-   "categories": [
-    "stock_market"
-   ],
-   "signals": [],
-   "stories": []
   },
   {
    "id": "0a07b4fde71a",
