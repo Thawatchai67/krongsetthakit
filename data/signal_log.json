@@ -51,6 +51,50 @@
   "r1": -1.49,
   "x1": -1.49
  },
+ "baht_weak|AAV|2026-11-19": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
+  "news_link": "https://www.infoquest.co.th/2026/682160",
+  "base_date": "2026-11-18"
+ },
+ "baht_weak|CPF|2026-11-19": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
+  "news_link": "https://www.infoquest.co.th/2026/682160",
+  "base_date": "2026-11-18"
+ },
+ "baht_weak|DELTA|2026-11-19": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
+  "news_link": "https://www.infoquest.co.th/2026/682160",
+  "base_date": "2026-11-18"
+ },
+ "baht_weak|TU|2026-11-19": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
+  "news_link": "https://www.infoquest.co.th/2026/682160",
+  "base_date": "2026-11-18"
+ },
  "gold_up|AURA|2026-09-02": {
   "signal": "gold_up",
   "signal_name": "ทองคำขึ้น",
@@ -3615,6 +3659,17 @@
   "r1": -1.14,
   "x1": -0.85
  },
+ "rate_hike|BAC|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
+ },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -3910,6 +3965,17 @@
   "base_date": "2026-11-17",
   "r1": -1.09,
   "x1": -0.79
+ },
+ "rate_hike|BBL|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
  },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
@@ -4207,6 +4273,17 @@
   "r1": -0.75,
   "x1": -0.46
  },
+ "rate_hike|CPN|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
+ },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4502,6 +4579,17 @@
   "base_date": "2026-11-17",
   "r1": 0.85,
   "x1": 1.14
+ },
+ "rate_hike|DELTA|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
  },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
@@ -4799,6 +4887,17 @@
   "r1": -1.57,
   "x1": -1.28
  },
+ "rate_hike|JPM|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
+ },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5094,6 +5193,17 @@
   "base_date": "2026-11-17",
   "r1": -1.57,
   "x1": -1.27
+ },
+ "rate_hike|KBANK|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
  },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
@@ -5391,6 +5501,17 @@
   "r1": -1.11,
   "x1": -0.81
  },
+ "rate_hike|LH|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
+ },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5686,6 +5807,17 @@
   "base_date": "2026-11-17",
   "r1": -0.01,
   "x1": 0.28
+ },
+ "rate_hike|MSFT|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
  },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
@@ -5983,6 +6115,17 @@
   "r1": -3.08,
   "x1": -2.79
  },
+ "rate_hike|NVDA|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
+ },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6278,6 +6421,17 @@
   "base_date": "2026-11-17",
   "r1": -0.32,
   "x1": -0.03
+ },
+ "rate_hike|SCB|2026-11-19": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-19",
+  "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+  "news_link": "https://www.prachachat.net/finance/news-2098888",
+  "base_date": "2026-11-18"
  },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",

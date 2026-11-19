@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-18T20:25:34Z",
+  "generated_at": "2026-11-19T02:30:38Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,68 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 213
+  "total_kept": 237
  },
  "signals": [
   {
-   "id": "oil_down",
-   "name": "น้ำมันลง",
-   "count": 4,
-   "impacts": [
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "พลังงาน/ปิโตรเลียม",
-     "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
-     ],
-     "us": [
-      "XOM",
-      "CVX",
-      "COP"
-     ],
-     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
-    },
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
-     "link": "https://www.infoquest.co.th/2026/682099",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-18T17:46:15Z"
-    },
-    {
-     "title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
-     "link": "https://www.infoquest.co.th/2026/682061",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-18T11:17:06Z"
-    },
-    {
-     "title": "ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง",
-     "link": "https://www.infoquest.co.th/2026/681350",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-17T14:35:22Z"
-    }
-   ]
-  },
-  {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 4,
+   "count": 7,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -119,22 +64,77 @@
    ],
    "evidence": [
     {
-     "title": "ดอลลาร์ทำนิวไฮ 19 เดือน หลังยอดค้าปลีกพุ่ง หนุนเฟดขึ้นดอกเบี้ยเดือนธ.ค.",
-     "link": "https://www.infoquest.co.th/2026/682087",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-18T15:32:45Z"
+     "title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+     "link": "https://www.prachachat.net/finance/news-2098888",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-19T02:22:44Z"
     },
     {
-     "title": "ดาวโจนส์ดิ่งกว่า 400 จุด กังวลเฟดขึ้นดอกเบี้ยแรง",
-     "link": "https://www.infoquest.co.th/2026/682085",
+     "title": "ตลาดหุ้นเอเชียเปิดลบส่วนใหญ่ ตามทิศทางดาวโจนส์ กังวลเฟดขึ้นดอกเบี้ย",
+     "link": "https://www.infoquest.co.th/2026/682142",
      "source": "อินโฟเควสท์",
-     "published": "2026-11-18T15:04:00Z"
+     "published": "2026-11-19T02:05:16Z"
     },
     {
-     "title": "ภาวะตลาดอนุพันธ์: ผันผวนหนักบ่ายร่วงรับแรงเทขายหุ้นใหญ่ ดอลลาร์แข็งค่า-บอนด์ยีลด์พุ่งรับสัญญาณเฟดเดินหน้าขึ้นดอกเบี้ย",
-     "link": "https://www.infoquest.co.th/2026/682028",
+     "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
+     "link": "https://www.infoquest.co.th/2026/682160",
      "source": "อินโฟเควสท์",
-     "published": "2026-11-18T11:12:01Z"
+     "published": "2026-11-19T01:49:14Z"
+    }
+   ]
+  },
+  {
+   "id": "oil_down",
+   "name": "น้ำมันลง",
+   "count": 4,
+   "impacts": [
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "พลังงาน/ปิโตรเลียม",
+     "set": [
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
+     ],
+     "us": [
+      "XOM",
+      "CVX",
+      "COP"
+     ],
+     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
+    },
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "สายการบิน/ขนส่ง",
+     "set": [
+      "AAV"
+     ],
+     "us": [
+      "DAL",
+      "UAL"
+     ],
+     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ราคาน้ำมันดิบปรับลด หลังตลาดยังให้น้ำหนักกับอุปทานที่มีแนวโน้มเพิ่มขึ้นต่อเนื่อง",
+     "link": "https://www.prachachat.net/economic/news-2098887",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-19T02:27:43Z"
+    },
+    {
+     "title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
+     "link": "https://www.infoquest.co.th/2026/682099",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-18T17:46:15Z"
+    },
+    {
+     "title": "เรือด่วนเจ้าพระยา ปรับลดอัตราค่าโดยสาร 1 บาท เริ่ม 20 พ.ย. เป็นต้นไป หลังดีเซลปรับลง",
+     "link": "https://www.infoquest.co.th/2026/682061",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-18T11:17:06Z"
     }
    ]
   },
@@ -223,48 +223,99 @@
      "published": "2026-11-17T14:11:15Z"
     }
    ]
+  },
+  {
+   "id": "baht_weak",
+   "name": "บาทอ่อน",
+   "count": 1,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "ผู้ส่งออก",
+     "set": [
+      "CPF",
+      "TU",
+      "DELTA"
+     ],
+     "us": [],
+     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้มากขึ้น"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+     "set": [
+      "AAV"
+     ],
+     "us": [],
+     "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
+     "link": "https://www.infoquest.co.th/2026/682160",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-19T01:49:14Z"
+    }
+   ]
   }
  ],
  "stories": [
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 28,
-   "new_24h": 9,
-   "latest": "2026-11-18T11:47:18Z",
-   "latest_title": "ดับฝันไทย ฮับดาต้าเซ็นเตอร์? เจาะเกณฑ์ “มะกัน” เข้ม “ซื้อ-เช่าใช้” ชิปขั้นสูง"
+   "count": 32,
+   "new_24h": 11,
+   "latest": "2026-11-19T02:13:31Z",
+   "latest_title": "มูดี้ส์หั่นแนวโน้มเครดิต Nvidia เป็นมีเสถียรภาพ ชี้ความไม่แน่นอนหลังหวงพ้นตำแหน่ง"
   },
   {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 15,
-   "new_24h": 6,
-   "latest": "2026-11-18T19:00:00Z",
-   "latest_title": "Minutes of the Federal Open Market Committee, October 27-28, 2026"
+   "count": 17,
+   "new_24h": 8,
+   "latest": "2026-11-19T02:05:16Z",
+   "latest_title": "ตลาดหุ้นเอเชียเปิดลบส่วนใหญ่ ตามทิศทางดาวโจนส์ กังวลเฟดขึ้นดอกเบี้ย"
   },
   {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
-   "count": 15,
-   "new_24h": 5,
-   "latest": "2026-11-18T17:46:15Z",
-   "latest_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด"
-  },
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 9,
-   "new_24h": 3,
-   "latest": "2026-11-18T10:53:15Z",
-   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.96 อ่อนค่ารอบ 19 เดือน รับราคาทองร่วงแรง-ต่างชาติขายพันธบัตร คาดกรอบพรุ่งนี้ 33.85-34.05"
+   "count": 16,
+   "new_24h": 6,
+   "latest": "2026-11-19T02:27:43Z",
+   "latest_title": "ราคาน้ำมันดิบปรับลด หลังตลาดยังให้น้ำหนักกับอุปทานที่มีแนวโน้มเพิ่มขึ้นต่อเนื่อง"
   },
   {
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
-   "count": 8,
+   "count": 11,
+   "new_24h": 5,
+   "latest": "2026-11-19T02:22:44Z",
+   "latest_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 10,
+   "new_24h": 4,
+   "latest": "2026-11-19T02:23:29Z",
+   "latest_title": "ภาวะตลาดเงินบาท: เปิด 33.96 ทรงตัวจากวานนี้ คาดกรอบวันนี้ 33.85-34.10 จับตาราคาทอง-ตัวเลขศก.สหรัฐ"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 7,
+   "new_24h": 3,
+   "latest": "2026-11-19T02:23:29Z",
+   "latest_title": "ภาวะตลาดเงินบาท: เปิด 33.96 ทรงตัวจากวานนี้ คาดกรอบวันนี้ 33.85-34.10 จับตาราคาทอง-ตัวเลขศก.สหรัฐ"
+  },
+  {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 11,
    "new_24h": 2,
-   "latest": "2026-11-18T10:39:41Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย: ปิดลบ 2.67 จุด เทขายหุ้นรพ.-แบงก์-ท่องเที่ยวกดดัชนีพลิกลงช่วงบ่าย จับตารายงานประชุมเฟดคืนนี้"
+   "latest": "2026-11-19T00:21:48Z",
+   "latest_title": "สมคิด เปิดแผลเศรษฐกิจไทย โตต่ำ-ขาดดุลคู่ เตือนอย่าปล่อยประเทศเป็น “แมวป่วย”"
   },
   {
    "id": "bot",
@@ -275,28 +326,12 @@
    "latest_title": "แบงก์ชาติ ถก 15 หน่วยงาน เร่งปรับปรุงเครื่องชี้ให้สะท้อนสถานการณ์ศก.จริงมากขึ้น"
   },
   {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 5,
-   "new_24h": 1,
-   "latest": "2026-11-18T10:53:15Z",
-   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.96 อ่อนค่ารอบ 19 เดือน รับราคาทองร่วงแรง-ต่างชาติขายพันธบัตร คาดกรอบพรุ่งนี้ 33.85-34.05"
-  },
-  {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 10,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-18T00:46:34Z",
    "latest_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 9,
-   "new_24h": 0,
-   "latest": "2026-11-17T01:44:20Z",
-   "latest_title": "แบงก์ชาติแจ้ง 16 ธ.ค. ประกาศหยุดธนาคารเป็นกรณีพิเศษ ตามมติ ครม."
   },
   {
    "id": "thai-us-china",
@@ -308,6 +343,552 @@
   }
  ],
  "items": [
+  {
+   "id": "69757d220975",
+   "title": "ราคาน้ำมันดิบปรับลด หลังตลาดยังให้น้ำหนักกับอุปทานที่มีแนวโน้มเพิ่มขึ้นต่อเนื่อง",
+   "link": "https://www.prachachat.net/economic/news-2098887",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:27:43Z",
+   "summary": "ราคาน้ำมันดิบเวสต์เทกซัสและเบรนต์ปรับลด หลังตลาดยังคงให้น้ำหนักกับอุปทานที่มีแนวโน้มปรับเพิ่มขึ้นต่อเนื่อง หน่วยวิเคราะห์สถานการณ์ราคาน้ำมัน บมจ.ไทยออยล์ ระบุว่า ปัจจัยที่ส่งผลกระทบกับราคามีดังนี้ ราคาน้ำมันดิบเวสต์เทกซัสและเบรนต์ปรับตัวลด…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/01/oil-1-1.jpg",
+   "score": 6,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_down"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "9906458df1f8",
+   "title": "ภาวะตลาดเงินบาท: เปิด 33.96 ทรงตัวจากวานนี้ คาดกรอบวันนี้ 33.85-34.10 จับตาราคาทอง-ตัวเลขศก.สหรัฐ",
+   "link": "https://www.infoquest.co.th/2026/682213",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:23:29Z",
+   "summary": "ค่าเงินบาท [USDTHB.X] เปิดตลาดอยู่ที่ระดับ 33.96 บาท/ดอลลาร์ ทรงตัวในระดับเดียวจากเย็นวานนี้ นักบริหารเงินจากธนาคารกรุงศรีอยุธยา เปิดเผยว่า เงินบาททรงตัวเทียบท้ายตลาด โดยในภาพรวมดอลลาร์ยังแข็งค่าต่อเน The post ภาวะตลาดเงินบาท: เปิด 33.96 ท…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "fx",
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "baht",
+    "gold"
+   ]
+  },
+  {
+   "id": "7955c67e1171",
+   "title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
+   "link": "https://www.prachachat.net/finance/news-2098888",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:22:44Z",
+   "summary": "InnovestX คาดหุ้นไทยวันนี้แกว่งผันผวน ขาดปัจจัยหนุน หลังเฟดส่งสัญญาณขึ้นดอกเบี้ยสกัดเงินเฟ้อ มองดัชนียังไม่เห็นสัญญาณกลับตัว ให้แนวรับ 1,460 จุด แนวต้าน 1,485 จุด แนะเลือกซื้อหุ้นรายตัว ชู CBG-GPSC เด่นรับต้นทุนพลังงานลดลง บริษัทหลักทรัพย์…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/stock-market-1.jpg",
+   "score": 15,
+   "categories": [
+    "stock_market",
+    "oil_energy",
+    "monetary"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "cc8c45374823",
+   "title": "ทรัมป์นัดคุยปูตินนอกรอบประชุม APEC ที่เซินเจิ้น เล็งหารือแนวทางยุติสงครามยูเครน",
+   "link": "https://www.infoquest.co.th/2026/682148",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:17:05Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐฯ จะพบหารือแยกต่างหากกับปธน.วลาดิเมียร์ ปูติน ผู้นำรัสเซีย ณ เมืองเซินเจิ้น ประเทศจีน ในวันนี้ (19 พ.ย.) นอกเหนือจากการหารือไตรภาคีในวันเดียวกันซึ่งมีปธน.สี The post ทรัมป์นัดคุยปูตินนอกรอบประชุม APEC ท…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a33cab21b728",
+   "title": "กางโรดแมปหอการค้า 5 ภาค ปลดล็อกลงทุน-เกษตร-ท่องเที่ยว",
+   "link": "https://www.prachachat.net/economic/local-economy/news-2097602",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:14:09Z",
+   "summary": "ปิดฉากงานสัมมนาหอการค้าทั่วประเทศ ครั้งที่ 44 หอการค้าไทยที่จัดระหว่างวันที่ 13-14 พฤศจิกายน 2569 ภายใต้แนวคิด “Unlocking New Growth : ศักยภาพใหม่แห่งการเติบโต” ณ จังหวัดเชียงราย ในโอกาสนี้ได้มีการนำเสนอโครงการต้นแบบ (Showcase) จากหอการค้า…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/P071911.jpg",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "25ba554883ee",
+   "title": "มูดี้ส์หั่นแนวโน้มเครดิต Nvidia เป็นมีเสถียรภาพ ชี้ความไม่แน่นอนหลังหวงพ้นตำแหน่ง",
+   "link": "https://www.infoquest.co.th/2026/682209",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:13:31Z",
+   "summary": "มูดี้ส์ เรตติงส์ (Moody’s Ratings) ปรับแนวโน้มอันดับความน่าเชื่อถือของอินวิเดีย (Nvidia) จากเชิงบวกเป็นมีเสถียรภาพเมื่อวันพุธ (18 พ.ย.) โดยให้เหตุผลว่า บริษัทกำลังเผชิญความไม่แน่นอนด้านการกำกับดูแลกิจ The post มูดี้ส์หั่นแนวโน้มเครดิต Nvid…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "c676c5006cd1",
+   "title": "กำไร บจ.ทะลุ 1 ล้านล้าน FETCO คาดครึ่งปีหลังโต 15-20%",
+   "link": "https://www.prachachat.net/finance/news-2098163",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:11:46Z",
+   "summary": "ผลประกอบการบริษัทจดทะเบียน (บจ.) ในตลาดหลักทรัพย์แห่งประเทศไทย ช่วง 9 เดือนแรกของปี 2569 มีกำไรสุทธิรวมทะลุระดับ 1 ล้านล้านบาท ตามข้อมูลเบื้องต้นของบริษัทหลักทรัพย์ (บล.) เอเซีย พลัส จำกัด เพิ่มขึ้นจากช่วงครึ่งแรกของปี 2569 ที่กำไร บจ. รวม…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/finance-1.jpg",
+   "score": 5,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "1e8889f6f919",
+   "title": "ตลาดหุ้นเอเชียเปิดลบส่วนใหญ่ ตามทิศทางดาวโจนส์ กังวลเฟดขึ้นดอกเบี้ย",
+   "link": "https://www.infoquest.co.th/2026/682142",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:05:16Z",
+   "summary": "ตลาดหุ้นเอเชียเปิดลบเป็นส่วนใหญ่ในวันนี้ (19 พ.ย.) ตามทิศทางดัชนีดาวโจนส์ตลาดหุ้นนิวยอร์กที่ปิดร่วงลงกว่า 500 จุดในวันพุธ (18 พ.ย.) หลังรายงานการประชุมของธนาคารกลางสหรัฐฯ (เฟด) บ่งชี้ว่า The post ตลาดหุ้นเอเชียเปิดลบส่วนใหญ่ ตามทิศทางดาวโจ…",
+   "image": null,
+   "score": 15,
+   "categories": [
+    "monetary",
+    "stock_market"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "dceb52fa1154",
+   "title": "ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดร่วง 5.30% หวั่นคุมเข้มสร้างดาต้าเซ็นเตอร์-ดีมานด์จีนอ่อนแอ",
+   "link": "https://www.infoquest.co.th/2026/682194",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T02:00:31Z",
+   "summary": "สัญญาทองแดงตลาดนิวยอร์กปิดร่วงหลุดระดับ 5.70 ดอลลาร์ต่อปอนด์ในวันพุธ (18 พ.ย.) แตะระดับต่ำสุดในรอบ 7 เดือน ท่ามกลางความกังวลว่าความเป็นไปได้ที่จะมีการคุมเข้มการก่อสร้างศูนย์ข้อมูลจะบั่นทอนแนวโน้มความต The post ภาวะตลาดทองแดงนิวยอร์ก: ทองแด…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "3aa6c061b534",
+   "title": "ภาวะตลาดหุ้นจีน: เซี่ยงไฮ้คอมโพสิตเปิดลบเล็กน้อย จับตาซัมมิต “สี-ทรัมป์-ปูติน”",
+   "link": "https://www.infoquest.co.th/2026/682189",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T01:53:12Z",
+   "summary": "ดัชนีเซี่ยงไฮ้คอมโพสิตตลาดหุ้นจีนเปิดลบเล็กน้อยในวันนี้ (19 พ.ย.) ขณะที่นักลงทุนจับตาการประชุมไตรภาคีระหว่างประธานาธิบดีสี จิ้นผิง ผู้นำจีน, ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐฯ และประธานาธิบดีวลาดิ The post ภาวะตลาดหุ้นจีน: เซี่ยงไฮ้คอม…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "7d38fb5d8b24",
+   "title": "BOI ชี้กฎคุมชิปสหรัฐฯ ใช้เท่าเทียม 4 ชาติอาเซียน ไม่เป็นอุปสรรคลงทุน",
+   "link": "https://www.prachachat.net/economic/news-2098861",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T01:50:21Z",
+   "summary": "เลขาฯบีโอไอ มั่นใจมาตรการสหรัฐฯ คุมส่งออกชิปขั้นสูงไม่กระทบการลงทุนไทย ชี้ใช้หลักเกณฑ์เดียวกับ 4 ประเทศอาเซียน ทั้งสิงคโปร์ มาเลเซีย อินโดนีเซีย และไทย มองข้อกำหนดรายงานข้อมูลเพิ่มเติมช่วยยกระดับความโปร่งใส ย้ำโครงการลงทุนผ่านการคัดกรองคุณ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/915275.jpg",
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "3c389c1942f3",
+   "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
+   "link": "https://www.infoquest.co.th/2026/682160",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T01:49:14Z",
+   "summary": "นักวิเคราะห์ฯ คาดหุ้นไทยเช้านี้แกว่งตัวออกข้าง ไร้ปัจจัยหนุนใหม่ ขณะที่รายงานประชุมเฟดยังสะท้อนกังวลเงินเฟ้อและทิศทางดอกเบี้ยขาขึ้น โดยล่าสุดคณะกรรมการเฟดส่งสัญญาณโอกาสปรับขึ้นดอกเบี้ย 0.50% The post ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งต…",
+   "image": null,
+   "score": 20,
+   "categories": [
+    "monetary",
+    "stock_market",
+    "fx"
+   ],
+   "signals": [
+    "rate_hike",
+    "baht_weak"
+   ],
+   "stories": [
+    "fed",
+    "baht",
+    "thai-market"
+   ]
+  },
+  {
+   "id": "565d37477ede",
+   "title": "ภาวะตลาดหุ้นฮ่องกง: ฮั่งเส็งเปิดลบ 245.10 จุด ตามทิศทางดาวโจนส์",
+   "link": "https://www.infoquest.co.th/2026/682181",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T01:48:38Z",
+   "summary": "ดัชนีฮั่งเส็งตลาดหุ้นฮ่องกงเปิดลบในวันนี้ (19 พ.ย.) ตามทิศทางดัชนีดาวโจนส์ตลาดหุ้นนิวยอร์กที่ปิดร่วงลงกว่า 500 จุด หลังรายงานการประชุมของธนาคารกลางสหรัฐฯ (เฟด) บ่งชี้ว่า กรรมการเฟดได้แสดงความกังวลเกี่ The post ภาวะตลาดหุ้นฮ่องกง: ฮั่งเส็งเ…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "stock_market",
+    "monetary"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e57d7b258a15",
+   "title": "โลกจับตา สีจิ้นผิง-ทรัมป์-ปูติน เปิดฉากเอเปก นัดประวัติศาสตร์ไตรภาคี",
+   "link": "https://www.prachachat.net/world/news-2098825",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T01:44:56Z",
+   "summary": "ช่วงค่ำของวันที่ 18 พ.ย. 2026 สี จิ้นผิง ประธานาธิบดีจีน พร้อมด้วยเผิง ลี่หยวน ภริยา ในฐานะเจ้าภาพการประชุมระดับผู้นำเขตเศรษฐกิจเอเปก (APEC) ให้การต้อนรับโดนัลด์ ทรัมป์ ประธานาธิบดีสหรัฐ วลาดิมีร์ ปูติน ผู้นำรัสเซีย ในโอกาสงานเลี้ยงต้อนรับ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/AP26322454124065-scaled.jpg",
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9830b4f3057c",
+   "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+   "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T01:02:00Z",
+   "summary": "The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”",
+   "image": "https://images.mktw.net/im-839193",
+   "score": 6,
+   "categories": [
+    "earnings",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "5aca005e2cdf",
+   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T00:30:00Z",
+   "summary": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
+   "image": "https://images.mktw.net/im-49247042",
+   "score": 7,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "01658a1c92fa",
+   "title": "สมคิด เปิดแผลเศรษฐกิจไทย โตต่ำ-ขาดดุลคู่ เตือนอย่าปล่อยประเทศเป็น “แมวป่วย”",
+   "link": "https://www.prachachat.net/economic/news-2098793",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T00:21:48Z",
+   "summary": "‘สมคิด จาตุศรีพิทักษ์’ เตือนเศรษฐกิจไทยเผชิญปัญหาเชิงโครงสร้างสะสม เติบโตเฉลี่ยเพียง 2.5% สวนทางเวียดนามที่โต 7-8% พร้อมชี้ภาวะขาดดุลคู่ การลงทุนภาคเอกชนชะลอตัว และงบประมาณเพื่อพัฒนาประเทศเหลือเพียง 20% ย้ำไทยต้องเร่งปฏิรูปเศรษฐกิจ การเมื…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/912822320_4427622684142596_7234019079610494880_n.jpeg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "bfc2d62807b8",
+   "title": "‘อนุทิน-ปูติน’ เร่งผลักดัน FTA ไทย–ยูเรเซีย ขยายโอกาสการค้าลงทุน-พลังงาน",
+   "link": "https://www.prachachat.net/politics/news-2098815",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T00:07:43Z",
+   "summary": "นายกฯ หารือ ‘ผู้นำรัสเซีย’ ต่อยอดสัมพันธ์ไทย–รัสเซีย 130 ปี เร่งผลักดัน FTA ไทย–ยูเรเซีย เปิดตลาดสินค้าไทย ขยายโอกาสการค้า–ลงทุน พลังงานและการท่องเที่ยว นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และรัฐมนตรีว่าการกระทรวงมหาดไทย หารือทวิภาคีเต็มคณะก…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/477310.jpg",
+   "score": 8,
+   "categories": [
+    "oil_energy",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f421dfb8969a",
+   "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
+   "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-18T23:12:00Z",
+   "summary": "The negative chart pattern confirms weakness in the Russell 2000 and in overall market breadth.",
+   "image": "https://images.mktw.net/im-10621369",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e3d60ee5c4ac",
+   "title": "How copper’s plunge could hurt the AI buildout",
+   "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-18T23:02:00Z",
+   "summary": "The world might not be able to mine enough copper to meet AI’s demand for years to come.",
+   "image": "https://images.mktw.net/im-00878096",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a17b36fa3ba5",
+   "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+   "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-18T22:53:00Z",
+   "summary": "Tech stocks are looking cheap, while defensive sectors like consumer staples are screening as expensive.",
+   "image": "https://images.mktw.net/im-28661518",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "221cf2a93b81",
+   "title": "สศช.เปิดปัจจัยเสี่ยงเศรษฐกิจไทย ปี’70 เตือนโลกโตแผ่ว-ภัยแล้ง-SMEs หนี้ท่วม",
+   "link": "https://www.prachachat.net/economic/news-2098208",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T22:31:09Z",
+   "summary": "หลังจากหลายฝ่ายจับตาการแถลงรายงานภาวะเศรษฐกิจไทย ไตรมาสที่ 3 ปี 2569 และแนวโน้มปี 2569 ของสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (สศช.) ว่าจะออกมาเติบโตมากขึ้นแค่ไหน จากที่มีการปรับตัวเลขดัชนีผลผลิตอุตสาหกรรม (MPI) ให้สะท้อนภาพปัจจุบันมากขึ้น…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/2-pok.jpg",
+   "score": 8,
+   "categories": [
+    "economy",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "786ee29a69f4",
+   "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
+   "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-18T22:31:00Z",
+   "summary": "Nvidia investors face uncertainty around CEO succession, the AI ecosystem, export controls and China.",
+   "image": "https://images.mktw.net/im-19052338",
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "94f94d4c8fc7",
+   "title": "โจทย์ใหญ่เศรษฐกิจดิจิทัลสู่ ‘ความเปราะบาง’",
+   "link": "https://www.prachachat.net/tech/news-2098212",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-18T22:29:12Z",
+   "summary": "เศรษฐกิจโลกที่ก้าวเข้าสู่ยุคเทคโนโลยีดิจิทัล เป็นโครงสร้างพื้นฐานสำคัญของการดำเนินธุรกิจ ตั้งแต่ระบบการเงิน การสื่อสาร การผลิต การขนส่ง การค้าขาย ไปจนถึงการบริหารจัดการองค์กร ทุกอย่างเชื่อมโยงกันผ่านระบบดิจิทัลมากขึ้นอย่างที่ไม่เคยเป็นมาก่…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Neon-Cybersecurity-Crisis-Scene.png",
+   "score": 5,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "fbbc04a0dc98",
+   "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
+   "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-18T21:58:00Z",
+   "summary": "Contrarian buy signals typically don’t come until sentiment has dropped further than they have so far",
+   "image": "https://images.mktw.net/im-72225928",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c2072979ee3e",
+   "title": "What’s next for the AI trade after Nvidia’s blowout results are met with a shrug",
+   "link": "https://www.marketwatch.com/story/whats-next-for-the-ai-trade-after-nvidias-blowout-results-are-met-with-a-shrug-853c7abe?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-18T21:19:00Z",
+   "summary": "Nvidia delivered a strong performance, but questions remain amid growing scrutiny of the company and macroeconomic factors",
+   "image": "https://images.mktw.net/im-22335674",
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
   {
    "id": "1caf8ffa292c",
    "title": "Fed minutes show growing unease about the outlook for inflation",
@@ -841,28 +1422,6 @@
    "stories": []
   },
   {
-   "id": "786ee29a69f4",
-   "title": "What Wall Street analysts are now saying after Nvidia’s beat-and-raise quarter",
-   "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-18T09:41:00Z",
-   "summary": "The chip company’s stock rose over 3% in premarket trading on Wednesday. A team at JPMorgan said there is likely more volatility to come in the near-term.",
-   "image": "https://images.mktw.net/im-33661435",
-   "score": 7,
-   "categories": [
-    "tech_ai",
-    "stock_market"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
-  },
-  {
    "id": "37976c5e90eb",
    "title": "Why Nvidia broke with its usual practice in holding back its quarterly SEC report",
    "link": "https://www.marketwatch.com/story/why-nvidia-broke-with-its-usual-practice-in-holding-back-its-quarterly-sec-report-1489d492?mod=mw_rss_topstories",
@@ -1305,28 +1864,6 @@
    ],
    "stories": [
     "trade-war"
-   ]
-  },
-  {
-   "id": "5aca005e2cdf",
-   "title": "‘Nvidia’s turmoil has me spooked’: Has the time come to sell my stocks?",
-   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-17T22:15:00Z",
-   "summary": "“Real estate here in Florida seems to be presenting some interesting opportunities.”",
-   "image": "https://images.mktw.net/im-71982935",
-   "score": 6,
-   "categories": [
-    "tech_ai",
-    "stock_market"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
    ]
   },
   {

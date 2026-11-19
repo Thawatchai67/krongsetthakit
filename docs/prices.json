@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T01:31:49Z",
+ "generated_at": "2026-11-19T02:31:03Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
@@ -289,23 +289,23 @@
    "price": 33.93,
    "change_pct": 0.41,
    "currency": "THB",
-   "asof": "2026-11-19T01:31:46Z",
+   "asof": "2026-11-19T02:30:57Z",
    "key": "USDTHB",
    "name": "ดอลลาร์/บาท"
   },
   {
-   "price": 3751.5,
-   "change_pct": -2.92,
+   "price": 3749.6,
+   "change_pct": 0.21,
    "currency": "USD",
-   "asof": "2026-11-19T01:21:48Z",
+   "asof": "2026-11-19T02:20:58Z",
    "key": "GOLD",
    "name": "ทองคำ"
   },
   {
-   "price": 82.46,
-   "change_pct": -4.13,
+   "price": 82.34,
+   "change_pct": -1.1,
    "currency": "USD",
-   "asof": "2026-11-19T01:21:46Z",
+   "asof": "2026-11-19T02:20:57Z",
    "key": "OIL",
    "name": "น้ำมัน WTI"
   },
