@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T02:31:03Z",
+ "generated_at": "2026-11-19T11:30:35Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -13,9 +13,9 @@
   "total": 523,
   "news": 61,
   "d1": {
-   "evaluated": 384,
-   "hit_rate": 53.6,
-   "avg_edge": 0.22
+   "evaluated": 404,
+   "hit_rate": 53.7,
+   "avg_edge": 0.21
   },
   "d5": {
    "evaluated": 300,
@@ -185,9 +185,9 @@
    "total": 180,
    "news": 18,
    "d1": {
-    "evaluated": 170,
+    "evaluated": 176,
     "hit_rate": 49.4,
-    "avg_edge": -0.09
+    "avg_edge": -0.08
    },
    "d5": {
     "evaluated": 150,
@@ -206,9 +206,9 @@
    "total": 110,
    "news": 11,
    "d1": {
-    "evaluated": 100,
-    "hit_rate": 64.0,
-    "avg_edge": 0.39
+    "evaluated": 105,
+    "hit_rate": 63.8,
+    "avg_edge": 0.38
    },
    "d5": {
     "evaluated": 90,
@@ -248,9 +248,9 @@
    "total": 70,
    "news": 7,
    "d1": {
-    "evaluated": 60,
-    "hit_rate": 50.0,
-    "avg_edge": 0.34
+    "evaluated": 65,
+    "hit_rate": 49.2,
+    "avg_edge": 0.3
    },
    "d5": {
     "evaluated": 20,
@@ -353,9 +353,9 @@
    "total": 4,
    "news": 1,
    "d1": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
+    "evaluated": 4,
+    "hit_rate": 75.0,
+    "avg_edge": 0.23
    },
    "d5": {
     "evaluated": 0,

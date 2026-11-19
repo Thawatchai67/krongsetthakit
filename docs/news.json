@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-19T02:30:38Z",
+  "generated_at": "2026-11-19T11:30:10Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 237
+  "total_kept": 250
  },
  "signals": [
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 7,
+   "count": 8,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -64,6 +64,12 @@
    ],
    "evidence": [
     {
+     "title": "ภาวะตลาดหุ้นไทย:ปิดบวก 0.63 จุด พลิกฟื้นช่วงบ่าย รับแรงซื้อกลุ่มโรงไฟฟ้า-นิคมฯ-ชิ้นส่วนฯ หนุน",
+     "link": "https://www.infoquest.co.th/2026/682722",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-19T10:10:32Z"
+    },
+    {
      "title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
      "link": "https://www.prachachat.net/finance/news-2098888",
      "source": "ประชาชาติธุรกิจ",
@@ -74,12 +80,6 @@
      "link": "https://www.infoquest.co.th/2026/682142",
      "source": "อินโฟเควสท์",
      "published": "2026-11-19T02:05:16Z"
-    },
-    {
-     "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
-     "link": "https://www.infoquest.co.th/2026/682160",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-19T01:49:14Z"
     }
    ]
   },
@@ -264,66 +264,66 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 32,
-   "new_24h": 11,
-   "latest": "2026-11-19T02:13:31Z",
-   "latest_title": "มูดี้ส์หั่นแนวโน้มเครดิต Nvidia เป็นมีเสถียรภาพ ชี้ความไม่แน่นอนหลังหวงพ้นตำแหน่ง"
+   "count": 33,
+   "new_24h": 8,
+   "latest": "2026-11-19T11:15:00Z",
+   "latest_title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?"
   },
   {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
    "count": 17,
-   "new_24h": 8,
+   "new_24h": 6,
    "latest": "2026-11-19T02:05:16Z",
    "latest_title": "ตลาดหุ้นเอเชียเปิดลบส่วนใหญ่ ตามทิศทางดาวโจนส์ กังวลเฟดขึ้นดอกเบี้ย"
+  },
+  {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 13,
+   "new_24h": 4,
+   "latest": "2026-11-19T10:20:06Z",
+   "latest_title": "ม.หอการค้าฯ แนะเปิดดีล ART เท่าที่เผยได้ ชั่งผลได้-เสียรอบด้าน เตรียมแผนเยียวยาเกษตร-ธุรกิจ"
+  },
+  {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 12,
+   "new_24h": 4,
+   "latest": "2026-11-19T10:10:32Z",
+   "latest_title": "ภาวะตลาดหุ้นไทย:ปิดบวก 0.63 จุด พลิกฟื้นช่วงบ่าย รับแรงซื้อกลุ่มโรงไฟฟ้า-นิคมฯ-ชิ้นส่วนฯ หนุน"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 8,
+   "new_24h": 3,
+   "latest": "2026-11-19T10:39:11Z",
+   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.87/89 กลับมาแข็งค่าจากช่วงเช้าตามราคาทองฟื้น"
   },
   {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
    "count": 16,
-   "new_24h": 6,
+   "new_24h": 3,
    "latest": "2026-11-19T02:27:43Z",
    "latest_title": "ราคาน้ำมันดิบปรับลด หลังตลาดยังให้น้ำหนักกับอุปทานที่มีแนวโน้มเพิ่มขึ้นต่อเนื่อง"
   },
   {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
-   "count": 11,
-   "new_24h": 5,
-   "latest": "2026-11-19T02:22:44Z",
-   "latest_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง"
-  },
-  {
    "id": "gold",
    "name": "ราคาทองคำ",
-   "count": 10,
-   "new_24h": 4,
-   "latest": "2026-11-19T02:23:29Z",
-   "latest_title": "ภาวะตลาดเงินบาท: เปิด 33.96 ทรงตัวจากวานนี้ คาดกรอบวันนี้ 33.85-34.10 จับตาราคาทอง-ตัวเลขศก.สหรัฐ"
-  },
-  {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 7,
-   "new_24h": 3,
-   "latest": "2026-11-19T02:23:29Z",
-   "latest_title": "ภาวะตลาดเงินบาท: เปิด 33.96 ทรงตัวจากวานนี้ คาดกรอบวันนี้ 33.85-34.10 จับตาราคาทอง-ตัวเลขศก.สหรัฐ"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
    "count": 11,
    "new_24h": 2,
-   "latest": "2026-11-19T00:21:48Z",
-   "latest_title": "สมคิด เปิดแผลเศรษฐกิจไทย โตต่ำ-ขาดดุลคู่ เตือนอย่าปล่อยประเทศเป็น “แมวป่วย”"
+   "latest": "2026-11-19T10:39:11Z",
+   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.87/89 กลับมาแข็งค่าจากช่วงเช้าตามราคาทองฟื้น"
   },
   {
    "id": "bot",
    "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 16,
+   "count": 18,
    "new_24h": 2,
-   "latest": "2026-11-18T10:33:33Z",
-   "latest_title": "แบงก์ชาติ ถก 15 หน่วยงาน เร่งปรับปรุงเครื่องชี้ให้สะท้อนสถานการณ์ศก.จริงมากขึ้น"
+   "latest": "2026-11-19T08:22:05Z",
+   "latest_title": "ผู้ว่าฯ ธปท. ชี้เศรษฐกิจมหภาคยังมีความท้าทาย แนะภาคธุรกิจเร่งปรับตัวรับเอไอ"
   },
   {
    "id": "trade-war",
@@ -343,6 +343,297 @@
   }
  ],
  "items": [
+  {
+   "id": "5aca005e2cdf",
+   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T11:15:00Z",
+   "summary": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
+   "image": "https://images.mktw.net/im-49247042",
+   "score": 7,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "6caf31a737a5",
+   "title": "ภาวะตลาดอนุพันธ์: บ่ายฟื้นรับ Sentiment บวกจาก Anthropic หนุนแรงซื้อกลุ่มชิ้นส่วนฯ",
+   "link": "https://www.infoquest.co.th/2026/682781",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T11:09:34Z",
+   "summary": "นายจรณเวท ศักดิ์ศรี ผู้ช่วยกรรมการผู้จัดการ สายตราสารทุน บล.พาย กล่าวว่า การซื้อขาย SET50 Index Futures วันนี้ปรับตัวลง โดยปัจจัยกดดันตลาดหุ้นหลักๆมาจากความกังวลทิศทางดอกเบี้ยของสหรัฐที่ปรับตัวขึ้น The post ภาวะตลาดอนุพันธ์: บ่ายฟื้นรับ Se…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d06bc1b68c15",
+   "title": "ทำเนียบขาวเผย “ทรัมป์” ปิดดีลอาเซียนทะลุ $1.7 หมื่นล้าน ไทยจ่อซื้อจรวด HIMARS คืบหน้าเจรจายกเว้นภาษีสินค้า 99%",
+   "link": "https://www.infoquest.co.th/2026/682780",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T11:06:57Z",
+   "summary": "ทำเนียบขาวเปิดเผยว่า ประธานาธิบดีโดนัลด์ ทรัมป์ ได้ประกาศข้อตกลงเชิงพาณิชย์และการลงทุนเชิงยุทธศาสตร์สำหรับบริษัทอเมริกันในภูมิภาคเอเชียตะวันออกเฉียงใต้ คิดเป็นมูลค่ารวมกว่า 1.7 หมื่นล้านดอลลาร์สหรัฐ The post ทำเนียบขาวเผย “ทรัมป์” ปิดดีลอา…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "5c14366ddacd",
+   "title": "ภาวะตลาดเงินบาท: ปิด 33.87/89 กลับมาแข็งค่าจากช่วงเช้าตามราคาทองฟื้น",
+   "link": "https://www.infoquest.co.th/2026/682750",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T10:39:11Z",
+   "summary": "เงินบาท [USDTHB.X] ปิดตลาดเย็นนี้ อยู่ที่ระดับ 33.87/89 บาท/ดอลลาร์ แข็งค่าจากช่วงเช้าที่เปิดตลาดที่ระดับ 33.96 บาท/ดอลลาร์ นักบริหารเงินจากธนาคารกรุงเทพ ระบุว่า ระหว่างวันเงินบาทเคลื่อนไหวในกรอบ The post ภาวะตลาดเงินบาท: ปิด 33.87/89 กลับ…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "fx",
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "baht",
+    "gold"
+   ]
+  },
+  {
+   "id": "fea2587f01d6",
+   "title": "สรุปปริมาณการซื้อขายรายกลุ่ม ต่างชาติขายสุทธิ 2,495.23 ลบ.(SET)",
+   "link": "https://www.infoquest.co.th/2026/682768",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T10:24:51Z",
+   "summary": "เว็บไซต์ตลาดหลักทรัพย์แห่งประเทศไทย รายงานสรุปการซื้อขายหลักทรัพย์ โดยแบ่งตามประเภทนักลงทุน ประจำวันที่ 19 พฤศจิกายน 2569 ดังนี้ กลุ่ม มูลค่าซื้อ (ลบ.) % มูลค่าขาย (ลบ.) % สุทธิ (ลบ.) สถาบันในประเทศ The post สรุปปริมาณการซื้อขายรายกลุ่ม ต่…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6a84d44029cf",
+   "title": "ม.หอการค้าฯ แนะเปิดดีล ART เท่าที่เผยได้ ชั่งผลได้-เสียรอบด้าน เตรียมแผนเยียวยาเกษตร-ธุรกิจ",
+   "link": "https://www.infoquest.co.th/2026/682710",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T10:20:06Z",
+   "summary": "นายธนวรรธน์ พลวิชัย อธิการบดี และประธานที่ปรึกษาศูนย์พยากรณ์เศรษฐกิจและธุรกิจ มหาวิทยาลัยหอการค้าไทย กล่าวถึงกรณีที่ไทยและสหรัฐฯ บรรลุความตกลงการค้าต่างตอบแทน (Agreement on Reciprocal Trade : ART) The post ม.หอการค้าฯ แนะเปิดดีล ART เท่าที…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "93c2d6b56295",
+   "title": "ภาวะตลาดหุ้นไทย:ปิดบวก 0.63 จุด พลิกฟื้นช่วงบ่าย รับแรงซื้อกลุ่มโรงไฟฟ้า-นิคมฯ-ชิ้นส่วนฯ หนุน",
+   "link": "https://www.infoquest.co.th/2026/682722",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T10:10:32Z",
+   "summary": "SET ปิดที่ 1,472.64 จุด เพิ่มขึ้น 0.63 จุด (+0.04%) มูลค่าซื้อขาย 64,920.17 ล้านบาท นักวิเคราะห์ฯ เผยตลาดหุ้นไทยวันนี้พลิกฟื้นในภาคบ่าย หลังเผชิญแรงกดดันจากความกังวลเฟดเร่งขึ้นดอกเบี้ยช่วงเช้า The post ภาวะตลาดหุ้นไทย:ปิดบวก 0.63 จุด พลิกฟ…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "monetary"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "c9e9bbbda8cb",
+   "title": "The real beneficiary of the AI tech revolution fueled by Anthropic may surprise you",
+   "link": "https://www.marketwatch.com/story/the-real-beneficiary-of-the-ai-tech-revolution-fueled-by-anthropic-may-surprise-you-6fa098b2?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T10:04:00Z",
+   "summary": "India has a huge tech-savvy population and its relative backwardness in many sectors of the economy like health care, education and agriculture, may prove a real advantage in terms of the productivity gains it cam nake.",
+   "image": "https://images.mktw.net/im-71200898",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f5527e913ba3",
+   "title": "SAWAD โชว์ 9 เดือนกำไรโต 18.96% โค้งท้ายของปีเน้นขยายพอร์ตคุณภาพ",
+   "link": "https://www.prachachat.net/uncategorized/news-2099194",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T09:09:07Z",
+   "summary": "บริษัท ศรีสวัสดิ์ คอร์ปอเรชั่น จำกัด (มหาชน) หรือ SAWAD เปิดเผยผลการดำเนินงานไตรมาส 3/2569 มีรายได้รวม 5,065 ล้านบาท และกำไรสุทธิ 1,587 ล้านบาท ขณะที่ผลประกอบการ 9 เดือนแรกมีรายได้รวม 14,775 ล้านบาท และกำไรสุทธิ 4,592 ล้านบาท เพิ่มขึ้นร้อย…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%98%E0%B8%B4%E0%B8%94%E0%B8%B2-%E0%B9%81%E0%B8%81%E0%B9%89%E0%B8%A7%E0%B8%9A%E0%B8%B8%E0%B8%95%E0%B8%95%E0%B8%B2-%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AD%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9D%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%A5%E0%B8%A2%E0%B8%B8%E0%B8%971-scaled.jpg",
+   "score": 5,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "7e398fd30158",
+   "title": "ผู้ว่าฯ ธปท. ชี้เศรษฐกิจมหภาคยังมีความท้าทาย แนะภาคธุรกิจเร่งปรับตัวรับเอไอ",
+   "link": "https://www.prachachat.net/finance/news-2099163",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T08:22:05Z",
+   "summary": "ผู้ว่าฯ ธปท. ชี้เศรษฐกิจมหภาคยังมีความท้าทาย แนะภาคธุรกิจเร่งปรับตัวรับเอไอ เพิ่ม Productivity-ขีดความสามารถการแข่งขัน ขาดแรงงาน นายวิทัย รัตนากร ผู้ว่าการธนาคารแห่งประเทศไทย (ธปท.) กล่าวเปิดงานมหกรรมการเงินกรุงเทพส่งท้ายปี ครั้งที่ 9 Mone…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-140.jpg",
+   "score": 10,
+   "categories": [
+    "monetary",
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "4ea0514095c2",
+   "title": "แบงก์ชาติคงจีดีพีปีนี้โต 2.4% พร้อมจับตาสหรัฐคุมการส่งออกชิปชั้นสูง",
+   "link": "https://www.prachachat.net/finance/news-2099159",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T08:16:49Z",
+   "summary": "แบงก์ชาติคงจีดีพีปีนี้โต 2.4% ด้านจีดีพีไตรมาส 3 โตต่ำกว่าคาด พร้อมจับตาสหรัฐคุมการส่งออกชิปชั้นสูง ขณะที่อัตราดอกเบี้ยเน้นประคองเศรษฐกิจ แต่ยังปรับได้ตามความจำเป็น นายวิทัย รัตนากร ผู้ว่าการธนาคารแห่งประเทศไทย (ธปท.) เปิดเผยว่า จากการประก…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-139.jpg",
+   "score": 13,
+   "categories": [
+    "economy",
+    "tech_ai",
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "bot",
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "8339386117d4",
+   "title": "หอการค้าไทยชี้ ART หนุนเศรษฐกิจ-ส่งออก จี้รัฐบาลแจงดีลหมูสหรัฐ หวั่นกระทบเกษตรกร",
+   "link": "https://www.prachachat.net/economic/news-2099129",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T07:37:56Z",
+   "summary": "“ธนวรรธน์” ประเมินเศรษฐกิจไทยปี 2569 มีโอกาสโต 2.5-3% จับตาดีล ART ไทย–สหรัฐฯ หนุนส่งออกและการลงทุน Data Center–EV แต่เตือนรัฐบาลเร่งเปิดรายละเอียดสินค้าเกษตรที่ยอมเปิดตลาด โดยเฉพาะเนื้อสุกรและเครื่องในหมู หวั่นกระทบผู้เลี้ยงในประเทศ เสนอป…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Thai%E2%80%93US-Trade-Diplomacy-Briefing.png",
+   "score": 10,
+   "categories": [
+    "economy",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "99e65ca55fdd",
+   "title": "บี.กริม เพาเวอร์ จัดงาน CG Day 2026 ก้าวสู่อนาคตอย่างมั่นใจ: กำกับดูแล AI ด้วยธรรมาภิบาล",
+   "link": "https://www.prachachat.net/sd/sdplus-hr/news-2099113",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T07:19:51Z",
+   "summary": "บี.กริม เพาเวอร์ จัดงานเปิดงานส่งเสริมการกำกับดูแลกิจการที่ดี ประจำปี 2569 หรือ CG Day 2026 แนวคิด “ก้าวสู่อนาคตอย่างมั่นใจ: กำกับดูแล AI ด้วยธรรมาภิบาล ขับเคลื่อนธุรกิจอย่างโอบอ้อมอารี” ชูหลักธรรมาภิบาลที่ตั้งอยู่บนพื้นฐานของความซื่อสัตย์…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/%E0%B8%9B%E0%B8%81-%E0%B8%9A%E0%B8%B5-1.jpg",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e2df1d75d457",
+   "title": "ออมสิน อัปสกิล SMEs–วิสาหกิจชุมชน ปีที่ 6 ชู 15 สุดยอด “GSB Change Maker 2026”",
+   "link": "https://www.prachachat.net/biz-movement/news-2099062",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-19T06:27:43Z",
+   "summary": "นายทรงพล ชีวะปัญญาโรจน์ ผู้อำนวยการธนาคารออมสิน เป็นประธานในพิธีประกาศผลและมอบรางวัล “สุดยอด GSB Change Maker 2026” แก่ผู้ประกอบการที่มีผลงานพัฒนาธุรกิจโดดเด่น จำนวน 15 ราย แบ่งเป็นผู้ประกอบการประเภท SMEs จำนวน 10 ราย และวิสาหกิจชุมชน จำนว…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__92176580_0-scaled.jpg",
+   "score": 5,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "69757d220975",
    "title": "ราคาน้ำมันดิบปรับลด หลังตลาดยังให้น้ำหนักกับอุปทานที่มีแนวโน้มเพิ่มขึ้นต่อเนื่อง",
@@ -666,28 +957,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "5aca005e2cdf",
-   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
-   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-19T00:30:00Z",
-   "summary": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
-   "image": "https://images.mktw.net/im-49247042",
-   "score": 7,
-   "categories": [
-    "stock_market",
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
   },
   {
    "id": "01658a1c92fa",

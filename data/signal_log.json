@@ -60,7 +60,9 @@
   "date": "2026-11-19",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
   "news_link": "https://www.infoquest.co.th/2026/682160",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.0,
+  "x1": -0.1
  },
  "baht_weak|CPF|2026-11-19": {
   "signal": "baht_weak",
@@ -71,7 +73,9 @@
   "date": "2026-11-19",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
   "news_link": "https://www.infoquest.co.th/2026/682160",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -0.51,
+  "x1": -0.61
  },
  "baht_weak|DELTA|2026-11-19": {
   "signal": "baht_weak",
@@ -82,7 +86,9 @@
   "date": "2026-11-19",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
   "news_link": "https://www.infoquest.co.th/2026/682160",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.84,
+  "x1": 0.74
  },
  "baht_weak|TU|2026-11-19": {
   "signal": "baht_weak",
@@ -93,7 +99,9 @@
   "date": "2026-11-19",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าแกว่งตัว ไร้ปัจจัยใหม่หนุน กังวลเฟดส่งสัญญาณขึ้นดอกเบี้ย-บาทอ่อน",
   "news_link": "https://www.infoquest.co.th/2026/682160",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.78,
+  "x1": 0.68
  },
  "gold_up|AURA|2026-09-02": {
   "signal": "gold_up",
@@ -300,7 +308,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.0,
+  "x1": -0.1
  },
  "oil_down|BCP|2026-09-20": {
   "signal": "oil_down",
@@ -399,7 +409,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.92,
+  "x1": 0.82
  },
  "oil_down|COP|2026-09-20": {
   "signal": "oil_down",
@@ -795,7 +807,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.35,
+  "x1": 0.25
  },
  "oil_down|PTT|2026-09-20": {
   "signal": "oil_down",
@@ -894,7 +908,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.0,
+  "x1": -0.1
  },
  "oil_down|TOP|2026-09-20": {
   "signal": "oil_down",
@@ -993,7 +1009,9 @@
   "date": "2026-11-19",
   "news_title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682099",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.0,
+  "x1": -0.1
  },
  "oil_down|UAL|2026-09-20": {
   "signal": "oil_down",
@@ -1377,7 +1395,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.0,
+  "x1": -0.1
  },
  "oil_up|BCP|2026-09-01": {
   "signal": "oil_up",
@@ -1563,7 +1583,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.92,
+  "x1": 0.82
  },
  "oil_up|COP|2026-09-01": {
   "signal": "oil_up",
@@ -2307,7 +2329,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.35,
+  "x1": 0.25
  },
  "oil_up|PTT|2026-09-01": {
   "signal": "oil_up",
@@ -2493,7 +2517,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.0,
+  "x1": -0.1
  },
  "oil_up|TOP|2026-09-01": {
   "signal": "oil_up",
@@ -2679,7 +2705,9 @@
   "date": "2026-11-19",
   "news_title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
   "news_link": "https://www.infoquest.co.th/2026/682097",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.0,
+  "x1": -0.1
  },
  "oil_up|UAL|2026-09-01": {
   "signal": "oil_up",
@@ -3975,7 +4003,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.28,
+  "x1": 0.18
  },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
@@ -4282,7 +4312,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -1.9,
+  "x1": -2.0
  },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
@@ -4589,7 +4621,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.84,
+  "x1": 0.74
  },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
@@ -5203,7 +5237,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -0.4,
+  "x1": -0.5
  },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
@@ -5510,7 +5546,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": 0.0,
+  "x1": -0.1
  },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
@@ -6431,7 +6469,9 @@
   "date": "2026-11-19",
   "news_title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
   "news_link": "https://www.prachachat.net/finance/news-2098888",
-  "base_date": "2026-11-18"
+  "base_date": "2026-11-18",
+  "r1": -0.65,
+  "x1": -0.75
  },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",
@@ -6845,7 +6885,9 @@
   "news_title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
   "news_link": "https://www.prachachat.net/economic/news-2096401",
   "r1": 2.48,
-  "base_date": "2026-11-12"
+  "base_date": "2026-11-12",
+  "r5": -3.22,
+  "x5": -2.13
  },
  "tariff|CPF|2026-11-14": {
   "signal": "tariff",
@@ -7084,7 +7126,9 @@
   "news_title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
   "news_link": "https://www.prachachat.net/economic/news-2096401",
   "r1": 0.0,
-  "base_date": "2026-11-12"
+  "base_date": "2026-11-12",
+  "r5": -5.0,
+  "x5": -3.92
  },
  "tariff|DELTA|2026-11-14": {
   "signal": "tariff",
@@ -7323,7 +7367,9 @@
   "news_title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
   "news_link": "https://www.prachachat.net/economic/news-2096401",
   "r1": -2.6,
-  "base_date": "2026-11-12"
+  "base_date": "2026-11-12",
+  "r5": -1.87,
+  "x5": -0.79
  },
  "tariff|HANA|2026-11-14": {
   "signal": "tariff",
@@ -7562,7 +7608,9 @@
   "news_title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
   "news_link": "https://www.prachachat.net/economic/news-2096401",
   "r1": 1.29,
-  "base_date": "2026-11-12"
+  "base_date": "2026-11-12",
+  "r5": -3.0,
+  "x5": -1.92
  },
  "tariff|KCE|2026-11-14": {
   "signal": "tariff",
@@ -8041,7 +8089,9 @@
   "news_title": "กสิกรไทยชี้เก็บภาษีนำเข้า E-commerce สูงสุด 30% ลดช่องว่างราคา แต่สินค้าไทยยังแข่งหนัก",
   "news_link": "https://www.prachachat.net/economic/news-2096401",
   "r1": 0.75,
-  "base_date": "2026-11-12"
+  "base_date": "2026-11-12",
+  "r5": -2.26,
+  "x5": -1.17
  },
  "tariff|TU|2026-11-14": {
   "signal": "tariff",
