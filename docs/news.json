@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-20T11:26:02Z",
+  "generated_at": "2026-11-20T20:04:27Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 296
+  "total_kept": 313
  },
  "signals": [
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 10,
+   "count": 9,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -64,6 +64,12 @@
    ],
    "evidence": [
     {
+     "title": "The Fed is too busy fighting inflation to rescue the stock market",
+     "link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-20T19:53:00Z"
+    },
+    {
      "title": "หุ้นไทยดิ่งแรงเฉียด 20 จุด บล.กสิกรไทยชี้ 5 ปัจจัยกดดัน",
      "link": "https://www.prachachat.net/finance/news-2100057",
      "source": "ประชาชาติธุรกิจ",
@@ -74,12 +80,6 @@
      "link": "https://www.prachachat.net/finance/news-2099899",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-20T09:29:28Z"
-    },
-    {
-     "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
-     "link": "https://www.infoquest.co.th/2026/682920",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-20T02:05:26Z"
     }
    ]
   },
@@ -127,12 +127,12 @@
    ]
   },
   {
-   "id": "oil_up",
-   "name": "น้ำมันขึ้น",
+   "id": "oil_down",
+   "name": "น้ำมันลง",
    "count": 2,
    "impacts": [
     {
-     "effect": "ได้ประโยชน์",
+     "effect": "ถูกกดดัน",
      "sector": "พลังงาน/ปิโตรเลียม",
      "set": [
       "PTT",
@@ -145,10 +145,10 @@
       "CVX",
       "COP"
      ],
-     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
+     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
     },
     {
-     "effect": "ถูกกดดัน",
+     "effect": "ได้ประโยชน์",
      "sector": "สายการบิน/ขนส่ง",
      "set": [
       "AAV"
@@ -157,21 +157,21 @@
       "DAL",
       "UAL"
      ],
-     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
+     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
     }
    ],
    "evidence": [
     {
-     "title": "ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
-     "link": "https://www.infoquest.co.th/2026/682814",
+     "title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+     "link": "https://www.infoquest.co.th/2026/683493",
      "source": "อินโฟเควสท์",
-     "published": "2026-11-19T16:00:13Z"
+     "published": "2026-11-20T13:44:40Z"
     },
     {
-     "title": "EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด",
-     "link": "https://www.infoquest.co.th/2026/682097",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-18T17:27:19Z"
+     "title": "ราคาน้ำมันดิบปรับลด หลังตลาดยังให้น้ำหนักกับอุปทานที่มีแนวโน้มเพิ่มขึ้นต่อเนื่อง",
+     "link": "https://www.prachachat.net/economic/news-2098887",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-19T02:27:43Z"
     }
    ]
   },
@@ -217,12 +217,12 @@
    ]
   },
   {
-   "id": "oil_down",
-   "name": "น้ำมันลง",
-   "count": 2,
+   "id": "oil_up",
+   "name": "น้ำมันขึ้น",
+   "count": 1,
    "impacts": [
     {
-     "effect": "ถูกกดดัน",
+     "effect": "ได้ประโยชน์",
      "sector": "พลังงาน/ปิโตรเลียม",
      "set": [
       "PTT",
@@ -235,10 +235,10 @@
       "CVX",
       "COP"
      ],
-     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
+     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
     },
     {
-     "effect": "ได้ประโยชน์",
+     "effect": "ถูกกดดัน",
      "sector": "สายการบิน/ขนส่ง",
      "set": [
       "AAV"
@@ -247,21 +247,15 @@
       "DAL",
       "UAL"
      ],
-     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
+     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
     }
    ],
    "evidence": [
     {
-     "title": "ราคาน้ำมันดิบปรับลด หลังตลาดยังให้น้ำหนักกับอุปทานที่มีแนวโน้มเพิ่มขึ้นต่อเนื่อง",
-     "link": "https://www.prachachat.net/economic/news-2098887",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-19T02:27:43Z"
-    },
-    {
-     "title": "น้ำมันโลกดิ่งหนัก เบรนท์หลุด $91/WTI หลุด $83 หลังสต็อกน้ำมันสหรัฐเพิ่มมากกว่าคาด",
-     "link": "https://www.infoquest.co.th/2026/682099",
+     "title": "ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
+     "link": "https://www.infoquest.co.th/2026/682814",
      "source": "อินโฟเควสท์",
-     "published": "2026-11-18T17:46:15Z"
+     "published": "2026-11-19T16:00:13Z"
     }
    ]
   }
@@ -270,10 +264,10 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 36,
-   "new_24h": 4,
-   "latest": "2026-11-20T11:00:00Z",
-   "latest_title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?"
+   "count": 40,
+   "new_24h": 8,
+   "latest": "2026-11-20T19:53:00Z",
+   "latest_title": "Spooked by Nvidia’s turmoil? Play Grand Theft Auto VI instead of peeking at your 401(k)."
   },
   {
    "id": "trade-war",
@@ -300,20 +294,12 @@
    "latest_title": "หุ้นไทยดิ่งแรงเฉียด 20 จุด บล.กสิกรไทยชี้ 5 ปัจจัยกดดัน"
   },
   {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 20,
-   "new_24h": 3,
-   "latest": "2026-11-20T02:05:26Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก"
-  },
-  {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 10,
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 19,
    "new_24h": 2,
-   "latest": "2026-11-20T10:37:14Z",
-   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.91/92 แกว่งกรอบแคบ ตลาดไร้ปัจจัยใหม่ คาดกรอบต้นสัปดาห์หน้า 33.80-34.10"
+   "latest": "2026-11-20T13:44:40Z",
+   "latest_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง"
   },
   {
    "id": "thai-economy",
@@ -324,12 +310,20 @@
    "latest_title": "กกร.จ่อถกเลขาฯ OECD 23 พ.ย. ชง 5 ข้อเสนอปฏิรูปเศรษฐกิจไทย-ปราบคอร์รัปชั่น"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 18,
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 20,
    "new_24h": 2,
-   "latest": "2026-11-20T01:32:13Z",
-   "latest_title": "ราคาน้ำมันวันนี้ 20 พ.ย. 69 ดีเซล 39.99 บาท แก๊สโซฮอล์ 95 อยู่ที่ 38.14 บาท"
+   "latest": "2026-11-20T02:05:26Z",
+   "latest_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 10,
+   "new_24h": 1,
+   "latest": "2026-11-20T10:37:14Z",
+   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.91/92 แกว่งกรอบแคบ ตลาดไร้ปัจจัยใหม่ คาดกรอบต้นสัปดาห์หน้า 33.80-34.10"
   },
   {
    "id": "bot",
@@ -349,6 +343,372 @@
   }
  ],
  "items": [
+  {
+   "id": "7bbdc82bf9fc",
+   "title": "The Fed is too busy fighting inflation to rescue the stock market",
+   "link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T19:53:00Z",
+   "summary": "Federal Reserve officials will continue to raise interest rates, despite the recent selloff in the stock market, as equity-market gains over the past four years dwarf the recent declines, economists said Friday.",
+   "image": "https://images.mktw.net/im-84179279",
+   "score": 13,
+   "categories": [
+    "monetary",
+    "stock_market",
+    "inflation"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": []
+  },
+  {
+   "id": "5aca005e2cdf",
+   "title": "Spooked by Nvidia’s turmoil? Play Grand Theft Auto VI instead of peeking at your 401(k).",
+   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T19:53:00Z",
+   "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+   "image": "https://images.mktw.net/im-49247042",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "8bf1339f28ae",
+   "title": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns",
+   "link": "https://www.marketwatch.com/story/bank-of-america-strategist-warns-doom-loop-could-hit-stocks-with-wall-street-underpricing-hard-landing-risks-c3181e57?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T19:43:00Z",
+   "summary": "The S&P 500 is nearing a level worth buying if the U.S. avoids a recession, but one strategist warns Wall Street is underpricing the hard-landing risk as he said investors should wait before buying risky assets.",
+   "image": "https://images.mktw.net/im-43012277",
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c0da7ec0e124",
+   "title": "Alphabet just overtook Nvidia in market value for the first time in over 2 years",
+   "link": "https://www.marketwatch.com/story/alphabet-just-overtook-nvidia-in-market-value-for-the-first-time-in-over-2-years-23e296ee?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T19:23:00Z",
+   "summary": "Nvidia is now the fourth most valuable U.S. company, behind Apple, Microsoft and Alphabet.",
+   "image": "https://images.mktw.net/im-15432700",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "b9618c609f31",
+   "title": "Nvidia’s stock heads for a stretch of weekly losses not seen since 2008",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T19:04:00Z",
+   "summary": "One fund manager says the continued uncertainty makes Nvidia “vulnerable” to more selling, even as the company has erased over $900 billion in market value in the past seven days.",
+   "image": "https://images.mktw.net/im-34722118",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "e84def67155c",
+   "title": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
+   "link": "https://www.marketwatch.com/story/trump-is-trying-to-stop-big-techs-push-to-build-data-centers-outside-the-u-s-86f32f7f?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T18:57:00Z",
+   "summary": "The companies behind the artificial-intelligence buildout have been working to build their next frontier abroad, amid growing wariness of data centers from politicians and ordinary Americans.",
+   "image": "https://images.mktw.net/im-06197162",
+   "score": 7,
+   "categories": [
+    "tech_ai",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "548818013579",
+   "title": "“ทรัมป์” ประกาศห้ามบริษัทสหรัฐสร้างดาต้าเซ็นเตอร์ในต่างประเทศ",
+   "link": "https://www.infoquest.co.th/2026/683507",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T18:29:26Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ กล่าวว่า บริษัทสหรัฐจะถูกห้ามไม่ให้สร้างศูนย์ข้อมูล (Data Center) ในต่างประเทศ มิฉะนั้นจะต้องเผชิญกับบทลงโทษทางภาษีในอัตราที่สูงมาก หากยังคงดำเนินการดังกล่าว The post “ทรัมป์” ประกาศห้ามบริษัทสหรัฐสร้า…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "8bc190430e14",
+   "title": "Why year-end portfolio rebalancing is a risky bet that bonds will beat stocks in 2027",
+   "link": "https://www.marketwatch.com/story/why-year-end-portfolio-rebalancing-is-a-risky-bet-that-bonds-will-beat-stocks-in-2027-1b438892?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T17:49:00Z",
+   "summary": "Portfolio rebalancing involves many implicit bets that investors may not even be aware of",
+   "image": "https://images.mktw.net/im-56191142",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a9cae844e108",
+   "title": "รัสเซียยันพร้อมเจรจาเกี่ยวกับหลักประกันความมั่นคงสำหรับยูเครน",
+   "link": "https://www.infoquest.co.th/2026/683503",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T16:55:20Z",
+   "summary": "นายเซอร์เก รยาบคอฟ รัฐมนตรีช่วยว่าการกระทรวงการต่างประเทศรัสเซีย กล่าวว่า รัสเซียพร้อมเจรจาเกี่ยวกับหลักประกันความมั่นคงสำหรับยูเครน “ผมคิดว่าเราสามารถหารือกันเกี่ยวกับประเด็นหลักประกันความมั่นคงในรูป The post รัสเซียยันพร้อมเจรจาเกี่ยวกับ…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9f3e89a0c1b9",
+   "title": "เศรษฐกิจเวลเนสไทย โตแตะ 4.65 หมื่นล้าน USD",
+   "link": "https://www.prachachat.net/business/news-2097503",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T16:09:53Z",
+   "summary": "ปิดฉากเวทีประชุม Global Wellness Summit ครั้งที่ 20 ที่จัดขึ้นเมื่อ 10-13 พฤศจิกายนที่ผ่านมา ณ จังหวัดภูเก็ต นับเป็นหมุดหมายสำคัญของประเทศ และเป็นโอกาสให้ไทยได้แสดงศักยภาพด้านเวลเนสบนเวทีโลก และเชื่อว่าอุตสาหกรรมเวลเนสเป็นหนึ่งในเครื่องยนต…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/16-2pok.jpg",
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "901025ff5446",
+   "title": "คต.ดัน AI จัดระบบ มุ่ง Food Security สร้างมูลค่าเพิ่ม",
+   "link": "https://www.prachachat.net/economic/news-2097489",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T16:05:37Z",
+   "summary": "กรมการค้าต่างประเทศเตรียมปรับเกมการค้าปี 2570 วาง “AI-ความมั่นคงทางอาหาร” เป็นหนึ่งในแกนขับเคลื่อนสำคัญ หลังการค้าโลกเผชิญความผันผวนสูง ทั้งกำลังซื้อที่เปลี่ยนไป ราคาสินค้าและค่าเงินแข่งขันรุนแรง ตลอดจนปัญหาวัตถุดิบสินค้าเกษตรไม่เพียงพอ โด…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/5-1-2.jpg",
+   "score": 6,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "2bd71893b433",
+   "title": "ดาวโจนส์พุ่ง สวนทาง Nasdaq ร่วง หุ้น Anthropic ฉุดตลาด",
+   "link": "https://www.infoquest.co.th/2026/683497",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T15:05:29Z",
+   "summary": "ดัชนีดาวโจนส์ดีดตัวขึ้นในวันนี้ สวนทางดัชนี S&P 500 และ Nasdaq ที่ปรับตัวลง โดยได้รับผลกระทบจากแรงขายหุ้นกลุ่มเทคโนโลยี นำโดยหุ้น Anthropic ณ เวลา 21.44 น.ตามเวลาไทย ดัชนีเฉลี่ยอุตสาหกรรมดาวโจนส์ The post ดาวโจนส์พุ่ง สวนทาง Nasdaq ร่วง หุ…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e80a1e0e7c55",
+   "title": "ดอลลาร์อ่อนค่า แต่ยังเคลื่อนไหวใกล้นิวไฮ 19 เดือน",
+   "link": "https://www.infoquest.co.th/2026/683495",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T14:42:02Z",
+   "summary": "ดอลลาร์อ่อนค่าลงในวันนี้ แต่ยังคงเคลื่อนไหวใกล้ระดับสูงสุดในรอบ 19 เดือน และมีแนวโน้มดีดตัวขึ้นติดต่อกันเป็นสัปดาห์ที่ 4 โดยได้รับแรงหนุนจากการคาดการณ์ว่าธนาคารกลางสหรัฐ (เฟด) จะเดินหน้าปรับขึ้นอัตราด The post ดอลลาร์อ่อนค่า แต่ยังเคลื่อนไ…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "fx",
+    "monetary"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "094213f8e13c",
+   "title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+   "link": "https://www.infoquest.co.th/2026/683493",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T13:44:40Z",
+   "summary": "ราคาน้ำมันดิบในตลาดโลกร่วงลงในวันนี้ และมีแนวโน้มปรับตัวลงในสัปดาห์นี้ เนื่องจากการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง ณ เวลา 20.13 น.ตามเวลาไทย ราคาน้ำมันดิบเวสต์เท็กซัส (WTI) [WTI.X] The post ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำ…",
+   "image": null,
+   "score": 15,
+   "categories": [
+    "oil_energy",
+    "economy",
+    "trade_geo"
+   ],
+   "signals": [
+    "oil_down"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "20c721aaeed0",
+   "title": "ดาวโจนส์ฟิวเจอร์/S&P 500/Nasdaq กอดคอร่วง หุ้น Anthropic กดดันตลาด",
+   "link": "https://www.infoquest.co.th/2026/683491",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T13:06:48Z",
+   "summary": "ดัชนีดาวโจนส์ฟิวเจอร์ร่วงลงในวันนี้ สอดคล้องดัชนี S&P 500 ฟิวเจอร์ และ Nasdaq ฟิวเจอร์ที่ปรับตัวลงเช่นกัน โดยได้รับแรงกดดันจากแรงขายหุ้นกลุ่มเทคโนโลยี นำโดยหุ้น Anthropic ณ เวลา 19.49 The post ดาวโจนส์ฟิวเจอร์/S&P 500/Nasdaq กอดคอร่วง หุ้น…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "57f0abe9942c",
+   "title": "ASP กำไร 9 เดือนพุ่ง 145% แตะ 437 ล้าน รายได้ 4 ธุรกิจโตยกแผง",
+   "link": "https://www.prachachat.net/finance/news-2100146",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T12:54:13Z",
+   "summary": "บมจ.เอเซีย พลัส กรุ๊ป โฮลดิ้งส์ (ASP) โชว์กำไรสุทธิ 9 เดือนแรกปี 2569 แตะ 437 ล้านบาท โต 145% รายได้รวมเพิ่ม 34% แตะ 2,176 ล้านบาท รับแรงหนุน 4 ธุรกิจหลักเติบโต โดยเฉพาะธุรกิจเงินลงทุนรายได้พุ่ง 72% ขณะที่ AUM เพิ่ม 15% แตะ 7.7 หมื่นล้านบา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/08/ASP.jpg",
+   "score": 4,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "641c26b10165",
+   "title": "ตลาดหลักทรัพย์ฯ หนุน SETCarbon ดึงภาคการเงิน เร่งเครื่องปล่อยสินเชื่อสีเขียว",
+   "link": "https://www.prachachat.net/finance/news-2100122",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T12:49:07Z",
+   "summary": "ตลาดหลักทรัพย์ฯ เร่งขยายเครือข่าย “SETCarbon” หนุนภาคการเงินเข้าร่วม เร่งดึงกลุ่มบริษัทนอกตลาด-SME เข้าสู่ระบบ ผนึกธนาคารยูโอบี เชื่อมฐานข้อมูลก๊าซเรือนกระจกเข้ากับโครงการ “UOB Thailand SAGE” ใช้ข้อมูลชุดเดียวขอสินเชื่อดอกเบี้ … อ่านข่าวต้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__79159306.jpg",
+   "score": 6,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "83cd41466aa3",
+   "title": "บอนด์ยีลด์ร่วงหลุด 5% นักลงทุนซื้อพันธบัตรเป็นที่หลบภัย หลังแห่เทขายหุ้นเทคฯ",
+   "link": "https://www.infoquest.co.th/2026/683489",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T12:41:50Z",
+   "summary": "อัตราผลตอบแทนพันธบัตรรัฐบาลสหรัฐอายุ 10 ปีร่วงหลุดระดับ 5% ในวันนี้ ขณะที่นักลงทุนพากันเทขายหุ้นกลุ่มเทคโนโลยี และหันไปซื้อพันธบัตรในฐานะสินทรัพย์ปลอดภัย ณ เวลา 19.18 น. ตามเวลาไทย The post บอนด์ยีลด์ร่วงหลุด 5% นักลงทุนซื้อพันธบัตรเป็นที่…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "be771423c6bd",
    "title": "Talktime: ผ่าวิกฤตโลกปี 2027 ชัตดาวน์ระบบการเงิน-พลังงาน ไทยเสี่ยงแค่ไหน ?",
@@ -408,28 +768,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "5aca005e2cdf",
-   "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
-   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-20T11:00:00Z",
-   "summary": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
-   "image": "https://images.mktw.net/im-49247042",
-   "score": 7,
-   "categories": [
-    "stock_market",
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
   },
   {
    "id": "28396693f09e",

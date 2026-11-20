@@ -324,6 +324,19 @@
   "r1": 0.0,
   "x1": -0.1
  },
+ "oil_down|AAV|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": -4.17,
+  "x1": -2.67,
+  "base_date": "2026-11-19"
+ },
  "oil_down|BCP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -429,6 +442,19 @@
   "r1": 0.92,
   "x1": 0.82
  },
+ "oil_down|BCP|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": -3.65,
+  "x1": -2.16,
+  "base_date": "2026-11-19"
+ },
  "oil_down|COP|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -476,7 +502,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": -1.48,
-  "x1": 0.18
+  "x1": 0.18,
+  "r5": -3.94,
+  "x5": 4.07
  },
  "oil_down|COP|2026-11-16": {
   "signal": "oil_down",
@@ -489,7 +517,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": -1.48,
   "x1": 0.18,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -3.94,
+  "x5": 4.07
  },
  "oil_down|COP|2026-11-17": {
   "signal": "oil_down",
@@ -529,6 +559,19 @@
   "base_date": "2026-11-18",
   "r1": 0.34,
   "x1": 2.2
+ },
+ "oil_down|COP|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": 1.24,
+  "x1": 4.31,
+  "base_date": "2026-11-19"
  },
  "oil_down|CVX|2026-09-20": {
   "signal": "oil_down",
@@ -577,7 +620,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": -1.19,
-  "x1": 0.47
+  "x1": 0.47,
+  "r5": -4.85,
+  "x5": 3.16
  },
  "oil_down|CVX|2026-11-16": {
   "signal": "oil_down",
@@ -590,7 +635,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": -1.19,
   "x1": 0.47,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -4.85,
+  "x5": 3.16
  },
  "oil_down|CVX|2026-11-17": {
   "signal": "oil_down",
@@ -630,6 +677,19 @@
   "base_date": "2026-11-18",
   "r1": 0.21,
   "x1": 2.07
+ },
+ "oil_down|CVX|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": 1.32,
+  "x1": 4.38,
+  "base_date": "2026-11-19"
  },
  "oil_down|DAL|2026-09-20": {
   "signal": "oil_down",
@@ -678,7 +738,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": 0.17,
-  "x1": 1.83
+  "x1": 1.83,
+  "r5": -6.68,
+  "x5": 1.33
  },
  "oil_down|DAL|2026-11-16": {
   "signal": "oil_down",
@@ -691,7 +753,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": 0.17,
   "x1": 1.83,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -6.68,
+  "x5": 1.33
  },
  "oil_down|DAL|2026-11-17": {
   "signal": "oil_down",
@@ -731,6 +795,19 @@
   "base_date": "2026-11-18",
   "r1": -1.27,
   "x1": 0.59
+ },
+ "oil_down|DAL|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": -3.23,
+  "x1": -0.16,
+  "base_date": "2026-11-19"
  },
  "oil_down|PTTEP|2026-09-20": {
   "signal": "oil_down",
@@ -837,6 +914,19 @@
   "r1": 0.35,
   "x1": 0.25
  },
+ "oil_down|PTTEP|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": 0.35,
+  "x1": 1.84,
+  "base_date": "2026-11-19"
+ },
  "oil_down|PTT|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -941,6 +1031,19 @@
   "base_date": "2026-11-18",
   "r1": 0.0,
   "x1": -0.1
+ },
+ "oil_down|PTT|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": 0.0,
+  "x1": 1.5,
+  "base_date": "2026-11-19"
  },
  "oil_down|TOP|2026-09-20": {
   "signal": "oil_down",
@@ -1047,6 +1150,19 @@
   "r1": 0.0,
   "x1": -0.1
  },
+ "oil_down|TOP|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": -2.61,
+  "x1": -1.11,
+  "base_date": "2026-11-19"
+ },
  "oil_down|UAL|2026-09-20": {
   "signal": "oil_down",
   "signal_name": "น้ำมันลง",
@@ -1094,7 +1210,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": 0.59,
-  "x1": 2.24
+  "x1": 2.24,
+  "r5": -7.36,
+  "x5": 0.66
  },
  "oil_down|UAL|2026-11-16": {
   "signal": "oil_down",
@@ -1107,7 +1225,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": 0.59,
   "x1": 2.24,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -7.36,
+  "x5": 0.66
  },
  "oil_down|UAL|2026-11-17": {
   "signal": "oil_down",
@@ -1147,6 +1267,19 @@
   "base_date": "2026-11-18",
   "r1": -1.27,
   "x1": 0.59
+ },
+ "oil_down|UAL|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": -4.04,
+  "x1": -0.97,
+  "base_date": "2026-11-19"
  },
  "oil_down|XOM|2026-09-20": {
   "signal": "oil_down",
@@ -1195,7 +1328,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": -1.85,
-  "x1": -0.19
+  "x1": -0.19,
+  "r5": -5.96,
+  "x5": 2.05
  },
  "oil_down|XOM|2026-11-16": {
   "signal": "oil_down",
@@ -1208,7 +1343,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": -1.85,
   "x1": -0.19,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -5.96,
+  "x5": 2.05
  },
  "oil_down|XOM|2026-11-17": {
   "signal": "oil_down",
@@ -1248,6 +1385,19 @@
   "base_date": "2026-11-18",
   "r1": -1.03,
   "x1": 0.83
+ },
+ "oil_down|XOM|2026-11-20": {
+  "signal": "oil_down",
+  "signal_name": "น้ำมันลง",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
+  "news_link": "https://www.infoquest.co.th/2026/683493",
+  "r1": 0.94,
+  "x1": 4.01,
+  "base_date": "2026-11-19"
  },
  "oil_up|AAV|2026-09-01": {
   "signal": "oil_up",
@@ -3158,7 +3308,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": -1.94,
-  "x1": -0.28
+  "x1": -0.28,
+  "r5": -6.93,
+  "x5": 1.08
  },
  "rate_cut|BBL|2026-09-06": {
   "signal": "rate_cut",
@@ -3288,7 +3440,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": -1.98,
-  "x1": -0.32
+  "x1": -0.32,
+  "r5": -10.03,
+  "x5": -2.02
  },
  "rate_cut|KBANK|2026-09-06": {
   "signal": "rate_cut",
@@ -3385,7 +3539,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": -0.31,
-  "x1": 1.35
+  "x1": 1.35,
+  "r5": -7.14,
+  "x5": 0.87
  },
  "rate_cut|NVDA|2026-09-06": {
   "signal": "rate_cut",
@@ -3416,7 +3572,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": -4.42,
-  "x1": -2.76
+  "x1": -2.76,
+  "r5": -21.18,
+  "x5": -13.17
  },
  "rate_cut|SCB|2026-09-06": {
   "signal": "rate_cut",
@@ -3732,7 +3890,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "base_date": "2026-11-13",
   "r1": -1.94,
-  "x1": -0.28
+  "x1": -0.28,
+  "r5": -6.93,
+  "x5": 1.08
  },
  "rate_hike|BAC|2026-11-18": {
   "signal": "rate_hike",
@@ -3769,7 +3929,20 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -2.23,
+  "x1": 0.83
+ },
+ "rate_hike|BAC|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
  },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
@@ -4095,6 +4268,17 @@
   "r1": -0.55,
   "x1": 0.95
  },
+ "rate_hike|BBL|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4418,6 +4602,17 @@
   "base_date": "2026-11-19",
   "r1": -0.39,
   "x1": 1.11
+ },
+ "rate_hike|CPN|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
  },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
@@ -4743,6 +4938,17 @@
   "r1": -3.88,
   "x1": -2.38
  },
+ "rate_hike|DELTA|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5024,7 +5230,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "base_date": "2026-11-13",
   "r1": -1.98,
-  "x1": -0.32
+  "x1": -0.32,
+  "r5": -10.03,
+  "x5": -2.02
  },
  "rate_hike|JPM|2026-11-18": {
   "signal": "rate_hike",
@@ -5061,7 +5269,20 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -2.73,
+  "x1": 0.33
+ },
+ "rate_hike|JPM|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
  },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
@@ -5387,6 +5608,17 @@
   "r1": -0.4,
   "x1": 1.1
  },
+ "rate_hike|KBANK|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5711,6 +5943,17 @@
   "r1": -1.12,
   "x1": 0.37
  },
+ "rate_hike|LH|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5992,7 +6235,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "base_date": "2026-11-13",
   "r1": -0.31,
-  "x1": 1.35
+  "x1": 1.35,
+  "r5": -7.14,
+  "x5": 0.87
  },
  "rate_hike|MSFT|2026-11-18": {
   "signal": "rate_hike",
@@ -6029,7 +6274,20 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -2.37,
+  "x1": 0.69
+ },
+ "rate_hike|MSFT|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
  },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
@@ -6312,7 +6570,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "base_date": "2026-11-13",
   "r1": -4.42,
-  "x1": -2.76
+  "x1": -2.76,
+  "r5": -21.18,
+  "x5": -13.17
  },
  "rate_hike|NVDA|2026-11-18": {
   "signal": "rate_hike",
@@ -6349,7 +6609,20 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -12.07,
+  "x1": -9.0
+ },
+ "rate_hike|NVDA|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
  },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
@@ -6675,6 +6948,17 @@
   "r1": 0.0,
   "x1": 1.5
  },
+ "rate_hike|SCB|2026-11-21": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-21",
+  "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
+  "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6863,7 +7147,9 @@
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
   "r1": -0.8,
-  "x1": 0.86
+  "x1": 0.86,
+  "r5": -3.31,
+  "x5": 4.7
  },
  "tariff|AAPL|2026-11-15": {
   "signal": "tariff",
@@ -6876,7 +7162,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
   "r1": -0.8,
-  "x1": 0.86
+  "x1": 0.86,
+  "r5": -3.31,
+  "x5": 4.7
  },
  "tariff|AAPL|2026-11-16": {
   "signal": "tariff",
@@ -6889,7 +7177,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096998",
   "base_date": "2026-11-13",
   "r1": -0.8,
-  "x1": 0.86
+  "x1": 0.86,
+  "r5": -3.31,
+  "x5": 4.7
  },
  "tariff|AAPL|2026-11-17": {
   "signal": "tariff",
@@ -6926,7 +7216,9 @@
   "date": "2026-11-20",
   "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -1.36,
+  "x1": 1.71
  },
  "tariff|CPF|2026-09-06": {
   "signal": "tariff",
@@ -8156,7 +8448,9 @@
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
   "r1": -5.7,
-  "x1": -4.04
+  "x1": -4.04,
+  "r5": -19.9,
+  "x5": -11.89
  },
  "tariff|TSM|2026-11-15": {
   "signal": "tariff",
@@ -8169,7 +8463,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
   "r1": -5.7,
-  "x1": -4.04
+  "x1": -4.04,
+  "r5": -19.9,
+  "x5": -11.89
  },
  "tariff|TSM|2026-11-16": {
   "signal": "tariff",
@@ -8182,7 +8478,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096998",
   "base_date": "2026-11-13",
   "r1": -5.7,
-  "x1": -4.04
+  "x1": -4.04,
+  "r5": -19.9,
+  "x5": -11.89
  },
  "tariff|TSM|2026-11-17": {
   "signal": "tariff",
@@ -8219,7 +8517,9 @@
   "date": "2026-11-20",
   "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -9.29,
+  "x1": -6.22
  },
  "tariff|TU|2026-09-06": {
   "signal": "tariff",
