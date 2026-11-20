@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-19T20:29:10Z",
+  "generated_at": "2026-11-20T02:16:12Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 262
+  "total_kept": 275
  },
  "signals": [
   {
@@ -64,6 +64,12 @@
    ],
    "evidence": [
     {
+     "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+     "link": "https://www.infoquest.co.th/2026/682920",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-20T02:05:26Z"
+    },
+    {
      "title": "Anthropic จุดพลุ Nasdaq พุ่ง สวนทางดาวโจนส์ร่วง กังวลเฟดขึ้นดอกเบี้ย",
      "link": "https://www.infoquest.co.th/2026/682812",
      "source": "อินโฟเควสท์",
@@ -74,12 +80,6 @@
      "link": "https://www.infoquest.co.th/2026/682722",
      "source": "อินโฟเควสท์",
      "published": "2026-11-19T10:10:32Z"
-    },
-    {
-     "title": "หุ้นไทยยังไร้แรงหนุน เสี่ยงแกว่งลงต่อ CBG-GPSC เด่นรับน้ำมันขาลง",
-     "link": "https://www.prachachat.net/finance/news-2098888",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-19T02:22:44Z"
     }
    ]
   },
@@ -252,10 +252,10 @@
    ],
    "evidence": [
     {
-     "title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล",
-     "link": "https://www.prachachat.net/economic/news-2098392",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-18T00:46:34Z"
+     "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+     "link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-19T22:12:00Z"
     }
    ]
   }
@@ -264,50 +264,42 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 34,
-   "new_24h": 8,
-   "latest": "2026-11-19T19:43:00Z",
-   "latest_title": "Why Micron, Broadcom and other AI stocks have given up their gains"
+   "count": 35,
+   "new_24h": 4,
+   "latest": "2026-11-19T21:45:00Z",
+   "latest_title": "Nvidia’s stock falls further. It has lost $669 billion in six trading days."
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 20,
+   "new_24h": 3,
+   "latest": "2026-11-20T02:05:26Z",
+   "latest_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก"
+  },
+  {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 13,
+   "new_24h": 3,
+   "latest": "2026-11-20T02:05:26Z",
+   "latest_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 18,
+   "new_24h": 3,
+   "latest": "2026-11-20T01:32:13Z",
+   "latest_title": "ราคาน้ำมันวันนี้ 20 พ.ย. 69 ดีเซล 39.99 บาท แก๊สโซฮอล์ 95 อยู่ที่ 38.14 บาท"
   },
   {
    "id": "baht",
    "name": "ทิศทางเงินบาท",
    "count": 9,
-   "new_24h": 4,
+   "new_24h": 3,
    "latest": "2026-11-19T12:24:13Z",
    "latest_title": "เงินบาทแตะระดับ 34.02 บาท/ดอลลาร์ อ่อนสุดในรอบ 19 เดือน"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 13,
-   "new_24h": 4,
-   "latest": "2026-11-19T10:20:06Z",
-   "latest_title": "ม.หอการค้าฯ แนะเปิดดีล ART เท่าที่เผยได้ ชั่งผลได้-เสียรอบด้าน เตรียมแผนเยียวยาเกษตร-ธุรกิจ"
-  },
-  {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
-   "count": 12,
-   "new_24h": 4,
-   "latest": "2026-11-19T10:10:32Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย:ปิดบวก 0.63 จุด พลิกฟื้นช่วงบ่าย รับแรงซื้อกลุ่มโรงไฟฟ้า-นิคมฯ-ชิ้นส่วนฯ หนุน"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 18,
-   "new_24h": 3,
-   "latest": "2026-11-19T15:37:18Z",
-   "latest_title": "Anthropic จุดพลุ Nasdaq พุ่ง สวนทางดาวโจนส์ร่วง กังวลเฟดขึ้นดอกเบี้ย"
-  },
-  {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 17,
-   "new_24h": 2,
-   "latest": "2026-11-19T16:00:13Z",
-   "latest_title": "ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ"
   },
   {
    "id": "gold",
@@ -316,6 +308,14 @@
    "new_24h": 2,
    "latest": "2026-11-19T10:39:11Z",
    "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.87/89 กลับมาแข็งค่าจากช่วงเช้าตามราคาทองฟื้น"
+  },
+  {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 13,
+   "new_24h": 2,
+   "latest": "2026-11-19T10:20:06Z",
+   "latest_title": "ม.หอการค้าฯ แนะเปิดดีล ART เท่าที่เผยได้ ชั่งผลได้-เสียรอบด้าน เตรียมแผนเยียวยาเกษตร-ธุรกิจ"
   },
   {
    "id": "bot",
@@ -328,10 +328,10 @@
   {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 10,
-   "new_24h": 0,
-   "latest": "2026-11-18T00:46:34Z",
-   "latest_title": "พาณิชย์ ยันไทยไม่เปิดเสรีลดภาษีนำเข้าสินค้าสหรัฐฯ ชี้เริ่มปรับเมื่อข้อตกลงมีผล"
+   "count": 11,
+   "new_24h": 1,
+   "latest": "2026-11-19T22:12:00Z",
+   "latest_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway"
   },
   {
    "id": "thai-us-china",
@@ -344,15 +344,280 @@
  ],
  "items": [
   {
+   "id": "7d2174fda61c",
+   "title": "จีนกำหนดอัตราค่ากลางเงินหยวนอ่อนค่าลงวันนี้ที่ 6.7131 หยวนต่อดอลลาร์",
+   "link": "https://www.infoquest.co.th/2026/682928",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T02:15:31Z",
+   "summary": "China Foreign Exchange Trading System (CFETS) รายงานว่า อัตราค่ากลางสกุลเงินหยวนในวันนี้อ่อนค่าลง 0.0003 หยวน แตะที่ระดับ 6.7131 หยวนต่อดอลลาร์สหรัฐ สำนักข่าวซินหัวรายงานว่า ในตลาดปริวรรตเงินตราต่างปร The post จีนกำหนดอัตราค่ากลางเงินหยวนอ…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "fx"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3e1147ee60c8",
+   "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+   "link": "https://www.infoquest.co.th/2026/682920",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T02:05:26Z",
+   "summary": "นักวิเคราะห์ฯ คาดหุ้นไทยเช้านี้พักตัวตามบรรยากาศการลงทุนโลกเข้าโหมด risk off จากความกังวลความคุ้มค่าการลงทุน AI รวมทั้งทิศทางอัตราดอกเบี้ยสหรัฐมีโอกาสปรับขึ้นมากกว่า 0.25% ทำให้เม็ดเงินไหลเข้าสินทรัพย The post ภาวะตลาดหุ้นไทย: แนวโน้มดัชนี…",
+   "image": null,
+   "score": 17,
+   "categories": [
+    "stock_market",
+    "monetary",
+    "tech_ai"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed",
+    "thai-market"
+   ]
+  },
+  {
+   "id": "f3328179361f",
+   "title": "ตลาดหุ้นเอเชียเปิดร่วง วิตกอนาคต AI ไม่แน่นอน หุ้น Anthropic ร่วงนอกเวลาทำการ",
+   "link": "https://www.infoquest.co.th/2026/682868",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T01:56:09Z",
+   "summary": "ตลาดหุ้นเอเชียเปิดตลาดลบในวันนี้ (20 พ.ย.) ตามทิศทางหุ้นกลุ่มเทคโนโลยีที่ร่วงลง ท่ามกลางความกังวลเกี่ยวกับแนวโน้มการลงทุนในธุรกิจปัญญาประดิษฐ์ (AI) ขณะที่หุ้น Anthropic ซึ่งเข้าจดทะเบียนในตลาด Nasdaq The post ตลาดหุ้นเอเชียเปิดร่วง วิตกอนา…",
+   "image": null,
+   "score": 11,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "857900301020",
+   "title": "ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดร่วง 0.62% เหตุดอลล์แข็ง-หวั่นเฟดขึ้นดบ.",
+   "link": "https://www.infoquest.co.th/2026/682894",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T01:54:29Z",
+   "summary": "สัญญาทองแดงตลาดนิวยอร์กปิดลบในวันพฤหัสบดี (19 พ.ย.) เนื่องจากดอลลาร์แข็งค่าขึ้นจากการคาดการณ์ว่า ธนาคารกลางสหรัฐฯ (เฟด) จะปรับขึ้นอัตราดอกเบี้ยในการประชุมเดือนหน้า ทั้งนี้ สัญญาทองแดงตลาด COMEX The post ภาวะตลาดทองแดงนิวยอร์ก: ทองแดงปิดร่ว…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "09785152a4bb",
+   "title": "นายกฯ พบผู้บริหาร BYD-Tencent ต่อยอดความร่วมมือ EV-ดิจิทัล-AI มุ่งสร้างงาน ยกระดับอุตสาหกรรมไทย",
+   "link": "https://www.infoquest.co.th/2026/682881",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T01:42:17Z",
+   "summary": "นายกฯ เยือนเซินเจิ้น พบผู้บริหาร BYD และ Tencent ต่อยอดลงทุน-นวัตกรรม ผลักดันการพัฒนาอุตสาหกรรมยานยนต์ไฟฟ้า เศรษฐกิจดิจิทัล และปัญญาประดิษฐ์ (AI) พร้อมส่งเสริมการถ่ายทอดองค์ความรู้ The post นายกฯ พบผู้บริหาร BYD-Tencent ต่อยอดความร่วมมือ E…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "979ea2c67d7c",
+   "title": "ภาวะตลาดหุ้นจีน: เซี่ยงไฮ้คอมโพสิตเปิดลบ 50.32 จุด ตามทิศทางหุ้นเอเชีย",
+   "link": "https://www.infoquest.co.th/2026/682877",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T01:37:20Z",
+   "summary": "ดัชนีเซี่ยงไฮ้คอมโพสิตตลาดหุ้นจีนเปิดลบในวันนี้ (20 พ.ย.) ตามทิศทางตลาดหุ้นเอเชียที่เปิดลบยกแผง โดยถูกกดดันจากการที่ดัชนีดาวโจนส์ตลาดหุ้นนิวยอร์กปิดร่วงลงกว่า 2% เมื่อวานนี้ ขณะที่ดัชนี S&P500 The post ภาวะตลาดหุ้นจีน: เซี่ยงไฮ้คอมโพสิตเปิ…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3b92d79635aa",
+   "title": "ราคาน้ำมันวันนี้ 20 พ.ย. 69 ดีเซล 39.99 บาท แก๊สโซฮอล์ 95 อยู่ที่ 38.14 บาท",
+   "link": "https://www.prachachat.net/finance/news-2099434",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T01:32:13Z",
+   "summary": "อัพเดตราคาน้ำมันวันนี้ 20 พฤศจิกายน 2569 บางจากประกาศราคาขายปลีกน้ำมันเบนซิน แก๊สโซฮอล์ และดีเซล ไม่มีการเปลี่ยนแปลงจากวันก่อนหน้า โดยน้ำมันดีเซลราคา 39.99 บาทต่อลิตร ขณะที่แก๊สโซฮอล์ 95 อยู่ที่ 38.14 บาทต่อลิตร วันที่ 20 พฤศจิกายน 2569 ผู…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/10/Oil-1.png",
+   "score": 4,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "0f941c283388",
+   "title": "ปฏิทินหุ้น ประจำวันที่ 20 พ.ย. 2569",
+   "link": "https://www.infoquest.co.th/2026/682890",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T01:20:33Z",
+   "summary": "ปฏิทินหลักทรัพย์รวบรวมจากข่าวที่บริษัทจดทะเบียนแจ้งตลาดหลักทรัพย์ฯ จนถึงวันที่ 19 พฤศจิกายน 2569 วันที่ ชื่อหุ้น เครื่องหมาย/กิจกรรม รายละเอียด พฤศจิกายน 2569 20 พ.ย. AIMIRT XD หุ้นละ 0.2050 บาท (รอบ The post ปฏิทินหุ้น ประจำวันที่ 20 พ.ย.…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "648b1fe6eb32",
+   "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
+   "link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T23:11:00Z",
+   "summary": "All 11 sectors of the S&P 500 declined — 10 of them by more than 1% — but cybersecurity stocks bucked the weakness.",
+   "image": "https://images.mktw.net/im-70376549",
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3e40d072b184",
+   "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
+   "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T22:53:00Z",
+   "summary": "TurboTax maker Intuit gives investors a fresh reason to worry about legacy software companies.",
+   "image": "https://images.mktw.net/im-05993865",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "669b5a14cdf6",
+   "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+   "link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T22:12:00Z",
+   "summary": "All four major U.S. stock indexes are now on pace for their worst week since President Trump’s “liberation day” tariffs of April 2025",
+   "image": "https://images.mktw.net/im-38322651",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "8a54b85e84cb",
+   "title": "Markets are sending troubling signals about the state of the economy",
+   "link": "https://www.marketwatch.com/story/markets-are-sending-troubling-signals-about-the-state-of-the-economy-8043f20e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T21:57:00Z",
+   "summary": "A number of recession trades have started to emerge, even as economic data has largely held up.",
+   "image": "https://images.mktw.net/im-84547419",
+   "score": 5,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c74256fff44a",
+   "title": "Nvidia’s stock falls further. It has lost $669 billion in six trading days.",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-19T21:45:00Z",
+   "summary": "There are only 20 companies in the world with a market capitalization of $669 billion or higher",
+   "image": "https://images.mktw.net/im-79410579",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
    "id": "a566f1d619ba",
-   "title": "Why Micron, Broadcom and other AI stocks have given up their gains",
+   "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
    "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
    "source": "MarketWatch",
    "feed": "marketwatch",
    "region": "GLOBAL",
    "lang": "en",
    "central_bank": false,
-   "published": "2026-11-19T19:43:00Z",
+   "published": "2026-11-19T21:27:00Z",
    "summary": "The Anthropic enthusiasm has faded while China concerns have intensified.",
    "image": "https://images.mktw.net/im-63116555",
    "score": 6,

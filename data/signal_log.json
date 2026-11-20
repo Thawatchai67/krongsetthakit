@@ -3720,6 +3720,17 @@
   "r1": -0.88,
   "x1": 0.98
  },
+ "rate_hike|BAC|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
+ },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4028,6 +4039,17 @@
   "base_date": "2026-11-18",
   "r1": 0.28,
   "x1": 0.18
+ },
+ "rate_hike|BBL|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
  },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
@@ -4338,6 +4360,17 @@
   "r1": -1.9,
   "x1": -2.0
  },
+ "rate_hike|CPN|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
+ },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4646,6 +4679,17 @@
   "base_date": "2026-11-18",
   "r1": 0.84,
   "x1": 0.74
+ },
+ "rate_hike|DELTA|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
  },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
@@ -4956,6 +5000,17 @@
   "r1": -1.11,
   "x1": 0.75
  },
+ "rate_hike|JPM|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
+ },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5264,6 +5319,17 @@
   "base_date": "2026-11-18",
   "r1": -0.4,
   "x1": -0.5
+ },
+ "rate_hike|KBANK|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
  },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
@@ -5574,6 +5640,17 @@
   "r1": 0.0,
   "x1": -0.1
  },
+ "rate_hike|LH|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
+ },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5882,6 +5959,17 @@
   "base_date": "2026-11-18",
   "r1": -1.42,
   "x1": 0.44
+ },
+ "rate_hike|MSFT|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
  },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
@@ -6192,6 +6280,17 @@
   "r1": -2.43,
   "x1": -0.57
  },
+ "rate_hike|NVDA|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
+ },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6501,6 +6600,17 @@
   "r1": -0.65,
   "x1": -0.75
  },
+ "rate_hike|SCB|2026-11-20": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-20",
+  "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
+  "news_link": "https://www.infoquest.co.th/2026/682920",
+  "base_date": "2026-11-19"
+ },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6743,6 +6853,17 @@
   "r1": 0.06,
   "x1": 0.35
  },
+ "tariff|AAPL|2026-11-20": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "AAPL",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-20",
+  "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+  "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+  "base_date": "2026-11-19"
+ },
  "tariff|CPF|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -6983,6 +7104,17 @@
   "base_date": "2026-11-17",
   "r1": -1.5,
   "x1": -1.21
+ },
+ "tariff|CPF|2026-11-20": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-20",
+  "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+  "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+  "base_date": "2026-11-19"
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -7225,6 +7357,17 @@
   "r1": 0.85,
   "x1": 1.14
  },
+ "tariff|DELTA|2026-11-20": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-20",
+  "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+  "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+  "base_date": "2026-11-19"
+ },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -7466,6 +7609,17 @@
   "r1": 6.21,
   "x1": 6.51
  },
+ "tariff|HANA|2026-11-20": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-20",
+  "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+  "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+  "base_date": "2026-11-19"
+ },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -7706,6 +7860,17 @@
   "base_date": "2026-11-17",
   "r1": 3.29,
   "x1": 3.58
+ },
+ "tariff|KCE|2026-11-20": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-20",
+  "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+  "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+  "base_date": "2026-11-19"
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -7949,6 +8114,17 @@
   "r1": 0.15,
   "x1": 0.45
  },
+ "tariff|TSM|2026-11-20": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TSM",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-20",
+  "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+  "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+  "base_date": "2026-11-19"
+ },
  "tariff|TU|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -8189,6 +8365,17 @@
   "base_date": "2026-11-17",
   "r1": -1.53,
   "x1": -1.23
+ },
+ "tariff|TU|2026-11-20": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-20",
+  "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+  "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+  "base_date": "2026-11-19"
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",

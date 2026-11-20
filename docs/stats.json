@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T01:35:01Z",
+ "generated_at": "2026-11-20T02:16:37Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -10,8 +10,8 @@
  },
  "backfill": 363,
  "overall": {
-  "total": 523,
-  "news": 61,
+  "total": 540,
+  "news": 63,
   "d1": {
    "evaluated": 418,
    "hit_rate": 53.8,
@@ -182,8 +182,8 @@
  },
  "signals": [
   {
-   "total": 180,
-   "news": 18,
+   "total": 190,
+   "news": 19,
    "d1": {
     "evaluated": 180,
     "hit_rate": 50.0,
@@ -201,6 +201,27 @@
    },
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย"
+  },
+  {
+   "total": 112,
+   "news": 16,
+   "d1": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "d5": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "d20": {
+    "evaluated": 0,
+    "hit_rate": null,
+    "avg_edge": null
+   },
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า"
   },
   {
    "total": 110,
@@ -222,27 +243,6 @@
    },
    "id": "oil_up",
    "name": "น้ำมันขึ้น"
-  },
-  {
-   "total": 105,
-   "news": 15,
-   "d1": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
-   },
-   "d5": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
-   },
-   "d20": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
-   },
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า"
   },
   {
    "total": 70,
