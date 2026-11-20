@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-19T20:29:37Z",
+ "generated_at": "2026-11-20T01:35:00Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
   "PTT": {
    "price": 37.4,
-   "change_pct": 0.54,
+   "change_pct": -0.0,
    "currency": "THB",
    "asof": "2026-11-19T09:37:46Z",
    "market": "SET",
@@ -36,56 +36,56 @@
    "symbol": "BCP.BK"
   },
   "XOM": {
-   "price": 158.92,
+   "price": 158.93,
    "change_pct": -1.03,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:12Z",
+   "asof": "2026-11-19T21:02:43Z",
    "market": "US",
    "symbol": "XOM"
   },
   "CVX": {
-   "price": 206.31,
-   "change_pct": 0.21,
+   "price": 206.5,
+   "change_pct": 0.3,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:17Z",
+   "asof": "2026-11-19T21:02:22Z",
    "market": "US",
    "symbol": "CVX"
   },
   "COP": {
-   "price": 134.86,
-   "change_pct": 0.34,
+   "price": 134.99,
+   "change_pct": 0.44,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:05Z",
+   "asof": "2026-11-19T21:00:02Z",
    "market": "US",
    "symbol": "COP"
   },
   "AAV": {
    "price": 0.72,
-   "change_pct": -1.37,
+   "change_pct": -0.0,
    "currency": "THB",
    "asof": "2026-11-19T09:37:46Z",
    "market": "SET",
    "symbol": "AAV.BK"
   },
   "DAL": {
-   "price": 83.8,
-   "change_pct": -1.27,
+   "price": 83.17,
+   "change_pct": -2.01,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:18Z",
+   "asof": "2026-11-19T21:00:02Z",
    "market": "US",
    "symbol": "DAL"
   },
   "UAL": {
-   "price": 106.26,
-   "change_pct": -1.27,
+   "price": 105.53,
+   "change_pct": -1.95,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:19Z",
+   "asof": "2026-11-19T21:00:00Z",
    "market": "US",
    "symbol": "UAL"
   },
   "LH": {
    "price": 3.56,
-   "change_pct": -1.11,
+   "change_pct": 0.0,
    "currency": "THB",
    "asof": "2026-11-19T09:37:46Z",
    "market": "SET",
@@ -108,18 +108,18 @@
    "symbol": "DELTA.BK"
   },
   "NVDA": {
-   "price": 147.29,
-   "change_pct": -2.43,
+   "price": 145.98,
+   "change_pct": -3.3,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:23Z",
+   "asof": "2026-11-19T21:00:01Z",
    "market": "US",
    "symbol": "NVDA"
   },
   "MSFT": {
-   "price": 501.06,
-   "change_pct": -1.42,
+   "price": 498.3,
+   "change_pct": -1.97,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:23Z",
+   "asof": "2026-11-19T21:00:01Z",
    "market": "US",
    "symbol": "MSFT"
   },
@@ -148,18 +148,18 @@
    "symbol": "BBL.BK"
   },
   "JPM": {
-   "price": 320.5,
-   "change_pct": -1.11,
+   "price": 320.22,
+   "change_pct": -1.2,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:26Z",
+   "asof": "2026-11-19T21:00:02Z",
    "market": "US",
    "symbol": "JPM"
   },
   "BAC": {
-   "price": 48.48,
-   "change_pct": -0.88,
+   "price": 48.57,
+   "change_pct": -0.7,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:26Z",
+   "asof": "2026-11-19T21:00:03Z",
    "market": "US",
    "symbol": "BAC"
   },
@@ -172,18 +172,18 @@
    "symbol": "AURA.BK"
   },
   "NEM": {
-   "price": 100.81,
-   "change_pct": -3.55,
+   "price": 100.05,
+   "change_pct": -4.29,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:19Z",
+   "asof": "2026-11-19T21:00:02Z",
    "market": "US",
    "symbol": "NEM"
   },
   "GLD": {
-   "price": 336.08,
-   "change_pct": -1.5,
+   "price": 335.18,
+   "change_pct": -1.76,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:26Z",
+   "asof": "2026-11-19T21:00:00Z",
    "market": "US",
    "symbol": "GLD"
   },
@@ -220,26 +220,26 @@
    "symbol": "KCE.BK"
   },
   "AAPL": {
-   "price": 349.24,
-   "change_pct": -0.91,
+   "price": 349.21,
+   "change_pct": -0.92,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:29Z",
+   "asof": "2026-11-19T21:00:01Z",
    "market": "US",
    "symbol": "AAPL"
   },
   "TSM": {
-   "price": 354.19,
-   "change_pct": -2.33,
+   "price": 352.09,
+   "change_pct": -2.9,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:31Z",
+   "asof": "2026-11-19T21:00:02Z",
    "market": "US",
    "symbol": "TSM"
   },
   "AMD": {
-   "price": 482.93,
-   "change_pct": -8.91,
+   "price": 489.19,
+   "change_pct": -7.72,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:30Z",
+   "asof": "2026-11-19T21:00:01Z",
    "market": "US",
    "symbol": "AMD"
   },
@@ -252,10 +252,10 @@
    "symbol": "TDEX.BK"
   },
   "^GSPC": {
-   "price": 7187.34,
-   "change_pct": -1.86,
+   "price": 7175.83,
+   "change_pct": -2.02,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:31Z",
+   "asof": "2026-11-19T21:59:18Z",
    "market": "US",
    "symbol": "^GSPC"
   }
@@ -270,42 +270,42 @@
    "name": "SET"
   },
   {
-   "price": 7187.53,
-   "change_pct": -1.86,
+   "price": 7175.83,
+   "change_pct": -2.02,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:32Z",
+   "asof": "2026-11-19T21:59:18Z",
    "key": "SPX",
    "name": "S&P 500"
   },
   {
-   "price": 23923.36,
-   "change_pct": -2.07,
+   "price": 23879.2,
+   "change_pct": -2.25,
    "currency": "USD",
-   "asof": "2026-11-19T20:29:31Z",
+   "asof": "2026-11-19T22:15:59Z",
    "key": "NDX",
    "name": "Nasdaq"
   },
   {
    "price": 33.93,
-   "change_pct": 0.41,
+   "change_pct": -0.04,
    "currency": "THB",
-   "asof": "2026-11-19T20:29:27Z",
+   "asof": "2026-11-20T01:34:55Z",
    "key": "USDTHB",
    "name": "ดอลลาร์/บาท"
   },
   {
-   "price": 3673.1,
-   "change_pct": -1.84,
+   "price": 3577.7,
+   "change_pct": -4.39,
    "currency": "USD",
-   "asof": "2026-11-19T20:19:32Z",
+   "asof": "2026-11-20T01:24:58Z",
    "key": "GOLD",
    "name": "ทองคำ"
   },
   {
-   "price": 82.94,
-   "change_pct": -0.38,
+   "price": 82.83,
+   "change_pct": -0.52,
    "currency": "USD",
-   "asof": "2026-11-19T20:19:20Z",
+   "asof": "2026-11-20T01:24:43Z",
    "key": "OIL",
    "name": "น้ำมัน WTI"
   },
@@ -318,10 +318,10 @@
    "name": "บอนด์สหรัฐ 10 ปี"
   },
   {
-   "price": 28.25,
-   "change_pct": 15.02,
+   "price": 28.44,
+   "change_pct": 15.8,
    "currency": "USD",
-   "asof": "2026-11-19T20:14:31Z",
+   "asof": "2026-11-19T21:15:01Z",
    "key": "VIX",
    "name": "VIX ดัชนีความกลัว"
   }
