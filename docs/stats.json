@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-20T02:16:37Z",
+ "generated_at": "2026-11-20T11:26:28Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
-   "evaluated": 300,
-   "hit_rate": 53.3,
-   "avg_edge": 0.49
+   "evaluated": 326,
+   "hit_rate": 53.1,
+   "avg_edge": 0.47
   }
  },
  "backfill": 363,
@@ -13,14 +13,14 @@
   "total": 540,
   "news": 63,
   "d1": {
-   "evaluated": 418,
-   "hit_rate": 53.8,
+   "evaluated": 424,
+   "hit_rate": 54.0,
    "avg_edge": 0.21
   },
   "d5": {
-   "evaluated": 300,
-   "hit_rate": 53.3,
-   "avg_edge": 0.49
+   "evaluated": 326,
+   "hit_rate": 53.1,
+   "avg_edge": 0.47
   },
   "d20": {
    "evaluated": 300,
@@ -35,9 +35,9 @@
    "avg_edge": null
   },
   "AAV": {
-   "evaluated": 11,
-   "hit_rate": 63.6,
-   "avg_edge": 2.5
+   "evaluated": 14,
+   "hit_rate": 50.0,
+   "avg_edge": 0.92
   },
   "AMD": {
    "evaluated": 4,
@@ -55,14 +55,14 @@
    "avg_edge": -2.92
   },
   "BBL": {
-   "evaluated": 16,
-   "hit_rate": 56.2,
-   "avg_edge": 0.18
+   "evaluated": 18,
+   "hit_rate": 55.6,
+   "avg_edge": 0.16
   },
   "BCP": {
-   "evaluated": 11,
-   "hit_rate": 18.2,
-   "avg_edge": -2.7
+   "evaluated": 13,
+   "hit_rate": 30.8,
+   "avg_edge": -1.58
   },
   "COP": {
    "evaluated": 11,
@@ -70,14 +70,14 @@
    "avg_edge": 1.47
   },
   "CPF": {
-   "evaluated": 0,
-   "hit_rate": null,
-   "avg_edge": null
+   "evaluated": 1,
+   "hit_rate": 100.0,
+   "avg_edge": 3.14
   },
   "CPN": {
-   "evaluated": 16,
-   "hit_rate": 68.8,
-   "avg_edge": 0.76
+   "evaluated": 18,
+   "hit_rate": 66.7,
+   "avg_edge": 0.68
   },
   "CVX": {
    "evaluated": 11,
@@ -90,9 +90,9 @@
    "avg_edge": -0.19
   },
   "DELTA": {
-   "evaluated": 20,
-   "hit_rate": 55.0,
-   "avg_edge": 1.32
+   "evaluated": 23,
+   "hit_rate": 56.5,
+   "avg_edge": 1.39
   },
   "GLD": {
    "evaluated": 2,
@@ -110,9 +110,9 @@
    "avg_edge": -1.0
   },
   "KBANK": {
-   "evaluated": 16,
-   "hit_rate": 56.2,
-   "avg_edge": 0.6
+   "evaluated": 18,
+   "hit_rate": 55.6,
+   "avg_edge": 0.53
   },
   "KCE": {
    "evaluated": 4,
@@ -120,9 +120,9 @@
    "avg_edge": 14.56
   },
   "LH": {
-   "evaluated": 16,
-   "hit_rate": 62.5,
-   "avg_edge": 0.1
+   "evaluated": 18,
+   "hit_rate": 61.1,
+   "avg_edge": 0.09
   },
   "MSFT": {
    "evaluated": 16,
@@ -140,24 +140,24 @@
    "avg_edge": -0.38
   },
   "PTT": {
-   "evaluated": 11,
-   "hit_rate": 81.8,
-   "avg_edge": 0.62
+   "evaluated": 13,
+   "hit_rate": 69.2,
+   "avg_edge": 0.28
   },
   "PTTEP": {
-   "evaluated": 11,
-   "hit_rate": 81.8,
-   "avg_edge": 1.19
+   "evaluated": 13,
+   "hit_rate": 69.2,
+   "avg_edge": 0.58
   },
   "SCB": {
-   "evaluated": 16,
-   "hit_rate": 43.8,
-   "avg_edge": 0.51
+   "evaluated": 18,
+   "hit_rate": 44.4,
+   "avg_edge": 0.46
   },
   "TOP": {
-   "evaluated": 11,
-   "hit_rate": 45.5,
-   "avg_edge": 0.31
+   "evaluated": 13,
+   "hit_rate": 53.8,
+   "avg_edge": 0.98
   },
   "TSM": {
    "evaluated": 4,
@@ -165,9 +165,9 @@
    "avg_edge": 0.66
   },
   "TU": {
-   "evaluated": 0,
-   "hit_rate": null,
-   "avg_edge": null
+   "evaluated": 1,
+   "hit_rate": 100.0,
+   "avg_edge": 0.97
   },
   "UAL": {
    "evaluated": 11,
@@ -185,14 +185,14 @@
    "total": 190,
    "news": 19,
    "d1": {
-    "evaluated": 180,
-    "hit_rate": 50.0,
-    "avg_edge": -0.07
+    "evaluated": 186,
+    "hit_rate": 50.5,
+    "avg_edge": -0.04
    },
    "d5": {
-    "evaluated": 150,
-    "hit_rate": 44.7,
-    "avg_edge": -0.19
+    "evaluated": 156,
+    "hit_rate": 45.5,
+    "avg_edge": -0.14
    },
    "d20": {
     "evaluated": 150,
@@ -253,9 +253,9 @@
     "avg_edge": 0.22
    },
    "d5": {
-    "evaluated": 20,
-    "hit_rate": 45.0,
-    "avg_edge": 0.29
+    "evaluated": 30,
+    "hit_rate": 43.3,
+    "avg_edge": 0.2
    },
    "d20": {
     "evaluated": 20,
@@ -295,9 +295,9 @@
     "avg_edge": 0.11
    },
    "d5": {
-    "evaluated": 10,
-    "hit_rate": 70.0,
-    "avg_edge": 0.85
+    "evaluated": 16,
+    "hit_rate": 56.2,
+    "avg_edge": 0.08
    },
    "d20": {
     "evaluated": 10,
@@ -337,9 +337,9 @@
     "avg_edge": 1.69
    },
    "d5": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
+    "evaluated": 4,
+    "hit_rate": 75.0,
+    "avg_edge": 1.2
    },
    "d20": {
     "evaluated": 0,

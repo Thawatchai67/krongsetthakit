@@ -10,7 +10,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679571",
   "base_date": "2026-11-13",
   "r1": 0.0,
-  "x1": 0.0
+  "x1": 0.0,
+  "r5": -8.0,
+  "x5": -4.86
  },
  "baht_strong|CPF|2026-11-14": {
   "signal": "baht_strong",
@@ -23,7 +25,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679571",
   "base_date": "2026-11-13",
   "r1": -2.9,
-  "x1": -2.9
+  "x1": -2.9,
+  "r5": -6.28,
+  "x5": -3.14
  },
  "baht_strong|DELTA|2026-11-14": {
   "signal": "baht_strong",
@@ -36,7 +40,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679571",
   "base_date": "2026-11-13",
   "r1": -2.37,
-  "x1": -2.37
+  "x1": -2.37,
+  "r5": -8.68,
+  "x5": -5.55
  },
  "baht_strong|TU|2026-11-14": {
   "signal": "baht_strong",
@@ -49,7 +55,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679571",
   "base_date": "2026-11-13",
   "r1": -1.49,
-  "x1": -1.49
+  "x1": -1.49,
+  "r5": -4.1,
+  "x5": -0.97
  },
  "baht_weak|AAV|2026-11-19": {
   "signal": "baht_weak",
@@ -258,7 +266,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": 0.0,
-  "x1": 0.0
+  "x1": 0.0,
+  "r5": -8.0,
+  "x5": -4.86
  },
  "oil_down|AAV|2026-11-16": {
   "signal": "oil_down",
@@ -271,7 +281,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": 0.0,
   "x1": 0.0,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -8.0,
+  "x5": -4.86
  },
  "oil_down|AAV|2026-11-17": {
   "signal": "oil_down",
@@ -359,7 +371,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": -0.11,
-  "x1": -0.11
+  "x1": -0.11,
+  "r5": -7.76,
+  "x5": -4.62
  },
  "oil_down|BCP|2026-11-16": {
   "signal": "oil_down",
@@ -372,7 +386,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": -0.11,
   "x1": -0.11,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -7.76,
+  "x5": -4.62
  },
  "oil_down|BCP|2026-11-17": {
   "signal": "oil_down",
@@ -763,7 +779,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": 0.35,
-  "x1": 0.35
+  "x1": 0.35,
+  "r5": -0.35,
+  "x5": 2.79
  },
  "oil_down|PTTEP|2026-11-16": {
   "signal": "oil_down",
@@ -776,7 +794,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": 0.35,
   "x1": 0.35,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -0.35,
+  "x5": 2.79
  },
  "oil_down|PTTEP|2026-11-17": {
   "signal": "oil_down",
@@ -864,7 +884,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": 1.84,
-  "x1": 1.84
+  "x1": 1.84,
+  "r5": -1.58,
+  "x5": 1.56
  },
  "oil_down|PTT|2026-11-16": {
   "signal": "oil_down",
@@ -877,7 +899,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": 1.84,
   "x1": 1.84,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -1.58,
+  "x5": 1.56
  },
  "oil_down|PTT|2026-11-17": {
   "signal": "oil_down",
@@ -965,7 +989,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096088",
   "base_date": "2026-11-13",
   "r1": 0.0,
-  "x1": 0.0
+  "x1": 0.0,
+  "r5": -7.82,
+  "x5": -4.68
  },
  "oil_down|TOP|2026-11-16": {
   "signal": "oil_down",
@@ -978,7 +1004,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680577",
   "r1": 0.0,
   "x1": 0.0,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -7.82,
+  "x5": -4.68
  },
  "oil_down|TOP|2026-11-17": {
   "signal": "oil_down",
@@ -3161,7 +3189,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": -0.27,
-  "x1": -0.27
+  "x1": -0.27,
+  "r5": -2.43,
+  "x5": 0.71
  },
  "rate_cut|CPN|2026-09-06": {
   "signal": "rate_cut",
@@ -3192,7 +3222,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": 0.0,
-  "x1": 0.0
+  "x1": 0.0,
+  "r5": -3.02,
+  "x5": 0.12
  },
  "rate_cut|DELTA|2026-09-06": {
   "signal": "rate_cut",
@@ -3223,7 +3255,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": -2.37,
-  "x1": -2.37
+  "x1": -2.37,
+  "r5": -8.68,
+  "x5": -5.55
  },
  "rate_cut|JPM|2026-09-06": {
   "signal": "rate_cut",
@@ -3285,7 +3319,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": 1.18,
-  "x1": 1.18
+  "x1": 1.18,
+  "r5": -1.97,
+  "x5": 1.17
  },
  "rate_cut|LH|2026-09-06": {
   "signal": "rate_cut",
@@ -3316,7 +3352,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": 0.56,
-  "x1": 0.56
+  "x1": 0.56,
+  "r5": -1.12,
+  "x5": 2.01
  },
  "rate_cut|MSFT|2026-09-06": {
   "signal": "rate_cut",
@@ -3409,7 +3447,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2096726",
   "base_date": "2026-11-13",
   "r1": 0.65,
-  "x1": 0.65
+  "x1": 0.65,
+  "r5": -1.29,
+  "x5": 1.84
  },
  "rate_hike|BAC|2026-08-30": {
   "signal": "rate_hike",
@@ -4012,7 +4052,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "r1": -0.27,
   "x1": 0.02,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -2.43,
+  "x5": 0.71
  },
  "rate_hike|BBL|2026-11-18": {
   "signal": "rate_hike",
@@ -4049,7 +4091,9 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -0.55,
+  "x1": 0.95
  },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
@@ -4332,7 +4376,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "r1": 0.0,
   "x1": 0.29,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -3.02,
+  "x5": 0.12
  },
  "rate_hike|CPN|2026-11-18": {
   "signal": "rate_hike",
@@ -4369,7 +4415,9 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -0.39,
+  "x1": 1.11
  },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
@@ -4652,7 +4700,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "r1": -3.16,
   "x1": -2.86,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -8.68,
+  "x5": -5.55
  },
  "rate_hike|DELTA|2026-11-18": {
   "signal": "rate_hike",
@@ -4689,7 +4739,9 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -3.88,
+  "x1": -2.38
  },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
@@ -5292,7 +5344,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "r1": 0.79,
   "x1": 1.08,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -1.97,
+  "x5": 1.17
  },
  "rate_hike|KBANK|2026-11-18": {
   "signal": "rate_hike",
@@ -5329,7 +5383,9 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -0.4,
+  "x1": 1.1
  },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
@@ -5612,7 +5668,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "r1": 0.0,
   "x1": 0.29,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -1.12,
+  "x5": 2.01
  },
  "rate_hike|LH|2026-11-18": {
   "signal": "rate_hike",
@@ -5649,7 +5707,9 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -1.12,
+  "x1": 0.37
  },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
@@ -6572,7 +6632,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2097065",
   "r1": 0.65,
   "x1": 0.94,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -1.29,
+  "x5": 1.84
  },
  "rate_hike|SCB|2026-11-18": {
   "signal": "rate_hike",
@@ -6609,7 +6671,9 @@
   "date": "2026-11-20",
   "news_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก",
   "news_link": "https://www.infoquest.co.th/2026/682920",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": 0.0,
+  "x1": 1.5
  },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",
@@ -7051,7 +7115,9 @@
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
   "r1": -2.9,
-  "x1": -2.9
+  "x1": -2.9,
+  "r5": -6.28,
+  "x5": -3.14
  },
  "tariff|CPF|2026-11-15": {
   "signal": "tariff",
@@ -7064,7 +7130,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
   "r1": -2.9,
-  "x1": -2.9
+  "x1": -2.9,
+  "r5": -6.28,
+  "x5": -3.14
  },
  "tariff|CPF|2026-11-16": {
   "signal": "tariff",
@@ -7077,7 +7145,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096998",
   "r1": -2.9,
   "x1": -2.9,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -6.28,
+  "x5": -3.14
  },
  "tariff|CPF|2026-11-17": {
   "signal": "tariff",
@@ -7114,7 +7184,9 @@
   "date": "2026-11-20",
   "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -0.77,
+  "x1": 0.73
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -7303,7 +7375,9 @@
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
   "r1": -2.37,
-  "x1": -2.37
+  "x1": -2.37,
+  "r5": -8.68,
+  "x5": -5.55
  },
  "tariff|DELTA|2026-11-15": {
   "signal": "tariff",
@@ -7316,7 +7390,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
   "r1": -2.37,
-  "x1": -2.37
+  "x1": -2.37,
+  "r5": -8.68,
+  "x5": -5.55
  },
  "tariff|DELTA|2026-11-16": {
   "signal": "tariff",
@@ -7329,7 +7405,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096998",
   "r1": -2.37,
   "x1": -2.37,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -8.68,
+  "x5": -5.55
  },
  "tariff|DELTA|2026-11-17": {
   "signal": "tariff",
@@ -7366,7 +7444,9 @@
   "date": "2026-11-20",
   "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -3.88,
+  "x1": -2.38
  },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
@@ -7555,7 +7635,9 @@
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
   "r1": -4.6,
-  "x1": -4.6
+  "x1": -4.6,
+  "r5": -6.74,
+  "x5": -3.6
  },
  "tariff|HANA|2026-11-15": {
   "signal": "tariff",
@@ -7568,7 +7650,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
   "r1": -4.6,
-  "x1": -4.6
+  "x1": -4.6,
+  "r5": -6.74,
+  "x5": -3.6
  },
  "tariff|HANA|2026-11-16": {
   "signal": "tariff",
@@ -7581,7 +7665,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096998",
   "r1": -4.6,
   "x1": -4.6,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -6.74,
+  "x5": -3.6
  },
  "tariff|HANA|2026-11-17": {
   "signal": "tariff",
@@ -7618,7 +7704,9 @@
   "date": "2026-11-20",
   "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -7.43,
+  "x1": -5.94
  },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
@@ -7807,7 +7895,9 @@
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
   "r1": -3.39,
-  "x1": -3.39
+  "x1": -3.39,
+  "r5": -14.41,
+  "x5": -11.27
  },
  "tariff|KCE|2026-11-15": {
   "signal": "tariff",
@@ -7820,7 +7910,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
   "r1": -3.39,
-  "x1": -3.39
+  "x1": -3.39,
+  "r5": -14.41,
+  "x5": -11.27
  },
  "tariff|KCE|2026-11-16": {
   "signal": "tariff",
@@ -7833,7 +7925,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096998",
   "r1": -3.39,
   "x1": -3.39,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -14.41,
+  "x5": -11.27
  },
  "tariff|KCE|2026-11-17": {
   "signal": "tariff",
@@ -7870,7 +7964,9 @@
   "date": "2026-11-20",
   "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -10.62,
+  "x1": -9.12
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -8312,7 +8408,9 @@
   "news_link": "https://www.marketwatch.com/story/washington-can-start-delivering-on-affordability-by-rejecting-trumps-tariffs-8f2c76fd?mod=mw_rss_topstories",
   "base_date": "2026-11-13",
   "r1": -1.49,
-  "x1": -1.49
+  "x1": -1.49,
+  "r5": -4.1,
+  "x5": -0.97
  },
  "tariff|TU|2026-11-15": {
   "signal": "tariff",
@@ -8325,7 +8423,9 @@
   "news_link": "https://www.infoquest.co.th/2026/679623",
   "base_date": "2026-11-13",
   "r1": -1.49,
-  "x1": -1.49
+  "x1": -1.49,
+  "r5": -4.1,
+  "x5": -0.97
  },
  "tariff|TU|2026-11-16": {
   "signal": "tariff",
@@ -8338,7 +8438,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2096998",
   "r1": -1.49,
   "x1": -1.49,
-  "base_date": "2026-11-13"
+  "base_date": "2026-11-13",
+  "r5": -4.1,
+  "x5": -0.97
  },
  "tariff|TU|2026-11-17": {
   "signal": "tariff",
@@ -8375,7 +8477,9 @@
   "date": "2026-11-20",
   "news_title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r1": -1.15,
+  "x1": 0.34
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",
