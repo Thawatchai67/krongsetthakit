@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-21T17:25:35Z",
+  "generated_at": "2026-11-21T23:08:25Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -14,60 +14,12 @@
    "bank_property": "ธนาคาร",
    "stock_market": "ตลาดหุ้น"
   },
-  "feeds_ok": 4,
-  "feed_errors": [
-   {
-    "feed": "infoquest",
-    "error": "HTTP 503"
-   }
-  ],
-  "total_raw": 75,
-  "total_kept": 343
+  "feeds_ok": 5,
+  "feed_errors": [],
+  "total_raw": 85,
+  "total_kept": 345
  },
  "signals": [
-  {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 5,
-   "impacts": [
-    {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
-     "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
-     ],
-     "us": [
-      "AAPL",
-      "TSM"
-     ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
-     "link": "https://www.prachachat.net/columns/news-2099740",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-21T12:13:14Z"
-    },
-    {
-     "title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
-     "link": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-20T10:08:00Z"
-    },
-    {
-     "title": "ชาวไร่มันสำปะหลัง-อ้อยค้านเปิดเสรีเอทานอลสหรัฐ หวั่นกระทบราคา จี้รัฐดัน E20",
-     "link": "https://www.prachachat.net/economic/news-2099905",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-20T09:38:20Z"
-    }
-   ]
-  },
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
@@ -132,6 +84,49 @@
    ]
   },
   {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 4,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+     "link": "https://www.prachachat.net/columns/news-2099740",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-21T12:13:14Z"
+    },
+    {
+     "title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
+     "link": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-20T10:08:00Z"
+    },
+    {
+     "title": "ชาวไร่มันสำปะหลัง-อ้อยค้านเปิดเสรีเอทานอลสหรัฐ หวั่นกระทบราคา จี้รัฐดัน E20",
+     "link": "https://www.prachachat.net/economic/news-2099905",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-20T09:38:20Z"
+    }
+   ]
+  },
+  {
    "id": "oil_down",
    "name": "น้ำมันลง",
    "count": 1,
@@ -177,28 +172,20 @@
  ],
  "stories": [
   {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 40,
-   "new_24h": 5,
-   "latest": "2026-11-21T15:15:00Z",
-   "latest_title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?"
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 23,
+   "new_24h": 4,
+   "latest": "2026-11-21T10:44:37Z",
+   "latest_title": "บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปดาห์หน้า 1,410-1,490 ติดตามตัวเลขส่งออกต.ค.-สงครามตอ.กลาง-ทิศทางเงินทุนต่างชาติ"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
-   "count": 17,
-   "new_24h": 3,
-   "latest": "2026-11-21T07:09:35Z",
-   "latest_title": "คณะไต่สวนอิสระมติเอกฉันท์ 9-0 ‘เอกวิทย์ วัชชวัลคุ’ ผิดปมถูกกล่าวหารับทองคำ 246 บาท"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 23,
-   "new_24h": 3,
-   "latest": "2026-11-21T00:31:45Z",
-   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์พักฐาน หลังแข็งค่าต่อเนื่อง 8 วัน นักลงทุนจับตาทิศทางดอกเบี้ยเฟด"
+   "count": 18,
+   "new_24h": 4,
+   "latest": "2026-11-21T10:06:47Z",
+   "latest_title": "KBANK คาดบาทสัปดาห์หน้า 33.70-34.20 จับตาส่งออก ต.ค. ราคาทองคำ สงครามตอ.กลาง ฟันด์โฟลว์"
   },
   {
    "id": "trade-war",
@@ -209,12 +196,28 @@
    "latest_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 21,
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 23,
    "new_24h": 2,
-   "latest": "2026-11-21T07:42:02Z",
-   "latest_title": "อิหร่านย้ำพร้อมเจรจาสหรัฐฯ เสนอเปิดช่องแคบฮอร์มุซใน 2 วัน"
+   "latest": "2026-11-21T00:31:45Z",
+   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์พักฐาน หลังแข็งค่าต่อเนื่อง 8 วัน นักลงทุนจับตาทิศทางดอกเบี้ยเฟด"
+  },
+  {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 40,
+   "new_24h": 1,
+   "latest": "2026-11-21T15:15:00Z",
+   "latest_title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?"
+  },
+  {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 16,
+   "new_24h": 1,
+   "latest": "2026-11-21T10:44:37Z",
+   "latest_title": "บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปดาห์หน้า 1,410-1,490 ติดตามตัวเลขส่งออกต.ค.-สงครามตอ.กลาง-ทิศทางเงินทุนต่างชาติ"
   },
   {
    "id": "thai-economy",
@@ -223,14 +226,6 @@
    "new_24h": 1,
    "latest": "2026-11-21T03:03:00Z",
    "latest_title": "เปิด 3 โจทย์ใหญ่เศรษฐกิจไทย ปลดล็อกสินเชื่อ SME-ปราบคอร์รัปชัน-รับมือโลกเปลี่ยน"
-  },
-  {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
-   "count": 15,
-   "new_24h": 0,
-   "latest": "2026-11-20T10:54:25Z",
-   "latest_title": "หุ้นไทยดิ่งแรงเฉียด 20 จุด บล.กสิกรไทยชี้ 5 ปัจจัยกดดัน"
   },
   {
    "id": "baht",
@@ -379,6 +374,54 @@
    ],
    "signals": [],
    "stories": []
+  },
+  {
+   "id": "ef6b1b368fa4",
+   "title": "บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปดาห์หน้า 1,410-1,490 ติดตามตัวเลขส่งออกต.ค.-สงครามตอ.กลาง-ทิศทางเงินทุนต่างชาติ",
+   "link": "https://www.infoquest.co.th/2026/683594",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T10:44:37Z",
+   "summary": "บริษัทหลักทรัพย์กสิกรไทย จำกัด ประเมินกรอบดัชนีหุ้นไทยสำหรับสัปดาห์ถัดไป (23–27 พ.ย. 2569) แนวรับที่ 1,435 และ 1,410 จุด ขณะที่แนวต้านอยู่ที่ 1,475 และ 1,490 จุด ตามลำดับ โดยศูนย์วิจัยกสิกรไทยประเมินป The post บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปด…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "stock_market",
+    "economy",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast",
+    "thai-market"
+   ]
+  },
+  {
+   "id": "6c0450857aec",
+   "title": "KBANK คาดบาทสัปดาห์หน้า 33.70-34.20 จับตาส่งออก ต.ค. ราคาทองคำ สงครามตอ.กลาง ฟันด์โฟลว์",
+   "link": "https://www.infoquest.co.th/2026/683591",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T10:06:47Z",
+   "summary": "ธนาคารกสิกรไทย (KBANK) ประเมินกรอบการเคลื่อนไหวของค่าเงินบาทในสัปดาห์หน้า (23-27 พ.ย.) อยู่ที่ระดับ 33.70-34.20 บาทต่อดอลลาร์ฯ ขณะที่ศูนย์วิจัยกสิกรไทยประเมินปัจจัยสำคัญที่ต้องติดตาม ได้แก่ The post KBANK คาดบาทสัปดาห์หน้า 33.70-34.20 จับต…",
+   "image": null,
+   "score": 13,
+   "categories": [
+    "gold",
+    "economy",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast",
+    "gold"
+   ]
   },
   {
    "id": "8a776e7357a4",
