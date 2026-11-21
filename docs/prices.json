@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T01:28:40Z",
+ "generated_at": "2026-11-21T09:41:05Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
@@ -294,16 +294,16 @@
    "name": "ดอลลาร์/บาท"
   },
   {
-   "price": 3539.0,
-   "change_pct": -3.98,
+   "price": 3515.4,
+   "change_pct": -4.62,
    "currency": "USD",
    "asof": "2026-11-20T21:59:57Z",
    "key": "GOLD",
    "name": "ทองคำ"
   },
   {
-   "price": 83.62,
-   "change_pct": 0.49,
+   "price": 83.41,
+   "change_pct": -0.68,
    "currency": "USD",
    "asof": "2026-11-20T21:59:59Z",
    "key": "OIL",
