@@ -7220,6 +7220,17 @@
   "r1": -1.36,
   "x1": 1.71
  },
+ "tariff|AAPL|2026-11-21": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "AAPL",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-21",
+  "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+  "news_link": "https://www.prachachat.net/columns/news-2099740",
+  "base_date": "2026-11-20"
+ },
  "tariff|CPF|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -7479,6 +7490,17 @@
   "base_date": "2026-11-19",
   "r1": -0.77,
   "x1": 0.73
+ },
+ "tariff|CPF|2026-11-21": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-21",
+  "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+  "news_link": "https://www.prachachat.net/columns/news-2099740",
+  "base_date": "2026-11-20"
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -7740,6 +7762,17 @@
   "r1": -3.88,
   "x1": -2.38
  },
+ "tariff|DELTA|2026-11-21": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-21",
+  "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+  "news_link": "https://www.prachachat.net/columns/news-2099740",
+  "base_date": "2026-11-20"
+ },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -8000,6 +8033,17 @@
   "r1": -7.43,
   "x1": -5.94
  },
+ "tariff|HANA|2026-11-21": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-21",
+  "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+  "news_link": "https://www.prachachat.net/columns/news-2099740",
+  "base_date": "2026-11-20"
+ },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -8259,6 +8303,17 @@
   "base_date": "2026-11-19",
   "r1": -10.62,
   "x1": -9.12
+ },
+ "tariff|KCE|2026-11-21": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-21",
+  "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+  "news_link": "https://www.prachachat.net/columns/news-2099740",
+  "base_date": "2026-11-20"
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -8521,6 +8576,17 @@
   "r1": -9.29,
   "x1": -6.22
  },
+ "tariff|TSM|2026-11-21": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TSM",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-21",
+  "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+  "news_link": "https://www.prachachat.net/columns/news-2099740",
+  "base_date": "2026-11-20"
+ },
  "tariff|TU|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -8780,6 +8846,17 @@
   "base_date": "2026-11-19",
   "r1": -1.15,
   "x1": 0.34
+ },
+ "tariff|TU|2026-11-21": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-21",
+  "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+  "news_link": "https://www.prachachat.net/columns/news-2099740",
+  "base_date": "2026-11-20"
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",

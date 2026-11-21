@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:13:05Z",
+ "generated_at": "2026-11-21T17:25:59Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -10,8 +10,8 @@
  },
  "backfill": 363,
  "overall": {
-  "total": 560,
-  "news": 65,
+  "total": 567,
+  "news": 66,
   "d1": {
    "evaluated": 438,
    "hit_rate": 53.4,
@@ -203,8 +203,8 @@
    "name": "ขึ้นดอกเบี้ย"
   },
   {
-   "total": 112,
-   "news": 16,
+   "total": 119,
+   "news": 17,
    "d1": {
     "evaluated": 0,
     "hit_rate": null,

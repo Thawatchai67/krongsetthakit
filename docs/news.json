@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-21T09:40:39Z",
+  "generated_at": "2026-11-21T17:25:35Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -14,16 +14,64 @@
    "bank_property": "ธนาคาร",
    "stock_market": "ตลาดหุ้น"
   },
-  "feeds_ok": 5,
-  "feed_errors": [],
-  "total_raw": 85,
-  "total_kept": 339
+  "feeds_ok": 4,
+  "feed_errors": [
+   {
+    "feed": "infoquest",
+    "error": "HTTP 503"
+   }
+  ],
+  "total_raw": 75,
+  "total_kept": 343
  },
  "signals": [
   {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 5,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+     "link": "https://www.prachachat.net/columns/news-2099740",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-21T12:13:14Z"
+    },
+    {
+     "title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
+     "link": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-20T10:08:00Z"
+    },
+    {
+     "title": "ชาวไร่มันสำปะหลัง-อ้อยค้านเปิดเสรีเอทานอลสหรัฐ หวั่นกระทบราคา จี้รัฐดัน E20",
+     "link": "https://www.prachachat.net/economic/news-2099905",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-20T09:38:20Z"
+    }
+   ]
+  },
+  {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 7,
+   "count": 5,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -84,49 +132,6 @@
    ]
   },
   {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 4,
-   "impacts": [
-    {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
-     "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
-     ],
-     "us": [
-      "AAPL",
-      "TSM"
-     ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
-     "link": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-20T10:08:00Z"
-    },
-    {
-     "title": "ชาวไร่มันสำปะหลัง-อ้อยค้านเปิดเสรีเอทานอลสหรัฐ หวั่นกระทบราคา จี้รัฐดัน E20",
-     "link": "https://www.prachachat.net/economic/news-2099905",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-20T09:38:20Z"
-    },
-    {
-     "title": "พาณิชย์ยัน ART ยังไม่ลดภาษีสหรัฐทันที ไม่รับหมูสารเร่งเนื้อแดง",
-     "link": "https://www.prachachat.net/economic/news-2099875",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-20T09:19:34Z"
-    }
-   ]
-  },
-  {
    "id": "oil_down",
    "name": "น้ำมันลง",
    "count": 1,
@@ -168,110 +173,24 @@
      "published": "2026-11-20T13:44:40Z"
     }
    ]
-  },
-  {
-   "id": "oil_up",
-   "name": "น้ำมันขึ้น",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "พลังงาน/ปิโตรเลียม",
-     "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
-     ],
-     "us": [
-      "XOM",
-      "CVX",
-      "COP"
-     ],
-     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
-     "link": "https://www.infoquest.co.th/2026/682814",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-19T16:00:13Z"
-    }
-   ]
-  },
-  {
-   "id": "baht_weak",
-   "name": "บาทอ่อน",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "ผู้ส่งออก",
-     "set": [
-      "CPF",
-      "TU",
-      "DELTA"
-     ],
-     "us": [],
-     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้มากขึ้น"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
-     "set": [
-      "AAV"
-     ],
-     "us": [],
-     "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "เงินบาทแตะระดับ 34.02 บาท/ดอลลาร์ อ่อนสุดในรอบ 19 เดือน",
-     "link": "https://www.prachachat.net/finance/news-2099338",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-19T12:24:13Z"
-    }
-   ]
   }
  ],
  "stories": [
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 17,
-   "new_24h": 5,
-   "latest": "2026-11-21T07:09:35Z",
-   "latest_title": "คณะไต่สวนอิสระมติเอกฉันท์ 9-0 ‘เอกวิทย์ วัชชวัลคุ’ ผิดปมถูกกล่าวหารับทองคำ 246 บาท"
-  },
   {
    "id": "ai-chips",
    "name": "AI และชิป",
    "count": 40,
    "new_24h": 5,
-   "latest": "2026-11-20T21:58:00Z",
-   "latest_title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008"
+   "latest": "2026-11-21T15:15:00Z",
+   "latest_title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 21,
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 17,
    "new_24h": 3,
-   "latest": "2026-11-21T07:42:02Z",
-   "latest_title": "อิหร่านย้ำพร้อมเจรจาสหรัฐฯ เสนอเปิดช่องแคบฮอร์มุซใน 2 วัน"
+   "latest": "2026-11-21T07:09:35Z",
+   "latest_title": "คณะไต่สวนอิสระมติเอกฉันท์ 9-0 ‘เอกวิทย์ วัชชวัลคุ’ ผิดปมถูกกล่าวหารับทองคำ 246 บาท"
   },
   {
    "id": "fed",
@@ -284,10 +203,18 @@
   {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 15,
+   "count": 16,
    "new_24h": 2,
-   "latest": "2026-11-21T00:38:00Z",
-   "latest_title": "แห่ค้าน-หนุน‘ภาษีทรัมป์’ จับตาลงนามฉบับสมบูรณ์"
+   "latest": "2026-11-21T12:13:14Z",
+   "latest_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 21,
+   "new_24h": 2,
+   "latest": "2026-11-21T07:42:02Z",
+   "latest_title": "อิหร่านย้ำพร้อมเจรจาสหรัฐฯ เสนอเปิดช่องแคบฮอร์มุซใน 2 วัน"
   },
   {
    "id": "thai-economy",
@@ -301,7 +228,7 @@
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
    "count": 15,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-20T10:54:25Z",
    "latest_title": "หุ้นไทยดิ่งแรงเฉียด 20 จุด บล.กสิกรไทยชี้ 5 ปัจจัยกดดัน"
   },
@@ -309,7 +236,7 @@
    "id": "baht",
    "name": "ทิศทางเงินบาท",
    "count": 10,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-20T10:37:14Z",
    "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.91/92 แกว่งกรอบแคบ ตลาดไร้ปัจจัยใหม่ คาดกรอบต้นสัปดาห์หน้า 33.80-34.10"
   },
@@ -331,6 +258,128 @@
   }
  ],
  "items": [
+  {
+   "id": "8c6b5225b0fb",
+   "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
+   "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-21T15:35:00Z",
+   "summary": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
+   "image": "https://images.mktw.net/im-18553565",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "5aca005e2cdf",
+   "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?",
+   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-21T15:15:00Z",
+   "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+   "image": "https://images.mktw.net/im-49247042",
+   "score": 7,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "c58d8da5fef8",
+   "title": "How a brutal week for stocks almost wiped out their gains for the entire year",
+   "link": "https://www.marketwatch.com/story/how-a-brutal-week-for-stocks-almost-wiped-out-their-gains-for-the-entire-year-ae6773c3?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-21T14:17:00Z",
+   "summary": "Investors are now more focused on protecting their portfolios than looking for bargains",
+   "image": "https://images.mktw.net/im-34953773",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "7bf9f202b705",
+   "title": "คลังแก้โจทย์ใหญ่ จับตาแผนเร่งด่วน ดีเดย์ ม.ค.70 ‘รื้อภาษี-แก้ปมสินเชื่อ-เปลี่ยนผ่านพลังงาน’",
+   "link": "https://www.prachachat.net/finance/news-2099632",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T12:14:57Z",
+   "summary": "ตามที่ “ดร.เอกนิติ นิติทัณฑ์ประภาศ” รองนายกรัฐมนตรีและ รมว.คลัง ได้ประกาศแผน “MOF Transformation : ทรานส์ฟอร์มประเทศด้วย STI ทรานส์ฟอร์มคลังให้ DEE เพื่อประชาชน” ไปเมื่อเร็ว ๆ นี้ ภายใต้หลักคิดการขับเคลื่อนเศรษฐกิจด้วย STI (Stabilize Today…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/mof.jpg",
+   "score": 7,
+   "categories": [
+    "oil_energy",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "10e1c5595757",
+   "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+   "link": "https://www.prachachat.net/columns/news-2099740",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T12:13:14Z",
+   "summary": "ท่ามกลางปัญหาสงครามเศรษฐกิจ สงครามการค้าที่พัดถล่มประเทศไทย อีกหนึ่งปัญหาใหญ่ของประเทศไทยคือปัญหาสารพิษปนเปื้อนในแม่น้ำกก-แม่น้ำสาย และรวก ที่เป็นผลพวงโดยตรงจากการทำเหมืองแร่ต้นน้ำฝั่งเมียนมา กำลังลุกลามสู่ภาวะวิกฤตด้านสิ่งแวดล้อมและสาธารณ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/P022311.jpg",
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "1875432ce7bf",
+   "title": "ประกาศสงครามแก้มลพิษ จ่อห้ามส่งออกสารตั้งต้นแรร์เอิร์ธ-คุมแนวแม่น้ำกก 150 กม.",
+   "link": "https://www.prachachat.net/politics/news-2100236",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T11:36:01Z",
+   "summary": "รัฐบาลประกาศสงครามมลพิษ แก้ปัญหาสารพิษแหล่งน้ำ งัดมาตรการ สมช.ห้ามส่งออก-นำผ่าน สารตั้งต้นแรร์เอิร์ธ ด้าน ทส.จ่อประกาศเขตควบคุมมลพิษ ตลอดแนวน้ำกกฝั่งไทย 150 กิโลเมตร หลัง คกก.สิ่งแวดล้อมแห่งชาติ ไฟเขียว 2 ธ.ค.นี้ นายยศชนัน วงศ์สวัสดิ์ รองน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/20261121115730_6589.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "8a776e7357a4",
    "title": "บิตคอยน์ร่วงต่ำสุดในรอบ 2 ปี แตะ 55,830 ดอลลาร์ กังวลหุ้น AI มูลค่าสูงเกินจริง",
@@ -838,25 +887,6 @@
    ]
   },
   {
-   "id": "8c6b5225b0fb",
-   "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
-   "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-20T21:36:00Z",
-   "summary": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
-   "image": "https://images.mktw.net/im-18553565",
-   "score": 4,
-   "categories": [
-    "stock_market"
-   ],
-   "signals": [],
-   "stories": []
-  },
-  {
    "id": "137217fbade8",
    "title": "Federal Reserve announces College Fed Challenge winners",
    "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
@@ -899,27 +929,6 @@
     "rate_hike"
    ],
    "stories": []
-  },
-  {
-   "id": "5aca005e2cdf",
-   "title": "Spooked by Nvidia’s turmoil? Play Grand Theft Auto VI instead of peeking at your 401(k).",
-   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-20T19:53:00Z",
-   "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
-   "image": "https://images.mktw.net/im-49247042",
-   "score": 4,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
   },
   {
    "id": "8bf1339f28ae",
