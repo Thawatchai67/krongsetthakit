@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-20T20:04:27Z",
+  "generated_at": "2026-11-21T01:28:14Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 313
+  "total_kept": 326
  },
  "signals": [
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 9,
+   "count": 10,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -64,6 +64,12 @@
    ],
    "evidence": [
     {
+     "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองปิดดิ่ง 4.6% เซ่นคาดการณ์เฟดขึ้นดอกเบี้ย-แรงเทขายหุ้น AI",
+     "link": "https://www.infoquest.co.th/2026/683513",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-21T00:10:28Z"
+    },
+    {
      "title": "The Fed is too busy fighting inflation to rescue the stock market",
      "link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
      "source": "MarketWatch",
@@ -74,12 +80,6 @@
      "link": "https://www.prachachat.net/finance/news-2100057",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-20T10:54:25Z"
-    },
-    {
-     "title": "YLG เตือนทองคำเสี่ยงร่วงต่อ แนะขายช่วงรีบาวนด์ รอซื้อคืนแนวรับ 3,500 ดอลลาร์",
-     "link": "https://www.prachachat.net/finance/news-2099899",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-20T09:29:28Z"
     }
    ]
   },
@@ -265,25 +265,41 @@
    "id": "ai-chips",
    "name": "AI และชิป",
    "count": 40,
-   "new_24h": 8,
-   "latest": "2026-11-20T19:53:00Z",
-   "latest_title": "Spooked by Nvidia’s turmoil? Play Grand Theft Auto VI instead of peeking at your 401(k)."
+   "new_24h": 6,
+   "latest": "2026-11-20T21:58:00Z",
+   "latest_title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008"
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 23,
+   "new_24h": 5,
+   "latest": "2026-11-21T00:31:45Z",
+   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์พักฐาน หลังแข็งค่าต่อเนื่อง 8 วัน นักลงทุนจับตาทิศทางดอกเบี้ยเฟด"
   },
   {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 14,
+   "count": 15,
    "new_24h": 4,
-   "latest": "2026-11-20T10:08:00Z",
-   "latest_title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions"
+   "latest": "2026-11-21T00:38:00Z",
+   "latest_title": "แห่ค้าน-หนุน‘ภาษีทรัมป์’ จับตาลงนามฉบับสมบูรณ์"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
-   "count": 14,
+   "count": 15,
+   "new_24h": 4,
+   "latest": "2026-11-21T00:10:28Z",
+   "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองปิดดิ่ง 4.6% เซ่นคาดการณ์เฟดขึ้นดอกเบี้ย-แรงเทขายหุ้น AI"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 20,
    "new_24h": 3,
-   "latest": "2026-11-20T11:05:35Z",
-   "latest_title": "ภาวะตลาดอนุพันธ์: แรงขาย DELTA เป็นหลัก Fund Flow ไหลออก, ทองคำพลิกเป็นขาลง"
+   "latest": "2026-11-20T23:43:17Z",
+   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดบวก 0.93% รับแรงซื้อก่อนวันหยุด Thanksgiving หวั่นสงครามอิหร่านปะทุ"
   },
   {
    "id": "thai-market",
@@ -294,28 +310,12 @@
    "latest_title": "หุ้นไทยดิ่งแรงเฉียด 20 จุด บล.กสิกรไทยชี้ 5 ปัจจัยกดดัน"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 19,
-   "new_24h": 2,
-   "latest": "2026-11-20T13:44:40Z",
-   "latest_title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง"
-  },
-  {
    "id": "thai-economy",
    "name": "เศรษฐกิจไทย",
    "count": 15,
    "new_24h": 2,
    "latest": "2026-11-20T09:25:22Z",
    "latest_title": "กกร.จ่อถกเลขาฯ OECD 23 พ.ย. ชง 5 ข้อเสนอปฏิรูปเศรษฐกิจไทย-ปราบคอร์รัปชั่น"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 20,
-   "new_24h": 2,
-   "latest": "2026-11-20T02:05:26Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าพักตัวเข้าโหมด Risk Off กังวลเฟดขึ้นดอกเบี้ยแรง-ลงทุน AI ชะงัก"
   },
   {
    "id": "baht",
@@ -343,6 +343,294 @@
   }
  ],
  "items": [
+  {
+   "id": "e669e86764fa",
+   "title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดร่วง 1% ต่ำสุดในรอบ 5 เดือน แรงขายหุ้นธนาคาร-เหมืองแร่ฉุดตลาด",
+   "link": "https://www.infoquest.co.th/2026/683520",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T01:12:41Z",
+   "summary": "ตลาดหุ้นลอนดอนปิดร่วงลงในวันศุกร์ (20 พ.ย.) โดยได้รับแรงกดดันจากการเทขายหุ้นทั่วโลก ท่ามกลางความกังวลเกี่ยวกับมูลค่าหุ้นที่เกี่ยวข้องกับปัญญาประดิษฐ์ (AI) และแนวโน้มอัตราดอกเบี้ยสหรัฐฯ The post ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดร่วง 1% ต่ำสุ…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "stock_market",
+    "bank_property",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "cf32a59ca2bd",
+   "title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดร่วง 2% หลังแรงเทขายหุ้น AI ลามทั่วตลาด",
+   "link": "https://www.infoquest.co.th/2026/683518",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T00:58:00Z",
+   "summary": "ตลาดหุ้นยุโรปปิดร่วงลง 2% ในวันศุกร์ (20 พ.ย.) และทำสถิติปรับตัวลงรายสัปดาห์รุนแรงที่สุดนับตั้งแต่ปลายเดือนมี.ค. 2568 หลังนักลงทุนเทขายหุ้นที่เกี่ยวข้องกับ AI เนื่องจากการเข้าจดทะเบียนในตลาดหุ้นของ The post ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดร…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "55ab1f1627bd",
+   "title": "แห่ค้าน-หนุน‘ภาษีทรัมป์’ จับตาลงนามฉบับสมบูรณ์",
+   "link": "https://www.prachachat.net/no1/news-2099998",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T00:38:00Z",
+   "summary": "“อนุทิน-ทรัมป์” ลงนามในแถลงการณ์ร่วม ART “ศุภจี” แจงใช้เวลาอีกหลายเดือนกว่าจะลงนามฉบับสมบูรณ์รอฟังความเห็น เสนอ ครม.-ผ่านสภา “ดร.อมรเทพ ซีไอเอ็มบี” ชี้เป็นสัญญาณบวก แต่ภารกิจเจรจายังไม่จบ อัตราภาษีสหรัฐต้องต่ำกว่าจีน-เวียดนาม ถึงจะรักษาตลา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/1-pok-7.jpg",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "0e22a1362410",
+   "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์พักฐาน หลังแข็งค่าต่อเนื่อง 8 วัน นักลงทุนจับตาทิศทางดอกเบี้ยเฟด",
+   "link": "https://www.infoquest.co.th/2026/683516",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T00:31:45Z",
+   "summary": "ดอลลาร์สหรัฐอ่อนค่าลงเมื่อเทียบกับสกุลเงินหลักส่วนใหญ่ในวันศุกร์ (20 พ.ย.) หลังแรงหนุนจากการเก็งกำไรเกี่ยวกับแนวโน้มการดำเนินนโยบายการเงินที่เข้มงวดของธนาคารกลางสหรัฐฯ (เฟด) ซึ่งผลักดันให้ดอลลาร์แข็งค The post ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "68b8349666c7",
+   "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองปิดดิ่ง 4.6% เซ่นคาดการณ์เฟดขึ้นดอกเบี้ย-แรงเทขายหุ้น AI",
+   "link": "https://www.infoquest.co.th/2026/683513",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T00:10:28Z",
+   "summary": "สัญญาทองคำตลาดนิวยอร์กปิดร่วงลงในวันศุกร์ (20 พ.ย.) แตะระดับต่ำสุดในรอบ 14 เดือน และปรับตัวลงรายสัปดาห์รุนแรงที่สุดในรอบ 8 เดือน ท่ามกลางแรงกดดันจากการคาดการณ์แนวโน้มอัตราดอกเบี้ยที่เพิ่มขึ้น The post ภาวะตลาดทองคำนิวยอร์ก: ทองปิดดิ่ง 4.6%…",
+   "image": null,
+   "score": 17,
+   "categories": [
+    "monetary",
+    "gold",
+    "tech_ai"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed",
+    "gold"
+   ]
+  },
+  {
+   "id": "6879008acb81",
+   "title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดบวก 0.93% รับแรงซื้อก่อนวันหยุด Thanksgiving หวั่นสงครามอิหร่านปะทุ",
+   "link": "https://www.infoquest.co.th/2026/683511",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T23:43:17Z",
+   "summary": "สัญญาน้ำมันดิบเวสต์เท็กซัส (WTI) ตลาดนิวยอร์กปิดปรับตัวขึ้นในวันศุกร์ (20 พ.ย.) ท่ามกลางความกังวลว่าอาจเกิดการโจมตีระลอกใหม่ในสงครามระหว่างสหรัฐฯ-อิสราเอลกับอิหร่าน ขณะเดียวกันนักลงทุนเข้าซื้อน้ำมันดิ The post ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิ…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "0403a832e8de",
+   "title": "ภาวะตลาดหุ้นนิวยอร์ก: ดาวโจนส์ปิดลบ 1.93% เข้าสู่ภาวะปรับฐาน หลังหุ้น AI ถูกเทขายต่อเนื่อง",
+   "link": "https://www.infoquest.co.th/2026/683509",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T23:18:29Z",
+   "summary": "ดัชนีดาวโจนส์ตลาดหุ้นนิวยอร์กปิดร่วงลงต่อเนื่องในวันศุกร์ (20 พ.ย.) โดยดัชนีดาวโจนส์และ S&P500 ต่างยืนยันการเข้าสู่ภาวะปรับฐาน หลังการเปิดตัวในตลาดหุ้นของ Anthropic ซึ่งได้รับความสนใจอย่างมากกลับไ The post ภาวะตลาดหุ้นนิวยอร์ก: ดาวโจนส์ปิด…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3a41654216b6",
+   "title": "จับเทรนด์ตลาด ‘อสังหาริมทรัพย์ ปี’70’ บ้านมือ 2-คอนโดฯ เกาะรถไฟฟ้ามาแรง",
+   "link": "https://www.prachachat.net/real-estate/news-2097595",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-20T23:15:00Z",
+   "summary": "แม้ปัจจุบันตลาดที่อยู่อาศัยจะได้รับการสนับสนุนจากมาตรการรัฐลดค่าโอน-จดจำนอง 0.01% ผ่อนเกณฑ์ LTV ถึง 30 มิถุนายน 2570 อัตราดอกเบี้ยที่อยู่ในระดับต่ำและโครงการสินเชื่อบ้านคนละหลัง PLUS วงเงิน 50,000 ล้านบาท สำหรับที่อยู่อาศัยไม่เกิน 3 ล้านบา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/P061911.jpg",
+   "score": 5,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "4371c6cf8e98",
+   "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+   "link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T22:46:00Z",
+   "summary": "All 11 S&P 500 sectors finished more than 1% lower this week for the first time since April 2025.",
+   "image": "https://images.mktw.net/im-22825043",
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6db58f120f92",
+   "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+   "link": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T22:44:00Z",
+   "summary": "A major semiconductor index just posted its worst weekly performance in 25 years.",
+   "image": "https://images.mktw.net/im-69966637",
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "eadd2e9099a2",
+   "title": "These stocks were crushed the most this week as the tech wreck accelerated",
+   "link": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T22:44:00Z",
+   "summary": "94% of stocks in the S&P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.",
+   "image": "https://images.mktw.net/im-51562776",
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b9618c609f31",
+   "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T21:58:00Z",
+   "summary": "One fund manager says the continued uncertainty makes Nvidia vulnerable to more selling, even as the stock has erased $1.16 trillion in market value in the past seven trading sessions.",
+   "image": "https://images.mktw.net/im-34722118",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "8c6b5225b0fb",
+   "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
+   "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-20T21:36:00Z",
+   "summary": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
+   "image": "https://images.mktw.net/im-18553565",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "137217fbade8",
+   "title": "Federal Reserve announces College Fed Challenge winners",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+   "source": "Federal Reserve",
+   "feed": "fed",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-20T21:15:00Z",
+   "summary": "Federal Reserve announces College Fed Challenge winners",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
   {
    "id": "7bbdc82bf9fc",
    "title": "The Fed is too busy fighting inflation to rescue the stock market",
@@ -419,27 +707,6 @@
    "published": "2026-11-20T19:23:00Z",
    "summary": "Nvidia is now the fourth most valuable U.S. company, behind Apple, Microsoft and Alphabet.",
    "image": "https://images.mktw.net/im-15432700",
-   "score": 4,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
-  },
-  {
-   "id": "b9618c609f31",
-   "title": "Nvidia’s stock heads for a stretch of weekly losses not seen since 2008",
-   "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-20T19:04:00Z",
-   "summary": "One fund manager says the continued uncertainty makes Nvidia “vulnerable” to more selling, even as the company has erased over $900 billion in market value in the past seven days.",
-   "image": "https://images.mktw.net/im-34722118",
    "score": 4,
    "categories": [
     "tech_ai"
