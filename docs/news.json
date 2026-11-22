@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-21T23:08:25Z",
+  "generated_at": "2026-11-22T06:37:48Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,56 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 345
+  "total_kept": 348
  },
  "signals": [
   {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 4,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+     "link": "https://www.prachachat.net/columns/news-2099740",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-21T12:13:14Z"
+    },
+    {
+     "title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
+     "link": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-20T10:08:00Z"
+    },
+    {
+     "title": "ชาวไร่มันสำปะหลัง-อ้อยค้านเปิดเสรีเอทานอลสหรัฐ หวั่นกระทบราคา จี้รัฐดัน E20",
+     "link": "https://www.prachachat.net/economic/news-2099905",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-20T09:38:20Z"
+    }
+   ]
+  },
+  {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 5,
+   "count": 4,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -84,49 +127,6 @@
    ]
   },
   {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 4,
-   "impacts": [
-    {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
-     "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
-     ],
-     "us": [
-      "AAPL",
-      "TSM"
-     ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
-     "link": "https://www.prachachat.net/columns/news-2099740",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-21T12:13:14Z"
-    },
-    {
-     "title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
-     "link": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-20T10:08:00Z"
-    },
-    {
-     "title": "ชาวไร่มันสำปะหลัง-อ้อยค้านเปิดเสรีเอทานอลสหรัฐ หวั่นกระทบราคา จี้รัฐดัน E20",
-     "link": "https://www.prachachat.net/economic/news-2099905",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-20T09:38:20Z"
-    }
-   ]
-  },
-  {
    "id": "oil_down",
    "name": "น้ำมันลง",
    "count": 1,
@@ -175,15 +175,23 @@
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
    "count": 23,
-   "new_24h": 4,
+   "new_24h": 3,
    "latest": "2026-11-21T10:44:37Z",
    "latest_title": "บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปดาห์หน้า 1,410-1,490 ติดตามตัวเลขส่งออกต.ค.-สงครามตอ.กลาง-ทิศทางเงินทุนต่างชาติ"
+  },
+  {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 41,
+   "new_24h": 2,
+   "latest": "2026-11-22T00:00:00Z",
+   "latest_title": "การ ‘ปะทะ’ ของ 2 รมต.สหรัฐ ปม Nvidia และ ‘สายลับ’ จีน"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
    "count": 18,
-   "new_24h": 4,
+   "new_24h": 2,
    "latest": "2026-11-21T10:06:47Z",
    "latest_title": "KBANK คาดบาทสัปดาห์หน้า 33.70-34.20 จับตาส่งออก ต.ค. ราคาทองคำ สงครามตอ.กลาง ฟันด์โฟลว์"
   },
@@ -191,25 +199,9 @@
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 16,
-   "new_24h": 2,
+   "new_24h": 1,
    "latest": "2026-11-21T12:13:14Z",
    "latest_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 23,
-   "new_24h": 2,
-   "latest": "2026-11-21T00:31:45Z",
-   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์พักฐาน หลังแข็งค่าต่อเนื่อง 8 วัน นักลงทุนจับตาทิศทางดอกเบี้ยเฟด"
-  },
-  {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 40,
-   "new_24h": 1,
-   "latest": "2026-11-21T15:15:00Z",
-   "latest_title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?"
   },
   {
    "id": "thai-market",
@@ -223,9 +215,17 @@
    "id": "thai-economy",
    "name": "เศรษฐกิจไทย",
    "count": 16,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-21T03:03:00Z",
    "latest_title": "เปิด 3 โจทย์ใหญ่เศรษฐกิจไทย ปลดล็อกสินเชื่อ SME-ปราบคอร์รัปชัน-รับมือโลกเปลี่ยน"
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 23,
+   "new_24h": 0,
+   "latest": "2026-11-21T00:31:45Z",
+   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์พักฐาน หลังแข็งค่าต่อเนื่อง 8 วัน นักลงทุนจับตาทิศทางดอกเบี้ยเฟด"
   },
   {
    "id": "baht",
@@ -253,6 +253,65 @@
   }
  ],
  "items": [
+  {
+   "id": "c62b14ee21f8",
+   "title": "โพลชี้คนส่วนใหญ่หนุนม๊อบกำนันมะโน แต่ไม่มีแผนเข้าร่วมชุมนุม-มองข้อเสนอลดน้ำมัน 10 บาทเป็นไปได้ยาก",
+   "link": "https://www.infoquest.co.th/2026/683610",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T02:36:22Z",
+   "summary": "ศูนย์สำรวจความคิดเห็น “นิด้าโพล” สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า) เปิดเผยผลการสำรวจเรื่อง “ม็อบกำนันมะโน จะไปได้ไกลแค่ไหน” ทำการสำรวจระหว่างวันที่ 17-18 พฤศจิกายน 2569 จากประชาชนที่มีอายุ 18 The post โพลชี้คนส่วนใหญ่หนุนม๊อบกำนันมะโน แ…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "5533fb9b20bd",
+   "title": "การ ‘ปะทะ’ ของ 2 รมต.สหรัฐ ปม Nvidia และ ‘สายลับ’ จีน",
+   "link": "https://www.prachachat.net/world/news-2099319",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T00:00:00Z",
+   "summary": "ถัดจาก “พีต เฮกเซ็ธ” รัฐมนตรีกลาโหมสหรัฐ ที่ตกเป็นเป้ากระสุนตก หลังจากรีพับลิกันพ่ายแพ้เลือกตั้งกลางเทอมแบบถล่มทลาย เพราะสงครามอิหร่าน คิวต่อมาก็เป็น “ฮาวเวิร์ด ลุตนิก” รัฐมนตรีพาณิชย์ ที่กำลังมีข่าวว่าถูกบรรดาที่ปรึกษาของประธานาธิบดีโดนัล…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/10-pok-2.jpg",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "4b4d9eaeb4ee",
+   "title": "เปิดรถไฟ ‘เด่นชัย-เชียงของ’ บูมเศรษฐกิจ-ท่องเที่ยวไทย-ลาว-จีน",
+   "link": "https://www.prachachat.net/real-estate/news-2099465",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-21T23:55:00Z",
+   "summary": "หากทุกอย่างเดินหน้าไปตามแผน ภายในปี 2571 ประเทศไทยจะได้ฤกษ์กดปุ่มรถไฟทางคู่สายเด่นชัย-เชียงราย-เชียงของ รถไฟสายใหม่ ซึ่งการรถไฟแห่งประเทศไทย (ร.ฟ.ท.) ได้ทุ่มงบประมาณก่อสร้างและเวนคืนที่ดินไปกว่า 85,345 ล้านบาท เชื่อม 4 จังหวัดภาคเหนือ แนวเ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/P0623.jpg",
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "8c6b5225b0fb",
    "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",

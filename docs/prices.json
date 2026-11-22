@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T00:13:45Z",
+ "generated_at": "2026-11-22T06:38:13Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
@@ -303,7 +303,7 @@
   },
   {
    "price": 83.41,
-   "change_pct": -0.68,
+   "change_pct": 0.24,
    "currency": "USD",
    "asof": "2026-11-20T21:59:59Z",
    "key": "OIL",
