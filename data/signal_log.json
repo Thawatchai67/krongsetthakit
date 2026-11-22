@@ -3944,6 +3944,17 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20"
  },
+ "rate_hike|BAC|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4277,6 +4288,17 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
+ "rate_hike|BBL|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
  "rate_hike|CPN|2026-08-30": {
@@ -4614,6 +4636,17 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20"
  },
+ "rate_hike|CPN|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4947,6 +4980,17 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
+ "rate_hike|DELTA|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
  "rate_hike|JPM|2026-08-30": {
@@ -5284,6 +5328,17 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20"
  },
+ "rate_hike|JPM|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5617,6 +5672,17 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
+ "rate_hike|KBANK|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
  "rate_hike|LH|2026-08-30": {
@@ -5954,6 +6020,17 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20"
  },
+ "rate_hike|LH|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6287,6 +6364,17 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
+ "rate_hike|MSFT|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
  "rate_hike|NVDA|2026-08-30": {
@@ -6624,6 +6712,17 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20"
  },
+ "rate_hike|NVDA|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6957,6 +7056,17 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
+ "rate_hike|SCB|2026-11-22": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-22",
+  "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+  "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
  "tariff|AAPL|2026-09-06": {

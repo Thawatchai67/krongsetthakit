@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T11:54:01Z",
+ "generated_at": "2026-11-22T15:15:14Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -10,8 +10,8 @@
  },
  "backfill": 363,
  "overall": {
-  "total": 567,
-  "news": 66,
+  "total": 577,
+  "news": 67,
   "d1": {
    "evaluated": 438,
    "hit_rate": 53.4,
@@ -182,8 +182,8 @@
  },
  "signals": [
   {
-   "total": 200,
-   "news": 20,
+   "total": 210,
+   "news": 21,
    "d1": {
     "evaluated": 190,
     "hit_rate": 51.1,

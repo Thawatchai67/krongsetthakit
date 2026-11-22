@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-22T06:37:48Z",
+  "generated_at": "2026-11-22T15:14:44Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,56 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 348
+  "total_kept": 361
  },
  "signals": [
   {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 4,
-   "impacts": [
-    {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
-     "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
-     ],
-     "us": [
-      "AAPL",
-      "TSM"
-     ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
-     "link": "https://www.prachachat.net/columns/news-2099740",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-21T12:13:14Z"
-    },
-    {
-     "title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
-     "link": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-20T10:08:00Z"
-    },
-    {
-     "title": "ชาวไร่มันสำปะหลัง-อ้อยค้านเปิดเสรีเอทานอลสหรัฐ หวั่นกระทบราคา จี้รัฐดัน E20",
-     "link": "https://www.prachachat.net/economic/news-2099905",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-20T09:38:20Z"
-    }
-   ]
-  },
-  {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 4,
+   "count": 3,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -107,6 +64,12 @@
    ],
    "evidence": [
     {
+     "title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+     "link": "https://www.infoquest.co.th/2026/683660",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-22T09:31:19Z"
+    },
+    {
      "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองปิดดิ่ง 4.6% เซ่นคาดการณ์เฟดขึ้นดอกเบี้ย-แรงเทขายหุ้น AI",
      "link": "https://www.infoquest.co.th/2026/683513",
      "source": "อินโฟเควสท์",
@@ -117,68 +80,42 @@
      "link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
      "source": "MarketWatch",
      "published": "2026-11-20T19:53:00Z"
-    },
-    {
-     "title": "หุ้นไทยดิ่งแรงเฉียด 20 จุด บล.กสิกรไทยชี้ 5 ปัจจัยกดดัน",
-     "link": "https://www.prachachat.net/finance/news-2100057",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-20T10:54:25Z"
     }
    ]
   },
   {
-   "id": "oil_down",
-   "name": "น้ำมันลง",
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
    "count": 1,
    "impacts": [
     {
-     "effect": "ถูกกดดัน",
-     "sector": "พลังงาน/ปิโตรเลียม",
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
      "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
      ],
      "us": [
-      "XOM",
-      "CVX",
-      "COP"
+      "AAPL",
+      "TSM"
      ],
-     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
-    },
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
     }
    ],
    "evidence": [
     {
-     "title": "ราคาน้ำมันโลกร่วง หลังการส่งออกน้ำมันจากตะวันออกกลางยังคงอยู่ในระดับสูง",
-     "link": "https://www.infoquest.co.th/2026/683493",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-20T13:44:40Z"
+     "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
+     "link": "https://www.prachachat.net/columns/news-2099740",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-21T12:13:14Z"
     }
    ]
   }
  ],
  "stories": [
-  {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 23,
-   "new_24h": 3,
-   "latest": "2026-11-21T10:44:37Z",
-   "latest_title": "บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปดาห์หน้า 1,410-1,490 ติดตามตัวเลขส่งออกต.ค.-สงครามตอ.กลาง-ทิศทางเงินทุนต่างชาติ"
-  },
   {
    "id": "ai-chips",
    "name": "AI และชิป",
@@ -188,28 +125,52 @@
    "latest_title": "การ ‘ปะทะ’ ของ 2 รมต.สหรัฐ ปม Nvidia และ ‘สายลับ’ จีน"
   },
   {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 18,
-   "new_24h": 2,
-   "latest": "2026-11-21T10:06:47Z",
-   "latest_title": "KBANK คาดบาทสัปดาห์หน้า 33.70-34.20 จับตาส่งออก ต.ค. ราคาทองคำ สงครามตอ.กลาง ฟันด์โฟลว์"
+   "id": "thai-us-china",
+   "name": "ไทยกับสหรัฐ-จีน",
+   "count": 4,
+   "new_24h": 1,
+   "latest": "2026-11-22T10:18:38Z",
+   "latest_title": "“อนุสรณ์” จี้รัฐบาลเปิดร่างข้อตกลงการค้าไทย-สหรัฐฯก่อนชงรัฐสภา หวั่นซ้ำเติมเกษตรกรรายย่อย"
+  },
+  {
+   "id": "bot",
+   "name": "แบงก์ชาติและดอกเบี้ยไทย",
+   "count": 19,
+   "new_24h": 1,
+   "latest": "2026-11-22T09:31:19Z",
+   "latest_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง"
   },
   {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 16,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-21T12:13:14Z",
    "latest_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 23,
+   "new_24h": 0,
+   "latest": "2026-11-21T10:44:37Z",
+   "latest_title": "บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปดาห์หน้า 1,410-1,490 ติดตามตัวเลขส่งออกต.ค.-สงครามตอ.กลาง-ทิศทางเงินทุนต่างชาติ"
   },
   {
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
    "count": 16,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-21T10:44:37Z",
    "latest_title": "บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปดาห์หน้า 1,410-1,490 ติดตามตัวเลขส่งออกต.ค.-สงครามตอ.กลาง-ทิศทางเงินทุนต่างชาติ"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 18,
+   "new_24h": 0,
+   "latest": "2026-11-21T10:06:47Z",
+   "latest_title": "KBANK คาดบาทสัปดาห์หน้า 33.70-34.20 จับตาส่งออก ต.ค. ราคาทองคำ สงครามตอ.กลาง ฟันด์โฟลว์"
   },
   {
    "id": "thai-economy",
@@ -234,25 +195,267 @@
    "new_24h": 0,
    "latest": "2026-11-20T10:37:14Z",
    "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.91/92 แกว่งกรอบแคบ ตลาดไร้ปัจจัยใหม่ คาดกรอบต้นสัปดาห์หน้า 33.80-34.10"
-  },
-  {
-   "id": "bot",
-   "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 18,
-   "new_24h": 0,
-   "latest": "2026-11-19T08:22:05Z",
-   "latest_title": "ผู้ว่าฯ ธปท. ชี้เศรษฐกิจมหภาคยังมีความท้าทาย แนะภาคธุรกิจเร่งปรับตัวรับเอไอ"
-  },
-  {
-   "id": "thai-us-china",
-   "name": "ไทยกับสหรัฐ-จีน",
-   "count": 3,
-   "new_24h": 0,
-   "latest": "2026-11-15T03:57:08Z",
-   "latest_title": "‘ไทย-สหรัฐ’ เจรจาภาษี 17 พ.ย. เชื่อ ‘ทรัมป์’ ไม่กดดันเหตุสองฝ่ายพอใจ"
   }
  ],
  "items": [
+  {
+   "id": "7c92d479beaf",
+   "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+   "link": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-22T15:01:00Z",
+   "summary": "There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+   "image": "https://images.mktw.net/im-74462346",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d6d28b06e4a5",
+   "title": "Stocks are in a correction heading into the Thanksgiving holiday. What to brace for next.",
+   "link": "https://www.marketwatch.com/story/stocks-are-in-a-correction-heading-into-the-thanksgiving-holiday-what-to-brace-for-next-a1e82491?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-22T14:00:00Z",
+   "summary": "Other stocks are in a bear market, which could be bad timing with the crucial holiday shopping period ahead",
+   "image": "https://images.mktw.net/im-25122458",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "5846632e2117",
+   "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
+   "link": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-22T12:30:00Z",
+   "summary": "Norm Fosback’s ‘Seasonality Timing System’ has one of the very best long-term track records, and suggests the market has an upside bias for the next two weeks",
+   "image": "https://images.mktw.net/im-35352334",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "07136394c50e",
+   "title": "BCP ยืนยันปฏิบัติตามกฎหมาย ย้ำผลิตภัณฑ์ LFO ที่ส่งออกทางเรือ MT XAN ไม่ใช่น้ำมันดีเซล",
+   "link": "https://www.infoquest.co.th/2026/683665",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T10:46:39Z",
+   "summary": "บมจ.บางจาก คอร์ปอเรชั่น [BCP] ชี้แจงกรณีที่มีการรายงานในสื่อโซเชียลถึงข้อสงสัยว่าเรือ MT XAN บรรทุกน้ำมันดีเซลหรือน้ำมันเบนซินเพื่อส่งออกหรือไม่ ว่าสินค้าที่เรือลำดังกล่าวรับจากโรงกลั่นน้ำมันบางจาก The post BCP ยืนยันปฏิบัติตามกฎหมาย ย้ำผล…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "oil_energy",
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6b99850cbf2e",
+   "title": "“อนุสรณ์” จี้รัฐบาลเปิดร่างข้อตกลงการค้าไทย-สหรัฐฯก่อนชงรัฐสภา หวั่นซ้ำเติมเกษตรกรรายย่อย",
+   "link": "https://www.infoquest.co.th/2026/683663",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T10:18:38Z",
+   "summary": "นายอนุสรณ์ ธรรมใจ รองประธานคณะกรรมาธิการการเงิน การคลัง สถาบันการเงินและตลาดการเงิน และ สมาชิกสภาผู้แทนราษฎร กรุงเทพฯ พรรคประชาชน เปิดเผยว่า รัฐบาลไทย และรัฐบาลสหรัฐฯได้ ลงนามแถลงการณ์ร่วมว่าด้วยความต The post “อนุสรณ์” จี้รัฐบาลเปิดร่างข้…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-us-china"
+   ]
+  },
+  {
+   "id": "e706b6833f50",
+   "title": "เปิดแผน Oil Plan 2026 เป้าเลิกโซฮอล์ 91 ปีหน้า-ส่วน 95 รอปี’75",
+   "link": "https://www.prachachat.net/economic/news-2099453",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T10:17:00Z",
+   "summary": "ในขณะที่การเปลี่ยนผ่านพลังงานกำลังกลายเป็นโจทย์ใหญ่ของประเทศ เมื่อวิกฤตภูมิรัฐศาสตร์ทำให้เห็นความเปราะบางของห่วงโซ่อุปทานน้ำมัน ขณะเดียวกันเป้าหมายลดการปล่อยก๊าซเรือนกระจกและการเติบโตของรถยนต์ไฟฟ้า (EV) กำลังเปลี่ยนรูปแบบการใช้เชื้อเพลิงใน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/P032311.jpg",
+   "score": 5,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "4e7fe30cbc98",
+   "title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+   "link": "https://www.infoquest.co.th/2026/683660",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T09:31:19Z",
+   "summary": "อัตราเงินเฟ้อรายปีของสวิตเซอร์แลนด์ในเดือนต.ค. พุ่งขึ้นเร็วกว่าคาดมาอยู่ที่ 1.5% จาก 1% ในเดือนก.ย. จุดกระแสคาดการณ์ว่าธนาคารกลางสวิตเซอร์แลนด์ (SNB) อาจปรับขึ้นอัตราดอกเบี้ยในเดือนธ.ค. นี้ ขณะที่ The post เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสล…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "monetary",
+    "inflation"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "110100249301",
+   "title": "คุยกับ ‘Mr.Messenger’ เทรนด์หุ้น AI ยังไปต่อ หรือพอแค่นี้ ?",
+   "link": "https://www.prachachat.net/finance/news-2099315",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T08:00:00Z",
+   "summary": "ตลอดปีที่ผ่านมา หุ้น AI เต็มไปด้วยความผันผวน มีช่วงที่ดีสุด ๆ และช่วงเลวร้ายมากปะปนกันไป มองไประยะข้างหน้า หลังจากขั้วการเมืองสหรัฐเปลี่ยน กระแสการลงทุนในหุ้น AI จะเป็นอย่างไร ยังมีโอกาสไปต่อ หรือควรจะพอแค่นี้ ? “ประชาชาติธุรกิจ” ได้พูดคุย…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/11-1-1.jpg",
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "36942d614046",
+   "title": "WSJ เผยแผนซัมมิต “ทรัมป์-คิม” ล่ม หลังเกาหลีเหนือยื่นเงื่อนไขที่สหรัฐฯ รับไม่ได้",
+   "link": "https://www.infoquest.co.th/2026/683645",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T07:25:41Z",
+   "summary": "หนังสือพิมพ์วอลล์สตรีท เจอร์นัล (WSJ) รายงานเมื่อวานนี้ (21 พ.ย.) ว่า ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐฯ พยายามหาทางพบปะกับคิม จองอึน ผู้นำเกาหลีเหนือ ระหว่างเดินทางเยือนเอเชียครั้งล่าสุด The post WSJ เผยแผนซัมมิต “ทรัมป์-คิม” ล่ม หลัง…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "deca3c27c622",
+   "title": "หุ้นเช่าซื้อ-จำนำทะเบียนรถ โกยกำไรฝ่าเศรษฐกิจ K-Shape ‘SCAP’ ลั่นชิงเค้ก มอ’ไซค์ EV",
+   "link": "https://www.prachachat.net/finance/news-2099641",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T06:54:16Z",
+   "summary": "ธุรกิจสินเชื่อเช่าซื้อ/จำนำทะเบียนรถ ประกาศงบการเงิน ไตรมาส 3/2569 และงวด 9 เดือนแรกปี 2569 กันแล้ว ทุกบริษัทยังคงทำกำไรได้ดี ท่ามกลางเศรษฐกิจไทยที่ฟื้นตัวยังไม่ทั่วถึง เริ่มจาก บริษัท เมืองไทย แคปปิตอล จำกัด (มหาชน) หรือ MTC เปิดผลการดำเน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/motor.jpg",
+   "score": 13,
+   "categories": [
+    "earnings",
+    "economy",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "cc3d530e5b13",
+   "title": "จีนจี้สหรัฐฯ ยกเลิกแผนสกัดค่ายโทรคมนาคม ซัดใช้อำนาจมิชอบ-เตือนกระทบสัมพันธ์การค้า",
+   "link": "https://www.infoquest.co.th/2026/683643",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T06:53:56Z",
+   "summary": "สำนักข่าวซินหัวรายงานว่า กระทรวงพาณิชย์จีนเรียกร้องในวันนี้ (22 พ.ย.) ให้สหรัฐฯ ยกเลิกข้อเสนอจำกัดสิทธิผู้ให้บริการโทรคมนาคมจีนในการขอใช้เลขหมายโทรศัพท์ของสหรัฐฯ โดยตรง พร้อมประกาศว่าจะใช้มาตรการที่จำ The post จีนจี้สหรัฐฯ ยกเลิกแผนสกัดค่า…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "5d3aa0002d44",
+   "title": "รมว.ศึกษาธิการเกาหลีใต้ลาออก เซ่นปมเปลี่ยนกฎสกัดใช้ AI โกงสอบเข้ามหาวิทยาลัยกะทันหัน ทำวุ่นรับวันสอบ",
+   "link": "https://www.infoquest.co.th/2026/683641",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T06:39:51Z",
+   "summary": "ทำเนียบประธานาธิบดีเกาหลีใต้ (บลูเฮาส์) เปิดเผยในวันนี้ (22 พ.ย.) ว่า ประธานาธิบดีอี แจ-มยอง อนุมัติให้ ชเว กโย-จิน รัฐมนตรีว่าการกระทรวงศึกษาธิการ ลาออกจากตำแหน่งแล้ว หลังชเวขอลาออกเพื่อแสดงความรับผิ The post รมว.ศึกษาธิการเกาหลีใต้ลาออก…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d9aa496a3ded",
+   "title": "เตรียมจัดงานลอยกระทง กระจาย 6 โซนทั่วกรุง 24 พ.ย. นี้ กระตุ้นเศรษฐกิจชุมชน-ท่องเที่ยวรับไฮซีซัน",
+   "link": "https://www.prachachat.net/biz-movement/news-2100454",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-22T05:05:00Z",
+   "summary": "เตรียมจัดงาน “ลอยกระทงไท ไทย สืบสานคุณค่า สู่คนรุ่นใหม่ เสน่ห์ไทยในมหานคร” ในวันอังคารที่ 24 พฤศจิกายน 2569 ตั้งแต่เวลา 16.00 น. เป็นต้นไป ปักหมุด 6 พื้นที่หลักทั่วกรุงเทพฯ ชูจุดขายออกร้านสาธิตอาหารพื้นถิ่นและงานหัตถกรรมจากเครือข่ายชุมชน ห…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/27278.jpg",
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "c62b14ee21f8",
    "title": "โพลชี้คนส่วนใหญ่หนุนม๊อบกำนันมะโน แต่ไม่มีแผนเข้าร่วมชุมนุม-มองข้อเสนอลดน้ำมัน 10 บาทเป็นไปได้ยาก",
