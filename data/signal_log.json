@@ -72,6 +72,19 @@
   "r1": 0.0,
   "x1": -0.1
  },
+ "baht_weak|AAV|2026-11-23": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่",
+  "news_link": "https://www.prachachat.net/finance/news-2100902",
+  "r1": -1.45,
+  "x1": -1.96,
+  "base_date": "2026-11-20"
+ },
  "baht_weak|CPF|2026-11-19": {
   "signal": "baht_weak",
   "signal_name": "บาทอ่อน",
@@ -84,6 +97,19 @@
   "base_date": "2026-11-18",
   "r1": -0.51,
   "x1": -0.61
+ },
+ "baht_weak|CPF|2026-11-23": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่",
+  "news_link": "https://www.prachachat.net/finance/news-2100902",
+  "r1": -1.03,
+  "x1": -1.54,
+  "base_date": "2026-11-20"
  },
  "baht_weak|DELTA|2026-11-19": {
   "signal": "baht_weak",
@@ -98,6 +124,19 @@
   "r1": 0.84,
   "x1": 0.74
  },
+ "baht_weak|DELTA|2026-11-23": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่",
+  "news_link": "https://www.prachachat.net/finance/news-2100902",
+  "r1": 1.44,
+  "x1": 0.93,
+  "base_date": "2026-11-20"
+ },
  "baht_weak|TU|2026-11-19": {
   "signal": "baht_weak",
   "signal_name": "บาทอ่อน",
@@ -110,6 +149,19 @@
   "base_date": "2026-11-18",
   "r1": 0.78,
   "x1": 0.68
+ },
+ "baht_weak|TU|2026-11-23": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่",
+  "news_link": "https://www.prachachat.net/finance/news-2100902",
+  "r1": 0.39,
+  "x1": -0.12,
+  "base_date": "2026-11-20"
  },
  "gold_up|AURA|2026-09-02": {
   "signal": "gold_up",
@@ -296,7 +348,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680654",
   "base_date": "2026-11-16",
   "r1": -2.67,
-  "x1": -1.2
+  "x1": -1.2,
+  "r5": -9.33,
+  "x5": -6.69
  },
  "oil_down|AAV|2026-11-18": {
   "signal": "oil_down",
@@ -414,7 +468,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680654",
   "base_date": "2026-11-16",
   "r1": -3.5,
-  "x1": -2.03
+  "x1": -2.03,
+  "r5": -5.47,
+  "x5": -2.82
  },
  "oil_down|BCP|2026-11-18": {
   "signal": "oil_down",
@@ -886,7 +942,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680654",
   "base_date": "2026-11-16",
   "r1": -1.72,
-  "x1": -0.25
+  "x1": -0.25,
+  "r5": -2.07,
+  "x5": 0.58
  },
  "oil_down|PTTEP|2026-11-18": {
   "signal": "oil_down",
@@ -1004,7 +1062,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680654",
   "base_date": "2026-11-16",
   "r1": -3.88,
-  "x1": -2.41
+  "x1": -2.41,
+  "r5": -3.36,
+  "x5": -0.71
  },
  "oil_down|PTT|2026-11-18": {
   "signal": "oil_down",
@@ -1122,7 +1182,9 @@
   "news_link": "https://www.infoquest.co.th/2026/680654",
   "base_date": "2026-11-16",
   "r1": -5.35,
-  "x1": -3.88
+  "x1": -3.88,
+  "r5": -7.82,
+  "x5": -5.17
  },
  "oil_down|TOP|2026-11-18": {
   "signal": "oil_down",
@@ -1572,7 +1634,9 @@
   "news_link": "https://www.infoquest.co.th/2026/681350",
   "r1": -2.67,
   "x1": -1.2,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -9.33,
+  "x5": -6.69
  },
  "oil_up|AAV|2026-11-19": {
   "signal": "oil_up",
@@ -1586,6 +1650,19 @@
   "base_date": "2026-11-18",
   "r1": 0.0,
   "x1": -0.1
+ },
+ "oil_up|AAV|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "r1": -1.45,
+  "x1": -1.96,
+  "base_date": "2026-11-20"
  },
  "oil_up|BCP|2026-09-01": {
   "signal": "oil_up",
@@ -1760,7 +1837,9 @@
   "news_link": "https://www.infoquest.co.th/2026/681350",
   "r1": -3.5,
   "x1": -2.03,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -5.47,
+  "x5": -2.82
  },
  "oil_up|BCP|2026-11-19": {
   "signal": "oil_up",
@@ -1774,6 +1853,19 @@
   "base_date": "2026-11-18",
   "r1": 0.92,
   "x1": 0.82
+ },
+ "oil_up|BCP|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "r1": 2.37,
+  "x1": 1.86,
+  "base_date": "2026-11-20"
  },
  "oil_up|COP|2026-09-01": {
   "signal": "oil_up",
@@ -1963,6 +2055,17 @@
   "r1": 0.34,
   "x1": 2.2
  },
+ "oil_up|COP|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "base_date": "2026-11-20"
+ },
  "oil_up|CVX|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -2150,6 +2253,17 @@
   "base_date": "2026-11-18",
   "r1": 0.21,
   "x1": 2.07
+ },
+ "oil_up|CVX|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "base_date": "2026-11-20"
  },
  "oil_up|DAL|2026-09-01": {
   "signal": "oil_up",
@@ -2339,6 +2453,17 @@
   "r1": -1.27,
   "x1": 0.59
  },
+ "oil_up|DAL|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "base_date": "2026-11-20"
+ },
  "oil_up|PTTEP|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -2512,7 +2637,9 @@
   "news_link": "https://www.infoquest.co.th/2026/681350",
   "r1": -1.72,
   "x1": -0.25,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -2.07,
+  "x5": 0.58
  },
  "oil_up|PTTEP|2026-11-19": {
   "signal": "oil_up",
@@ -2526,6 +2653,19 @@
   "base_date": "2026-11-18",
   "r1": 0.35,
   "x1": 0.25
+ },
+ "oil_up|PTTEP|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "r1": -1.39,
+  "x1": -1.89,
+  "base_date": "2026-11-20"
  },
  "oil_up|PTT|2026-09-01": {
   "signal": "oil_up",
@@ -2700,7 +2840,9 @@
   "news_link": "https://www.infoquest.co.th/2026/681350",
   "r1": -3.88,
   "x1": -2.41,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -3.36,
+  "x5": -0.71
  },
  "oil_up|PTT|2026-11-19": {
   "signal": "oil_up",
@@ -2714,6 +2856,19 @@
   "base_date": "2026-11-18",
   "r1": 0.0,
   "x1": -0.1
+ },
+ "oil_up|PTT|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "r1": 0.0,
+  "x1": -0.51,
+  "base_date": "2026-11-20"
  },
  "oil_up|TOP|2026-09-01": {
   "signal": "oil_up",
@@ -2888,7 +3043,9 @@
   "news_link": "https://www.infoquest.co.th/2026/681350",
   "r1": -5.35,
   "x1": -3.88,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -7.82,
+  "x5": -5.17
  },
  "oil_up|TOP|2026-11-19": {
   "signal": "oil_up",
@@ -2902,6 +3059,19 @@
   "base_date": "2026-11-18",
   "r1": 0.0,
   "x1": -0.1
+ },
+ "oil_up|TOP|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "r1": 0.0,
+  "x1": -0.51,
+  "base_date": "2026-11-20"
  },
  "oil_up|UAL|2026-09-01": {
   "signal": "oil_up",
@@ -3091,6 +3261,17 @@
   "r1": -1.27,
   "x1": 0.59
  },
+ "oil_up|UAL|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "base_date": "2026-11-20"
+ },
  "oil_up|XOM|2026-09-01": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -3278,6 +3459,17 @@
   "base_date": "2026-11-18",
   "r1": -1.03,
   "x1": 0.83
+ },
+ "oil_up|XOM|2026-11-23": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+  "news_link": "https://www.infoquest.co.th/2026/684092",
+  "base_date": "2026-11-20"
  },
  "rate_cut|BAC|2026-09-06": {
   "signal": "rate_cut",
@@ -3955,6 +4147,17 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
+ "rate_hike|BAC|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4288,7 +4491,9 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": -0.55,
+  "x1": -1.06
  },
  "rate_hike|BBL|2026-11-22": {
   "signal": "rate_hike",
@@ -4299,6 +4504,21 @@
   "date": "2026-11-22",
   "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
   "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20",
+  "r1": -0.55,
+  "x1": -1.06
+ },
+ "rate_hike|BBL|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "r1": -0.55,
+  "x1": -1.06,
   "base_date": "2026-11-20"
  },
  "rate_hike|CPN|2026-08-30": {
@@ -4634,7 +4854,9 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": -0.39,
+  "x1": -0.9
  },
  "rate_hike|CPN|2026-11-22": {
   "signal": "rate_hike",
@@ -4645,6 +4867,21 @@
   "date": "2026-11-22",
   "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
   "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20",
+  "r1": -0.39,
+  "x1": -0.9
+ },
+ "rate_hike|CPN|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "r1": -0.39,
+  "x1": -0.9,
   "base_date": "2026-11-20"
  },
  "rate_hike|DELTA|2026-08-30": {
@@ -4980,7 +5217,9 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": 1.44,
+  "x1": 0.93
  },
  "rate_hike|DELTA|2026-11-22": {
   "signal": "rate_hike",
@@ -4991,6 +5230,21 @@
   "date": "2026-11-22",
   "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
   "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20",
+  "r1": 1.44,
+  "x1": 0.93
+ },
+ "rate_hike|DELTA|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "r1": 1.44,
+  "x1": 0.93,
   "base_date": "2026-11-20"
  },
  "rate_hike|JPM|2026-08-30": {
@@ -5339,6 +5593,17 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
+ "rate_hike|JPM|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5672,7 +5937,9 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": 0.8,
+  "x1": 0.3
  },
  "rate_hike|KBANK|2026-11-22": {
   "signal": "rate_hike",
@@ -5683,6 +5950,21 @@
   "date": "2026-11-22",
   "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
   "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20",
+  "r1": 0.8,
+  "x1": 0.3
+ },
+ "rate_hike|KBANK|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "r1": 0.8,
+  "x1": 0.3,
   "base_date": "2026-11-20"
  },
  "rate_hike|LH|2026-08-30": {
@@ -6018,7 +6300,9 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": 0.0,
+  "x1": -0.51
  },
  "rate_hike|LH|2026-11-22": {
   "signal": "rate_hike",
@@ -6029,6 +6313,21 @@
   "date": "2026-11-22",
   "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
   "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20",
+  "r1": 0.0,
+  "x1": -0.51
+ },
+ "rate_hike|LH|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "r1": 0.0,
+  "x1": -0.51,
   "base_date": "2026-11-20"
  },
  "rate_hike|MSFT|2026-08-30": {
@@ -6377,6 +6676,17 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
+ "rate_hike|MSFT|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6723,6 +7033,17 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20"
  },
+ "rate_hike|NVDA|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "base_date": "2026-11-20"
+ },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -7056,7 +7377,9 @@
   "date": "2026-11-21",
   "news_title": "The Fed is too busy fighting inflation to rescue the stock market",
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": 0.66,
+  "x1": 0.15
  },
  "rate_hike|SCB|2026-11-22": {
   "signal": "rate_hike",
@@ -7067,6 +7390,21 @@
   "date": "2026-11-22",
   "news_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
   "news_link": "https://www.infoquest.co.th/2026/683660",
+  "base_date": "2026-11-20",
+  "r1": 0.66,
+  "x1": 0.15
+ },
+ "rate_hike|SCB|2026-11-23": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-23",
+  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+  "r1": 0.66,
+  "x1": 0.15,
   "base_date": "2026-11-20"
  },
  "tariff|AAPL|2026-09-06": {
@@ -7573,7 +7911,9 @@
   "news_link": "https://www.prachachat.net/world/news-2098328",
   "r1": -0.75,
   "x1": 0.72,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -4.48,
+  "x5": -1.83
  },
  "tariff|CPF|2026-11-18": {
   "signal": "tariff",
@@ -7610,7 +7950,9 @@
   "date": "2026-11-21",
   "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
   "news_link": "https://www.prachachat.net/columns/news-2099740",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": -1.03,
+  "x1": -1.54
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -7844,7 +8186,9 @@
   "news_link": "https://www.prachachat.net/world/news-2098328",
   "r1": -4.31,
   "x1": -2.84,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -5.12,
+  "x5": -2.47
  },
  "tariff|DELTA|2026-11-18": {
   "signal": "tariff",
@@ -7881,7 +8225,9 @@
   "date": "2026-11-21",
   "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
   "news_link": "https://www.prachachat.net/columns/news-2099740",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": 1.44,
+  "x1": 0.93
  },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
@@ -8115,7 +8461,9 @@
   "news_link": "https://www.prachachat.net/world/news-2098328",
   "r1": -2.47,
   "x1": -1.0,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": 2.02,
+  "x5": 4.66
  },
  "tariff|HANA|2026-11-18": {
   "signal": "tariff",
@@ -8152,7 +8500,9 @@
   "date": "2026-11-21",
   "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
   "news_link": "https://www.prachachat.net/columns/news-2099740",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": 4.36,
+  "x1": 3.85
  },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
@@ -8386,7 +8736,9 @@
   "news_link": "https://www.prachachat.net/world/news-2098328",
   "r1": -6.58,
   "x1": -5.11,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -7.02,
+  "x5": -4.37
  },
  "tariff|KCE|2026-11-18": {
   "signal": "tariff",
@@ -8423,7 +8775,9 @@
   "date": "2026-11-21",
   "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
   "news_link": "https://www.prachachat.net/columns/news-2099740",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": 4.95,
+  "x1": 4.44
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -8929,7 +9283,9 @@
   "news_link": "https://www.prachachat.net/world/news-2098328",
   "r1": -0.76,
   "x1": 0.71,
-  "base_date": "2026-11-16"
+  "base_date": "2026-11-16",
+  "r5": -2.27,
+  "x5": 0.37
  },
  "tariff|TU|2026-11-18": {
   "signal": "tariff",
@@ -8966,7 +9322,9 @@
   "date": "2026-11-21",
   "news_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
   "news_link": "https://www.prachachat.net/columns/news-2099740",
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r1": 0.39,
+  "x1": -0.12
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",

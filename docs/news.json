@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-23T02:40:41Z",
+  "generated_at": "2026-11-23T12:21:22Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,62 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 369
+  "total_kept": 385
  },
  "signals": [
   {
+   "id": "oil_up",
+   "name": "น้ำมันขึ้น",
+   "count": 2,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "พลังงาน/ปิโตรเลียม",
+     "set": [
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
+     ],
+     "us": [
+      "XOM",
+      "CVX",
+      "COP"
+     ],
+     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ขนส่ง",
+     "set": [
+      "AAV"
+     ],
+     "us": [
+      "DAL",
+      "UAL"
+     ],
+     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+     "link": "https://www.infoquest.co.th/2026/684092",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-23T11:10:57Z"
+    },
+    {
+     "title": "ประมงพื้นบ้านยื่น 4 ข้อใหญ่ จี้แก้น้ำมันแพง-อวนลาก ทบทวนแลนด์บริดจ์",
+     "link": "https://www.prachachat.net/economic/news-2100653",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-23T05:14:41Z"
+    }
+   ]
+  },
+  {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 1,
+   "count": 2,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -64,6 +113,12 @@
    ],
    "evidence": [
     {
+     "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+     "link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-23T10:57:00Z"
+    },
+    {
      "title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
      "link": "https://www.infoquest.co.th/2026/683660",
      "source": "อินโฟเควสท์",
@@ -72,85 +127,105 @@
    ]
   },
   {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "id": "baht_weak",
+   "name": "บาทอ่อน",
    "count": 1,
    "impacts": [
     {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "effect": "ได้ประโยชน์",
+     "sector": "ผู้ส่งออก",
      "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
       "CPF",
-      "TU"
+      "TU",
+      "DELTA"
      ],
-     "us": [
-      "AAPL",
-      "TSM"
+     "us": [],
+     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้มากขึ้น"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+     "set": [
+      "AAV"
      ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+     "us": [],
+     "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
     }
    ],
    "evidence": [
     {
-     "title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’",
-     "link": "https://www.prachachat.net/columns/news-2099740",
+     "title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่",
+     "link": "https://www.prachachat.net/finance/news-2100902",
      "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-21T12:13:14Z"
+     "published": "2026-11-23T11:25:15Z"
     }
    ]
   }
  ],
  "stories": [
   {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 13,
+   "new_24h": 3,
+   "latest": "2026-11-23T11:25:15Z",
+   "latest_title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่"
+  },
+  {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
-   "count": 24,
-   "new_24h": 1,
-   "latest": "2026-11-23T02:28:19Z",
-   "latest_title": "ราคาน้ำมันดิบได้รับแรงหนุนจากความเสี่ยงภูมิรัฐศาสตร์ในตะวันออกกลางและแรงซื้อก่อนวันหยุด Thanksgiving"
+   "count": 26,
+   "new_24h": 3,
+   "latest": "2026-11-23T11:10:57Z",
+   "latest_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%"
+  },
+  {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 18,
+   "new_24h": 2,
+   "latest": "2026-11-23T11:04:45Z",
+   "latest_title": "ก.ล.ต. แจ้งเตือนผู้ถือหุ้นกู้ PRIME จำนวน 4 รุ่น ใช้สิทธิในการประชุมผู้ถือหุ้นกู้ ในวันที่ 25 พ.ย. 69"
+  },
+  {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 42,
+   "new_24h": 2,
+   "latest": "2026-11-23T10:56:00Z",
+   "latest_title": "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
    "count": 19,
    "new_24h": 1,
-   "latest": "2026-11-23T02:17:23Z",
-   "latest_title": "ราคาทองวันนี้ (23 พ.ย. 69) ปรับขึ้น 750 บาท ทองรูปพรรณบาทละ 58,700 บาท"
+   "latest": "2026-11-23T10:35:00Z",
+   "latest_title": "ราคาทองวันนี้ (23 พ.ย. 69) ปรับขึ้น 1,200 บาท ทองรูปพรรณบาทละ 59,150 บาท"
   },
   {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 11,
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 17,
    "new_24h": 1,
-   "latest": "2026-11-23T02:13:12Z",
-   "latest_title": "ภาวะตลาดเงินบาท: เปิด 34.01 อ่อนค่าสุดรอบ 19 เดือน คาดกรอบวันนี้ 33.85-34.10"
+   "latest": "2026-11-23T06:19:08Z",
+   "latest_title": "สภาพัฒน์ชี้ Q3/69 อัตราการว่างงานเพิ่ม ด้านหนี้ครัวเรือน Q2 ลด หลังจีดีพีปรับตัวดีขึ้น"
   },
   {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 41,
+   "id": "bot",
+   "name": "แบงก์ชาติและดอกเบี้ยไทย",
+   "count": 20,
    "new_24h": 1,
-   "latest": "2026-11-22T17:00:00Z",
-   "latest_title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?"
+   "latest": "2026-11-23T06:14:44Z",
+   "latest_title": "แบงก์ชาติต่อมาตรการผ่อนชำระหนี้บัตรเครดิตขั้นต่ำ 8% อีก 2 ปี ยาวจนถึงปี’71"
   },
   {
    "id": "thai-us-china",
    "name": "ไทยกับสหรัฐ-จีน",
    "count": 4,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-22T10:18:38Z",
    "latest_title": "“อนุสรณ์” จี้รัฐบาลเปิดร่างข้อตกลงการค้าไทย-สหรัฐฯก่อนชงรัฐสภา หวั่นซ้ำเติมเกษตรกรรายย่อย"
-  },
-  {
-   "id": "bot",
-   "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 19,
-   "new_24h": 1,
-   "latest": "2026-11-22T09:31:19Z",
-   "latest_title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง"
   },
   {
    "id": "trade-war",
@@ -159,22 +234,6 @@
    "new_24h": 0,
    "latest": "2026-11-21T12:13:14Z",
    "latest_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’"
-  },
-  {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
-   "count": 16,
-   "new_24h": 0,
-   "latest": "2026-11-21T10:44:37Z",
-   "latest_title": "บล.กสิกรฯ คาดดัชนีหุ้นไทยสัปดาห์หน้า 1,410-1,490 ติดตามตัวเลขส่งออกต.ค.-สงครามตอ.กลาง-ทิศทางเงินทุนต่างชาติ"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 16,
-   "new_24h": 0,
-   "latest": "2026-11-21T03:03:00Z",
-   "latest_title": "เปิด 3 โจทย์ใหญ่เศรษฐกิจไทย ปลดล็อกสินเชื่อ SME-ปราบคอร์รัปชัน-รับมือโลกเปลี่ยน"
   },
   {
    "id": "fed",
@@ -186,6 +245,361 @@
   }
  ],
  "items": [
+  {
+   "id": "0b1117d12e99",
+   "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+   "link": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T12:16:00Z",
+   "summary": "CrowdStrike on Monday said it will acquire Zscaler in an all-stock transaction that values the company at approximately $43.9 billion.",
+   "image": "https://images.mktw.net/im-00182443",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c605b91918fc",
+   "title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่",
+   "link": "https://www.prachachat.net/finance/news-2100902",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T11:25:15Z",
+   "summary": "ศูนย์วิจัยกสิกรไทย ชี้เงินบาทปิดตลาดที่ระดับ 34.01 บาทต่อดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่ ระบุยังสอดคล้องกับสกุลเงินส่วนใหญ่ในเอเชีย ดร.กาญจนา โชคไพศาลศิลป์ ผู้บริหารงานวิจัย บริษัท ศูนย์วิจัยกสิกรไทย จำกัด เปิดเผยว่า เงินบาทอ่อนค่…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/06/bath.jpg",
+   "score": 8,
+   "categories": [
+    "fx"
+   ],
+   "signals": [
+    "baht_weak"
+   ],
+   "stories": [
+    "baht"
+   ]
+  },
+  {
+   "id": "e56492e3cd22",
+   "title": "ภาวะตลาดอนุพันธ์: รีบาวด์ระยะสั้น แรงซื้อกลับกลุ่มอิเล็กฯ แต่แนวโน้มยังลบอยู่",
+   "link": "https://www.infoquest.co.th/2026/684115",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T11:15:18Z",
+   "summary": "นายกิตติ บัวบึง, IAA นักวิเคราะห์กลยุทธ์ บล.พาย กล่าวว่า การซื้อขาย SET50 Index Futures วันนี้ดัชนีพยายามพยุงตัว โดยรีบาวด์ระยะสั้น จากหุ้นที่ปรับตัวลงก่อนหน้า อาทิ DELTA กลุ่มพลังงาน และกลุ่มธนาคาร The post ภาวะตลาดอนุพันธ์: รีบาวด์ระยะสั…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "8916edc329aa",
+   "title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
+   "link": "https://www.infoquest.co.th/2026/684092",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T11:10:57Z",
+   "summary": "นางเฉิดโฉม เทอดสถีรศักดิ์ ประธานเจ้าหน้าที่สายการเงินและการบัญชี บมจ.การบินไทย [THAI] กล่าวว่า ปี 70 ทิศทางธุรกิจยังคงรักษาผลการดำเนินงาน กำไรจากการดำเนินงาน ยังมีกลยุทธ์จัดการต้นทุนน้ำมัน The post THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับม…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "oil_energy",
+    "earnings"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "04adfcdee90f",
+   "title": "ก.ล.ต. แจ้งเตือนผู้ถือหุ้นกู้ PRIME จำนวน 4 รุ่น ใช้สิทธิในการประชุมผู้ถือหุ้นกู้ ในวันที่ 25 พ.ย. 69",
+   "link": "https://www.infoquest.co.th/2026/684186",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T11:04:45Z",
+   "summary": "สำนักงานคณะกรรมการกำกับหลักทรัพย์และตลาดหลักทรัพย์ (ก.ล.ต) เปิดเผยว่า ตามที่บมจ.ไพร์ม โรด เพาเวอร์ [PRIME] ในฐานะผู้ออกหุ้นกู้ PRIME253A PRIME253B PRIME25DA และ PRIME25DB ได้จัดให้มีการประชุมผู้ถือหุ้ The post ก.ล.ต. แจ้งเตือนผู้ถือหุ้นกู้…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "8a61b3a4c57a",
+   "title": "ก.ล.ต. แจ้งเตือนผู้ถือหุ้นกู้ NWR จำนวน 2 รุ่น ยื่นคำขอรับชำระหนี้ในคดีฟื้นฟูกิจการ ภายในวันที่ 16 ธ.ค. 69",
+   "link": "https://www.infoquest.co.th/2026/684152",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T10:59:18Z",
+   "summary": "สำนักงานคณะกรรมการกำกับหลักทรัพย์และตลาดหลักทรัพย์ (ก.ล.ต.) เปิดเผยว่า ตามที่ศาลล้มละลายกลางมีคำสั่งเมื่อวันที่ 8 กันยายน 2569 ให้ฟื้นฟูกิจการของบมจ.เนาวรัตน์พัฒนาการ [NWR] และตั้ง NWR เป็นผู้ทำแผน The post ก.ล.ต. แจ้งเตือนผู้ถือหุ้นกู้ NW…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "39db412a2a08",
+   "title": "KTAM ส่ง KT-ASIAV คว้าโอกาสหุ้นเอเชียคุณภาพดี ผ่านกลยุทธ์ Value Investing เปิด IPO 23 -27 พ.ย. นี้",
+   "link": "https://www.infoquest.co.th/2026/684147",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T10:58:34Z",
+   "summary": "นางชวินดา หาญรัตนกูล กรรมการผู้จัดการ บลจ.กรุงไทย (KTAM) เปิดเผยว่า ตลาดหุ้นเอเชียยังคงเป็นหนึ่งในภูมิภาคที่มีศักยภาพการเติบโตโดดเด่น จากการขยายตัวของเศรษฐกิจ การเติบโตของการบริโภคภายในประเทศ The post KTAM ส่ง KT-ASIAV คว้าโอกาสหุ้นเอเชียค…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a07664eb5a5f",
+   "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+   "link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T10:57:00Z",
+   "summary": "The Pershing Square Capital Management CEO wrote in a post on X that he thinks financial conditions have already considerably tightened.",
+   "image": "https://images.mktw.net/im-55417356",
+   "score": 8,
+   "categories": [
+    "monetary",
+    "economy"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": []
+  },
+  {
+   "id": "559598839ae4",
+   "title": "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang",
+   "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T10:56:00Z",
+   "summary": "Shares in Nvidia rose on Monday after a weekend of more developments, including the Trump administration pushing for the reinstatement of Jensen Huang to lead the company.",
+   "image": "https://images.mktw.net/im-56791397",
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "9066cb600dca",
+   "title": "ภาวะตลาดเงินบาท: ปิด 33.99 กลับมาแข็งค่ารับแรงขายดอลลาร์ แต่แนวโน้มยังอ่อนค่า",
+   "link": "https://www.infoquest.co.th/2026/684168",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T10:47:18Z",
+   "summary": "เงินบาท [USDTHB.X] ปิดตลาดเย็นนี้ อยู่ที่ระดับ 33.99 บาท/ดอลลาร์ จากช่วงเช้าที่เปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ นักบริหารเงินจากธนาคารกรุงศรีอยุธยา ระบุว่า ระหว่างวันเงินบาทเคลื่อนไหวในกรอบ 33.95 The post ภาวะตลาดเงินบาท: ปิด 33.99 กลับม…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "fx"
+   ],
+   "signals": [],
+   "stories": [
+    "baht"
+   ]
+  },
+  {
+   "id": "213e3c05a8c0",
+   "title": "ราคาทองวันนี้ (23 พ.ย. 69) ปรับขึ้น 1,200 บาท ทองรูปพรรณบาทละ 59,150 บาท",
+   "link": "https://www.prachachat.net/finance/news-2100488",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T10:35:00Z",
+   "summary": "อัพเดตล่าสุด 23 พ.ย. 2569 เวลา 17.10 น. ราคาทองคำวันนี้ (23 พ.ย. 2569) ปรับขึ้น 1,200 บาท เมื่อเทียบกับราคาปิดวานนี้ ทองรูปพรรณขายออกที่บาทละ 59,150 บาท อ้างอิงข้อมูลล่าสุดจากสมาคมค้าทองคำ ที่เผยแพร่ผ่านทางเว็บไซต์ เมื่อเวลา 17.10 น. ที่ผ่…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/08/12-1gold.jpg",
+   "score": 5,
+   "categories": [
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "8eefd73bc11d",
+   "title": "Stocks are serving up a ‘fat pitch’ for investors right now, says Morgan Stanley’s top strategist",
+   "link": "https://www.marketwatch.com/story/stocks-are-serving-up-a-fat-pitch-for-investors-right-now-as-morgan-stanleys-top-strategist-19abe30a?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T09:40:00Z",
+   "summary": "Morgan Stanley points to trough Nasdaq valuations, implied earnings declines and a capitulation in both sentiment and positioning as reasons to be bullish.",
+   "image": "https://images.mktw.net/im-52248123",
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "7186237fb2f5",
+   "title": "ทุเรียนไทยส่งออกจีนพุ่ง 30% ทะลุ 4.6 พันล้านดอลลาร์ พิธีสารใหม่ลดเสี่ยงถูกกักด่าน",
+   "link": "https://www.prachachat.net/economic/news-2100838",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T08:57:13Z",
+   "summary": "พาณิชย์ชี้พิธีสารส่งออกทุเรียนสดไทย-จีนฉบับใหม่ เพิ่มโอกาสรักษาตลาดส่งออกหลัก หลัง 9 เดือนแรกปี 2569 ไทยส่งออกทุเรียนสดไปจีนมูลค่า 4,624.6 ล้านดอลลาร์ โต 30.4% แซงยอดทั้งปี 2568 หวังยกระดับระบบตรวจสอบย้อนกลับ ลดความเสี่ยงถูกกักสินค้าหน้าด่…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__121782290.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0d020faafa3d",
+   "title": "สภาพัฒน์ชี้ Q3/69 อัตราการว่างงานเพิ่ม ด้านหนี้ครัวเรือน Q2 ลด หลังจีดีพีปรับตัวดีขึ้น",
+   "link": "https://www.prachachat.net/finance/news-2100682",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T06:19:08Z",
+   "summary": "สศช. ชี้ Q3/69 อัตราการว่างงานเพิ่ม ด้านหนี้ครัวเรือน Q2 ลด หลังจีดีพีปรับตัวดีขึ้น มองวิกฤตน้ำท่วมอาจเร่งหนี้ใหม่ซ้ำเติมหนี้เดิม แนะอย่าก่อหนี้หากไม่จำเป็น นายดนุชา พิชยนันท์ เลขาธิการสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (สศช.) หรือสภาพัฒน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/09/debt.jpg",
+   "score": 10,
+   "categories": [
+    "economy",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "e9fb920d3f29",
+   "title": "แบงก์ชาติต่อมาตรการผ่อนชำระหนี้บัตรเครดิตขั้นต่ำ 8% อีก 2 ปี ยาวจนถึงปี’71",
+   "link": "https://www.prachachat.net/finance/news-2100679",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T06:14:44Z",
+   "summary": "แบงก์ชาติขยายมาตรการผ่อนชำระหนี้บัตรเครดิตขั้นต่ำ 8% ยาวต่อเนื่องไปอีก 2 ปี ช่วยลูกหนี้ จนถึงสิ้นสุดปี 2571 จากแรงกดดันการฟื้นตัวของรายได้บางกลุ่มไม่เต็มที่ จากเดิมสิ้นสุดสิ้นปีนี้ นายวิทัย รัตนากร ผู้ว่าการธนาคารแห่งประเทศไทย (ธปท.) กล่าว…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-157.jpg",
+   "score": 3,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "7a6ca689a469",
+   "title": "เปิดเส้นทางใหม่ผลไม้ไทยบุกจีน ท่าเรือโขงโต 16 เท่า เร่งสปีดด่านบก-ดันลำไยส่งออก 2 แสนตัน",
+   "link": "https://www.prachachat.net/economic/news-2100656",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T05:28:05Z",
+   "summary": "การส่งออกผลไม้ไทยไปจีนกำลังมีช่องทางใหม่เพิ่มขึ้น หลังเส้นทางเดินเรือแม่น้ำล้านช้าง-แม่น้ำโขง จากท่าเรือเชียงแสน จังหวัดเชียงราย สู่ท่าเรือกวนเหล่ย มณฑลยูนนาน กลายเป็นอีกเส้นทางขนส่งที่มีศักยภาพ โดยช่วง 9 เดือนแรกปี 2569 จีนมีการนำเข้าผลไม…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Thai-Fruit-Export-at-Sunset-Port.png",
+   "score": 5,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e5149e5ac53d",
+   "title": "ประมงพื้นบ้านยื่น 4 ข้อใหญ่ จี้แก้น้ำมันแพง-อวนลาก ทบทวนแลนด์บริดจ์",
+   "link": "https://www.prachachat.net/economic/news-2100653",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T05:14:41Z",
+   "summary": "กรมประมงเปิดโต๊ะหารือสมาพันธ์ชาวประมงพื้นบ้านกว่า 200 คน รับข้อเสนอแก้ปัญหาปากท้องและฟื้นฟูทรัพยากรทะเล ครอบคลุม 4 วาระหลัก ทั้งผลักดันน้ำมันเขียวราคาถูก ปรับกฎหมายเรือประมง คุมเครื่องมือประมงผิดกฎหมาย เร่งคุ้มครองสัตว์น้ำวัยอ่อน พร้อมรับข…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/449847.jpg",
+   "score": 6,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
   {
    "id": "97481cc8d382",
    "title": "จีนหั่นเกณฑ์มาร์จินเหลือ 80% ลดค่าธรรมเนียมเทรด เร่งพยุงตลาดหลังหุ้นเทคฯ ดิ่งกว่า 40%",
@@ -245,27 +659,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "213e3c05a8c0",
-   "title": "ราคาทองวันนี้ (23 พ.ย. 69) ปรับขึ้น 750 บาท ทองรูปพรรณบาทละ 58,700 บาท",
-   "link": "https://www.prachachat.net/finance/news-2100488",
-   "source": "ประชาชาติธุรกิจ",
-   "feed": "prachachat",
-   "region": "TH",
-   "lang": "th",
-   "central_bank": false,
-   "published": "2026-11-23T02:17:23Z",
-   "summary": "อัพเดตล่าสุด 23 พ.ย. 2569 เวลา 09.09 น. ราคาทองคำวันนี้ (23 พ.ย. 2569) ปรับขึ้น 750 บาท เมื่อเทียบกับราคาปิดวานนี้ ทองรูปพรรณขายออกที่บาทละ 58,700 บาท อ้างอิงข้อมูลล่าสุดจากสมาคมค้าทองคำ ที่เผยแพร่ผ่านทางเว็บไซต์ เมื่อเวลา 09.09 น. ที่ผ่าน…",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/08/12-1gold.jpg",
-   "score": 5,
-   "categories": [
-    "gold"
-   ],
-   "signals": [],
-   "stories": [
-    "gold"
-   ]
   },
   {
    "id": "8803b195f571",
