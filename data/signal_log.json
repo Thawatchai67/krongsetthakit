@@ -4508,19 +4508,6 @@
   "r1": -0.55,
   "x1": -1.06
  },
- "rate_hike|BBL|2026-11-23": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "BBL",
-  "market": "SET",
-  "effect": "up",
-  "date": "2026-11-23",
-  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
-  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
-  "r1": -0.55,
-  "x1": -1.06,
-  "base_date": "2026-11-20"
- },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4871,19 +4858,6 @@
   "r1": -0.39,
   "x1": -0.9
  },
- "rate_hike|CPN|2026-11-23": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "CPN",
-  "market": "SET",
-  "effect": "down",
-  "date": "2026-11-23",
-  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
-  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
-  "r1": -0.39,
-  "x1": -0.9,
-  "base_date": "2026-11-20"
- },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5233,19 +5207,6 @@
   "base_date": "2026-11-20",
   "r1": 1.44,
   "x1": 0.93
- },
- "rate_hike|DELTA|2026-11-23": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "DELTA",
-  "market": "SET",
-  "effect": "down",
-  "date": "2026-11-23",
-  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
-  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
-  "r1": 1.44,
-  "x1": 0.93,
-  "base_date": "2026-11-20"
  },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
@@ -5954,19 +5915,6 @@
   "r1": 0.8,
   "x1": 0.3
  },
- "rate_hike|KBANK|2026-11-23": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "KBANK",
-  "market": "SET",
-  "effect": "up",
-  "date": "2026-11-23",
-  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
-  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
-  "r1": 0.8,
-  "x1": 0.3,
-  "base_date": "2026-11-20"
- },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6316,19 +6264,6 @@
   "base_date": "2026-11-20",
   "r1": 0.0,
   "x1": -0.51
- },
- "rate_hike|LH|2026-11-23": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "LH",
-  "market": "SET",
-  "effect": "down",
-  "date": "2026-11-23",
-  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
-  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
-  "r1": 0.0,
-  "x1": -0.51,
-  "base_date": "2026-11-20"
  },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
@@ -7393,19 +7328,6 @@
   "base_date": "2026-11-20",
   "r1": 0.66,
   "x1": 0.15
- },
- "rate_hike|SCB|2026-11-23": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "SCB",
-  "market": "SET",
-  "effect": "up",
-  "date": "2026-11-23",
-  "news_title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
-  "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
-  "r1": 0.66,
-  "x1": 0.15,
-  "base_date": "2026-11-20"
  },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T12:21:47Z",
+ "generated_at": "2026-11-23T12:40:48Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
@@ -289,23 +289,23 @@
    "price": 34.0,
    "change_pct": 0.17,
    "currency": "THB",
-   "asof": "2026-11-23T12:21:45Z",
+   "asof": "2026-11-23T12:40:41Z",
    "key": "USDTHB",
    "name": "ดอลลาร์/บาท"
   },
   {
-   "price": 3617.9,
-   "change_pct": 2.92,
+   "price": 3614.1,
+   "change_pct": 2.81,
    "currency": "USD",
-   "asof": "2026-11-23T12:11:42Z",
+   "asof": "2026-11-23T12:30:41Z",
    "key": "GOLD",
    "name": "ทองคำ"
   },
   {
-   "price": 82.41,
-   "change_pct": -1.87,
+   "price": 82.32,
+   "change_pct": -1.98,
    "currency": "USD",
-   "asof": "2026-11-23T12:11:39Z",
+   "asof": "2026-11-23T12:30:35Z",
    "key": "OIL",
    "name": "น้ำมัน WTI"
   },
@@ -318,10 +318,10 @@
    "name": "บอนด์สหรัฐ 10 ปี"
   },
   {
-   "price": 30.22,
-   "change_pct": -15.8,
+   "price": 31.09,
+   "change_pct": -13.37,
    "currency": "USD",
-   "asof": "2026-11-23T12:06:31Z",
+   "asof": "2026-11-23T12:25:31Z",
    "key": "VIX",
    "name": "VIX ดัชนีความกลัว"
   }
