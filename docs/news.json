@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-24T10:51:58Z",
+  "generated_at": "2026-11-24T21:07:42Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -14,21 +14,16 @@
    "bank_property": "ธนาคาร",
    "stock_market": "ตลาดหุ้น"
   },
-  "feeds_ok": 4,
-  "feed_errors": [
-   {
-    "feed": "prachachat",
-    "error": "IncompleteRead(7847 bytes read)"
-   }
-  ],
-  "total_raw": 55,
-  "total_kept": 405
+  "feeds_ok": 5,
+  "feed_errors": [],
+  "total_raw": 85,
+  "total_kept": 427
  },
  "signals": [
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 3,
+   "count": 5,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -69,29 +64,29 @@
    ],
    "evidence": [
     {
+     "title": "ราคาทองร่วงเกือบ 1% นลท.กังวลเฟดขึ้นดอกเบี้ย",
+     "link": "https://www.infoquest.co.th/2026/684910",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-24T14:37:48Z"
+    },
+    {
+     "title": "ประธานเฟดนิวยอร์กส่งสัญญาณเดินหน้าขึ้นดอกเบี้ยเพื่อควบคุมเงินเฟ้อ",
+     "link": "https://www.infoquest.co.th/2026/684893",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-24T12:21:45Z"
+    },
+    {
      "title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
      "link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
      "source": "MarketWatch",
      "published": "2026-11-24T09:58:00Z"
-    },
-    {
-     "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-     "link": "https://www.infoquest.co.th/2026/684211",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-24T00:12:20Z"
-    },
-    {
-     "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
-     "link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-23T10:57:00Z"
     }
    ]
   },
   {
    "id": "oil_up",
    "name": "น้ำมันขึ้น",
-   "count": 2,
+   "count": 3,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -123,6 +118,12 @@
     }
    ],
    "evidence": [
+    {
+     "title": "ราคาน้ำมันโลกดีดตัว หลังเกิดเหตุโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
+     "link": "https://www.infoquest.co.th/2026/684914",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-24T16:30:02Z"
+    },
     {
      "title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
      "link": "https://www.infoquest.co.th/2026/684092",
@@ -220,66 +221,74 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 46,
-   "new_24h": 5,
-   "latest": "2026-11-23T23:39:04Z",
-   "latest_title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดพุ่ง 1.8% รับข่าว Nvidia แต่งตั้งเจนเซน หวง กลับนั่งซีอีโอ คลายกังวลตลาด"
+   "count": 49,
+   "new_24h": 7,
+   "latest": "2026-11-24T20:42:00Z",
+   "latest_title": "A bipartisan backlash is hitting Nvidia in Washington in the wake of Trump’s push for Huang’s return"
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 27,
+   "new_24h": 4,
+   "latest": "2026-11-24T16:43:20Z",
+   "latest_title": "บอนด์ยีลด์ร่วงหลุด 4.9% นักลงทุนจับตาถ้อยแถลงเจ้าหน้าที่เฟด"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 22,
+   "new_24h": 4,
+   "latest": "2026-11-24T14:37:48Z",
+   "latest_title": "ราคาทองร่วงเกือบ 1% นลท.กังวลเฟดขึ้นดอกเบี้ย"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 28,
+   "new_24h": 2,
+   "latest": "2026-11-24T16:30:02Z",
+   "latest_title": "ราคาน้ำมันโลกดีดตัว หลังเกิดเหตุโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ"
+  },
+  {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 19,
+   "new_24h": 2,
+   "latest": "2026-11-24T12:10:13Z",
+   "latest_title": "อังกฤษเปิดทางเจรจา FTA ไทย-UK “ศุภจี” เร่งชงกรอบเจรจาเข้า ครม."
   },
   {
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
    "count": 20,
-   "new_24h": 4,
+   "new_24h": 2,
    "latest": "2026-11-24T10:16:32Z",
    "latest_title": "ภาวะตลาดหุ้นไทย:ปิดลบ 2.84 จุด แกว่งผันผวน ตลาดไร้ปัจจัยใหม่ จับตาตัวเลข PCE สหรัฐ"
+  },
+  {
+   "id": "bot",
+   "name": "แบงก์ชาติและดอกเบี้ยไทย",
+   "count": 22,
+   "new_24h": 2,
+   "latest": "2026-11-24T10:07:34Z",
+   "latest_title": "เคลียร์แล้ว ! ผู้ว่าฯ ธปท. คุยประธานบอร์ด นานกว่า 1 ชม. ยัน ‘ทุกอย่าง OK’"
+  },
+  {
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
+   "count": 17,
+   "new_24h": 1,
+   "latest": "2026-11-24T18:36:37Z",
+   "latest_title": "💥*ด่วน!!! สหรัฐเตรียมเรียกเก็บ “ภาษีทรัมป์” รอบใหม่ ไทยโดนด้วย!"
   },
   {
    "id": "baht",
    "name": "ทิศทางเงินบาท",
    "count": 14,
-   "new_24h": 2,
+   "new_24h": 1,
    "latest": "2026-11-24T10:37:54Z",
    "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.92/93 แกว่งกรอบแคบ ไร้ปัจจัยใหม่หนุนทิศทาง รอลุ้นตัวเลข PCE สหรัฐ"
-  },
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 21,
-   "new_24h": 2,
-   "latest": "2026-11-24T00:15:26Z",
-   "latest_title": "World Markets: สรุปภาวะตลาดหุ้น น้ำมัน ทองคำ และตลาดเงินต่างประเทศ"
-  },
-  {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 27,
-   "new_24h": 2,
-   "latest": "2026-11-23T23:41:24Z",
-   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 18,
-   "new_24h": 1,
-   "latest": "2026-11-24T10:22:14Z",
-   "latest_title": "ครม. ไฟเขียวร่าง MOU โครงข่ายทางหลวงอาเซียน หนุนเชื่อมโยงการค้า-ขนส่งภูมิภาค"
-  },
-  {
-   "id": "bot",
-   "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 21,
-   "new_24h": 1,
-   "latest": "2026-11-24T10:05:55Z",
-   "latest_title": "ผู้ว่าฯ ธปท. บอก “ทุกอย่างโอเค” หลังเข้าเคลียร์ใจ ปธ. บอร์ดแบงก์ชาติ นานกว่าชั่วโมง"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 24,
-   "new_24h": 1,
-   "latest": "2026-11-24T00:12:20Z",
-   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง"
   },
   {
    "id": "thai-us-china",
@@ -288,17 +297,303 @@
    "new_24h": 0,
    "latest": "2026-11-22T10:18:38Z",
    "latest_title": "“อนุสรณ์” จี้รัฐบาลเปิดร่างข้อตกลงการค้าไทย-สหรัฐฯก่อนชงรัฐสภา หวั่นซ้ำเติมเกษตรกรรายย่อย"
-  },
-  {
-   "id": "trade-war",
-   "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 16,
-   "new_24h": 0,
-   "latest": "2026-11-21T12:13:14Z",
-   "latest_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’"
   }
  ],
  "items": [
+  {
+   "id": "55f1d79b591e",
+   "title": "A bipartisan backlash is hitting Nvidia in Washington in the wake of Trump’s push for Huang’s return",
+   "link": "https://www.marketwatch.com/story/a-bipartisan-backlash-is-hitting-nvidia-in-washington-in-the-wake-of-trumps-push-for-huangs-return-565626f2?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-24T20:42:00Z",
+   "summary": "Congress appears even more likely to OK new restrictions on the chip giant’s dealings with China — and it’s calling for more investigations, additional hearings and briefings",
+   "image": "https://images.mktw.net/im-96418474",
+   "score": 7,
+   "categories": [
+    "tech_ai",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "b8758a591ac7",
+   "title": "GameStop has been saved by trading cards and even Rolex watches, say Wall Street’s newest bulls",
+   "link": "https://www.marketwatch.com/story/gamestop-has-been-saved-by-trading-cards-and-even-rolex-watches-say-wall-streets-newest-bulls-a932d74c?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-24T19:48:00Z",
+   "summary": "GameStop’s base of fervent retail investors is still intact, but Needham analysts say more institutional investors should take note of the company’s transformation.",
+   "image": "https://images.mktw.net/im-796776",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "582089811a38",
+   "title": "💥*ด่วน!!! สหรัฐเตรียมเรียกเก็บ “ภาษีทรัมป์” รอบใหม่ ไทยโดนด้วย!",
+   "link": "https://www.infoquest.co.th/2026/684920",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T18:36:37Z",
+   "summary": "สำนักข่าวรอยเตอร์รายงานว่า รัฐบาลของประธานาธิบดีโดนัลด์ ทรัมป์ กำลังเตรียมเผยแพร่ผลการสอบสวนเกี่ยวกับกำลังการผลิตส่วนเกินในภาคอุตสาหกรรมของประเทศคู่ค้ารายใหญ่ของสหรัฐจำนวน 16 แห่ง โดยคาดว่าจะมีการเรีย The post 💥*ด่วน!!! สหรัฐเตรียมเรียกเก็…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "003dcc8f0a7e",
+   "title": "บอนด์ยีลด์ร่วงหลุด 4.9% นักลงทุนจับตาถ้อยแถลงเจ้าหน้าที่เฟด",
+   "link": "https://www.infoquest.co.th/2026/684916",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T16:43:20Z",
+   "summary": "อัตราผลตอบแทนพันธบัตรรัฐบาลสหรัฐอายุ 10 ปีร่วงหลุดระดับ 4.9% ในวันนี้ ขณะที่นักลงทุนจับตาถ้อยแถลงของเจ้าหน้าที่ธนาคารกลางสหรัฐ (เฟด) ณ เวลา 23.34 น. ตามเวลาไทย อัตราผลตอบแทนพันธบัตรรัฐบาลอายุ 10 ปี The post บอนด์ยีลด์ร่วงหลุด 4.9% นักลงทุน…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "0563bbe9e5e8",
+   "title": "ราคาน้ำมันโลกดีดตัว หลังเกิดเหตุโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
+   "link": "https://www.infoquest.co.th/2026/684914",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T16:30:02Z",
+   "summary": "ราคาน้ำมันโลกดีดตัวขึ้นในวันนี้ โดยได้แรงหนุนจากการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซที่ยังคงเกิดขึ้นอย่างต่อเนื่อง ณ เวลา 22.42 น.ตามเวลาไทย ราคาน้ำมันดิบเวสต์เท็กซัส (WTI) [WTI.X] The post ราคาน้ำมันโลกดีดตัว หลังเกิดเหตุโจมตีเรือบรรท…",
+   "image": null,
+   "score": 11,
+   "categories": [
+    "oil_energy",
+    "trade_geo"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "5c4ced90e8f6",
+   "title": "ราคาทองร่วงเกือบ 1% นลท.กังวลเฟดขึ้นดอกเบี้ย",
+   "link": "https://www.infoquest.co.th/2026/684910",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T14:37:48Z",
+   "summary": "ราคาทองร่วงลงเกือบ 1% ในวันนี้ โดยถูกกดดันจากการคาดการณ์เกี่ยวกับการปรับขึ้นอัตราดอกเบี้ยของธนาคารกลางสหรัฐ (เฟด) ณ เวลา 21.10 น.ตามเวลาไทย ราคาทองสปอต [GOLD.X] ลบ 35.60 ดอลลาร์ หรือ 0.97% สู่ระดับ The post ราคาทองร่วงเกือบ 1% นลท.กังวลเฟด…",
+   "image": null,
+   "score": 14,
+   "categories": [
+    "monetary",
+    "gold"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed",
+    "gold"
+   ]
+  },
+  {
+   "id": "0a66f87086d5",
+   "title": "คาดสหรัฐเผยดัชนี PCE +3.8% เดือนต.ค. จาก +3.6% เดือนก.ย.",
+   "link": "https://www.infoquest.co.th/2026/684908",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T14:14:22Z",
+   "summary": "นักลงทุนจับตาดัชนีราคาการใช้จ่ายเพื่อการบริโภคส่วนบุคคล (PCE) ที่จะมีการเปิดเผยในวันพรุ่งนี้ โดยดัชนี PCE เป็นมาตรวัดเงินเฟ้อที่ธนาคารกลางสหรัฐ (เฟด) ให้ความสำคัญ เนื่องจากสามารถตรวจจับการเปลี่ยนแปลงใ The post คาดสหรัฐเผยดัชนี PCE +3.8% เด…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "inflation",
+    "stock_market",
+    "monetary"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b930cd7d458c",
+   "title": "“ทรัมป์” เตรียมไถ่ชีวิตไก่งวงคืนนี้ ฉลองเทศกาลขอบคุณพระเจ้า",
+   "link": "https://www.infoquest.co.th/2026/684905",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T13:49:10Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ จะร่วมเฉลิมฉลองเทศกาลขอบคุณพระเจ้า (Thanksgiving) โดยจะทำพิธีไถ่ชีวิตไก่งวงที่ทำเนียบขาวในวันนี้ (24 พ.ย.) เวลา 14.00 น.ตามเวลาสหรัฐ หรือตรงกับวันพุธที่ 25 พ.ย. เวลา 02.00 The post “ทรัมป์” เตรียมไถ่ชีวิตไก่งวงคื…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "764ff02c0620",
+   "title": "ดาวโจนส์ฟิวเจอร์/S&P 500/Nasdaq พร้อมใจร่วง ส่งสัญญาณวอลล์สตรีทพักฐาน หลังพุ่งแรงวานนี้",
+   "link": "https://www.infoquest.co.th/2026/684896",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T13:05:14Z",
+   "summary": "ดัชนีดาวโจนส์ฟิวเจอร์ร่วงลงกว่า 200 จุดในวันนี้ สอดคล้องดัชนี S&P 500 ฟิวเจอร์ และ Nasdaq ฟิวเจอร์ที่ปรับตัวลงเช่นกัน ส่งสัญญาณการพักฐานของตลาดหุ้นวอลล์สตรีท หลังจากพุ่งขึ้นอย่างมากในการซื้อขายวาน The post ดาวโจนส์ฟิวเจอร์/S&P 500/Nasdaq พ…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "4a0b586a3f0e",
+   "title": "ประธานเฟดนิวยอร์กส่งสัญญาณเดินหน้าขึ้นดอกเบี้ยเพื่อควบคุมเงินเฟ้อ",
+   "link": "https://www.infoquest.co.th/2026/684893",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T12:21:45Z",
+   "summary": "นายจอห์น วิลเลียมส์ ประธานธนาคารกลางสหรัฐ (เฟด) สาขานิวยอร์ก กล่าวว่า เฟดยังคงมีงานที่ต้องทำอีกมาก เพื่อควบคุมเงินเฟ้อให้อยู่ในระดับที่เหมาะสม ทั้งนี้ นายวิลเลียมส์แสดงความเชื่อมั่นว่า The post ประธานเฟดนิวยอร์กส่งสัญญาณเดินหน้าขึ้นดอกเบี้…",
+   "image": null,
+   "score": 13,
+   "categories": [
+    "monetary",
+    "inflation"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "005f0c91f613",
+   "title": "“มาดามแป้ง” ซื้อหุ้น MTI เพิ่ม 75,500 หุ้น ดันยอดถือครองทะลุ 104 ล้านหุ้น",
+   "link": "https://www.prachachat.net/finance/news-2101715",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T12:17:11Z",
+   "summary": "นวลพรรณ ล่ำซำ” กรรมการและซีอีโอเมืองไทยประกันภัย (MTI) รายงาน ก.ล.ต. เข้าซื้อหุ้น MTI เพิ่มจำนวน 75,500 หุ้น ผ่านระบบซื้อขายของตลาดหลักทรัพย์ฯ ส่งผลให้ถือหุ้นเพิ่มเป็น 104,072,070 หุ้น ผู้สื่อข่าวรายงานว่า จากการตรวจสอบข้อมูลรายงานการเปลี่…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/10/Cover-94.jpg",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c0b7d58684d1",
+   "title": "อังกฤษเปิดทางเจรจา FTA ไทย-UK “ศุภจี” เร่งชงกรอบเจรจาเข้า ครม.",
+   "link": "https://www.prachachat.net/economic/news-2101710",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T12:10:13Z",
+   "summary": "สหราชอาณาจักรเปิดรับฟังความคิดเห็นภาคธุรกิจ เตรียมเปิดเจรจา FTA ไทย-UK “ศุภจี” ขานรับ เร่งประเมินผลกระทบ-จัดทำกรอบเจรจาเสนอ ครม. ชี้โอกาสขยายตลาดส่งออกไก่แปรรูป อาหารทะเล อัญมณี และยานยนต์ พร้อมดึงลงทุนพลังงานสะอาด-เศรษฐกิจสีเขียว ต่อยอดกา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/514523.jpg",
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "7a181648a8eb",
+   "title": "สถาบันวิจัยเศรษฐกิจป๋วยฯ เผย SMEs กู้ยาก-ครัวเรือนหนี้เกินตัวจี้รื้อระบบสินเชื่อ รวมศูนย์ข้อมูลเครดิต",
+   "link": "https://www.prachachat.net/finance/news-2101706",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T12:08:12Z",
+   "summary": "สถาบันวิจัยเศรษฐกิจป๋วยฯ เผย SMEs ไทย 2.9 ล้านราย เข้าถึงสินเชื่อในระบบเพียง 1 ใน 3 ขณะที่สินเชื่อวงเงินต่ำกว่า 1 แสนบาท 97% กระจุกอยู่กับ 4 ธนาคาร ส่วนครัวเรือน 40% มีหนี้เกินตัว เสนอเพิ่มการแข่งขันสินเชื่อรายเล็ก ยกระดับกำกับ Non-bank รว…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/messageImage_1795521327141.jpg",
+   "score": 10,
+   "categories": [
+    "bank_property",
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3e55f6edf17a",
+   "title": "BKIH กำไร 9 เดือนพุ่ง 24.8% แตะ 3,365 ล้าน เคาะปันผล 4.50 บาท จ่าย 11 ธ.ค.นี้",
+   "link": "https://www.prachachat.net/finance/news-2101623",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:45:20Z",
+   "summary": "บีเคไอ โฮลดิ้งส์ (BKIH) โชว์กำไรสุทธิ 9 เดือนแรกปี 2569 ที่ 3,365 ล้านบาท โต 24.8% รับแรงหนุนรายได้จากการลงทุนสุทธิพุ่ง 53% บอร์ดอนุมัติจ่ายปันผลไตรมาส 3 หุ้นละ 4.50 บาท ดันยอดปันผล 9 เดือนรวม 18 บาทต่อหุ้น ด้านกรุงเทพประกันภัย (BKI) ทำกำไ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2024/06/Money-3.jpg",
+   "score": 5,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "b1a0c06fbbf3",
    "title": "ภาวะตลาดเงินบาท: ปิด 33.92/93 แกว่งกรอบแคบ ไร้ปัจจัยใหม่หนุนทิศทาง รอลุ้นตัวเลข PCE สหรัฐ",
@@ -320,6 +615,44 @@
    "stories": [
     "baht"
    ]
+  },
+  {
+   "id": "c16892efdd8c",
+   "title": "TNL ชู“Oxygen Asset”ธุรกิจสินเชื่อระยะสั้นแบบมีหลักประกัน เชื่อมโยงเงินทุนกับโอกาสเติบโต",
+   "link": "https://www.prachachat.net/finance/news-2101607",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:32:56Z",
+   "summary": "ธนูลักษณ์ เจาะตลาดสินเชื่อบุคคลและนิติบุคคลผ่าน“ออกซิเจน แอสเซ็ท” ผู้ให้บริการสินเชื่อที่มีหลักประกัน สามารถนำที่ดินและอสังหาริมทรัพย์ที่มีเอกสารสิทธิ์เป็นหลักประกันในการเข้าถึงเงินทุน พร้อมช่วยประเมินผู้ขอสินเชื่อ และหาทางออกกรณีเกิดปัญหา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/%E0%B8%9B%E0%B8%81-%E0%B8%97%E0%B8%B5%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B9%81%E0%B8%AD%E0%B8%A5.jpg",
+   "score": 5,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "ba3bd1bded0c",
+   "title": "กรุงเทพฯ สู่ฮับการเงินดิจิทัลเอเชีย Binance Blockchain Week 2026 ชู Stablecoin-Tokenization-AI พลิกโฉมโลกการเงิน",
+   "link": "https://www.prachachat.net/biz-movement/news-2101508",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:30:00Z",
+   "summary": "ใกล้เข้ามาแล้วสำหรับอีเวนต์ด้านเทคโนโลยีและการเงินระดับโลกอย่าง “Binance Blockchain Week Bangkok 2026 – Asia Edition, in partnership with Binance TH” ซึ่งมีกำหนดจัดขึ้นระหว่างวันที่ 28–29 พฤศจิกายน 2569 ณ ฮอลล์ 3 ศูนย์การประชุมแห่งชาติสิริ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/TH_BBW-BKK-2026-banner-4x2_0-scaled.jpg",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
   },
   {
    "id": "acab2ea107ab",
@@ -365,6 +698,27 @@
    ]
   },
   {
+   "id": "1eb6b698c98d",
+   "title": "เคลียร์แล้ว ! ผู้ว่าฯ ธปท. คุยประธานบอร์ด นานกว่า 1 ชม. ยัน ‘ทุกอย่าง OK’",
+   "link": "https://www.prachachat.net/finance/news-2101595",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:07:34Z",
+   "summary": "วิทัย ผู้ว่าการ ธปท. เข้าพบหารือ สมชัย ประธาน ธปท. ใช้เวลากว่า 1 ชั่วโมง ทำความเข้าใจกรณีเกิดความเข้าใจคลาดเคลื่อนในบางประเด็น ก่อนออกจากห้องประชุมตอบสื่อสั้น ๆ ว่า “ทุกอย่างโอเค” ผู้สื่อข่าวรายงานว่า จากกรณีประเด็นร้อนใน ธนาคารแห่งประเทศไ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/11/cover-2025-11-11T173925.939.jpg",
+   "score": 5,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
    "id": "85683e8cb8e8",
    "title": "ผู้ว่าฯ ธปท. บอก “ทุกอย่างโอเค” หลังเข้าเคลียร์ใจ ปธ. บอร์ดแบงก์ชาติ นานกว่าชั่วโมง",
    "link": "https://www.infoquest.co.th/2026/684816",
@@ -407,6 +761,27 @@
    ]
   },
   {
+   "id": "2a5dd12fb62c",
+   "title": "ราคาทองวันนี้ (24 พ.ย. 69) ปรับลง 150 บาท ทองรูปพรรณบาทละ 59,000 บาท",
+   "link": "https://www.prachachat.net/finance/news-2101001",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:01:00Z",
+   "summary": "อัพเดตล่าสุด 24 พ.ย. 2569 เวลา 16.35 น. ราคาทองคำวันนี้ (24 พ.ย. 2569) ปรับลง 150 บาท เมื่อเทียบกับราคาปิดวานนี้ ทองรูปพรรณขายออกที่บาทละ 59,000 บาท อ้างอิงข้อมูลล่าสุดจากสมาคมค้าทองคำ ที่เผยแพร่ผ่านทางเว็บไซต์ เมื่อเวลา 16.35 น. ที่ผ่านมา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/02/Gold-2.jpg",
+   "score": 5,
+   "categories": [
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
    "id": "bf8f26fc1c48",
    "title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
    "link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
@@ -423,6 +798,106 @@
    "signals": [
     "rate_hike"
    ],
+   "stories": []
+  },
+  {
+   "id": "6a8b2657566f",
+   "title": "WSJ เผยเบื้องหลัง หวง ยอมรับกับบอร์ด Nvidia ยังมีชู้มากกว่า 4 คน",
+   "link": "https://www.prachachat.net/tech/news-2101534",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T09:27:32Z",
+   "summary": "The Wall Street Journal เผย เจนเซน หวง ยอมรับกับบอร์ด Nvidia ว่ามีความสัมพันธ์นอกสมรสมากกว่าที่เคยปรากฏเป็นข่าว ระหว่างการประชุมลับหลายชั่วโมง ก่อนกรรมการมีมติเอกฉันท์คืนตำแหน่งซีอีโอ India Today รายงานว่า เจนเซน หวง ผู้ร่วมก่อตั้งและประธา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/messageImage_1795512033188.jpg",
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "fc73ecbec81c",
+   "title": "สถาบันวิจัยเศรษฐกิจป๋วยฯ ชี้ครัวเรือน-เอสเอ็มอี กู้เงินนอกระบบมากถึง 1 ใน 3 ของสินเชื่อรวม ชง 3 แนวทางปลดล็อก",
+   "link": "https://www.prachachat.net/finance/news-2101552",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T09:20:58Z",
+   "summary": "สถาบันวิจัยเศรษฐกิจป๋วยฯ ชี้ธุรกิจนอกระบบมีจำนวนถึง 2.5 ล้านราย หรือ 78% ส่วนสินเชื่อนอกระบบครองสัดส่วนหนึ่งในสามของภาคครัวเรือน-เอสเอ็มอี อัตราดอกเบี้ยสูงเฉลี่ย 50% ต่อปี หรือบางกรณีสูงถึง 100-200% ต่อปี แรงงานนอกระบบมีถึง 65% เสนอ 3 ทางแ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/09/money-1.jpg",
+   "score": 9,
+   "categories": [
+    "economy",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f8d53883f0f8",
+   "title": "สหรัฐฯ แบล็คลิสต์ Megaspeed-บริษัทในอาเซียนอีก 6 แห่ง สกัดลักลอบส่งชิป AI",
+   "link": "https://www.prachachat.net/tech/news-2101457",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T08:56:33Z",
+   "summary": "กระทรวงพาณิชย์สหรัฐฯ ได้ขึ้นบัญชีดำทางการค้ากับบริษัท ‘Megaspeed’ และนิติบุคคลในเครือและบริษัทในภูมิภาคอาเซียนรวมทั้งหมด 7 แห่ง ซึ่งมี Megaspeed (Thailand) และบริษัทในเครือ Alibaba สหรัฐฯอ้างเหตุผลด้านความมั่นคงของชาติ นโยบายต่างประเทศ และ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Megaspeed-Blacklisted.png",
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "402f587714d0",
+   "title": "บอร์ดโคนมเคาะนำเข้านมปี’70 กว่า 1.26 แสนตัน เร่งแก้วิกฤตน้ำนมดิบล้นตลาด",
+   "link": "https://www.prachachat.net/economic/news-2101530",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T08:42:14Z",
+   "summary": "บอร์ดโคนมไฟเขียวโควตาและปริมาณนำเข้าสินค้านมปี 2570 รวมกว่า 1.26 แสนตัน แบ่งนำเข้านมผงขาดมันเนยภายใต้ความตกลงไทย-ออสเตรเลีย และไทย-นิวซีแลนด์ 2 รอบ สัดส่วน 70 : 30 ด้านสหกรณ์เสนอชะลอนำเข้ารอบสองหากกระทบเกษตรกรไทย พร้อมเร่งใช้ Big Data จัดส…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/565427.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "346da2f935ee",
+   "title": "“สุริยะ” สั่งรับมือลำไยนอกฤดู 4.8 แสนตัน ตั้งมิสเตอร์ลำไย เร่งส่งออก-ระบายผลผลิต",
+   "link": "https://www.prachachat.net/economic/news-2101518",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T08:40:12Z",
+   "summary": "“สุริยะ” สั่งด่วนรับมือผลผลิตลำไยนอกฤดูภาคเหนือ-ตะวันออก รอเก็บเกี่ยวกว่า 4.8 แสนตัน จ่อออกสู่ตลาดมากช่วง ธ.ค. 2569-ม.ค. 2570 ตั้งอธิบดีกรมส่งเสริมการเกษตรเป็น “มิสเตอร์ลำไย” เรียกประชุม Fruit Board เร่งขยายตลาดส่งออกจีน-อินโดนีเซีย พร้อมร…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Thai-Official-Discusses-Abundant-Longan-Harvest.png",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
    "stories": []
   },
   {
@@ -1962,27 +2437,6 @@
    "signals": [],
    "stories": [
     "thai-economy"
-   ]
-  },
-  {
-   "id": "70b1b3f16844",
-   "title": "ราคาทองวันนี้ (21 พ.ย.) ปรับลง 450 บาท ทองรูปพรรณบาทละ 57,950.00 บาท",
-   "link": "https://www.prachachat.net/finance/news-2100202",
-   "source": "ประชาชาติธุรกิจ",
-   "feed": "prachachat",
-   "region": "TH",
-   "lang": "th",
-   "central_bank": false,
-   "published": "2026-11-21T02:23:59Z",
-   "summary": "ราคาทองวันนี้ (21 พ.ย. 69) ปรับลง 450 บาท ทองรูปพรรณ รับซื้ออบาทละ 55,803.96 บาท ขายออกบาทละ 57,950.00 บาท ราคาทองวันนี้ (21 พฤศจิกายน 2569) ปรับลง 450 บาท เมื่อเปรียบเทียบกับราคาปิดวานนี้ โดยราคาทองรูปพรรณขยับมาอยู่ที่บาทละ 57,950.00 บาท…",
-   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/cover-2025-06-12T103025.617.jpg",
-   "score": 4,
-   "categories": [
-    "gold"
-   ],
-   "signals": [],
-   "stories": [
-    "gold"
    ]
   },
   {
