@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-24T10:52:21Z",
+ "generated_at": "2026-11-24T14:52:36Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
-   "evaluated": 375,
-   "hit_rate": 52.5,
-   "avg_edge": 0.37
+   "evaluated": 384,
+   "hit_rate": 53.1,
+   "avg_edge": 0.38
   }
  },
  "backfill": 363,
@@ -13,14 +13,14 @@
   "total": 621,
   "news": 72,
   "d1": {
-   "evaluated": 493,
-   "hit_rate": 52.7,
+   "evaluated": 502,
+   "hit_rate": 52.6,
    "avg_edge": -0.04
   },
   "d5": {
-   "evaluated": 375,
-   "hit_rate": 52.5,
-   "avg_edge": 0.37
+   "evaluated": 384,
+   "hit_rate": 53.1,
+   "avg_edge": 0.38
   },
   "d20": {
    "evaluated": 300,
@@ -50,9 +50,9 @@
    "avg_edge": -2.9
   },
   "BAC": {
-   "evaluated": 18,
-   "hit_rate": 27.8,
-   "avg_edge": -2.6
+   "evaluated": 19,
+   "hit_rate": 31.6,
+   "avg_edge": -2.46
   },
   "BBL": {
    "evaluated": 19,
@@ -65,9 +65,9 @@
    "avg_edge": -1.21
   },
   "COP": {
-   "evaluated": 15,
-   "hit_rate": 60.0,
-   "avg_edge": 0.53
+   "evaluated": 16,
+   "hit_rate": 62.5,
+   "avg_edge": 0.58
   },
   "CPF": {
    "evaluated": 1,
@@ -80,14 +80,14 @@
    "avg_edge": 0.75
   },
   "CVX": {
-   "evaluated": 15,
-   "hit_rate": 66.7,
-   "avg_edge": 0.84
+   "evaluated": 16,
+   "hit_rate": 68.8,
+   "avg_edge": 0.86
   },
   "DAL": {
-   "evaluated": 15,
-   "hit_rate": 40.0,
-   "avg_edge": 0.03
+   "evaluated": 16,
+   "hit_rate": 43.8,
+   "avg_edge": 0.14
   },
   "DELTA": {
    "evaluated": 24,
@@ -105,9 +105,9 @@
    "avg_edge": 5.98
   },
   "JPM": {
-   "evaluated": 18,
-   "hit_rate": 27.8,
-   "avg_edge": -0.89
+   "evaluated": 19,
+   "hit_rate": 26.3,
+   "avg_edge": -0.94
   },
   "KBANK": {
    "evaluated": 19,
@@ -125,9 +125,9 @@
    "avg_edge": 0.19
   },
   "MSFT": {
-   "evaluated": 18,
-   "hit_rate": 44.4,
-   "avg_edge": -0.5
+   "evaluated": 19,
+   "hit_rate": 47.4,
+   "avg_edge": -0.45
   },
   "NEM": {
    "evaluated": 2,
@@ -135,9 +135,9 @@
    "avg_edge": 1.12
   },
   "NVDA": {
-   "evaluated": 22,
-   "hit_rate": 40.9,
-   "avg_edge": -0.34
+   "evaluated": 23,
+   "hit_rate": 39.1,
+   "avg_edge": -0.43
   },
   "PTT": {
    "evaluated": 16,
@@ -170,14 +170,14 @@
    "avg_edge": 0.97
   },
   "UAL": {
-   "evaluated": 15,
-   "hit_rate": 60.0,
-   "avg_edge": 0.26
+   "evaluated": 16,
+   "hit_rate": 62.5,
+   "avg_edge": 0.45
   },
   "XOM": {
-   "evaluated": 15,
-   "hit_rate": 53.3,
-   "avg_edge": 1.14
+   "evaluated": 16,
+   "hit_rate": 56.2,
+   "avg_edge": 1.26
   }
  },
  "signals": [
@@ -185,14 +185,14 @@
    "total": 230,
    "news": 23,
    "d1": {
-    "evaluated": 226,
-    "hit_rate": 50.9,
-    "avg_edge": -0.38
+    "evaluated": 230,
+    "hit_rate": 51.3,
+    "avg_edge": -0.35
    },
    "d5": {
-    "evaluated": 166,
-    "hit_rate": 45.8,
-    "avg_edge": -0.06
+    "evaluated": 170,
+    "hit_rate": 45.9,
+    "avg_edge": -0.08
    },
    "d20": {
     "evaluated": 150,
@@ -248,14 +248,14 @@
    "total": 90,
    "news": 9,
    "d1": {
-    "evaluated": 85,
-    "hit_rate": 47.1,
-    "avg_edge": 0.06
+    "evaluated": 90,
+    "hit_rate": 45.6,
+    "avg_edge": -0.02
    },
    "d5": {
-    "evaluated": 55,
-    "hit_rate": 49.1,
-    "avg_edge": 0.07
+    "evaluated": 60,
+    "hit_rate": 53.3,
+    "avg_edge": 0.24
    },
    "d20": {
     "evaluated": 20,
