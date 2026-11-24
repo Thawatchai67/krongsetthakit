@@ -363,7 +363,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682061",
   "r1": -1.37,
   "x1": -1.07,
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r5": -2.74,
+  "x5": -2.04
  },
  "oil_down|AAV|2026-11-19": {
   "signal": "oil_down",
@@ -494,7 +496,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682061",
   "r1": -1.59,
   "x1": -1.29,
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r5": -1.81,
+  "x5": -1.12
  },
  "oil_down|BCP|2026-11-19": {
   "signal": "oil_down",
@@ -1018,7 +1022,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682061",
   "r1": 0.35,
   "x1": 0.65,
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r5": -1.05,
+  "x5": -0.36
  },
  "oil_down|PTTEP|2026-11-19": {
   "signal": "oil_down",
@@ -1149,7 +1155,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682061",
   "r1": 0.54,
   "x1": 0.84,
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r5": 0.81,
+  "x5": 1.5
  },
  "oil_down|PTT|2026-11-19": {
   "signal": "oil_down",
@@ -1280,7 +1288,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682061",
   "r1": 0.0,
   "x1": 0.3,
-  "base_date": "2026-11-17"
+  "base_date": "2026-11-17",
+  "r5": -3.48,
+  "x5": -2.78
  },
  "oil_down|TOP|2026-11-19": {
   "signal": "oil_down",
@@ -4304,17 +4314,6 @@
   "r1": 2.34,
   "x1": -2.39
  },
- "rate_hike|BAC|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "BAC",
-  "market": "US",
-  "effect": "up",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
- },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4611,7 +4610,9 @@
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
   "base_date": "2026-11-17",
   "r1": -1.09,
-  "x1": -0.79
+  "x1": -0.79,
+  "r5": -1.36,
+  "x5": -0.67
  },
  "rate_hike|BBL|2026-11-19": {
   "signal": "rate_hike",
@@ -4677,17 +4678,6 @@
   "r1": -0.55,
   "x1": -1.06,
   "base_date": "2026-11-20"
- },
- "rate_hike|BBL|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "BBL",
-  "market": "SET",
-  "effect": "up",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
  },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
@@ -4985,7 +4975,9 @@
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
   "base_date": "2026-11-17",
   "r1": -0.75,
-  "x1": -0.46
+  "x1": -0.46,
+  "r5": -2.64,
+  "x5": -1.94
  },
  "rate_hike|CPN|2026-11-19": {
   "signal": "rate_hike",
@@ -5051,17 +5043,6 @@
   "r1": -0.39,
   "x1": -0.9,
   "base_date": "2026-11-20"
- },
- "rate_hike|CPN|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "CPN",
-  "market": "SET",
-  "effect": "down",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
  },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
@@ -5359,7 +5340,9 @@
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
   "base_date": "2026-11-17",
   "r1": 0.85,
-  "x1": 1.14
+  "x1": 1.14,
+  "r5": 3.1,
+  "x5": 3.8
  },
  "rate_hike|DELTA|2026-11-19": {
   "signal": "rate_hike",
@@ -5425,17 +5408,6 @@
   "r1": 1.44,
   "x1": 0.93,
   "base_date": "2026-11-20"
- },
- "rate_hike|DELTA|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "DELTA",
-  "market": "SET",
-  "effect": "down",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
  },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
@@ -5800,17 +5772,6 @@
   "r1": 1.97,
   "x1": -2.75
  },
- "rate_hike|JPM|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "JPM",
-  "market": "US",
-  "effect": "up",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
- },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6107,7 +6068,9 @@
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
   "base_date": "2026-11-17",
   "r1": -1.57,
-  "x1": -1.27
+  "x1": -1.27,
+  "r5": -1.57,
+  "x5": -0.87
  },
  "rate_hike|KBANK|2026-11-19": {
   "signal": "rate_hike",
@@ -6173,17 +6136,6 @@
   "r1": 0.8,
   "x1": 0.3,
   "base_date": "2026-11-20"
- },
- "rate_hike|KBANK|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "KBANK",
-  "market": "SET",
-  "effect": "up",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
  },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
@@ -6481,7 +6433,9 @@
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
   "base_date": "2026-11-17",
   "r1": -1.11,
-  "x1": -0.81
+  "x1": -0.81,
+  "r5": -2.78,
+  "x5": -2.08
  },
  "rate_hike|LH|2026-11-19": {
   "signal": "rate_hike",
@@ -6547,17 +6501,6 @@
   "r1": 0.0,
   "x1": -0.51,
   "base_date": "2026-11-20"
- },
- "rate_hike|LH|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "LH",
-  "market": "SET",
-  "effect": "down",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
  },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
@@ -6922,17 +6865,6 @@
   "r1": 1.65,
   "x1": -3.08
  },
- "rate_hike|MSFT|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "MSFT",
-  "market": "US",
-  "effect": "down",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
- },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -7296,17 +7228,6 @@
   "r1": 31.48,
   "x1": 26.75
  },
- "rate_hike|NVDA|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "NVDA",
-  "market": "US",
-  "effect": "down",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
- },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -7603,7 +7524,9 @@
   "news_link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
   "base_date": "2026-11-17",
   "r1": -0.32,
-  "x1": -0.03
+  "x1": -0.03,
+  "r5": 0.0,
+  "x5": 0.7
  },
  "rate_hike|SCB|2026-11-19": {
   "signal": "rate_hike",
@@ -7669,17 +7592,6 @@
   "r1": 0.66,
   "x1": 0.15,
   "base_date": "2026-11-20"
- },
- "rate_hike|SCB|2026-11-24": {
-  "signal": "rate_hike",
-  "signal_name": "ขึ้นดอกเบี้ย",
-  "ticker": "SCB",
-  "market": "SET",
-  "effect": "up",
-  "date": "2026-11-24",
-  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
-  "news_link": "https://www.infoquest.co.th/2026/684211",
-  "base_date": "2026-11-23"
  },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",
@@ -8204,7 +8116,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2098392",
   "base_date": "2026-11-17",
   "r1": -1.5,
-  "x1": -1.21
+  "x1": -1.21,
+  "r5": -2.76,
+  "x5": -2.06
  },
  "tariff|CPF|2026-11-20": {
   "signal": "tariff",
@@ -8479,7 +8393,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2098392",
   "base_date": "2026-11-17",
   "r1": 0.85,
-  "x1": 1.14
+  "x1": 1.14,
+  "r5": 3.1,
+  "x5": 3.8
  },
  "tariff|DELTA|2026-11-20": {
   "signal": "tariff",
@@ -8754,7 +8670,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2098392",
   "base_date": "2026-11-17",
   "r1": 6.21,
-  "x1": 6.51
+  "x1": 6.51,
+  "r5": 9.89,
+  "x5": 10.58
  },
  "tariff|HANA|2026-11-20": {
   "signal": "tariff",
@@ -9029,7 +8947,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2098392",
   "base_date": "2026-11-17",
   "r1": 3.29,
-  "x1": 3.58
+  "x1": 3.58,
+  "r5": 3.76,
+  "x5": 4.45
  },
  "tariff|KCE|2026-11-20": {
   "signal": "tariff",
@@ -9580,7 +9500,9 @@
   "news_link": "https://www.prachachat.net/economic/news-2098392",
   "base_date": "2026-11-17",
   "r1": -1.53,
-  "x1": -1.23
+  "x1": -1.23,
+  "r5": 0.38,
+  "x5": 1.08
  },
  "tariff|TU|2026-11-20": {
   "signal": "tariff",
