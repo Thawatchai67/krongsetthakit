@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-23T12:21:22Z",
+  "generated_at": "2026-11-24T00:47:21Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,9 +17,72 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 385
+  "total_kept": 399
  },
  "signals": [
+  {
+   "id": "rate_hike",
+   "name": "ขึ้นดอกเบี้ย",
+   "count": 3,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "ธนาคาร",
+     "set": [
+      "KBANK",
+      "SCB",
+      "BBL"
+     ],
+     "us": [
+      "JPM",
+      "BAC"
+     ],
+     "why": "ส่วนต่างดอกเบี้ย (NIM) มักกว้างขึ้น"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "อสังหาริมทรัพย์",
+     "set": [
+      "LH",
+      "CPN"
+     ],
+     "us": [],
+     "why": "ต้นทุนการเงินสูงขึ้น"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "หุ้นเติบโต/เทคโนโลยี",
+     "set": [
+      "DELTA"
+     ],
+     "us": [
+      "NVDA",
+      "MSFT"
+     ],
+     "why": "อัตราคิดลดสูงขึ้นกดมูลค่าหุ้นเติบโต"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
+     "link": "https://www.infoquest.co.th/2026/684211",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-24T00:12:20Z"
+    },
+    {
+     "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+     "link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-23T10:57:00Z"
+    },
+    {
+     "title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
+     "link": "https://www.infoquest.co.th/2026/683660",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-22T09:31:19Z"
+    }
+   ]
+  },
   {
    "id": "oil_up",
    "name": "น้ำมันขึ้น",
@@ -70,59 +133,45 @@
    ]
   },
   {
-   "id": "rate_hike",
-   "name": "ขึ้นดอกเบี้ย",
-   "count": 2,
+   "id": "oil_down",
+   "name": "น้ำมันลง",
+   "count": 1,
    "impacts": [
     {
+     "effect": "ถูกกดดัน",
+     "sector": "พลังงาน/ปิโตรเลียม",
+     "set": [
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
+     ],
+     "us": [
+      "XOM",
+      "CVX",
+      "COP"
+     ],
+     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
+    },
+    {
      "effect": "ได้ประโยชน์",
-     "sector": "ธนาคาร",
+     "sector": "สายการบิน/ขนส่ง",
      "set": [
-      "KBANK",
-      "SCB",
-      "BBL"
+      "AAV"
      ],
      "us": [
-      "JPM",
-      "BAC"
+      "DAL",
+      "UAL"
      ],
-     "why": "ส่วนต่างดอกเบี้ย (NIM) มักกว้างขึ้น"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "อสังหาริมทรัพย์",
-     "set": [
-      "LH",
-      "CPN"
-     ],
-     "us": [],
-     "why": "ต้นทุนการเงินสูงขึ้น"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "หุ้นเติบโต/เทคโนโลยี",
-     "set": [
-      "DELTA"
-     ],
-     "us": [
-      "NVDA",
-      "MSFT"
-     ],
-     "why": "อัตราคิดลดสูงขึ้นกดมูลค่าหุ้นเติบโต"
+     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
     }
    ],
    "evidence": [
     {
-     "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
-     "link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-23T10:57:00Z"
-    },
-    {
-     "title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
-     "link": "https://www.infoquest.co.th/2026/683660",
+     "title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง",
+     "link": "https://www.infoquest.co.th/2026/684204",
      "source": "อินโฟเควสท์",
-     "published": "2026-11-22T09:31:19Z"
+     "published": "2026-11-23T23:41:24Z"
     }
    ]
   },
@@ -164,20 +213,36 @@
  ],
  "stories": [
   {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 46,
+   "new_24h": 5,
+   "latest": "2026-11-23T23:39:04Z",
+   "latest_title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดพุ่ง 1.8% รับข่าว Nvidia แต่งตั้งเจนเซน หวง กลับนั่งซีอีโอ คลายกังวลตลาด"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 27,
+   "new_24h": 4,
+   "latest": "2026-11-23T23:41:24Z",
+   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 21,
+   "new_24h": 3,
+   "latest": "2026-11-24T00:15:26Z",
+   "latest_title": "World Markets: สรุปภาวะตลาดหุ้น น้ำมัน ทองคำ และตลาดเงินต่างประเทศ"
+  },
+  {
    "id": "baht",
    "name": "ทิศทางเงินบาท",
    "count": 13,
    "new_24h": 3,
    "latest": "2026-11-23T11:25:15Z",
    "latest_title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่"
-  },
-  {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 26,
-   "new_24h": 3,
-   "latest": "2026-11-23T11:10:57Z",
-   "latest_title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%"
   },
   {
    "id": "thai-market",
@@ -188,20 +253,12 @@
    "latest_title": "ก.ล.ต. แจ้งเตือนผู้ถือหุ้นกู้ PRIME จำนวน 4 รุ่น ใช้สิทธิในการประชุมผู้ถือหุ้นกู้ ในวันที่ 25 พ.ย. 69"
   },
   {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 42,
-   "new_24h": 2,
-   "latest": "2026-11-23T10:56:00Z",
-   "latest_title": "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang"
-  },
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 19,
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 24,
    "new_24h": 1,
-   "latest": "2026-11-23T10:35:00Z",
-   "latest_title": "ราคาทองวันนี้ (23 พ.ย. 69) ปรับขึ้น 1,200 บาท ทองรูปพรรณบาทละ 59,150 บาท"
+   "latest": "2026-11-24T00:12:20Z",
+   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง"
   },
   {
    "id": "thai-economy",
@@ -234,17 +291,308 @@
    "new_24h": 0,
    "latest": "2026-11-21T12:13:14Z",
    "latest_title": "วิกฤตสารพิษ เขย่า ‘ครัวของโลก’"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 23,
-   "new_24h": 0,
-   "latest": "2026-11-21T00:31:45Z",
-   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์พักฐาน หลังแข็งค่าต่อเนื่อง 8 วัน นักลงทุนจับตาทิศทางดอกเบี้ยเฟด"
   }
  ],
  "items": [
+  {
+   "id": "b9b6dd2913cf",
+   "title": "World Markets: สรุปภาวะตลาดหุ้น น้ำมัน ทองคำ และตลาดเงินต่างประเทศ",
+   "link": "https://www.infoquest.co.th/2026/684253",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T00:15:26Z",
+   "summary": "ดัชนีและภาวะตลาดหุ้น น้ำมัน ทองคำ และตลาดเงินต่างประเทศ ประจำวันที่ 23 พ.ย. 2569 ทั้งนี้ ดัชนีเฉลี่ยอุตสาหกรรมดาวโจนส์ [DJI.X] ปิดที่ 49,595.31 จุด เพิ่มขึ้น 1,447.98 จุด หรือ +3.01%, ดัชนี The post World Markets: สรุปภาวะตลาดหุ้น น้ำมัน ท…",
+   "image": null,
+   "score": 14,
+   "categories": [
+    "stock_market",
+    "oil_energy",
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "7995ee435559",
+   "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
+   "link": "https://www.infoquest.co.th/2026/684211",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T00:12:20Z",
+   "summary": "สกุลเงินดอลลาร์สหรัฐแข็งค่าเมื่อเทียบกับสกุลเงินหลัก ๆ ในการซื้อขายที่ตลาดปริวรรตเงินตรานิวยอร์กในวันจันทร์ (23 พ.ย.) หลังจากบอร์ดบริหารของบริษัท Nvidia มีมติแต่งตั้งให้ เจนเซน หวง The post ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เ…",
+   "image": null,
+   "score": 17,
+   "categories": [
+    "monetary",
+    "fx",
+    "tech_ai"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "62be691c37fd",
+   "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองปิดพุ่ง $136 นลท.ช้อนซื้อหลังราคาร่วงหนัก จับตาดัชนี PCE สหรัฐฯ",
+   "link": "https://www.infoquest.co.th/2026/684207",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T23:57:50Z",
+   "summary": "สัญญาทองคำตลาดนิวยอร์กปิดพุ่งขึ้นในวันจันทร์ (23 พ.ย.) โดยได้แรงหนุนจากการที่นักลงทุนเข้ามาช้อนซื้อ หลังจากราคาทองคำร่วงลงติดต่อกันหลายวันก่อนหน้านี้ ขณะที่นักลงทุนจับตาการเปิดเผยดัชนีราคาการใช้จ่ายเพ The post ภาวะตลาดทองคำนิวยอร์ก: ทองปิด…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "gold",
+    "stock_market",
+    "inflation"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "c2df06a3f4dc",
+   "title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดพุ่ง 1.3% รับแรงซื้อหุ้นเทคโนโลยี",
+   "link": "https://www.infoquest.co.th/2026/684265",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T23:53:28Z",
+   "summary": "ตลาดหุ้นลอนดอนปิดพุ่งขึ้นในวันจันทร์ (23 พ.ย.) โดยนักลงทุนทั่วโลกกลับมาเปิดรับความเสี่ยงอีกครั้ง หลังมีรายงานข่าวว่า Nvidia บริษัทผู้ผลิตชิปรายใหญ่แต่งตั้ง เจนเซน หวง กลับมาดำรงตำแหน่งประธานเจ้าหน้าที The post ภาวะตลาดหุ้นลอนดอน: FTSE 100…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "cb11ed797353",
+   "title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง",
+   "link": "https://www.infoquest.co.th/2026/684204",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T23:41:24Z",
+   "summary": "สัญญาน้ำมันดิบเวสต์เท็กซัส (WTI) ตลาดนิวยอร์กปิดร่วงลงในวันจันทร์ (23 พ.ย.) หลังมีรายงานว่าอุปทานน้ำมันจากตะวันออกกลางปรับตัวสูงขึ้นและท่อส่งน้ำมันในประเทศลิเบียกลับมาใช้งานได้อีกครั้ง ทั้งนี้ The post ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "oil_energy",
+    "trade_geo"
+   ],
+   "signals": [
+    "oil_down"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "00749af42cdb",
+   "title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดพุ่ง 1.8% รับข่าว Nvidia แต่งตั้งเจนเซน หวง กลับนั่งซีอีโอ คลายกังวลตลาด",
+   "link": "https://www.infoquest.co.th/2026/684256",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-23T23:39:04Z",
+   "summary": "ตลาดหุ้นยุโรปปิดบวกแข็งแกร่งที่สุดในรอบกว่า 6 เดือนในวันจันทร์ (23 พ.ย.) โดยได้รับแรงหนุนจากหุ้นกลุ่มเทคโนโลยี หลังบริษัท Nvidia แต่งตั้ง เจนเซน หวง กลับมาดำรงตำแหน่งประธานเจ้าหน้าที่บริหารอีกครั้ง The post ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดพ…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "eca751c3cc22",
+   "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
+   "link": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T23:18:00Z",
+   "summary": "SharkNinja will join the S&P 500, replacing AES.",
+   "image": "https://images.mktw.net/im-79339834",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3df0fac4819b",
+   "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T22:04:00Z",
+   "summary": "Jensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility",
+   "image": "https://images.mktw.net/im-93028733",
+   "score": 6,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "132a8126f799",
+   "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+   "link": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T21:51:00Z",
+   "summary": "Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.",
+   "image": "https://images.mktw.net/im-11808731",
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "1273406ed2c6",
+   "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
+   "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T21:45:00Z",
+   "summary": "Shares of Kroger and Tyson Foods fall, as Nvidia storms higher",
+   "image": "https://images.mktw.net/im-05512747",
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "dade4541a6c0",
+   "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
+   "link": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T21:36:00Z",
+   "summary": "Huang’s comeback offers relief to the battered AI trade and drives major boosts across the tech sector.",
+   "image": "https://images.mktw.net/im-93778378",
+   "score": 7,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "564931ea5664",
+   "title": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
+   "link": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T21:33:00Z",
+   "summary": "Amazon’s deal for Decart’s AI technology, with a reported price of $7.5 billion, may be a relatively inexpensive way to boost the speed and efficiency of its custom chips, says an analyst.",
+   "image": "https://images.mktw.net/im-71032583",
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e10705ac0f6e",
+   "title": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
+   "link": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T21:24:00Z",
+   "summary": "Nvidia’s financing of the AI ecosystem has been crucial for cloud companies like Oracle, CoreWeave, Nebius and Iren.",
+   "image": "https://images.mktw.net/im-36916244",
+   "score": 8,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0ec33f301d02",
+   "title": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
+   "link": "https://www.marketwatch.com/story/short-sellers-get-smoked-as-nvidia-tallies-biggest-one-day-gain-in-stock-market-history-e9dc6e9c?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-23T21:19:00Z",
+   "summary": "Two products aiming to profit off daily declines in Nvidia shares were nearly wiped out as the stock rallied more than 30%.",
+   "image": "https://images.mktw.net/im-63949548",
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
   {
    "id": "0b1117d12e99",
    "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
