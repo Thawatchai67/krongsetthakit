@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-24T00:47:21Z",
+  "generated_at": "2026-11-24T10:51:58Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -14,10 +14,15 @@
    "bank_property": "ธนาคาร",
    "stock_market": "ตลาดหุ้น"
   },
-  "feeds_ok": 5,
-  "feed_errors": [],
-  "total_raw": 85,
-  "total_kept": 399
+  "feeds_ok": 4,
+  "feed_errors": [
+   {
+    "feed": "prachachat",
+    "error": "IncompleteRead(7847 bytes read)"
+   }
+  ],
+  "total_raw": 55,
+  "total_kept": 405
  },
  "signals": [
   {
@@ -64,6 +69,12 @@
    ],
    "evidence": [
     {
+     "title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+     "link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-24T09:58:00Z"
+    },
+    {
      "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง",
      "link": "https://www.infoquest.co.th/2026/684211",
      "source": "อินโฟเควสท์",
@@ -74,12 +85,6 @@
      "link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
      "source": "MarketWatch",
      "published": "2026-11-23T10:57:00Z"
-    },
-    {
-     "title": "เงินเฟ้อสวิสพุ่งเกินคาด จุดกระแสลุ้นขึ้นดอกเบี้ยธ.ค. แบงก์ชาติสวิสจับตาผลกระทบเงินเฟ้อระลอกสอง",
-     "link": "https://www.infoquest.co.th/2026/683660",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-22T09:31:19Z"
     }
    ]
   },
@@ -221,36 +226,52 @@
    "latest_title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดพุ่ง 1.8% รับข่าว Nvidia แต่งตั้งเจนเซน หวง กลับนั่งซีอีโอ คลายกังวลตลาด"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 27,
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 20,
    "new_24h": 4,
-   "latest": "2026-11-23T23:41:24Z",
-   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง"
+   "latest": "2026-11-24T10:16:32Z",
+   "latest_title": "ภาวะตลาดหุ้นไทย:ปิดลบ 2.84 จุด แกว่งผันผวน ตลาดไร้ปัจจัยใหม่ จับตาตัวเลข PCE สหรัฐ"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 14,
+   "new_24h": 2,
+   "latest": "2026-11-24T10:37:54Z",
+   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.92/93 แกว่งกรอบแคบ ไร้ปัจจัยใหม่หนุนทิศทาง รอลุ้นตัวเลข PCE สหรัฐ"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
    "count": 21,
-   "new_24h": 3,
+   "new_24h": 2,
    "latest": "2026-11-24T00:15:26Z",
    "latest_title": "World Markets: สรุปภาวะตลาดหุ้น น้ำมัน ทองคำ และตลาดเงินต่างประเทศ"
   },
   {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 13,
-   "new_24h": 3,
-   "latest": "2026-11-23T11:25:15Z",
-   "latest_title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่"
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 27,
+   "new_24h": 2,
+   "latest": "2026-11-23T23:41:24Z",
+   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง"
   },
   {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
    "count": 18,
-   "new_24h": 2,
-   "latest": "2026-11-23T11:04:45Z",
-   "latest_title": "ก.ล.ต. แจ้งเตือนผู้ถือหุ้นกู้ PRIME จำนวน 4 รุ่น ใช้สิทธิในการประชุมผู้ถือหุ้นกู้ ในวันที่ 25 พ.ย. 69"
+   "new_24h": 1,
+   "latest": "2026-11-24T10:22:14Z",
+   "latest_title": "ครม. ไฟเขียวร่าง MOU โครงข่ายทางหลวงอาเซียน หนุนเชื่อมโยงการค้า-ขนส่งภูมิภาค"
+  },
+  {
+   "id": "bot",
+   "name": "แบงก์ชาติและดอกเบี้ยไทย",
+   "count": 21,
+   "new_24h": 1,
+   "latest": "2026-11-24T10:05:55Z",
+   "latest_title": "ผู้ว่าฯ ธปท. บอก “ทุกอย่างโอเค” หลังเข้าเคลียร์ใจ ปธ. บอร์ดแบงก์ชาติ นานกว่าชั่วโมง"
   },
   {
    "id": "fed",
@@ -259,22 +280,6 @@
    "new_24h": 1,
    "latest": "2026-11-24T00:12:20Z",
    "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย-หุ้น AI ดีดแรง"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 17,
-   "new_24h": 1,
-   "latest": "2026-11-23T06:19:08Z",
-   "latest_title": "สภาพัฒน์ชี้ Q3/69 อัตราการว่างงานเพิ่ม ด้านหนี้ครัวเรือน Q2 ลด หลังจีดีพีปรับตัวดีขึ้น"
-  },
-  {
-   "id": "bot",
-   "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 20,
-   "new_24h": 1,
-   "latest": "2026-11-23T06:14:44Z",
-   "latest_title": "แบงก์ชาติต่อมาตรการผ่อนชำระหนี้บัตรเครดิตขั้นต่ำ 8% อีก 2 ปี ยาวจนถึงปี’71"
   },
   {
    "id": "thai-us-china",
@@ -294,6 +299,132 @@
   }
  ],
  "items": [
+  {
+   "id": "b1a0c06fbbf3",
+   "title": "ภาวะตลาดเงินบาท: ปิด 33.92/93 แกว่งกรอบแคบ ไร้ปัจจัยใหม่หนุนทิศทาง รอลุ้นตัวเลข PCE สหรัฐ",
+   "link": "https://www.infoquest.co.th/2026/684818",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:37:54Z",
+   "summary": "เงินบาท [USDTHB.X] ปิดตลาดเย็นนี้ อยู่ที่ระดับ 33.92/93 บาท/ดอลลาร์ จากช่วงเช้าที่เปิดตลาดที่ระดับ 33.96/97 บาท/ดอลลาร์ นักบริหารเงินจากธนาคารกรุงเทพ ระบุว่า ระหว่างวันเงินบาทเคลื่อนไหวในกรอบ The post ภาวะตลาดเงินบาท: ปิด 33.92/93 แกว่งกรอ…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "fx",
+    "inflation"
+   ],
+   "signals": [],
+   "stories": [
+    "baht"
+   ]
+  },
+  {
+   "id": "acab2ea107ab",
+   "title": "ครม. ไฟเขียวร่าง MOU โครงข่ายทางหลวงอาเซียน หนุนเชื่อมโยงการค้า-ขนส่งภูมิภาค",
+   "link": "https://www.infoquest.co.th/2026/684724",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:22:14Z",
+   "summary": "ครม. ไฟเขียวร่าง MOU พัฒนาโครงข่ายทางหลวงอาเซียน เตรียมพร้อมให้ รมว.คมนาคม ร่วมลงนามในการประชุมระดับรัฐมนตรีที่ฟิลิปปินส์ 3-4 ธ.ค. นี้ มุ่งยกระดับมาตรฐานเส้นทางคมนาคมขนส่งในภูมิภาคให้เป็นหนึ่งเดียว The post ครม. ไฟเขียวร่าง MOU โครงข่ายทาง…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "ace328c02bf1",
+   "title": "ภาวะตลาดหุ้นไทย:ปิดลบ 2.84 จุด แกว่งผันผวน ตลาดไร้ปัจจัยใหม่ จับตาตัวเลข PCE สหรัฐ",
+   "link": "https://www.infoquest.co.th/2026/684785",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:16:32Z",
+   "summary": "SET ปิดที่ 1,451.65 จุด ลดลง 2.84 จุด (-0.20%) มูลค่าซื้อขาย 71,163.72 ล้านบาท นักวิเคราะห์ฯ เผยตลาดหุ้นไทยวันนี้แกว่งตัวผันผวน ช่วงเช้าดีดตัวรับข่าวเจนเซน หวง กลับมาดำรงตำแหน่งซีอีโอ Nvidia The post ภาวะตลาดหุ้นไทย:ปิดลบ 2.84 จุด แกว่งผัน…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "inflation"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "85683e8cb8e8",
+   "title": "ผู้ว่าฯ ธปท. บอก “ทุกอย่างโอเค” หลังเข้าเคลียร์ใจ ปธ. บอร์ดแบงก์ชาติ นานกว่าชั่วโมง",
+   "link": "https://www.infoquest.co.th/2026/684816",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:05:55Z",
+   "summary": "ผู้สื่อข่าวรายงานจากธนาคารแห่งประเทศไทย (ธปท.) ว่า เมื่อเวลา 14.00 น. นายวิทัย รัตนากร ผู้ว่าการ ธปท. พร้อมด้วย น.ส.สุวรรณี เจษฎาศักดิ์ รองผู้ว่าการ ด้านเสถียรภาพสถาบันการเงิน ธปท. ได้เข้าพบกับ The post ผู้ว่าฯ ธปท. บอก “ทุกอย่างโอเค” หลัง…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "monetary"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "d80020fc5385",
+   "title": "BIG LOT: รายการซื้อขายบิ๊กล็อตตลาดหุ้นไทยวันนี้ (By Time)",
+   "link": "https://www.infoquest.co.th/2026/684836",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-24T10:03:58Z",
+   "summary": "รายการซื้อขายบิ๊กล็อตในตลาดหุ้นไทยวันนี้ เรียงลำดับรายการตามเวลาการซื้อขาย หลักทรัพย์ จำนวนหุ้น มูลค่า (พันบาท) ราคาเฉลี่ย (บาท) เวลา KKP 2,500,000 287,500.00 115.00 10:08 ITNS 1,155,200 2,125.57 The post BIG LOT: รายการซื้อขายบิ๊กล็อตตลาด…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "bf8f26fc1c48",
+   "title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+   "link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-24T09:58:00Z",
+   "summary": "Michael Hartnett’s tactical masterplan is to stay risk off until global rate hikes start to dry up next spring. Thereafter, modest earnings growth and the chance of looser financial conditions in the second half favor owning cyclicals and…",
+   "image": "https://images.mktw.net/im-70161917",
+   "score": 4,
+   "categories": [],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": []
+  },
   {
    "id": "b9b6dd2913cf",
    "title": "World Markets: สรุปภาวะตลาดหุ้น น้ำมัน ทองคำ และตลาดเงินต่างประเทศ",

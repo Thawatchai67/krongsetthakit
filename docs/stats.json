@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T04:49:55Z",
+ "generated_at": "2026-11-24T10:52:21Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -13,9 +13,9 @@
   "total": 621,
   "news": 72,
   "d1": {
-   "evaluated": 482,
-   "hit_rate": 52.5,
-   "avg_edge": -0.05
+   "evaluated": 493,
+   "hit_rate": 52.7,
+   "avg_edge": -0.04
   },
   "d5": {
    "evaluated": 375,
@@ -185,9 +185,9 @@
    "total": 230,
    "news": 23,
    "d1": {
-    "evaluated": 220,
+    "evaluated": 226,
     "hit_rate": 50.9,
-    "avg_edge": -0.39
+    "avg_edge": -0.38
    },
    "d5": {
     "evaluated": 166,
@@ -245,12 +245,12 @@
    "name": "ภาษีนำเข้า/สงครามการค้า"
   },
   {
-   "total": 80,
-   "news": 8,
+   "total": 90,
+   "news": 9,
    "d1": {
-    "evaluated": 80,
-    "hit_rate": 45.0,
-    "avg_edge": -0.02
+    "evaluated": 85,
+    "hit_rate": 47.1,
+    "avg_edge": 0.06
    },
    "d5": {
     "evaluated": 55,

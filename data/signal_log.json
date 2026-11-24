@@ -402,7 +402,9 @@
   "date": "2026-11-24",
   "news_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง",
   "news_link": "https://www.infoquest.co.th/2026/684204",
-  "base_date": "2026-11-23"
+  "base_date": "2026-11-23",
+  "r1": 1.47,
+  "x1": 1.97
  },
  "oil_down|BCP|2026-09-20": {
   "signal": "oil_down",
@@ -535,7 +537,9 @@
   "date": "2026-11-24",
   "news_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง",
   "news_link": "https://www.infoquest.co.th/2026/684204",
-  "base_date": "2026-11-23"
+  "base_date": "2026-11-23",
+  "r1": -1.39,
+  "x1": -0.89
  },
  "oil_down|COP|2026-09-20": {
   "signal": "oil_down",
@@ -1061,7 +1065,9 @@
   "date": "2026-11-24",
   "news_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง",
   "news_link": "https://www.infoquest.co.th/2026/684204",
-  "base_date": "2026-11-23"
+  "base_date": "2026-11-23",
+  "r1": -1.41,
+  "x1": -0.9
  },
  "oil_down|PTT|2026-09-20": {
   "signal": "oil_down",
@@ -1194,7 +1200,9 @@
   "date": "2026-11-24",
   "news_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง",
   "news_link": "https://www.infoquest.co.th/2026/684204",
-  "base_date": "2026-11-23"
+  "base_date": "2026-11-23",
+  "r1": -0.27,
+  "x1": 0.24
  },
  "oil_down|TOP|2026-09-20": {
   "signal": "oil_down",
@@ -1327,7 +1335,9 @@
   "date": "2026-11-24",
   "news_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง",
   "news_link": "https://www.infoquest.co.th/2026/684204",
-  "base_date": "2026-11-23"
+  "base_date": "2026-11-23",
+  "r1": -3.12,
+  "x1": -2.62
  },
  "oil_down|UAL|2026-09-20": {
   "signal": "oil_down",
@@ -4314,6 +4324,17 @@
   "r1": 2.34,
   "x1": -2.39
  },
+ "rate_hike|BAC|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "base_date": "2026-11-23"
+ },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -4678,6 +4699,19 @@
   "r1": -0.55,
   "x1": -1.06,
   "base_date": "2026-11-20"
+ },
+ "rate_hike|BBL|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "r1": 0.28,
+  "x1": 0.78,
+  "base_date": "2026-11-23"
  },
  "rate_hike|CPN|2026-08-30": {
   "signal": "rate_hike",
@@ -5044,6 +5078,19 @@
   "x1": -0.9,
   "base_date": "2026-11-20"
  },
+ "rate_hike|CPN|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "r1": 0.39,
+  "x1": 0.89,
+  "base_date": "2026-11-23"
+ },
  "rate_hike|DELTA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5409,6 +5456,19 @@
   "x1": 0.93,
   "base_date": "2026-11-20"
  },
+ "rate_hike|DELTA|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "r1": 0.57,
+  "x1": 1.07,
+  "base_date": "2026-11-23"
+ },
  "rate_hike|JPM|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -5771,6 +5831,17 @@
   "base_date": "2026-11-20",
   "r1": 1.97,
   "x1": -2.75
+ },
+ "rate_hike|JPM|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "base_date": "2026-11-23"
  },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
@@ -6137,6 +6208,19 @@
   "x1": 0.3,
   "base_date": "2026-11-20"
  },
+ "rate_hike|KBANK|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "r1": 0.0,
+  "x1": 0.5,
+  "base_date": "2026-11-23"
+ },
  "rate_hike|LH|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6502,6 +6586,19 @@
   "x1": -0.51,
   "base_date": "2026-11-20"
  },
+ "rate_hike|LH|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "r1": 1.14,
+  "x1": 1.64,
+  "base_date": "2026-11-23"
+ },
  "rate_hike|MSFT|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -6865,6 +6962,17 @@
   "r1": 1.65,
   "x1": -3.08
  },
+ "rate_hike|MSFT|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "base_date": "2026-11-23"
+ },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -7227,6 +7335,17 @@
   "base_date": "2026-11-20",
   "r1": 31.48,
   "x1": 26.75
+ },
+ "rate_hike|NVDA|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "base_date": "2026-11-23"
  },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
@@ -7592,6 +7711,19 @@
   "r1": 0.66,
   "x1": 0.15,
   "base_date": "2026-11-20"
+ },
+ "rate_hike|SCB|2026-11-24": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+  "news_link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
+  "r1": 0.33,
+  "x1": 0.83,
+  "base_date": "2026-11-23"
  },
  "tariff|AAPL|2026-09-06": {
   "signal": "tariff",
