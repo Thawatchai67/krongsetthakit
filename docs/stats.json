@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-11-25T03:27:41Z",
+ "generated_at": "2026-11-25T04:52:53Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
-   "evaluated": 384,
-   "hit_rate": 53.1,
+   "evaluated": 404,
+   "hit_rate": 53.7,
    "avg_edge": 0.38
   }
  },
  "backfill": 363,
  "overall": {
-  "total": 631,
-  "news": 73,
+  "total": 641,
+  "news": 74,
   "d1": {
-   "evaluated": 512,
+   "evaluated": 518,
    "hit_rate": 52.5,
    "avg_edge": -0.04
   },
   "d5": {
-   "evaluated": 384,
-   "hit_rate": 53.1,
+   "evaluated": 404,
+   "hit_rate": 53.7,
    "avg_edge": 0.38
   },
   "d20": {
@@ -35,9 +35,9 @@
    "avg_edge": null
   },
   "AAV": {
-   "evaluated": 17,
-   "hit_rate": 47.1,
-   "avg_edge": 0.64
+   "evaluated": 20,
+   "hit_rate": 50.0,
+   "avg_edge": 0.59
   },
   "AMD": {
    "evaluated": 4,
@@ -55,14 +55,14 @@
    "avg_edge": -2.46
   },
   "BBL": {
-   "evaluated": 19,
-   "hit_rate": 52.6,
-   "avg_edge": 0.11
+   "evaluated": 20,
+   "hit_rate": 55.0,
+   "avg_edge": 0.14
   },
   "BCP": {
-   "evaluated": 16,
-   "hit_rate": 37.5,
-   "avg_edge": -1.21
+   "evaluated": 18,
+   "hit_rate": 38.9,
+   "avg_edge": -1.08
   },
   "COP": {
    "evaluated": 16,
@@ -70,14 +70,14 @@
    "avg_edge": 0.58
   },
   "CPF": {
-   "evaluated": 1,
+   "evaluated": 2,
    "hit_rate": 100.0,
-   "avg_edge": 3.14
+   "avg_edge": 1.58
   },
   "CPN": {
-   "evaluated": 19,
-   "hit_rate": 68.4,
-   "avg_edge": 0.75
+   "evaluated": 20,
+   "hit_rate": 70.0,
+   "avg_edge": 0.73
   },
   "CVX": {
    "evaluated": 16,
@@ -90,9 +90,9 @@
    "avg_edge": 0.14
   },
   "DELTA": {
-   "evaluated": 24,
-   "hit_rate": 54.2,
-   "avg_edge": 1.17
+   "evaluated": 26,
+   "hit_rate": 53.8,
+   "avg_edge": 1.08
   },
   "GLD": {
    "evaluated": 2,
@@ -110,9 +110,9 @@
    "avg_edge": -0.94
   },
   "KBANK": {
-   "evaluated": 19,
-   "hit_rate": 52.6,
-   "avg_edge": 0.46
+   "evaluated": 20,
+   "hit_rate": 55.0,
+   "avg_edge": 0.51
   },
   "KCE": {
    "evaluated": 4,
@@ -120,9 +120,9 @@
    "avg_edge": 14.56
   },
   "LH": {
-   "evaluated": 19,
-   "hit_rate": 63.2,
-   "avg_edge": 0.19
+   "evaluated": 20,
+   "hit_rate": 60.0,
+   "avg_edge": 0.15
   },
   "MSFT": {
    "evaluated": 19,
@@ -140,24 +140,24 @@
    "avg_edge": -0.43
   },
   "PTT": {
-   "evaluated": 16,
-   "hit_rate": 62.5,
-   "avg_edge": 0.14
+   "evaluated": 18,
+   "hit_rate": 61.1,
+   "avg_edge": 0.12
   },
   "PTTEP": {
-   "evaluated": 16,
-   "hit_rate": 68.8,
-   "avg_edge": 0.49
+   "evaluated": 18,
+   "hit_rate": 66.7,
+   "avg_edge": 0.44
   },
   "SCB": {
-   "evaluated": 19,
-   "hit_rate": 47.4,
-   "avg_edge": 0.47
+   "evaluated": 20,
+   "hit_rate": 50.0,
+   "avg_edge": 0.52
   },
   "TOP": {
-   "evaluated": 16,
-   "hit_rate": 56.2,
-   "avg_edge": 0.97
+   "evaluated": 18,
+   "hit_rate": 55.6,
+   "avg_edge": 0.86
   },
   "TSM": {
    "evaluated": 4,
@@ -165,9 +165,9 @@
    "avg_edge": 0.66
   },
   "TU": {
-   "evaluated": 1,
+   "evaluated": 2,
    "hit_rate": 100.0,
-   "avg_edge": 0.97
+   "avg_edge": 2.35
   },
   "UAL": {
    "evaluated": 16,
@@ -182,17 +182,17 @@
  },
  "signals": [
   {
-   "total": 230,
-   "news": 23,
+   "total": 240,
+   "news": 24,
    "d1": {
-    "evaluated": 230,
+    "evaluated": 236,
     "hit_rate": 51.3,
-    "avg_edge": -0.35
+    "avg_edge": -0.34
    },
    "d5": {
-    "evaluated": 170,
-    "hit_rate": 45.9,
-    "avg_edge": -0.08
+    "evaluated": 176,
+    "hit_rate": 47.2,
+    "avg_edge": -0.06
    },
    "d20": {
     "evaluated": 150,
@@ -211,9 +211,9 @@
     "avg_edge": 0.16
    },
    "d5": {
-    "evaluated": 100,
+    "evaluated": 105,
     "hit_rate": 59.0,
-    "avg_edge": 0.6
+    "avg_edge": 0.54
    },
    "d20": {
     "evaluated": 90,
@@ -253,9 +253,9 @@
     "avg_edge": -0.02
    },
    "d5": {
-    "evaluated": 60,
-    "hit_rate": 53.3,
-    "avg_edge": 0.24
+    "evaluated": 65,
+    "hit_rate": 52.3,
+    "avg_edge": 0.28
    },
    "d20": {
     "evaluated": 20,
@@ -316,9 +316,9 @@
     "avg_edge": 0.27
    },
    "d5": {
-    "evaluated": 0,
-    "hit_rate": null,
-    "avg_edge": null
+    "evaluated": 4,
+    "hit_rate": 75.0,
+    "avg_edge": 0.93
    },
    "d20": {
     "evaluated": 0,

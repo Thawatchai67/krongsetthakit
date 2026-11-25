@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-24T21:07:42Z",
+  "generated_at": "2026-11-25T04:52:26Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 427
+  "total_kept": 441
  },
  "signals": [
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 5,
+   "count": 6,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -64,6 +64,12 @@
    ],
    "evidence": [
     {
+     "title": "ทองร่วงอีกแล้ว! หลุด 3,600 เหรียญ ‘ทรัมป์’ ประกาศเก็บภาษี 16 ประเทศ จับตา PCE สหรัฐคืนนี้",
+     "link": "https://www.prachachat.net/finance/news-2101795",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-25T03:07:05Z"
+    },
+    {
      "title": "ราคาทองร่วงเกือบ 1% นลท.กังวลเฟดขึ้นดอกเบี้ย",
      "link": "https://www.infoquest.co.th/2026/684910",
      "source": "อินโฟเควสท์",
@@ -74,12 +80,6 @@
      "link": "https://www.infoquest.co.th/2026/684893",
      "source": "อินโฟเควสท์",
      "published": "2026-11-24T12:21:45Z"
-    },
-    {
-     "title": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
-     "link": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-24T09:58:00Z"
     }
    ]
   },
@@ -219,10 +219,18 @@
  ],
  "stories": [
   {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 22,
+   "new_24h": 4,
+   "latest": "2026-11-25T02:36:50Z",
+   "latest_title": "หุ้นไทยวันนี้เสี่ยงย่อตัว! ผวาภาษีทรัมป์รอบใหม่ 16 คู่ค้า รวมไทย ชู BEM-CBG"
+  },
+  {
    "id": "ai-chips",
    "name": "AI และชิป",
    "count": 49,
-   "new_24h": 7,
+   "new_24h": 3,
    "latest": "2026-11-24T20:42:00Z",
    "latest_title": "A bipartisan backlash is hitting Nvidia in Washington in the wake of Trump’s push for Huang’s return"
   },
@@ -230,25 +238,41 @@
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
    "count": 27,
-   "new_24h": 4,
+   "new_24h": 3,
    "latest": "2026-11-24T16:43:20Z",
    "latest_title": "บอนด์ยีลด์ร่วงหลุด 4.9% นักลงทุนจับตาถ้อยแถลงเจ้าหน้าที่เฟด"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 29,
+   "new_24h": 2,
+   "latest": "2026-11-25T02:53:57Z",
+   "latest_title": "ราคาน้ำมันดิบปรับเพิ่ม หลังความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางทวีความรุนแรงขึ้น"
+  },
+  {
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
+   "count": 18,
+   "new_24h": 2,
+   "latest": "2026-11-25T02:36:50Z",
+   "latest_title": "หุ้นไทยวันนี้เสี่ยงย่อตัว! ผวาภาษีทรัมป์รอบใหม่ 16 คู่ค้า รวมไทย ชู BEM-CBG"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 15,
+   "new_24h": 2,
+   "latest": "2026-11-25T01:49:27Z",
+   "latest_title": "ค่าเงินบาทวันนี้ (25 พ.ย. 69) เปิดตลาดอ่อนค่า 33.95 บาท บทวิเคราะห์ล่าสุด"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
    "count": 22,
-   "new_24h": 4,
+   "new_24h": 2,
    "latest": "2026-11-24T14:37:48Z",
    "latest_title": "ราคาทองร่วงเกือบ 1% นลท.กังวลเฟดขึ้นดอกเบี้ย"
-  },
-  {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 28,
-   "new_24h": 2,
-   "latest": "2026-11-24T16:30:02Z",
-   "latest_title": "ราคาน้ำมันโลกดีดตัว หลังเกิดเหตุโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ"
   },
   {
    "id": "thai-economy",
@@ -259,36 +283,12 @@
    "latest_title": "อังกฤษเปิดทางเจรจา FTA ไทย-UK “ศุภจี” เร่งชงกรอบเจรจาเข้า ครม."
   },
   {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
-   "count": 20,
-   "new_24h": 2,
-   "latest": "2026-11-24T10:16:32Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย:ปิดลบ 2.84 จุด แกว่งผันผวน ตลาดไร้ปัจจัยใหม่ จับตาตัวเลข PCE สหรัฐ"
-  },
-  {
    "id": "bot",
    "name": "แบงก์ชาติและดอกเบี้ยไทย",
    "count": 22,
    "new_24h": 2,
    "latest": "2026-11-24T10:07:34Z",
    "latest_title": "เคลียร์แล้ว ! ผู้ว่าฯ ธปท. คุยประธานบอร์ด นานกว่า 1 ชม. ยัน ‘ทุกอย่าง OK’"
-  },
-  {
-   "id": "trade-war",
-   "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 17,
-   "new_24h": 1,
-   "latest": "2026-11-24T18:36:37Z",
-   "latest_title": "💥*ด่วน!!! สหรัฐเตรียมเรียกเก็บ “ภาษีทรัมป์” รอบใหม่ ไทยโดนด้วย!"
-  },
-  {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 14,
-   "new_24h": 1,
-   "latest": "2026-11-24T10:37:54Z",
-   "latest_title": "ภาวะตลาดเงินบาท: ปิด 33.92/93 แกว่งกรอบแคบ ไร้ปัจจัยใหม่หนุนทิศทาง รอลุ้นตัวเลข PCE สหรัฐ"
   },
   {
    "id": "thai-us-china",
@@ -300,6 +300,289 @@
   }
  ],
  "items": [
+  {
+   "id": "3717f8671ccd",
+   "title": "ภาวะตลาดหุ้นฮ่องกง: ฮั่งเส็งปิดเช้าบวก 46.03 จุด รับแรงซื้อคืน หลังตลาดร่วงต่อเนื่องหลายวัน",
+   "link": "https://www.infoquest.co.th/2026/685196",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T04:37:38Z",
+   "summary": "ดัชนีฮั่งเส็งตลาดหุ้นฮ่องกงปิดภาคเช้าบวกในวันนี้ (25 พ.ย.) สวนทางตลาดหุ้นวอลล์สตรีทและตลาดหุ้นส่วนใหญ่ในเอเชียที่ปรับตัวลง โดยตลาดหุ้นฮ่องกงได้แรงหนุนจากแรงซื้อคืนหุ้นที่ร่วงลงก่อนหน้านี้ The post ภาวะตลาดหุ้นฮ่องกง: ฮั่งเส็งปิดเช้าบวก 46.…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f901cd3ec08b",
+   "title": "FVC กำไร Q3/69 ทะยาน 159% เดินหน้าส่งมอบงานโค้งสุดท้าย จ่อบุ๊กรายได้เสริมแกร่ง รับโอกาสเติบโตส่งท้ายปี",
+   "link": "https://www.infoquest.co.th/2026/685151",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T04:01:24Z",
+   "summary": "บมจ.ฟิลเตอร์ วิชั่น [FVC] โชว์ผลประกอบการไตรมาส 3/69 กำไรพุ่ง 159% มีรายได้จากการขายและบริการ 134.53 ล้านบาท เพิ่มขึ้น 19% (YoY) หนุนงวด 9 เดือนแรกรายได้แตะ 602.89 ล้านบาท สะท้อนการขยายตัวของธุรกิจหลั The post FVC กำไร Q3/69 ทะยาน 159% เดิ…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "08aa268edf93",
+   "title": "AOT เปิดงบปี 69 กำไรสุทธิโต 6.5% รับอานิสงส์ปรับขึ้น PSC สวนรายได้ดิวตี้ฟรีหดตัว",
+   "link": "https://www.infoquest.co.th/2026/685084",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T03:57:16Z",
+   "summary": "บมจ.ท่าอากาศยานไทย [AOT] เปิดเผยผลประกอบการปีงบประมาณ 2569 (ต.ค.68-ก.ย. 69) AOT มีกำไรสุทธิจำนวน 19,309.41 ล้านบาท เพิ่มขึ้น 1,184.21 ล้านบาท หรือ 6.53% เมื่อเปรียบเทียบกับช่วงเวลาเดียวกันของปีก่อน The post AOT เปิดงบปี 69 กำไรสุทธิโต 6.5%…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "bc3b1523a539",
+   "title": "“เดลต้า คัพ” ปั้นวิศวกรรุ่นใหม่ ขับเคลื่อนอนาคตด้วยนวัตกรรมพลังงานสะอาดและ AI",
+   "link": "https://www.prachachat.net/advertorial/news-2101801",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T03:31:40Z",
+   "summary": "ในยุคที่ AI และระบบอัตโนมัติกำลังเปลี่ยนโฉมทุกอุตสาหกรรม ความท้าทายที่แท้จริงของโลกธุรกิจไม่ได้อยู่ที่การมีเทคโนโลยีล้ำสมัย ทว่า “ใครจะเป็นผู้ต่อยอดเทคโนโลยีเหล่านั้นให้ใช้งานได้จริง” และคำตอบหนึ่งอาจซ่อนอยู่ในห้องแล็บของมหาวิทยาลัย ที่ซึ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/1.-Delta-Cup-2026-Main-Photo-scaled.jpg",
+   "score": 7,
+   "categories": [
+    "tech_ai",
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "5ac88727362b",
+   "title": "สถาบันวิจัยเศรษฐกิจป๋วยฯ ชี้แรงงานนอกระบบ ครองสัดส่วน 2 ใน 3 ยังเผชิญเหลื่อมล้ำ-เสนอปรับระบบคุ้มครอง",
+   "link": "https://www.prachachat.net/finance/news-2101793",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T03:19:55Z",
+   "summary": "สถาบันวิจัยเศรษฐกิจป๋วยฯ เผยแรงงานนอกระบบยังเป็นแรงงานเกือบ 2 ใน 3 ของประเทศ เผชิญความเหลื่อมล้ำทั้งด้านรายได้และโอกาส โดยเฉพาะผู้หญิงที่มีช่องว่างค่าจ้าง 10% เสนอออกแบบระบบสวัสดิการและหลักประกันทางสังคมให้ครอบคลุมแรงงานทุกกลุ่มตามลักษณะอา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-178.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d24ff924c953",
+   "title": "ทองร่วงอีกแล้ว! หลุด 3,600 เหรียญ ‘ทรัมป์’ ประกาศเก็บภาษี 16 ประเทศ จับตา PCE สหรัฐคืนนี้",
+   "link": "https://www.prachachat.net/finance/news-2101795",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T03:07:05Z",
+   "summary": "ทองคำกลับมาร่วงแรงหลุด 3,600 เหรียญอีกครั้ง “ฮั่วเซ่งเฮง โกลด์ ฟิวเจอร์ส” ชี้ราคาล่วงหน้าตกฮวบ 2.67% หลัง “เฟด” มีโอกาสขึ้นดอกเบี้ย 98% ขณะที่ “MTS Gold” ระบุ ทองร่วงกว่า 80 เหรียญ หลัง “ทรัมป์” จ่อขึ้น … อ่านข่าวต้นฉบับ: ทองร่วงอีกแล้ว! ห…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/10/Gold-15.jpg",
+   "score": 13,
+   "categories": [
+    "trade_geo",
+    "inflation",
+    "monetary"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": []
+  },
+  {
+   "id": "4a223256480e",
+   "title": "ราคาน้ำมันดิบปรับเพิ่ม หลังความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางทวีความรุนแรงขึ้น",
+   "link": "https://www.prachachat.net/economic/news-2101788",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T02:53:57Z",
+   "summary": "ราคาน้ำมันดิบเวสต์เทกซัสและน้ำมันดิบเบรนต์ปรับเพิ่ม หลังความตึงเครียดทางภูมิรัฐศาสตร์ในตะวันออกกลางทวีความรุนแรงขึ้น หลังมีเหตุการณ์โจมตีเรือบริเวณใกล้ช่องแคบฮอร์มุซ หน่วยวิเคราะห์สถานการณ์ราคาน้ำมัน บมจ.ไทยออยล์ ระบุว่า ปัจจัยที่ส่งผลกระท…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/03/Oil-2.jpg",
+   "score": 9,
+   "categories": [
+    "trade_geo",
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "d7fad7373636",
+   "title": "หุ้นไทยวันนี้เสี่ยงย่อตัว! ผวาภาษีทรัมป์รอบใหม่ 16 คู่ค้า รวมไทย ชู BEM-CBG",
+   "link": "https://www.prachachat.net/finance/news-2101783",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T02:36:50Z",
+   "summary": "InnovestX คาดหุ้นไทยวันนี้ (25 พ.ย. 2569) แกว่งลงตามตลาดภูมิภาค เจอแรงขายหุ้นเทคโนโลยีโลก ซ้ำความกังวลสหรัฐจ่อเก็บภาษีเพิ่มตามมาตรา 301 หวั่นกระทบหุ้นส่งออก ลุ้นเงินกองทุนลดหย่อนภาษีพยุงตลาด วางแนวรับ 1,440-1,435 จุด คัด BEM-CBG หุ้นเด่น บ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-177.jpg",
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "trade-war",
+    "thai-market"
+   ]
+  },
+  {
+   "id": "ac2a824ea183",
+   "title": "สรรพากร จัดเก็บรายได้ ต.ค. 69 พุ่ง 2 หมื่นล้านจากปีก่อน – แจงหุ้นชินหมดอายุความปี’78",
+   "link": "https://www.prachachat.net/finance/news-2101758",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T02:00:12Z",
+   "summary": "สรรพากร จัดเก็บรายได้เดือนแรกปีงบ’70 ณ ต.ค. 69 พุ่ง 16% หรือสูงกว่า 2 หมื่นล้านบาท จากช่วงเดียวกันของปีก่อน พร้อมแจงคดีหุ้นชินหมดอายุความปี’78 ดำเนินการตามกฎหมาย นางสาวสลักจิต พงษ์ศิริจันทร์ อธิบดีกรมสรรพากร เปิดเผยว่า กรมสรรพากรจัดเก็บราย…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/10/Cover1-14.jpg",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "53b913e90d2e",
+   "title": "ค่าเงินบาทวันนี้ (25 พ.ย. 69) เปิดตลาดอ่อนค่า 33.95 บาท บทวิเคราะห์ล่าสุด",
+   "link": "https://www.prachachat.net/finance/news-2101756",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T01:49:27Z",
+   "summary": "ค่าเงินบาทวันนี้ (25 พ.ย. 69) เปิดตลาดที่ระดับ 33.95 บาทต่อดอลลาร์สหรัฐ โดยกรอบแนวรับอยู่ที่ 33.80 บาท แนวต้าน 34.10 บาทต่อดอลลาร์สหรัฐ ผู้สื่อข่าวรายงานว่า ฝ่ายธุรกิจตลาดเงินและธุรกรรมระหว่างประเทศ ทีทีบี เปิดเผยว่า ค่าเงินบาทเช้านี้เปิดต…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2024/09/cover-2024-09-09T114831.119.jpg",
+   "score": 6,
+   "categories": [
+    "fx"
+   ],
+   "signals": [],
+   "stories": [
+    "baht"
+   ]
+  },
+  {
+   "id": "18dccf35c4c4",
+   "title": "ก.ล.ต. แจงรายงานราคาซื้อหุ้น MTI คลาดเคลื่อน ล่าสุดแก้ไขแล้ว",
+   "link": "https://www.prachachat.net/finance/news-2101754",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T01:48:15Z",
+   "summary": "ก.ล.ต.ชี้แจงกรณีรายงานการเปลี่ยนแปลงการถือหลักทรัพย์ของ “นวลพรรณ ล่ำซำ” ผู้บริหารเมืองไทยประกันภัย (MTI) เกิดจากการรายงานตัวเลขราคาคลาดเคลื่อน ล่าสุดแก้ไขข้อมูลถูกต้องแล้ว เป็นการซื้อหุ้นจำนวน 75,500 หุ้น ราคาเฉลี่ยหุ้นละ 19.989 บาท มูลค่า…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/04/Cover-photo-Logo-20.jpg",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "34784abefe4a",
+   "title": "Dell’s stock rises as the AI boom helps sales more than double",
+   "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T01:11:00Z",
+   "summary": "Dell says its backlog is “rigorously vetted for customer quality and access to capital, land and power.”",
+   "image": "https://images.mktw.net/im-86616784",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0a6424fc329e",
+   "title": "‘วิทัย’ ลุยแก้เศรษฐกิจนอกระบบ-ปลดล็อก 48% จีดีพี",
+   "link": "https://www.prachachat.net/no1/news-2101681",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T00:30:00Z",
+   "summary": "ผู้ว่าฯ แบงก์ชาติเดินหน้าแก้โจทย์ “เศรษฐกิจนอกระบบ” เผยเกาะกินเศรษฐกิจไทยกว่า 48% ของจีดีพี ทั้งกลุ่ม สุจริต พ่อค้าแม่ค้าไม่อยู่ในระบบภาษี และกลุ่มเงินเทา-คอร์รัปชั่น เรียกร้องทุกภาคส่วนร่วมมือออกแบบนโยบายภาษี-สวัสดิการ ดึงธุรกิจเอสเอ็มอี-…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/7276.jpg",
+   "score": 6,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d53d5213b8a6",
+   "title": "ทองปรับฐานใหญ่ร่วง 40% ลุ้นยาวปลายปีหน้ากลับไปยืน 7.5 หมื่น",
+   "link": "https://www.prachachat.net/no1/news-2101668",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T00:01:00Z",
+   "summary": "วิกฤต AI เขย่า “หุ้น-ทอง” สัปดาห์นรกนักลงทุนเทขายหนัก ดัชนีหุ้นโลกร่วงสุดนับตั้งแต่ปี’63-SET หลุด 1,500 จุด ก่อนหุ้นทั่วโลกดีดกลับแรงหลัง เจนเซน หวง คืนเก้าอี้ซีอีโอ NVIDIA “บลจ.เมอร์ชั่น พาร์ทเนอร์” เตือนภาพรวมหุ้นปี’70 เสี่ยงตลาดหมี ขณะท…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/online-2-copy.jpg",
+   "score": 4,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "55f1d79b591e",
    "title": "A bipartisan backlash is hitting Nvidia in Washington in the wake of Trump’s push for Huang’s return",
