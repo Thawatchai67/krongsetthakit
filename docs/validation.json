@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T06:02:17Z",
+ "generated_at": "2026-11-25T06:03:58Z",
  "horizon_days": 5,
  "min_events": 30,
  "rules": [
@@ -9,15 +9,15 @@
    "sector": "พลังงาน/ปิโตรเลียม",
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่น้ำมัน WTI ขึ้นเกิน 2%",
-   "status": "unclear",
-   "events": 19,
-   "since": "2026-08-19",
-   "hit_after": 57.9,
-   "edge_after": 0.09,
-   "hit_week": 68.4,
+   "status": "confirmed",
+   "events": 433,
+   "since": "2016-11-28",
+   "hit_after": 58.7,
+   "edge_after": 0.56,
+   "hit_week": 65.6,
    "ci": [
-    39.5,
-    74.4
+    54.7,
+    62.5
    ]
   },
   {
@@ -27,14 +27,14 @@
    "effect": "ถูกกดดัน",
    "proxy": "วันที่น้ำมัน WTI ขึ้นเกิน 2%",
    "status": "unclear",
-   "events": 19,
-   "since": "2026-08-19",
-   "hit_after": 73.7,
-   "edge_after": 0.96,
-   "hit_week": 78.9,
+   "events": 433,
+   "since": "2016-11-28",
+   "hit_after": 51.5,
+   "edge_after": -0.25,
+   "hit_week": 52.4,
    "ci": [
-    54.9,
-    86.6
+    47.6,
+    55.4
    ]
   },
   {
@@ -43,15 +43,15 @@
    "sector": "พลังงาน/ปิโตรเลียม",
    "effect": "ถูกกดดัน",
    "proxy": "วันที่น้ำมัน WTI ลงเกิน 2%",
-   "status": "unclear",
-   "events": 13,
-   "since": "2026-08-23",
-   "hit_after": 53.8,
-   "edge_after": 0.67,
-   "hit_week": 61.5,
+   "status": "confirmed",
+   "events": 399,
+   "since": "2016-11-29",
+   "hit_after": 58.6,
+   "edge_after": 0.52,
+   "hit_week": 66.4,
    "ci": [
-    32.5,
-    73.9
+    54.5,
+    62.6
    ]
   },
   {
@@ -61,14 +61,14 @@
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่น้ำมัน WTI ลงเกิน 2%",
    "status": "unclear",
-   "events": 13,
-   "since": "2026-08-23",
-   "hit_after": 38.5,
-   "edge_after": -0.36,
-   "hit_week": 53.8,
+   "events": 399,
+   "since": "2016-11-29",
+   "hit_after": 51.9,
+   "edge_after": 0.13,
+   "hit_week": 53.4,
    "ci": [
-    20.2,
-    60.7
+    47.8,
+    56.0
    ]
   },
   {
@@ -78,14 +78,14 @@
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ลงเกิน 0.08%",
    "status": "unclear",
-   "events": 2,
-   "since": "2026-10-15",
-   "hit_after": 100.0,
-   "edge_after": 1.61,
-   "hit_week": 100.0,
+   "events": 142,
+   "since": "2017-01-05",
+   "hit_after": 47.9,
+   "edge_after": 0.06,
+   "hit_week": 46.5,
    "ci": [
-    42.5,
-    100.0
+    41.1,
+    54.8
    ]
   },
   {
@@ -94,15 +94,15 @@
    "sector": "หุ้นเติบโต/เทคโนโลยี",
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ลงเกิน 0.08%",
-   "status": "unclear",
-   "events": 2,
-   "since": "2026-10-15",
-   "hit_after": 0.0,
-   "edge_after": -4.02,
-   "hit_week": 0.0,
+   "status": "confirmed",
+   "events": 142,
+   "since": "2017-01-05",
+   "hit_after": 65.5,
+   "edge_after": 1.07,
+   "hit_week": 65.5,
    "ci": [
-    0.0,
-    57.5
+    58.7,
+    71.7
    ]
   },
   {
@@ -111,15 +111,15 @@
    "sector": "ธนาคาร",
    "effect": "ถูกกดดัน",
    "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ลงเกิน 0.08%",
-   "status": "unclear",
-   "events": 2,
-   "since": "2026-10-15",
-   "hit_after": 0.0,
-   "edge_after": -1.45,
-   "hit_week": 0.0,
+   "status": "confirmed",
+   "events": 142,
+   "since": "2017-01-05",
+   "hit_after": 57.0,
+   "edge_after": 0.35,
+   "hit_week": 62.7,
    "ci": [
-    0.0,
-    57.5
+    50.1,
+    63.7
    ]
   },
   {
@@ -129,14 +129,14 @@
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ขึ้นเกิน 0.08%",
    "status": "unclear",
-   "events": 4,
-   "since": "2026-09-10",
-   "hit_after": 75.0,
-   "edge_after": 0.11,
-   "hit_week": 75.0,
+   "events": 166,
+   "since": "2017-03-01",
+   "hit_after": 52.4,
+   "edge_after": 0.02,
+   "hit_week": 57.8,
    "ci": [
-    35.6,
-    94.2
+    46.0,
+    58.7
    ]
   },
   {
@@ -146,14 +146,14 @@
    "effect": "ถูกกดดัน",
    "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ขึ้นเกิน 0.08%",
    "status": "unclear",
-   "events": 4,
-   "since": "2026-09-10",
-   "hit_after": 25.0,
-   "edge_after": -0.54,
-   "hit_week": 25.0,
+   "events": 166,
+   "since": "2017-03-01",
+   "hit_after": 55.4,
+   "edge_after": 0.27,
+   "hit_week": 53.0,
    "ci": [
-    5.8,
-    64.4
+    49.0,
+    61.6
    ]
   },
   {
@@ -162,15 +162,15 @@
    "sector": "หุ้นเติบโต/เทคโนโลยี",
    "effect": "ถูกกดดัน",
    "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ขึ้นเกิน 0.08%",
-   "status": "unclear",
-   "events": 4,
-   "since": "2026-09-10",
-   "hit_after": 75.0,
-   "edge_after": 1.9,
-   "hit_week": 75.0,
+   "status": "contrary",
+   "events": 166,
+   "since": "2017-03-01",
+   "hit_after": 39.2,
+   "edge_after": -0.73,
+   "hit_week": 39.8,
    "ci": [
-    35.6,
-    94.2
+    33.1,
+    45.5
    ]
   },
   {
@@ -179,15 +179,15 @@
    "sector": "ธุรกิจทอง/เหมืองทอง",
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่ทองคำขึ้นเกิน 1.5%",
-   "status": "unclear",
-   "events": 6,
-   "since": "2026-08-18",
-   "hit_after": 83.3,
-   "edge_after": 3.06,
-   "hit_week": 83.3,
+   "status": "confirmed",
+   "events": 167,
+   "since": "2017-03-15",
+   "hit_after": 66.5,
+   "edge_after": 1.41,
+   "hit_week": 70.7,
    "ci": [
-    49.8,
-    96.2
+    60.2,
+    72.2
    ]
   },
   {
@@ -196,15 +196,15 @@
    "sector": "ผู้ส่งออก",
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่ดอลลาร์/บาท ขึ้นเกิน 0.5% (บาทอ่อน)",
-   "status": "unclear",
-   "events": 5,
-   "since": "2026-08-30",
-   "hit_after": 60.0,
-   "edge_after": 0.14,
-   "hit_week": 60.0,
+   "status": "confirmed",
+   "events": 245,
+   "since": "2016-11-29",
+   "hit_after": 58.8,
+   "edge_after": 0.31,
+   "hit_week": 59.2,
    "ci": [
-    27.2,
-    85.7
+    53.5,
+    63.8
    ]
   },
   {
@@ -213,15 +213,15 @@
    "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
    "effect": "ถูกกดดัน",
    "proxy": "วันที่ดอลลาร์/บาท ขึ้นเกิน 0.5% (บาทอ่อน)",
-   "status": "unclear",
-   "events": 5,
-   "since": "2026-08-30",
-   "hit_after": 80.0,
-   "edge_after": 5.12,
-   "hit_week": 100.0,
+   "status": "confirmed",
+   "events": 245,
+   "since": "2016-11-29",
+   "hit_after": 56.3,
+   "edge_after": 0.49,
+   "hit_week": 54.3,
    "ci": [
-    43.5,
-    95.4
+    51.1,
+    61.4
    ]
   },
   {
@@ -230,15 +230,15 @@
    "sector": "ผู้ส่งออก",
    "effect": "ถูกกดดัน",
    "proxy": "วันที่ดอลลาร์/บาท ลงเกิน 0.5% (บาทแข็ง)",
-   "status": "unclear",
-   "events": 4,
-   "since": "2026-08-19",
-   "hit_after": 100.0,
-   "edge_after": 1.0,
-   "hit_week": 50.0,
+   "status": "contrary",
+   "events": 254,
+   "since": "2016-11-28",
+   "hit_after": 44.1,
+   "edge_after": -0.4,
+   "hit_week": 46.5,
    "ci": [
-    59.6,
-    100.0
+    39.1,
+    49.3
    ]
   },
   {
@@ -247,15 +247,15 @@
    "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่ดอลลาร์/บาท ลงเกิน 0.5% (บาทแข็ง)",
-   "status": "unclear",
-   "events": 4,
-   "since": "2026-08-19",
-   "hit_after": 0.0,
-   "edge_after": -1.63,
-   "hit_week": 50.0,
+   "status": "contrary",
+   "events": 254,
+   "since": "2016-11-28",
+   "hit_after": 41.3,
+   "edge_after": -0.25,
+   "hit_week": 42.5,
    "ci": [
-    0.0,
-    40.4
+    36.4,
+    46.5
    ]
   },
   {
@@ -275,14 +275,14 @@
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่ Nasdaq ขึ้นเกิน 2%",
    "status": "unclear",
-   "events": 2,
-   "since": "2026-09-21",
-   "hit_after": 50.0,
-   "edge_after": 1.25,
-   "hit_week": 100.0,
+   "events": 142,
+   "since": "2017-10-27",
+   "hit_after": 53.5,
+   "edge_after": 0.23,
+   "hit_week": 64.8,
    "ci": [
-    12.1,
-    87.9
+    46.6,
+    60.3
    ]
   }
  ]
