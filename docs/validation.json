@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T15:47:34Z",
+ "generated_at": "2026-11-25T22:38:27Z",
  "horizon_days": 5,
  "min_events": 30,
  "rules": [
@@ -47,8 +47,8 @@
    "events": 400,
    "since": "2016-11-29",
    "hit_after": 58.5,
-   "edge_after": 0.5,
-   "hit_week": 66.2,
+   "edge_after": 0.51,
+   "hit_week": 66.5,
    "ci": [
     54.4,
     62.5
