@@ -89,13 +89,13 @@ header { display: flex; justify-content: space-between; align-items: center; gap
 
 /* โครงหน้า */
 .layout { display: grid; gap: 24px; grid-template-columns: minmax(0, 1fr);
-  grid-template-areas: "today" "lead" "stories" "mine" "feed" "stats"; }
+  grid-template-areas: "today" "lead" "cal" "stories" "mine" "feed" "stats"; }
 .col-left { display: contents; }
 .a-today { grid-area: today; } .a-lead { grid-area: lead; } .a-stories { grid-area: stories; }
-.a-mine { grid-area: mine; } .a-feed { grid-area: feed; } .a-stats { grid-area: stats; }
+.a-mine { grid-area: mine; } .a-feed { grid-area: feed; } .a-stats { grid-area: stats; } .a-cal { grid-area: cal; }
 @media (min-width: 1024px) {
   .layout { grid-template-columns: 272px minmax(0, 1fr) 300px; align-items: start; grid-template-rows: auto auto 1fr;
-    grid-template-areas: "left today mine" "left lead mine" "left feed mine"; }
+    grid-template-areas: "left today mine" "left lead mine" "left cal mine" "left feed mine"; }
   .col-left { display: flex; flex-direction: column; gap: 32px; grid-area: left; }
   .a-stories, .a-stats { grid-area: auto; }
   .side { position: sticky; top: 16px; }
@@ -225,6 +225,30 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .tl li.isnew::before { background: var(--accent); }
 .tl .d { font-size: 0.75rem; color: var(--muted); }
 .disclaimer { color: var(--muted); font-size: 0.75rem; text-align: center; margin: 8px 0 0; }
+/* ปฏิทินข่าวแรง */
+.cal { display: flex; flex-direction: column; }
+.cal .ev { padding: 12px 16px; border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; }
+.cal .ev:first-child { border-top: 0; }
+.cal .when { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; font-size: 0.8125rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.cal .when b { color: var(--ink); font-weight: 500; }
+.cal .hi { color: var(--bad); font-weight: 500; }
+.cal .ttl { font-weight: 500; font-size: 0.9375rem; line-height: 1.45; }
+.cal .fc { font-size: 0.8125rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.cal details { font-size: 0.8125rem; }
+.cal summary { cursor: pointer; color: var(--accent); }
+.cal .why { color: var(--muted); margin: 6px 0; }
+.cal .eff { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 4px 12px; margin-top: 4px; }
+@media (max-width: 480px) { .cal .eff { grid-template-columns: minmax(0, 1fr); } }
+.cal .eff b { display: block; font-weight: 500; }
+.cal .mv { width: 100%; border-collapse: collapse; font-size: 0.8125rem; font-variant-numeric: tabular-nums; }
+.cal .mv th, .cal .mv td { text-align: right; padding: 3px 0 3px 8px; font-weight: 400; }
+.cal .mv th:first-child, .cal .mv td:first-child { text-align: left; padding-left: 0; }
+.cal .mv thead th { color: var(--muted); }
+.cal .rn { font-size: 0.875rem; display: flex; flex-direction: column; gap: 4px; }
+.cal .rn a { display: block; line-height: 1.45; }
+.cal .rn .muted { font-size: 0.75rem; }
+.cal .sub { padding: 8px 16px; font-size: 0.8125rem; font-weight: 500; background: var(--bg, transparent); border-top: 1px solid var(--line); color: var(--muted); }
+.cal .sub:first-child { border-top: 0; }
 [hidden] { display: none !important; }
 @media (prefers-reduced-motion: no-preference) {
   .chip, .story, .stock-row, .pill-btn, .more { transition: background-color 0.15s var(--ease), border-color 0.15s var(--ease); }
@@ -257,6 +281,11 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
       <section class="a-lead" aria-label="ข่าวสำคัญ">
         <div id="hero"></div>
         <div class="grid2" id="top"></div>
+      </section>
+
+      <section class="a-cal" aria-labelledby="cal-h">
+        <div class="row-head"><h2 id="cal-h">ปฏิทินข่าวแรง</h2><span class="muted small">เวลาไทย</span></div>
+        <div class="card cal" id="cal"><span class="muted" style="padding:12px 16px">กำลังโหลด…</span></div>
       </section>
 
       <div class="col-left">
@@ -674,7 +703,78 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
   function go(hash) { if (location.hash === hash) route(); else location.hash = hash; }
   window.addEventListener("hashchange", route);
 
-  function renderHome() { renderPulse(); renderToday(); renderLead(); renderStories(); renderMine(); renderChips(); renderFeed(); renderStats(); }
+  /* ---------- ปฏิทินข่าวแรง ---------- */
+  var COUNTRY = { USD: "สหรัฐ", CNY: "จีน", EUR: "ยุโรป", JPY: "ญี่ปุ่น" };
+  var ARROW = { up: "▲", down: "▼", mixed: "◆" };
+  function calWhen(e) {
+    var d = new Date(e.time), opt = { weekday: "short", day: "numeric", month: "short", timeZone: "Asia/Bangkok" };
+    var day = d.toLocaleDateString("th-TH", opt), tm = e.all_day ? "ทั้งวัน" : fmtTime(e.time, false);
+    var diff = (d.getTime() - Date.now()) / 3600000, rel = "";
+    if (diff > 0) rel = diff < 1 ? "อีก " + Math.max(1, Math.round(diff * 60)) + " นาที" : diff < 48 ? "อีก " + Math.round(diff) + " ชม." : "อีก " + Math.round(diff / 24) + " วัน";
+    else rel = ago(e.time) + "ที่แล้ว";
+    return '<div class="when"><b>' + esc(day) + " " + esc(tm) + "</b><span>" + esc(COUNTRY[e.country] || e.country) + "</span>" +
+      (e.impact === "High" ? '<span class="hi">แรง</span>' : "<span>ปานกลาง</span>") + "<span>" + esc(rel) + "</span></div>";
+  }
+  function calItems(e) {
+    return e.items.map(function (i) {
+      var fc = [];
+      if (i.forecast) fc.push("คาด " + i.forecast);
+      if (i.previous) fc.push("ครั้งก่อน " + i.previous);
+      return '<div class="ttl">' + esc(i.title) + (fc.length ? ' <span class="fc">' + esc(fc.join(" · ")) + "</span>" : "") + "</div>";
+    }).join("");
+  }
+  function calEffects(r) {
+    function side(label, x) {
+      if (!x || !x.effects) return "";
+      return "<div><b>" + esc(label) + "</b>" + esc(x.summary || "") + "<br>" + x.effects.map(function (f) {
+        return '<span class="' + (f.dir === "up" ? "up" : f.dir === "down" ? "down" : "") + '">' + ARROW[f.dir] + "</span> " + esc(f.text);
+      }).join("<br>") + "</div>";
+    }
+    var lb = r.labels || ["ถ้าสูงกว่าคาด", "ถ้าต่ำกว่าคาด"];
+    return '<div class="why"><b>' + esc(r.name) + "</b>: " + esc(r.why) + '</div><div class="eff">' + side(lb[0], r.higher) + side(lb[1], r.lower) + "</div>";
+  }
+  function calRules(e, open) {
+    if (!e.rules || !e.rules.length) return "";
+    return "<details" + (open ? " open" : "") + "><summary>สำคัญยังไง / มักกระทบอะไร</summary>" + e.rules.map(calEffects).join("") +
+      '<div class="muted" style="margin-top:6px">เป็นแนวโน้มทั่วไป ไม่ได้เกิดทุกครั้ง</div></details>';
+  }
+  function calMoves(e, assets) {
+    var rx = e.reaction || {}, rows = assets.filter(function (a) { return rx[a.key]; });
+    if (!rows.length) return '<div class="fc">ยังไม่มีราคาหลังข่าว (รอตลาดปิด)</div>';
+    function cell(a, k) {
+      var v = rx[a.key][k];
+      if (v == null) return "<td class=\"muted\">–</td>";
+      var live = (rx[a.key].live || []).indexOf(k) >= 0;
+      var txt = a.unit === "abs" ? (v > 0 ? "+" : "") + v.toFixed(2) : (v > 0 ? "+" : "") + v.toFixed(2) + "%";
+      return '<td class="' + (v > 0 ? "up" : v < 0 ? "down" : "") + '">' + txt + (live ? "*" : "") + "</td>";
+    }
+    return '<table class="mv"><thead><tr><th>หลังข่าว</th><th>1 วัน</th><th>3 วัน</th><th>5 วัน</th></tr></thead><tbody>' +
+      rows.map(function (a) { return "<tr><td>" + esc(a.name) + "</td>" + cell(a, "d1") + cell(a, "d3") + cell(a, "d5") + "</tr>"; }).join("") +
+      "</tbody></table>";
+  }
+  function renderCal() {
+    var c = S.cal, el = $("cal");
+    if (!c) { el.innerHTML = '<span class="muted" style="padding:12px 16px">ยังไม่มีข้อมูลปฏิทิน</span>'; return; }
+    var html = '<div class="sub">กำลังจะออก (7 วัน)</div>';
+    var up = c.upcoming || [];
+    html += up.length ? up.map(function (e) { return '<div class="ev">' + calWhen(e) + calItems(e) + calRules(e, false) + "</div>"; }).join("")
+      : '<div class="ev muted">ไม่มีตัวเลขแรงในช่วงนี้ (ปฏิทินสัปดาห์หน้าขึ้นวันอาทิตย์)</div>';
+    var rc = c.recent || [];
+    if (rc.length) {
+      html += '<div class="sub">ออกไปแล้ว ตลาดตอบสนองยังไง</div>';
+      html += rc.map(function (e) {
+        var news = (e.news || []).map(function (n) {
+          return '<a href="' + esc(safeUrl(n.link)) + '" target="_blank" rel="noopener noreferrer">' + esc(n.title) + ' <span class="muted">' + esc(n.source) + (n.before ? " · ก่อนตัวเลขออก" : "") + "</span></a>";
+        }).join("");
+        return '<div class="ev">' + calWhen(e) + calItems(e) + calMoves(e, c.assets || []) + (news ? '<div class="rn">' + news + "</div>" : "") + calRules(e, false) + "</div>";
+      }).join("");
+      html += '<div class="ev muted small">เทียบราคาปิดก่อนตัวเลขออก กับราคาปิด 1/3/5 วันทำการหลังจากนั้น บอนด์ยีลด์เป็นจุด (%) ไม่ใช่ % เปลี่ยน * = วันนี้ตลาดยังไม่ปิด ราคาขยับได้จากหลายเรื่องพร้อมกัน ไม่ใช่เพราะตัวเลขนี้อย่างเดียว</div>';
+    }
+    if (c.error) html += '<div class="ev muted small">ดึงปฏิทินรอบล่าสุดไม่สำเร็จ แสดงข้อมูลเดิม</div>';
+    el.innerHTML = html;
+  }
+
+  function renderHome() { renderCal(); renderPulse(); renderToday(); renderLead(); renderStories(); renderMine(); renderChips(); renderFeed(); renderStats(); }
 
   document.addEventListener("click", function (e) {
     var t = e.target.closest("button");
@@ -724,11 +824,11 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     var nNew = S.prevVisit ? data.items.filter(isNew).length : 0;
     if (nNew) { $("newbar").hidden = false; $("newbar").innerHTML = "<span>มีข่าวใหม่ <b>" + nNew + "</b> ข่าว ตั้งแต่เข้ามาครั้งก่อน (" + fmtTime(new Date(S.prevVisit).toISOString()) + ')</span><button class="chip" type="button" data-f="new" style="margin-left:auto">ดูเฉพาะข่าวใหม่</button>'; }
     renderHome(); route();
-    return Promise.all([getJSON("prices.json", "__PRICES__"), getJSON("stats.json", "__STATS__"), getJSON("tickers.json", "__TICKERS__"), getJSON("history.json", "__HIST__"), getJSON("validation.json", "__VAL__")]);
+    return Promise.all([getJSON("prices.json", "__PRICES__"), getJSON("stats.json", "__STATS__"), getJSON("tickers.json", "__TICKERS__"), getJSON("history.json", "__HIST__"), getJSON("validation.json", "__VAL__"), getJSON("calendar.json", "__CAL__")]);
   }).then(function (r) {
     if (!r) return;
     if (r[0]) { S.prices = r[0].prices || {}; S.market = r[0].market || []; }
-    S.stats = r[1]; S.tickers = r[2] || {}; S.hist = r[3] || {}; S.val = r[4];
+    S.stats = r[1]; S.tickers = r[2] || {}; S.hist = r[3] || {}; S.val = r[4]; S.cal = r[5];
     renderHome(); route();
   });
 })();

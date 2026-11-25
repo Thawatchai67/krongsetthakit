@@ -1,0 +1,563 @@
+{
+  "_note": "กติกาตีความปฏิทินเศรษฐกิจ: match = คำในชื่อตัวเลข (regex) / higher, lower = ถ้าตัวเลขจริงสูงหรือต่ำกว่าคาด ตลาดมัก... (แนวโน้มทั่วไป ไม่ได้เกิดทุกครั้ง) / news = คำในหัวข่าวที่เกี่ยวข้อง / dir: up, down, mixed",
+  "countries": [
+    "USD",
+    "CNY",
+    "EUR",
+    "JPY"
+  ],
+  "rules": [
+    {
+      "id": "us_inflation",
+      "name": "เงินเฟ้อสหรัฐ",
+      "countries": [
+        "USD"
+      ],
+      "match": "\\b(core )?(cpi|pce price index|ppi)\\b|average hourly earnings",
+      "why": "เฟดดูเงินเฟ้อเป็นหลักในการตัดสินดอกเบี้ย เงินเฟ้อสูง = ดอกเบี้ยสูงนาน",
+      "higher": {
+        "summary": "ตลาดคาดเฟดคงดอกเบี้ยสูง/ขึ้นต่อ",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "up",
+            "text": "ดอลลาร์แข็ง บาทอ่อน"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "down",
+            "text": "ทองลง"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "up",
+            "text": "บอนด์ยีลด์ขึ้น"
+          },
+          {
+            "asset": "SPX",
+            "dir": "down",
+            "text": "หุ้นสหรัฐลง"
+          },
+          {
+            "asset": "SET",
+            "dir": "down",
+            "text": "หุ้นไทยถูกกดดัน (ต่างชาติขาย)"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "ตลาดลุ้นเฟดผ่อนคลาย",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "down",
+            "text": "ดอลลาร์อ่อน บาทแข็ง"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "up",
+            "text": "ทองขึ้น"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "down",
+            "text": "บอนด์ยีลด์ลง"
+          },
+          {
+            "asset": "SPX",
+            "dir": "up",
+            "text": "หุ้นสหรัฐขึ้น"
+          },
+          {
+            "asset": "SET",
+            "dir": "up",
+            "text": "หุ้นไทยได้แรงหนุน"
+          }
+        ]
+      },
+      "news": "CPI|PCE|PPI|เงินเฟ้อ|inflation|ราคาผู้บริโภค|ราคาผู้ผลิต"
+    },
+    {
+      "id": "us_jobs",
+      "name": "ตลาดแรงงานสหรัฐ",
+      "countries": [
+        "USD"
+      ],
+      "match": "non-farm employment change|jolts|adp non-farm",
+      "why": "การจ้างงานบอกว่าเศรษฐกิจสหรัฐแรงแค่ไหน เป็นตัวเลขที่ตลาดขยับแรงที่สุดตัวหนึ่ง",
+      "higher": {
+        "summary": "เศรษฐกิจแข็ง เฟดไม่รีบลดดอกเบี้ย",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "up",
+            "text": "ดอลลาร์แข็ง บาทอ่อน"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "down",
+            "text": "ทองลง"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "up",
+            "text": "บอนด์ยีลด์ขึ้น"
+          },
+          {
+            "asset": "SPX",
+            "dir": "mixed",
+            "text": "หุ้นสหรัฐผสม (เศรษฐกิจดีแต่ดอกเบี้ยอาจสูงนาน)"
+          },
+          {
+            "asset": "SET",
+            "dir": "down",
+            "text": "หุ้นไทยถูกกดดัน (ต่างชาติขาย)"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "เศรษฐกิจชะลอ ลุ้นลดดอกเบี้ย",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "down",
+            "text": "ดอลลาร์อ่อน บาทแข็ง"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "up",
+            "text": "ทองขึ้น"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "down",
+            "text": "บอนด์ยีลด์ลง"
+          },
+          {
+            "asset": "SPX",
+            "dir": "mixed",
+            "text": "หุ้นสหรัฐผสม (ลุ้นลดดอกเบี้ยแต่กังวลเศรษฐกิจ)"
+          },
+          {
+            "asset": "SET",
+            "dir": "up",
+            "text": "หุ้นไทยได้แรงหนุน"
+          }
+        ]
+      },
+      "news": "non-?farm|payroll|nfp|จ้างงาน|JOLTS|ADP"
+    },
+    {
+      "id": "us_jobless",
+      "name": "คนว่างงานสหรัฐ",
+      "countries": [
+        "USD"
+      ],
+      "match": "unemployment rate|unemployment claims",
+      "why": "คนว่างงานเพิ่ม = เศรษฐกิจอ่อน (ทิศกลับกับตัวเลขจ้างงาน)",
+      "higher": {
+        "summary": "เศรษฐกิจอ่อน ลุ้นลดดอกเบี้ย",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "down",
+            "text": "ดอลลาร์อ่อน บาทแข็ง"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "up",
+            "text": "ทองขึ้น"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "down",
+            "text": "บอนด์ยีลด์ลง"
+          },
+          {
+            "asset": "SPX",
+            "dir": "mixed",
+            "text": "หุ้นสหรัฐผสม (ลุ้นลดดอกเบี้ยแต่กังวลเศรษฐกิจ)"
+          },
+          {
+            "asset": "SET",
+            "dir": "up",
+            "text": "หุ้นไทยได้แรงหนุน"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "เศรษฐกิจแข็ง",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "up",
+            "text": "ดอลลาร์แข็ง บาทอ่อน"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "down",
+            "text": "ทองลง"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "up",
+            "text": "บอนด์ยีลด์ขึ้น"
+          },
+          {
+            "asset": "SPX",
+            "dir": "mixed",
+            "text": "หุ้นสหรัฐผสม (เศรษฐกิจดีแต่ดอกเบี้ยอาจสูงนาน)"
+          },
+          {
+            "asset": "SET",
+            "dir": "down",
+            "text": "หุ้นไทยถูกกดดัน (ต่างชาติขาย)"
+          }
+        ]
+      },
+      "news": "ว่างงาน|jobless|unemployment|สวัสดิการ"
+    },
+    {
+      "id": "us_growth",
+      "name": "เศรษฐกิจสหรัฐ",
+      "countries": [
+        "USD"
+      ],
+      "match": "\\bgdp\\b(?!.*price)|retail sales|ism (manufacturing|services) pmi|flash (manufacturing|services) pmi|consumer confidence|consumer sentiment",
+      "why": "บอกทิศทางเศรษฐกิจสหรัฐ ซึ่งกระทบดอลลาร์และเงินทุนที่ไหลเข้าออกเอเชีย",
+      "higher": {
+        "summary": "ดอลลาร์แข็ง ดอกเบี้ยสูงนาน",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "up",
+            "text": "ดอลลาร์แข็ง บาทอ่อน"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "down",
+            "text": "ทองลง"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "up",
+            "text": "บอนด์ยีลด์ขึ้น"
+          },
+          {
+            "asset": "SPX",
+            "dir": "mixed",
+            "text": "หุ้นสหรัฐผสม (เศรษฐกิจดีแต่ดอกเบี้ยอาจสูงนาน)"
+          },
+          {
+            "asset": "SET",
+            "dir": "down",
+            "text": "หุ้นไทยถูกกดดัน (ต่างชาติขาย)"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "ดอลลาร์อ่อน ลุ้นลดดอกเบี้ย",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "down",
+            "text": "ดอลลาร์อ่อน บาทแข็ง"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "up",
+            "text": "ทองขึ้น"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "down",
+            "text": "บอนด์ยีลด์ลง"
+          },
+          {
+            "asset": "SPX",
+            "dir": "mixed",
+            "text": "หุ้นสหรัฐผสม (ลุ้นลดดอกเบี้ยแต่กังวลเศรษฐกิจ)"
+          },
+          {
+            "asset": "SET",
+            "dir": "up",
+            "text": "หุ้นไทยได้แรงหนุน"
+          }
+        ]
+      },
+      "news": "GDP|จีดีพี|ค้าปลีก|retail sales|PMI|ISM|ความเชื่อมั่นผู้บริโภค|consumer"
+    },
+    {
+      "id": "fed_rate",
+      "name": "ดอกเบี้ยเฟด",
+      "countries": [
+        "USD"
+      ],
+      "match": "federal funds rate",
+      "why": "ดอกเบี้ยนโยบายสหรัฐ กำหนดทิศดอลลาร์ ทอง และเงินทุนทั่วโลก",
+      "higher": {
+        "summary": "ขึ้นดอกเบี้ย หรือไม่ลดตามที่คาด",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "up",
+            "text": "ดอลลาร์แข็ง บาทอ่อน"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "down",
+            "text": "ทองลง"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "up",
+            "text": "บอนด์ยีลด์ขึ้น"
+          },
+          {
+            "asset": "SPX",
+            "dir": "down",
+            "text": "หุ้นสหรัฐลง"
+          },
+          {
+            "asset": "SET",
+            "dir": "down",
+            "text": "หุ้นไทยถูกกดดัน (ต่างชาติขาย)"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "ลดมากกว่าคาด",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "down",
+            "text": "ดอลลาร์อ่อน บาทแข็ง"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "up",
+            "text": "ทองขึ้น"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "down",
+            "text": "บอนด์ยีลด์ลง"
+          },
+          {
+            "asset": "SPX",
+            "dir": "up",
+            "text": "หุ้นสหรัฐขึ้น"
+          },
+          {
+            "asset": "SET",
+            "dir": "up",
+            "text": "หุ้นไทยได้แรงหนุน"
+          }
+        ]
+      },
+      "news": "เฟด|FOMC|\\bFed\\b|ดอกเบี้ย|Powell|พาวเวล"
+    },
+    {
+      "id": "fed_talk",
+      "name": "ถ้อยแถลงเฟด",
+      "countries": [
+        "USD"
+      ],
+      "match": "fomc|fed chair",
+      "why": "ไม่มีตัวเลขคาดการณ์ ตลาดฟังน้ำเสียงว่าห่วงเงินเฟ้อ (hawkish) หรือห่วงเศรษฐกิจ (dovish)",
+      "labels": [
+        "ถ้าท่าทีแข็ง (hawkish)",
+        "ถ้าท่าทีอ่อน (dovish)"
+      ],
+      "higher": {
+        "summary": "ห่วงเงินเฟ้อ ไม่รีบลดดอกเบี้ย",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "up",
+            "text": "ดอลลาร์แข็ง บาทอ่อน"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "down",
+            "text": "ทองลง"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "up",
+            "text": "บอนด์ยีลด์ขึ้น"
+          },
+          {
+            "asset": "SPX",
+            "dir": "down",
+            "text": "หุ้นสหรัฐลง"
+          },
+          {
+            "asset": "SET",
+            "dir": "down",
+            "text": "หุ้นไทยถูกกดดัน (ต่างชาติขาย)"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "เปิดทางลดดอกเบี้ย",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "down",
+            "text": "ดอลลาร์อ่อน บาทแข็ง"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "up",
+            "text": "ทองขึ้น"
+          },
+          {
+            "asset": "US10Y",
+            "dir": "down",
+            "text": "บอนด์ยีลด์ลง"
+          },
+          {
+            "asset": "SPX",
+            "dir": "up",
+            "text": "หุ้นสหรัฐขึ้น"
+          },
+          {
+            "asset": "SET",
+            "dir": "up",
+            "text": "หุ้นไทยได้แรงหนุน"
+          }
+        ]
+      },
+      "news": "เฟด|FOMC|\\bFed\\b|Powell|พาวเวล|รายงานการประชุม"
+    },
+    {
+      "id": "cn_data",
+      "name": "เศรษฐกิจจีน",
+      "countries": [
+        "CNY"
+      ],
+      "match": "\\bgdp\\b|industrial production|retail sales|manufacturing pmi|trade balance",
+      "why": "จีนเป็นคู่ค้าและแหล่งนักท่องเที่ยวรายใหญ่ของไทย",
+      "higher": {
+        "summary": "ดีต่อส่งออก/ท่องเที่ยวไทยและค่าเงินเอเชีย",
+        "effects": [
+          {
+            "asset": "SET",
+            "dir": "up",
+            "text": "หุ้นไทยได้แรงหนุน"
+          },
+          {
+            "asset": "USDTHB",
+            "dir": "down",
+            "text": "บาทแข็งตามหยวน"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "กดดันส่งออกและท่องเที่ยวไทย",
+        "effects": [
+          {
+            "asset": "SET",
+            "dir": "down",
+            "text": "หุ้นไทยถูกกดดัน (ต่างชาติขาย)"
+          },
+          {
+            "asset": "USDTHB",
+            "dir": "up",
+            "text": "บาทอ่อนตามหยวน"
+          }
+        ]
+      },
+      "news": "จีน|China|Chinese"
+    },
+    {
+      "id": "ecb_rate",
+      "name": "ดอกเบี้ยยุโรป (ECB)",
+      "countries": [
+        "EUR"
+      ],
+      "match": "main refinancing rate|ecb press conference|monetary policy statement",
+      "why": "ยูโรเป็นสกุลใหญ่สุดในดัชนีดอลลาร์ ดอกเบี้ยยุโรปจึงกระทบดอลลาร์และบาททางอ้อม",
+      "higher": {
+        "summary": "ยูโรแข็ง ดอลลาร์อ่อน",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "down",
+            "text": "ดอลลาร์อ่อน บาทมักแข็งตาม"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "up",
+            "text": "ทองมักได้แรงหนุนจากดอลลาร์อ่อน"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "ยูโรอ่อน ดอลลาร์แข็ง",
+        "effects": [
+          {
+            "asset": "USDTHB",
+            "dir": "up",
+            "text": "ดอลลาร์แข็ง บาทมักอ่อนตาม"
+          },
+          {
+            "asset": "GOLD",
+            "dir": "down",
+            "text": "ทองมักถูกกดดันจากดอลลาร์แข็ง"
+          }
+        ]
+      },
+      "news": "ECB|อีซีบี|ธนาคารกลางยุโรป|ยูโรโซน",
+      "labels": [
+        "ถ้าสูงกว่าคาด / ท่าทีแข็ง",
+        "ถ้าต่ำกว่าคาด / ท่าทีอ่อน"
+      ]
+    },
+    {
+      "id": "boj_rate",
+      "name": "ดอกเบี้ยญี่ปุ่น (BOJ)",
+      "countries": [
+        "JPY"
+      ],
+      "match": "boj policy rate|boj press conference|monetary policy statement",
+      "why": "ญี่ปุ่นขึ้นดอกเบี้ยทำให้เงินที่กู้เยนไปลงทุนที่อื่น (carry trade) ไหลกลับ ตลาดหุ้นทั่วโลกผันผวนได้",
+      "higher": {
+        "summary": "เยนแข็ง เสี่ยงเงินไหลออกจากหุ้น",
+        "effects": [
+          {
+            "asset": "SPX",
+            "dir": "down",
+            "text": "หุ้นสหรัฐลง"
+          },
+          {
+            "asset": "SET",
+            "dir": "down",
+            "text": "หุ้นไทยถูกกดดัน (ต่างชาติขาย)"
+          }
+        ]
+      },
+      "lower": {
+        "summary": "เยนอ่อน ตลาดหุ้นสบายใจ",
+        "effects": [
+          {
+            "asset": "SPX",
+            "dir": "up",
+            "text": "หุ้นสหรัฐขึ้น"
+          },
+          {
+            "asset": "SET",
+            "dir": "up",
+            "text": "หุ้นไทยได้แรงหนุน"
+          }
+        ]
+      },
+      "news": "BOJ|บีโอเจ|ญี่ปุ่น|เยน|Japan",
+      "labels": [
+        "ถ้าสูงกว่าคาด / ท่าทีแข็ง",
+        "ถ้าต่ำกว่าคาด / ท่าทีอ่อน"
+      ]
+    }
+  ]
+}

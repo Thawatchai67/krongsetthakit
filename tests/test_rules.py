@@ -1,5 +1,6 @@
 """ทดสอบกฎกรอง/จับคู่ข่าว (ออฟไลน์ ไม่ต้องต่อเน็ต)  รัน: python tests/test_rules.py
 หัวข้อข่าวในไฟล์นี้เป็นข้อความสมมุติสำหรับทดสอบกฎเท่านั้น ไม่ใช่ข่าวจริง"""
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -10,6 +11,7 @@ import fetch_news as fn  # noqa: E402
 import fetch_prices as fp  # noqa: E402
 import track_signals as ts  # noqa: E402
 import validate_rules as vr  # noqa: E402
+import fetch_calendar as fc  # noqa: E402
 
 RULES = fn.load_json(ROOT / "config" / "rules.json")
 CATS, SIGS = fn.build_rules(RULES)
@@ -284,6 +286,66 @@ class ValidateTests(unittest.TestCase):
         self.assertEqual(r["status"], "unclear")
         self.assertIn("note", r)
 
+
+class CalendarTests(unittest.TestCase):
+    CFG = fn.load_json(ROOT / "config" / "calendar_rules.json")
+    RULES = fc.build_rules(CFG)
+
+    def ev(self, title, country="USD", impact="High", date="2026-11-25T08:30:00-05:00"):
+        return {"title": title, "country": country, "date": date, "impact": impact, "forecast": "0.3%", "previous": "0.2%"}
+
+    def rule_of(self, title, country="USD"):
+        r = fc.match_rule({"title": title, "country": country}, self.RULES)
+        return r and r["id"]
+
+    def test_rule_matching(self):
+        cases = {
+            "Core CPI m/m": "us_inflation", "Core PCE Price Index m/m": "us_inflation", "PPI m/m": "us_inflation",
+            "Non-Farm Employment Change": "us_jobs", "Unemployment Claims": "us_jobless", "Unemployment Rate": "us_jobless",
+            "Advance GDP q/q": "us_growth", "Retail Sales m/m": "us_growth", "ISM Services PMI": "us_growth",
+            "Federal Funds Rate": "fed_rate", "FOMC Statement": "fed_talk", "FOMC Meeting Minutes": "fed_talk",
+        }
+        for t, rid in cases.items():
+            with self.subTest(title=t):
+                self.assertEqual(self.rule_of(t), rid)
+        self.assertEqual(self.rule_of("Manufacturing PMI", "CNY"), "cn_data")
+        self.assertEqual(self.rule_of("BOJ Policy Rate", "JPY"), "boj_rate")
+        self.assertIsNone(self.rule_of("Prelim GDP Price Index q/q"))   # ตัวเลขรอง ไม่ใช่ GDP
+
+    def test_filter_and_thai_relevance(self):
+        raw = [self.ev("Core PCE Price Index m/m"), self.ev("CPI y/y", country="AUD"),
+               self.ev("Pending Home Sales m/m", impact="Medium"), self.ev("Flash Services PMI", impact="Medium"),
+               self.ev("Bank Holiday", impact="Holiday")]
+        out = fc.normalize(raw, self.RULES, self.CFG)
+        self.assertEqual([e["title"] for e in out], ["Core PCE Price Index m/m", "Flash Services PMI"])
+        self.assertEqual(out[0]["time"], "2026-11-25T13:30:00Z")
+
+    def test_base_close_respects_market_hours(self):
+        dates = ["2026-11-24", "2026-11-25", "2026-11-26"]
+        t = fc.parse_utc("2026-11-25T13:30:00Z")              # 08:30 นิวยอร์ก / 20:30 ไทย
+        ny = next(a for a in fc.ASSETS if a["key"] == "SPX")
+        th = next(a for a in fc.ASSETS if a["key"] == "SET")
+        self.assertEqual(dates[fc.base_index(dates, t, ny)], "2026-11-24")   # ก่อนตลาดสหรัฐเปิด ใช้ราคาปิดวันก่อน
+        self.assertEqual(dates[fc.base_index(dates, t, th)], "2026-11-25")   # หลังตลาดไทยปิด ใช้ราคาปิดวันนั้น
+
+    def test_reaction(self):
+        hist = {"^GSPC": {"2026-11-24": 100.0, "2026-11-25": 102.0, "2026-11-26": 101.0, "2026-11-27": 99.0},
+                "M:US10Y": {"2026-11-24": 4.0, "2026-11-25": 4.1}}
+        r = fc.reaction(fc.parse_utc("2026-11-25T13:30:00Z"), hist, fc.parse_utc("2026-12-01T00:00:00Z"))
+        self.assertEqual(r["SPX"], {"d1": 2.0, "d3": -1.0})
+        self.assertEqual(r["US10Y"], {"d1": 0.1})
+        self.assertNotIn("GOLD", r)
+
+    def test_build_from_sample(self):
+        raw = json.loads((ROOT / "tests" / "samples" / "ff_calendar.json").read_text(encoding="utf-8"))
+        hist = fc.merge_history({}, fc.normalize(raw, self.RULES, self.CFG), fc.parse_utc("2026-11-24T00:00:00Z"))
+        news = {"items": [{"title": "สหรัฐเผยดัชนี PCE +3.8% สอดคล้องคาดการณ์", "link": "x", "source": "s", "published": "2026-11-25T15:15:58Z"},
+                          {"title": "ข่าวอื่นไม่เกี่ยว", "link": "y", "published": "2026-11-25T15:00:00Z"}]}
+        up, rc = fc.build(hist, self.RULES, news, {}, fc.parse_utc("2026-11-26T00:00:00Z"))
+        self.assertEqual([e["country"] for e in up], ["USD", "CNY"])           # FOMC แล้วตามด้วย PMI จีน
+        self.assertEqual(rc[0]["items"][0]["title"], "Core PCE Price Index m/m")
+        self.assertEqual({r["id"] for r in rc[0]["rules"]}, {"us_inflation", "us_growth"})   # PCE + GDP ออกพร้อมกัน
+        self.assertEqual([n["link"] for n in rc[0]["news"]], ["x"])
 
 if __name__ == "__main__":
     unittest.main(verbosity=1)
