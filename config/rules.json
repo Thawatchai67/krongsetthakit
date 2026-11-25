@@ -230,8 +230,8 @@
       "id": "oil_up",
       "name": "น้ำมันขึ้น",
       "patterns": [
-        "(น้ำมัน|ราคาน้ำมัน).{0,15}(ปรับขึ้น|พุ่ง|ขึ้น|เพิ่มขึ้น|แพง|ทะยาน|สูงขึ้น)",
-        "\\b(oil|crude|brent|wti)\\b.{0,30}\\b(rise|rises|rose|rising|jump|jumps|jumped|surge|surges|surged|climb|climbs|climbed|rally|rallies|rallied|higher)\\b"
+        "(น้ำมัน|ราคาน้ำมัน).{0,15}?(ปรับขึ้น|ดีดตัว|ดีดกลับ|พุ่ง|ขึ้น|เพิ่มขึ้น|แพง|ทะยาน|สูงขึ้น)",
+        "\\b(oil|crude|brent|wti)\\b.{0,30}?\\b(rise|rises|rose|rising|jump|jumps|jumped|surge|surges|surged|climb|climbs|climbed|rally|rallies|rallied|higher|rebound|rebounds|rebounded)\\b"
       ],
       "impacts": [
         {
@@ -262,14 +262,18 @@
           ],
           "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
         }
+      ],
+      "category": "oil_energy",
+      "exclude": [
+        "สต็อก|สต๊อก|สตอก|คลังน้ำมัน|น้ำมันสำรอง|inventor|stockpile"
       ]
     },
     {
       "id": "oil_down",
       "name": "น้ำมันลง",
       "patterns": [
-        "(น้ำมัน|ราคาน้ำมัน).{0,15}(ปรับลด|ร่วง|ลดลง|ตก|ดิ่ง|ถูกลง|อ่อนตัว)",
-        "\\b(oil|crude|brent|wti)\\b.{0,30}\\b(fall|falls|fell|drop|drops|dropped|slump|slumps|slid|slide|slides|sliding|tumble|tumbles|lower|decline|declines)\\b"
+        "(น้ำมัน|ราคาน้ำมัน).{0,15}?(ปรับลด|ร่วง|ลดลง|ตก|ดิ่ง|ถูกลง|อ่อนตัว)",
+        "\\b(oil|crude|brent|wti)\\b.{0,30}?\\b(fall|falls|fell|drop|drops|dropped|slump|slumps|slid|slide|slides|sliding|tumble|tumbles|lower|decline|declines)\\b"
       ],
       "impacts": [
         {
@@ -300,6 +304,10 @@
           ],
           "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
         }
+      ],
+      "category": "oil_energy",
+      "exclude": [
+        "สต็อก|สต๊อก|สตอก|คลังน้ำมัน|น้ำมันสำรอง|inventor|stockpile"
       ]
     },
     {
@@ -307,7 +315,7 @@
       "name": "ลดดอกเบี้ย",
       "patterns": [
         "(?<!ไม่)(ปรับ)?ลด(อัตรา)?ดอกเบี้ย",
-        "ดอกเบี้ย.{0,8}(ลดลง|ปรับลด)",
+        "ดอกเบี้ย.{0,8}?(ลดลง|ปรับลด)",
         "\\brate cuts?\\b|\\bcuts?\\s+(interest\\s+)?rates?\\b|\\blower(s|ed)?\\s+(interest\\s+)?rates?\\b"
       ],
       "impacts": [
@@ -347,14 +355,15 @@
           ],
           "why": "ส่วนต่างดอกเบี้ย (NIM) อาจแคบลง"
         }
-      ]
+      ],
+      "category": "monetary"
     },
     {
       "id": "rate_hike",
       "name": "ขึ้นดอกเบี้ย",
       "patterns": [
         "(?<!ไม่)(ขึ้น|ปรับขึ้น|เพิ่ม)ดอกเบี้ย",
-        "ดอกเบี้ย.{0,8}(ปรับขึ้น|สูงขึ้น)",
+        "ดอกเบี้ย.{0,8}?(ปรับขึ้น|สูงขึ้น)",
         "\\brate hikes?\\b|\\b(hike|hikes|raise|raises|raised)\\s+(interest\\s+)?rates?\\b"
       ],
       "impacts": [
@@ -394,14 +403,15 @@
           ],
           "why": "อัตราคิดลดสูงขึ้นกดมูลค่าหุ้นเติบโต"
         }
-      ]
+      ],
+      "category": "monetary"
     },
     {
       "id": "gold_up",
       "name": "ทองคำขึ้น",
       "patterns": [
-        "(ทองคำ|ราคาทอง).{0,12}(พุ่ง|ขึ้น|ปรับขึ้น|ทะยาน|นิวไฮ|สูงสุด)",
-        "\\bgold\\b.{0,30}\\b(rise|rises|rose|jump|jumps|jumped|surge|surges|surged|climb|climbs|climbed|rally|rallies|rallied|record|higher)\\b"
+        "(ทองคำ|ราคาทอง).{0,12}?(พุ่ง|ขึ้น|ปรับขึ้น|ทะยาน|นิวไฮ|สูงสุด)",
+        "\\bgold\\b.{0,30}?\\b(rise|rises|rose|jump|jumps|jumped|surge|surges|surged|climb|climbs|climbed|rally|rallies|rallied|record|higher)\\b"
       ],
       "impacts": [
         {
@@ -416,15 +426,16 @@
           ],
           "why": "ราคาทองสูงขึ้นหนุนรายได้และมูลค่าสินทรัพย์ (GLD เป็นกองทุน ETF ทองคำ)"
         }
-      ]
+      ],
+      "category": "gold"
     },
     {
       "id": "baht_weak",
       "name": "บาทอ่อน",
       "patterns": [
-        "บาท.{0,6}อ่อน",
-        "เงินบาท.{0,10}(อ่อนค่า|ร่วง)",
-        "\\bbaht\\b.{0,20}\\b(weaken|weakens|weakened|weaker|slump|slumps|falls|fell)\\b"
+        "บาท.{0,6}?อ่อน",
+        "เงินบาท.{0,10}?(อ่อนค่า|ร่วง)",
+        "\\bbaht\\b.{0,20}?\\b(weaken|weakens|weakened|weaker|slump|slumps|falls|fell)\\b"
       ],
       "impacts": [
         {
@@ -447,15 +458,16 @@
           "us": [],
           "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
         }
-      ]
+      ],
+      "category": "fx"
     },
     {
       "id": "baht_strong",
       "name": "บาทแข็ง",
       "patterns": [
-        "บาท.{0,6}แข็ง",
-        "เงินบาท.{0,10}แข็งค่า",
-        "\\bbaht\\b.{0,20}\\b(strengthen|strengthens|strengthened|stronger|gains|rallies)\\b"
+        "บาท.{0,6}?แข็ง",
+        "เงินบาท.{0,10}?แข็งค่า",
+        "\\bbaht\\b.{0,20}?\\b(strengthen|strengthens|strengthened|stronger|gains|rallies)\\b"
       ],
       "impacts": [
         {
@@ -478,7 +490,8 @@
           "us": [],
           "why": "ต้นทุนเป็นดอลลาร์ถูกลงเมื่อแปลงเป็นบาท"
         }
-      ]
+      ],
+      "category": "fx"
     },
     {
       "id": "tariff",
@@ -504,13 +517,14 @@
           ],
           "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
         }
-      ]
+      ],
+      "category": "trade_geo"
     },
     {
       "id": "tech_rally",
       "name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
       "patterns": [
-        "(nvidia|เอ็นวิเดีย|chips?|semiconductors?|ชิป|เซมิคอนดักเตอร์).{0,40}(surge|surges|surged|rally|rallies|rallied|jump|jumps|jumped|record|soar|soars|soared|พุ่ง|ทะยาน|นิวไฮ)"
+        "(nvidia|เอ็นวิเดีย|chips?|semiconductors?|ชิป|เซมิคอนดักเตอร์).{0,40}?(surge|surges|surged|rally|rallies|rallied|jump|jumps|jumped|record|soar|soars|soared|พุ่ง|ทะยาน|นิวไฮ)"
       ],
       "impacts": [
         {
@@ -528,7 +542,9 @@
           ],
           "why": "ความต้องการชิปและอุปกรณ์อิเล็กทรอนิกส์ที่เกี่ยวข้องดี"
         }
-      ]
+      ],
+      "category": "tech_ai"
     }
-  ]
+  ],
+  "_signal_note": "category = หมวดที่หัวข้อข่าวต้องเกี่ยวด้วย ถ้าคำสัญญาณเจอแค่ในเนื้อข่าว (กันข่าวที่แค่เอ่ยถึงเรื่องเก่า) / exclude = คำที่ถ้าอยู่ติดกับคำที่จับได้ ให้ไม่นับ (เช่น สต็อกน้ำมันลดลง ไม่ใช่ราคาน้ำมันลง) / ถ้าข่าวเดียวจับได้สัญญาณตรงข้ามกัน จะเลือกตัวที่อยู่ในหัวข้อ ถ้าตัดสินไม่ได้จะไม่นับทั้งคู่"
 }

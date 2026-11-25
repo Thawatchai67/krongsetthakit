@@ -58,6 +58,8 @@ def build_rules(rules):
             "id": s["id"],
             "name": s["name"],
             "patterns": [re.compile(p, re.IGNORECASE | re.DOTALL) for p in s["patterns"]],
+            "exclude": [re.compile(p, re.IGNORECASE) for p in s.get("exclude", [])],
+            "category": s.get("category"),
             "impacts": s["impacts"],
         })
     return cats, sigs
@@ -112,6 +114,51 @@ def build_story_list(items, stories, now):
     return out
 
 
+# สัญญาณที่ตรงข้ามกัน ถ้าข่าวเดียวจับได้ทั้งคู่ต้องเลือกหรือทิ้ง
+OPPOSITE = {"oil_up": "oil_down", "oil_down": "oil_up", "rate_cut": "rate_hike", "rate_hike": "rate_cut",
+            "baht_weak": "baht_strong", "baht_strong": "baht_weak"}
+EXCLUDE_LOOKBEHIND = 12  # ตัวอักษรก่อนคำที่จับได้ ที่ใช้เช็ก exclude (เช่น "สต็อก" หน้า "น้ำมัน")
+
+
+def _sig_hit(sig, text):
+    """ความยาวของช่วงที่จับได้สั้นที่สุด (ไม่นับช่วงที่มีคำใน exclude) หรือ None ถ้าไม่เจอ
+    ช่วงสั้น = คำกริยาอยู่ใกล้คำหลัก ใช้ตัดสินเมื่อหัวข้อเดียวจับได้สัญญาณตรงข้ามกัน"""
+    best = None
+    for p in sig["patterns"]:
+        for m in p.finditer(text):
+            window = text[max(0, m.start() - EXCLUDE_LOOKBEHIND): m.end()]
+            if not any(x.search(window) for x in sig.get("exclude", [])):
+                n = m.end() - m.start()
+                best = n if best is None else min(best, n)
+    return best
+
+
+def match_signals(title, summary, sigs, cats):
+    """สัญญาณของข่าว: เจอในหัวข้อ = นับ, เจอแค่ในเนื้อข่าว = นับเมื่อหัวข้อเกี่ยวกับหมวดของสัญญาณ
+    ถ้าได้สัญญาณตรงข้ามกัน: เลือกตัวที่อยู่ในหัวข้อ / ถ้าอยู่ที่เดียวกัน เลือกตัวที่จับได้ช่วงสั้นกว่า / เท่ากันทิ้งทั้งคู่"""
+    cat_kws = {c["id"]: c["kws"] for c in cats}
+    where = {}  # sid -> (0 = หัวข้อ / 1 = เนื้อข่าว, ความยาวช่วงที่จับได้)
+    for s in sigs:
+        n = _sig_hit(s, title)
+        if n is not None:
+            where[s["id"]] = (0, n)
+        elif summary:
+            n = _sig_hit(s, summary)
+            kws = cat_kws.get(s.get("category"))
+            if n is not None and (kws is None or any(rx.search(title) for rx in kws)):
+                where[s["id"]] = (1, n)
+    for sid in list(where):
+        opp = OPPOSITE.get(sid)
+        if sid not in where or opp not in where:
+            continue
+        if where[sid] == where[opp]:
+            where.pop(sid)
+            where.pop(opp)
+        else:
+            where.pop(max((sid, opp), key=lambda k: where[k]))
+    return [s["id"] for s in sigs if s["id"] in where]
+
+
 def classify(title, summary, cats, sigs, settings, central_bank=False):
     """คืน (score, category_ids, signal_ids)"""
     score = 0
@@ -127,8 +174,7 @@ def classify(title, summary, cats, sigs, settings, central_bank=False):
             score += pts
         if pts >= 2:
             scored_cats.append((pts, c["id"]))
-    text = title + " " + summary
-    sig_ids = [s["id"] for s in sigs if any(p.search(text) for p in s["patterns"])]
+    sig_ids = match_signals(title, summary, sigs, cats)
     score += settings["signal_bonus"] * len(sig_ids)
     if score > 0 and central_bank:
         score += settings["central_bank_bonus"]
