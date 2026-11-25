@@ -24,10 +24,13 @@ import track_signals as ts  # noqa: E402
 
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 DOMAINS = "(domainis:reuters.com OR domainis:cnbc.com OR domainis:marketwatch.com OR domainis:apnews.com OR domainis:finance.yahoo.com)"
-# รวมทุกหัวข้อในคำค้นเดียว ลดจำนวนครั้งที่เรียก (GDELT จำกัดความถี่) และเรียงตามความเกี่ยวข้อง
+# คำค้นต้องสั้น: GDELT ตอบ "Your query was too short or too long" ถ้ารวมทุกหัวข้อในคำค้นเดียว
 QUERIES = [
-    '(oil OR crude OR brent OR gold OR tariff OR tariffs OR nvidia OR semiconductor OR chips'
-    ' OR "rate cut" OR "rate hike" OR "cuts rates" OR "raises rates")',
+    "(oil OR crude OR brent)",
+    '("rate cut" OR "rate hike" OR "cuts rates" OR "raises rates")',
+    "gold",
+    "(tariff OR tariffs)",
+    "(nvidia OR semiconductor OR chips)",
 ]
 STATE = ROOT / "data" / "gdelt_state.json"
 PARTS = ROOT / "data" / "gdelt"
@@ -42,10 +45,11 @@ def fetch(query, start, end):
     req = urllib.request.Request(API + "?" + urllib.parse.urlencode(params), headers={"User-Agent": "KrongSetthakit/0.1"})
     with urllib.request.urlopen(req, timeout=60) as r:
         body = r.read().decode("utf-8", "replace").strip()
+    if not body:
+        return []  # ช่วงนั้นไม่มีข่าวจริงๆ
     if not body.startswith("{"):
-        if "limit requests" in body.lower():
-            raise RuntimeError("429 rate limit")
-        return []
+        # ข้อความ error จาก GDELT (เช่น คำค้นยาวเกิน, ถี่เกิน) ต้องไม่ถือว่าเป็นผลว่าง
+        raise RuntimeError("GDELT: " + body[:120])
     return json.loads(body).get("articles", [])
 
 
@@ -66,24 +70,35 @@ def collect(start, end, window_days, minutes):
     PARTS.mkdir(parents=True, exist_ok=True)
     while w_end > start and time.time() < deadline:
         win = max(w_end - timedelta(days=window_days), start)
-        try:
-            arts = fetch(QUERIES[0], win, w_end)
-        except Exception as exc:  # noqa: BLE001
-            wait = 300 if "429" in str(exc) else 60
-            print(f"[รอ {wait} วิ] {win:%Y-%m-%d}: {exc}", file=sys.stderr)
-            time.sleep(wait)
-            continue
-        new = []
-        for a in arts:
-            try:
-                it = to_item(a)
-            except ValueError:
-                continue
-            if not it["title"]:
-                continue
-            _, _, sig_ids = fn.classify(it["title"], "", cats, sigs, rules["settings"])
-            if sig_ids:
-                new.append(dict(it, signals=sig_ids))
+        new, failed = [], False
+        for q in QUERIES:
+            arts, ok, wait = [], False, 0
+            while time.time() < deadline:
+                time.sleep(wait)
+                try:
+                    arts = fetch(q, win, w_end)
+                    ok = True
+                    break
+                except Exception as exc:  # noqa: BLE001
+                    wait = min(300, max(30, wait * 2))  # ถี่เกิน: รอนานขึ้นเรื่อยๆ แล้วลองใหม่
+                    print(f"[รอ {wait} วิ] {win:%Y-%m-%d} {q[:16]}: {exc}", file=sys.stderr)
+            if not ok:
+                failed = True
+                break
+            for a in arts:
+                try:
+                    it = to_item(a)
+                except ValueError:
+                    continue
+                if not it["title"]:
+                    continue
+                _, _, sig_ids = fn.classify(it["title"], "", cats, sigs, rules["settings"])
+                if sig_ids:
+                    new.append(dict(it, signals=sig_ids))
+            time.sleep(15)  # เว้นระยะให้ GDELT
+        if failed:
+            print(f"หมดเวลาที่ {win:%Y-%m-%d}: รอบหน้าทำต่อจากสัปดาห์นี้", file=sys.stderr)
+            break
         part_path = PARTS / f"{win:%Y}.json"
         part = ts.load(part_path, {"items": []})
         links = {x["link"] for x in part["items"]}
@@ -91,9 +106,8 @@ def collect(start, end, window_days, minutes):
         part_path.write_text(json.dumps(part, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
         state["oldest"] = f"{win:%Y-%m-%d}"
         STATE.write_text(json.dumps(state) + "\n", encoding="utf-8")
-        print(f"{win:%Y-%m-%d}: ข่าว {len(arts)}, มีสัญญาณ {len(new)}", file=sys.stderr)
+        print(f"{win:%Y-%m-%d}: ข่าวที่มีสัญญาณ +{len(new)}", file=sys.stderr)
         w_end = win
-        time.sleep(8)
 
 
 def merge():

@@ -32,6 +32,7 @@ jobs:
         run: |
           python scripts/backfill_gdelt.py merge
           python scripts/track_signals.py
+          python scripts/validate_rules.py || true
       - name: บันทึกผล
         if: always()
         run: |

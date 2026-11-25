@@ -27,9 +27,14 @@ jobs:
       - name: ดึงและกรองข่าว
         run: python scripts/fetch_news.py
       - name: ดึงราคาหุ้น (ถ้าพังจะข้าม ไม่กระทบข่าว)
-        run: python scripts/fetch_prices.py || echo "ดึงราคาไม่สำเร็จ ข้ามไปก่อน"
+        # ถ้าราคาตลาด (น้ำมัน ทอง บอนด์ ฯลฯ) ย้อนหลังยังไม่ถึง 10 ปี ให้ดึงเต็มช่วงรอบเดียว
+        run: |
+          R=$(python -c "import json;h=json.load(open('data/price_history.json'));print('--range 10y' if min(len(h.get('M:'+k,{})) for k in ('OIL','GOLD','US10Y','USDTHB','NDX'))<1000 else '')" 2>/dev/null)
+          python scripts/fetch_prices.py $R || echo "ดึงราคาไม่สำเร็จ ข้ามไปก่อน"
       - name: เก็บสถิติความแม่นของสัญญาณ
         run: python scripts/track_signals.py || echo "เก็บสถิติไม่สำเร็จ ข้ามไปก่อน"
+      - name: ทดสอบกฎกับราคาย้อนหลัง 10 ปี
+        run: python scripts/validate_rules.py || echo "ทดสอบกฎไม่สำเร็จ ข้ามไปก่อน"
       - name: บันทึกผลถ้ามีการเปลี่ยนแปลง
         run: |
           if [ -n "$(git status --porcelain docs data)" ]; then

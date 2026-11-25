@@ -65,7 +65,7 @@ def ticker_info():
                     d = out.setdefault(t, {"market": market, "sectors": [], "signals": []})
                     if im["sector"] not in d["sectors"]:
                         d["sectors"].append(im["sector"])
-                    d["signals"].append({"id": s["id"], "name": s["name"], "effect": im["effect"], "why": im["why"]})
+                    d["signals"].append({"id": s["id"], "name": s["name"], "effect": im["effect"], "why": im["why"], "sector": im["sector"]})
     return out
 
 
@@ -152,7 +152,7 @@ def run(args):
     market = []
     for m in MARKET:
         try:
-            raw = fetch_chart(m["symbol"], args.from_dir, "3mo")
+            raw = fetch_chart(m["symbol"], args.from_dir, args.range)
             p = parse_chart(raw)
             if not p:
                 raise ValueError("ไม่มีข้อมูลราคา")

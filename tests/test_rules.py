@@ -9,6 +9,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import fetch_news as fn  # noqa: E402
 import fetch_prices as fp  # noqa: E402
 import track_signals as ts  # noqa: E402
+import validate_rules as vr  # noqa: E402
 
 RULES = fn.load_json(ROOT / "config" / "rules.json")
 CATS, SIGS = fn.build_rules(RULES)
@@ -196,6 +197,50 @@ class TrackTests(unittest.TestCase):
     def test_thai_date(self):
         # 20:00 UTC = 03:00 ของวันถัดไปตามเวลาไทย
         self.assertEqual(ts.news_date("2026-11-11T20:00:00Z"), "2026-11-12")
+
+
+class ValidateTests(unittest.TestCase):
+    def _hist(self, n_events, stock_wins):
+        """น้ำมันขึ้น 3% ทุก 10 วัน; หุ้นพลังงานชนะ/แพ้ดัชนีหลังจากนั้นตาม stock_wins"""
+        from datetime import date, timedelta
+        oil, bench, stk = {}, {}, {}
+        o, b, s = 100.0, 100.0, 100.0
+        d0 = date(2020, 1, 1)
+        for i in range(n_events * 10 + 10):
+            d = (d0 + timedelta(days=i)).isoformat()
+            if i % 10 == 5:
+                o *= 1.03
+            elif i % 10 in (6, 7):
+                s *= 1.01 if stock_wins else 0.99
+            oil[d], bench[d], stk[d] = o, b, s
+        return {"M:OIL": oil, "^GSPC": bench, "XOM": stk}
+
+    def _rules(self):
+        return {"signals": [{"id": "oil_up", "name": "น้ำมันขึ้น", "impacts": [
+            {"effect": "ได้ประโยชน์", "sector": "พลังงาน", "set": [], "us": ["XOM"]}]}]}
+
+    def test_wilson(self):
+        lo, hi = vr.wilson(70, 100)
+        self.assertTrue(0.6 < lo < 0.7 < hi < 0.8)
+
+    def test_confirmed(self):
+        r = vr.validate(self._rules(), self._hist(40, True))[0]
+        self.assertEqual(r["status"], "confirmed")
+        self.assertEqual(r["hit_after"], 100.0)
+
+    def test_contrary(self):
+        r = vr.validate(self._rules(), self._hist(40, False))[0]
+        self.assertEqual(r["status"], "contrary")
+
+    def test_too_few_is_unclear(self):
+        r = vr.validate(self._rules(), self._hist(10, True))[0]
+        self.assertEqual(r["status"], "unclear")
+
+    def test_no_proxy(self):
+        rules = {"signals": [{"id": "tariff", "name": "ภาษี", "impacts": [{"effect": "ถูกกดดัน", "sector": "ส่งออก", "us": ["XOM"]}]}]}
+        r = vr.validate(rules, {})[0]
+        self.assertEqual(r["status"], "unclear")
+        self.assertIn("note", r)
 
 
 if __name__ == "__main__":

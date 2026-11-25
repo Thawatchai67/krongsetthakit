@@ -1,0 +1,289 @@
+{
+ "generated_at": "2026-11-25T06:02:17Z",
+ "horizon_days": 5,
+ "min_events": 30,
+ "rules": [
+  {
+   "signal": "oil_up",
+   "signal_name": "น้ำมันขึ้น",
+   "sector": "พลังงาน/ปิโตรเลียม",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่น้ำมัน WTI ขึ้นเกิน 2%",
+   "status": "unclear",
+   "events": 19,
+   "since": "2026-08-19",
+   "hit_after": 57.9,
+   "edge_after": 0.09,
+   "hit_week": 68.4,
+   "ci": [
+    39.5,
+    74.4
+   ]
+  },
+  {
+   "signal": "oil_up",
+   "signal_name": "น้ำมันขึ้น",
+   "sector": "สายการบิน/ขนส่ง",
+   "effect": "ถูกกดดัน",
+   "proxy": "วันที่น้ำมัน WTI ขึ้นเกิน 2%",
+   "status": "unclear",
+   "events": 19,
+   "since": "2026-08-19",
+   "hit_after": 73.7,
+   "edge_after": 0.96,
+   "hit_week": 78.9,
+   "ci": [
+    54.9,
+    86.6
+   ]
+  },
+  {
+   "signal": "oil_down",
+   "signal_name": "น้ำมันลง",
+   "sector": "พลังงาน/ปิโตรเลียม",
+   "effect": "ถูกกดดัน",
+   "proxy": "วันที่น้ำมัน WTI ลงเกิน 2%",
+   "status": "unclear",
+   "events": 13,
+   "since": "2026-08-23",
+   "hit_after": 53.8,
+   "edge_after": 0.67,
+   "hit_week": 61.5,
+   "ci": [
+    32.5,
+    73.9
+   ]
+  },
+  {
+   "signal": "oil_down",
+   "signal_name": "น้ำมันลง",
+   "sector": "สายการบิน/ขนส่ง",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่น้ำมัน WTI ลงเกิน 2%",
+   "status": "unclear",
+   "events": 13,
+   "since": "2026-08-23",
+   "hit_after": 38.5,
+   "edge_after": -0.36,
+   "hit_week": 53.8,
+   "ci": [
+    20.2,
+    60.7
+   ]
+  },
+  {
+   "signal": "rate_cut",
+   "signal_name": "ลดดอกเบี้ย",
+   "sector": "อสังหาริมทรัพย์",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ลงเกิน 0.08%",
+   "status": "unclear",
+   "events": 2,
+   "since": "2026-10-15",
+   "hit_after": 100.0,
+   "edge_after": 1.61,
+   "hit_week": 100.0,
+   "ci": [
+    42.5,
+    100.0
+   ]
+  },
+  {
+   "signal": "rate_cut",
+   "signal_name": "ลดดอกเบี้ย",
+   "sector": "หุ้นเติบโต/เทคโนโลยี",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ลงเกิน 0.08%",
+   "status": "unclear",
+   "events": 2,
+   "since": "2026-10-15",
+   "hit_after": 0.0,
+   "edge_after": -4.02,
+   "hit_week": 0.0,
+   "ci": [
+    0.0,
+    57.5
+   ]
+  },
+  {
+   "signal": "rate_cut",
+   "signal_name": "ลดดอกเบี้ย",
+   "sector": "ธนาคาร",
+   "effect": "ถูกกดดัน",
+   "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ลงเกิน 0.08%",
+   "status": "unclear",
+   "events": 2,
+   "since": "2026-10-15",
+   "hit_after": 0.0,
+   "edge_after": -1.45,
+   "hit_week": 0.0,
+   "ci": [
+    0.0,
+    57.5
+   ]
+  },
+  {
+   "signal": "rate_hike",
+   "signal_name": "ขึ้นดอกเบี้ย",
+   "sector": "ธนาคาร",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ขึ้นเกิน 0.08%",
+   "status": "unclear",
+   "events": 4,
+   "since": "2026-09-10",
+   "hit_after": 75.0,
+   "edge_after": 0.11,
+   "hit_week": 75.0,
+   "ci": [
+    35.6,
+    94.2
+   ]
+  },
+  {
+   "signal": "rate_hike",
+   "signal_name": "ขึ้นดอกเบี้ย",
+   "sector": "อสังหาริมทรัพย์",
+   "effect": "ถูกกดดัน",
+   "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ขึ้นเกิน 0.08%",
+   "status": "unclear",
+   "events": 4,
+   "since": "2026-09-10",
+   "hit_after": 25.0,
+   "edge_after": -0.54,
+   "hit_week": 25.0,
+   "ci": [
+    5.8,
+    64.4
+   ]
+  },
+  {
+   "signal": "rate_hike",
+   "signal_name": "ขึ้นดอกเบี้ย",
+   "sector": "หุ้นเติบโต/เทคโนโลยี",
+   "effect": "ถูกกดดัน",
+   "proxy": "วันที่บอนด์ยีลด์สหรัฐ 10 ปี ขึ้นเกิน 0.08%",
+   "status": "unclear",
+   "events": 4,
+   "since": "2026-09-10",
+   "hit_after": 75.0,
+   "edge_after": 1.9,
+   "hit_week": 75.0,
+   "ci": [
+    35.6,
+    94.2
+   ]
+  },
+  {
+   "signal": "gold_up",
+   "signal_name": "ทองคำขึ้น",
+   "sector": "ธุรกิจทอง/เหมืองทอง",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่ทองคำขึ้นเกิน 1.5%",
+   "status": "unclear",
+   "events": 6,
+   "since": "2026-08-18",
+   "hit_after": 83.3,
+   "edge_after": 3.06,
+   "hit_week": 83.3,
+   "ci": [
+    49.8,
+    96.2
+   ]
+  },
+  {
+   "signal": "baht_weak",
+   "signal_name": "บาทอ่อน",
+   "sector": "ผู้ส่งออก",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่ดอลลาร์/บาท ขึ้นเกิน 0.5% (บาทอ่อน)",
+   "status": "unclear",
+   "events": 5,
+   "since": "2026-08-30",
+   "hit_after": 60.0,
+   "edge_after": 0.14,
+   "hit_week": 60.0,
+   "ci": [
+    27.2,
+    85.7
+   ]
+  },
+  {
+   "signal": "baht_weak",
+   "signal_name": "บาทอ่อน",
+   "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+   "effect": "ถูกกดดัน",
+   "proxy": "วันที่ดอลลาร์/บาท ขึ้นเกิน 0.5% (บาทอ่อน)",
+   "status": "unclear",
+   "events": 5,
+   "since": "2026-08-30",
+   "hit_after": 80.0,
+   "edge_after": 5.12,
+   "hit_week": 100.0,
+   "ci": [
+    43.5,
+    95.4
+   ]
+  },
+  {
+   "signal": "baht_strong",
+   "signal_name": "บาทแข็ง",
+   "sector": "ผู้ส่งออก",
+   "effect": "ถูกกดดัน",
+   "proxy": "วันที่ดอลลาร์/บาท ลงเกิน 0.5% (บาทแข็ง)",
+   "status": "unclear",
+   "events": 4,
+   "since": "2026-08-19",
+   "hit_after": 100.0,
+   "edge_after": 1.0,
+   "hit_week": 50.0,
+   "ci": [
+    59.6,
+    100.0
+   ]
+  },
+  {
+   "signal": "baht_strong",
+   "signal_name": "บาทแข็ง",
+   "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่ดอลลาร์/บาท ลงเกิน 0.5% (บาทแข็ง)",
+   "status": "unclear",
+   "events": 4,
+   "since": "2026-08-19",
+   "hit_after": 0.0,
+   "edge_after": -1.63,
+   "hit_week": 50.0,
+   "ci": [
+    0.0,
+    40.4
+   ]
+  },
+  {
+   "signal": "tariff",
+   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+   "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+   "effect": "ต้องจับตา",
+   "proxy": null,
+   "status": "unclear",
+   "events": 0,
+   "note": "ยังไม่มีราคาตัวแทน รอผลจากข่าวย้อนหลัง"
+  },
+  {
+   "signal": "tech_rally",
+   "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+   "sector": "ชิป/อิเล็กทรอนิกส์",
+   "effect": "ได้ประโยชน์",
+   "proxy": "วันที่ Nasdaq ขึ้นเกิน 2%",
+   "status": "unclear",
+   "events": 2,
+   "since": "2026-09-21",
+   "hit_after": 50.0,
+   "edge_after": 1.25,
+   "hit_week": 100.0,
+   "ci": [
+    12.1,
+    87.9
+   ]
+  }
+ ]
+}

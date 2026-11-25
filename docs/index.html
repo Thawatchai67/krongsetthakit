@@ -156,6 +156,10 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
 .stock-row .px { font-variant-numeric: tabular-nums; text-align: right; }
 .stock-row .why { grid-column: 1 / -1; font-size: 0.75rem; color: var(--muted); }
 .mark-up { color: var(--good); } .mark-down { color: var(--bad); } .mark-w { color: var(--watch); }
+.mark-u, .hero .imp .u, .cell.u span { opacity: 0.55; }
+.pf { font-size: 0.75em; color: var(--muted); white-space: nowrap; }
+.pf.ok { color: var(--good); font-weight: 600; } .pf.bad { color: var(--bad); }
+.hero .pf { color: var(--hero-soft); } .hero .pf.ok { color: #86efac; }
 .empty { color: var(--muted); font-size: 0.875rem; padding: 12px 16px; }
 
 /* กลุ่มหุ้น: พื้นเป็นกลาง สีอยู่ที่เครื่องหมาย ▲▼◆ */
@@ -359,16 +363,30 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     function sc(it) { return it.score + (it.signals && it.signals.length ? 2 : 0) + (hitsWatch(it) ? 3 : 0) + (it.stories && it.stories.length ? 1 : 0); }
     return pool.slice().sort(function (a, b) { return sc(b) - sc(a) || (b.published > a.published ? 1 : -1); }).slice(0, n);
   }
+  // ผลทดสอบกฎกับราคาจริงย้อนหลัง (validation.json): confirmed / unclear / contrary
+  function proof(sid, sector) {
+    var v = S.val && S.val.rules;
+    if (!v) return null;
+    return v.filter(function (r) { return r.signal === sid && r.sector === sector; })[0] || { status: "unclear", events: 0 };
+  }
+  function proofTag(pr) {
+    if (!pr) return "";
+    if (pr.status === "confirmed") return ' <span class="pf ok" title="ทดสอบกับราคาย้อนหลัง ' + pr.events + ' ครั้ง">✓ ถูก ' + pr.hit_after.toFixed(0) + "%</span>";
+    return ' <span class="pf" title="ข้อมูลย้อนหลังยังพิสูจน์ไม่ได้ว่ากฎนี้แม่น">ยังไม่พิสูจน์</span>';
+  }
   function impactParts(it) {
     var parts = [];
     (it.signals || []).forEach(function (sid) {
       var s = sigById(sid); if (!s) return;
       s.impacts.forEach(function (im) {
-        var e = EFFECT[im.effect] || ["w", "◆"];
-        parts.push({ cls: e[0], mark: e[1], sector: im.sector, tks: (im.set || []).concat(im.us || []) });
+        var e = EFFECT[im.effect] || ["w", "◆"], pr = proof(sid, im.sector);
+        if (pr && pr.status === "contrary") return; // ข้อมูลบอกว่ากฎนี้ทายกลับทาง: ไม่แสดง
+        var weak = pr && pr.status !== "confirmed" && e[0] !== "w";
+        parts.push({ cls: weak ? e[0] + " u" : e[0], mark: e[1], sector: im.sector, tks: (im.set || []).concat(im.us || []), pr: pr, ok: pr && pr.status === "confirmed" });
       });
     });
-    return parts;
+    // กฎที่พิสูจน์แล้วขึ้นก่อน
+    return parts.sort(function (a, b) { return (b.ok ? 1 : 0) - (a.ok ? 1 : 0); });
   }
 
   /* ---------- แสดงผล: หน้าแรก ---------- */
@@ -413,7 +431,7 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     $("today").innerHTML = "<ol>" + top.map(function (it) {
       var p = impactParts(it), s = (it.signals || [])[0] && sigById(it.signals[0]), line;
       if (s && p.length) {
-        line = esc(s.name) + " → " + p.slice(0, 2).map(function (x) { return '<span class="mark-' + x.cls + '">' + x.mark + " " + esc(x.sector) + "</span>"; }).join(", ");
+        line = esc(s.name) + " → " + p.slice(0, 2).map(function (x) { return '<span class="' + x.cls.split(" ").map(function (c) { return "mark-" + c; }).join(" ") + '">' + x.mark + " " + esc(x.sector) + "</span>" + (x.ok ? proofTag(x.pr) : ""); }).join(", ");
       } else {
         line = esc(catName(it) || "ข่าวเด่น");
       }
@@ -422,6 +440,9 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
   }
 
   function pastHtml(it) {
+    var ok = impactParts(it).filter(function (x) { return x.ok; })[0];
+    if (ok) return '<div class="past">ทดสอบย้อนหลัง: ' + esc(ok.pr.proxy || "") + " " + ok.pr.events + " ครั้ง กลุ่ม" + esc(ok.sector) + " ไปตามที่ทาย " + ok.pr.hit_after.toFixed(0) + "% ใน 5 วันทำการถัดมา</div>";
+    if (S.val && (it.signals || []).length) return '<div class="past">กฎของข่าวนี้ยังไม่ผ่านการทดสอบกับข้อมูลย้อนหลัง ใช้เป็นข้อสังเกต ไม่ใช่สัญญาณซื้อขาย</div>';
     var st = S.stats, sid = (it.signals || [])[0];
     if (!st || !sid) return "";
     var s = (st.signals || []).filter(function (x) { return x.id === sid; })[0];
@@ -434,7 +455,7 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     var top = important(5);
     if (!top.length) { $("hero").innerHTML = ""; $("top").innerHTML = ""; return; }
     var h = top[0], p = impactParts(h);
-    var imp = p.slice(0, 3).map(function (x) { return '<div><span class="' + x.cls + '">' + x.mark + " " + esc(x.sector) + "</span>" + (x.tks.length ? ' <span class="tk">' + esc(x.tks.slice(0, 4).join(" ")) + "</span>" : "") + "</div>"; }).join("");
+    var imp = p.slice(0, 3).map(function (x) { return '<div><span class="' + x.cls + '">' + x.mark + " " + esc(x.sector) + "</span>" + (x.ok ? proofTag(x.pr) : "") + (x.tks.length ? ' <span class="tk">' + esc(x.tks.slice(0, 4).join(" ")) + "</span>" : "") + "</div>"; }).join("");
     $("hero").innerHTML = '<a class="hero" href="' + esc(safeUrl(h.link)) + '" target="_blank" rel="noopener noreferrer">' +
       imgTag(h, "hero-img") + '<div class="body">' +
       '<span class="k">ข่าวสำคัญที่สุด · ' + esc(catName(h)) + (hitsWatch(h) ? " · กระทบหุ้นของคุณ" : "") + "</span>" +
@@ -499,9 +520,11 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     var sec = {}, list = [];
     (S.data.signals || []).forEach(function (s) {
       s.impacts.forEach(function (im) {
-        var e = EFFECT[im.effect] || ["w", "◆"], k = im.sector, c = sec[k];
-        if (!c) { c = sec[k] = { name: k, cls: e[0], mark: e[1], n: 0, tks: [], why: [] }; list.push(c); }
+        var e = EFFECT[im.effect] || ["w", "◆"], k = im.sector, c = sec[k], pr = proof(s.id, im.sector);
+        if (pr && pr.status === "contrary") return;
+        if (!c) { c = sec[k] = { name: k, cls: e[0], mark: e[1], n: 0, tks: [], why: [], ok: false }; list.push(c); }
         else if (c.cls !== e[0]) { c.cls = "w"; c.mark = "◆"; }
+        if (pr && pr.status === "confirmed") c.ok = true;
         c.n += s.count; if (c.why.indexOf(s.name) < 0) c.why.push(s.name);
         (im.set || []).concat(im.us || []).forEach(function (t) { if (c.tks.indexOf(t) < 0) c.tks.push(t); });
       });
@@ -509,8 +532,8 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     list.sort(function (a, b) { return b.n - a.n; });
     if (!list.length) { $("heat").innerHTML = '<div class="empty">ยังไม่มีสัญญาณใน 48 ชม.</div>'; $("affected").hidden = true; return; }
     $("heat").innerHTML = list.slice(0, 9).map(function (c, i) {
-      return '<button class="cell ' + c.cls + (i === 0 ? " big" : "") + '" type="button" data-sector="' + esc(c.name) + '" aria-pressed="' + (S.sector === c.name) + '"><b>' + esc(c.name) +
-        "</b><span>" + c.mark + " " + c.n + " ข่าว</span></button>";
+      return '<button class="cell ' + c.cls + (S.val && !c.ok && c.cls !== "w" ? " u" : "") + (i === 0 ? " big" : "") + '" type="button" data-sector="' + esc(c.name) + '" aria-pressed="' + (S.sector === c.name) + '"><b>' + esc(c.name) +
+        "</b><span>" + c.mark + " " + c.n + " ข่าว" + (c.ok ? " · ✓" : "") + "</span></button>";
     }).join("");
     var cur = list.filter(function (c) { return c.name === S.sector; })[0];
     $("affected").hidden = !cur;
@@ -562,6 +585,15 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     if (years.length > 1) years.forEach(function (y) { html += '<div class="r sub"><span>ปี ' + esc(y) + '</span><span class="num">' + pct(st.by_year[y].hit_rate) + " <i>(" + st.by_year[y].evaluated + ")</i></span></div>"; });
     html += '<span class="muted small">ถูกทาง = ▲ แล้วหุ้นชนะดัชนี หรือ ▼ แล้วหุ้นแพ้ดัชนี ในวงเล็บคือจำนวนครั้งที่วัดได้' + (d5.evaluated < 30 ? " ข้อมูลยังน้อย อย่าเพิ่งเชื่อตัวเลขนี้" : "") +
       (st.since ? " ข้อมูลตั้งแต่ " + esc(st.since) : "") + (st.backfill ? " (รวมข่าวต่างประเทศย้อนหลัง " + st.backfill + " รายการ)" : "") + "</span>";
+    var v = S.val && S.val.rules;
+    if (v && v.length) {
+      var ok = v.filter(function (r) { return r.status === "confirmed"; }), bad = v.filter(function (r) { return r.status === "contrary"; });
+      html += "<hr><b>ทดสอบกฎกับราคาย้อนหลัง</b>" + '<div class="r"><span>พิสูจน์แล้ว / สวนทาง / ยังไม่ชัด</span><span class="num">' + ok.length + " / " + bad.length + " / " + (v.length - ok.length - bad.length) + "</span></div>";
+      ok.concat(bad).forEach(function (r) {
+        html += '<div class="r sub"><span>' + (r.status === "confirmed" ? "✓ " : "✗ ") + esc(r.signal_name) + " → " + esc(r.sector) + '</span><span class="num">' + r.hit_after.toFixed(0) + "% <i>(" + r.events + ")</i></span></div>";
+      });
+      html += '<span class="muted small">นับเฉพาะเหตุการณ์อย่างน้อย ' + S.val.min_events + " ครั้ง และต้องผ่านเกณฑ์สถิติ (ช่วงความเชื่อมั่น 90% ไม่คร่อม 50%) วัดจากราคาปิดหลังวันเกิดเหตุ เทียบดัชนี</span>";
+    }
     el.innerHTML = html;
   }
 
@@ -585,7 +617,12 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     var p = S.prices[tk] || {}, info = S.tickers[tk] || { sectors: [], signals: [] }, w = watch(), on = w.indexOf(tk) >= 0;
     var rel = S.data.items.filter(function (it) { return itemTickers(it).indexOf(tk) >= 0; });
     var rec = S.stats && S.stats.tickers && S.stats.tickers[tk];
-    var sigs = info.signals.map(function (s) { var e = EFFECT[s.effect] || ["w", "◆"]; return '<div><span class="mark-' + e[0] + '">' + e[1] + " " + esc(s.name) + "</span> <span class=\"muted\">· " + esc(s.why) + "</span></div>"; }).join("");
+    var sigs = info.signals.map(function (s) {
+      var e = EFFECT[s.effect] || ["w", "◆"], prs = (S.val && S.val.rules || []).filter(function (r) { return r.signal === s.id && (s.sector ? r.sector === s.sector : info.sectors.indexOf(r.sector) >= 0); }), pr = prs.filter(function (r) { return r.status === "confirmed"; })[0] || prs.filter(function (r) { return r.status === "contrary"; })[0] || prs[0];
+      var note = !pr ? "" : pr.status === "confirmed" ? '<div class="pf ok">✓ ทดสอบย้อนหลัง ' + pr.events + " ครั้ง: ไปตามที่ทาย " + pr.hit_after.toFixed(0) + "%</div>" :
+        pr.status === "contrary" ? '<div class="pf bad">✗ ทดสอบย้อนหลัง ' + pr.events + " ครั้ง: ไปตามที่ทายแค่ " + pr.hit_after.toFixed(0) + "% กฎนี้ไม่ควรเชื่อ</div>" :
+        '<div class="pf">ยังไม่พิสูจน์' + (pr.events ? " (ทดสอบได้ " + pr.events + " ครั้ง ถูก " + pr.hit_after.toFixed(0) + "%)" : "") + "</div>";
+      return '<div><span class="mark-' + e[0] + '">' + e[1] + " " + esc(s.name) + "</span> <span class=\"muted\">· " + esc(s.why) + "</span>" + note + "</div>"; }).join("");
     return '<button class="pill-btn back" type="button" data-nav="">← กลับหน้าแรก</button>' +
       '<div class="dhead"><div><h1>' + esc(tk) + '</h1><span class="muted small">' + esc(info.market === "SET" ? "หุ้นไทย (SET)" : "หุ้นสหรัฐ") + " · " + esc(info.sectors.join(", ")) + "</span></div>" +
       '<button class="pill-btn" type="button" data-watch="' + esc(tk) + '">' + (on ? "★ ติดตามอยู่" : "☆ ติดตาม") + "</button></div>" +
@@ -682,11 +719,11 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     var nNew = S.prevVisit ? data.items.filter(isNew).length : 0;
     if (nNew) { $("newbar").hidden = false; $("newbar").innerHTML = "<span>มีข่าวใหม่ <b>" + nNew + "</b> ข่าว ตั้งแต่เข้ามาครั้งก่อน (" + fmtTime(new Date(S.prevVisit).toISOString()) + ')</span><button class="chip" type="button" data-f="new" style="margin-left:auto">ดูเฉพาะข่าวใหม่</button>'; }
     renderHome(); route();
-    return Promise.all([getJSON("prices.json", "__PRICES__"), getJSON("stats.json", "__STATS__"), getJSON("tickers.json", "__TICKERS__"), getJSON("history.json", "__HIST__")]);
+    return Promise.all([getJSON("prices.json", "__PRICES__"), getJSON("stats.json", "__STATS__"), getJSON("tickers.json", "__TICKERS__"), getJSON("history.json", "__HIST__"), getJSON("validation.json", "__VAL__")]);
   }).then(function (r) {
     if (!r) return;
     if (r[0]) { S.prices = r[0].prices || {}; S.market = r[0].market || []; }
-    S.stats = r[1]; S.tickers = r[2] || {}; S.hist = r[3] || {};
+    S.stats = r[1]; S.tickers = r[2] || {}; S.hist = r[3] || {}; S.val = r[4];
     renderHome(); route();
   });
 })();
