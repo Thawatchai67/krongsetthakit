@@ -446,9 +446,10 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
     var st = S.stats, sid = (it.signals || [])[0];
     if (!st || !sid) return "";
     var s = (st.signals || []).filter(function (x) { return x.id === sid; })[0];
-    // แสดงเฉพาะสัญญาณที่แม่นจริง: ถูกทาง 55% ขึ้นไป จากการวัดอย่างน้อย 20 ครั้ง (ต่ำกว่านั้นไม่ต่างจากเดาสุ่ม)
-    if (!s || !s.d5 || s.d5.evaluated < 20 || s.d5.hit_rate == null || s.d5.hit_rate < 55) return "";
-    return '<div class="past">ย้อนหลัง: สัญญาณนี้มาจากข่าว ' + s.news + " ข่าว ทายถูกทาง " + s.d5.hit_rate.toFixed(0) + "% ใน 5 วันทำการ (" + s.d5.evaluated + " ครั้ง)</div>";
+    // แสดงเฉพาะสัญญาณที่แม่นจริง: นับรายเหตุการณ์อย่างน้อย 20 ครั้ง และช่วงความเชื่อมั่น 90% อยู่เหนือ 50% ทั้งช่วง
+    var e5 = s && s.events && s.events.d5;
+    if (!e5 || e5.evaluated < 20 || !e5.ci || e5.ci[0] <= 50) return "";
+    return '<div class="past">ย้อนหลัง: สัญญาณนี้ทายถูกทาง ' + e5.hit_rate.toFixed(0) + "% ใน 5 วันทำการ (" + e5.evaluated + " เหตุการณ์)</div>";
   }
 
   function renderLead() {
@@ -573,17 +574,21 @@ section { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
   function renderStats() {
     var st = S.stats, el = $("stats");
     if (!st || !st.overall) { el.innerHTML = '<span class="muted">เริ่มเก็บข้อมูลรอบถัดไป</span>'; return; }
-    var o = st.overall, d5 = o.d5, d1 = o.d1;
+    // ใช้ตัวเลขรายเหตุการณ์ (สัญญาณ x วัน ไม่ซ้อนกัน) ถ้ามี เพราะรายหุ้นนับข่าวเดียวซ้ำหลายหุ้น
+    function ev(b) { return (b && b.events) || b; }
+    var o = st.overall, d5 = ev(o).d5, d1 = ev(o).d1;
     function pct(v) { return v == null ? "–" : v.toFixed(0) + "%"; }
+    function cnt(d) { return " <i>(" + d.evaluated + (d.ci ? ", ช่วง " + d.ci[0].toFixed(0) + "–" + d.ci[1].toFixed(0) + "%" : "") + ")</i>"; }
     var html = '<div class="r"><span>ข่าวที่มีสัญญาณ</span><span class="num">' + (o.news || o.total) + " ข่าว</span></div>" +
-      '<div class="r"><span>ถูกทาง หลัง 1 วัน</span><span class="num">' + pct(d1.hit_rate) + " <i>(" + d1.evaluated + ")</i></span></div>" +
-      '<div class="r"><span>ถูกทาง หลัง 5 วัน</span><span class="num">' + pct(d5.hit_rate) + " <i>(" + d5.evaluated + ")</i></span></div><hr>";
-    (st.signals || []).filter(function (s) { return s.d5.evaluated > 0; }).slice(0, 6).forEach(function (s) {
-      html += '<div class="r sub"><span>' + esc(s.name) + '</span><span class="num">' + pct(s.d5.hit_rate) + " <i>(" + s.d5.evaluated + ")</i></span></div>";
+      '<div class="r"><span>ถูกทาง หลัง 1 วัน</span><span class="num">' + pct(d1.hit_rate) + cnt(d1) + "</span></div>" +
+      '<div class="r"><span>ถูกทาง หลัง 5 วัน</span><span class="num">' + pct(d5.hit_rate) + cnt(d5) + "</span></div><hr>";
+    (st.signals || []).filter(function (s) { return ev(s).d5.evaluated > 0; }).slice(0, 6).forEach(function (s) {
+      var d = ev(s).d5;
+      html += '<div class="r sub"><span>' + esc(s.name) + '</span><span class="num">' + pct(d.hit_rate) + cnt(d) + "</span></div>";
     });
     var years = Object.keys(st.by_year || {}).filter(function (y) { return st.by_year[y].evaluated > 0; });
     if (years.length > 1) years.forEach(function (y) { html += '<div class="r sub"><span>ปี ' + esc(y) + '</span><span class="num">' + pct(st.by_year[y].hit_rate) + " <i>(" + st.by_year[y].evaluated + ")</i></span></div>"; });
-    html += '<span class="muted small">ถูกทาง = ▲ แล้วหุ้นชนะดัชนี หรือ ▼ แล้วหุ้นแพ้ดัชนี ในวงเล็บคือจำนวนครั้งที่วัดได้' + (d5.evaluated < 30 ? " ข้อมูลยังน้อย อย่าเพิ่งเชื่อตัวเลขนี้" : "") +
+    html += '<span class="muted small">ถูกทาง = ▲ แล้วหุ้นชนะดัชนี หรือ ▼ แล้วหุ้นแพ้ดัชนี นับ 1 ครั้งต่อสัญญาณต่อวัน (ผลเฉลี่ยของทุกหุ้นที่โยงไว้) ในวงเล็บคือจำนวนครั้งและช่วงความเชื่อมั่น 90% ถ้าช่วงคร่อม 50% แปลว่ายังไม่ต่างจากเดาสุ่ม หลัง 1 วันรวมวันที่ข่าวออก ราคาอาจขยับไปก่อนอ่านข่าวแล้ว' + (d5.evaluated < 30 ? " ข้อมูลยังน้อย อย่าเพิ่งเชื่อตัวเลขนี้" : "") +
       (st.since ? " ข้อมูลตั้งแต่ " + esc(st.since) : "") + (st.backfill ? " (รวมข่าวต่างประเทศย้อนหลัง " + st.backfill + " รายการ)" : "") + "</span>";
     var v = S.val && S.val.rules;
     if (v && v.length) {

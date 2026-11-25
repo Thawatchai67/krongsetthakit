@@ -55,6 +55,22 @@ class SignalTests(unittest.TestCase):
             with self.subTest(signal=sid, title=t):
                 self.assertNotIn(sid, sigs(t))
 
+    def test_oil_inventory_is_not_price(self):
+        # สต็อกน้ำมันเพิ่ม/ลด ไม่ใช่ราคาน้ำมันขึ้น/ลง
+        self.assertEqual(sigs("EIA เผยสต็อกน้ำมันดิบสหรัฐเพิ่มขึ้นมากกว่าคาด") & {"oil_up", "oil_down"}, set())
+        self.assertEqual(sigs("ราคาน้ำมันโลกดีดตัว ขานรับคาดการณ์สต็อกน้ำมันดิบสหรัฐลดลง") & {"oil_up", "oil_down"}, {"oil_up"})
+        self.assertEqual(sigs("Oil prices climb 2% on drop in US crude inventories") & {"oil_up", "oil_down"}, {"oil_up"})
+
+    def test_opposite_signals_pick_closest(self):
+        self.assertEqual(sigs("Oil falls and Asian stocks rise on hopes of talks") & {"oil_up", "oil_down"}, {"oil_down"})
+        self.assertEqual(sigs("Dollar climbs as crude prices jump and stocks fall") & {"oil_up", "oil_down"}, {"oil_up"})
+
+    def test_summary_needs_related_title(self):
+        # เนื้อข่าวเอ่ยถึงภาษีปี 2025 แต่หัวข้อเป็นเรื่องอื่น -> ไม่นับ
+        self.assertNotIn("tariff", sigs("Anthropic's stock surges in its debut", "the worst day since the liberation day tariffs of April 2025"))
+        # หัวข้อเป็นเรื่องค่าเงิน เนื้อข่าวบอกบาทอ่อน -> นับ
+        self.assertIn("baht_weak", sigs("ค่าเงินบาทปิดตลาดที่ 34.01 บาท/ดอลลาร์", "เงินบาทอ่อนค่าลงต่อเนื่อง"))
+
 
 class FilterTests(unittest.TestCase):
     def test_noise_is_dropped(self):
@@ -193,6 +209,32 @@ class TrackTests(unittest.TestCase):
         ]}
         log = {}
         self.assertEqual(ts.add_entries(log, news, rules), 1)
+
+    def test_event_level_counts_once_per_day(self):
+        # 1 ข่าว 3 หุ้น = 1 เหตุการณ์ ผลคือค่าเฉลี่ยของ 3 หุ้นตามทิศที่ทาย
+        es = [{"signal": "s", "date": "2026-11-11", "effect": "up", "x1": v} for v in (2.0, -0.5, -0.5)]
+        d1 = ts.event_block(es)["d1"]
+        self.assertEqual(d1["evaluated"], 1)
+        self.assertEqual(d1["hit_rate"], 100.0)
+        self.assertEqual(d1["avg_edge"], 0.33)
+
+    def test_event_level_no_overlap(self):
+        # สัญญาณเดียวกันติดกันทุกวัน ช่วงวัด 5 วันซ้อนกัน -> นับเฉพาะที่ห่างกันอย่างน้อย 7 วัน
+        es = [{"signal": "s", "date": f"2026-11-{d:02d}", "effect": "down", "x5": -1.0} for d in range(1, 15)]
+        self.assertEqual(ts.event_block(es)["d5"]["evaluated"], 2)   # วันที่ 1 และ 8
+
+    def test_prune_backfill_with_new_rules(self):
+        log = {
+            "oil_up|XOM|2026-01-01": {"signal": "oil_up", "ticker": "XOM", "date": "2026-01-01", "backfill": True,
+                                      "news_title": "Crude inventories rise more than expected", "news_link": "a"},
+            "oil_up|XOM|2026-01-02": {"signal": "oil_up", "ticker": "XOM", "date": "2026-01-02", "backfill": True,
+                                      "news_title": "Oil prices jump as OPEC cuts output", "news_link": "b"},
+            "oil_up|XOM|2026-01-03": {"signal": "oil_up", "ticker": "XOM", "date": "2026-01-03",
+                                      "news_title": "x", "news_link": "c"},
+        }
+        news = {"items": [{"link": "c", "signals": []}]}
+        self.assertEqual(ts.prune(log, news, RULES), 2)
+        self.assertEqual(list(log), ["oil_up|XOM|2026-01-02"])
 
     def test_thai_date(self):
         # 20:00 UTC = 03:00 ของวันถัดไปตามเวลาไทย
