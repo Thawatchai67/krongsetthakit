@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T10:54:20Z",
+ "generated_at": "2026-11-25T15:32:31Z",
  "horizon_days": 5,
  "min_events": 30,
  "rules": [
@@ -44,14 +44,14 @@
    "effect": "ถูกกดดัน",
    "proxy": "วันที่น้ำมัน WTI ลงเกิน 2%",
    "status": "confirmed",
-   "events": 399,
+   "events": 400,
    "since": "2016-11-29",
-   "hit_after": 58.6,
-   "edge_after": 0.52,
-   "hit_week": 66.4,
+   "hit_after": 58.5,
+   "edge_after": 0.5,
+   "hit_week": 66.2,
    "ci": [
-    54.5,
-    62.6
+    54.4,
+    62.5
    ]
   },
   {
@@ -61,14 +61,14 @@
    "effect": "ได้ประโยชน์",
    "proxy": "วันที่น้ำมัน WTI ลงเกิน 2%",
    "status": "unclear",
-   "events": 399,
+   "events": 400,
    "since": "2016-11-29",
-   "hit_after": 51.9,
+   "hit_after": 51.7,
    "edge_after": 0.13,
-   "hit_week": 53.4,
+   "hit_week": 53.5,
    "ci": [
-    47.8,
-    56.0
+    47.6,
+    55.8
    ]
   },
   {

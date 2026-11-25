@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-25T06:03:22Z",
+  "generated_at": "2026-11-25T15:31:55Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 450
+  "total_kept": 471
  },
  "signals": [
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 6,
+   "count": 5,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -84,6 +84,49 @@
    ]
   },
   {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 4,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+     "link": "https://www.infoquest.co.th/2026/685536",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-25T14:49:36Z"
+    },
+    {
+     "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
+     "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-25T14:14:00Z"
+    },
+    {
+     "title": "ทรัมป์เสนอขึ้นภาษีนำเข้า 14 ชาติคู่ค้า ‘ไทย‘ อยู่ในรายชื่อ",
+     "link": "https://www.prachachat.net/world/news-2102222",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-25T14:12:31Z"
+    }
+   ]
+  },
+  {
    "id": "oil_down",
    "name": "น้ำมันลง",
    "count": 2,
@@ -135,7 +178,7 @@
   {
    "id": "oil_up",
    "name": "น้ำมันขึ้น",
-   "count": 2,
+   "count": 1,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -172,67 +215,34 @@
      "link": "https://www.infoquest.co.th/2026/684914",
      "source": "อินโฟเควสท์",
      "published": "2026-11-24T16:30:02Z"
-    },
-    {
-     "title": "THAI ชู 3 กลยุทธ์หลักรักษาคุณภาพกำไร รับมือราคาน้ำมันพุ่ง-ทำ Fuel Hedging ปี 70 แล้ว 10%",
-     "link": "https://www.infoquest.co.th/2026/684092",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-23T11:10:57Z"
-    }
-   ]
-  },
-  {
-   "id": "baht_weak",
-   "name": "บาทอ่อน",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "ผู้ส่งออก",
-     "set": [
-      "CPF",
-      "TU",
-      "DELTA"
-     ],
-     "us": [],
-     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้มากขึ้น"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
-     "set": [
-      "AAV"
-     ],
-     "us": [],
-     "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "ค่าเงินบาทปิดตลาดที่ระดับ 34.01 บาท/ดอลลาร์ฯ อ่อนค่าสุดรอบ 19 เดือนครั้งใหม่",
-     "link": "https://www.prachachat.net/finance/news-2100902",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-23T11:25:15Z"
     }
    ]
   }
  ],
  "stories": [
   {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 23,
-   "new_24h": 5,
-   "latest": "2026-11-25T05:51:05Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย: ปิดเช้าร่วง 11.86 จุดเข้าโหมด Risk-off กังวลภาษีสหรัฐฯ รอบใหม่-หุ้นเทคฯ โลก เก็งบ่ายแกว่งลบต่อ"
+   "new_24h": 7,
+   "latest": "2026-11-25T14:49:36Z",
+   "latest_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%"
   },
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 50,
+   "count": 53,
+   "new_24h": 5,
+   "latest": "2026-11-25T15:03:00Z",
+   "latest_title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance"
+  },
+  {
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 24,
    "new_24h": 4,
-   "latest": "2026-11-25T05:26:45Z",
-   "latest_title": "มาเลเซียสั่งดาต้าเซ็นเตอร์ตัดขาด 7 บริษัทบัญชีดำสหรัฐฯ สกัดลักลอบชิป AI"
+   "latest": "2026-11-25T11:47:30Z",
+   "latest_title": "หุ้นไทยวันนี้ร่วง 23 จุดผวาสงครามการค้าสถาบัน–ต่างชาติเทขาย"
   },
   {
    "id": "oil-mideast",
@@ -243,50 +253,42 @@
    "latest_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex เปิดบวก 1.21% รับเงินทุนต่างชาติไหลเข้า-น้ำมันอ่อนตัว"
   },
   {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 27,
-   "new_24h": 3,
-   "latest": "2026-11-24T16:43:20Z",
-   "latest_title": "บอนด์ยีลด์ร่วงหลุด 4.9% นักลงทุนจับตาถ้อยแถลงเจ้าหน้าที่เฟด"
-  },
-  {
-   "id": "trade-war",
-   "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 18,
-   "new_24h": 2,
-   "latest": "2026-11-25T02:36:50Z",
-   "latest_title": "หุ้นไทยวันนี้เสี่ยงย่อตัว! ผวาภาษีทรัมป์รอบใหม่ 16 คู่ค้า รวมไทย ชู BEM-CBG"
-  },
-  {
    "id": "baht",
    "name": "ทิศทางเงินบาท",
-   "count": 15,
+   "count": 16,
    "new_24h": 2,
-   "latest": "2026-11-25T01:49:27Z",
-   "latest_title": "ค่าเงินบาทวันนี้ (25 พ.ย. 69) เปิดตลาดอ่อนค่า 33.95 บาท บทวิเคราะห์ล่าสุด"
+   "latest": "2026-11-25T11:03:09Z",
+   "latest_title": "ภาวะตลาดเงินบาท: ปิด 34.12 อ่อนค่าต่อเนื่อง จากแรงขายสินทรัพย์เสี่ยง-ทองโลกร่วง"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
-   "count": 22,
-   "new_24h": 2,
-   "latest": "2026-11-24T14:37:48Z",
-   "latest_title": "ราคาทองร่วงเกือบ 1% นลท.กังวลเฟดขึ้นดอกเบี้ย"
+   "count": 23,
+   "new_24h": 1,
+   "latest": "2026-11-25T12:38:46Z",
+   "latest_title": "ราคาทองโลกร่วงต่อเนื่อง ดอลล์แข็งกดดันตลาด"
   },
   {
    "id": "thai-economy",
    "name": "เศรษฐกิจไทย",
-   "count": 19,
-   "new_24h": 2,
-   "latest": "2026-11-24T12:10:13Z",
-   "latest_title": "อังกฤษเปิดทางเจรจา FTA ไทย-UK “ศุภจี” เร่งชงกรอบเจรจาเข้า ครม."
+   "count": 20,
+   "new_24h": 1,
+   "latest": "2026-11-25T11:00:16Z",
+   "latest_title": "BBL จับตา 2-3 ปีจุดเปลี่ยนเศรษฐกิจไทย แนะโจทย์ใหญ่รัฐเร่งปลดล็อกข้อจำกัดหนุนโตเต็มศักยภาพ ลุ้นภาษีสหรัฐฯรอบใหม่"
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 27,
+   "new_24h": 1,
+   "latest": "2026-11-24T16:43:20Z",
+   "latest_title": "บอนด์ยีลด์ร่วงหลุด 4.9% นักลงทุนจับตาถ้อยแถลงเจ้าหน้าที่เฟด"
   },
   {
    "id": "bot",
    "name": "แบงก์ชาติและดอกเบี้ยไทย",
    "count": 22,
-   "new_24h": 2,
+   "new_24h": 0,
    "latest": "2026-11-24T10:07:34Z",
    "latest_title": "เคลียร์แล้ว ! ผู้ว่าฯ ธปท. คุยประธานบอร์ด นานกว่า 1 ชม. ยัน ‘ทุกอย่าง OK’"
   },
@@ -300,6 +302,482 @@
   }
  ],
  "items": [
+  {
+   "id": "55abef45c0e7",
+   "title": "สหรัฐเผยดัชนี PCE +3.8% เดือนต.ค. สอดคล้องคาดการณ์",
+   "link": "https://www.infoquest.co.th/2026/685541",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T15:15:58Z",
+   "summary": "กระทรวงพาณิชย์สหรัฐเปิดเผยว่า ดัชนีราคาการใช้จ่ายเพื่อการบริโภคส่วนบุคคลทั่วไป (Headline PCE) ซึ่งรวมหมวดอาหารและพลังงาน ปรับตัวขึ้น 3.8% ในเดือนต.ค. เมื่อเทียบรายปี สอดคล้องตัวเลขคาดการณ์ของนักวิเครา The post สหรัฐเผยดัชนี PCE +3.8% เดือน…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "inflation",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b10d7353b2fc",
+   "title": "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.",
+   "link": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T15:08:00Z",
+   "summary": "The measure of inflation used by the Federal Reserve to influence U.S. interest rates rose again in October at an accelerated rate, virtually assuring the central bank will increase borrowing costs next month.",
+   "image": "https://images.mktw.net/im-57804808",
+   "score": 10,
+   "categories": [
+    "monetary",
+    "inflation"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "aed167976779",
+   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
+   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T15:03:00Z",
+   "summary": "“Since the advent of the atom bomb, all futures have been at risk from the whims of one man.”",
+   "image": "https://images.mktw.net/im-58425830",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "775d59acff99",
+   "title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+   "link": "https://www.infoquest.co.th/2026/685536",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T14:49:36Z",
+   "summary": "สหรัฐได้เสนอเรียกเก็บภาษีศุลกากรครั้งใหม่ต่อประเทศคู่ค้า 14 ประเทศและเขตเศรษฐกิจในวันนี้ หลังทำการสอบสวนภายใต้มาตรา 301 ของกฎหมายการค้าปี 1974 เกี่ยวกับกำลังการผลิตส่วนเกินในภาคอุตสาหกรรมของประเทศคู่ค The post 💥*ด่วน!!! สหรัฐประกาศภาษีทรัม…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "ef826dbdb9d6",
+   "title": "Third-quarter GDP already looked great. Now it looks even better.",
+   "link": "https://www.marketwatch.com/story/third-quarter-gdp-already-looked-great-now-it-looks-even-better-12057da5?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T14:47:00Z",
+   "summary": "The economy grew in the late spring and summer at the fastest pace in three years to set the U.S. up for a strong finish in 2026. Gross domestic product expanded at a 4.3% annual pace in the third quarter, up from an initial estimate of a…",
+   "image": "https://images.mktw.net/im-10770272",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b8758a591ac7",
+   "title": "GameStop has been saved by trading cards and even Rolex watches, say Wall Street’s newest bulls",
+   "link": "https://www.marketwatch.com/story/gamestop-has-been-saved-by-trading-cards-and-even-rolex-watches-say-wall-streets-newest-bulls-a932d74c?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T14:32:00Z",
+   "summary": "GameStop’s base of fervent retail investors is still intact, but Needham analysts say more institutional investors should take note of the company’s transformation.",
+   "image": "https://images.mktw.net/im-796776",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "8391905f2bb8",
+   "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
+   "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T14:14:00Z",
+   "summary": "A plan for new levies comes after Supreme Court tossed broader Trump tariffs earlier this year.",
+   "image": "https://images.mktw.net/im-17174473",
+   "score": 8,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "7c89bb9b8fa0",
+   "title": "ทรัมป์เสนอขึ้นภาษีนำเข้า 14 ชาติคู่ค้า ‘ไทย‘ อยู่ในรายชื่อ",
+   "link": "https://www.prachachat.net/world/news-2102222",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T14:12:31Z",
+   "summary": "รัฐบาลทรัมป์เสนอขึ้นภาษี 14 คู่ค้า รวมไทย จีนเจอภาษีใหม่สูงสุด 20% เปิดเกมการค้ารอบใหม่ เสนอจัดเก็บภาษีนำเข้าจาก 14 ประเทศและเขตเศรษฐกิจคู่ค้า รวมถึงไทย หลังสอบสวนปัญหากำลังการผลิตภาคอุตสาหกรรมส่วนเกินภายใต้มาตรา 301 ขณะที่จีนเผชิญข้อเสนอภ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/IMG_2361.jpeg",
+   "score": 13,
+   "categories": [
+    "trade_geo",
+    "economy"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "3b1d5c3b8f8f",
+   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T14:01:00Z",
+   "summary": "“I was paralyzed during the market downturn.”",
+   "image": "https://images.mktw.net/im-78896707",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "2d4d33a3961b",
+   "title": "ราคาทองโลกร่วงต่อเนื่อง ดอลล์แข็งกดดันตลาด",
+   "link": "https://www.infoquest.co.th/2026/685522",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T12:38:46Z",
+   "summary": "ราคาทองร่วงลงในวันนี้ โดยถูกกดดันจากการแข็งค่าของดอลลาร์ ซึ่งจะลดความน่าดึงดูดของทอง ทำให้สัญญาทองมีราคาแพงขึ้นสำหรับผู้ถือครองเงินสกุลอื่น ณ เวลา 19.30 น.ตามเวลาไทย ราคาทองสปอต [GOLD.X] ลบ 39.53 The post ราคาทองโลกร่วงต่อเนื่อง ดอลล์แข็งก…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "2e80eabe47a8",
+   "title": "ดาวโจนส์ฟิวเจอร์/S&P 500/Nasdaq ร่วงหนัก กังวลภาษีทรัมป์, แรงขายหุ้นเทคฯ",
+   "link": "https://www.infoquest.co.th/2026/685520",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T11:55:39Z",
+   "summary": "ดัชนีดาวโจนส์ฟิวเจอร์ดิ่งลงกว่า 400 จุดในวันนี้ สอดคล้องดัชนี S&P 500 ฟิวเจอร์ และ Nasdaq ฟิวเจอร์ที่ปรับตัวลงเช่นกัน ท่ามกลางความกังวลเกี่ยวกับแรงเทขายหุ้นกลุ่มเทคโนโลยี และการที่รัฐบาลสหรัฐเตรีย The post ดาวโจนส์ฟิวเจอร์/S&P 500/Nasdaq ร…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "stock_market",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "5bcb6f138ee7",
+   "title": "หุ้นไทยวันนี้ร่วง 23 จุดผวาสงครามการค้าสถาบัน–ต่างชาติเทขาย",
+   "link": "https://www.prachachat.net/finance/news-2102193",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T11:47:30Z",
+   "summary": "ตลาดหุ้นไทยวันนี้ปิดร่วง 23.15 จุด หลุดระดับ 1,430 จุด กังวลสงครามการค้ากดดันตลาดต่างประเทศ ผสานแรงขายหุ้นใหญ่ GULF-DELTA-AOT ด้านสถาบันขายสุทธิกว่า 3.16 พันล้านบาท ต่างชาติขายอีก 1.17 พันล้านบาท ขณะที่รายย่อยซื้อสวน 5.55 พันล้านบาท ผู้สื่…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/messageImage_1795607093469.jpg",
+   "score": 14,
+   "categories": [
+    "trade_geo",
+    "stock_market"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war",
+    "thai-market"
+   ]
+  },
+  {
+   "id": "c9b8dffb8385",
+   "title": "นายกฯ ยันรัฐบาลไม่ทิ้งอุตสาหกรรมยานยนต์ไทย มุ่งรักษาฐานผลิตชิ้นส่วน-การจ้างงานในประเทศ",
+   "link": "https://www.infoquest.co.th/2026/685492",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T11:32:52Z",
+   "summary": "นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และรมว.มหาดไทย กล่าวระหว่างการพบหารือกับผู้แทนเครือข่ายแรงงานในอุตสาหกรรมยานยนต์ไทย โดยยืนยันว่า รัฐบาลจะไม่ทอดทิ้งอุตสาหกรรมยานยนต์ไทย ซึ่งเป็นฐานเศรษฐกิจสำคัญที่สร้า The post นายกฯ ยันรัฐบาลไม่ทิ้งอุตสาหก…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0a8921fde46d",
+   "title": "ภาวะตลาดอนุพันธ์: ปรับลงต่อแรงขายหุ้นเอี่ยวเทค-Data Center แนวโน้มสัญญาณไม่ดีเสี่ยงลงอีก",
+   "link": "https://www.infoquest.co.th/2026/685450",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T11:21:27Z",
+   "summary": "นายชาญชัย พัฒนธรรมสิทธิ์ , IAA นักวิเคระาห์อนุพันธ์ บล.กรุงศรี กล่าวว่า การซื้อขาย SET50 Index Futures โดย S50Z26 ปรับตัวลงต่อ ปัจจัยหลักมาจากต่างประเทศ และการปรับตัวลงของตลาดหุ้นโลก The post ภาวะตลาดอนุพันธ์: ปรับลงต่อแรงขายหุ้นเอี่ยวเทค-…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "8a2bc8fc2a21",
+   "title": "ภาวะตลาดเงินบาท: ปิด 34.12 อ่อนค่าต่อเนื่อง จากแรงขายสินทรัพย์เสี่ยง-ทองโลกร่วง",
+   "link": "https://www.infoquest.co.th/2026/685485",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T11:03:09Z",
+   "summary": "เงินบาท [USDTHB.X] ปิดตลาดเย็นนี้ อยู่ที่ระดับ 34.12 บาท/ดอลลาร์ อ่อนค่าจากเปิดตลาดเมื่อช่วงเช้า ที่ระดับ 33.95 บาท/ดอลลาร์ นักบริหารเงินจากธนาคารกรุงศรีอยุธยา เปิดเผยว่า ระหว่างวันเงินบาทเคลื่อนไหวใน The post ภาวะตลาดเงินบาท: ปิด 34.12 อ่…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "fx"
+   ],
+   "signals": [],
+   "stories": [
+    "baht"
+   ]
+  },
+  {
+   "id": "053bad5f483e",
+   "title": "BBL จับตา 2-3 ปีจุดเปลี่ยนเศรษฐกิจไทย แนะโจทย์ใหญ่รัฐเร่งปลดล็อกข้อจำกัดหนุนโตเต็มศักยภาพ ลุ้นภาษีสหรัฐฯรอบใหม่",
+   "link": "https://www.infoquest.co.th/2026/685434",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T11:00:16Z",
+   "summary": "นายกอบศักดิ์ ภูตระกูล กรรมการรองผู้จัดการใหญ่ ธนาคารกรุงเทพ (BBL) กล่าวว่า การเปลี่ยนแปลงของปัจจัยต่างๆ มีผลต่อประเทศไทย ทั้งในด้านเศรษฐกิจ การค้า การลงทุน และความสามารถในการแข่งขันของภาคธุรกิจ The post BBL จับตา 2-3 ปีจุดเปลี่ยนเศรษฐกิจไท…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "c97df2c3dd64",
+   "title": "บีทีเอส x ศิริราช-ธอส. เดินหน้า “บ้านชาวไทย” หนุนสินเชื่อ เปิดทางบุคลากรแพทย์มีบ้านใกล้ที่ทำงาน",
+   "link": "https://www.prachachat.net/real-estate/news-2102142",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T10:52:23Z",
+   "summary": "กลุ่มบีทีเอส ผนึกศิริราช-ธอส. พัฒนาโครงการบ้านชาวไทย หนุนสินเชื่อ และสวัสดิการทางการเงิน หวังเพิ่มโอกาสบุคลากรทางการแพทย์เข้าถึงที่อยู่อาศัยในทำเลใกล้ที่ทำงาน นายกวิน กาญจนพาสน์ กรรมการผู้อำนวยการใหญ่ บริษัท บีทีเอส กรุ๊ป โฮลดิ้งส์ จำกัด (…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__178561211.jpg",
+   "score": 4,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3467f587ec65",
+   "title": "ทูบีซิมเปิ้ล เปิดตัว“CUBE + CUBIC” แพลตฟอร์มการทำงานครบวงจรทั้งขาย-ส่งมอบ-รับเงิน พร้อมเชื่อมระบบAI",
+   "link": "https://www.prachachat.net/tech/news-2102165",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T10:51:07Z",
+   "summary": "ทูบีซิมเปิ้ล ผู้พัฒนาซอฟต์แวร์และที่ปรึกษาธุรกิจ เปิดตัว”CUBE + CUBIC” (คิวบ์ และ คิวบิก) ระบบ Business Operating Intelligence ผสานการบริหารจัดการงานปฏิบัติการประจำวันเข้ากับการวิเคราะห์เชิงลึกไว้บนแพลตฟอร์มเดียว ตอบโจทย์ผู้ประกอบการ SME ……",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/%E0%B8%9B%E0%B8%81-6698.jpg",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "57cb31e80fc4",
+   "title": "EXIM Bank หนุนปล่อยสินเชื่อให้ SMEs เพิ่มเป็น 40% ดันการส่งออก ชี้ NPL ยังต่ำ 4%",
+   "link": "https://www.prachachat.net/finance/news-2102140",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T10:34:56Z",
+   "summary": "EXIM Bank ปรับบทบาทสู่ Connection Financing หาโอกาสให้ผู้ประกอบการไทย คงเป้าปล่อยสินเชื่อใหม่ปี’70 ที่ 7 หมื่นล้านบาท ดันปรับพอร์ตปล่อยสินเชื่อให้ SMEs เพิ่มเป็น 40% – Corporate 60% ชี้ NPL ยังต่ำ 4% นายชลัช รัตนบุญนิธิ กรรมการผู้จัดการ ธน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-185.jpg",
+   "score": 9,
+   "categories": [
+    "bank_property",
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "87eb031713b8",
+   "title": "ลำไยตะวันออกปรับเกมส่งออก 100 ล้งร่วมคุมซัลเฟอร์สกัดจีนตีกลับ",
+   "link": "https://www.prachachat.net/economic/local-economy/news-2102089",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T10:01:22Z",
+   "summary": "ล้งลำไยภาคตะวันออกกว่า 100 แห่ง ผนึกกำลังยกระดับมาตรฐานส่งออก หวังฟื้นความเชื่อมั่นตลาดจีนและพยุงราคาลำไยไทย เดินหน้าคุมสารซัลเฟอร์ไดออกไซด์ในเนื้อไม่เกิน 50 มิลลิกรัมต่อกิโลกรัม (ppm.) หลังเผชิญปัญหาสารตกค้างสินค้าถูกตีกลับ ฉุดราคาหน้าสวน…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/web-2026-11-25T165734.604.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "64f408795bd0",
+   "title": "ชาติศิริ แบงก์กรุงเทพ มองปี’70 เศรษฐกิจยังเผชิญความท้าทาย-ผันผวน",
+   "link": "https://www.prachachat.net/finance/news-2102092",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T09:54:49Z",
+   "summary": "ชาติศิริ แบงก์กรุงเทพ ชี้คลื่นการลงทุนเข้ามาในภูมิภาค ไทยต้องเร่งหาทางดึงดูด ประเมินเศรษฐกิจปี 2570 ยังผันผวน ต้องบริหารความเสี่ยงดูแลลูกค้าอย่างใกล้ชิด จับตาการย้ายฐานรอบใหม่สู่อาเซียน ที่ใหญ่ไม่แพ้การลงทุนญี่ปุ่นเมื่อ 30 ปีก่อน พร้อมเร่ง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/10/Cover3-4.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "eb2468c8753c",
+   "title": "ดร.กอบศักดิ์ ชี้ 4 โจทย์ใหญ่เศรษฐกิจดึงเรดาร์นักลงทุนโลกมาไทย – ปกป้อง SME รับมือขัดแย้ง",
+   "link": "https://www.prachachat.net/finance/news-2102090",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T09:52:40Z",
+   "summary": "ดร.กอบศักดิ์ แบงก์กรุงเทพ มองไทยเผชิญความท้าทาย 4 ด้าน ทั้งการดึงความสนใจประเทศสู่จอเรดาร์ในโลกเพื่อดึงนักลงทุนทั่วโลก เร่งปกป้องเอสเอ็มอี พร้อมรับมือความขัดแย้งมหาอำนาจในโลก เดินหน้าแก้ความเหลื่อมล้ำ ชี้ไทยยังมีโอกาสจากทุนต่างชาติใช้เป็นป…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/03/Cover-photo1-9.jpg",
+   "score": 6,
+   "categories": [
+    "economy",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3c6ffcdd7aee",
+   "title": "เสร็จแล้วถนน 4 เลน เชื่อม 3 อำเภอมหาสารคาม หนุนเศรษฐกิจอีสาน",
+   "link": "https://www.prachachat.net/economic/news-2102066",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T09:30:23Z",
+   "summary": "ชาว “มหาสารคาม” เดินทางสะดวกกว่าเดิม กรมทางหลวงขยาย 4 เลน ทล.2040 กว่า 32 กม. แล้วเสร็จ เชื่อม 3 อำเภอ “วาปีปทุม-นาดูน-พยัคฆภูมิพิสัย” หนุนเศรษฐกิจอีสาน ผู้สื่อข่าวรายงานว่า กรมทางหลวง โดยสำนักก่อสร้างทางที่ 2 ดำเนินโครงการก่อสร้างทางหลวงห…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-184.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "607050efd512",
    "title": "SCB EIC เพิ่มเป้า GDP ปีนี้เป็น 2.6% จากเดิม 2.2% ก่อนแผ่วเหลือ 2.4% ปี 70 แต่ยังฟื้นแบบกระจุกตัว",
@@ -707,25 +1185,6 @@
    ]
   },
   {
-   "id": "34784abefe4a",
-   "title": "Dell’s stock rises as the AI boom helps sales more than double",
-   "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-25T01:11:00Z",
-   "summary": "Dell says its backlog is “rigorously vetted for customer quality and access to capital, land and power.”",
-   "image": "https://images.mktw.net/im-86616784",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": []
-  },
-  {
    "id": "0a6424fc329e",
    "title": "‘วิทัย’ ลุยแก้เศรษฐกิจนอกระบบ-ปลดล็อก 48% จีดีพี",
    "link": "https://www.prachachat.net/no1/news-2101681",
@@ -785,25 +1244,6 @@
    "stories": [
     "ai-chips"
    ]
-  },
-  {
-   "id": "b8758a591ac7",
-   "title": "GameStop has been saved by trading cards and even Rolex watches, say Wall Street’s newest bulls",
-   "link": "https://www.marketwatch.com/story/gamestop-has-been-saved-by-trading-cards-and-even-rolex-watches-say-wall-streets-newest-bulls-a932d74c?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-24T19:48:00Z",
-   "summary": "GameStop’s base of fervent retail investors is still intact, but Needham analysts say more institutional investors should take note of the company’s transformation.",
-   "image": "https://images.mktw.net/im-796776",
-   "score": 3,
-   "categories": [
-    "stock_market"
-   ],
-   "signals": [],
-   "stories": []
   },
   {
    "id": "582089811a38",

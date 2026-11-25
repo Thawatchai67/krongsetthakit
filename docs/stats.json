@@ -1,25 +1,25 @@
 {
- "generated_at": "2026-11-25T10:54:18Z",
+ "generated_at": "2026-11-25T15:32:29Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
-   "evaluated": 404,
-   "hit_rate": 53.7,
+   "evaluated": 418,
+   "hit_rate": 54.1,
    "avg_edge": 0.38
   }
  },
  "backfill": 369,
  "overall": {
-  "total": 647,
-  "news": 75,
+  "total": 664,
+  "news": 77,
   "d1": {
-   "evaluated": 524,
-   "hit_rate": 52.5,
-   "avg_edge": -0.06
+   "evaluated": 538,
+   "hit_rate": 52.4,
+   "avg_edge": -0.07
   },
   "d5": {
-   "evaluated": 404,
-   "hit_rate": 53.7,
+   "evaluated": 418,
+   "hit_rate": 54.1,
    "avg_edge": 0.38
   },
   "d20": {
@@ -50,9 +50,9 @@
    "avg_edge": -2.9
   },
   "BAC": {
-   "evaluated": 19,
-   "hit_rate": 31.6,
-   "avg_edge": -2.46
+   "evaluated": 20,
+   "hit_rate": 35.0,
+   "avg_edge": -2.25
   },
   "BBL": {
    "evaluated": 20,
@@ -65,9 +65,9 @@
    "avg_edge": -1.08
   },
   "COP": {
-   "evaluated": 16,
-   "hit_rate": 62.5,
-   "avg_edge": 0.58
+   "evaluated": 18,
+   "hit_rate": 61.1,
+   "avg_edge": 0.51
   },
   "CPF": {
    "evaluated": 2,
@@ -80,14 +80,14 @@
    "avg_edge": 0.73
   },
   "CVX": {
-   "evaluated": 16,
-   "hit_rate": 68.8,
-   "avg_edge": 0.86
+   "evaluated": 18,
+   "hit_rate": 66.7,
+   "avg_edge": 0.76
   },
   "DAL": {
-   "evaluated": 16,
-   "hit_rate": 43.8,
-   "avg_edge": 0.14
+   "evaluated": 18,
+   "hit_rate": 44.4,
+   "avg_edge": 0.12
   },
   "DELTA": {
    "evaluated": 26,
@@ -105,9 +105,9 @@
    "avg_edge": 5.98
   },
   "JPM": {
-   "evaluated": 19,
-   "hit_rate": 26.3,
-   "avg_edge": -0.94
+   "evaluated": 20,
+   "hit_rate": 30.0,
+   "avg_edge": -0.87
   },
   "KBANK": {
    "evaluated": 20,
@@ -125,9 +125,9 @@
    "avg_edge": 0.15
   },
   "MSFT": {
-   "evaluated": 19,
-   "hit_rate": 47.4,
-   "avg_edge": -0.45
+   "evaluated": 20,
+   "hit_rate": 50.0,
+   "avg_edge": -0.36
   },
   "NEM": {
    "evaluated": 2,
@@ -135,9 +135,9 @@
    "avg_edge": 1.12
   },
   "NVDA": {
-   "evaluated": 23,
-   "hit_rate": 39.1,
-   "avg_edge": -0.43
+   "evaluated": 24,
+   "hit_rate": 41.7,
+   "avg_edge": -0.38
   },
   "PTT": {
    "evaluated": 18,
@@ -170,14 +170,14 @@
    "avg_edge": 2.35
   },
   "UAL": {
-   "evaluated": 16,
-   "hit_rate": 62.5,
-   "avg_edge": 0.45
+   "evaluated": 18,
+   "hit_rate": 61.1,
+   "avg_edge": 0.4
   },
   "XOM": {
-   "evaluated": 16,
-   "hit_rate": 56.2,
-   "avg_edge": 1.26
+   "evaluated": 18,
+   "hit_rate": 55.6,
+   "avg_edge": 1.12
   }
  },
  "signals": [
@@ -185,14 +185,14 @@
    "total": 240,
    "news": 24,
    "d1": {
-    "evaluated": 236,
-    "hit_rate": 51.3,
-    "avg_edge": -0.34
+    "evaluated": 240,
+    "hit_rate": 52.1,
+    "avg_edge": -0.3
    },
    "d5": {
-    "evaluated": 176,
-    "hit_rate": 47.2,
-    "avg_edge": -0.06
+    "evaluated": 180,
+    "hit_rate": 48.3,
+    "avg_edge": -0.03
    },
    "d20": {
     "evaluated": 150,
@@ -211,9 +211,9 @@
     "avg_edge": 0.16
    },
    "d5": {
-    "evaluated": 105,
-    "hit_rate": 59.0,
-    "avg_edge": 0.54
+    "evaluated": 110,
+    "hit_rate": 60.9,
+    "avg_edge": 0.65
    },
    "d20": {
     "evaluated": 90,
@@ -224,8 +224,8 @@
    "name": "น้ำมันขึ้น"
   },
   {
-   "total": 119,
-   "news": 17,
+   "total": 126,
+   "news": 18,
    "d1": {
     "evaluated": 0,
     "hit_rate": null,
@@ -248,14 +248,14 @@
    "total": 100,
    "news": 10,
    "d1": {
-    "evaluated": 95,
-    "hit_rate": 46.3,
-    "avg_edge": -0.02
+    "evaluated": 100,
+    "hit_rate": 44.0,
+    "avg_edge": -0.15
    },
    "d5": {
-    "evaluated": 65,
-    "hit_rate": 52.3,
-    "avg_edge": 0.28
+    "evaluated": 70,
+    "hit_rate": 48.6,
+    "avg_edge": 0.04
    },
    "d20": {
     "evaluated": 20,

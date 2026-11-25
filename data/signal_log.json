@@ -686,7 +686,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682099",
   "base_date": "2026-11-18",
   "r1": 0.34,
-  "x1": 2.2
+  "x1": 2.2,
+  "r5": 0.51,
+  "x5": 4.78
  },
  "oil_down|COP|2026-11-20": {
   "signal": "oil_down",
@@ -723,7 +725,9 @@
   "date": "2026-11-25",
   "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex เปิดบวก 1.21% รับเงินทุนต่างชาติไหลเข้า-น้ำมันอ่อนตัว",
   "news_link": "https://www.infoquest.co.th/2026/685197",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": 0.33,
+  "x1": 2.98
  },
  "oil_down|CVX|2026-09-20": {
   "signal": "oil_down",
@@ -832,7 +836,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682099",
   "base_date": "2026-11-18",
   "r1": 0.21,
-  "x1": 2.07
+  "x1": 2.07,
+  "r5": 2.26,
+  "x5": 6.53
  },
  "oil_down|CVX|2026-11-20": {
   "signal": "oil_down",
@@ -869,7 +875,9 @@
   "date": "2026-11-25",
   "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex เปิดบวก 1.21% รับเงินทุนต่างชาติไหลเข้า-น้ำมันอ่อนตัว",
   "news_link": "https://www.infoquest.co.th/2026/685197",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": 0.86,
+  "x1": 3.5
  },
  "oil_down|DAL|2026-09-20": {
   "signal": "oil_down",
@@ -978,7 +986,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682099",
   "base_date": "2026-11-18",
   "r1": -1.27,
-  "x1": 0.59
+  "x1": 0.59,
+  "r5": -4.68,
+  "x5": -0.41
  },
  "oil_down|DAL|2026-11-20": {
   "signal": "oil_down",
@@ -1015,7 +1025,9 @@
   "date": "2026-11-25",
   "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex เปิดบวก 1.21% รับเงินทุนต่างชาติไหลเข้า-น้ำมันอ่อนตัว",
   "news_link": "https://www.infoquest.co.th/2026/685197",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": -4.25,
+  "x1": -1.61
  },
  "oil_down|PTTEP|2026-09-20": {
   "signal": "oil_down",
@@ -1574,7 +1586,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682099",
   "base_date": "2026-11-18",
   "r1": -1.27,
-  "x1": 0.59
+  "x1": 0.59,
+  "r5": -4.72,
+  "x5": -0.45
  },
  "oil_down|UAL|2026-11-20": {
   "signal": "oil_down",
@@ -1611,7 +1625,9 @@
   "date": "2026-11-25",
   "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex เปิดบวก 1.21% รับเงินทุนต่างชาติไหลเข้า-น้ำมันอ่อนตัว",
   "news_link": "https://www.infoquest.co.th/2026/685197",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": -4.87,
+  "x1": -2.23
  },
  "oil_down|XOM|2026-09-20": {
   "signal": "oil_down",
@@ -1720,7 +1736,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682099",
   "base_date": "2026-11-18",
   "r1": -1.03,
-  "x1": 0.83
+  "x1": 0.83,
+  "r5": -1.07,
+  "x5": 3.2
  },
  "oil_down|XOM|2026-11-20": {
   "signal": "oil_down",
@@ -1757,7 +1775,9 @@
   "date": "2026-11-25",
   "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex เปิดบวก 1.21% รับเงินทุนต่างชาติไหลเข้า-น้ำมันอ่อนตัว",
   "news_link": "https://www.infoquest.co.th/2026/685197",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": 0.4,
+  "x1": 3.04
  },
  "oil_up|AAV|2026-09-01": {
   "signal": "oil_up",
@@ -2383,7 +2403,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682097",
   "base_date": "2026-11-18",
   "r1": 0.34,
-  "x1": 2.2
+  "x1": 2.2,
+  "r5": 0.51,
+  "x5": 4.78
  },
  "oil_up|COP|2026-11-23": {
   "signal": "oil_up",
@@ -2599,7 +2621,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682097",
   "base_date": "2026-11-18",
   "r1": 0.21,
-  "x1": 2.07
+  "x1": 2.07,
+  "r5": 2.26,
+  "x5": 6.53
  },
  "oil_up|CVX|2026-11-23": {
   "signal": "oil_up",
@@ -2815,7 +2839,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682097",
   "base_date": "2026-11-18",
   "r1": -1.27,
-  "x1": 0.59
+  "x1": 0.59,
+  "r5": -4.68,
+  "x5": -0.41
  },
  "oil_up|DAL|2026-11-23": {
   "signal": "oil_up",
@@ -3685,7 +3711,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682097",
   "base_date": "2026-11-18",
   "r1": -1.27,
-  "x1": 0.59
+  "x1": 0.59,
+  "r5": -4.72,
+  "x5": -0.45
  },
  "oil_up|UAL|2026-11-23": {
   "signal": "oil_up",
@@ -3901,7 +3929,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682097",
   "base_date": "2026-11-18",
   "r1": -1.03,
-  "x1": 0.83
+  "x1": 0.83,
+  "r5": -1.07,
+  "x5": 3.2
  },
  "oil_up|XOM|2026-11-23": {
   "signal": "oil_up",
@@ -4570,7 +4600,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2098888",
   "base_date": "2026-11-18",
   "r1": -0.88,
-  "x1": 0.98
+  "x1": 0.98,
+  "r5": -2.7,
+  "x5": 1.57
  },
  "rate_hike|BAC|2026-11-20": {
   "signal": "rate_hike",
@@ -4646,7 +4678,9 @@
   "date": "2026-11-25",
   "news_title": "ทองร่วงอีกแล้ว! หลุด 3,600 เหรียญ ‘ทรัมป์’ ประกาศเก็บภาษี 16 ประเทศ จับตา PCE สหรัฐคืนนี้",
   "news_link": "https://www.prachachat.net/finance/news-2101795",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": -2.0,
+  "x1": 0.64
  },
  "rate_hike|BBL|2026-08-30": {
   "signal": "rate_hike",
@@ -6138,7 +6172,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2098888",
   "base_date": "2026-11-18",
   "r1": -1.11,
-  "x1": 0.75
+  "x1": 0.75,
+  "r5": -3.91,
+  "x5": 0.36
  },
  "rate_hike|JPM|2026-11-20": {
   "signal": "rate_hike",
@@ -6214,7 +6250,9 @@
   "date": "2026-11-25",
   "news_title": "ทองร่วงอีกแล้ว! หลุด 3,600 เหรียญ ‘ทรัมป์’ ประกาศเก็บภาษี 16 ประเทศ จับตา PCE สหรัฐคืนนี้",
   "news_link": "https://www.prachachat.net/finance/news-2101795",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": -1.79,
+  "x1": 0.85
  },
  "rate_hike|KBANK|2026-08-30": {
   "signal": "rate_hike",
@@ -7313,7 +7351,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2098888",
   "base_date": "2026-11-18",
   "r1": -1.42,
-  "x1": 0.44
+  "x1": 0.44,
+  "r5": -5.58,
+  "x5": -1.31
  },
  "rate_hike|MSFT|2026-11-20": {
   "signal": "rate_hike",
@@ -7389,7 +7429,9 @@
   "date": "2026-11-25",
   "news_title": "ทองร่วงอีกแล้ว! หลุด 3,600 เหรียญ ‘ทรัมป์’ ประกาศเก็บภาษี 16 ประเทศ จับตา PCE สหรัฐคืนนี้",
   "news_link": "https://www.prachachat.net/finance/news-2101795",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": -3.27,
+  "x1": -0.63
  },
  "rate_hike|NVDA|2026-08-30": {
   "signal": "rate_hike",
@@ -7702,7 +7744,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2098888",
   "base_date": "2026-11-18",
   "r1": -2.43,
-  "x1": -0.57
+  "x1": -0.57,
+  "r5": -5.05,
+  "x5": -0.78
  },
  "rate_hike|NVDA|2026-11-20": {
   "signal": "rate_hike",
@@ -7778,7 +7822,9 @@
   "date": "2026-11-25",
   "news_title": "ทองร่วงอีกแล้ว! หลุด 3,600 เหรียญ ‘ทรัมป์’ ประกาศเก็บภาษี 16 ประเทศ จับตา PCE สหรัฐคืนนี้",
   "news_link": "https://www.prachachat.net/finance/news-2101795",
-  "base_date": "2026-11-24"
+  "base_date": "2026-11-24",
+  "r1": -7.76,
+  "x1": -5.11
  },
  "rate_hike|SCB|2026-08-30": {
   "signal": "rate_hike",
@@ -8451,6 +8497,19 @@
   "r1": 1.9,
   "x1": -2.83
  },
+ "tariff|AAPL|2026-11-25": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "AAPL",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-25",
+  "news_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+  "news_link": "https://www.infoquest.co.th/2026/685536",
+  "r1": -2.27,
+  "x1": 0.37,
+  "base_date": "2026-11-24"
+ },
  "tariff|CPF|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -8727,6 +8786,19 @@
   "base_date": "2026-11-20",
   "r1": -1.03,
   "x1": -1.54
+ },
+ "tariff|CPF|2026-11-25": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-25",
+  "news_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+  "news_link": "https://www.infoquest.co.th/2026/685536",
+  "r1": -0.26,
+  "x1": 1.06,
+  "base_date": "2026-11-24"
  },
  "tariff|DELTA|2026-09-06": {
   "signal": "tariff",
@@ -9005,6 +9077,19 @@
   "r1": 1.44,
   "x1": 0.93
  },
+ "tariff|DELTA|2026-11-25": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-25",
+  "news_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+  "news_link": "https://www.infoquest.co.th/2026/685536",
+  "r1": -3.67,
+  "x1": -2.36,
+  "base_date": "2026-11-24"
+ },
  "tariff|HANA|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -9282,6 +9367,19 @@
   "r1": 4.36,
   "x1": 3.85
  },
+ "tariff|HANA|2026-11-25": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-25",
+  "news_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+  "news_link": "https://www.infoquest.co.th/2026/685536",
+  "r1": -4.35,
+  "x1": -3.03,
+  "base_date": "2026-11-24"
+ },
  "tariff|KCE|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -9558,6 +9656,19 @@
   "base_date": "2026-11-20",
   "r1": 4.95,
   "x1": 4.44
+ },
+ "tariff|KCE|2026-11-25": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-25",
+  "news_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+  "news_link": "https://www.infoquest.co.th/2026/685536",
+  "r1": -1.41,
+  "x1": -0.09,
+  "base_date": "2026-11-24"
  },
  "tariff|TSM|2026-09-06": {
   "signal": "tariff",
@@ -9837,6 +9948,19 @@
   "r1": 14.08,
   "x1": 9.36
  },
+ "tariff|TSM|2026-11-25": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TSM",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-25",
+  "news_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+  "news_link": "https://www.infoquest.co.th/2026/685536",
+  "r1": -6.75,
+  "x1": -4.1,
+  "base_date": "2026-11-24"
+ },
  "tariff|TU|2026-09-06": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -10113,6 +10237,19 @@
   "base_date": "2026-11-20",
   "r1": 0.39,
   "x1": -0.12
+ },
+ "tariff|TU|2026-11-25": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-25",
+  "news_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+  "news_link": "https://www.infoquest.co.th/2026/685536",
+  "r1": -0.76,
+  "x1": 0.56,
+  "base_date": "2026-11-24"
  },
  "tech_rally|AMD|2026-09-05": {
   "signal": "tech_rally",
