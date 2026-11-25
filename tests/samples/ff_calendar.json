@@ -1,0 +1,266 @@
+[
+ {
+  "title": "Flash Manufacturing PMI",
+  "country": "AUD",
+  "date": "2026-11-22T17:00:00-05:00",
+  "impact": "Low",
+  "forecast": "",
+  "previous": "49.7"
+ },
+ {
+  "title": "Flash Services PMI",
+  "country": "AUD",
+  "date": "2026-11-22T17:00:00-05:00",
+  "impact": "Low",
+  "forecast": "",
+  "previous": "47.8"
+ },
+ {
+  "title": "Bank Holiday",
+  "country": "JPY",
+  "date": "2026-11-22T19:00:00-05:00",
+  "impact": "Holiday",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "Flash Manufacturing PMI",
+  "country": "USD",
+  "date": "2026-11-23T09:45:00-05:00",
+  "impact": "Medium",
+  "forecast": "54.5",
+  "previous": "56.0"
+ },
+ {
+  "title": "Flash Services PMI",
+  "country": "USD",
+  "date": "2026-11-23T09:45:00-05:00",
+  "impact": "Medium",
+  "forecast": "55.6",
+  "previous": "57.9"
+ },
+ {
+  "title": "FOMC Member Williams Speaks",
+  "country": "USD",
+  "date": "2026-11-23T16:00:00-05:00",
+  "impact": "Low",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "Flash Manufacturing PMI",
+  "country": "JPY",
+  "date": "2026-11-23T19:30:00-05:00",
+  "impact": "Low",
+  "forecast": "53.5",
+  "previous": "53.3"
+ },
+ {
+  "title": "ADP Weekly Employment Change",
+  "country": "USD",
+  "date": "2026-11-24T08:15:00-05:00",
+  "impact": "Low",
+  "forecast": "",
+  "previous": "23.8K"
+ },
+ {
+  "title": "HPI m/m",
+  "country": "USD",
+  "date": "2026-11-24T09:00:00-05:00",
+  "impact": "Low",
+  "forecast": "0.2%",
+  "previous": "0.3%"
+ },
+ {
+  "title": "S&P/CS Composite-20 HPI y/y",
+  "country": "USD",
+  "date": "2026-11-24T09:00:00-05:00",
+  "impact": "Low",
+  "forecast": "2.7%",
+  "previous": "2.7%"
+ },
+ {
+  "title": "CB Consumer Confidence",
+  "country": "USD",
+  "date": "2026-11-24T10:00:00-05:00",
+  "impact": "Medium",
+  "forecast": "92.4",
+  "previous": "91.7"
+ },
+ {
+  "title": "Richmond Manufacturing Index",
+  "country": "USD",
+  "date": "2026-11-24T10:00:00-05:00",
+  "impact": "Low",
+  "forecast": "-2",
+  "previous": "-2"
+ },
+ {
+  "title": "API Weekly Statistical Bulletin",
+  "country": "USD",
+  "date": "2026-11-24T16:30:00-05:00",
+  "impact": "Low",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "SPPI y/y",
+  "country": "JPY",
+  "date": "2026-11-24T18:50:00-05:00",
+  "impact": "Low",
+  "forecast": "3.6%",
+  "previous": "3.7%"
+ },
+ {
+  "title": "CPI m/m",
+  "country": "AUD",
+  "date": "2026-11-24T19:30:00-05:00",
+  "impact": "High",
+  "forecast": "0.4%",
+  "previous": "0.8%"
+ },
+ {
+  "title": "CPI y/y",
+  "country": "AUD",
+  "date": "2026-11-24T19:30:00-05:00",
+  "impact": "High",
+  "forecast": "4.7%",
+  "previous": "4.3%"
+ },
+ {
+  "title": "Trimmed Mean CPI m/m",
+  "country": "AUD",
+  "date": "2026-11-24T19:30:00-05:00",
+  "impact": "High",
+  "forecast": "0.3%",
+  "previous": "0.3%"
+ },
+ {
+  "title": "Construction Work Done q/q",
+  "country": "AUD",
+  "date": "2026-11-24T19:30:00-05:00",
+  "impact": "Low",
+  "forecast": "0.8%",
+  "previous": "-2.1%"
+ },
+ {
+  "title": "BOJ Core CPI y/y",
+  "country": "JPY",
+  "date": "2026-11-25T00:00:00-05:00",
+  "impact": "Low",
+  "forecast": "2.5%",
+  "previous": "2.4%"
+ },
+ {
+  "title": "FOMC Member Bowman Speaks",
+  "country": "USD",
+  "date": "2026-11-25T07:25:00-05:00",
+  "impact": "Low",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "Core PCE Price Index m/m",
+  "country": "USD",
+  "date": "2026-11-25T08:30:00-05:00",
+  "impact": "High",
+  "forecast": "0.3%",
+  "previous": "0.3%"
+ },
+ {
+  "title": "Prelim GDP q/q",
+  "country": "USD",
+  "date": "2026-11-25T08:30:00-05:00",
+  "impact": "High",
+  "forecast": "3.5%",
+  "previous": "3.4%"
+ },
+ {
+  "title": "Prelim GDP Price Index q/q",
+  "country": "USD",
+  "date": "2026-11-25T08:30:00-05:00",
+  "impact": "Medium",
+  "forecast": "2.3%",
+  "previous": "2.3%"
+ },
+ {
+  "title": "Core Durable Goods Orders m/m",
+  "country": "USD",
+  "date": "2026-11-25T08:30:00-05:00",
+  "impact": "Low",
+  "forecast": "0.5%",
+  "previous": "0.5%"
+ },
+ {
+  "title": "Durable Goods Orders m/m",
+  "country": "USD",
+  "date": "2026-11-25T08:30:00-05:00",
+  "impact": "Low",
+  "forecast": "0.7%",
+  "previous": "1.8%"
+ },
+ {
+  "title": "Personal Income m/m",
+  "country": "USD",
+  "date": "2026-11-25T08:30:00-05:00",
+  "impact": "Low",
+  "forecast": "0.4%",
+  "previous": "0.2%"
+ },
+ {
+  "title": "Personal Spending m/m",
+  "country": "USD",
+  "date": "2026-11-25T08:30:00-05:00",
+  "impact": "Low",
+  "forecast": "0.4%",
+  "previous": "0.5%"
+ },
+ {
+  "title": "Unemployment Claims",
+  "country": "USD",
+  "date": "2026-11-25T08:30:00-05:00",
+  "impact": "Low",
+  "forecast": "201K",
+  "previous": "203K"
+ },
+ {
+  "title": "New Home Sales",
+  "country": "USD",
+  "date": "2026-11-25T10:00:00-05:00",
+  "impact": "Low",
+  "forecast": "650K",
+  "previous": "676K"
+ },
+ {
+  "title": "Crude Oil Inventories",
+  "country": "USD",
+  "date": "2026-11-25T10:30:00-05:00",
+  "impact": "Low",
+  "forecast": "2.0M",
+  "previous": "3.4M"
+ },
+ {
+  "title": "FOMC Statement",
+  "country": "USD",
+  "date": "2026-11-27T14:00:00-05:00",
+  "impact": "High",
+  "forecast": "",
+  "previous": ""
+ },
+ {
+  "title": "Manufacturing PMI",
+  "country": "CNY",
+  "date": "2026-11-27T20:30:00-05:00",
+  "impact": "High",
+  "forecast": "49.8",
+  "previous": "49.5"
+ },
+ {
+  "title": "Bank Holiday",
+  "country": "USD",
+  "date": "2026-11-26T00:00:00-05:00",
+  "impact": "Holiday",
+  "forecast": "",
+  "previous": ""
+ }
+]
