@@ -10186,6 +10186,20 @@
   "x20": -10.73,
   "base_date": "2026-09-23"
  },
+ "tech_rally|AMD|2026-11-24": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "AMD",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "Nvidia partners , suppliers in Asia jump after Jensen Huang return",
+  "news_link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+  "backfill": true,
+  "r1": -8.86,
+  "x1": -8.36,
+  "base_date": "2026-11-23"
+ },
  "tech_rally|DELTA|2026-09-05": {
   "signal": "tech_rally",
   "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
@@ -10257,6 +10271,20 @@
   "r20": -5.86,
   "x20": -4.27,
   "base_date": "2026-09-23"
+ },
+ "tech_rally|DELTA|2026-11-24": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "Nvidia partners , suppliers in Asia jump after Jensen Huang return",
+  "news_link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+  "backfill": true,
+  "r1": 0.57,
+  "x1": 1.07,
+  "base_date": "2026-11-23"
  },
  "tech_rally|HANA|2026-09-05": {
   "signal": "tech_rally",
@@ -10330,6 +10358,20 @@
   "x20": -5.28,
   "base_date": "2026-09-23"
  },
+ "tech_rally|HANA|2026-11-24": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "Nvidia partners , suppliers in Asia jump after Jensen Huang return",
+  "news_link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+  "backfill": true,
+  "r1": 1.1,
+  "x1": 1.6,
+  "base_date": "2026-11-23"
+ },
  "tech_rally|KCE|2026-09-05": {
   "signal": "tech_rally",
   "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
@@ -10401,6 +10443,20 @@
   "r20": 3.33,
   "x20": 4.92,
   "base_date": "2026-09-23"
+ },
+ "tech_rally|KCE|2026-11-24": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "Nvidia partners , suppliers in Asia jump after Jensen Huang return",
+  "news_link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+  "backfill": true,
+  "r1": 0.47,
+  "x1": 0.98,
+  "base_date": "2026-11-23"
  },
  "tech_rally|NVDA|2026-09-05": {
   "signal": "tech_rally",
@@ -10474,6 +10530,20 @@
   "x20": -2.23,
   "base_date": "2026-09-23"
  },
+ "tech_rally|NVDA|2026-11-24": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "Nvidia partners , suppliers in Asia jump after Jensen Huang return",
+  "news_link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+  "backfill": true,
+  "r1": -5.86,
+  "x1": -5.36,
+  "base_date": "2026-11-23"
+ },
  "tech_rally|TSM|2026-09-05": {
   "signal": "tech_rally",
   "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
@@ -10545,5 +10615,19 @@
   "r20": -3.29,
   "x20": -3.95,
   "base_date": "2026-09-23"
+ },
+ "tech_rally|TSM|2026-11-24": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "TSM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-24",
+  "news_title": "Nvidia partners , suppliers in Asia jump after Jensen Huang return",
+  "news_link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html",
+  "backfill": true,
+  "r1": -3.96,
+  "x1": -3.46,
+  "base_date": "2026-11-23"
  }
 }

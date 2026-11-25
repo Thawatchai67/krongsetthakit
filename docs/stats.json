@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T06:03:56Z",
+ "generated_at": "2026-11-25T10:54:18Z",
  "since": "2026-08-30",
  "by_year": {
   "2026": {
@@ -8,14 +8,14 @@
    "avg_edge": 0.38
   }
  },
- "backfill": 363,
+ "backfill": 369,
  "overall": {
-  "total": 651,
+  "total": 647,
   "news": 75,
   "d1": {
-   "evaluated": 523,
-   "hit_rate": 52.6,
-   "avg_edge": -0.04
+   "evaluated": 524,
+   "hit_rate": 52.5,
+   "avg_edge": -0.06
   },
   "d5": {
    "evaluated": 404,
@@ -266,12 +266,12 @@
    "name": "น้ำมันลง"
   },
   {
-   "total": 24,
-   "news": 4,
+   "total": 30,
+   "news": 5,
    "d1": {
-    "evaluated": 24,
+    "evaluated": 30,
     "hit_rate": 50.0,
-    "avg_edge": 1.14
+    "avg_edge": 0.46
    },
    "d5": {
     "evaluated": 24,
