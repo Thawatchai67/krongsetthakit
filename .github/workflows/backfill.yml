@@ -25,7 +25,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - name: เก็บข่าวย้อนหลัง (สูงสุด 5 ชม. แล้วเซฟไว้ทำต่อ)
-        run: python scripts/backfill_gdelt.py collect --minutes 290
+        run: python scripts/backfill_gdelt.py collect --minutes 290 --window-days 90
       - name: ราคาย้อนหลังเต็มช่วง
         run: python scripts/fetch_prices.py --range 10y || echo "ดึงราคาไม่สำเร็จ ใช้ราคาเดิม"
       - name: รวมข่าวย้อนหลังและวัดผล
