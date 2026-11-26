@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T22:38:25Z",
+ "generated_at": "2026-11-26T00:15:55Z",
  "since": "2025-06-06",
  "by_year": {
   "2025": {
@@ -15,8 +15,8 @@
  },
  "backfill": 6213,
  "overall": {
-  "total": 6508,
-  "news": 802,
+  "total": 6518,
+  "news": 803,
   "d1": {
    "evaluated": 4674,
    "hit_rate": 52.5,
@@ -271,8 +271,8 @@
    "name": "ลดดอกเบี้ย"
   },
   {
-   "total": 780,
-   "news": 78,
+   "total": 790,
+   "news": 79,
    "d1": {
     "evaluated": 780,
     "hit_rate": 52.3,

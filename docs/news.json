@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-25T15:31:55Z",
+  "generated_at": "2026-11-26T00:15:28Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 471
+  "total_kept": 483
  },
  "signals": [
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 5,
+   "count": 6,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -64,22 +64,22 @@
    ],
    "evidence": [
     {
+     "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+     "link": "https://www.infoquest.co.th/2026/685577",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-26T00:01:57Z"
+    },
+    {
+     "title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดลบ 1% กังวลดอกเบี้ยขาขึ้น-นโยบายภาษีสหรัฐฯ ฉุดความเชื่อมั่น",
+     "link": "https://www.infoquest.co.th/2026/685564",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-25T23:34:31Z"
+    },
+    {
      "title": "ทองร่วงอีกแล้ว! หลุด 3,600 เหรียญ ‘ทรัมป์’ ประกาศเก็บภาษี 16 ประเทศ จับตา PCE สหรัฐคืนนี้",
      "link": "https://www.prachachat.net/finance/news-2101795",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-25T03:07:05Z"
-    },
-    {
-     "title": "ราคาทองร่วงเกือบ 1% นลท.กังวลเฟดขึ้นดอกเบี้ย",
-     "link": "https://www.infoquest.co.th/2026/684910",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-24T14:37:48Z"
-    },
-    {
-     "title": "ประธานเฟดนิวยอร์กส่งสัญญาณเดินหน้าขึ้นดอกเบี้ยเพื่อควบคุมเงินเฟ้อ",
-     "link": "https://www.infoquest.co.th/2026/684893",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-24T12:21:45Z"
     }
    ]
   },
@@ -129,7 +129,7 @@
   {
    "id": "oil_down",
    "name": "น้ำมันลง",
-   "count": 2,
+   "count": 1,
    "impacts": [
     {
      "effect": "ถูกกดดัน",
@@ -166,12 +166,6 @@
      "link": "https://www.infoquest.co.th/2026/685197",
      "source": "อินโฟเควสท์",
      "published": "2026-11-25T04:58:40Z"
-    },
-    {
-     "title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดร่วง $3.24 หลังอุปทานน้ำมันตอ.กลางฟื้นตัว-ลิเบียกลับมาเปิดท่อส่ง",
-     "link": "https://www.infoquest.co.th/2026/684204",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-23T23:41:24Z"
     }
    ]
   },
@@ -224,17 +218,17 @@
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 23,
-   "new_24h": 7,
+   "new_24h": 6,
    "latest": "2026-11-25T14:49:36Z",
    "latest_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%"
   },
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 53,
+   "count": 54,
    "new_24h": 5,
-   "latest": "2026-11-25T15:03:00Z",
-   "latest_title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance"
+   "latest": "2026-11-25T22:45:00Z",
+   "latest_title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?"
   },
   {
    "id": "thai-market",
@@ -247,10 +241,18 @@
   {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
-   "count": 30,
+   "count": 31,
    "new_24h": 3,
-   "latest": "2026-11-25T04:58:40Z",
-   "latest_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex เปิดบวก 1.21% รับเงินทุนต่างชาติไหลเข้า-น้ำมันอ่อนตัว"
+   "latest": "2026-11-26T00:01:43Z",
+   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดบวก $1.63 หลังกลุ่มฮูตีถล่มโรงกลั่นน้ำมันซาอุฯ"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 24,
+   "new_24h": 2,
+   "latest": "2026-11-26T00:01:57Z",
+   "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
    "id": "baht",
@@ -261,12 +263,12 @@
    "latest_title": "ภาวะตลาดเงินบาท: ปิด 34.12 อ่อนค่าต่อเนื่อง จากแรงขายสินทรัพย์เสี่ยง-ทองโลกร่วง"
   },
   {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 23,
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
+   "count": 28,
    "new_24h": 1,
-   "latest": "2026-11-25T12:38:46Z",
-   "latest_title": "ราคาทองโลกร่วงต่อเนื่อง ดอลล์แข็งกดดันตลาด"
+   "latest": "2026-11-26T00:01:57Z",
+   "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
    "id": "thai-economy",
@@ -275,14 +277,6 @@
    "new_24h": 1,
    "latest": "2026-11-25T11:00:16Z",
    "latest_title": "BBL จับตา 2-3 ปีจุดเปลี่ยนเศรษฐกิจไทย แนะโจทย์ใหญ่รัฐเร่งปลดล็อกข้อจำกัดหนุนโตเต็มศักยภาพ ลุ้นภาษีสหรัฐฯรอบใหม่"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 27,
-   "new_24h": 1,
-   "latest": "2026-11-24T16:43:20Z",
-   "latest_title": "บอนด์ยีลด์ร่วงหลุด 4.9% นักลงทุนจับตาถ้อยแถลงเจ้าหน้าที่เฟด"
   },
   {
    "id": "bot",
@@ -302,6 +296,294 @@
   }
  ],
  "items": [
+  {
+   "id": "c07aafd4029b",
+   "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์อ่อนค่าต่อเนื่อง หลังกระแสลงทุนหุ้น AI แผ่ว",
+   "link": "https://www.infoquest.co.th/2026/685534",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T00:15:29Z",
+   "summary": "สกุลเงินดอลลาร์สหรัฐอ่อนค่าลงอย่างต่อเนื่องในการซื้อขายที่ตลาดปริวรรตเงินตรานิวยอร์กในวันพุธ (25 พ.ย.) โดยถูกกดดันจากการที่หุ้นกลุ่มเทคโนโลยีปัญญาประดิษฐ์ (AI) ยังคงถูกเทขายในตลาดวอลล์สตรีท The post ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์อ่อนค่าต่อเ…",
+   "image": null,
+   "score": 13,
+   "categories": [
+    "tech_ai",
+    "fx",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "639b5f36cc96",
+   "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+   "link": "https://www.infoquest.co.th/2026/685577",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T00:01:57Z",
+   "summary": "สัญญาทองคำตลาดนิวยอร์กปิดลดลงในวันพุธ (25 พ.ย.) โดยราคายังคงอยู่ใกล้ระดับต่ำสุดในรอบกว่า 1 ปี หลังข้อมูลเงินเฟ้อสหรัฐฯ ที่ออกมาสูงกว่าคาด ทำให้นักลงทุนยังกังวลว่าธนาคารกลางสหรัฐฯ (เฟด) The post ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอ…",
+   "image": null,
+   "score": 14,
+   "categories": [
+    "monetary",
+    "gold"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed",
+    "gold"
+   ]
+  },
+  {
+   "id": "dcbbe59694c9",
+   "title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดบวก $1.63 หลังกลุ่มฮูตีถล่มโรงกลั่นน้ำมันซาอุฯ",
+   "link": "https://www.infoquest.co.th/2026/685530",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T00:01:43Z",
+   "summary": "สัญญาน้ำมันดิบเวสต์เท็กซัส (WTI) ตลาดนิวยอร์กปิดบวกในวันพุธ (25 พ.ย.) หลังจากกลุ่มฮูตีในเยเมนได้โจมตีโรงกลั่นน้ำมันที่ใหญ่ที่สุดของซาอุดีอาระเบีย ซึ่งสร้างความกังวลเกี่ยวกับภาวะอุปทานชะงักงันในตะวันออ The post ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิ…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "57a5f659d302",
+   "title": "ภาวะตลาดหุ้นนิวยอร์ก: ดาวโจนส์ปิดบวก 164.25 จุด นลท.ช้อนซื้อก่อนวันหยุด Thanksgiving",
+   "link": "https://www.infoquest.co.th/2026/685528",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T23:47:04Z",
+   "summary": "ดัชนีดาวโจนส์ตลาดหุ้นนิวยอร์กปิดบวกในวันพุธ (25 พ.ย.) ส่วนดัชนี S&P 500 และ Nasdaq แม้จะยังคงปิดในแดนลบ อันเนื่องมาจากแรงเทขายหุ้นกลุ่มปัญญาประดิษฐ์ (AI) แต่สามารถฟื้นตัวขึ้นมาจากระดับต่ำสุดของวัน The post ภาวะตลาดหุ้นนิวยอร์ก: ดาวโจนส์ปิด…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "1df736cad330",
+   "title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดลบ 0.4% แรงขายหุ้นเหมืองแร่-ธนาคารกดดันตลาด",
+   "link": "https://www.infoquest.co.th/2026/685569",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T23:43:11Z",
+   "summary": "ตลาดหุ้นลอนดอนปิดลดลงในวันพุธ (25 พ.ย.) โดยหุ้นกลุ่มเหมืองแร่และธนาคารเผชิญแรงขาย ท่ามกลางการเทขายหุ้นอย่างหนักในตลาดหุ้นสหรัฐฯ อย่างไรก็ตาม การปรับตัวขึ้นของหุ้นกลุ่มปลอดภัยช่วยจำกัดการปรับตัวลงของตล The post ภาวะตลาดหุ้นลอนดอน: FTSE 100…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a716fa1a5af1",
+   "title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดลบ 1% กังวลดอกเบี้ยขาขึ้น-นโยบายภาษีสหรัฐฯ ฉุดความเชื่อมั่น",
+   "link": "https://www.infoquest.co.th/2026/685564",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T23:34:31Z",
+   "summary": "ตลาดหุ้นยุโรปปิดลดลงในวันพุธ (25 พ.ย.) โดยหุ้นกลุ่มการเงินและเทคโนโลยีเป็นปัจจัยหลักที่ฉุดตลาด หลังนักลงทุนกังวลเกี่ยวกับแนวโน้มอัตราดอกเบี้ยที่สูงขึ้น ความไม่แน่นอนด้านนโยบายการค้าของสหรัฐฯ The post ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดลบ 1% กั…",
+   "image": null,
+   "score": 13,
+   "categories": [
+    "stock_market",
+    "monetary"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": []
+  },
+  {
+   "id": "3b1d5c3b8f8f",
+   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T22:45:00Z",
+   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+   "image": "https://images.mktw.net/im-78896707",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "aed167976779",
+   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
+   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T22:31:00Z",
+   "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+   "image": "https://images.mktw.net/im-58425830",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "f98e8200ec5b",
+   "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+   "link": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T22:16:00Z",
+   "summary": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday, after what appeared to be a major selloff eased ahead of the market’s close.",
+   "image": "https://images.mktw.net/im-37217183",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d540fe45c028",
+   "title": "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T22:11:00Z",
+   "summary": "Based on where retail investors bought Nvidia shares on the dip last week, their gains are now nearly all gone, according to Vanda Research.",
+   "image": "https://images.mktw.net/im-31262008",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "19c7121dfc34",
+   "title": "Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’",
+   "link": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T21:50:00Z",
+   "summary": "SpaceX to provide one newly issued Class A share to every active ‘Trump account,’ and CEO Musk will match that gift.",
+   "image": "https://images.mktw.net/im-21652349",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "af7e86344eeb",
+   "title": "HP’s stock is a standout gainer in the tech selloff, as an earnings beat still matters",
+   "link": "https://www.marketwatch.com/story/hps-stock-is-a-standout-gainer-in-the-tech-rout-as-an-earnings-beat-still-matters-8f6c76ad?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-25T21:36:00Z",
+   "summary": "PC maker’s ‘low-quality’ beat is enough to propel its shares amid the tech rout.",
+   "image": "https://images.mktw.net/im-59545420",
+   "score": 3,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "7486b0f51365",
+   "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
+   "source": "Federal Reserve",
+   "feed": "fed",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": true,
+   "published": "2026-11-25T20:00:00Z",
+   "summary": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "1c9d4727e6ad",
+   "title": "ทรัมป์อ้างหุ้นตก เพราะรีพับลิกันแพ้เลือกตั้งกลางเทอม",
+   "link": "https://www.infoquest.co.th/2026/685558",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-25T18:24:49Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ โพสต์ข้อความบน Truth Social ระบุว่า การที่ตลาดหุ้นทรุดตัวลงในวันนี้ มีสาเหตุมาจากการเลือกตั้งกลางเทอมในวันที่ 3 พ.ย. ซึ่งพรรครีพับลิกันพ่ายแพ้การเลือกตั้ง The post ทรัมป์อ้างหุ้นตก เพราะรีพับลิกันแพ้เล…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "stock_market",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "55abef45c0e7",
    "title": "สหรัฐเผยดัชนี PCE +3.8% เดือนต.ค. สอดคล้องคาดการณ์",
@@ -341,27 +623,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "aed167976779",
-   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
-   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-25T15:03:00Z",
-   "summary": "“Since the advent of the atom bomb, all futures have been at risk from the whims of one man.”",
-   "image": "https://images.mktw.net/im-58425830",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
   },
   {
    "id": "775d59acff99",
@@ -469,27 +730,6 @@
    ],
    "stories": [
     "trade-war"
-   ]
-  },
-  {
-   "id": "3b1d5c3b8f8f",
-   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-25T14:01:00Z",
-   "summary": "“I was paralyzed during the market downturn.”",
-   "image": "https://images.mktw.net/im-78896707",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
    ]
   },
   {
