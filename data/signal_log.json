@@ -210,6 +210,19 @@
   "x1": -0.12,
   "base_date": "2026-11-20"
  },
+ "baht_weak|TU|2026-11-26": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้",
+  "news_link": "https://www.prachachat.net/finance/news-2102589",
+  "r1": -1.53,
+  "x1": -0.61,
+  "base_date": "2026-11-25"
+ },
  "gold_up|AURA|2024-04-15": {
   "signal": "gold_up",
   "signal_name": "ทองคำขึ้น",
@@ -46182,6 +46195,19 @@
   "x1": 1.97,
   "base_date": "2026-11-23"
  },
+ "oil_up|AAV|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "r1": -1.47,
+  "x1": -0.55,
+  "base_date": "2026-11-25"
+ },
  "oil_up|BCP|2024-03-13": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -50107,6 +50133,19 @@
   "r1": -1.39,
   "x1": -0.89,
   "base_date": "2026-11-23"
+ },
+ "oil_up|BCP|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "r1": -5.1,
+  "x1": -4.17,
+  "base_date": "2026-11-25"
  },
  "oil_up|COP|2024-03-13": {
   "signal": "oil_up",
@@ -54034,6 +54073,17 @@
   "x1": 2.37,
   "base_date": "2026-11-23"
  },
+ "oil_up|COP|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "base_date": "2026-11-25"
+ },
  "oil_up|CVX|2024-03-13": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -57959,6 +58009,17 @@
   "r1": 1.33,
   "x1": 1.83,
   "base_date": "2026-11-23"
+ },
+ "oil_up|CVX|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "base_date": "2026-11-25"
  },
  "oil_up|DAL|2024-03-13": {
   "signal": "oil_up",
@@ -61886,6 +61947,17 @@
   "x1": 0.71,
   "base_date": "2026-11-23"
  },
+ "oil_up|DAL|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "base_date": "2026-11-25"
+ },
  "oil_up|PTTEP|2024-03-13": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -65811,6 +65883,19 @@
   "r1": -1.41,
   "x1": -0.9,
   "base_date": "2026-11-23"
+ },
+ "oil_up|PTTEP|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "r1": 1.07,
+  "x1": 1.99,
+  "base_date": "2026-11-25"
  },
  "oil_up|PTT|2024-03-13": {
   "signal": "oil_up",
@@ -69738,6 +69823,19 @@
   "x1": 0.24,
   "base_date": "2026-11-23"
  },
+ "oil_up|PTT|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "r1": 0.0,
+  "x1": 0.92,
+  "base_date": "2026-11-25"
+ },
  "oil_up|TOP|2024-03-13": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -73663,6 +73761,19 @@
   "r1": -3.12,
   "x1": -2.62,
   "base_date": "2026-11-23"
+ },
+ "oil_up|TOP|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "r1": 1.4,
+  "x1": 2.32,
+  "base_date": "2026-11-25"
  },
  "oil_up|UAL|2024-03-13": {
   "signal": "oil_up",
@@ -77590,6 +77701,17 @@
   "x1": -0.34,
   "base_date": "2026-11-23"
  },
+ "oil_up|UAL|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "base_date": "2026-11-25"
+ },
  "oil_up|XOM|2024-03-13": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -81515,6 +81637,17 @@
   "r1": 0.96,
   "x1": 1.45,
   "base_date": "2026-11-23"
+ },
+ "oil_up|XOM|2026-11-26": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+  "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "base_date": "2026-11-25"
  },
  "rate_cut|BAC|2024-03-15": {
   "signal": "rate_cut",

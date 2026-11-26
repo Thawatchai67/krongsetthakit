@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-26T09:28:11Z",
+  "generated_at": "2026-11-26T19:34:55Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,56 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 499
+  "total_kept": 518
  },
  "signals": [
   {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 4,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+     "link": "https://www.infoquest.co.th/2026/685536",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-25T14:49:36Z"
+    },
+    {
+     "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
+     "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-25T14:14:00Z"
+    },
+    {
+     "title": "ทรัมป์เสนอขึ้นภาษีนำเข้า 14 ชาติคู่ค้า ‘ไทย‘ อยู่ในรายชื่อ",
+     "link": "https://www.prachachat.net/world/news-2102222",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-25T14:12:31Z"
+    }
+   ]
+  },
+  {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 6,
+   "count": 3,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -84,45 +127,45 @@
    ]
   },
   {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 4,
+   "id": "oil_up",
+   "name": "น้ำมันขึ้น",
+   "count": 1,
    "impacts": [
     {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "effect": "ได้ประโยชน์",
+     "sector": "พลังงาน/ปิโตรเลียม",
      "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
      ],
      "us": [
-      "AAPL",
-      "TSM"
+      "XOM",
+      "CVX",
+      "COP"
      ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ขนส่ง",
+     "set": [
+      "AAV"
+     ],
+     "us": [
+      "DAL",
+      "UAL"
+     ],
+     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
     }
    ],
    "evidence": [
     {
-     "title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
-     "link": "https://www.infoquest.co.th/2026/685536",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-25T14:49:36Z"
-    },
-    {
-     "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
-     "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-25T14:14:00Z"
-    },
-    {
-     "title": "ทรัมป์เสนอขึ้นภาษีนำเข้า 14 ชาติคู่ค้า ‘ไทย‘ อยู่ในรายชื่อ",
-     "link": "https://www.prachachat.net/world/news-2102222",
+     "title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+     "link": "https://www.prachachat.net/finance/news-2102846",
      "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-25T14:12:31Z"
+     "published": "2026-11-26T11:18:01Z"
     }
    ]
   },
@@ -203,75 +246,32 @@
      "published": "2026-11-25T04:58:40Z"
     }
    ]
-  },
-  {
-   "id": "oil_up",
-   "name": "น้ำมันขึ้น",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "พลังงาน/ปิโตรเลียม",
-     "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
-     ],
-     "us": [
-      "XOM",
-      "CVX",
-      "COP"
-     ],
-     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "ราคาน้ำมันโลกดีดตัว หลังเกิดเหตุโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
-     "link": "https://www.infoquest.co.th/2026/684914",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-24T16:30:02Z"
-    }
-   ]
   }
  ],
  "stories": [
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 55,
+   "count": 56,
    "new_24h": 5,
-   "latest": "2026-11-26T09:05:22Z",
-   "latest_title": "WHA ชี้ภาษีสหรัฐ 18% ไทยยังได้เปรียบคู่แข่งหลายประเทศโดนด้วย ชี้ลงทุนต่อ Data Center ไม่สะดุด"
-  },
-  {
-   "id": "trade-war",
-   "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 23,
-   "new_24h": 5,
-   "latest": "2026-11-25T14:49:36Z",
-   "latest_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%"
+   "latest": "2026-11-26T16:30:00Z",
+   "latest_title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?"
   },
   {
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
-   "count": 25,
+   "count": 27,
+   "new_24h": 3,
+   "latest": "2026-11-26T11:26:44Z",
+   "latest_title": "บจ. mai โชว์กำไร Q3 พุ่ง 117.9% ดัน 9 เดือนโกยเกือย 7 พันล้าน 6 กลุ่มอุตสาหกรรมกำไรฟื้น"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 32,
    "new_24h": 2,
-   "latest": "2026-11-26T08:32:14Z",
-   "latest_title": "KKP มองหุ้นไทยไซด์เวย์ส่งท้ายปี ชูหุ้นแบงก์ปันผลสูง–Defensive"
+   "latest": "2026-11-26T11:18:01Z",
+   "latest_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน"
   },
   {
    "id": "bot",
@@ -282,20 +282,28 @@
    "latest_title": "แบงก์ชาติ เร่ง 3 มาตรการหนุน SME ปี’70 ดันสินเชื่อเติบโต"
   },
   {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 21,
+   "new_24h": 1,
+   "latest": "2026-11-26T11:23:51Z",
+   "latest_title": "3 กูรูส่งสัญญาณเตือนเศรษฐกิจไทยโตต่ำศักยภาพ หนี้ครัวเรือนฉุด-แรงงานหด-เหลื่อมล้ำสูง"
+  },
+  {
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
+   "count": 24,
+   "new_24h": 1,
+   "latest": "2026-11-26T09:44:44Z",
+   "latest_title": "ดร.พิพัฒน์ ประเมินภาษีทรัมป์รอบใหม่ 18% ผลกระทบส่งออกจำกัด จับตาจีน"
+  },
+  {
    "id": "baht",
    "name": "ทิศทางเงินบาท",
    "count": 17,
-   "new_24h": 2,
+   "new_24h": 1,
    "latest": "2026-11-26T06:00:12Z",
    "latest_title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้"
-  },
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 24,
-   "new_24h": 2,
-   "latest": "2026-11-26T00:01:57Z",
-   "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
    "id": "fed",
@@ -306,20 +314,12 @@
    "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 31,
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 24,
    "new_24h": 1,
-   "latest": "2026-11-26T00:01:43Z",
-   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดบวก $1.63 หลังกลุ่มฮูตีถล่มโรงกลั่นน้ำมันซาอุฯ"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 20,
-   "new_24h": 1,
-   "latest": "2026-11-25T11:00:16Z",
-   "latest_title": "BBL จับตา 2-3 ปีจุดเปลี่ยนเศรษฐกิจไทย แนะโจทย์ใหญ่รัฐเร่งปลดล็อกข้อจำกัดหนุนโตเต็มศักยภาพ ลุ้นภาษีสหรัฐฯรอบใหม่"
+   "latest": "2026-11-26T00:01:57Z",
+   "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
    "id": "thai-us-china",
@@ -331,6 +331,426 @@
   }
  ],
  "items": [
+  {
+   "id": "bd1cb8c6d5d0",
+   "title": "“ทรัมป์” หารือ “ปูติน” หวังรัสเซีย-ยูเครนบรรลุข้อตกลงสันติภาพ",
+   "link": "https://www.infoquest.co.th/2026/686173",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T18:40:48Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ โพสต์ข้อความบน Truth Social ในวันนี้ (26 พ.ย.) ระบุว่า เขาได้สนทนากับประธานาธิบดีวลาดิเมียร์ ปูติน ผู้นำรัสเซีย ที่จีน เกี่ยวกับความต้องการที่อยากเห็นปธน.ปูตินยุต The post “ทรัมป์” หารือ “ปูติน” หวังรั…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "842614bf8cd6",
+   "title": "“ทรัมป์” ส่งสารอวยพรชาวอเมริกัน เนื่องในวันขอบคุณพระเจ้า",
+   "link": "https://www.infoquest.co.th/2026/686170",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T18:05:26Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ โพสต์ข้อความบน Truth Social ในวันนี้ (26 พ.ย.) เพื่ออวยพรชาวอเมริกัน เนื่องในวันขอบคุณพระเจ้า นอกจากนี้ ปธน.ทรัมป์ยังได้เรียกร้องให้มีการตรวจสอบการเผยแพร่ตัวเลขผล The post “ทรัมป์” ส่งสารอวยพรชาวอเมริก…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3b1d5c3b8f8f",
+   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-26T16:30:00Z",
+   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+   "image": "https://images.mktw.net/im-78896707",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "efc74e32bb6f",
+   "title": "BBC ยื่นอุทธรณ์ คัดค้านศาลเดินหน้าคดีทรัมป์ฟ้องเรียกค่าเสียหายกว่า 3 แสนล้านบาท",
+   "link": "https://www.infoquest.co.th/2026/686166",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T16:16:13Z",
+   "summary": "สำนักข่าว BBC ได้ยื่นอุทธรณ์อย่างเร่งด่วนต่อศาลสหรัฐ เพื่อคัดค้านคำตัดสินของศาลที่อนุญาตให้คดีฟ้องร้องเรียกค่าเสียหายมูลค่า 10,000 ล้านดอลลาร์ หรือราว 3.4 แสนล้านบาทของประธานาธิบดีโดนัลด์ ทรัมป์ The post BBC ยื่นอุทธรณ์ คัดค้านศาลเดินหน้าค…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "aed167976779",
+   "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-26T15:30:00Z",
+   "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+   "image": "https://images.mktw.net/im-58425830",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "bd49117bdce7",
+   "title": "รูเปียห์ดิ่งนิวโลว์ กังวล MSCI ขู่หั่นอันดับตลาดหุ้นอินโดนีเซีย",
+   "link": "https://www.infoquest.co.th/2026/686160",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T14:34:52Z",
+   "summary": "ค่าเงินรูเปียห์ของอินโดนีเซียทำสถิติต่ำสุดเป็นประวัติการณ์ที่ 18,400 รูเปียห์ต่อดอลลาร์ในวันนี้ ท่ามกลางปัจจัยกดดันจากดอลลาร์ที่แข็งค่า ความกังวลเกี่ยวกับการที่ตลาดหุ้นอินโดนีเซียอาจถูกปรับลดสถานะของต The post รูเปียห์ดิ่งนิวโลว์ กังวล MSC…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "16076667d9c2",
+   "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
+   "link": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-26T14:00:00Z",
+   "summary": "The ‘Bank of AI’ faces a host of troubles ahead.",
+   "image": "https://images.mktw.net/im-40841215",
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "438eb0460449",
+   "title": "Futures point to Black Friday gains on Wall Street as global markets welcome U.S. resilience",
+   "link": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-26T13:41:00Z",
+   "summary": "A rebound off lows for the S&P 500 on Wednesday calms bourses after the tech washout.",
+   "image": "https://images.mktw.net/im-44727230",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0328020c40c0",
+   "title": "“TDRI-คลัง-พาณิชย์” ตีโจทย์รับมือมรสุมเศรษฐกิจ-แก้เหลื่อมล้ำ “การดี” ชูปฏิรูปการศึกษา",
+   "link": "https://www.prachachat.net/finance/news-2102921",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T12:37:54Z",
+   "summary": "“TDRI-คลัง-พาณิชย์” ตีโจทย์รับมือมรสุมเศรษฐกิจ ภาษีสหรัฐฯ-แก้เหลื่อมล้ำ K-Shaped คุณภาพคน-คว้าโอกาสการลงทุนใหม่ ด้าน “การดี” ชูปฏิรูปการศึกษา ผู้สื่อข่าวรายงานว่า วันนี้ (26 พ.ย.) ภายในงานสัมมนาทิศทางเศรษฐกิจไทยประจำปี 2569 ใน … อ่านข่าวต้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__42147987_0-1.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3022f888ecfd",
+   "title": "“เอกนัฏ” ลงพื้นที่ สั่งชัตดาวน์ ’หอกลั่นบางจาก‘ คุมเข้มคลังน้ำมัน ตรวจสภาพมลพิษ จนกว่าจะปลอดภัย",
+   "link": "https://www.prachachat.net/economic/news-2102916",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T12:33:43Z",
+   "summary": "นายเอกนัฏ พร้อมพันธุ์ รัฐมนตรีว่าการกระทรวงพลังงาน ลงพื้นที่ทันทีเพื่อติดตามสถานการณ์เหตุเพลิงไหม้บริเวณหอกลั่นย่อยของบริษัท บางจาก คอร์ปอเรชั่น จำกัด (มหาชน) ซอยสุขุมวิท 62 และสั่งหยุดเดินเครื่องหอกลั่นที่เกี่ยวข้องทันที เพื่อป้องกันอุบัต…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__60235936-1.jpg",
+   "score": 4,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6aed31652d71",
+   "title": "มองธุรกิจไทยรับมือโจทย์ใหญ่ ผู้ส่งออกฝ่าด่าน CBAM-ภาษีโลก A&M แนะเช็ก 4 จุดเปลี่ยนระบบภาษีในประเทศ",
+   "link": "https://www.prachachat.net/economic/news-2102919",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T12:18:00Z",
+   "summary": "ที่ปรึกษาภาษี ‘อัลวาเรซ แอนด์ มาร์ซาล’ เตือนธุรกิจไทยเตรียมรับมือจุดเปลี่ยนกติกาการค้าและภาษีปี 2570 ทั้งศึก CBAM ของสหภาพยุโรป การยื่นแบบภาษีขั้นต่ำโลก 15% ครั้งแรก และระบบ AI สรรพากรตรวจเข้มข้อมูลดิจิทัล แนะปรับแผนดึงเรื่องภาษีเป็นแกนวาง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/1943.jpg",
+   "score": 5,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f7241cd5783c",
+   "title": "“ทรัมป์-รุตเตอ” เรียกร้องรัสเซียหลีกเลี่ยงขยายสงครามยูเครน",
+   "link": "https://www.infoquest.co.th/2026/686156",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T12:12:07Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ ผู้นำสหรัฐ และนายมาร์ก รุตเตอ เลขาธิการองค์การสนธิสัญญาป้องกันแอตแลนติกเหนือ (นาโต) ออกแถลงการณ์ร่วมกันในวันนี้ โดยเรียกร้องให้รัสเซียหลีกเลี่ยงการดำเนินการใด ๆ The post “ทรัมป์-รุตเตอ” เรียกร้องรัสเซียหลีกเลี่ยง…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "ac944f9e4b13",
+   "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พุ่งเกือบ 400 จุด ซื้อขายผันผวน",
+   "link": "https://www.infoquest.co.th/2026/686154",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T11:35:45Z",
+   "summary": "ดัชนี Sensex ตลาดหุ้นอินเดีย พุ่งขึ้นเกือบ 400 จุดในวันนี้ ท่ามกลางการซื้อขายที่ผันผวน หลังจากดัชนีทะยานกว่า 1,500 จุดวานนี้ ดัชนี S&P BSE Sensex [BSE.X] ปิดตลาดที่ 84,328.59 บวก 390.31 จุด หรือ The post ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex พ…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d4b0b15b5c26",
+   "title": "DPU – Fastwork เปิดมุมมอง AI Agent เชื่อมการเรียนรู้สู่โลกการทำงานจริง",
+   "link": "https://www.prachachat.net/uncategorized/news-2102888",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T11:35:09Z",
+   "summary": "นิเทศศาสตร์ DPU จับมือ Fastwork เสริมศักยภาพนักศึกษา เปิดมุมมอง AI Agent เชื่อมการเรียนรู้สู่โลกการทำงานจริง คณะนิเทศศาสตร์ มหาวิทยาลัยธุรกิจบัณฑิตย์ (DPU) ร่วมกับ Fastwork จัดกิจกรรมบรรยายพิเศษหัวข้อ “ถ้าไม่อยากถูกทดแทนด้วย AI เปิดมุมมอง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/1-3_2.jpg",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c6d38e2b9652",
+   "title": "บจ. mai โชว์กำไร Q3 พุ่ง 117.9% ดัน 9 เดือนโกยเกือย 7 พันล้าน 6 กลุ่มอุตสาหกรรมกำไรฟื้น",
+   "link": "https://www.prachachat.net/finance/news-2102885",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T11:26:44Z",
+   "summary": "เปิดผลงาน บจ. mai ไตรมาส 3/2569 กำไรสุทธิโตก้าวกระโดด 117.9% แตะ 2,510 ล้านบาท หนุนกำไรสะสม 9 เดือนแรกเพิ่มขึ้น 35% พบ 6 จาก 8 กลุ่มอุตสาหกรรมมีกำไรดีขึ้น สวนทางกลุ่มสินค้าอุปโภคบริโภคและอสังหาริมทรัพย์–ก่อสร้าง นายประพันธ์ เจริญประวัติ ผู…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/03/stock-market-4.jpg",
+   "score": 5,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "57cee7edeb26",
+   "title": "3 กูรูส่งสัญญาณเตือนเศรษฐกิจไทยโตต่ำศักยภาพ หนี้ครัวเรือนฉุด-แรงงานหด-เหลื่อมล้ำสูง",
+   "link": "https://www.infoquest.co.th/2026/686135",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T11:23:51Z",
+   "summary": "งานเสวนา “ถอดรหัส เข็มทิศ พลิกข้อเสนอสู่ทางรอด เราจะร่วมกันก้าวไปข้างหน้าอย่างไร” จัดโดยสมาคมเศรษฐศาสตร์ธรรมศาสตร์ ได้เสนอแนวทางแก้ไขปัญหาเชิงโครงสร้างด้านหนี้ครัวเรือนและวิกฤตประชากร TTB The post 3 กูรูส่งสัญญาณเตือนเศรษฐกิจไทยโตต่ำศักยภา…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "economy",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "6552a5447d39",
+   "title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+   "link": "https://www.prachachat.net/finance/news-2102846",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T11:18:01Z",
+   "summary": "ตลาดหลักทรัพย์ฯ เปิดผลงาน บจ. 9 เดือนแรกปี 2569 พบกำไรสุทธิใน SET พุ่ง 29.6% แตะ 1.18 ล้านล้านบาท รับภาคการผลิต การบริโภค และการท่องเที่ยวฟื้นตัว ขณะที่กลุ่มพลังงาน–ปิโตรเคมีรับอานิสงส์ราคาน้ำมันและค่าการกลั่นสูงขึ้น ด้าน บจ. ใน mai กำไรโต…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2024/02/%E0%B8%9B%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-14.jpg",
+   "score": 15,
+   "categories": [
+    "oil_energy",
+    "earnings",
+    "stock_market"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast",
+    "thai-market"
+   ]
+  },
+  {
+   "id": "4643ddbf461b",
+   "title": "เปิดปมโรงงานขยะปราจีนบุรี ใบอนุญาตหมดอายุ พบเปลี่ยนผู้ถือหุ้นหลายครั้ง เร่งสอบนอมินี",
+   "link": "https://www.prachachat.net/economic/news-2102840",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T10:11:39Z",
+   "summary": "กรมพัฒนาธุรกิจการค้าผนึกมหาดไทย-ป.ป.ท.-กระทรวงทรัพยากรฯ ตรวจโรงงานคัดแยกขยะอุตสาหกรรม อ.ศรีมหาโพธิ จ.ปราจีนบุรี พบยังประกอบกิจการหลังใบอนุญาต รง.4 หมดอายุ ขณะที่โครงสร้างผู้ถือหุ้นไทย 51% จีน 49% มีการเปลี่ยนแปลงกรรมการและผู้ถือหุ้นหลายครั…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/151744.jpg",
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f128530be4ab",
+   "title": "พาณิชย์ผนึก 4 ปั๊มน้ำมัน แจกฟรีลำไย 3 แสนถุง เร่งระบายผลผลิต 4 หมื่นตัน",
+   "link": "https://www.prachachat.net/economic/news-2102828",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T10:03:23Z",
+   "summary": "พาณิชย์จับมือ PTT Station-PT Station-บางจาก-ซัสโก้ ดูดซับลำไยกว่า 1 แสนกิโลกรัม แปรรูปแจกฟรี 3 แสนถุง เติมน้ำมัน E20 หรือ B20 ครบ 500 บาท รับฟรีทันที เริ่ม 26-29 พฤศจิกายน 2569 ครอบคลุม 1,550 สาขา ใน 67 จังหวัดทั่วประเทศ พร้อมกางแผนระบายลำ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__258646057.jpg",
+   "score": 4,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "587bb2816f0d",
+   "title": "BKP ผนึก 3 คู่ค้ายกระดับน้ำมันปาล์มไทย รับกติกา EUDR ใช้ดาวเทียมตรวจสอบย้อนกลับ",
+   "link": "https://www.prachachat.net/business/news-2102822",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T09:57:25Z",
+   "summary": "กรุงเทพโปรดิ๊วส (BKP) ในเครือซีพี ผนึก 3 คู่ค้าพัฒนาห่วงโซ่อุปทานน้ำมันปาล์มดิบปลอดการทำลายป่า รับกติกาการค้า EUDR ของสหภาพยุโรป นำเทคโนโลยี GIS และภาพถ่ายดาวเทียมตรวจสอบพิกัดแปลงปลูก เชื่อมโยงข้อมูลตั้งแต่เกษตรกร ลานเท ถึงโรงงานสกัด สร้าง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/564799_0.jpg",
+   "score": 5,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b187265d1fb0",
+   "title": "ดร.พิพัฒน์ ประเมินภาษีทรัมป์รอบใหม่ 18% ผลกระทบส่งออกจำกัด จับตาจีน",
+   "link": "https://www.prachachat.net/finance/news-2102799",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T09:44:44Z",
+   "summary": "ดร.พิพัฒน์ ประเมินสหรัฐเสนอขึ้นภาษีมาตรา 301 ไทย 18% สินค้าส่งออกไทยไปสหรัฐกว่าครึ่งยังอยู่ในรายการยกเว้น คาดผลกระทบเศรษฐกิจจำกัดกว่าที่กังวล ย้ำต้องเจรจาขยายรายการสินค้ายกเว้น จับตาอัตราภาษีรวมของจีน หากส่วนต่างภาษีไทยกับจีนแคบลง อาจกระทบ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/11/%E0%B8%94%E0%B8%A3.%E0%B8%9E%E0%B8%B4%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B9%8C-%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%A4%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%8A%E0%B8%B1%E0%B8%A2.jpg",
+   "score": 8,
+   "categories": [
+    "economy",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "trade-war"
+   ]
+  },
   {
    "id": "e19a468ba1ec",
    "title": "BCP ร่วงหนัก! ระหว่างวันดิ่งกว่า 7% จับตารายงานไฟไหม้โรงกลั่นน้ำมันย่านสุขุมวิท",
@@ -650,27 +1070,6 @@
    ]
   },
   {
-   "id": "aed167976779",
-   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
-   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-26T01:15:00Z",
-   "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
-   "image": "https://images.mktw.net/im-58425830",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
-  },
-  {
    "id": "c07aafd4029b",
    "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์อ่อนค่าต่อเนื่อง หลังกระแสลงทุนหุ้น AI แผ่ว",
    "link": "https://www.infoquest.co.th/2026/685534",
@@ -798,27 +1197,6 @@
     "rate_hike"
    ],
    "stories": []
-  },
-  {
-   "id": "3b1d5c3b8f8f",
-   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-25T22:45:00Z",
-   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
-   "image": "https://images.mktw.net/im-78896707",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
   },
   {
    "id": "f98e8200ec5b",
