@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-26T00:15:28Z",
+  "generated_at": "2026-11-26T09:28:11Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 483
+  "total_kept": 499
  },
  "signals": [
   {
@@ -127,6 +127,41 @@
    ]
   },
   {
+   "id": "baht_weak",
+   "name": "บาทอ่อน",
+   "count": 1,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "ผู้ส่งออก",
+     "set": [
+      "CPF",
+      "TU",
+      "DELTA"
+     ],
+     "us": [],
+     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้มากขึ้น"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+     "set": [
+      "AAV"
+     ],
+     "us": [],
+     "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้",
+     "link": "https://www.prachachat.net/finance/news-2102589",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-26T06:00:12Z"
+    }
+   ]
+  },
+  {
    "id": "oil_down",
    "name": "น้ำมันลง",
    "count": 1,
@@ -215,36 +250,44 @@
  ],
  "stories": [
   {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 55,
+   "new_24h": 5,
+   "latest": "2026-11-26T09:05:22Z",
+   "latest_title": "WHA ชี้ภาษีสหรัฐ 18% ไทยยังได้เปรียบคู่แข่งหลายประเทศโดนด้วย ชี้ลงทุนต่อ Data Center ไม่สะดุด"
+  },
+  {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 23,
-   "new_24h": 6,
+   "new_24h": 5,
    "latest": "2026-11-25T14:49:36Z",
    "latest_title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%"
   },
   {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 54,
-   "new_24h": 5,
-   "latest": "2026-11-25T22:45:00Z",
-   "latest_title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?"
-  },
-  {
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
-   "count": 24,
-   "new_24h": 4,
-   "latest": "2026-11-25T11:47:30Z",
-   "latest_title": "หุ้นไทยวันนี้ร่วง 23 จุดผวาสงครามการค้าสถาบัน–ต่างชาติเทขาย"
+   "count": 25,
+   "new_24h": 2,
+   "latest": "2026-11-26T08:32:14Z",
+   "latest_title": "KKP มองหุ้นไทยไซด์เวย์ส่งท้ายปี ชูหุ้นแบงก์ปันผลสูง–Defensive"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 31,
-   "new_24h": 3,
-   "latest": "2026-11-26T00:01:43Z",
-   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดบวก $1.63 หลังกลุ่มฮูตีถล่มโรงกลั่นน้ำมันซาอุฯ"
+   "id": "bot",
+   "name": "แบงก์ชาติและดอกเบี้ยไทย",
+   "count": 24,
+   "new_24h": 2,
+   "latest": "2026-11-26T08:08:44Z",
+   "latest_title": "แบงก์ชาติ เร่ง 3 มาตรการหนุน SME ปี’70 ดันสินเชื่อเติบโต"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 17,
+   "new_24h": 2,
+   "latest": "2026-11-26T06:00:12Z",
+   "latest_title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้"
   },
   {
    "id": "gold",
@@ -255,14 +298,6 @@
    "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 16,
-   "new_24h": 2,
-   "latest": "2026-11-25T11:03:09Z",
-   "latest_title": "ภาวะตลาดเงินบาท: ปิด 34.12 อ่อนค่าต่อเนื่อง จากแรงขายสินทรัพย์เสี่ยง-ทองโลกร่วง"
-  },
-  {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
    "count": 28,
@@ -271,20 +306,20 @@
    "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 31,
+   "new_24h": 1,
+   "latest": "2026-11-26T00:01:43Z",
+   "latest_title": "ภาวะตลาดน้ำมัน: น้ำมัน WTI ปิดบวก $1.63 หลังกลุ่มฮูตีถล่มโรงกลั่นน้ำมันซาอุฯ"
+  },
+  {
    "id": "thai-economy",
    "name": "เศรษฐกิจไทย",
    "count": 20,
    "new_24h": 1,
    "latest": "2026-11-25T11:00:16Z",
    "latest_title": "BBL จับตา 2-3 ปีจุดเปลี่ยนเศรษฐกิจไทย แนะโจทย์ใหญ่รัฐเร่งปลดล็อกข้อจำกัดหนุนโตเต็มศักยภาพ ลุ้นภาษีสหรัฐฯรอบใหม่"
-  },
-  {
-   "id": "bot",
-   "name": "แบงก์ชาติและดอกเบี้ยไทย",
-   "count": 22,
-   "new_24h": 0,
-   "latest": "2026-11-24T10:07:34Z",
-   "latest_title": "เคลียร์แล้ว ! ผู้ว่าฯ ธปท. คุยประธานบอร์ด นานกว่า 1 ชม. ยัน ‘ทุกอย่าง OK’"
   },
   {
    "id": "thai-us-china",
@@ -296,6 +331,345 @@
   }
  ],
  "items": [
+  {
+   "id": "e19a468ba1ec",
+   "title": "BCP ร่วงหนัก! ระหว่างวันดิ่งกว่า 7% จับตารายงานไฟไหม้โรงกลั่นน้ำมันย่านสุขุมวิท",
+   "link": "https://www.prachachat.net/economic/news-2102780",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T09:23:15Z",
+   "summary": "BCP ร่วงหนัก! ระหว่างวันดิ่งกว่า 7% จับตารายงานไฟไหม้โรงกลั่นน้ำมันย่านสุขุมวิท ผู้สื่อข่าวรายงานว่า ความเคลื่อนไหวราคาหุ้น บริษัท บางจาก คอร์ปอเรชั่น จำกัด (มหาชน) หรือ BCP วันนี้ (26 พ.ย. 2569) ณ เวลา 16.04 น. อยู่ที่ระดับ 39.30 บาท ลดลง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/12/BCP.jpg",
+   "score": 5,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "eabb9bb97a05",
+   "title": "ฝ่ามรสุมเศรษฐกิจโลก! แนะไทยเร่งยกระดับเครื่องยนต์เศรษฐกิจ-ปรับเกมลงทุน-การค้า",
+   "link": "https://www.infoquest.co.th/2026/685888",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T09:16:16Z",
+   "summary": "นายสันติธาร เสถียรไทย ผู้ช่วยรัฐมนตรีประจำกระทรวงการคลัง กล่าวเสวนาในหัวข้อ “ผ่ากลยุทธ์รับมือมรสุมเศรษฐกิจ” ภายในงานสัมมนาทิศทางเศรษฐกิจไทย ประจำปี 2569 ของสมาคมเศรษฐศาสตร์ธรรมศาสตร์ The post ฝ่ามรสุมเศรษฐกิจโลก! แนะไทยเร่งยกระดับเครื่องยน…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "economy",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "824e5c00e849",
+   "title": "“เอกนิติ” ปั้นลงทุนใหม่ขับเคลื่อนเศรษฐกิจ ดันไทยเข้าซัพพลายเชน AI-EV ก้าวสู่ Next Take-off",
+   "link": "https://www.infoquest.co.th/2026/686003",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T09:13:52Z",
+   "summary": "นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรี และ รมว.คลัง กล่าวปาฐกถา หัวข้อ “พลวัตเศรษฐกิจไทยในอนาคต : เปลี่ยนผ่าน ท้าทาย ทางแพร่ง” ในงานสัมมนาทิศทางเศรษฐกิจไทย ประจำปี 2569 The post “เอกนิติ” ปั้นลงทุนใหม่ขับเคลื่อนเศรษฐกิจ ดันไทยเข้าซัพพล…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "economy",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0e49cb41d991",
+   "title": "WHA ชี้ภาษีสหรัฐ 18% ไทยยังได้เปรียบคู่แข่งหลายประเทศโดนด้วย ชี้ลงทุนต่อ Data Center ไม่สะดุด",
+   "link": "https://www.prachachat.net/economic/news-2102768",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T09:05:22Z",
+   "summary": "“จรีพร” CEO WHA ชี้ภาษีสหรัฐ 18% ยังไม่กระทบความสามารถแข่งขัน เหตุจีน-เวียดนามโดนด้วย นักลงทุนต่างชาติยังเดินหน้าปักฐานผลิตในไทย จับตา Data Center ลงทุนต่อเนื่องเร่งรัฐเคาะเกณฑ์ BOI-OSS หวั่นไทยเสียโอกาสให้คู่แข่ง พร้อมจี้ปราบนอมินี ดัน Lo…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-191.jpg",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "2525c95d9b42",
+   "title": "ภาวะตลาดหุ้นฮ่องกง: ฮั่งเส็งปิดบวก 260.87 จุด รับแรงซื้อหุ้นเทคฯ",
+   "link": "https://www.infoquest.co.th/2026/686006",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T09:02:51Z",
+   "summary": "ดัชนีฮั่งเส็งตลาดหุ้นฮ่องกงปิดบวกในวันนี้ (26 พ.ย.) หลังจากปรับตัวลดลงหลายวันก่อนหน้านี้ โดยได้แรงหนุนจากการฟื้นตัวของตลาดหุ้นทั่วโลก รวมทั้งแรงซื้อที่ส่งเข้าหนุนหุ้นกลุ่มเทคโนโลยี ดัชนีฮั่งเส็ง The post ภาวะตลาดหุ้นฮ่องกง: ฮั่งเส็งปิดบวก…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e8db1f371a42",
+   "title": "สิงคโปร์ไม่เห็นด้วยรายงานการค้าสหรัฐฯ ผิดหวังติดกลุ่มปท.ถูกเสนอเก็บภาษี",
+   "link": "https://www.infoquest.co.th/2026/685881",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T08:55:39Z",
+   "summary": "กระทรวงพลังงาน การค้า และอุตสาหกรรมของสิงคโปร์ (METI) ออกแถลงการณ์ระบุว่า สิงคโปร์ “ไม่เห็นด้วย” กับผลการสอบสวนของสำนักงานผู้แทนการค้าสหรัฐฯ (USTR) และรู้สึกผิดหวังอย่างยิ่งต่อการที่สหรัฐฯ The post สิงคโปร์ไม่เห็นด้วยรายงานการค้าสหรัฐฯ ผิด…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c7822e3765ad",
+   "title": "สหรัฐฯ ไฟเขียว SpaceX ส่งดาวเทียม 1 ล้านดวง ตั้งศูนย์ข้อมูล AI ในอวกาศ",
+   "link": "https://www.infoquest.co.th/2026/685866",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T08:49:17Z",
+   "summary": "รัฐบาลสหรัฐอเมริกาอนุมัติเมื่อวันพุธ (25 พ.ย.) ให้บริษัท สเปซเอ็กซ์ (SpaceX) สามารถส่งดาวเทียมขึ้นสู่วงโคจรได้มากถึง 1 ล้านดวง เพื่อจัดตั้งศูนย์ข้อมูลปัญญาประดิษฐ์ (AI Data Center) ในอวกาศ The post สหรัฐฯ ไฟเขียว SpaceX ส่งดาวเทียม 1 ล้านด…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "fdc46275a868",
+   "title": "ดัชนี SET ภาคบ่ายร่วง 10 จุด รับแรงขายหุ้นใหญ่กังวลปัจจัยทั้งใน-ตปท.",
+   "link": "https://www.infoquest.co.th/2026/685981",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T08:41:58Z",
+   "summary": "ตลาดหุ้นไทยภาคบ่ายพลิกมาร่วงกว่า 10 จุด รับแรงขายหุ้นใหญ่จากความกังวลปัจจัยทั้งในประเทศและต่างประเทศ โดยเฉพาะข่าว Nvidia จะระงับการส่งเซิร์ฟเวอร์ AI ให้กับประเทศในอาเซียน รวมถึงไทย The post ดัชนี SET ภาคบ่ายร่วง 10 จุด รับแรงขายหุ้นใหญ่กัง…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "684ba4851c14",
+   "title": "KKP มองหุ้นไทยไซด์เวย์ส่งท้ายปี ชูหุ้นแบงก์ปันผลสูง–Defensive",
+   "link": "https://www.prachachat.net/finance/news-2102753",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T08:32:14Z",
+   "summary": "KKP คาดหุ้นไทยเดือน ธ.ค. 2569 แกว่งไซด์เวย์ ต่างชาติบางส่วนอาจล็อกกำไรส่งท้ายปี หลังราคาหุ้นปรับขึ้นนำกำไร บจ. แนะเลือกลงทุนรายตัว ชูหุ้นแบงก์ปันผลสูง พร้อม BDMS-TU-ITC จับตาการเติบโตของกำไร บจ. เป็นกุญแจสำคัญหนุนตลาดหุ้นไทยไปต่อ นางสาวสรั…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Untitled-Design-2026-11-26T153047.916.jpg",
+   "score": 7,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "5a028f4d3d9f",
+   "title": "จีนยินดี หลัง EU ถอดชื่อบริษัทจีนพ้นบัญชีคุมส่งออกโยงรัสเซีย หวังปลดล็อกเพิ่ม",
+   "link": "https://www.infoquest.co.th/2026/685893",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T08:30:25Z",
+   "summary": "จีนแสดงความยินดีต่อการตัดสินใจของสหภาพยุโรป (EU) ที่ถอดชื่อบริษัทจีนแห่งหนึ่งออกจากบัญชีควบคุมการส่งออกที่เกี่ยวข้องกับรัสเซีย โดยหวังว่า EU จะพิจารณาถอดชื่อบริษัทจีนรายอื่นออกจากบัญชีดังกล่าวเพิ่มเติ The post จีนยินดี หลัง EU ถอดชื่อบริษั…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "4ff649462dac",
+   "title": "เอกนิติ จับมือเอกชน ใช้การลงทุนเป็นเข็มทิศ กู้เศรษฐกิจโตต่ำ",
+   "link": "https://www.prachachat.net/finance/news-2102751",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T08:22:08Z",
+   "summary": "เอกนิติ จับมือเอกชน ใช้การลงทุนเป็นเข็มทิศ กู้เศรษฐกิจโตต่ำ หวังทำ Second Take-Off ดึง SMEs เข้าซัพพลายเชน-เพิ่มทักษะแรงงาน ดร.เอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง กล่าวปาฐกถาหัวข้อพลวัตเศรษฐกิจไทยในอนาคต:…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/09/Cover-28.jpg",
+   "score": 5,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "1e42aa8cb20a",
+   "title": "แบงก์ชาติ เร่ง 3 มาตรการหนุน SME ปี’70 ดันสินเชื่อเติบโต",
+   "link": "https://www.prachachat.net/finance/news-2102738",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T08:08:44Z",
+   "summary": "แบงก์ชาติ เร่งขับเคลื่อน 3 กลไกฟื้นสินเชื่อ SME หลังสินเชื่อติดลบต่อเนื่อง 17 ไตรมาส หนี้เสียพุ่ง 9.3% ทั้ง SMEs Credit Boost ตั้งเป้าค้ำประกันสินเชื่อปีละ 1 แสนล้านบาท พร้อมเปิด SME Credit Portal เดือน ม.ค. 2570 และเชื่อมข้อมูลทางเลือก (A…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/04/sme10.jpg",
+   "score": 6,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": [
+    "bot"
+   ]
+  },
+  {
+   "id": "32b53fdfdec0",
+   "title": "Is the stock market open for Thanksgiving? The answer might surprise you.",
+   "link": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-26T07:16:00Z",
+   "summary": "The answer to the question of whether the stock market is open on Thanksgiving isn’t a simple yes or no, as the major exchanges are closed, but trading of equity futures is open for part of the day.",
+   "image": "https://images.mktw.net/im-62800122",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "72b26625c5c0",
+   "title": "ธอส.เปิดปมสินเชื่อที่อยู่อาศัย ประกาศปรับ DNA-โปรดักต์ หนุน ‘คนมีบ้าน’",
+   "link": "https://www.prachachat.net/finance/news-2101383",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T06:45:55Z",
+   "summary": "ธนาคารอาคารสงเคราะห์ (ธอส.) โชว์ผลการดำเนินงานล่าสุด (ณ 18 พ.ย.) ปล่อยสินเชื่อใหม่ได้ 219,855 ล้านบาท เพิ่มขึ้นกว่า 9% เมื่อเทียบกับช่วงเดียวกันปีก่อน คิดเป็น 89% ของเป้าหมาย ซึ่งฝ่ายบริหารคาดว่าจะสามารถดำเนินงานได้ตามเป้าหมายที่กำหนดไว้ที…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/GHB.jpg",
+   "score": 5,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3b52b39bf351",
+   "title": "LivingInsider เปิดอินไซต์ 3.48 แสน อสังหาฯ ปี 2026 ชี้ดีมานด์ซื้อ-เช่าเปลี่ยน จับตาทำเล CBD นิยามใหม่",
+   "link": "https://www.prachachat.net/real-estate/news-2102607",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T06:33:19Z",
+   "summary": "LivingInsider เปิดข้อมูลตลาดอสังหาริมทรัพย์ปี 2026 บนเวที LivingInsider NEXT 9.0 เผยพฤติกรรมผู้บริโภค โดยคอนโดมิเนียมมีสัดส่วนความสนใจฝั่งเช่า 54% ขณะที่บ้านแนวราบมีสัดส่วนความสนใจฝั่งซื้อ 70% จับตาทำเลศักยภาพใจกลางเมือง ทั้งพร้อมพงษ์-หลัง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__77676595_0.jpg",
+   "score": 4,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f752b763a014",
+   "title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้",
+   "link": "https://www.prachachat.net/finance/news-2102589",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-26T06:00:12Z",
+   "summary": "แบงก์ชาติ ชี้แจงค่าเงินบาท 34 บาทอยู่ในระดับที่บริหารจัดการได้ เป็นผลดีต่อการส่งออก ติดตามดูแลใกล้ชิด นายวิทัย รัตนากร ผู้ว่าธนาคารแห่งประเทศไทย เปิดเผยถึง สถานการณ์ค่าเงินบาทในปัจจุบันที่อ่อนค่าลงว่า ค่าเงินบาทของไทยในปัจจุบันอ่อนค่าลงมาอ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/withai.jpg",
+   "score": 11,
+   "categories": [
+    "fx"
+   ],
+   "signals": [
+    "baht_weak"
+   ],
+   "stories": [
+    "bot",
+    "baht"
+   ]
+  },
+  {
+   "id": "aed167976779",
+   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
+   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-26T01:15:00Z",
+   "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+   "image": "https://images.mktw.net/im-58425830",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
   {
    "id": "c07aafd4029b",
    "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์อ่อนค่าต่อเนื่อง หลังกระแสลงทุนหุ้น AI แผ่ว",
@@ -437,27 +811,6 @@
    "published": "2026-11-25T22:45:00Z",
    "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
    "image": "https://images.mktw.net/im-78896707",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
-  },
-  {
-   "id": "aed167976779",
-   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
-   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-25T22:31:00Z",
-   "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
-   "image": "https://images.mktw.net/im-58425830",
    "score": 3,
    "categories": [
     "tech_ai"

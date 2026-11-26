@@ -87,6 +87,19 @@
   "x1": -1.96,
   "base_date": "2026-11-20"
  },
+ "baht_weak|AAV|2026-11-26": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้",
+  "news_link": "https://www.prachachat.net/finance/news-2102589",
+  "r1": 0.0,
+  "x1": 0.82,
+  "base_date": "2026-11-25"
+ },
  "baht_weak|CPF|2026-11-19": {
   "signal": "baht_weak",
   "signal_name": "บาทอ่อน",
@@ -114,6 +127,19 @@
   "r1": -1.03,
   "x1": -1.54,
   "base_date": "2026-11-20"
+ },
+ "baht_weak|CPF|2026-11-26": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้",
+  "news_link": "https://www.prachachat.net/finance/news-2102589",
+  "r1": -0.78,
+  "x1": 0.04,
+  "base_date": "2026-11-25"
  },
  "baht_weak|DELTA|2026-11-19": {
   "signal": "baht_weak",
@@ -143,6 +169,19 @@
   "x1": 0.93,
   "base_date": "2026-11-20"
  },
+ "baht_weak|DELTA|2026-11-26": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้",
+  "news_link": "https://www.prachachat.net/finance/news-2102589",
+  "r1": 0.88,
+  "x1": 1.7,
+  "base_date": "2026-11-25"
+ },
  "baht_weak|TU|2026-11-19": {
   "signal": "baht_weak",
   "signal_name": "บาทอ่อน",
@@ -170,6 +209,19 @@
   "r1": 0.39,
   "x1": -0.12,
   "base_date": "2026-11-20"
+ },
+ "baht_weak|TU|2026-11-26": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้",
+  "news_link": "https://www.prachachat.net/finance/news-2102589",
+  "r1": -1.53,
+  "x1": -0.71,
+  "base_date": "2026-11-25"
  },
  "gold_up|AURA|2025-05-07": {
   "signal": "gold_up",
@@ -8015,7 +8067,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": -4.17,
   "x1": -2.67,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": -5.56,
+  "x5": -1.97
  },
  "oil_down|AAV|2026-11-24": {
   "signal": "oil_down",
@@ -10217,7 +10271,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": -3.65,
   "x1": -2.16,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": -9.82,
+  "x5": -6.23
  },
  "oil_down|BCP|2026-11-24": {
   "signal": "oil_down",
@@ -19025,7 +19081,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": 0.35,
   "x1": 1.84,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": -1.05,
+  "x5": 2.54
  },
  "oil_down|PTTEP|2026-11-24": {
   "signal": "oil_down",
@@ -21227,7 +21285,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": 0.0,
   "x1": 1.5,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": -0.53,
+  "x5": 3.05
  },
  "oil_down|PTT|2026-11-24": {
   "signal": "oil_down",
@@ -23429,7 +23489,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": -2.61,
   "x1": -1.11,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": -4.35,
+  "x5": -0.76
  },
  "oil_down|TOP|2026-11-24": {
   "signal": "oil_down",
@@ -76772,6 +76834,17 @@
   "r1": -2.21,
   "x1": 0.6
  },
+ "rate_hike|BAC|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "base_date": "2026-11-25"
+ },
  "rate_hike|BBL|2025-08-02": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -78106,7 +78179,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -0.55,
-  "x1": 0.95
+  "x1": 0.95,
+  "r5": -2.47,
+  "x5": 1.12
  },
  "rate_hike|BBL|2026-11-21": {
   "signal": "rate_hike",
@@ -78172,6 +78247,19 @@
   "r1": -0.55,
   "x1": -0.15,
   "base_date": "2026-11-24"
+ },
+ "rate_hike|BBL|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "r1": -0.28,
+  "x1": 0.54,
+  "base_date": "2026-11-25"
  },
  "rate_hike|CPN|2025-08-02": {
   "signal": "rate_hike",
@@ -79507,7 +79595,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -0.39,
-  "x1": 1.11
+  "x1": 1.11,
+  "r5": -1.94,
+  "x5": 1.65
  },
  "rate_hike|CPN|2026-11-21": {
   "signal": "rate_hike",
@@ -79573,6 +79663,19 @@
   "r1": 0.0,
   "x1": 0.4,
   "base_date": "2026-11-24"
+ },
+ "rate_hike|CPN|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "r1": -0.78,
+  "x1": 0.04,
+  "base_date": "2026-11-25"
  },
  "rate_hike|DELTA|2025-08-02": {
   "signal": "rate_hike",
@@ -80908,7 +81011,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -3.88,
-  "x1": -2.38
+  "x1": -2.38,
+  "r5": -4.71,
+  "x5": -1.12
  },
  "rate_hike|DELTA|2026-11-21": {
   "signal": "rate_hike",
@@ -80974,6 +81079,19 @@
   "r1": -1.69,
   "x1": -1.29,
   "base_date": "2026-11-24"
+ },
+ "rate_hike|DELTA|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "r1": 0.88,
+  "x1": 1.7,
+  "base_date": "2026-11-25"
  },
  "rate_hike|JPM|2025-08-02": {
   "signal": "rate_hike",
@@ -82376,6 +82494,17 @@
   "r1": -2.02,
   "x1": 0.8
  },
+ "rate_hike|JPM|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "base_date": "2026-11-25"
+ },
  "rate_hike|KBANK|2025-08-02": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -83710,7 +83839,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -0.4,
-  "x1": 1.1
+  "x1": 1.1,
+  "r5": -2.4,
+  "x5": 1.19
  },
  "rate_hike|KBANK|2026-11-21": {
   "signal": "rate_hike",
@@ -83776,6 +83907,19 @@
   "r1": -0.4,
   "x1": 0.01,
   "base_date": "2026-11-24"
+ },
+ "rate_hike|KBANK|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "r1": -1.21,
+  "x1": -0.39,
+  "base_date": "2026-11-25"
  },
  "rate_hike|LH|2025-08-02": {
   "signal": "rate_hike",
@@ -85111,7 +85255,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -1.12,
-  "x1": 0.37
+  "x1": 0.37,
+  "r5": -4.49,
+  "x5": -0.91
  },
  "rate_hike|LH|2026-11-21": {
   "signal": "rate_hike",
@@ -85177,6 +85323,19 @@
   "r1": -1.12,
   "x1": -0.72,
   "base_date": "2026-11-24"
+ },
+ "rate_hike|LH|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "r1": -3.41,
+  "x1": -2.59,
+  "base_date": "2026-11-25"
  },
  "rate_hike|MSFT|2025-08-02": {
   "signal": "rate_hike",
@@ -86579,6 +86738,17 @@
   "r1": -3.37,
   "x1": -0.56
  },
+ "rate_hike|MSFT|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "base_date": "2026-11-25"
+ },
  "rate_hike|NVDA|2025-08-02": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -87980,6 +88150,17 @@
   "r1": -8.48,
   "x1": -5.67
  },
+ "rate_hike|NVDA|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "base_date": "2026-11-25"
+ },
  "rate_hike|SCB|2025-08-02": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -89314,7 +89495,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": 0.0,
-  "x1": 1.5
+  "x1": 1.5,
+  "r5": -0.66,
+  "x5": 2.93
  },
  "rate_hike|SCB|2026-11-21": {
   "signal": "rate_hike",
@@ -89380,6 +89563,19 @@
   "r1": -0.65,
   "x1": -0.24,
   "base_date": "2026-11-24"
+ },
+ "rate_hike|SCB|2026-11-26": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-26",
+  "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
+  "news_link": "https://www.infoquest.co.th/2026/685577",
+  "r1": -0.33,
+  "x1": 0.49,
+  "base_date": "2026-11-25"
  },
  "tariff|AAPL|2025-03-11": {
   "signal": "tariff",
@@ -101166,7 +101362,9 @@
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
   "base_date": "2026-11-19",
   "r1": -0.77,
-  "x1": 0.73
+  "x1": 0.73,
+  "r5": -2.3,
+  "x5": 1.29
  },
  "tariff|CPF|2026-11-21": {
   "signal": "tariff",
@@ -107072,7 +107270,9 @@
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
   "base_date": "2026-11-19",
   "r1": -3.88,
-  "x1": -2.38
+  "x1": -2.38,
+  "r5": -4.71,
+  "x5": -1.12
  },
  "tariff|DELTA|2026-11-21": {
   "signal": "tariff",
@@ -112978,7 +113178,9 @@
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
   "base_date": "2026-11-19",
   "r1": -7.43,
-  "x1": -5.94
+  "x1": -5.94,
+  "r5": -6.58,
+  "x5": -2.99
  },
  "tariff|HANA|2026-11-21": {
   "signal": "tariff",
@@ -118884,7 +119086,9 @@
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
   "base_date": "2026-11-19",
   "r1": -10.62,
-  "x1": -9.12
+  "x1": -9.12,
+  "r5": -7.52,
+  "x5": -3.93
  },
  "tariff|KCE|2026-11-21": {
   "signal": "tariff",
@@ -130697,7 +130901,9 @@
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
   "base_date": "2026-11-19",
   "r1": -1.15,
-  "x1": 0.34
+  "x1": 0.34,
+  "r5": -1.15,
+  "x5": 2.44
  },
  "tariff|TU|2026-11-21": {
   "signal": "tariff",
