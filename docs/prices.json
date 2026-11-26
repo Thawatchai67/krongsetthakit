@@ -1,37 +1,37 @@
 {
- "generated_at": "2026-11-26T09:28:38Z",
+ "generated_at": "2026-11-26T13:23:26Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
   "PTT": {
-   "price": 37.2,
-   "change_pct": 0.54,
+   "price": 37.0,
+   "change_pct": 0.0,
    "currency": "THB",
-   "asof": "2026-11-26T08:57:53Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "PTT.BK"
   },
   "PTTEP": {
-   "price": 142.0,
-   "change_pct": 1.43,
+   "price": 141.5,
+   "change_pct": 1.07,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:14Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "PTTEP.BK"
   },
   "TOP": {
-   "price": 55.0,
-   "change_pct": 2.8,
+   "price": 54.25,
+   "change_pct": 1.4,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:12Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "TOP.BK"
   },
   "BCP": {
-   "price": 39.5,
-   "change_pct": -4.13,
+   "price": 39.1,
+   "change_pct": -5.1,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:19Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "BCP.BK"
   },
@@ -60,10 +60,10 @@
    "symbol": "COP"
   },
   "AAV": {
-   "price": 0.68,
-   "change_pct": -0.0,
+   "price": 0.67,
+   "change_pct": -1.47,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:17Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "AAV.BK"
   },
@@ -87,7 +87,7 @@
    "price": 3.4,
    "change_pct": -3.41,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:22Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "LH.BK"
   },
@@ -95,15 +95,15 @@
    "price": 63.25,
    "change_pct": -0.78,
    "currency": "THB",
-   "asof": "2026-11-26T08:57:25Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "CPN.BK"
   },
   "DELTA": {
-   "price": 172.0,
-   "change_pct": 0.88,
+   "price": 169.0,
+   "change_pct": -0.88,
    "currency": "THB",
-   "asof": "2026-11-26T08:57:28Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "DELTA.BK"
   },
@@ -124,10 +124,10 @@
    "symbol": "MSFT"
   },
   "KBANK": {
-   "price": 244.0,
-   "change_pct": -1.21,
+   "price": 243.0,
+   "change_pct": -1.62,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:23Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "KBANK.BK"
   },
@@ -135,7 +135,7 @@
    "price": 151.5,
    "change_pct": -0.33,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:25Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "SCB.BK"
   },
@@ -143,7 +143,7 @@
    "price": 177.5,
    "change_pct": -0.28,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:14Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "BBL.BK"
   },
@@ -164,10 +164,10 @@
    "symbol": "BAC"
   },
   "AURA": {
-   "price": 12.95,
-   "change_pct": -0.38,
+   "price": 13.0,
+   "change_pct": 0.0,
    "currency": "THB",
-   "asof": "2026-11-26T08:57:34Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "AURA.BK"
   },
@@ -191,7 +191,7 @@
    "price": 19.1,
    "change_pct": -0.78,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:18Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "CPF.BK"
   },
@@ -199,23 +199,23 @@
    "price": 12.85,
    "change_pct": -1.53,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:10Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "TU.BK"
   },
   "HANA": {
-   "price": 44.0,
-   "change_pct": 0.0,
+   "price": 43.6,
+   "change_pct": -0.91,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:25Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "HANA.BK"
   },
   "KCE": {
-   "price": 52.25,
-   "change_pct": -0.48,
+   "price": 51.75,
+   "change_pct": -1.43,
    "currency": "THB",
-   "asof": "2026-11-26T08:58:19Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "KCE.BK"
   },
@@ -244,10 +244,10 @@
    "symbol": "AMD"
   },
   "^SET": {
-   "price": 9.67,
-   "change_pct": -2.13,
+   "price": 9.66,
+   "change_pct": -0.92,
    "currency": "THB",
-   "asof": "2026-11-26T08:57:28Z",
+   "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
    "symbol": "TDEX.BK"
   },
@@ -262,10 +262,10 @@
  },
  "market": [
   {
-   "price": 1416.88,
-   "change_pct": -0.81,
+   "price": 1414.44,
+   "change_pct": -0.98,
    "currency": "THB",
-   "asof": "2026-11-26T09:13:30Z",
+   "asof": "2026-11-26T09:48:14Z",
    "key": "SET",
    "name": "SET"
   },
@@ -289,23 +289,23 @@
    "price": 34.03,
    "change_pct": 0.37,
    "currency": "THB",
-   "asof": "2026-11-26T09:28:30Z",
+   "asof": "2026-11-26T13:23:18Z",
    "key": "USDTHB",
    "name": "ดอลลาร์/บาท"
   },
   {
-   "price": 3599.0,
-   "change_pct": 1.79,
+   "price": 3592.7,
+   "change_pct": 1.61,
    "currency": "USD",
-   "asof": "2026-11-26T09:18:18Z",
+   "asof": "2026-11-26T13:13:11Z",
    "key": "GOLD",
    "name": "ทองคำ"
   },
   {
-   "price": 83.31,
-   "change_pct": -0.44,
+   "price": 84.57,
+   "change_pct": 1.06,
    "currency": "USD",
-   "asof": "2026-11-26T09:18:34Z",
+   "asof": "2026-11-26T13:13:22Z",
    "key": "OIL",
    "name": "น้ำมัน WTI"
   },
@@ -318,10 +318,10 @@
    "name": "บอนด์สหรัฐ 10 ปี"
   },
   {
-   "price": 26.96,
-   "change_pct": -4.7,
+   "price": 26.95,
+   "change_pct": -4.74,
    "currency": "USD",
-   "asof": "2026-11-26T09:13:31Z",
+   "asof": "2026-11-26T13:08:16Z",
    "key": "VIX",
    "name": "VIX ดัชนีความกลัว"
   }
