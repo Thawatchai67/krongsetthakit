@@ -3643,6 +3643,17 @@
   "x20": -1.73,
   "base_date": "2026-09-04"
  },
+ "gold_up|AURA|2026-11-27": {
+  "signal": "gold_up",
+  "signal_name": "ทองคำขึ้น",
+  "ticker": "AURA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
+  "news_link": "https://www.infoquest.co.th/2026/686282",
+  "base_date": "2026-11-26"
+ },
  "gold_up|GLD|2023-10-02": {
   "signal": "gold_up",
   "signal_name": "ทองคำขึ้น",
@@ -7063,6 +7074,17 @@
   "x20": -7.41,
   "base_date": "2026-09-04"
  },
+ "gold_up|GLD|2026-11-27": {
+  "signal": "gold_up",
+  "signal_name": "ทองคำขึ้น",
+  "ticker": "GLD",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
+  "news_link": "https://www.infoquest.co.th/2026/686282",
+  "base_date": "2026-11-25"
+ },
  "gold_up|NEM|2023-10-02": {
   "signal": "gold_up",
   "signal_name": "ทองคำขึ้น",
@@ -10482,6 +10504,17 @@
   "r20": -9.58,
   "x20": -10.3,
   "base_date": "2026-09-04"
+ },
+ "gold_up|NEM|2026-11-27": {
+  "signal": "gold_up",
+  "signal_name": "ทองคำขึ้น",
+  "ticker": "NEM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
+  "news_link": "https://www.infoquest.co.th/2026/686282",
+  "base_date": "2026-11-25"
  },
  "oil_down|AAV|2023-09-21": {
   "signal": "oil_down",
@@ -56450,6 +56483,17 @@
   "x1": -0.55,
   "base_date": "2026-11-25"
  },
+ "oil_up|AAV|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
+  "base_date": "2026-11-26"
+ },
  "oil_up|BCP|2023-09-15": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -61307,6 +61351,17 @@
   "x1": -4.17,
   "base_date": "2026-11-25"
  },
+ "oil_up|BCP|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
+  "base_date": "2026-11-26"
+ },
  "oil_up|COP|2023-09-15": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -66160,6 +66215,17 @@
   "date": "2026-11-26",
   "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
   "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "base_date": "2026-11-25"
+ },
+ "oil_up|COP|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
   "base_date": "2026-11-25"
  },
  "oil_up|CVX|2023-09-15": {
@@ -71017,6 +71083,17 @@
   "news_link": "https://www.prachachat.net/finance/news-2102846",
   "base_date": "2026-11-25"
  },
+ "oil_up|CVX|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
+  "base_date": "2026-11-25"
+ },
  "oil_up|DAL|2023-09-15": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -75870,6 +75947,17 @@
   "date": "2026-11-26",
   "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
   "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "base_date": "2026-11-25"
+ },
+ "oil_up|DAL|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
   "base_date": "2026-11-25"
  },
  "oil_up|PTTEP|2023-09-15": {
@@ -80729,6 +80817,17 @@
   "x1": 1.99,
   "base_date": "2026-11-25"
  },
+ "oil_up|PTTEP|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
+  "base_date": "2026-11-26"
+ },
  "oil_up|PTT|2023-09-15": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -85585,6 +85684,17 @@
   "r1": 0.0,
   "x1": 0.92,
   "base_date": "2026-11-25"
+ },
+ "oil_up|PTT|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
+  "base_date": "2026-11-26"
  },
  "oil_up|TOP|2023-09-15": {
   "signal": "oil_up",
@@ -90443,6 +90553,17 @@
   "x1": 2.32,
   "base_date": "2026-11-25"
  },
+ "oil_up|TOP|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
+  "base_date": "2026-11-26"
+ },
  "oil_up|UAL|2023-09-15": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -95298,6 +95419,17 @@
   "news_link": "https://www.prachachat.net/finance/news-2102846",
   "base_date": "2026-11-25"
  },
+ "oil_up|UAL|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
+  "base_date": "2026-11-25"
+ },
  "oil_up|XOM|2023-09-15": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -100151,6 +100283,17 @@
   "date": "2026-11-26",
   "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
   "news_link": "https://www.prachachat.net/finance/news-2102846",
+  "base_date": "2026-11-25"
+ },
+ "oil_up|XOM|2026-11-27": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+  "news_link": "https://www.prachachat.net/economic/news-2103023",
   "base_date": "2026-11-25"
  },
  "rate_cut|BAC|2023-10-05": {

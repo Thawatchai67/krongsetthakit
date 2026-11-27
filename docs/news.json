@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-26T19:34:55Z",
+  "generated_at": "2026-11-27T02:48:24Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 518
+  "total_kept": 532
  },
  "signals": [
   {
@@ -60,6 +60,61 @@
      "link": "https://www.prachachat.net/world/news-2102222",
      "source": "ประชาชาติธุรกิจ",
      "published": "2026-11-25T14:12:31Z"
+    }
+   ]
+  },
+  {
+   "id": "oil_up",
+   "name": "น้ำมันขึ้น",
+   "count": 3,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "พลังงาน/ปิโตรเลียม",
+     "set": [
+      "PTT",
+      "PTTEP",
+      "TOP",
+      "BCP"
+     ],
+     "us": [
+      "XOM",
+      "CVX",
+      "COP"
+     ],
+     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ขนส่ง",
+     "set": [
+      "AAV"
+     ],
+     "us": [
+      "DAL",
+      "UAL"
+     ],
+     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+     "link": "https://www.prachachat.net/economic/news-2103023",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-27T02:45:14Z"
+    },
+    {
+     "title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
+     "link": "https://www.infoquest.co.th/2026/686282",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-27T02:45:00Z"
+    },
+    {
+     "title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
+     "link": "https://www.prachachat.net/finance/news-2102846",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-26T11:18:01Z"
     }
    ]
   },
@@ -127,45 +182,29 @@
    ]
   },
   {
-   "id": "oil_up",
-   "name": "น้ำมันขึ้น",
+   "id": "gold_up",
+   "name": "ทองคำขึ้น",
    "count": 1,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
-     "sector": "พลังงาน/ปิโตรเลียม",
+     "sector": "ธุรกิจทอง/เหมืองทอง",
      "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
+      "AURA"
      ],
      "us": [
-      "XOM",
-      "CVX",
-      "COP"
+      "NEM",
+      "GLD"
      ],
-     "why": "ราคาน้ำมันสูงขึ้นหนุนรายได้ผู้ผลิต (โรงกลั่นขึ้นกับส่วนต่างราคา ไม่ใช่ราคาน้ำมันอย่างเดียว)"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินสูงขึ้น"
+     "why": "ราคาทองสูงขึ้นหนุนรายได้และมูลค่าสินทรัพย์ (GLD เป็นกองทุน ETF ทองคำ)"
     }
    ],
    "evidence": [
     {
-     "title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
-     "link": "https://www.prachachat.net/finance/news-2102846",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-26T11:18:01Z"
+     "title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
+     "link": "https://www.infoquest.co.th/2026/686282",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-27T02:45:00Z"
     }
    ]
   },
@@ -252,26 +291,42 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 56,
-   "new_24h": 5,
-   "latest": "2026-11-26T16:30:00Z",
-   "latest_title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?"
+   "count": 59,
+   "new_24h": 7,
+   "latest": "2026-11-27T02:27:21Z",
+   "latest_title": "‘กรุงศรี’ ลุ้น SET สร้างฐาน จับตาความเสี่ยงคุมส่งออกชิป ชู 3 ธีมหุ้นเด่นรับมือความผันผวน"
   },
   {
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
-   "count": 27,
-   "new_24h": 3,
-   "latest": "2026-11-26T11:26:44Z",
-   "latest_title": "บจ. mai โชว์กำไร Q3 พุ่ง 117.9% ดัน 9 เดือนโกยเกือย 7 พันล้าน 6 กลุ่มอุตสาหกรรมกำไรฟื้น"
+   "count": 28,
+   "new_24h": 4,
+   "latest": "2026-11-27T02:15:14Z",
+   "latest_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าซึมต่อเซ่นพิษ Nvidia เบรกส่งชิป AI เสี่ยงลามกลุ่มแบงก์ ให้แนวรับ 1,400 น่าสะสม"
   },
   {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
-   "count": 32,
+   "count": 34,
+   "new_24h": 3,
+   "latest": "2026-11-27T02:45:14Z",
+   "latest_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 18,
    "new_24h": 2,
-   "latest": "2026-11-26T11:18:01Z",
-   "latest_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน"
+   "latest": "2026-11-27T02:25:55Z",
+   "latest_title": "ภาวะตลาดเงินบาท: เงินบาทเปิด 34.05 ทรงตัวจากวานนี้ ตลาดสหรัฐฯปิด-จับตาดุลการค้าไทย"
+  },
+  {
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
+   "count": 25,
+   "new_24h": 2,
+   "latest": "2026-11-27T02:03:11Z",
+   "latest_title": "ตลาดหุ้นเอเชียเปิดบวก ขานรับหุ้นโลกฟื้นตัว นลท.เมินภาษีทรัมป์"
   },
   {
    "id": "bot",
@@ -282,6 +337,14 @@
    "latest_title": "แบงก์ชาติ เร่ง 3 มาตรการหนุน SME ปี’70 ดันสินเชื่อเติบโต"
   },
   {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 25,
+   "new_24h": 1,
+   "latest": "2026-11-27T02:45:00Z",
+   "latest_title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า"
+  },
+  {
    "id": "thai-economy",
    "name": "เศรษฐกิจไทย",
    "count": 21,
@@ -290,34 +353,10 @@
    "latest_title": "3 กูรูส่งสัญญาณเตือนเศรษฐกิจไทยโตต่ำศักยภาพ หนี้ครัวเรือนฉุด-แรงงานหด-เหลื่อมล้ำสูง"
   },
   {
-   "id": "trade-war",
-   "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 24,
-   "new_24h": 1,
-   "latest": "2026-11-26T09:44:44Z",
-   "latest_title": "ดร.พิพัฒน์ ประเมินภาษีทรัมป์รอบใหม่ 18% ผลกระทบส่งออกจำกัด จับตาจีน"
-  },
-  {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 17,
-   "new_24h": 1,
-   "latest": "2026-11-26T06:00:12Z",
-   "latest_title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้"
-  },
-  {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
    "count": 28,
-   "new_24h": 1,
-   "latest": "2026-11-26T00:01:57Z",
-   "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
-  },
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 24,
-   "new_24h": 1,
+   "new_24h": 0,
    "latest": "2026-11-26T00:01:57Z",
    "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
@@ -331,6 +370,346 @@
   }
  ],
  "items": [
+  {
+   "id": "a1580692f75b",
+   "title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
+   "link": "https://www.prachachat.net/economic/news-2103023",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:45:14Z",
+   "summary": "ราคาน้ำมันดิบปรับตัวเพิ่มขึ้น จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ ขณะที่สถานการณ์ความขัดแย้งระหว่างรัสเซียและยูเครนยังคงตึงเครียด หน่วยวิเคราะห์สถานการณ์ราคาน้ำมัน บมจ.ไทยออยล์ ระบุว่า ปัจจัยที่ส่งผลกระทบกับราคามีดังนี้ ราคาน้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/05/Oil-2.jpg",
+   "score": 11,
+   "categories": [
+    "trade_geo",
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "9b562789eef1",
+   "title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
+   "link": "https://www.infoquest.co.th/2026/686282",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:45:00Z",
+   "summary": "ราคาขายปลีกทองคำ (96.5%) ในประเทศ เปิดตลาดเช้านี้ เพิ่มขึ้นบาททองคำละ 650 บาท ได้แรงหนุนจากบอนด์ยีลด์สหรัฐฯ ที่ร่วงลงต่อเนื่อง ขณะที่ทองโลกย่อตัวเล็กน้อย กดดันจากดอลลาร์แข็งค่า-น้ำมันพุ่งรับศึกตะวันออ The post ราคาทองดีดขึ้นบาทละ 650 รับบอ…",
+   "image": null,
+   "score": 14,
+   "categories": [
+    "gold",
+    "fx"
+   ],
+   "signals": [
+    "oil_up",
+    "gold_up"
+   ],
+   "stories": [
+    "oil-mideast",
+    "gold"
+   ]
+  },
+  {
+   "id": "3aea8d806b9e",
+   "title": "ANALYST PICKS: หุ้นเด่นจากนักวิเคราะห์ วันที่ 27 พ.ย. 2569",
+   "link": "https://www.infoquest.co.th/2026/686318",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:43:41Z",
+   "summary": "หุ้นเด่นจากนักวิเคราะห์ (ANALYST PICKS) รวบรวมจากบทวิเคราะห์ของโบรกเกอร์ประจำวันนี้ ชื่อย่อหุ้น โบรกเกอร์ คำแนะนำ ราคาเป้าหมาย แนวรับ แนวต้าน Stop Loss 3BBIF KSS Neutral 6.70 – – – The post ANALYST PICKS: หุ้นเด่นจากนักวิเคราะห์ วันที่ 27…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "ef8295956d19",
+   "title": "‘กรุงศรี’ ลุ้น SET สร้างฐาน จับตาความเสี่ยงคุมส่งออกชิป ชู 3 ธีมหุ้นเด่นรับมือความผันผวน",
+   "link": "https://www.prachachat.net/finance/news-2102981",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:27:21Z",
+   "summary": "บล.กรุงศรี คาดตลาดหุ้นไทยวันนี้ เข้าสู่ช่วงสร้างฐาน แม้ยังเผชิญแรงกดดันจากมาตรการควบคุมการส่งออกชิปขั้นสูงของสหรัฐ แต่มองราคาหุ้นที่ปรับลงแรงสะท้อนความเสี่ยงไปแล้วระดับหนึ่ง พร้อมชู 3 ธีมลงทุน หุ้นส่งออก พลังงาน และภาคบริการรับปัจจัยฤดูกาล…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/stock-6.jpg",
+   "score": 15,
+   "categories": [
+    "stock_market",
+    "economy",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "a8d0359d622d",
+   "title": "ตลาดแรงงานสองขั้ว องค์กรคุมเงินเดือน แต่เปิดศึกแย่งคน AI-Data",
+   "link": "https://www.prachachat.net/sd/sdplus-hr/news-2102887",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:27:00Z",
+   "summary": "ดีลอยท์ ประเทศไทย เปิดผลสำรวจ HR Policy Survey 2026 จาก 151 องค์กร พบธุรกิจไทยคุมต้นทุนค่าตอบแทน อัตราขึ้นเงินเดือนเฉลี่ยลดเหลือ 4% โบนัสหดเหลือ 2.2 เดือน แต่ยังรักษาพนักงาน โดย 60% ไม่มีแผนลดกำลังคน ขณะที่ตลาดเผชิญสงครามแย่งชิงบุคลากรทักษ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/HR-Policy.png",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9ffdd6a8f1fd",
+   "title": "ภาวะตลาดเงินบาท: เงินบาทเปิด 34.05 ทรงตัวจากวานนี้ ตลาดสหรัฐฯปิด-จับตาดุลการค้าไทย",
+   "link": "https://www.infoquest.co.th/2026/686240",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:25:55Z",
+   "summary": "ค่าเงินบาท [USDTHB.X] เปิดตลาดอยู่ที่ระดับ 34.05 บาท/ดอลลาร์ ทรงตัวในระดับเดียวจากปิดตลาดเย็นวานนี้ (26 พ.ย.) นักบริหารเงินจากธนาคารกรุงศรีอยุธยา เปิดเผยว่า ค่าเงินบาทเช้านี้ทรงตัว The post ภาวะตลาดเงินบาท: เงินบาทเปิด 34.05 ทรงตัวจากวานนี…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "fx",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": [
+    "baht"
+   ]
+  },
+  {
+   "id": "06a9c0bbfcf7",
+   "title": "“Altria-Japan Tobacco” เล็งเทกโอเวอร์ “Imperial Brands” ดันหุ้นบริษัทบุหรี่อังกฤษพุ่ง 13.8%",
+   "link": "https://www.infoquest.co.th/2026/686238",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:15:46Z",
+   "summary": "อุตสาหกรรมยาสูบโลกอาจเกิดดีลซื้อกิจการครั้งใหญ่ที่สุดดีลหนึ่งในประวัติศาสตร์ หลังออลเทรีย (Altria) กลุ่มบริษัทยาสูบสหรัฐฯ เปิดเผยว่ากำลังพิจารณายื่นข้อเสนอซื้อกิจการ อิมพีเรียล แบรนด์ส (Imperial The post “Altria-Japan Tobacco” เล็งเทกโอเวอ…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b2ea3e31486f",
+   "title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าซึมต่อเซ่นพิษ Nvidia เบรกส่งชิป AI เสี่ยงลามกลุ่มแบงก์ ให้แนวรับ 1,400 น่าสะสม",
+   "link": "https://www.infoquest.co.th/2026/686268",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:15:14Z",
+   "summary": "นักวิเคราะห์ฯ ประเมินตลาดหุ้นไทยวันนี้ซึมตัว ยังคงรับปัจจัยลบจาก Nvidia เบรกส่งชิป AI ให้ 4 ชาติเอเชียรวมไทย กดดันหุ้นกลุ่มอิเล็กทรอนิกส์ รับเหมา โรงไฟฟ้า ICT และอาจลามไปถึงกลุ่มแบงก์ The post ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าซึมต่อเซ่นพิษ…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips",
+    "thai-market"
+   ]
+  },
+  {
+   "id": "945278f1007b",
+   "title": "ตลาดหุ้นเอเชียเปิดบวก ขานรับหุ้นโลกฟื้นตัว นลท.เมินภาษีทรัมป์",
+   "link": "https://www.infoquest.co.th/2026/686214",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:03:11Z",
+   "summary": "ตลาดหุ้นเอเชียเปิดบวกในวันนี้ (27 พ.ย.) โดยได้แรงหนุนจากตลาดหุ้นทั่วโลกที่เริ่มฟื้นตัว หลังจากที่ร่วงลงอย่างหนักอันเนื่องมาจากแรงขายหุ้นกลุ่มปัญญาประดิษฐ์ (AI) นอกจากนี้ ตลาดยังได้ปัจจัยบวกจากการที่นั The post ตลาดหุ้นเอเชียเปิดบวก ขานรับห…",
+   "image": null,
+   "score": 11,
+   "categories": [
+    "stock_market",
+    "trade_geo",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "a4880b7ee3f9",
+   "title": "การเมือง สงคราม และ AI 3 โจทย์ใหญ่เศรษฐกิจการลงทุนปี 2027",
+   "link": "https://www.prachachat.net/columns/song-lok-mong-thai/news-2101399",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T02:03:00Z",
+   "summary": "คอลัมน์ : ส่องโลก มองไทยผู้เขียน : ดร.ปิยศักดิ์ มานะสันต์piyasak.manason@gmail.com ช่วงสัปดาห์เดียวกับที่ทั่วโลกจับตาผลการเลือกตั้งกลางเทอมสหรัฐ มีอีกข่าวหนึ่งที่คนนอกวงการเทคโนโลยีแทบไม่ได้สังเกต โมเดล AI ที่ยังไม่เปิดตัวของ OpenAI แก้โจท…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/financial.jpg",
+   "score": 7,
+   "categories": [
+    "tech_ai",
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "bee8ff622f27",
+   "title": "ภาวะตลาดหุ้นจีน: เซี่ยงไฮ้คอมโพสิตเปิดบวกเล็กน้อย จับตากำไรภาคอุตสาหกรรม",
+   "link": "https://www.infoquest.co.th/2026/686226",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T01:55:04Z",
+   "summary": "ดัชนีเซี่ยงไฮ้คอมโพสิตตลาดหุ้นจีนเปิดบวกในวันนี้ (27 พ.ย.) โดยปรับตัวตามทิศทางตลาดหุ้นเอเชียที่เปิดบวกเป็นส่วนใหญ่ ขณะที่นักลงทุนจับตาการเปิดเผยกำไรของภาคอุตสาหกรรมจีนประจำเดือนต.ค.ในวันนี้ The post ภาวะตลาดหุ้นจีน: เซี่ยงไฮ้คอมโพสิตเปิดบว…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "stock_market",
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a3a26bc96978",
+   "title": "จากองุ่นไชน์มัสแคตถึงเอ็นวิเดีย จารกรรมเขย่าโลกธุรกิจ",
+   "link": "https://www.prachachat.net/columns/news-2101035",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T01:44:00Z",
+   "summary": "เมื่อพูดถึงการจารกรรมผู้คนมักนึกถึงการขโมยความลับทางการทหาร เช่น ที่ตั้งกำลังพล แบบแปลนอาวุธมหาประลัย ฯลฯ ที่คุ้นตาในภาพยนตร์อย่างสายลับ 007 แต่ในวงการธุรกิจและเศรษฐกิจทั้งระดับเอกชนและระดับประเทศ ก็มีการจารกรรมเช่นเดียวกัน ซึ่งหลายเหตุการ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/10-3-2.jpg",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "f992914dc6a9",
+   "title": "อสังหา ปี’70 รีเทล-มิกซ์ยูสแข่งเดือด",
+   "link": "https://www.prachachat.net/real-estate/news-2101649",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T01:29:00Z",
+   "summary": "เกมตลาดอสังหาฯ ปี 2570 กำลังเปลี่ยนไป เมื่อนักลงทุนมองหาสินทรัพย์ที่ตอบโจทย์มากกว่าเดิม ทำให้ผู้ประกอบการต้องอ่านทิศทางตลาดให้ขาดตั้งแต่วันนี้ “กฤช ปิ่มหทัยวุฒิ” กรรมการผู้จัดการ และหัวหน้าหน่วยธุรกิจบริการด้านการลงทุน เจแอลแอล ประเทศไทย เ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/6-2POK-3.jpg",
+   "score": 4,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3b1d5c3b8f8f",
+   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T01:15:00Z",
+   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+   "image": "https://images.mktw.net/im-78896707",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "aed167976779",
+   "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T00:31:00Z",
+   "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+   "image": "https://images.mktw.net/im-58425830",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "acaa3137aa67",
+   "title": "ชง 4 เครื่องยนต์เศรษฐกิจใหม่ ขับเคลื่อนฐานราก-ปลดล็อก SMEs",
+   "link": "https://www.prachachat.net/economic/news-2100928",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T00:13:00Z",
+   "summary": "ท่ามกลางความท้าทายของเศรษฐกิจไทยในปี 2570 การดึงดูดเม็ดเงินลงทุนจากต่างประเทศ (FDI) การเติบโตของอุตสาหกรรมเทคโนโลยีขั้นสูง และเศรษฐกิจสูงวัย อาจยังไม่เพียงพอที่จะขับเคลื่อนเศรษฐกิจฐานราก หากการลงทุนเหล่านี้ไม่สามารถเชื่อมโยงเข้าสู่ห่วงโซ่ก…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/3-1pok-1.jpg",
+   "score": 7,
+   "categories": [
+    "economy",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "bd1cb8c6d5d0",
    "title": "“ทรัมป์” หารือ “ปูติน” หวังรัสเซีย-ยูเครนบรรลุข้อตกลงสันติภาพ",
@@ -370,27 +749,6 @@
    "stories": []
   },
   {
-   "id": "3b1d5c3b8f8f",
-   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-26T16:30:00Z",
-   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
-   "image": "https://images.mktw.net/im-78896707",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
-  },
-  {
    "id": "efc74e32bb6f",
    "title": "BBC ยื่นอุทธรณ์ คัดค้านศาลเดินหน้าคดีทรัมป์ฟ้องเรียกค่าเสียหายกว่า 3 แสนล้านบาท",
    "link": "https://www.infoquest.co.th/2026/686166",
@@ -408,27 +766,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "aed167976779",
-   "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
-   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-26T15:30:00Z",
-   "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
-   "image": "https://images.mktw.net/im-58425830",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
   },
   {
    "id": "bd49117bdce7",

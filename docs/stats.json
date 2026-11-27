@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T02:30:49Z",
+ "generated_at": "2026-11-27T02:48:50Z",
  "since": "2023-09-15",
  "by_year": {
   "2023": {
@@ -25,8 +25,8 @@
  },
  "backfill": 14627,
  "overall": {
-  "total": 14946,
-  "news": 1813,
+  "total": 14959,
+  "news": 1815,
   "d1": {
    "evaluated": 10821,
    "hit_rate": 49.0,
@@ -239,8 +239,8 @@
    "name": "ลดดอกเบี้ย"
   },
   {
-   "total": 2710,
-   "news": 271,
+   "total": 2720,
+   "news": 272,
    "d1": {
     "evaluated": 2705,
     "hit_rate": 51.3,
@@ -323,8 +323,8 @@
    "name": "หุ้นเทคโนโลยี/ชิปพุ่ง"
   },
   {
-   "total": 570,
-   "news": 190,
+   "total": 573,
+   "news": 191,
    "d1": {
     "evaluated": 570,
     "hit_rate": 52.5,
