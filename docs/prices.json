@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-26T19:35:22Z",
+ "generated_at": "2026-11-27T02:30:48Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
   "PTT": {
    "price": 37.0,
-   "change_pct": -0.8,
+   "change_pct": 0.0,
    "currency": "THB",
    "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
@@ -165,7 +165,7 @@
   },
   "AURA": {
    "price": 13.0,
-   "change_pct": 3.17,
+   "change_pct": 0.0,
    "currency": "THB",
    "asof": "2026-11-26T09:39:51Z",
    "market": "SET",
@@ -286,26 +286,26 @@
    "name": "Nasdaq"
   },
   {
-   "price": 34.03,
-   "change_pct": 0.37,
+   "price": 34.01,
+   "change_pct": -0.08,
    "currency": "THB",
-   "asof": "2026-11-26T19:34:56Z",
+   "asof": "2026-11-27T02:30:42Z",
    "key": "USDTHB",
    "name": "ดอลลาร์/บาท"
   },
   {
-   "price": 3592.5,
-   "change_pct": 1.6,
+   "price": 3643.9,
+   "change_pct": 3.06,
    "currency": "USD",
-   "asof": "2026-11-26T19:25:01Z",
+   "asof": "2026-11-27T02:20:43Z",
    "key": "GOLD",
    "name": "ทองคำ"
   },
   {
-   "price": 84.88,
-   "change_pct": 1.43,
+   "price": 85.64,
+   "change_pct": 2.34,
    "currency": "USD",
-   "asof": "2026-11-26T19:25:16Z",
+   "asof": "2026-11-27T02:20:40Z",
    "key": "OIL",
    "name": "น้ำมัน WTI"
   },
