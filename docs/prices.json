@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T12:05:28Z",
+ "generated_at": "2026-11-27T13:34:06Z",
  "source": "Yahoo Finance",
  "errors": [],
  "prices": {
@@ -286,26 +286,26 @@
    "name": "Nasdaq"
   },
   {
-   "price": 33.91,
-   "change_pct": -0.37,
+   "price": 33.95,
+   "change_pct": -0.25,
    "currency": "THB",
-   "asof": "2026-11-27T12:05:18Z",
+   "asof": "2026-11-27T13:34:01Z",
    "key": "USDTHB",
    "name": "ดอลลาร์/บาท"
   },
   {
-   "price": 3697.8,
-   "change_pct": 4.58,
+   "price": 3674.8,
+   "change_pct": 3.93,
    "currency": "USD",
-   "asof": "2026-11-27T11:55:19Z",
+   "asof": "2026-11-27T13:24:03Z",
    "key": "GOLD",
    "name": "ทองคำ"
   },
   {
-   "price": 85.31,
-   "change_pct": 1.95,
+   "price": 84.83,
+   "change_pct": 1.37,
    "currency": "USD",
-   "asof": "2026-11-27T11:55:14Z",
+   "asof": "2026-11-27T13:24:03Z",
    "key": "OIL",
    "name": "น้ำมัน WTI"
   },
@@ -318,10 +318,10 @@
    "name": "บอนด์สหรัฐ 10 ปี"
   },
   {
-   "price": 25.63,
-   "change_pct": -4.37,
+   "price": 25.2,
+   "change_pct": -5.97,
    "currency": "USD",
-   "asof": "2026-11-27T11:50:16Z",
+   "asof": "2026-11-27T13:19:01Z",
    "key": "VIX",
    "name": "VIX ดัชนีความกลัว"
   }
