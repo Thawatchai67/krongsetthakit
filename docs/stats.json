@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:34:07Z",
+ "generated_at": "2026-11-27T21:13:33Z",
  "since": "2022-09-20",
  "by_year": {
   "2022": {
@@ -23,22 +23,22 @@
    "avg_edge": -0.1
   },
   "2026": {
-   "evaluated": 2778,
+   "evaluated": 2787,
    "hit_rate": 52.4,
    "avg_edge": 0.28
   }
  },
  "backfill": 18085,
  "overall": {
-  "total": 18417,
-  "news": 2226,
+  "total": 18437,
+  "news": 2229,
   "d1": {
-   "evaluated": 13987,
+   "evaluated": 14007,
    "hit_rate": 49.6,
    "avg_edge": 0.1
   },
   "d5": {
-   "evaluated": 13884,
+   "evaluated": 13893,
    "hit_rate": 49.7,
    "avg_edge": 0.06
   },
@@ -70,8 +70,8 @@
    "avg_edge": -0.52
   },
   "BAC": {
-   "evaluated": 569,
-   "hit_rate": 46.9,
+   "evaluated": 570,
+   "hit_rate": 46.8,
    "avg_edge": -0.19
   },
   "BBL": {
@@ -85,8 +85,8 @@
    "avg_edge": 0.16
   },
   "COP": {
-   "evaluated": 648,
-   "hit_rate": 51.5,
+   "evaluated": 649,
+   "hit_rate": 51.6,
    "avg_edge": 0.1
   },
   "CPF": {
@@ -100,12 +100,12 @@
    "avg_edge": 0.02
   },
   "CVX": {
-   "evaluated": 648,
+   "evaluated": 649,
    "hit_rate": 51.2,
    "avg_edge": 0.06
   },
   "DAL": {
-   "evaluated": 648,
+   "evaluated": 649,
    "hit_rate": 50.2,
    "avg_edge": 0.08
   },
@@ -125,9 +125,9 @@
    "avg_edge": -0.24
   },
   "JPM": {
-   "evaluated": 569,
-   "hit_rate": 46.9,
-   "avg_edge": -0.0
+   "evaluated": 570,
+   "hit_rate": 46.8,
+   "avg_edge": -0.01
   },
   "KBANK": {
    "evaluated": 573,
@@ -145,9 +145,9 @@
    "avg_edge": -0.12
   },
   "MSFT": {
-   "evaluated": 569,
-   "hit_rate": 46.4,
-   "avg_edge": -0.3
+   "evaluated": 570,
+   "hit_rate": 46.5,
+   "avg_edge": -0.29
   },
   "NEM": {
    "evaluated": 270,
@@ -155,7 +155,7 @@
    "avg_edge": -0.63
   },
   "NVDA": {
-   "evaluated": 715,
+   "evaluated": 716,
    "hit_rate": 50.3,
    "avg_edge": 0.09
   },
@@ -190,12 +190,12 @@
    "avg_edge": 1.97
   },
   "UAL": {
-   "evaluated": 648,
+   "evaluated": 649,
    "hit_rate": 52.2,
    "avg_edge": 0.13
   },
   "XOM": {
-   "evaluated": 648,
+   "evaluated": 649,
    "hit_rate": 52.2,
    "avg_edge": 0.11
   }
@@ -223,11 +223,11 @@
    "name": "ภาษีนำเข้า/สงครามการค้า"
   },
   {
-   "total": 3520,
-   "news": 352,
+   "total": 3530,
+   "news": 353,
    "d1": {
-    "evaluated": 3510,
-    "hit_rate": 51.5,
+    "evaluated": 3520,
+    "hit_rate": 51.3,
     "avg_edge": 0.15
    },
    "d5": {
@@ -273,8 +273,8 @@
     "avg_edge": 0.21
    },
    "d5": {
-    "evaluated": 3005,
-    "hit_rate": 51.3,
+    "evaluated": 3010,
+    "hit_rate": 51.4,
     "avg_edge": 0.16
    },
    "d20": {
@@ -289,13 +289,13 @@
    "total": 2600,
    "news": 260,
    "d1": {
-    "evaluated": 2596,
+    "evaluated": 2600,
     "hit_rate": 48.9,
     "avg_edge": -0.03
    },
    "d5": {
-    "evaluated": 2554,
-    "hit_rate": 49.7,
+    "evaluated": 2558,
+    "hit_rate": 49.6,
     "avg_edge": -0.11
    },
    "d20": {
@@ -307,8 +307,8 @@
    "name": "ขึ้นดอกเบี้ย"
   },
   {
-   "total": 882,
-   "news": 147,
+   "total": 888,
+   "news": 148,
    "d1": {
     "evaluated": 882,
     "hit_rate": 48.8,
@@ -331,8 +331,8 @@
    "total": 813,
    "news": 271,
    "d1": {
-    "evaluated": 793,
-    "hit_rate": 51.3,
+    "evaluated": 795,
+    "hit_rate": 51.4,
     "avg_edge": 0.08
    },
    "d5": {

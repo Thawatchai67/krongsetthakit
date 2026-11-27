@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T12:05:02Z",
+  "generated_at": "2026-11-27T21:13:05Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 555
+  "total_kept": 566
  },
  "signals": [
   {
    "id": "oil_up",
    "name": "น้ำมันขึ้น",
-   "count": 3,
+   "count": 6,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -56,65 +56,55 @@
    ],
    "evidence": [
     {
-     "title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
-     "link": "https://www.prachachat.net/economic/news-2103023",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-27T02:45:14Z"
+     "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+     "link": "https://www.infoquest.co.th/2026/686770",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-27T17:32:25Z"
+    },
+    {
+     "title": "บอนด์ยีลด์ดีดตัว สอดคล้องราคาน้ำมันพุ่ง",
+     "link": "https://www.infoquest.co.th/2026/686766",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-27T16:02:23Z"
+    },
+    {
+     "title": "ราคาน้ำมันโลกดีดตัว รับข่าวโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
+     "link": "https://www.infoquest.co.th/2026/686759",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-27T13:53:32Z"
+    }
+   ]
+  },
+  {
+   "id": "gold_up",
+   "name": "ทองคำขึ้น",
+   "count": 2,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "ธุรกิจทอง/เหมืองทอง",
+     "set": [
+      "AURA"
+     ],
+     "us": [
+      "NEM",
+      "GLD"
+     ],
+     "why": "ราคาทองสูงขึ้นหนุนรายได้และมูลค่าสินทรัพย์ (GLD เป็นกองทุน ETF ทองคำ)"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ราคาทองพุ่งกว่า 100 ดอลล์ ทะลุ $3,600 หลังทำนิวโลว์รอบกว่า 1 ปี",
+     "link": "https://www.infoquest.co.th/2026/686755",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-27T12:28:05Z"
     },
     {
      "title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
      "link": "https://www.infoquest.co.th/2026/686282",
      "source": "อินโฟเควสท์",
      "published": "2026-11-27T02:45:00Z"
-    },
-    {
-     "title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
-     "link": "https://www.prachachat.net/finance/news-2102846",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-26T11:18:01Z"
-    }
-   ]
-  },
-  {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 3,
-   "impacts": [
-    {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
-     "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
-     ],
-     "us": [
-      "AAPL",
-      "TSM"
-     ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
-     "link": "https://www.infoquest.co.th/2026/685536",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-25T14:49:36Z"
-    },
-    {
-     "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
-     "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-25T14:14:00Z"
-    },
-    {
-     "title": "ทรัมป์เสนอขึ้นภาษีนำเข้า 14 ชาติคู่ค้า ‘ไทย‘ อยู่ในรายชื่อ",
-     "link": "https://www.prachachat.net/world/news-2102222",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-25T14:12:31Z"
     }
    ]
   },
@@ -176,6 +166,36 @@
    ]
   },
   {
+   "id": "tech_rally",
+   "name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+   "count": 1,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "ชิป/อิเล็กทรอนิกส์",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE"
+     ],
+     "us": [
+      "NVDA",
+      "TSM",
+      "AMD"
+     ],
+     "why": "ความต้องการชิปและอุปกรณ์อิเล็กทรอนิกส์ที่เกี่ยวข้องดี"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+     "link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-27T20:16:00Z"
+    }
+   ]
+  },
+  {
    "id": "baht_strong",
    "name": "บาทแข็ง",
    "count": 1,
@@ -207,33 +227,6 @@
      "link": "https://www.infoquest.co.th/2026/686723",
      "source": "อินโฟเควสท์",
      "published": "2026-11-27T10:57:07Z"
-    }
-   ]
-  },
-  {
-   "id": "gold_up",
-   "name": "ทองคำขึ้น",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "ธุรกิจทอง/เหมืองทอง",
-     "set": [
-      "AURA"
-     ],
-     "us": [
-      "NEM",
-      "GLD"
-     ],
-     "why": "ราคาทองสูงขึ้นหนุนรายได้และมูลค่าสินทรัพย์ (GLD เป็นกองทุน ETF ทองคำ)"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
-     "link": "https://www.infoquest.co.th/2026/686282",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-27T02:45:00Z"
     }
    ]
   },
@@ -277,18 +270,26 @@
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 60,
+   "count": 61,
    "new_24h": 7,
-   "latest": "2026-11-27T12:01:00Z",
-   "latest_title": "Nvidia’s stock has tumbled 27% over one chaotic month. The next big test lies in the week ahead"
+   "latest": "2026-11-27T20:16:00Z",
+   "latest_title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia"
+  },
+  {
+   "id": "oil-mideast",
+   "name": "น้ำมันและตะวันออกกลาง",
+   "count": 37,
+   "new_24h": 6,
+   "latest": "2026-11-27T17:32:25Z",
+   "latest_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด"
   },
   {
    "id": "gold",
    "name": "ราคาทองคำ",
-   "count": 27,
-   "new_24h": 3,
-   "latest": "2026-11-27T10:27:02Z",
-   "latest_title": "AI มาแรง แต่คนยังสำคัญ เปิด 5 ทักษะทองคำที่องค์กรไทยต้องการปี’70"
+   "count": 28,
+   "new_24h": 4,
+   "latest": "2026-11-27T12:28:05Z",
+   "latest_title": "ราคาทองพุ่งกว่า 100 ดอลล์ ทะลุ $3,600 หลังทำนิวโลว์รอบกว่า 1 ปี"
   },
   {
    "id": "baht",
@@ -315,14 +316,6 @@
    "latest_title": "หุ้นไทยดีดแรง 25.85 จุด รับส่งออกโตทะลุคาด สถาบันนำทีมซื้อ"
   },
   {
-   "id": "oil-mideast",
-   "name": "น้ำมันและตะวันออกกลาง",
-   "count": 34,
-   "new_24h": 2,
-   "latest": "2026-11-27T02:45:14Z",
-   "latest_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ"
-  },
-  {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 25,
@@ -341,7 +334,7 @@
   {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 28,
+   "count": 27,
    "new_24h": 0,
    "latest": "2026-11-26T00:01:57Z",
    "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
@@ -356,6 +349,279 @@
   }
  ],
  "items": [
+  {
+   "id": "c26728ea18ee",
+   "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+   "link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T20:16:00Z",
+   "summary": "Nvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026.",
+   "image": "https://images.mktw.net/im-70107432",
+   "score": 9,
+   "categories": [
+    "tech_ai",
+    "stock_market"
+   ],
+   "signals": [
+    "tech_rally"
+   ],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "ad97fcfc059d",
+   "title": "รัสเซียประกาศขยายเวลาแบนส่งออกเชื้อเพลิงอากาศยานจนถึงมี.ค.ปีหน้า",
+   "link": "https://www.infoquest.co.th/2026/686774",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T18:42:35Z",
+   "summary": "รัฐบาลรัสเซียประกาศขยายเวลาบังคับใช้มาตรการห้ามส่งออกเชื้อเพลิงอากาศยาน รวมถึงเชื้อเพลิงที่จัดซื้อผ่านตลาดซื้อขายอย่างเป็นทางการจนถึงเดือนมีนาคมปีหน้า แถลงการณ์ของรัฐบาลระบุว่า มาตรการขยายเวลาดังกล่าว The post รัสเซียประกาศขยายเวลาแบนส่งออ…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0185ab0fccf0",
+   "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+   "link": "https://www.infoquest.co.th/2026/686770",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T17:32:25Z",
+   "summary": "ดัชนี Sensex ตลาดหุ้นอินเดีย ดิ่งลงเกือบ 1,000 จุด โดยถูกกดดันจากราคาน้ำมันที่พุ่งขึ้น และความตึงเครียดด้านภูมิรัฐศาสตร์ ดัชนี S&P BSE Sensex [BSE.X] ปิดตลาดที่ 83,339.26 ลบ 989.34 จุด หรือ 1.17% The post ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "stock_market",
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "f7ee92e8a0a7",
+   "title": "ดอลลาร์แข็งค่าใกล้นิวไฮ 22 เดือน ซื้อขายเบาบาง",
+   "link": "https://www.infoquest.co.th/2026/686768",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T17:20:39Z",
+   "summary": "ดอลลาร์ดีดตัวขึ้นใกล้ระดับสูงสุดในรอบ 22 เดือน ในการซื้อขายที่เบาบางเนื่องจากเป็นช่วงวันหยุดเทศกาลขอบคุณพระเจ้า (Thanksgiving) ณ เวลา 23.05 น.ตามเวลาไทย ดัชนีดอลลาร์ ซึ่งเป็นดัชนีวัดความเคลื่อนไหวของด The post ดอลลาร์แข็งค่าใกล้นิวไฮ 22 เด…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "fx"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9deb0d0046ab",
+   "title": "บอนด์ยีลด์ดีดตัว สอดคล้องราคาน้ำมันพุ่ง",
+   "link": "https://www.infoquest.co.th/2026/686766",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T16:02:23Z",
+   "summary": "อัตราผลตอบแทนพันธบัตรรัฐบาลสหรัฐดีดตัวขึ้นในวันนี้ สอดคล้องราคาน้ำมันที่ปรับตัวขึ้น ขณะที่นักลงทุนจับตาตัวเลขจ้างงานนอกภาคเกษตร ซึ่งมีกำหนดเปิดเผยในสัปดาห์หน้า ณ เวลา 22.34 น.ตามเวลาไทย The post บอนด์ยีลด์ดีดตัว สอดคล้องราคาน้ำมันพุ่ง appe…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "ece28c4f39d0",
+   "title": "ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasdaq ทะยาน แรงซื้อหุ้นเทคฯ หนุนตลาด",
+   "link": "https://www.infoquest.co.th/2026/686764",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T15:31:16Z",
+   "summary": "ดัชนีดาวโจนส์พุ่งขึ้นกว่า 300 จุดในวันนี้ สอดคล้องดัชนี S&P 500 และ Nasdaq ที่ปรับตัวขึ้นเช่นกัน โดยตลาดหุ้นวอลล์สตรีทดีดตัวขึ้น ขณะที่นักลงทุนพากันซื้อหุ้นกลุ่มเทคโนโลยี ณ เวลา 22.09 The post ดาวโจนส์พุ่งกว่า 300 จุด สอดคล้อง S&P 500/Nasd…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9489fb207bf2",
+   "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
+   "link": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T15:01:00Z",
+   "summary": "For frontier model lab developers, the increased consumption of AI tokens (the means by which they get paid for their compute) is a positive. However, they don’t seem to be generating revenues from it at the same rate.",
+   "image": "https://images.mktw.net/im-21556022",
+   "score": 5,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f52eeede7389",
+   "title": "“ทรัมป์” คาใจตัวเลข GDP สหรัฐ หวั่นถูกวางยา เรียกร้องสอบสวนด่วน",
+   "link": "https://www.infoquest.co.th/2026/686761",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T14:53:44Z",
+   "summary": "ประธานาธิบดีโดนัลด์ ทรัมป์ แสดงความไม่พอใจต่อการเปิดเผยตัวเลขผลิตภัณฑ์มวลรวมภายในประเทศ (GDP) ของสหรัฐ และเรียกร้องให้มีการสอบสวนเรื่องนี้โดยทันที ทั้งนี้ เมื่อวันพุธที่ผ่านมา กระทรวงพาณิชย์สหรัฐเปิดเ The post “ทรัมป์” คาใจตัวเลข GDP สหรัฐ…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "economy",
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "50b35ee3c353",
+   "title": "ไทยเบฟ เผย ผลประกอบการปี ’69 กำไรสุทธิโตต่อเนื่อง",
+   "link": "https://www.prachachat.net/business/news-2103798",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T14:48:31Z",
+   "summary": "ผลประกอบการไทยเบฟปี 2569 ธุรกิจเบียร์และสุรายังคงเป็นตัวผลักดันกำไรสุทธิ โต 4.7% ขึ้นมาอยู่ที่ 32,620 ล้านบาท ส่วนอัตรากำไรของยักษ์เครื่องดื่มขยับจาก 9.3% เป็น 9.9% หลังต้นทุนวัตถุลดลงและการเติบโตในตลาดโลก ด้านธุรกิจเครื่องดื่มไม่มีแอลกอฮอ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2025/08/Online-cover_20250817_110916_0000.png",
+   "score": 6,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "4b0d4d28e93d",
+   "title": "ราคาน้ำมันโลกดีดตัว รับข่าวโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
+   "link": "https://www.infoquest.co.th/2026/686759",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T13:53:32Z",
+   "summary": "ราคาน้ำมันโลกดีดตัวขึ้นในวันนี้ โดยได้ปัจจัยหนุนจากการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซที่ยังคงเกิดขึ้นอย่างต่อเนื่อง ทำให้นักลงทุนกังวลเกี่ยวกับการส่งออกน้ำมันจากตะวันออกกลาง ณ เวลา 20.16 The post ราคาน้ำมันโลกดีดตัว รับข่าวโจมตีเรือบ…",
+   "image": null,
+   "score": 12,
+   "categories": [
+    "trade_geo",
+    "oil_energy"
+   ],
+   "signals": [
+    "oil_up"
+   ],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "07db3b8f1711",
+   "title": "สื่อแฉสหรัฐกดดันเวเนซุเอลา-อิรักถอนตัวออกจากโอเปก",
+   "link": "https://www.infoquest.co.th/2026/686757",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T13:11:13Z",
+   "summary": "สำนักข่าวรอยเตอร์รายงานว่า รัฐบาลของประธานาธิบดีโดนัลด์ ทรัมป์ ได้กดดันให้เวเนซุเอลาและอิรักพิจารณาถอนตัวออกจากกลุ่มประเทศผู้ส่งออกน้ำมัน (โอเปก) ในช่วงต้นปีนี้ และขัดขวางไม่ให้เวเนซุเอลาชำระค่าธรรมเน The post สื่อแฉสหรัฐกดดันเวเนซุเอลา-อิ…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "338a93155289",
+   "title": "TIDLOR ปิดฉากซื้อหุ้นคืน ควัก 1.9 พันล้าน กวาดหุ้นกลับ 114.35 ล้านหุ้น",
+   "link": "https://www.prachachat.net/finance/news-2103770",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T12:46:09Z",
+   "summary": "บมจ.ติดล้อ โฮลดิ้งส์ (TIDLOR) เปิดยอดซื้อหุ้นคืนตลอดโครงการ 6 เดือน รวม 114.35 ล้านหุ้น คิดเป็น 3.9486% ของหุ้นทั้งหมด ใช้เงินกว่า 1,977 ล้านบาท จับตาขั้นตอนต่อไป เตรียมชงบอร์ดกำหนดระยะเวลาจำหน่ายหุ้นคืน ภายใต้กรอบกฎหมายไม่เกิน 3 ปี หากขาย…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2024/10/TIDLOR.jpg",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "070ec0e7337c",
+   "title": "ราคาทองพุ่งกว่า 100 ดอลล์ ทะลุ $3,600 หลังทำนิวโลว์รอบกว่า 1 ปี",
+   "link": "https://www.infoquest.co.th/2026/686755",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T12:28:05Z",
+   "summary": "ราคาทองพุ่งขึ้นกว่า 100 ดอลลาร์ ทะลุระดับ 3,600 ดอลลาร์ในวันนี้ โดยฟื้นตัวขึ้นจากระดับต่ำสุดในรอบกว่า 1 ปีซึ่งทำไว้ในสัปดาห์นี้ ณ เวลา 19.03 น.ตามเวลาไทย ราคาทองสปอต [GOLD.X] บวก 103.10 ดอลลาร์ หรือ The post ราคาทองพุ่งกว่า 100 ดอลล์ ทะลุ…",
+   "image": null,
+   "score": 7,
+   "categories": [
+    "gold"
+   ],
+   "signals": [
+    "gold_up"
+   ],
+   "stories": [
+    "gold"
+   ]
+  },
   {
    "id": "261261737db7",
    "title": "ดาวโจนส์ฟิวเจอร์/Nasdaq/S&P 500 พร้อมใจทะยาน ส่งสัญญาณวอลล์สตรีทพุ่งคืนนี้",
@@ -465,7 +731,7 @@
    "lang": "th",
    "central_bank": false,
    "published": "2026-11-27T11:00:00Z",
-   "summary": "ในรายงานของผู้แทนการค้าสหรัฐ USTR เสนอปรับภาษีมาตรา 301 ต่อไทยอัตราเดียว คืออัตราสูงสุดที่ 18% จากการเปิดสอบสวน “กำลังการผลิตล้นเกินเชิงโครงสร้าง” ในภาคอุตสาหกรรมการผลิตตั้งแต่เมื่อราว 8 เดือนที่แล้ว แต่มีตัวเลขอัตราภาษีที่อาจปรับขึ้น 25%…",
+   "summary": "ในรายงานของผู้แทนการค้าสหรัฐ USTR เสนอปรับภาษีมาตรา 301 ต่อไทย คืออัตราสูงสุดเดียวที่ 18% จากการเปิดสอบสวน “กำลังการผลิตล้นเกินเชิงโครงสร้าง” ในภาคอุตสาหกรรมการผลิตตั้งแต่เมื่อราว 8 เดือนที่แล้ว แต่มีตัวเลขอัตราภาษีที่อาจปรับขึ้น 25% โผล่ม…",
    "image": "https://www.prachachat.net/wp-content/uploads/2026/11/2026-11-23T224759Z_1849024897_RC2YTOAOB89N_RTRMADP_3_USA-TRUMP-DOJ-2.jpg",
    "score": 4,
    "categories": [
@@ -729,7 +995,7 @@
    "lang": "th",
    "central_bank": false,
    "published": "2026-11-27T09:53:10Z",
-   "summary": "คลังชี้เศรษฐกิจเดือน ต.ค. ได้แรงหนุนส่งออกขยายตัว 27.5% นำเข้าสินค้าทุนพุ่ง 104.6% แต่ยอดนักท่องเที่ยวต่างชาติหดตัว 12.0% ตลาดการเงินในประเทศผันผวน โดยเฉพาะนักลงทุนต่างชาติในตลาดหุ้นไทย ต้องติดตามการฟื้นตัวเศรษฐกิจไทย นโยบายการค้าสหรัฐ ควา…",
+   "summary": "คลังชี้เศรษฐกิจเดือน ต.ค. ได้แรงหนุนส่งออกขยายตัว 27.5% นำเข้าสินค้าทุนพุ่ง 104.6% แต่ยอดนักท่องเที่ยวต่างชาติหดตัว 12.0% ตลาดการเงินในประเทศผันผวน โดยเฉพาะนักลงทุนต่างชาติในตลาดหุ้นไทยต้องติดตามการฟื้นตัวเศรษฐกิจไทย นโยบายการค้าสหรัฐ ความ…",
    "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Export-scaled.jpg",
    "score": 12,
    "categories": [
@@ -6525,30 +6791,6 @@
    "stories": []
   },
   {
-   "id": "f6a0c59943d9",
-   "title": "ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซ",
-   "link": "https://www.infoquest.co.th/2026/682814",
-   "source": "อินโฟเควสท์",
-   "feed": "infoquest",
-   "region": "TH",
-   "lang": "th",
-   "central_bank": false,
-   "published": "2026-11-19T16:00:13Z",
-   "summary": "ราคาน้ำมันโลกดีดตัวขึ้นในวันนี้ โดยได้แรงหนุนจากการโจมตีเรือบรรทุกน้ำมันในช่องแคบฮอร์มุซที่ยังคงเกิดขึ้นอย่างต่อเนื่อง ณ เวลา 22.42 น.ตามเวลาไทย ราคาน้ำมันดิบเวสต์เท็กซัส (WTI) [WTI.X] The post ราคาน้ำมันโลกดีดตัว ท่ามกลางการโจมตีเรือบรรทุ…",
-   "image": null,
-   "score": 11,
-   "categories": [
-    "oil_energy",
-    "trade_geo"
-   ],
-   "signals": [
-    "oil_up"
-   ],
-   "stories": [
-    "oil-mideast"
-   ]
-  },
-  {
    "id": "01d8a225250a",
    "title": "Anthropic จุดพลุ Nasdaq พุ่ง สวนทางดาวโจนส์ร่วง กังวลเฟดขึ้นดอกเบี้ย",
    "link": "https://www.infoquest.co.th/2026/682812",
@@ -11681,27 +11923,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "847a7abc2726",
-   "title": "Federal Reserve issues FOMC statement",
-   "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-   "source": "Federal Reserve",
-   "feed": "fed",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": true,
-   "published": "2026-10-28T18:00:00Z",
-   "summary": "Federal Reserve issues FOMC statement",
-   "image": null,
-   "score": 5,
-   "categories": [
-    "monetary"
-   ],
-   "signals": [],
-   "stories": [
-    "fed"
-   ]
   }
  ]
 }

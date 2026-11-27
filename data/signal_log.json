@@ -9899,7 +9899,9 @@
   "date": "2026-11-27",
   "news_title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
   "news_link": "https://www.infoquest.co.th/2026/686282",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 2.12,
+  "x1": 0.53
  },
  "gold_up|NEM|2022-09-22": {
   "signal": "gold_up",
@@ -14770,7 +14772,9 @@
   "date": "2026-11-27",
   "news_title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
   "news_link": "https://www.infoquest.co.th/2026/686282",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 5.35,
+  "x1": 3.76
  },
  "oil_down|AAV|2022-09-23": {
   "signal": "oil_down",
@@ -31020,7 +31024,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": 1.24,
   "x1": 4.31,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": 1.34,
+  "x5": -0.35
  },
  "oil_down|COP|2026-11-24": {
   "signal": "oil_down",
@@ -36444,7 +36450,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": 1.32,
   "x1": 4.38,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": 2.88,
+  "x5": 1.19
  },
  "oil_down|CVX|2026-11-24": {
   "signal": "oil_down",
@@ -41868,7 +41876,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": -3.23,
   "x1": -0.16,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": 1.98,
+  "x5": 0.29
  },
  "oil_down|DAL|2026-11-24": {
   "signal": "oil_down",
@@ -63570,7 +63580,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": -4.04,
   "x1": -0.97,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": 2.43,
+  "x5": 0.73
  },
  "oil_down|UAL|2026-11-24": {
   "signal": "oil_down",
@@ -68994,7 +69006,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683493",
   "r1": 0.94,
   "x1": 4.01,
-  "base_date": "2026-11-19"
+  "base_date": "2026-11-19",
+  "r5": 0.79,
+  "x5": -0.91
  },
  "oil_down|XOM|2026-11-24": {
   "signal": "oil_down",
@@ -75334,6 +75348,17 @@
   "r1": 2.99,
   "x1": 1.54
  },
+ "oil_up|AAV|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
+ },
  "oil_up|BCP|2022-09-20": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -81646,6 +81671,17 @@
   "r1": -0.77,
   "x1": -2.22
  },
+ "oil_up|BCP|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "BCP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
+ },
  "oil_up|COP|2022-09-20": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -87939,7 +87975,9 @@
   "date": "2026-11-26",
   "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
   "news_link": "https://www.prachachat.net/finance/news-2102846",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 1.32,
+  "x1": -0.28
  },
  "oil_up|COP|2026-11-27": {
   "signal": "oil_up",
@@ -87950,7 +87988,20 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 1.32,
+  "x1": -0.28
+ },
+ "oil_up|COP|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "COP",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
  },
  "oil_up|CVX|2022-09-20": {
   "signal": "oil_up",
@@ -94245,7 +94296,9 @@
   "date": "2026-11-26",
   "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
   "news_link": "https://www.prachachat.net/finance/news-2102846",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 0.71,
+  "x1": -0.89
  },
  "oil_up|CVX|2026-11-27": {
   "signal": "oil_up",
@@ -94256,7 +94309,20 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 0.71,
+  "x1": -0.89
+ },
+ "oil_up|CVX|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "CVX",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
  },
  "oil_up|DAL|2022-09-20": {
   "signal": "oil_up",
@@ -100551,7 +100617,9 @@
   "date": "2026-11-26",
   "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
   "news_link": "https://www.prachachat.net/finance/news-2102846",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 2.25,
+  "x1": 0.66
  },
  "oil_up|DAL|2026-11-27": {
   "signal": "oil_up",
@@ -100562,7 +100630,20 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 2.25,
+  "x1": 0.66
+ },
+ "oil_up|DAL|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "DAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
  },
  "oil_up|PTTEP|2022-09-20": {
   "signal": "oil_up",
@@ -106876,6 +106957,17 @@
   "r1": 2.12,
   "x1": 0.67
  },
+ "oil_up|PTTEP|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTTEP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
+ },
  "oil_up|PTT|2022-09-20": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -113187,6 +113279,17 @@
   "base_date": "2026-11-26",
   "r1": 1.62,
   "x1": 0.17
+ },
+ "oil_up|PTT|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "PTT",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
  },
  "oil_up|TOP|2022-09-20": {
   "signal": "oil_up",
@@ -119500,6 +119603,17 @@
   "r1": 2.76,
   "x1": 1.32
  },
+ "oil_up|TOP|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "TOP",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
+ },
  "oil_up|UAL|2022-09-20": {
   "signal": "oil_up",
   "signal_name": "น้ำมันขึ้น",
@@ -125793,7 +125907,9 @@
   "date": "2026-11-26",
   "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
   "news_link": "https://www.prachachat.net/finance/news-2102846",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 3.42,
+  "x1": 1.82
  },
  "oil_up|UAL|2026-11-27": {
   "signal": "oil_up",
@@ -125804,7 +125920,20 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 3.42,
+  "x1": 1.82
+ },
+ "oil_up|UAL|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "UAL",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
  },
  "oil_up|XOM|2022-09-20": {
   "signal": "oil_up",
@@ -132099,7 +132228,9 @@
   "date": "2026-11-26",
   "news_title": "บจ. SET โชว์ฟอร์มแกร่ง กวาดกำไร 1.18 ล้านล้าน พลังงาน–บริการรับแรงหนุน",
   "news_link": "https://www.prachachat.net/finance/news-2102846",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 1.33,
+  "x1": -0.27
  },
  "oil_up|XOM|2026-11-27": {
   "signal": "oil_up",
@@ -132110,7 +132241,20 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 1.33,
+  "x1": -0.27
+ },
+ "oil_up|XOM|2026-11-28": {
+  "signal": "oil_up",
+  "signal_name": "น้ำมันขึ้น",
+  "ticker": "XOM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด",
+  "news_link": "https://www.infoquest.co.th/2026/686770",
+  "base_date": "2026-11-27"
  },
  "rate_cut|BAC|2022-11-24": {
   "signal": "rate_cut",
@@ -193518,7 +193662,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -2.23,
-  "x1": 0.83
+  "x1": 0.83,
+  "r5": 1.03,
+  "x5": -0.67
  },
  "rate_hike|BAC|2026-11-21": {
   "signal": "rate_hike",
@@ -193594,7 +193740,9 @@
   "date": "2026-11-26",
   "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
   "news_link": "https://www.infoquest.co.th/2026/685577",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 1.09,
+  "x1": -0.51
  },
  "rate_hike|BBL|2022-09-20": {
   "signal": "rate_hike",
@@ -212084,7 +212232,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -2.73,
-  "x1": 0.33
+  "x1": 0.33,
+  "r5": 0.86,
+  "x5": -0.84
  },
  "rate_hike|JPM|2026-11-21": {
   "signal": "rate_hike",
@@ -212160,7 +212310,9 @@
   "date": "2026-11-26",
   "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
   "news_link": "https://www.infoquest.co.th/2026/685577",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 1.96,
+  "x1": 0.37
  },
  "rate_hike|KBANK|2022-09-20": {
   "signal": "rate_hike",
@@ -226006,7 +226158,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -2.37,
-  "x1": 0.69
+  "x1": 0.69,
+  "r5": -1.09,
+  "x5": -2.79
  },
  "rate_hike|MSFT|2026-11-21": {
   "signal": "rate_hike",
@@ -226082,7 +226236,9 @@
   "date": "2026-11-26",
   "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
   "news_link": "https://www.infoquest.co.th/2026/685577",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 0.6,
+  "x1": -1.0
  },
  "rate_hike|NVDA|2022-09-20": {
   "signal": "rate_hike",
@@ -230640,7 +230796,9 @@
   "news_link": "https://www.infoquest.co.th/2026/682920",
   "base_date": "2026-11-19",
   "r1": -12.07,
-  "x1": -9.0
+  "x1": -9.0,
+  "r5": 3.09,
+  "x5": 1.39
  },
  "rate_hike|NVDA|2026-11-21": {
   "signal": "rate_hike",
@@ -230716,7 +230874,9 @@
   "date": "2026-11-26",
   "news_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
   "news_link": "https://www.infoquest.co.th/2026/685577",
-  "base_date": "2026-11-25"
+  "base_date": "2026-11-25",
+  "r1": 0.8,
+  "x1": -0.8
  },
  "rate_hike|SCB|2022-09-20": {
   "signal": "rate_hike",
@@ -246605,7 +246765,9 @@
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
   "base_date": "2026-11-19",
   "r1": -1.36,
-  "x1": 1.71
+  "x1": 1.71,
+  "r5": 2.67,
+  "x5": 0.98
  },
  "tariff|AAPL|2026-11-21": {
   "signal": "tariff",
@@ -302972,7 +303134,9 @@
   "news_link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
   "base_date": "2026-11-19",
   "r1": -9.29,
-  "x1": -6.22
+  "x1": -6.22,
+  "r5": 0.36,
+  "x5": -1.34
  },
  "tariff|TSM|2026-11-21": {
   "signal": "tariff",
@@ -316916,6 +317080,17 @@
   "x1": -8.36,
   "base_date": "2026-11-23"
  },
+ "tech_rally|AMD|2026-11-28": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "AMD",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+  "news_link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+  "base_date": "2026-11-27"
+ },
  "tech_rally|DELTA|2023-01-04": {
   "signal": "tech_rally",
   "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
@@ -319557,6 +319732,17 @@
   "r1": 0.57,
   "x1": 1.07,
   "base_date": "2026-11-23"
+ },
+ "tech_rally|DELTA|2026-11-28": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+  "news_link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+  "base_date": "2026-11-27"
  },
  "tech_rally|HANA|2023-01-04": {
   "signal": "tech_rally",
@@ -322200,6 +322386,17 @@
   "x1": 1.6,
   "base_date": "2026-11-23"
  },
+ "tech_rally|HANA|2026-11-28": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+  "news_link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+  "base_date": "2026-11-27"
+ },
  "tech_rally|KCE|2023-01-04": {
   "signal": "tech_rally",
   "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
@@ -324841,6 +325038,17 @@
   "r1": 0.47,
   "x1": 0.98,
   "base_date": "2026-11-23"
+ },
+ "tech_rally|KCE|2026-11-28": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+  "news_link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+  "base_date": "2026-11-27"
  },
  "tech_rally|NVDA|2023-01-04": {
   "signal": "tech_rally",
@@ -327484,6 +327692,17 @@
   "x1": -5.36,
   "base_date": "2026-11-23"
  },
+ "tech_rally|NVDA|2026-11-28": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+  "news_link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+  "base_date": "2026-11-27"
+ },
  "tech_rally|TSM|2023-01-04": {
   "signal": "tech_rally",
   "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
@@ -330125,5 +330344,16 @@
   "r1": -3.96,
   "x1": -3.46,
   "base_date": "2026-11-23"
+ },
+ "tech_rally|TSM|2026-11-28": {
+  "signal": "tech_rally",
+  "signal_name": "หุ้นเทคโนโลยี/ชิปพุ่ง",
+  "ticker": "TSM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
+  "news_link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
+  "base_date": "2026-11-27"
  }
 }
