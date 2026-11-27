@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T02:48:50Z",
+ "generated_at": "2026-11-27T12:05:28Z",
  "since": "2023-09-15",
  "by_year": {
   "2023": {
@@ -18,23 +18,23 @@
    "avg_edge": -0.1
   },
   "2026": {
-   "evaluated": 2751,
-   "hit_rate": 52.5,
+   "evaluated": 2778,
+   "hit_rate": 52.4,
    "avg_edge": 0.28
   }
  },
  "backfill": 14627,
  "overall": {
-  "total": 14959,
-  "news": 1815,
+  "total": 14963,
+  "news": 1816,
   "d1": {
-   "evaluated": 10821,
-   "hit_rate": 49.0,
+   "evaluated": 10831,
+   "hit_rate": 49.1,
    "avg_edge": 0.1
   },
   "d5": {
-   "evaluated": 10697,
-   "hit_rate": 49.8,
+   "evaluated": 10724,
+   "hit_rate": 49.7,
    "avg_edge": 0.09
   },
   "d20": {
@@ -50,8 +50,8 @@
    "avg_edge": null
   },
   "AAV": {
-   "evaluated": 498,
-   "hit_rate": 52.4,
+   "evaluated": 500,
+   "hit_rate": 52.2,
    "avg_edge": 0.35
   },
   "AMD": {
@@ -70,14 +70,14 @@
    "avg_edge": -0.08
   },
   "BBL": {
-   "evaluated": 440,
-   "hit_rate": 46.4,
+   "evaluated": 443,
+   "hit_rate": 46.0,
    "avg_edge": -0.07
   },
   "BCP": {
-   "evaluated": 496,
-   "hit_rate": 50.4,
-   "avg_edge": 0.07
+   "evaluated": 497,
+   "hit_rate": 50.3,
+   "avg_edge": 0.06
   },
   "COP": {
    "evaluated": 495,
@@ -85,14 +85,14 @@
    "avg_edge": -0.09
   },
   "CPF": {
-   "evaluated": 2,
+   "evaluated": 3,
    "hit_rate": 100.0,
-   "avg_edge": 1.58
+   "avg_edge": 1.07
   },
   "CPN": {
-   "evaluated": 440,
-   "hit_rate": 49.3,
-   "avg_edge": 0.03
+   "evaluated": 443,
+   "hit_rate": 49.0,
+   "avg_edge": 0.02
   },
   "CVX": {
    "evaluated": 495,
@@ -105,9 +105,9 @@
    "avg_edge": 0.18
   },
   "DELTA": {
-   "evaluated": 570,
-   "hit_rate": 56.7,
-   "avg_edge": 0.79
+   "evaluated": 574,
+   "hit_rate": 56.4,
+   "avg_edge": 0.77
   },
   "GLD": {
    "evaluated": 190,
@@ -125,9 +125,9 @@
    "avg_edge": -0.04
   },
   "KBANK": {
-   "evaluated": 440,
-   "hit_rate": 47.0,
-   "avg_edge": 0.02
+   "evaluated": 443,
+   "hit_rate": 46.7,
+   "avg_edge": 0.01
   },
   "KCE": {
    "evaluated": 128,
@@ -135,9 +135,9 @@
    "avg_edge": 0.45
   },
   "LH": {
-   "evaluated": 440,
-   "hit_rate": 48.4,
-   "avg_edge": -0.13
+   "evaluated": 443,
+   "hit_rate": 48.8,
+   "avg_edge": -0.11
   },
   "MSFT": {
    "evaluated": 439,
@@ -155,23 +155,23 @@
    "avg_edge": 0.61
   },
   "PTT": {
-   "evaluated": 496,
-   "hit_rate": 51.6,
-   "avg_edge": -0.0
+   "evaluated": 497,
+   "hit_rate": 51.7,
+   "avg_edge": 0.0
   },
   "PTTEP": {
-   "evaluated": 496,
-   "hit_rate": 52.4,
+   "evaluated": 497,
+   "hit_rate": 52.5,
    "avg_edge": 0.28
   },
   "SCB": {
-   "evaluated": 440,
-   "hit_rate": 45.9,
-   "avg_edge": -0.03
+   "evaluated": 443,
+   "hit_rate": 46.3,
+   "avg_edge": -0.02
   },
   "TOP": {
-   "evaluated": 496,
-   "hit_rate": 46.4,
+   "evaluated": 497,
+   "hit_rate": 46.5,
    "avg_edge": -0.12
   },
   "TSM": {
@@ -180,9 +180,9 @@
    "avg_edge": 0.59
   },
   "TU": {
-   "evaluated": 2,
+   "evaluated": 3,
    "hit_rate": 100.0,
-   "avg_edge": 2.35
+   "avg_edge": 1.97
   },
   "UAL": {
    "evaluated": 495,
@@ -242,14 +242,14 @@
    "total": 2720,
    "news": 272,
    "d1": {
-    "evaluated": 2705,
-    "hit_rate": 51.3,
+    "evaluated": 2710,
+    "hit_rate": 51.4,
     "avg_edge": 0.16
    },
    "d5": {
-    "evaluated": 2680,
+    "evaluated": 2685,
     "hit_rate": 51.5,
-    "avg_edge": 0.11
+    "avg_edge": 0.1
    },
    "d20": {
     "evaluated": 2660,
@@ -289,9 +289,9 @@
     "avg_edge": 0.03
    },
    "d5": {
-    "evaluated": 1366,
-    "hit_rate": 54.2,
-    "avg_edge": 0.21
+    "evaluated": 1384,
+    "hit_rate": 54.0,
+    "avg_edge": 0.2
    },
    "d20": {
     "evaluated": 1330,
@@ -326,8 +326,8 @@
    "total": 573,
    "news": 191,
    "d1": {
-    "evaluated": 570,
-    "hit_rate": 52.5,
+    "evaluated": 571,
+    "hit_rate": 52.4,
     "avg_edge": 0.12
    },
    "d5": {
@@ -352,9 +352,9 @@
     "avg_edge": 0.2
    },
    "d5": {
-    "evaluated": 4,
+    "evaluated": 8,
     "hit_rate": 75.0,
-    "avg_edge": 0.93
+    "avg_edge": 1.02
    },
    "d20": {
     "evaluated": 0,
@@ -365,12 +365,12 @@
    "name": "บาทอ่อน"
   },
   {
-   "total": 4,
-   "news": 1,
+   "total": 8,
+   "news": 2,
    "d1": {
-    "evaluated": 4,
+    "evaluated": 8,
     "hit_rate": 75.0,
-    "avg_edge": 1.69
+    "avg_edge": 0.69
    },
    "d5": {
     "evaluated": 4,

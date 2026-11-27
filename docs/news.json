@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T02:48:24Z",
+  "generated_at": "2026-11-27T12:05:02Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,52 +17,9 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 532
+  "total_kept": 555
  },
  "signals": [
-  {
-   "id": "tariff",
-   "name": "ภาษีนำเข้า/สงครามการค้า",
-   "count": 4,
-   "impacts": [
-    {
-     "effect": "ต้องจับตา",
-     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
-     "set": [
-      "DELTA",
-      "HANA",
-      "KCE",
-      "CPF",
-      "TU"
-     ],
-     "us": [
-      "AAPL",
-      "TSM"
-     ],
-     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
-     "link": "https://www.infoquest.co.th/2026/685536",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-25T14:49:36Z"
-    },
-    {
-     "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
-     "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
-     "source": "MarketWatch",
-     "published": "2026-11-25T14:14:00Z"
-    },
-    {
-     "title": "ทรัมป์เสนอขึ้นภาษีนำเข้า 14 ชาติคู่ค้า ‘ไทย‘ อยู่ในรายชื่อ",
-     "link": "https://www.prachachat.net/world/news-2102222",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-25T14:12:31Z"
-    }
-   ]
-  },
   {
    "id": "oil_up",
    "name": "น้ำมันขึ้น",
@@ -119,9 +76,52 @@
    ]
   },
   {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 3,
+   "impacts": [
+    {
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "💥*ด่วน!!! สหรัฐประกาศภาษีทรัมป์แล้ว เวียดนามอ่วม 35% ไทย-มาเลย์-อินโดฯ 18%",
+     "link": "https://www.infoquest.co.th/2026/685536",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-25T14:49:36Z"
+    },
+    {
+     "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
+     "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
+     "source": "MarketWatch",
+     "published": "2026-11-25T14:14:00Z"
+    },
+    {
+     "title": "ทรัมป์เสนอขึ้นภาษีนำเข้า 14 ชาติคู่ค้า ‘ไทย‘ อยู่ในรายชื่อ",
+     "link": "https://www.prachachat.net/world/news-2102222",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-25T14:12:31Z"
+    }
+   ]
+  },
+  {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 3,
+   "count": 2,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -172,12 +172,41 @@
      "link": "https://www.infoquest.co.th/2026/685564",
      "source": "อินโฟเควสท์",
      "published": "2026-11-25T23:34:31Z"
+    }
+   ]
+  },
+  {
+   "id": "baht_strong",
+   "name": "บาทแข็ง",
+   "count": 1,
+   "impacts": [
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "ผู้ส่งออก",
+     "set": [
+      "CPF",
+      "TU",
+      "DELTA"
+     ],
+     "us": [],
+     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้น้อยลง"
     },
     {
-     "title": "ทองร่วงอีกแล้ว! หลุด 3,600 เหรียญ ‘ทรัมป์’ ประกาศเก็บภาษี 16 ประเทศ จับตา PCE สหรัฐคืนนี้",
-     "link": "https://www.prachachat.net/finance/news-2101795",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-25T03:07:05Z"
+     "effect": "ได้ประโยชน์",
+     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+     "set": [
+      "AAV"
+     ],
+     "us": [],
+     "why": "ต้นทุนเป็นดอลลาร์ถูกลงเมื่อแปลงเป็นบาท"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ",
+     "link": "https://www.infoquest.co.th/2026/686723",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-27T10:57:07Z"
     }
    ]
   },
@@ -242,89 +271,62 @@
      "published": "2026-11-26T06:00:12Z"
     }
    ]
-  },
-  {
-   "id": "oil_down",
-   "name": "น้ำมันลง",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "พลังงาน/ปิโตรเลียม",
-     "set": [
-      "PTT",
-      "PTTEP",
-      "TOP",
-      "BCP"
-     ],
-     "us": [
-      "XOM",
-      "CVX",
-      "COP"
-     ],
-     "why": "ราคาน้ำมันต่ำลงกดรายได้ผู้ผลิต"
-    },
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "สายการบิน/ขนส่ง",
-     "set": [
-      "AAV"
-     ],
-     "us": [
-      "DAL",
-      "UAL"
-     ],
-     "why": "ต้นทุนน้ำมันเครื่องบินลดลง"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex เปิดบวก 1.21% รับเงินทุนต่างชาติไหลเข้า-น้ำมันอ่อนตัว",
-     "link": "https://www.infoquest.co.th/2026/685197",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-25T04:58:40Z"
-    }
-   ]
   }
  ],
  "stories": [
   {
    "id": "ai-chips",
    "name": "AI และชิป",
-   "count": 59,
+   "count": 60,
    "new_24h": 7,
-   "latest": "2026-11-27T02:27:21Z",
-   "latest_title": "‘กรุงศรี’ ลุ้น SET สร้างฐาน จับตาความเสี่ยงคุมส่งออกชิป ชู 3 ธีมหุ้นเด่นรับมือความผันผวน"
+   "latest": "2026-11-27T12:01:00Z",
+   "latest_title": "Nvidia’s stock has tumbled 27% over one chaotic month. The next big test lies in the week ahead"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 27,
+   "new_24h": 3,
+   "latest": "2026-11-27T10:27:02Z",
+   "latest_title": "AI มาแรง แต่คนยังสำคัญ เปิด 5 ทักษะทองคำที่องค์กรไทยต้องการปี’70"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 19,
+   "new_24h": 2,
+   "latest": "2026-11-27T10:57:07Z",
+   "latest_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ"
+  },
+  {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 23,
+   "new_24h": 2,
+   "latest": "2026-11-27T10:57:07Z",
+   "latest_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ"
   },
   {
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
-   "count": 28,
-   "new_24h": 4,
-   "latest": "2026-11-27T02:15:14Z",
-   "latest_title": "ภาวะตลาดหุ้นไทย: แนวโน้มดัชนีเช้าซึมต่อเซ่นพิษ Nvidia เบรกส่งชิป AI เสี่ยงลามกลุ่มแบงก์ ให้แนวรับ 1,400 น่าสะสม"
+   "count": 29,
+   "new_24h": 2,
+   "latest": "2026-11-27T10:48:37Z",
+   "latest_title": "หุ้นไทยดีดแรง 25.85 จุด รับส่งออกโตทะลุคาด สถาบันนำทีมซื้อ"
   },
   {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
    "count": 34,
-   "new_24h": 3,
+   "new_24h": 2,
    "latest": "2026-11-27T02:45:14Z",
    "latest_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ"
-  },
-  {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 18,
-   "new_24h": 2,
-   "latest": "2026-11-27T02:25:55Z",
-   "latest_title": "ภาวะตลาดเงินบาท: เงินบาทเปิด 34.05 ทรงตัวจากวานนี้ ตลาดสหรัฐฯปิด-จับตาดุลการค้าไทย"
   },
   {
    "id": "trade-war",
    "name": "สงครามการค้า สหรัฐ-จีน",
    "count": 25,
-   "new_24h": 2,
+   "new_24h": 1,
    "latest": "2026-11-27T02:03:11Z",
    "latest_title": "ตลาดหุ้นเอเชียเปิดบวก ขานรับหุ้นโลกฟื้นตัว นลท.เมินภาษีทรัมป์"
   },
@@ -332,25 +334,9 @@
    "id": "bot",
    "name": "แบงก์ชาติและดอกเบี้ยไทย",
    "count": 24,
-   "new_24h": 2,
+   "new_24h": 0,
    "latest": "2026-11-26T08:08:44Z",
    "latest_title": "แบงก์ชาติ เร่ง 3 มาตรการหนุน SME ปี’70 ดันสินเชื่อเติบโต"
-  },
-  {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 25,
-   "new_24h": 1,
-   "latest": "2026-11-27T02:45:00Z",
-   "latest_title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 21,
-   "new_24h": 1,
-   "latest": "2026-11-26T11:23:51Z",
-   "latest_title": "3 กูรูส่งสัญญาณเตือนเศรษฐกิจไทยโตต่ำศักยภาพ หนี้ครัวเรือนฉุด-แรงงานหด-เหลื่อมล้ำสูง"
   },
   {
    "id": "fed",
@@ -370,6 +356,485 @@
   }
  ],
  "items": [
+  {
+   "id": "261261737db7",
+   "title": "ดาวโจนส์ฟิวเจอร์/Nasdaq/S&P 500 พร้อมใจทะยาน ส่งสัญญาณวอลล์สตรีทพุ่งคืนนี้",
+   "link": "https://www.infoquest.co.th/2026/686750",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T12:01:39Z",
+   "summary": "ดัชนีดาวโจนส์ฟิวเจอร์พุ่งขึ้นกว่า 700 จุด ขณะที่ดัชนี Nasdaq ฟิวเจอร์ และ S&P ฟิวเจอร์ทะยานขึ้นเช่นกัน ส่งสัญญาณการดีดตัวขึ้นของตลาดหุ้นวอลล์สตรีทในคืนนี้ หลังมีการซื้อขายที่ผันผวนในสัปดาห์นี้ ณ The post ดาวโจนส์ฟิวเจอร์/Nasdaq/S&P 500 พร้…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "2ef5aa3739dc",
+   "title": "Stocks look like a Black Friday bargain. Read the fine print.",
+   "link": "https://www.marketwatch.com/story/stocks-look-like-a-black-friday-bargain-read-the-fine-print-b6546539?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T12:01:00Z",
+   "summary": "Analysts raised their profit forecasts for S&P 500 companies during the selloff. Plus, how to spot a bogus boutique and what Jensen Huang is doing in your 401(k).",
+   "image": "https://images.mktw.net/im-25984516",
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6f5ab273389f",
+   "title": "Nvidia’s stock has tumbled 27% over one chaotic month. The next big test lies in the week ahead",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-has-tumbled-27-over-one-chaotic-month-the-next-big-test-lies-in-the-week-ahead-06449777?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T12:01:00Z",
+   "summary": "Jensen Huang faces tough questions from Congress this week. Good luck pinning him down, an analyst says.",
+   "image": "https://images.mktw.net/im-62063935",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "3b1d5c3b8f8f",
+   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T11:15:00Z",
+   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+   "image": "https://images.mktw.net/im-78896707",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
+  {
+   "id": "aaf4d3739343",
+   "title": "คลัง เผยเศรษฐกิจภูมิภาค ต.ค.รับอานิสงส์สินค้าคงทน-รายได้เกษตรกร ท่องเที่ยวหนุนในอีสาน-ตะวันออก-กลาง แต่ความเชื่อมั่นยังแผ่ว",
+   "link": "https://www.infoquest.co.th/2026/686690",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T11:01:37Z",
+   "summary": "คลัง เผยเศรษฐกิจภูมิภาคเดือนต.ค. 69 มีปัจจัยสนับสนุนจากการบริโภคภาคเอกชนในหมวดสินค้าคงทนที่ยังคงขยายตัวในหลายภูมิภาค ขณะที่การท่องเที่ยวขยายตัวได้ ในภาคตะวันออกเฉียงเหนือ ภาคตะวันออก และภาคกลาง The post คลัง เผยเศรษฐกิจภูมิภาค ต.ค.รับอานิส…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "1db418f1aa36",
+   "title": "‘ทรัมป์’ เคาะภาษีไทย 18% แล้ว 25% มาจากไหน",
+   "link": "https://www.prachachat.net/world/news-2103522",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T11:00:00Z",
+   "summary": "ในรายงานของผู้แทนการค้าสหรัฐ USTR เสนอปรับภาษีมาตรา 301 ต่อไทยอัตราเดียว คืออัตราสูงสุดที่ 18% จากการเปิดสอบสวน “กำลังการผลิตล้นเกินเชิงโครงสร้าง” ในภาคอุตสาหกรรมการผลิตตั้งแต่เมื่อราว 8 เดือนที่แล้ว แต่มีตัวเลขอัตราภาษีที่อาจปรับขึ้น 25%…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/2026-11-23T224759Z_1849024897_RC2YTOAOB89N_RTRMADP_3_USA-TRUMP-DOJ-2.jpg",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "2c02f544cd6b",
+   "title": "คลัง เผยดัชนีเชื่อมั่นอนาคตเศรษฐกิจภูมิภาค พ.ย. 69 โตดีใน 6 เดือนข้างหน้า เด่นตะวันออก-อีสาน หนุนด้วยบริการ-อุตฯ",
+   "link": "https://www.infoquest.co.th/2026/686705",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T10:59:03Z",
+   "summary": "คลัง เผยดัชนีความเชื่อมั่นอนาคตเศรษฐกิจภูมิภาคประจำเดือนพ.ย. 69 สะท้อนแนวโน้มเศรษฐกิจภูมิภาคภายใน 6 เดือนข้างหน้าที่ขยายตัวได้ดี โดยเฉพาะในภาคตะวันออก และภาคตะวันออกเฉียงเหนือ ปัจจัยหนุนหลักจากภาคบริก The post คลัง เผยดัชนีเชื่อมั่นอนาคตเศ…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "economy",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "ff392c402777",
+   "title": "อัตราดอกเบี้ยเงินฝากของธนาคารพาณิชย์ ประจำวันที่ 27 พฤศจิกายน 2569",
+   "link": "https://www.infoquest.co.th/2026/686731",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T10:57:36Z",
+   "summary": "ธนาคาร ออมทรัพย์ ประจำ 3 เดือน ประจำ 6 เดือน ประจำ 12 เดือน ประจำ 24 เดือน ธนาคารพาณิชย์จดทะเบียนในประเทศ กรุงเทพ 0.2500 0.6500 0.6500 0.7500 0.9000 กรุงไทย 0.2500 0.6000 0.6500 0.7500 0.9000 The post อัตราดอกเบี้ยเงินฝากของธนาคารพาณิชย์ ป…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "monetary",
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d646054c24eb",
+   "title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ",
+   "link": "https://www.infoquest.co.th/2026/686723",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T10:57:07Z",
+   "summary": "นายจรณเวท ศักดิ์ศรี ผู้ช่วยกรรมการผู้จัดการ สายตราสารทุน บล.พาย กล่าวว่า การซื้อขาย SET50 Index Futures วันนี้ดีดขึ้นรับแรงซื้อกลับหุ้นใหญ่หนุนดัชนี รวมทั้งปัจจัยหนุนจากการรายงานตัวเลขส่งออกของไทยเดือ The post ภาวะตลาดอนุพันธ์: ปรับขึ้นขาน…",
+   "image": null,
+   "score": 11,
+   "categories": [
+    "economy",
+    "fx",
+    "stock_market"
+   ],
+   "signals": [
+    "baht_strong"
+   ],
+   "stories": [
+    "baht",
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "9790982cf45f",
+   "title": "Stocks are poised for a Friday jump — right into a $100 billion wave of automated selling, Goldman Sachs warns",
+   "link": "https://www.marketwatch.com/story/stocks-are-poised-for-a-friday-jump-right-into-a-100-billion-wave-of-automated-selling-goldman-sachs-warns-aba6440f?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T10:54:00Z",
+   "summary": "Goldman Sachs traders say one big bout of selling is left for stocks this year by some trend-following trend funds.",
+   "image": "https://images.mktw.net/im-86907245",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "4ceb49c6d8c5",
+   "title": "คลัง เผยเศรษฐกิจไทย ต.ค. 69 ส่งออก-เที่ยวในประเทศหนุน แม้นทท.ยังชะลอ",
+   "link": "https://www.infoquest.co.th/2026/686658",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T10:51:53Z",
+   "summary": "คลัง เผยสถานการณ์เศรษฐกิจไทย เดือนต.ค. 69 ได้รับปัจจัยหนุนจากการขยายตัวต่อเนื่องของการส่งออกสินค้าและการท่องเที่ยวภายในประเทศ อย่างไรก็ดี จำนวนนักท่องเที่ยวต่างประเทศยังคงชะลอตัว จับตาทิศทางการฟื้นตัว The post คลัง เผยเศรษฐกิจไทย ต.ค. 69 ส…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "41a69fe1812f",
+   "title": "หุ้นไทยดีดแรง 25.85 จุด รับส่งออกโตทะลุคาด สถาบันนำทีมซื้อ",
+   "link": "https://www.prachachat.net/finance/news-2103684",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T10:48:37Z",
+   "summary": "หุ้นไทยวันนี้ฟื้น 1.83% ปิดที่ 1,440.29 จุด รับส่งออกเดือน ต.ค. โต 27.5% สูงกว่าคาด แรงซื้อหุ้นอิเล็กทรอนิกส์-พลังงาน-แบงก์หนุนตลาด สถาบันในประเทศซื้อสุทธิ 975.48 ล้านบาท สวนทางรายย่อยขายกว่า 1 พันล้านบาท ผู้สื่อข่าวรายงานว่า ตลาดหุ้นไทยวั…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/09/stock-market.jpg",
+   "score": 11,
+   "categories": [
+    "stock_market",
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "95adeb853e5f",
+   "title": "This investment strategist is 100% in cash — and warns that buying the Nasdaq dip is like catching a falling knife",
+   "link": "https://www.marketwatch.com/story/this-investment-strategist-is-100-in-cash-and-warns-that-buying-the-nasdaq-dip-is-like-catching-a-falling-knife-64f5b233?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T10:37:00Z",
+   "summary": "Strategist Darius Dale’s model portfolios both turned bearish earlier in the fall, with concerns about an overheating economy, too-hot inflation and upward pressure on interest rates. At some point, the market will start to discount an eas…",
+   "image": "https://images.mktw.net/im-24398797",
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "bb6c79034c33",
+   "title": "The AI stock crash is mostly over, JPMorgan says — but a worse phase could be coming in 2027",
+   "link": "https://www.marketwatch.com/story/the-ai-stock-crash-is-mostly-over-jpmorgan-says-but-a-worse-phase-could-be-coming-in-2027-fa769fbd?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T10:32:00Z",
+   "summary": "The crash in artificial-intelligence stocks has just about run its course, but a worse phase could be in store for next year, say JPMorgan’s European quant team.",
+   "image": "https://images.mktw.net/im-43898462",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "9e5f2776ae58",
+   "title": "โผ 8 กองทุน RMF-Thai ESG รับมือตลาดผันผวน วางแผนภาษีส่งท้ายปี’69",
+   "link": "https://www.prachachat.net/finance/news-2103661",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T10:30:58Z",
+   "summary": "บล.บัวหลวง มองหุ้นโลกปรับฐานเปิดจังหวะสะสมลงทุนระยะยาว รับแนวโน้มกำไร บจ.สหรัฐ ปี 2570 โตสองหลัก คัด 8 กองทุน RMF-Thai ESG ลดหย่อนภาษีส่งท้ายปี 2569 พร้อมเปิดกลยุทธ์จัดพอร์ตหุ้น-ตราสารหนี้-ทองคำ ตามระดับความเสี่ยง นายเสริมศักดิ์ วงศ์สิทธิโ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-200.jpg",
+   "score": 3,
+   "categories": [],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "2de12a4611da",
+   "title": "AI มาแรง แต่คนยังสำคัญ เปิด 5 ทักษะทองคำที่องค์กรไทยต้องการปี’70",
+   "link": "https://www.prachachat.net/sd/sdplus-hr/news-2103526",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T10:27:02Z",
+   "summary": "เปิดรายงาน ‘Salary Survey 2027’ สำรวจนายจ้างและคนทำงานกว่า 2,000 ราย พบตลาดแรงงานไทยเผชิญภาวะขาดแคลนบุคลากรทักษะสูง 53% ของนายจ้างระบุว่าทักษะภาวะผู้นำและการบริหารคนเป็นทักษะที่หายากที่สุด มากกว่าทักษะ AI ถึง 2 เท่า ขณะที่คนทำงาน 73% มีแผ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/office-worker-work.png",
+   "score": 7,
+   "categories": [
+    "tech_ai",
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "76bd8725519a",
+   "title": "ธนาคารกรุงเทพ เพิ่มช่องทางชำระเงินสมทบประกันสังคมมาตรา 40 ผ่านโมบายแบงกิ้งธนาคาร",
+   "link": "https://www.prachachat.net/finance/news-2103634",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T10:00:00Z",
+   "summary": "ธนาคารกรุงเทพ เพิ่มช่องทางชำระเงินสมทบประกันสังคมมาตรา 40 ผ่านโมบายแบงกิ้งธนาคารกรุงเทพ เพิ่มความสะดวกให้แก่ผู้ประกอบอาชีพอิสระในระบบที่มีจำนวนถึง 10.99 ล้านคน นายพิพัฒน์ อัสสมงคล ผู้ช่วยผู้จัดการใหญ่ รับผิดชอบผลิตภัณฑ์ CASH MANAGEMENT และ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2024/11/Cover-photo-Logo-7.jpg",
+   "score": 4,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3a3dafbb4824",
+   "title": "‘ห้างทองสุวรรณพัฒนา’ รับโล่เกียรติคุณสมาคมค้าทองคำ พร้อมก้าวสู่ Digital Wealth เปิดตัวแอป ‘SWP Shop’",
+   "link": "https://www.prachachat.net/biz-movement/news-2103626",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T09:55:44Z",
+   "summary": "ห้างทองสุวรรณพัฒนา ฉลองตำนาน 96 ปี ก้าวสู่ Digital Wealth มาตรฐานค้าปลีกและค้าส่งระดับชาติ พร้อมเปิดตัวแอป ‘SWP Shop’ แพลตฟอร์ม ’ซื้อ-ขาย-ออม’ ทองคำครบวงจร พร้อมรับรับโล่และใบประกาศเกียรติคุณของสมาคมค้าทองคำ ตาม“โครงการส่งเสริมมาตรฐานผู้ค้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/01-5.jpg",
+   "score": 5,
+   "categories": [
+    "gold"
+   ],
+   "signals": [],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "42cdf87e0fce",
+   "title": "คลังชี้เศรษฐกิจเดือน ต.ค. 69 ได้แรงหนุนส่งออก จับตานโยบายการค้าสหรัฐ",
+   "link": "https://www.prachachat.net/finance/news-2103589",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T09:53:10Z",
+   "summary": "คลังชี้เศรษฐกิจเดือน ต.ค. ได้แรงหนุนส่งออกขยายตัว 27.5% นำเข้าสินค้าทุนพุ่ง 104.6% แต่ยอดนักท่องเที่ยวต่างชาติหดตัว 12.0% ตลาดการเงินในประเทศผันผวน โดยเฉพาะนักลงทุนต่างชาติในตลาดหุ้นไทย ต้องติดตามการฟื้นตัวเศรษฐกิจไทย นโยบายการค้าสหรัฐ ควา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Export-scaled.jpg",
+   "score": 12,
+   "categories": [
+    "economy",
+    "trade_geo",
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "f603b5967d60",
+   "title": "ยกระดับทุนมนุษย์ SME และเกษตรกรไทย สู่ขีดความสามารถใหม่ของประเทศ From Human Capital to National Competitiveness",
+   "link": "https://www.prachachat.net/sd/news-2103602",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T09:48:19Z",
+   "summary": "โดย ดร.ธีระพล ถนอมศักดิ์ยุทธ ประธานคณะกรรมการบริหาร พัฒนาผู้นำเชิงยุทธศาสตร์ สถาบันผู้นำเครือเจริญโภคภัณฑ์ และ ประธานคณะทำงานด้านการเกษตรและอาหารที่มีมูลค่าสูง ภายใต้คณะอนุกรรมการด้านการยกระดับทรัพยากรมนุษย์และการพัฒนาเทคโนโลยี กรอ. ความท้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__5709880-01-scaled.jpg",
+   "score": 3,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6bfb6c51615d",
+   "title": "SHR โชว์แกร่ง Q3/69 กำไรสุทธิโต 6% แตะ 136 ล้านบาท",
+   "link": "https://www.prachachat.net/biz-movement/public-relations/news-2103561",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T09:37:24Z",
+   "summary": "กรุงเทพฯ ประเทศไทย – บริษัท เอส โฮเทล แอนด์ รีสอร์ท จำกัด (มหาชน) (SET: SHR) ผู้นำด้านการลงทุนและบริหารธุรกิจโรงแรมและรีสอร์ตระดับนานาชาติในเครือ บริษัท สิงห์ เอสเตท จำกัด (มหาชน) (SET: S) ประกาศผลการดำเนินงาน ไตรมาส 3 ปี 2569 ด้วยรายได้จา…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__20758571.jpg",
+   "score": 4,
+   "categories": [
+    "earnings"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "57ad76c59b53",
+   "title": "โตโยต้า ปลื้ม 10 เดือน ส่งออก Toyota Hilux ทะลุ 1.9 แสนคัน",
+   "link": "https://www.prachachat.net/automotive/news-2103548",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T09:36:39Z",
+   "summary": "ตลาดรถยนต์ไทยขายรถ 10 เดือน ยอดพุ่ง 5.72 แสนคัน ลุ้นงานใหญ่ปลายปี ดันยอดพุ่ง ด้าน “โตโยต้า” ครองแชมป์ครองมาร์เก็ตแชร์ 33.03% ปลื้มส่งออก กระบะไฮลักซ์ กว่า 196,410 คัน นายศุภกร รัตนวราหะรองกรรมการผู้จัดการใหญ่ บริษัท โตโยต้า มอเตอร์ ประเทศ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/NZ8_0228-scaled.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3cc39cc236d3",
+   "title": "H3C ประเทศไทย โชว์โครงสร้างพื้นฐาน AI และเครือข่ายองค์กร ในงาน DigiTech ASEAN 2026",
+   "link": "https://www.prachachat.net/biz-movement/public-relations/news-2103477",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-27T09:00:16Z",
+   "summary": "H3C ประเทศไทย ร่วมงาน DigiTech ASEAN Thailand 2026 ในฐานะผู้สนับสนุนระดับแพลทินัมเพียงรายเดียวของงาน โดยนำเสนอโครงสร้างพื้นฐานสำหรับองค์กรที่กำลังวางแผนนำ AI มาใช้หรือขยายระบบไอทีเดิม ณ บูธ L18 ตั้งแต่ศูนย์ข้อมูลและเซิร์ฟเวอร์สำหรับประมวลผ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/162315_0.jpg",
+   "score": 4,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0554dcf41080",
+   "title": "Is the stock market open on Black Friday?",
+   "link": "https://www.marketwatch.com/story/is-the-stock-market-open-on-black-friday-0a735c45?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T05:01:00Z",
+   "summary": "Here’s how the day after Thanksgiving will affect trading on Wall Street",
+   "image": "https://images.mktw.net/im-39655594",
+   "score": 4,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
   {
    "id": "a1580692f75b",
    "title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
@@ -647,27 +1112,6 @@
    ],
    "signals": [],
    "stories": []
-  },
-  {
-   "id": "3b1d5c3b8f8f",
-   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-27T01:15:00Z",
-   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
-   "image": "https://images.mktw.net/im-78896707",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
   },
   {
    "id": "aed167976779",

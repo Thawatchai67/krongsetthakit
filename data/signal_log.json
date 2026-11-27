@@ -14,6 +14,19 @@
   "r5": -8.0,
   "x5": -4.86
  },
+ "baht_strong|AAV|2026-11-27": {
+  "signal": "baht_strong",
+  "signal_name": "บาทแข็ง",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-27",
+  "news_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ",
+  "news_link": "https://www.infoquest.co.th/2026/686723",
+  "r1": 2.99,
+  "x1": 1.54,
+  "base_date": "2026-11-26"
+ },
  "baht_strong|CPF|2026-11-14": {
   "signal": "baht_strong",
   "signal_name": "บาทแข็ง",
@@ -28,6 +41,19 @@
   "x1": -2.9,
   "r5": -6.28,
   "x5": -3.14
+ },
+ "baht_strong|CPF|2026-11-27": {
+  "signal": "baht_strong",
+  "signal_name": "บาทแข็ง",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-27",
+  "news_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ",
+  "news_link": "https://www.infoquest.co.th/2026/686723",
+  "r1": 0.79,
+  "x1": -0.66,
+  "base_date": "2026-11-26"
  },
  "baht_strong|DELTA|2026-11-14": {
   "signal": "baht_strong",
@@ -44,6 +70,19 @@
   "r5": -8.68,
   "x5": -5.55
  },
+ "baht_strong|DELTA|2026-11-27": {
+  "signal": "baht_strong",
+  "signal_name": "บาทแข็ง",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-27",
+  "news_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ",
+  "news_link": "https://www.infoquest.co.th/2026/686723",
+  "r1": 5.92,
+  "x1": 4.47,
+  "base_date": "2026-11-26"
+ },
  "baht_strong|TU|2026-11-14": {
   "signal": "baht_strong",
   "signal_name": "บาทแข็ง",
@@ -58,6 +97,19 @@
   "x1": -1.49,
   "r5": -4.1,
   "x5": -0.97
+ },
+ "baht_strong|TU|2026-11-27": {
+  "signal": "baht_strong",
+  "signal_name": "บาทแข็ง",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-27",
+  "news_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ",
+  "news_link": "https://www.infoquest.co.th/2026/686723",
+  "r1": 0.39,
+  "x1": -1.06,
+  "base_date": "2026-11-26"
  },
  "baht_weak|AAV|2026-11-19": {
   "signal": "baht_weak",
@@ -85,7 +137,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2100902",
   "r1": -1.45,
   "x1": -1.96,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": 0.0,
+  "x5": 0.81
  },
  "baht_weak|AAV|2026-11-26": {
   "signal": "baht_weak",
@@ -126,7 +180,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2100902",
   "r1": -1.03,
   "x1": -1.54,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": -0.77,
+  "x5": 0.04
  },
  "baht_weak|CPF|2026-11-26": {
   "signal": "baht_weak",
@@ -167,7 +223,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2100902",
   "r1": 1.44,
   "x1": 0.93,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": 3.17,
+  "x5": 3.98
  },
  "baht_weak|DELTA|2026-11-26": {
   "signal": "baht_weak",
@@ -208,7 +266,9 @@
   "news_link": "https://www.prachachat.net/finance/news-2100902",
   "r1": 0.39,
   "x1": -0.12,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": 0.39,
+  "x5": 1.2
  },
  "baht_weak|TU|2026-11-26": {
   "signal": "baht_weak",
@@ -3652,7 +3712,9 @@
   "date": "2026-11-27",
   "news_title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
   "news_link": "https://www.infoquest.co.th/2026/686282",
-  "base_date": "2026-11-26"
+  "base_date": "2026-11-26",
+  "r1": 1.15,
+  "x1": -0.3
  },
  "gold_up|GLD|2023-10-02": {
   "signal": "gold_up",
@@ -56455,7 +56517,9 @@
   "news_link": "https://www.infoquest.co.th/2026/684092",
   "r1": -1.45,
   "x1": -1.96,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": 0.0,
+  "x5": 0.81
  },
  "oil_up|AAV|2026-11-24": {
   "signal": "oil_up",
@@ -56492,7 +56556,9 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-26"
+  "base_date": "2026-11-26",
+  "r1": 2.99,
+  "x1": 1.54
  },
  "oil_up|BCP|2023-09-15": {
   "signal": "oil_up",
@@ -61323,7 +61389,9 @@
   "news_link": "https://www.infoquest.co.th/2026/684092",
   "r1": 2.37,
   "x1": 1.86,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": -8.06,
+  "x5": -7.25
  },
  "oil_up|BCP|2026-11-24": {
   "signal": "oil_up",
@@ -61360,7 +61428,9 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-26"
+  "base_date": "2026-11-26",
+  "r1": -0.77,
+  "x1": -2.22
  },
  "oil_up|COP|2023-09-15": {
   "signal": "oil_up",
@@ -80789,7 +80859,9 @@
   "news_link": "https://www.infoquest.co.th/2026/684092",
   "r1": -1.39,
   "x1": -1.89,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": 0.35,
+  "x5": 1.16
  },
  "oil_up|PTTEP|2026-11-24": {
   "signal": "oil_up",
@@ -80826,7 +80898,9 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-26"
+  "base_date": "2026-11-26",
+  "r1": 2.12,
+  "x1": 0.67
  },
  "oil_up|PTT|2023-09-15": {
   "signal": "oil_up",
@@ -85657,7 +85731,9 @@
   "news_link": "https://www.infoquest.co.th/2026/684092",
   "r1": 0.0,
   "x1": -0.51,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": 0.53,
+  "x5": 1.34
  },
  "oil_up|PTT|2026-11-24": {
   "signal": "oil_up",
@@ -85694,7 +85770,9 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-26"
+  "base_date": "2026-11-26",
+  "r1": 1.62,
+  "x1": 0.17
  },
  "oil_up|TOP|2023-09-15": {
   "signal": "oil_up",
@@ -90525,7 +90603,9 @@
   "news_link": "https://www.infoquest.co.th/2026/684092",
   "r1": 0.0,
   "x1": -0.51,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": -0.45,
+  "x5": 0.36
  },
  "oil_up|TOP|2026-11-24": {
   "signal": "oil_up",
@@ -90562,7 +90642,9 @@
   "date": "2026-11-27",
   "news_title": "ราคาน้ำมันดิบปรับเพิ่ม จากความไม่แน่นอนของการเดินเรือผ่านช่องแคบฮอร์มุซ",
   "news_link": "https://www.prachachat.net/economic/news-2103023",
-  "base_date": "2026-11-26"
+  "base_date": "2026-11-26",
+  "r1": 2.76,
+  "x1": 1.32
  },
  "oil_up|UAL|2023-09-15": {
   "signal": "oil_up",
@@ -159799,7 +159881,9 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20",
   "r1": -0.55,
-  "x1": -1.06
+  "x1": -1.06,
+  "r5": -0.83,
+  "x5": -0.02
  },
  "rate_hike|BBL|2026-11-22": {
   "signal": "rate_hike",
@@ -159812,7 +159896,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20",
   "r1": -0.55,
-  "x1": -1.06
+  "x1": -1.06,
+  "r5": -0.83,
+  "x5": -0.02
  },
  "rate_hike|BBL|2026-11-23": {
   "signal": "rate_hike",
@@ -159825,7 +159911,9 @@
   "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
   "r1": -0.55,
   "x1": -1.06,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": -0.83,
+  "x5": -0.02
  },
  "rate_hike|BBL|2026-11-24": {
   "signal": "rate_hike",
@@ -162331,7 +162419,9 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20",
   "r1": -0.39,
-  "x1": -0.9
+  "x1": -0.9,
+  "r5": -0.39,
+  "x5": 0.42
  },
  "rate_hike|CPN|2026-11-22": {
   "signal": "rate_hike",
@@ -162344,7 +162434,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20",
   "r1": -0.39,
-  "x1": -0.9
+  "x1": -0.9,
+  "r5": -0.39,
+  "x5": 0.42
  },
  "rate_hike|CPN|2026-11-23": {
   "signal": "rate_hike",
@@ -162357,7 +162449,9 @@
   "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
   "r1": -0.39,
   "x1": -0.9,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": -0.39,
+  "x5": 0.42
  },
  "rate_hike|CPN|2026-11-24": {
   "signal": "rate_hike",
@@ -164863,7 +164957,9 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20",
   "r1": 1.44,
-  "x1": 0.93
+  "x1": 0.93,
+  "r5": 3.17,
+  "x5": 3.98
  },
  "rate_hike|DELTA|2026-11-22": {
   "signal": "rate_hike",
@@ -164876,7 +164972,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20",
   "r1": 1.44,
-  "x1": 0.93
+  "x1": 0.93,
+  "r5": 3.17,
+  "x5": 3.98
  },
  "rate_hike|DELTA|2026-11-23": {
   "signal": "rate_hike",
@@ -164889,7 +164987,9 @@
   "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
   "r1": 1.44,
   "x1": 0.93,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": 3.17,
+  "x5": 3.98
  },
  "rate_hike|DELTA|2026-11-24": {
   "signal": "rate_hike",
@@ -169923,7 +170023,9 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20",
   "r1": 0.8,
-  "x1": 0.3
+  "x1": 0.3,
+  "r5": -1.2,
+  "x5": -0.4
  },
  "rate_hike|KBANK|2026-11-22": {
   "signal": "rate_hike",
@@ -169936,7 +170038,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20",
   "r1": 0.8,
-  "x1": 0.3
+  "x1": 0.3,
+  "r5": -1.2,
+  "x5": -0.4
  },
  "rate_hike|KBANK|2026-11-23": {
   "signal": "rate_hike",
@@ -169949,7 +170053,9 @@
   "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
   "r1": 0.8,
   "x1": 0.3,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": -1.2,
+  "x5": -0.4
  },
  "rate_hike|KBANK|2026-11-24": {
   "signal": "rate_hike",
@@ -172455,7 +172561,9 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20",
   "r1": 0.0,
-  "x1": -0.51
+  "x1": -0.51,
+  "r5": -3.41,
+  "x5": -2.6
  },
  "rate_hike|LH|2026-11-22": {
   "signal": "rate_hike",
@@ -172468,7 +172576,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20",
   "r1": 0.0,
-  "x1": -0.51
+  "x1": -0.51,
+  "r5": -3.41,
+  "x5": -2.6
  },
  "rate_hike|LH|2026-11-23": {
   "signal": "rate_hike",
@@ -172481,7 +172591,9 @@
   "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
   "r1": 0.0,
   "x1": -0.51,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": -3.41,
+  "x5": -2.6
  },
  "rate_hike|LH|2026-11-24": {
   "signal": "rate_hike",
@@ -180043,7 +180155,9 @@
   "news_link": "https://www.marketwatch.com/story/the-fed-is-too-busy-fighting-inflation-to-rescue-the-stock-market-11dda598?mod=mw_rss_topstories",
   "base_date": "2026-11-20",
   "r1": 0.66,
-  "x1": 0.15
+  "x1": 0.15,
+  "r5": 0.33,
+  "x5": 1.14
  },
  "rate_hike|SCB|2026-11-22": {
   "signal": "rate_hike",
@@ -180056,7 +180170,9 @@
   "news_link": "https://www.infoquest.co.th/2026/683660",
   "base_date": "2026-11-20",
   "r1": 0.66,
-  "x1": 0.15
+  "x1": 0.15,
+  "r5": 0.33,
+  "x5": 1.14
  },
  "rate_hike|SCB|2026-11-23": {
   "signal": "rate_hike",
@@ -180069,7 +180185,9 @@
   "news_link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
   "r1": 0.66,
   "x1": 0.15,
-  "base_date": "2026-11-20"
+  "base_date": "2026-11-20",
+  "r5": 0.33,
+  "x5": 1.14
  },
  "rate_hike|SCB|2026-11-24": {
   "signal": "rate_hike",
@@ -201198,7 +201316,9 @@
   "news_link": "https://www.prachachat.net/columns/news-2099740",
   "base_date": "2026-11-20",
   "r1": -1.03,
-  "x1": -1.54
+  "x1": -1.54,
+  "r5": -0.77,
+  "x5": 0.04
  },
  "tariff|CPF|2026-11-25": {
   "signal": "tariff",
@@ -211750,7 +211870,9 @@
   "news_link": "https://www.prachachat.net/columns/news-2099740",
   "base_date": "2026-11-20",
   "r1": 1.44,
-  "x1": 0.93
+  "x1": 0.93,
+  "r5": 3.17,
+  "x5": 3.98
  },
  "tariff|DELTA|2026-11-25": {
   "signal": "tariff",
@@ -222302,7 +222424,9 @@
   "news_link": "https://www.prachachat.net/columns/news-2099740",
   "base_date": "2026-11-20",
   "r1": 4.36,
-  "x1": 3.85
+  "x1": 3.85,
+  "r5": 4.13,
+  "x5": 4.94
  },
  "tariff|HANA|2026-11-25": {
   "signal": "tariff",
@@ -232854,7 +232978,9 @@
   "news_link": "https://www.prachachat.net/columns/news-2099740",
   "base_date": "2026-11-20",
   "r1": 4.95,
-  "x1": 4.44
+  "x1": 4.44,
+  "r5": 9.9,
+  "x5": 10.71
  },
  "tariff|KCE|2026-11-25": {
   "signal": "tariff",
@@ -253957,7 +254083,9 @@
   "news_link": "https://www.prachachat.net/columns/news-2099740",
   "base_date": "2026-11-20",
   "r1": 0.39,
-  "x1": -0.12
+  "x1": -0.12,
+  "r5": 0.39,
+  "x5": 1.2
  },
  "tariff|TU|2026-11-25": {
   "signal": "tariff",
