@@ -5877,6 +5877,17 @@
   "r1": 1.15,
   "x1": -0.3
  },
+ "gold_up|AURA|2026-11-28": {
+  "signal": "gold_up",
+  "signal_name": "ทองคำขึ้น",
+  "ticker": "AURA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดบวก 89.51 จุด รับแรงซื้อหุ้นเหมืองแร่-ธนาคาร",
+  "news_link": "https://www.infoquest.co.th/2026/686788",
+  "base_date": "2026-11-27"
+ },
  "gold_up|GLD|2021-12-31": {
   "signal": "gold_up",
   "signal_name": "ทองคำขึ้น",
@@ -12136,6 +12147,17 @@
   "r1": 2.12,
   "x1": 0.53
  },
+ "gold_up|GLD|2026-11-28": {
+  "signal": "gold_up",
+  "signal_name": "ทองคำขึ้น",
+  "ticker": "GLD",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดบวก 89.51 จุด รับแรงซื้อหุ้นเหมืองแร่-ธนาคาร",
+  "news_link": "https://www.infoquest.co.th/2026/686788",
+  "base_date": "2026-11-27"
+ },
  "gold_up|NEM|2021-12-31": {
   "signal": "gold_up",
   "signal_name": "ทองคำขึ้น",
@@ -18394,6 +18416,17 @@
   "base_date": "2026-11-25",
   "r1": 5.35,
   "x1": 3.76
+ },
+ "gold_up|NEM|2026-11-28": {
+  "signal": "gold_up",
+  "signal_name": "ทองคำขึ้น",
+  "ticker": "NEM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดบวก 89.51 จุด รับแรงซื้อหุ้นเหมืองแร่-ธนาคาร",
+  "news_link": "https://www.infoquest.co.th/2026/686788",
+  "base_date": "2026-11-27"
  },
  "oil_down|AAV|2021-09-29": {
   "signal": "oil_down",
@@ -237694,6 +237727,17 @@
   "r1": 1.09,
   "x1": -0.51
  },
+ "rate_hike|BAC|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BAC",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
+ },
  "rate_hike|BBL|2022-01-04": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -244155,6 +244199,17 @@
   "r1": -0.28,
   "x1": 0.64,
   "base_date": "2026-11-25"
+ },
+ "rate_hike|BBL|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "BBL",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
  },
  "rate_hike|CPN|2022-01-04": {
   "signal": "rate_hike",
@@ -250618,6 +250673,17 @@
   "x1": 0.14,
   "base_date": "2026-11-25"
  },
+ "rate_hike|CPN|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "CPN",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
+ },
  "rate_hike|DELTA|2022-01-04": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -257080,6 +257146,17 @@
   "x1": 0.04,
   "base_date": "2026-11-25"
  },
+ "rate_hike|DELTA|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
+ },
  "rate_hike|JPM|2022-01-04": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -263535,6 +263612,17 @@
   "base_date": "2026-11-25",
   "r1": 1.96,
   "x1": 0.37
+ },
+ "rate_hike|JPM|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "JPM",
+  "market": "US",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
  },
  "rate_hike|KBANK|2022-01-04": {
   "signal": "rate_hike",
@@ -269998,6 +270086,17 @@
   "x1": -0.7,
   "base_date": "2026-11-25"
  },
+ "rate_hike|KBANK|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "KBANK",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
+ },
  "rate_hike|LH|2022-01-04": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -276460,6 +276559,17 @@
   "x1": -2.49,
   "base_date": "2026-11-25"
  },
+ "rate_hike|LH|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "LH",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
+ },
  "rate_hike|MSFT|2022-01-04": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -282915,6 +283025,17 @@
   "base_date": "2026-11-25",
   "r1": 0.6,
   "x1": -1.0
+ },
+ "rate_hike|MSFT|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "MSFT",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
  },
  "rate_hike|NVDA|2022-01-04": {
   "signal": "rate_hike",
@@ -289372,6 +289493,17 @@
   "r1": 0.8,
   "x1": -0.8
  },
+ "rate_hike|NVDA|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "NVDA",
+  "market": "US",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
+ },
  "rate_hike|SCB|2022-01-04": {
   "signal": "rate_hike",
   "signal_name": "ขึ้นดอกเบี้ย",
@@ -295553,6 +295685,17 @@
   "r1": -0.33,
   "x1": 0.59,
   "base_date": "2026-11-25"
+ },
+ "rate_hike|SCB|2026-11-28": {
+  "signal": "rate_hike",
+  "signal_name": "ขึ้นดอกเบี้ย",
+  "ticker": "SCB",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+  "news_link": "https://www.infoquest.co.th/2026/686784",
+  "base_date": "2026-11-27"
  },
  "tariff|AAPL|2021-12-28": {
   "signal": "tariff",
@@ -307456,6 +307599,17 @@
   "r1": -2.27,
   "x1": 0.37,
   "base_date": "2026-11-24"
+ },
+ "tariff|AAPL|2026-11-28": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "AAPL",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-28",
+  "news_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+  "news_link": "https://www.prachachat.net/automotive/news-2103127",
+  "base_date": "2026-11-27"
  },
  "tariff|CPF|2021-12-28": {
   "signal": "tariff",
@@ -319361,6 +319515,17 @@
   "x1": 1.06,
   "base_date": "2026-11-24"
  },
+ "tariff|CPF|2026-11-28": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-28",
+  "news_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+  "news_link": "https://www.prachachat.net/automotive/news-2103127",
+  "base_date": "2026-11-27"
+ },
  "tariff|DELTA|2021-12-28": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -331264,6 +331429,17 @@
   "r1": -3.67,
   "x1": -2.36,
   "base_date": "2026-11-24"
+ },
+ "tariff|DELTA|2026-11-28": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-28",
+  "news_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+  "news_link": "https://www.prachachat.net/automotive/news-2103127",
+  "base_date": "2026-11-27"
  },
  "tariff|HANA|2021-12-28": {
   "signal": "tariff",
@@ -343169,6 +343345,17 @@
   "x1": -3.03,
   "base_date": "2026-11-24"
  },
+ "tariff|HANA|2026-11-28": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "HANA",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-28",
+  "news_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+  "news_link": "https://www.prachachat.net/automotive/news-2103127",
+  "base_date": "2026-11-27"
+ },
  "tariff|KCE|2021-12-28": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -355073,6 +355260,17 @@
   "x1": -0.09,
   "base_date": "2026-11-24"
  },
+ "tariff|KCE|2026-11-28": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "KCE",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-28",
+  "news_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+  "news_link": "https://www.prachachat.net/automotive/news-2103127",
+  "base_date": "2026-11-27"
+ },
  "tariff|TSM|2021-12-28": {
   "signal": "tariff",
   "signal_name": "ภาษีนำเข้า/สงครามการค้า",
@@ -366975,6 +367173,17 @@
   "r1": -6.75,
   "x1": -4.1,
   "base_date": "2026-11-24"
+ },
+ "tariff|TSM|2026-11-28": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TSM",
+  "market": "US",
+  "effect": "watch",
+  "date": "2026-11-28",
+  "news_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+  "news_link": "https://www.prachachat.net/automotive/news-2103127",
+  "base_date": "2026-11-27"
  },
  "tariff|TU|2021-12-28": {
   "signal": "tariff",
@@ -378879,6 +379088,17 @@
   "r1": -0.76,
   "x1": 0.56,
   "base_date": "2026-11-24"
+ },
+ "tariff|TU|2026-11-28": {
+  "signal": "tariff",
+  "signal_name": "ภาษีนำเข้า/สงครามการค้า",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "watch",
+  "date": "2026-11-28",
+  "news_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+  "news_link": "https://www.prachachat.net/automotive/news-2103127",
+  "base_date": "2026-11-27"
  },
  "tech_rally|AMD|2021-12-28": {
   "signal": "tech_rally",

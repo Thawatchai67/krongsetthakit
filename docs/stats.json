@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T02:15:32Z",
+ "generated_at": "2026-11-28T03:52:38Z",
  "since": "2021-09-26",
  "by_year": {
   "2021": {
@@ -35,8 +35,8 @@
  },
  "backfill": 21771,
  "overall": {
-  "total": 22123,
-  "news": 2661,
+  "total": 22143,
+  "news": 2664,
   "d1": {
    "evaluated": 17330,
    "hit_rate": 50.3,
@@ -228,8 +228,8 @@
    "name": "น้ำมันขึ้น"
   },
   {
-   "total": 4641,
-   "news": 663,
+   "total": 4648,
+   "news": 664,
    "d1": {
     "evaluated": 0,
     "hit_rate": null,
@@ -270,8 +270,8 @@
    "name": "น้ำมันลง"
   },
   {
-   "total": 3610,
-   "news": 361,
+   "total": 3620,
+   "news": 362,
    "d1": {
     "evaluated": 3570,
     "hit_rate": 48.2,
@@ -312,8 +312,8 @@
    "name": "ลดดอกเบี้ย"
   },
   {
-   "total": 1044,
-   "news": 348,
+   "total": 1047,
+   "news": 349,
    "d1": {
     "evaluated": 949,
     "hit_rate": 51.4,

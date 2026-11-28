@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T21:13:05Z",
+  "generated_at": "2026-11-28T03:52:10Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,7 +17,7 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 566
+  "total_kept": 581
  },
  "signals": [
   {
@@ -78,7 +78,7 @@
   {
    "id": "gold_up",
    "name": "ทองคำขึ้น",
-   "count": 2,
+   "count": 4,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -95,23 +95,60 @@
    ],
    "evidence": [
     {
+     "title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดบวก 89.51 จุด รับแรงซื้อหุ้นเหมืองแร่-ธนาคาร",
+     "link": "https://www.infoquest.co.th/2026/686788",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-28T01:26:00Z"
+    },
+    {
+     "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดพุ่ง 2.9% จากแรงซื้อเก็งกำไร",
+     "link": "https://www.infoquest.co.th/2026/686782",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-28T00:12:05Z"
+    },
+    {
      "title": "ราคาทองพุ่งกว่า 100 ดอลล์ ทะลุ $3,600 หลังทำนิวโลว์รอบกว่า 1 ปี",
      "link": "https://www.infoquest.co.th/2026/686755",
      "source": "อินโฟเควสท์",
      "published": "2026-11-27T12:28:05Z"
-    },
+    }
+   ]
+  },
+  {
+   "id": "tariff",
+   "name": "ภาษีนำเข้า/สงครามการค้า",
+   "count": 1,
+   "impacts": [
     {
-     "title": "ราคาทองดีดขึ้นบาทละ 650 รับบอนด์ยีลด์สหรัฐฯ ร่วง แม้ทองโลกย่อตัวตามดอลลาร์แข็งค่า",
-     "link": "https://www.infoquest.co.th/2026/686282",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-27T02:45:00Z"
+     "effect": "ต้องจับตา",
+     "sector": "ผู้ส่งออก/ห่วงโซ่อุปทานโลก",
+     "set": [
+      "DELTA",
+      "HANA",
+      "KCE",
+      "CPF",
+      "TU"
+     ],
+     "us": [
+      "AAPL",
+      "TSM"
+     ],
+     "why": "ภาษีและข้อจำกัดการค้ากระทบต้นทุนและความต้องการสินค้า"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+     "link": "https://www.prachachat.net/automotive/news-2103127",
+     "source": "ประชาชาติธุรกิจ",
+     "published": "2026-11-28T01:45:00Z"
     }
    ]
   },
   {
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย",
-   "count": 2,
+   "count": 1,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -152,16 +189,10 @@
    ],
    "evidence": [
     {
-     "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย",
-     "link": "https://www.infoquest.co.th/2026/685577",
+     "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+     "link": "https://www.infoquest.co.th/2026/686784",
      "source": "อินโฟเควสท์",
-     "published": "2026-11-26T00:01:57Z"
-    },
-    {
-     "title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดลบ 1% กังวลดอกเบี้ยขาขึ้น-นโยบายภาษีสหรัฐฯ ฉุดความเชื่อมั่น",
-     "link": "https://www.infoquest.co.th/2026/685564",
-     "source": "อินโฟเควสท์",
-     "published": "2026-11-25T23:34:31Z"
+     "published": "2026-11-28T00:43:58Z"
     }
    ]
   },
@@ -268,42 +299,58 @@
  ],
  "stories": [
   {
-   "id": "ai-chips",
-   "name": "AI และชิป",
-   "count": 61,
-   "new_24h": 7,
-   "latest": "2026-11-27T20:16:00Z",
-   "latest_title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia"
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 30,
+   "new_24h": 5,
+   "latest": "2026-11-28T01:26:00Z",
+   "latest_title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดบวก 89.51 จุด รับแรงซื้อหุ้นเหมืองแร่-ธนาคาร"
   },
   {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
    "count": 37,
-   "new_24h": 6,
+   "new_24h": 4,
    "latest": "2026-11-27T17:32:25Z",
    "latest_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด"
   },
   {
-   "id": "gold",
-   "name": "ราคาทองคำ",
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 24,
+   "new_24h": 3,
+   "latest": "2026-11-28T01:31:24Z",
+   "latest_title": "ผ่าโจทย์ใหญ่เศรษฐกิจไทยปี’70 ‘แสนสิริ’ การ์ดสูง-รีดไขมัน"
+  },
+  {
+   "id": "ai-chips",
+   "name": "AI และชิป",
+   "count": 61,
+   "new_24h": 3,
+   "latest": "2026-11-27T23:30:00Z",
+   "latest_title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?"
+  },
+  {
+   "id": "trade-war",
+   "name": "สงครามการค้า สหรัฐ-จีน",
+   "count": 26,
+   "new_24h": 1,
+   "latest": "2026-11-28T01:45:00Z",
+   "latest_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน"
+  },
+  {
+   "id": "fed",
+   "name": "เฟดและดอกเบี้ยสหรัฐ",
    "count": 28,
-   "new_24h": 4,
-   "latest": "2026-11-27T12:28:05Z",
-   "latest_title": "ราคาทองพุ่งกว่า 100 ดอลล์ ทะลุ $3,600 หลังทำนิวโลว์รอบกว่า 1 ปี"
+   "new_24h": 1,
+   "latest": "2026-11-28T00:43:58Z",
+   "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง"
   },
   {
    "id": "baht",
    "name": "ทิศทางเงินบาท",
    "count": 19,
-   "new_24h": 2,
-   "latest": "2026-11-27T10:57:07Z",
-   "latest_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ"
-  },
-  {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 23,
-   "new_24h": 2,
+   "new_24h": 1,
    "latest": "2026-11-27T10:57:07Z",
    "latest_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ"
   },
@@ -311,17 +358,9 @@
    "id": "thai-market",
    "name": "ตลาดหุ้นไทย",
    "count": 29,
-   "new_24h": 2,
+   "new_24h": 1,
    "latest": "2026-11-27T10:48:37Z",
    "latest_title": "หุ้นไทยดีดแรง 25.85 จุด รับส่งออกโตทะลุคาด สถาบันนำทีมซื้อ"
-  },
-  {
-   "id": "trade-war",
-   "name": "สงครามการค้า สหรัฐ-จีน",
-   "count": 25,
-   "new_24h": 1,
-   "latest": "2026-11-27T02:03:11Z",
-   "latest_title": "ตลาดหุ้นเอเชียเปิดบวก ขานรับหุ้นโลกฟื้นตัว นลท.เมินภาษีทรัมป์"
   },
   {
    "id": "bot",
@@ -330,14 +369,6 @@
    "new_24h": 0,
    "latest": "2026-11-26T08:08:44Z",
    "latest_title": "แบงก์ชาติ เร่ง 3 มาตรการหนุน SME ปี’70 ดันสินเชื่อเติบโต"
-  },
-  {
-   "id": "fed",
-   "name": "เฟดและดอกเบี้ยสหรัฐ",
-   "count": 27,
-   "new_24h": 0,
-   "latest": "2026-11-26T00:01:57Z",
-   "latest_title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดลบใกล้ต่ำสุดรอบกว่า 1 ปี นักลงทุนกังวลเฟดขึ้นดอกเบี้ย"
   },
   {
    "id": "thai-us-china",
@@ -349,6 +380,332 @@
   }
  ],
  "items": [
+  {
+   "id": "8e7e234f6386",
+   "title": "‘อนุทิน’ เปิดเบื้องหลัง ‘ดีลภาษีสหรัฐ 18%’ เขียนจดหมายยื่นใส่มือ ‘ทรัมป์’ ขอเว้นภาษีสินค้าสำคัญไทย",
+   "link": "https://www.prachachat.net/politics/news-2103879",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T03:35:12Z",
+   "summary": "นายกฯ เปิดเบื้องหลัง ‘ดีลภาษีสหรัฐ’ 18% เขียนจดหมายด้วยลายมือยื่นตรงถึง ‘ทรัมป์’ ขอเว้นภาษีสินค้าสำคัญไทย ข้าวหอมมะลิ-ข้าวโพด ปัดหมกเม็ดการเจรจา นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และ รมว.มหาดไทย เปิดเผยผ่านรายการ “คุยกับนายกฯ อ … อ่านข่าวต้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/20261117195429_9820-1.jpg",
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "0c8c74f114d2",
+   "title": "ยกระดับคุมเข้ม!! นายกฯ สั่ง DSI รับรง.ขยะพิษเป็นคดีพิเศษ ไล่เส้นทุจริต/ห้ามส่งออกสารเคมีทำเหมือง",
+   "link": "https://www.infoquest.co.th/2026/686797",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T03:26:50Z",
+   "summary": "นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและรมว.มหาดไทย เปิดเผยผ่านรายการ “คุยกับนายกฯ อนุทิน” ถึงการตรวจสอบโรงงานกำจัดขยะอิเล็กทรอนิกส์ในจังหวัดปราจีนบุรี กล่าวว่า จากการลงพื้นที่พบขยะอิเล็กทรอนิกส์จำนวนมาก The post ยกระดับคุมเข้ม!! นายกฯ สั่ง DSI…",
+   "image": null,
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6e2ecaeb867b",
+   "title": "เล็งคลอดแผนห้ามส่งออก ‘สารตั้งต้นถลุงแร่’ 30 พ.ย. สกัดปัญหาสารพิษในแม่น้ำ",
+   "link": "https://www.prachachat.net/politics/news-2103870",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T03:23:16Z",
+   "summary": "‘อนุทิน’ เผยเตรียมออกมาตรการห้ามส่งออกสารเคมีสารตั้งต้นการถลุงแร่ ประมาณวันที่ 30 พ.ย.นี้ สกัดปัญหาแม่น้ำกก–สาย–รวก ชี้ตรวจโรงงานขยะอิเล็กทรอนิกส์ปราจีนฯ แย่กว่าที่คิด สั่งปิด–ดำเนินคดีผู้เกี่ยวข้อง ดึง DSI ไล่เส้นทุจริต นายอนุทิน ชาญวีรก…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/931537.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "c42a64d1534a",
+   "title": "บอร์ดมาตรฐานสินค้าเกษตรเคาะ 5 มาตรฐานใหม่ ดันอินทผลัม-พริกไทย-ไม้ล้อมรุกส่งออก",
+   "link": "https://www.prachachat.net/economic/news-2103863",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T03:09:36Z",
+   "summary": "“ปิยะรัฐชย์” นั่งหัวโต๊ะประชุมบอร์ดมาตรฐานสินค้าเกษตร เห็นชอบร่างมาตรฐานสินค้าเกษตร 5 เรื่อง ยกระดับคุณภาพอินทผลัม พริกไทย และไม้ล้อม รองรับตลาดส่งออกจีน ออสเตรเลีย และตะวันออกกลาง พร้อมอนุมัติหลักการดำเนินการกับทุเรียนแช่เยือกแข็งที่ถูกยึ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/3627513.jpg",
+   "score": 5,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "30a1f5090904",
+   "title": "“ปลัดพูนพงษ์” ติวเข้มทูตพาณิชย์ 58 แห่ง ชี้ข้อจำกัดงบประมาณขับเคลื่อนส่งออก",
+   "link": "https://www.prachachat.net/economic/news-2103848",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T02:50:41Z",
+   "summary": "“ปลัดพูนพงษ์” มอบนโยบายทูตพาณิชย์ 58 แห่งทั่วโลก เร่งทำตลาดเชิงรุก เปิดตลาดใหม่ ดันสินค้าไทยเข้าสู่ห่วงโซ่อุปทานประเทศคู่ค้า ชี้งบประมาณส่งเสริมการตลาดต่างประเทศยังมีข้อจำกัด หากได้รับการสนับสนุนเพิ่มจะช่วยผลักดันการส่งออกไทยให้เติบโตได้อี…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__192561229.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "89732b662ae7",
+   "title": "บอร์ดข้าวโพดเคาะนำเข้าปี’70 โควตา WTO 1 ล้านตัน ภาษี 0% คงเงื่อนไขซื้อในประเทศ 3:1",
+   "link": "https://www.prachachat.net/economic/news-2103841",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T02:44:48Z",
+   "summary": "นบขพ.เคาะมาตรการนำเข้าข้าวโพดเลี้ยงสัตว์และข้าวสาลีปี 2570 คงโควตา WTO 1 ล้านตัน ภาษี 0% นอกโควตาเก็บภาษี 73% พร้อมค่าธรรมเนียมพิเศษตันละ 180 บาท ส่วนกรอบ AFTA เปิดนำเข้าไม่จำกัดปริมาณ 1 ก.พ.-31 ส.ค. 2570 ย้ำข้าวโพดนำเข้าทุกกรอบต้องปลอดการ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Thai-Ministry-Press-Conference_-Corn-Grain-Backdrop.png",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "e8a9b071a28e",
+   "title": "สกัดเงินเทาฉุดยอดโอนอสังหาฯ ต่างชาติชะลอซื้อชงสิทธิเช่า 60 ปี",
+   "link": "https://www.prachachat.net/no1/news-2103739",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T02:28:49Z",
+   "summary": "เอฟเฟ็กต์แบงก์ชาติสกัดเงินเทา เขย่าตลาดอสังหาฯขายอืด แบกต้นทุน สภาพคล่อง “สมาคมบ้านจัดสรร” เรียกร้องธนาคารกำหนดเอกสาร ระยะเวลาให้ชัด คอนโดฯ ชลบุรีอ่วม ลูกค้าจีนหาย โอนช้าครึ่งปี “นายกอสังหาฯ ภูเก็ต” ชี้นักลงทุน Wait and See เบรกโปรเจ็กต์ให…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/P013011-2-1.jpg",
+   "score": 5,
+   "categories": [
+    "bank_property"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "a40207e0cd84",
+   "title": "รับมือพายุลงทุน 2027 เศรษฐกิจโลกเปลี่ยนทิศ จัดพอร์ตอย่างไรให้เติบโตระยะยาว",
+   "link": "https://www.prachachat.net/finance/news-2102821",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T02:05:00Z",
+   "summary": "ผู้เขียน : ตราวุทธิ์ เหลืองสมบูรณ์ประธานเจ้าหน้าที่บริหาร (CEO)บริษัทหลักทรัพย์จัดการกองทุน จิตตะ เวลธ์ จำกัด (Jitta Wealth) ช่วงปลายปี 2026 นี้ หนึ่งในเหตุการณ์ที่สร้างแรงสั่นสะเทือนให้กับแวดวงการลงทุนและเทคโนโลยีโลก คงหนีไม่พ้นกรณีของ “เ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Cover-192.jpg",
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "b5a9cc42659c",
+   "title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน",
+   "link": "https://www.prachachat.net/automotive/news-2103127",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T01:45:00Z",
+   "summary": "ฟอร์ดยืนยันนำเข้ารถ EV-REEV จากจีน FORD BRONCO เจาะกลุ่มลูกค้าไทย มั่นใจผลจากการปรับภาษีนำเข้า 35% ไม่สะเทือน แย้มมีลูกค้าลอยัลตี้รอ หวังขาย 400 คันเป็นอย่างน้อย ส่วนปีนี้คาดยอดขายตามเป้า 1.45 หมื่นคัน นายรัฐการ จูตะเสน กรรมการผู้จัดการ ฟอ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/17-1.jpg",
+   "score": 7,
+   "categories": [
+    "economy"
+   ],
+   "signals": [
+    "tariff"
+   ],
+   "stories": [
+    "trade-war"
+   ]
+  },
+  {
+   "id": "ee7096498b93",
+   "title": "ผ่าโจทย์ใหญ่เศรษฐกิจไทยปี’70 ‘แสนสิริ’ การ์ดสูง-รีดไขมัน",
+   "link": "https://www.prachachat.net/no1/news-2103678",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T01:31:24Z",
+   "summary": "บิ๊กธุรกิจผ่าโจทย์เศรษฐกิจปี’70 “ชาติศิริ-แบงก์กรุงเทพ” รับมือโลกผันผวน พร้อมคลื่นลงทุนใหญ่เข้าสู่ภูมิภาคอาเซียน ชี้ไทยต้องเร่งปรับตัว-ปรับเกมดึงดูดลงทุน ประเมินเศรษฐกิจปี 2570 ต้องบริหารความเสี่ยงดูแลลูกค้าอย่างใกล้ชิด CEO แสนสิริมองปีหน้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/Global-Trade-and-Investment-Growth.png",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-economy"
+   ]
+  },
+  {
+   "id": "be7dcdada7b0",
+   "title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดบวก 89.51 จุด รับแรงซื้อหุ้นเหมืองแร่-ธนาคาร",
+   "link": "https://www.infoquest.co.th/2026/686788",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T01:26:00Z",
+   "summary": "ตลาดหุ้นลอนดอนปิดบวกในวันศุกร์ (27 พ.ย.) และปรับตัวขึ้นรายสัปดาห์มากที่สุดในรอบประมาณ 8 เดือน โดยได้แรงหนุนจากหุ้นกลุ่มเหมืองแร่และธนาคาร หลังราคาทองแดงพุ่งขึ้น และนักลงทุนขานรับแผนของธนาคารกลางอังกฤษ The post ภาวะตลาดหุ้นลอนดอน: FTSE 100…",
+   "image": null,
+   "score": 14,
+   "categories": [
+    "stock_market",
+    "bank_property"
+   ],
+   "signals": [
+    "gold_up"
+   ],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "290e6cf0bfe2",
+   "title": "ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปปิดบวก 1% หุ้นเทคโนโลยี-เหมืองแร่หนุนตลาด จับตาเลือกตั้งสเปนวันอาทิตย์นี้",
+   "link": "https://www.infoquest.co.th/2026/686786",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T01:13:56Z",
+   "summary": "ตลาดหุ้นยุโรปปิดบวกที่ระดับสูงสุดในรอบ 1 สัปดาห์ในวันศุกร์ (27 พ.ย.) หลังราคาหุ้นปรับตัวขึ้นในวงกว้างทุกกลุ่มอุตสาหกรรม เนื่องจากนักลงทุนเข้าซื้อสินทรัพย์เสี่ยงมากขึ้น หลังจากตลาดเผชิญแรงเทขายอย่างหนั The post ภาวะตลาดหุ้นยุโรป: หุ้นยุโรปป…",
+   "image": null,
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "8813eb59c29b",
+   "title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง",
+   "link": "https://www.infoquest.co.th/2026/686784",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T00:43:58Z",
+   "summary": "ดอลลาร์สหรัฐแข็งค่าขึ้นเมื่อเทียบกับสกุลเงินหลักต่าง ๆ ในการซื้อขายที่ตลาดปริวรรตเงินตรานิวยอร์กในวันศุกร์ (27 พ.ย.) และปรับตัวขึ้น 0.2% ในรอบสัปดาห์นี้ แม้ตลาดหุ้นวอลล์สตรีทฟื้นตัวและช่วยหนุนความต้อง The post ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์…",
+   "image": null,
+   "score": 15,
+   "categories": [
+    "stock_market",
+    "monetary",
+    "fx"
+   ],
+   "signals": [
+    "rate_hike"
+   ],
+   "stories": [
+    "fed"
+   ]
+  },
+  {
+   "id": "0e40ea349f0c",
+   "title": "ภาวะตลาดทองคำนิวยอร์ก: ทองคำปิดพุ่ง 2.9% จากแรงซื้อเก็งกำไร",
+   "link": "https://www.infoquest.co.th/2026/686782",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T00:12:05Z",
+   "summary": "สัญญาทองคำตลาดนิวยอร์กปิดพุ่งขึ้นในวันศุกร์ (27 พ.ย.) แต่ลดลงจากระดับสูงสุดในระหว่างการซื้อขาย เนื่องจากดอลลาร์สหรัฐที่แข็งค่า อัตราผลตอบแทนพันธบัตรรัฐบาลสหรัฐฯ ที่ปรับตัวขึ้น และแนวโน้มการดำเนินนโยบา The post ภาวะตลาดทองคำนิวยอร์ก: ทองคำป…",
+   "image": null,
+   "score": 10,
+   "categories": [
+    "gold",
+    "earnings"
+   ],
+   "signals": [
+    "gold_up"
+   ],
+   "stories": [
+    "gold"
+   ]
+  },
+  {
+   "id": "b0b85febba1f",
+   "title": "ธุรกิจใหญ่ถอนทัพกัมพูชา เซเว่น-มาม่าปิดหมด-OR ยอดหด 70%",
+   "link": "https://www.prachachat.net/no1/news-2103744",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T00:05:00Z",
+   "summary": "ธุรกิจเอกชนยักษ์ใหญ่-ปั๊มน้ำมัน ร้านค้าปลีก ทยอยถอยทัพจากกัมพูชา ร้านสะดวกซื้อ 7-Eleven ประกาศยุติการดำเนินธุรกิจทั้งหมด ธ.ค. นี้ “มาม่า” ทนพิษกระแสต้านไม่ไหวปิดฉากโรงงาน 20 ปี เฉือนกำไรหาย 2% OR-เหลือบริการปั๊ม ปตท. ร้านค้าปลีกไม่ถึงครึ่ง…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/online-2-copy-2.jpg",
+   "score": 3,
+   "categories": [],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "3b1d5c3b8f8f",
+   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-27T23:30:00Z",
+   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
+   "image": "https://images.mktw.net/im-78896707",
+   "score": 3,
+   "categories": [
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "ai-chips"
+   ]
+  },
   {
    "id": "c26728ea18ee",
    "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
@@ -672,27 +1029,6 @@
    "published": "2026-11-27T12:01:00Z",
    "summary": "Jensen Huang faces tough questions from Congress this week. Good luck pinning him down, an analyst says.",
    "image": "https://images.mktw.net/im-62063935",
-   "score": 3,
-   "categories": [
-    "tech_ai"
-   ],
-   "signals": [],
-   "stories": [
-    "ai-chips"
-   ]
-  },
-  {
-   "id": "3b1d5c3b8f8f",
-   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
-   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "feed": "marketwatch",
-   "region": "GLOBAL",
-   "lang": "en",
-   "central_bank": false,
-   "published": "2026-11-27T11:15:00Z",
-   "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
-   "image": "https://images.mktw.net/im-78896707",
    "score": 3,
    "categories": [
     "tech_ai"
