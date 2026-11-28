@@ -154,6 +154,17 @@
   "x1": 0.82,
   "base_date": "2026-11-25"
  },
+ "baht_weak|AAV|2026-11-28": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "AAV",
+  "market": "SET",
+  "effect": "down",
+  "date": "2026-11-28",
+  "news_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.70-34.20 จับตาทิศทางราคาทอง-เม็ดเงินต่างชาติ",
+  "news_link": "https://www.infoquest.co.th/2026/686838",
+  "base_date": "2026-11-27"
+ },
  "baht_weak|CPF|2026-11-19": {
   "signal": "baht_weak",
   "signal_name": "บาทอ่อน",
@@ -196,6 +207,17 @@
   "r1": -0.78,
   "x1": 0.04,
   "base_date": "2026-11-25"
+ },
+ "baht_weak|CPF|2026-11-28": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "CPF",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.70-34.20 จับตาทิศทางราคาทอง-เม็ดเงินต่างชาติ",
+  "news_link": "https://www.infoquest.co.th/2026/686838",
+  "base_date": "2026-11-27"
  },
  "baht_weak|DELTA|2026-11-19": {
   "signal": "baht_weak",
@@ -240,6 +262,17 @@
   "x1": 1.7,
   "base_date": "2026-11-25"
  },
+ "baht_weak|DELTA|2026-11-28": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "DELTA",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.70-34.20 จับตาทิศทางราคาทอง-เม็ดเงินต่างชาติ",
+  "news_link": "https://www.infoquest.co.th/2026/686838",
+  "base_date": "2026-11-27"
+ },
  "baht_weak|TU|2026-11-19": {
   "signal": "baht_weak",
   "signal_name": "บาทอ่อน",
@@ -282,6 +315,17 @@
   "r1": -1.53,
   "x1": -0.61,
   "base_date": "2026-11-25"
+ },
+ "baht_weak|TU|2026-11-28": {
+  "signal": "baht_weak",
+  "signal_name": "บาทอ่อน",
+  "ticker": "TU",
+  "market": "SET",
+  "effect": "up",
+  "date": "2026-11-28",
+  "news_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.70-34.20 จับตาทิศทางราคาทอง-เม็ดเงินต่างชาติ",
+  "news_link": "https://www.infoquest.co.th/2026/686838",
+  "base_date": "2026-11-27"
  },
  "gold_up|AURA|2020-12-29": {
   "signal": "gold_up",

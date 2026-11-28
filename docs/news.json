@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-28T03:52:10Z",
+  "generated_at": "2026-11-28T12:54:22Z",
   "categories": {
    "monetary": "ดอกเบี้ย",
    "inflation": "เงินเฟ้อ",
@@ -17,13 +17,13 @@
   "feeds_ok": 5,
   "feed_errors": [],
   "total_raw": 85,
-  "total_kept": 581
+  "total_kept": 594
  },
  "signals": [
   {
    "id": "oil_up",
    "name": "น้ำมันขึ้น",
-   "count": 6,
+   "count": 5,
    "impacts": [
     {
      "effect": "ได้ประโยชน์",
@@ -111,6 +111,41 @@
      "link": "https://www.infoquest.co.th/2026/686755",
      "source": "อินโฟเควสท์",
      "published": "2026-11-27T12:28:05Z"
+    }
+   ]
+  },
+  {
+   "id": "baht_weak",
+   "name": "บาทอ่อน",
+   "count": 1,
+   "impacts": [
+    {
+     "effect": "ได้ประโยชน์",
+     "sector": "ผู้ส่งออก",
+     "set": [
+      "CPF",
+      "TU",
+      "DELTA"
+     ],
+     "us": [],
+     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้มากขึ้น"
+    },
+    {
+     "effect": "ถูกกดดัน",
+     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
+     "set": [
+      "AAV"
+     ],
+     "us": [],
+     "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
+    }
+   ],
+   "evidence": [
+    {
+     "title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.70-34.20 จับตาทิศทางราคาทอง-เม็ดเงินต่างชาติ",
+     "link": "https://www.infoquest.co.th/2026/686838",
+     "source": "อินโฟเควสท์",
+     "published": "2026-11-28T10:55:12Z"
     }
    ]
   },
@@ -260,75 +295,48 @@
      "published": "2026-11-27T10:57:07Z"
     }
    ]
-  },
-  {
-   "id": "baht_weak",
-   "name": "บาทอ่อน",
-   "count": 1,
-   "impacts": [
-    {
-     "effect": "ได้ประโยชน์",
-     "sector": "ผู้ส่งออก",
-     "set": [
-      "CPF",
-      "TU",
-      "DELTA"
-     ],
-     "us": [],
-     "why": "รายได้เป็นดอลลาร์แปลงเป็นบาทได้มากขึ้น"
-    },
-    {
-     "effect": "ถูกกดดัน",
-     "sector": "สายการบิน/ผู้มีต้นทุนเป็นดอลลาร์",
-     "set": [
-      "AAV"
-     ],
-     "us": [],
-     "why": "ต้นทุนเช่าเครื่องบินและน้ำมันเป็นดอลลาร์"
-    }
-   ],
-   "evidence": [
-    {
-     "title": "แบงก์ชาติ แจงค่าเงินบาทอ่อนค่าลง อยู่ในระดับที่จัดการได้",
-     "link": "https://www.prachachat.net/finance/news-2102589",
-     "source": "ประชาชาติธุรกิจ",
-     "published": "2026-11-26T06:00:12Z"
-    }
-   ]
   }
  ],
  "stories": [
   {
-   "id": "gold",
-   "name": "ราคาทองคำ",
-   "count": 30,
-   "new_24h": 5,
-   "latest": "2026-11-28T01:26:00Z",
-   "latest_title": "ภาวะตลาดหุ้นลอนดอน: FTSE 100 ปิดบวก 89.51 จุด รับแรงซื้อหุ้นเหมืองแร่-ธนาคาร"
-  },
-  {
    "id": "oil-mideast",
    "name": "น้ำมันและตะวันออกกลาง",
-   "count": 37,
-   "new_24h": 4,
-   "latest": "2026-11-27T17:32:25Z",
-   "latest_title": "ภาวะตลาดหุ้นอินเดีย: ดัชนี Sensex ดิ่งเกือบ 1,000 จุด ราคาน้ำมันฉุดตลาด"
+   "count": 38,
+   "new_24h": 5,
+   "latest": "2026-11-28T09:34:41Z",
+   "latest_title": "ตึงเครียดช่องแคบฮอร์มุซปะทุ สหรัฐฯ เพิ่มมาตรการปิดล้อม หวั่นกระทบอุปทานพลังงานโลก"
   },
   {
-   "id": "thai-economy",
-   "name": "เศรษฐกิจไทย",
-   "count": 24,
+   "id": "thai-market",
+   "name": "ตลาดหุ้นไทย",
+   "count": 33,
+   "new_24h": 4,
+   "latest": "2026-11-28T12:22:19Z",
+   "latest_title": "โบรกฯ มองบวก Uptick Rule คัมแบ็ก! ลุ้นลดแรงกดดันหุ้นไทย แต่ไม่การันตีแรงซื้อคืน"
+  },
+  {
+   "id": "gold",
+   "name": "ราคาทองคำ",
+   "count": 31,
    "new_24h": 3,
-   "latest": "2026-11-28T01:31:24Z",
-   "latest_title": "ผ่าโจทย์ใหญ่เศรษฐกิจไทยปี’70 ‘แสนสิริ’ การ์ดสูง-รีดไขมัน"
+   "latest": "2026-11-28T10:55:12Z",
+   "latest_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.70-34.20 จับตาทิศทางราคาทอง-เม็ดเงินต่างชาติ"
   },
   {
    "id": "ai-chips",
    "name": "AI และชิป",
    "count": 61,
-   "new_24h": 3,
+   "new_24h": 2,
    "latest": "2026-11-27T23:30:00Z",
    "latest_title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?"
+  },
+  {
+   "id": "baht",
+   "name": "ทิศทางเงินบาท",
+   "count": 20,
+   "new_24h": 1,
+   "latest": "2026-11-28T10:55:12Z",
+   "latest_title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.70-34.20 จับตาทิศทางราคาทอง-เม็ดเงินต่างชาติ"
   },
   {
    "id": "trade-war",
@@ -339,28 +347,20 @@
    "latest_title": "ฟอร์ดชิมลางนำเข้ารถ EV-REEV BRONCO หวังขายปีหน้า 400 คัน"
   },
   {
+   "id": "thai-economy",
+   "name": "เศรษฐกิจไทย",
+   "count": 24,
+   "new_24h": 1,
+   "latest": "2026-11-28T01:31:24Z",
+   "latest_title": "ผ่าโจทย์ใหญ่เศรษฐกิจไทยปี’70 ‘แสนสิริ’ การ์ดสูง-รีดไขมัน"
+  },
+  {
    "id": "fed",
    "name": "เฟดและดอกเบี้ยสหรัฐ",
    "count": 28,
    "new_24h": 1,
    "latest": "2026-11-28T00:43:58Z",
    "latest_title": "ภาวะตลาดเงินนิวยอร์ก: ดอลลาร์แข็งค่า รับคาดการณ์เฟดขึ้นดอกเบี้ย แม้ตลาดหุ้นฟื้นหนุนสินทรัพย์เสี่ยง"
-  },
-  {
-   "id": "baht",
-   "name": "ทิศทางเงินบาท",
-   "count": 19,
-   "new_24h": 1,
-   "latest": "2026-11-27T10:57:07Z",
-   "latest_title": "ภาวะตลาดอนุพันธ์: ปรับขึ้นขานรับส่งออกไทยดีกว่าคาด-บาทแข็ง จับตาตัวเลขแรงงาน-ภาคการผลิตสหรัฐฯ"
-  },
-  {
-   "id": "thai-market",
-   "name": "ตลาดหุ้นไทย",
-   "count": 29,
-   "new_24h": 1,
-   "latest": "2026-11-27T10:48:37Z",
-   "latest_title": "หุ้นไทยดีดแรง 25.85 จุด รับส่งออกโตทะลุคาด สถาบันนำทีมซื้อ"
   },
   {
    "id": "bot",
@@ -380,6 +380,272 @@
   }
  ],
  "items": [
+  {
+   "id": "82a337625c7f",
+   "title": "These tech stocks may let you play defense without giving up on AI",
+   "link": "https://www.marketwatch.com/story/these-tech-stocks-may-let-you-play-defense-without-giving-up-on-ai-523ce26d?mod=mw_rss_topstories",
+   "source": "MarketWatch",
+   "feed": "marketwatch",
+   "region": "GLOBAL",
+   "lang": "en",
+   "central_bank": false,
+   "published": "2026-11-28T12:30:00Z",
+   "summary": "Amphenol, CDW, Sensata Technologies and TE Connectivity stood out when an Evercore analyst did a stress test of the hardware-related stocks he covers.",
+   "image": "https://images.mktw.net/im-13138384",
+   "score": 7,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "5007e23e1b58",
+   "title": "โบรกฯ มองบวก Uptick Rule คัมแบ็ก! ลุ้นลดแรงกดดันหุ้นไทย แต่ไม่การันตีแรงซื้อคืน",
+   "link": "https://www.prachachat.net/finance/news-2103973",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T12:22:19Z",
+   "summary": "CGSI มองบวก ตลท. ดึง Uptick Rule กลับมาใช้ หลังแรงขายชอร์ตหุ้นใหญ่กดดัน SET หลุด 1,450 จุด จับตา 1 เดือนมาตรการจะลดแรงขายและความผันผวนได้แค่ไหน พร้อมเตือนชอร์ตหนักไม่ได้การันตีว่าจะเกิดแรงซื้อคืน (Short Covering) นักวิเคราะห์บริษัทหลักทรัพ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/01/12-2-concept-financial-investment-stock-market-businessmen-are-using-tablets-buying-selling-stocks-funds-cards-gold.jpg",
+   "score": 6,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "2e7d156b7179",
+   "title": "พาณิชย์ดึงผู้นำเข้าข้าวฮ่องกง 26 บริษัท โชว์ศักยภาพข้าวไทย รักษาแชมป์ส่วนแบ่งตลาดกว่า 50%",
+   "link": "https://www.prachachat.net/economic/news-2103963",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T11:30:46Z",
+   "summary": "กรมการค้าต่างประเทศนำคณะผู้นำเข้าข้าวฮ่องกง 26 บริษัท กว่า 30 คน เยือนเชียงใหม่ โชว์ศักยภาพการผลิตและนวัตกรรมข้าวคุณภาพสูง รักษาส่วนแบ่งตลาดข้าวอันดับ 1 ในฮ่องกงกว่า 50% หลังส่งออก 9 เดือนแรกปี 2569 กว่า 104,146 ตัน พร้อมชูโอกาสขยายตลาดข้า…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__75571308.jpg",
+   "score": 6,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "260e5bfd93f3",
+   "title": "ไทยรับไม้ต่อประธาน ACMECS เสนอ 5 ประเทศ แก้มลพิษข้ามแดน–เชื่อมเศรษฐกิจ",
+   "link": "https://www.prachachat.net/politics/news-2103954",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T11:23:42Z",
+   "summary": "ไทย รับไม้ต่อเมียนมา เป็นประธาน ACMECS ‘อนุทิน’ เสนอเวทีผู้นำยุทธศาสตร์ความร่วมมือฃเศรษฐกิจอิรวดี–เจ้าพระยา–แม่โขง ผนึก 5 ประเทศ แก้มลพิษข้ามแดน–ปราบสแกมเมอร์ เดินหน้าเชื่อมโยงเศรษฐกิจ ที่เวียดนาม นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี และรัฐมนต…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/S__68124691.jpg",
+   "score": 4,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "cadc11f088bf",
+   "title": "KBANK คาดกรอบบาทสัปดาห์หน้า 33.70-34.20 จับตาทิศทางราคาทอง-เม็ดเงินต่างชาติ",
+   "link": "https://www.infoquest.co.th/2026/686838",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T10:55:12Z",
+   "summary": "ธนาคารกสิกรไทย (KBANK) มองกรอบค่าเงินบาทสัปดาห์หน้า (30 พ.ย.-4 ธ.ค.)ที่ 33.70-34.20 บาท/ดอลลาร์ จากปิดตลาดวันศุกร์ที่ 27 พ.ย.ที่ 33.91 บาท/ดอลลาร์ ในช่วงต้นถึงกลางสัปดาห์ เงินบาททยอยอ่อนค่าลงสอดคล้องก The post KBANK คาดกรอบบาทสัปดาห์หน้า 3…",
+   "image": null,
+   "score": 11,
+   "categories": [
+    "fx",
+    "gold"
+   ],
+   "signals": [
+    "baht_weak"
+   ],
+   "stories": [
+    "baht",
+    "gold"
+   ]
+  },
+  {
+   "id": "abd127ade38f",
+   "title": "ตลท.ใช้เกณฑ์ Uptick กับทุกหลักทรัพย์ที่ขายชอร์ตได้เป็นการชั่วคราว เริ่ม 30 พ.ย. -30 ธ.ค.นี้ ลดผันผวนตลาดหุ้นไทย",
+   "link": "https://www.infoquest.co.th/2026/686850",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T10:14:11Z",
+   "summary": "สืบเนื่องจากตลาดหุ้นทั่วโลกผันผวนสูงจากแรงขายหุ้นที่เกี่ยวข้องกับเทคโนโลยีปัญญาประดิษฐ์ (AI) ในวงกว้างทั่วโลก (Global Sell-off) ประกอบกับความไม่แน่นอนของปัจจัยต่างประเทศอื่น ๆ ส่งผลให้ดัชนีตลาดหลักทรั The post ตลท.ใช้เกณฑ์ Uptick กับทุกหลั…",
+   "image": null,
+   "score": 8,
+   "categories": [
+    "stock_market",
+    "tech_ai"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "ef8c621dccd2",
+   "title": "ตลท. ดึงเบรกชอร์ตเซลล์ งัด Uptick Rule คุมหุ้นไทย 30 พ.ย.-30 ธ.ค. 69",
+   "link": "https://www.prachachat.net/finance/news-2103950",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T10:07:41Z",
+   "summary": "บอร์ด ตลท. มีมติคืนชีพเกณฑ์ Uptick Rule ชั่วคราว ครอบคลุมทุกหลักทรัพย์ที่อนุญาตให้ขายชอร์ต ยกเว้นคำสั่ง Market Maker หลังตลาดหุ้นผันผวนหนักจากแรงเทขายหุ้น AI ทั่วโลก เริ่ม 30 พ.ย. ถึง 30 ธ.ค. 2569 พร้อมเปิดทางยกเลิกมาตรการก่อนกำหนดหากสถานก…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2023/03/%E0%B8%94%E0%B8%B5%E0%B9%84%E0%B8%8B%E0%B8%99%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD-2023-03-16T154104.195.jpg",
+   "score": 7,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
+  {
+   "id": "9ff6ab67c64b",
+   "title": "ตึงเครียดช่องแคบฮอร์มุซปะทุ สหรัฐฯ เพิ่มมาตรการปิดล้อม หวั่นกระทบอุปทานพลังงานโลก",
+   "link": "https://www.infoquest.co.th/2026/686846",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T09:34:41Z",
+   "summary": "สถานการณ์ความตึงเครียดในตะวันออกกลางทวีความรุนแรงขึ้นในวันนี้ (28 พ.ย.) หลังอิหร่านรายงานเหตุเรือบรรทุกน้ำมันเกิดไฟไหม้ 2 ลำจากเหตุทุ่นระเบิดทางทะเล ขณะที่สหรัฐฯ เดินหน้าเสริมมาตรการปิดล้อมทางทะเลต่ออ The post ตึงเครียดช่องแคบฮอร์มุซปะทุ ส…",
+   "image": null,
+   "score": 9,
+   "categories": [
+    "trade_geo",
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": [
+    "oil-mideast"
+   ]
+  },
+  {
+   "id": "23c45f23d978",
+   "title": "แบงก์ใหญ่สหรัฐฯ เตรียมจ่าย 400 ล้านดอลลาร์ ยุติคดีฮั้วกำหนดราคาพันธบัตรเทศบาล",
+   "link": "https://www.infoquest.co.th/2026/686837",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T08:55:25Z",
+   "summary": "บริษัทการเงินในย่านวอลล์สตรีท รวมถึงธนาคารรายใหญ่หลายแห่ง เตรียมจ่ายเงินมากกว่า 400 ล้านดอลลาร์สหรัฐ เพื่อยุติคดีฟ้องร้องที่กล่าวหาว่าร่วมกันสมคบคิดกำหนดราคาในตลาดพันธบัตรเทศบาล (Municipal Bonds) The post แบงก์ใหญ่สหรัฐฯ เตรียมจ่าย 400 ล้า…",
+   "image": null,
+   "score": 5,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "6ead8bf4bda7",
+   "title": "Apple-OpenAI เปิดศึกทรัพย์สินทางปัญญารอบใหม่ หลังต่างฝ่ายกล่าวหาละเมิดความลับทางการค้า",
+   "link": "https://www.infoquest.co.th/2026/686826",
+   "source": "อินโฟเควสท์",
+   "feed": "infoquest",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T06:20:55Z",
+   "summary": "ข้อพิพาทด้านความลับทางการค้าระหว่างโอเพนเอไอ (OpenAI) กับแอปเปิ้ล (Apple) ทวีความรุนแรงขึ้น หลัง OpenAI ยื่นฟ้องแย้งกล่าวหา Apple ว่าพยายามบ่อนทำลายความสัมพันธ์ระหว่างบริษัทกับซัพพลายเออร์ The post Apple-OpenAI เปิดศึกทรัพย์สินทางปัญญารอบใ…",
+   "image": null,
+   "score": 4,
+   "categories": [
+    "trade_geo"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "1b782c1e9219",
+   "title": "“เดอะมอลล์” ถอนลงทุน “โคราช” สะเทือนเศรษฐกิจรากหญ้า “ผู้ค้า-วินรับจ้าง” ใจหาย",
+   "link": "https://www.prachachat.net/economic/local-economy/news-2103909",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T05:43:05Z",
+   "summary": "กลายเป็นทอล์กออฟเดอะทาวน์ระดับประเทศ เมื่อ“ตระกูลอัมพุช”ถอนการลงทุนโคราช ประกาศปิดฉาก ”เดอะมอลล์ โคราช“ที่อยู่คู่เมืองย่าโมมานาน 26 ปี โดยจะเปิดบริการถึง 19 มกราคม 2570 เป็นวันสุดท้าย ดีลไม่จบ-3ตระกูลใหญ่ถึงทางแยก หลังใช้ความพยายามร่วม 2 เ…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/web-2026-11-28T124113.201.jpg",
+   "score": 3,
+   "categories": [
+    "economy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "bb0234656289",
+   "title": "โซลาร์รูฟท็อปล้านหลังหลุดเป้า แนะรัฐโยกงบหนุนติดแบตเตอรี่เก็บพลังงาน",
+   "link": "https://www.prachachat.net/no1/news-2103747",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T05:00:00Z",
+   "summary": "โครงการโซลาร์ประชาชนส่อแววไปไม่ถึงเป้าล้านหลัง ผ่านมา 1 เดือนคนลงทะเบียนไม่ถึงแสน “ไอออน” คาดครบกำหนด 3 เดือนน่าจะได้ 3-5 แสนหลังเท่านั้น ปัญหาไม่ใช่แค่คนเข้าร่วมน้อย แต่เพราะระยะเวลาติดตั้งจนถึงขออนุญาตแล้วเสร็จต้องใช้เวลา ชี้ต้องทำให้ได้…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/P013011-3-1.jpg",
+   "score": 3,
+   "categories": [
+    "oil_energy"
+   ],
+   "signals": [],
+   "stories": []
+  },
+  {
+   "id": "d444e762bbb4",
+   "title": "จี้ SET ทบทวน “ขายชอร์ต” 9 วันมาร์เก็ตแคปวูบ 1.2 ล้านล้าน",
+   "link": "https://www.prachachat.net/finance/news-2103595",
+   "source": "ประชาชาติธุรกิจ",
+   "feed": "prachachat",
+   "region": "TH",
+   "lang": "th",
+   "central_bank": false,
+   "published": "2026-11-28T04:40:00Z",
+   "summary": "หลังจากตลาดหลักทรัพย์แห่งประเทศไทย (ตลท.) เริ่มใช้มาตรการซื้อขายใหม่ 8 มาตรการ ตั้งแต่วันที่ 16 พ.ย. 2569 โดยเฉพาะการปรับเกณฑ์การขายชอร์ต (Short Selling) จาก Uptick Rule เป็น Zero-Plus Tick พบว่าธุรกรรมขายชอร์ตเพิ่มขึ้นอย่างมีนัยสำคัญ โดยข…",
+   "image": "https://www.prachachat.net/wp-content/uploads/2026/11/set-1.jpg",
+   "score": 3,
+   "categories": [
+    "stock_market"
+   ],
+   "signals": [],
+   "stories": [
+    "thai-market"
+   ]
+  },
   {
    "id": "8e7e234f6386",
    "title": "‘อนุทิน’ เปิดเบื้องหลัง ‘ดีลภาษีสหรัฐ 18%’ เขียนจดหมายยื่นใส่มือ ‘ทรัมป์’ ขอเว้นภาษีสินค้าสำคัญไทย",

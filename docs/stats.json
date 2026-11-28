@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T12:48:00Z",
+ "generated_at": "2026-11-28T12:54:50Z",
  "since": "2020-12-29",
  "by_year": {
   "2020": {
@@ -40,8 +40,8 @@
  },
  "backfill": 25960,
  "overall": {
-  "total": 26332,
-  "news": 3197,
+  "total": 26336,
+  "news": 3198,
   "d1": {
    "evaluated": 20476,
    "hit_rate": 50.4,
@@ -359,8 +359,8 @@
    "name": "หุ้นเทคโนโลยี/ชิปพุ่ง"
   },
   {
-   "total": 12,
-   "news": 3,
+   "total": 16,
+   "news": 4,
    "d1": {
     "evaluated": 12,
     "hit_rate": 58.3,
