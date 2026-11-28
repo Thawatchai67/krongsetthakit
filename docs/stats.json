@@ -1,11 +1,16 @@
 {
- "generated_at": "2026-11-27T21:13:33Z",
- "since": "2022-09-20",
+ "generated_at": "2026-11-28T02:15:32Z",
+ "since": "2021-09-26",
  "by_year": {
+  "2021": {
+   "evaluated": 748,
+   "hit_rate": 52.7,
+   "avg_edge": 0.21
+  },
   "2022": {
-   "evaluated": 908,
-   "hit_rate": 49.0,
-   "avg_edge": 0.04
+   "evaluated": 3483,
+   "hit_rate": 50.4,
+   "avg_edge": 0.11
   },
   "2023": {
    "evaluated": 3263,
@@ -28,24 +33,24 @@
    "avg_edge": 0.28
   }
  },
- "backfill": 18085,
+ "backfill": 21771,
  "overall": {
-  "total": 18437,
-  "news": 2229,
+  "total": 22123,
+  "news": 2661,
   "d1": {
-   "evaluated": 14007,
-   "hit_rate": 49.6,
-   "avg_edge": 0.1
+   "evaluated": 17330,
+   "hit_rate": 50.3,
+   "avg_edge": 0.12
   },
   "d5": {
-   "evaluated": 13893,
-   "hit_rate": 49.7,
-   "avg_edge": 0.06
+   "evaluated": 17216,
+   "hit_rate": 50.0,
+   "avg_edge": 0.08
   },
   "d20": {
-   "evaluated": 13728,
-   "hit_rate": 49.4,
-   "avg_edge": 0.12
+   "evaluated": 17051,
+   "hit_rate": 49.3,
+   "avg_edge": 0.09
   }
  },
  "tickers": {
@@ -55,14 +60,14 @@
    "avg_edge": null
   },
   "AAV": {
-   "evaluated": 653,
-   "hit_rate": 51.5,
-   "avg_edge": 0.18
+   "evaluated": 863,
+   "hit_rate": 50.6,
+   "avg_edge": 0.12
   },
   "AMD": {
-   "evaluated": 146,
-   "hit_rate": 54.8,
-   "avg_edge": 0.85
+   "evaluated": 156,
+   "hit_rate": 53.8,
+   "avg_edge": 0.82
   },
   "AURA": {
    "evaluated": 252,
@@ -70,24 +75,24 @@
    "avg_edge": -0.52
   },
   "BAC": {
-   "evaluated": 570,
-   "hit_rate": 46.8,
-   "avg_edge": -0.19
+   "evaluated": 675,
+   "hit_rate": 45.5,
+   "avg_edge": -0.29
   },
   "BBL": {
-   "evaluated": 573,
-   "hit_rate": 48.7,
-   "avg_edge": 0.08
+   "evaluated": 678,
+   "hit_rate": 48.4,
+   "avg_edge": 0.06
   },
   "BCP": {
-   "evaluated": 650,
-   "hit_rate": 51.4,
-   "avg_edge": 0.16
+   "evaluated": 860,
+   "hit_rate": 52.4,
+   "avg_edge": 0.22
   },
   "COP": {
-   "evaluated": 649,
-   "hit_rate": 51.6,
-   "avg_edge": 0.1
+   "evaluated": 859,
+   "hit_rate": 52.7,
+   "avg_edge": 0.28
   },
   "CPF": {
    "evaluated": 3,
@@ -95,94 +100,94 @@
    "avg_edge": 1.07
   },
   "CPN": {
-   "evaluated": 573,
-   "hit_rate": 48.9,
-   "avg_edge": 0.02
+   "evaluated": 678,
+   "hit_rate": 47.8,
+   "avg_edge": -0.09
   },
   "CVX": {
-   "evaluated": 649,
-   "hit_rate": 51.2,
-   "avg_edge": 0.06
+   "evaluated": 859,
+   "hit_rate": 52.9,
+   "avg_edge": 0.28
   },
   "DAL": {
-   "evaluated": 649,
-   "hit_rate": 50.2,
-   "avg_edge": 0.08
+   "evaluated": 859,
+   "hit_rate": 50.3,
+   "avg_edge": 0.14
   },
   "DELTA": {
-   "evaluated": 722,
-   "hit_rate": 54.2,
-   "avg_edge": 0.51
+   "evaluated": 837,
+   "hit_rate": 52.6,
+   "avg_edge": -0.09
   },
   "GLD": {
-   "evaluated": 270,
-   "hit_rate": 44.4,
-   "avg_edge": -0.13
+   "evaluated": 347,
+   "hit_rate": 47.3,
+   "avg_edge": 0.0
   },
   "HANA": {
-   "evaluated": 146,
-   "hit_rate": 43.8,
-   "avg_edge": -0.24
+   "evaluated": 156,
+   "hit_rate": 43.6,
+   "avg_edge": -0.21
   },
   "JPM": {
-   "evaluated": 570,
-   "hit_rate": 46.8,
-   "avg_edge": -0.01
+   "evaluated": 675,
+   "hit_rate": 46.1,
+   "avg_edge": -0.14
   },
   "KBANK": {
-   "evaluated": 573,
-   "hit_rate": 47.6,
-   "avg_edge": -0.05
+   "evaluated": 678,
+   "hit_rate": 47.2,
+   "avg_edge": -0.06
   },
   "KCE": {
-   "evaluated": 146,
-   "hit_rate": 43.2,
-   "avg_edge": 0.57
+   "evaluated": 156,
+   "hit_rate": 42.3,
+   "avg_edge": 0.54
   },
   "LH": {
-   "evaluated": 573,
-   "hit_rate": 46.9,
-   "avg_edge": -0.12
+   "evaluated": 678,
+   "hit_rate": 46.8,
+   "avg_edge": -0.13
   },
   "MSFT": {
-   "evaluated": 570,
-   "hit_rate": 46.5,
-   "avg_edge": -0.29
+   "evaluated": 675,
+   "hit_rate": 48.3,
+   "avg_edge": -0.25
   },
   "NEM": {
-   "evaluated": 270,
-   "hit_rate": 47.8,
-   "avg_edge": -0.63
+   "evaluated": 347,
+   "hit_rate": 46.4,
+   "avg_edge": -0.62
   },
   "NVDA": {
-   "evaluated": 716,
-   "hit_rate": 50.3,
-   "avg_edge": 0.09
+   "evaluated": 831,
+   "hit_rate": 49.9,
+   "avg_edge": 0.12
   },
   "PTT": {
-   "evaluated": 650,
-   "hit_rate": 51.2,
-   "avg_edge": 0.02
+   "evaluated": 860,
+   "hit_rate": 52.3,
+   "avg_edge": 0.08
   },
   "PTTEP": {
-   "evaluated": 650,
-   "hit_rate": 53.2,
-   "avg_edge": 0.36
+   "evaluated": 860,
+   "hit_rate": 53.5,
+   "avg_edge": 0.4
   },
   "SCB": {
-   "evaluated": 573,
-   "hit_rate": 47.5,
-   "avg_edge": 0.02
+   "evaluated": 637,
+   "hit_rate": 47.7,
+   "avg_edge": 0.26
   },
   "TOP": {
-   "evaluated": 650,
-   "hit_rate": 49.2,
-   "avg_edge": -0.0
+   "evaluated": 860,
+   "hit_rate": 50.8,
+   "avg_edge": 0.11
   },
   "TSM": {
-   "evaluated": 146,
-   "hit_rate": 51.4,
-   "avg_edge": 0.61
+   "evaluated": 156,
+   "hit_rate": 51.3,
+   "avg_edge": 0.58
   },
   "TU": {
    "evaluated": 3,
@@ -190,20 +195,41 @@
    "avg_edge": 1.97
   },
   "UAL": {
-   "evaluated": 649,
-   "hit_rate": 52.2,
-   "avg_edge": 0.13
+   "evaluated": 859,
+   "hit_rate": 52.3,
+   "avg_edge": 0.18
   },
   "XOM": {
-   "evaluated": 649,
-   "hit_rate": 52.2,
-   "avg_edge": 0.11
+   "evaluated": 859,
+   "hit_rate": 53.4,
+   "avg_edge": 0.29
   }
  },
  "signals": [
   {
-   "total": 4396,
-   "news": 628,
+   "total": 4730,
+   "news": 473,
+   "d1": {
+    "evaluated": 4720,
+    "hit_rate": 53.0,
+    "avg_edge": 0.21
+   },
+   "d5": {
+    "evaluated": 4685,
+    "hit_rate": 52.6,
+    "avg_edge": 0.24
+   },
+   "d20": {
+    "evaluated": 4660,
+    "hit_rate": 50.9,
+    "avg_edge": 0.48
+   },
+   "id": "oil_up",
+   "name": "น้ำมันขึ้น"
+  },
+  {
+   "total": 4641,
+   "news": 663,
    "d1": {
     "evaluated": 0,
     "hit_rate": null,
@@ -223,130 +249,109 @@
    "name": "ภาษีนำเข้า/สงครามการค้า"
   },
   {
-   "total": 3530,
-   "news": 353,
+   "total": 3930,
+   "news": 393,
    "d1": {
-    "evaluated": 3520,
-    "hit_rate": 51.3,
-    "avg_edge": 0.15
+    "evaluated": 3930,
+    "hit_rate": 53.6,
+    "avg_edge": 0.23
    },
    "d5": {
-    "evaluated": 3485,
-    "hit_rate": 51.4,
-    "avg_edge": 0.08
+    "evaluated": 3910,
+    "hit_rate": 51.6,
+    "avg_edge": 0.17
    },
    "d20": {
-    "evaluated": 3460,
-    "hit_rate": 49.8,
-    "avg_edge": 0.0
-   },
-   "id": "oil_up",
-   "name": "น้ำมันขึ้น"
-  },
-  {
-   "total": 3160,
-   "news": 316,
-   "d1": {
-    "evaluated": 3160,
-    "hit_rate": 44.6,
-    "avg_edge": -0.02
-   },
-   "d5": {
-    "evaluated": 3160,
-    "hit_rate": 47.2,
-    "avg_edge": 0.02
-   },
-   "d20": {
-    "evaluated": 3150,
-    "hit_rate": 46.5,
-    "avg_edge": 0.16
-   },
-   "id": "rate_cut",
-   "name": "ลดดอกเบี้ย"
-  },
-  {
-   "total": 3030,
-   "news": 303,
-   "d1": {
-    "evaluated": 3030,
-    "hit_rate": 53.2,
-    "avg_edge": 0.21
-   },
-   "d5": {
-    "evaluated": 3010,
-    "hit_rate": 51.4,
-    "avg_edge": 0.16
-   },
-   "d20": {
-    "evaluated": 2950,
-    "hit_rate": 52.1,
-    "avg_edge": 0.07
+    "evaluated": 3850,
+    "hit_rate": 50.8,
+    "avg_edge": -0.23
    },
    "id": "oil_down",
    "name": "น้ำมันลง"
   },
   {
-   "total": 2600,
-   "news": 260,
+   "total": 3610,
+   "news": 361,
    "d1": {
-    "evaluated": 2600,
-    "hit_rate": 48.9,
+    "evaluated": 3570,
+    "hit_rate": 48.2,
     "avg_edge": -0.03
    },
    "d5": {
-    "evaluated": 2558,
-    "hit_rate": 49.6,
-    "avg_edge": -0.11
+    "evaluated": 3528,
+    "hit_rate": 48.5,
+    "avg_edge": -0.22
    },
    "d20": {
-    "evaluated": 2500,
-    "hit_rate": 49.6,
-    "avg_edge": -0.38
+    "evaluated": 3470,
+    "hit_rate": 48.2,
+    "avg_edge": -0.64
    },
    "id": "rate_hike",
    "name": "ขึ้นดอกเบี้ย"
   },
   {
-   "total": 888,
-   "news": 148,
+   "total": 3200,
+   "news": 320,
    "d1": {
-    "evaluated": 882,
-    "hit_rate": 48.8,
-    "avg_edge": 0.3
+    "evaluated": 3199,
+    "hit_rate": 44.6,
+    "avg_edge": -0.02
    },
    "d5": {
-    "evaluated": 876,
-    "hit_rate": 50.6,
-    "avg_edge": 0.66
+    "evaluated": 3199,
+    "hit_rate": 47.3,
+    "avg_edge": 0.02
    },
    "d20": {
-    "evaluated": 876,
-    "hit_rate": 53.2,
-    "avg_edge": 2.41
+    "evaluated": 3189,
+    "hit_rate": 46.6,
+    "avg_edge": 0.19
    },
-   "id": "tech_rally",
-   "name": "หุ้นเทคโนโลยี/ชิปพุ่ง"
+   "id": "rate_cut",
+   "name": "ลดดอกเบี้ย"
   },
   {
-   "total": 813,
-   "news": 271,
+   "total": 1044,
+   "news": 348,
    "d1": {
-    "evaluated": 795,
+    "evaluated": 949,
     "hit_rate": 51.4,
-    "avg_edge": 0.08
+    "avg_edge": 0.09
    },
    "d5": {
-    "evaluated": 792,
-    "hit_rate": 45.5,
-    "avg_edge": -0.42
+    "evaluated": 946,
+    "hit_rate": 46.1,
+    "avg_edge": -0.36
    },
    "d20": {
-    "evaluated": 792,
-    "hit_rate": 44.3,
+    "evaluated": 946,
+    "hit_rate": 46.1,
     "avg_edge": -0.21
    },
    "id": "gold_up",
    "name": "ทองคำขึ้น"
+  },
+  {
+   "total": 948,
+   "news": 158,
+   "d1": {
+    "evaluated": 942,
+    "hit_rate": 48.4,
+    "avg_edge": 0.25
+   },
+   "d5": {
+    "evaluated": 936,
+    "hit_rate": 49.8,
+    "avg_edge": 0.59
+   },
+   "d20": {
+    "evaluated": 936,
+    "hit_rate": 52.2,
+    "avg_edge": 2.1
+   },
+   "id": "tech_rally",
+   "name": "หุ้นเทคโนโลยี/ชิปพุ่ง"
   },
   {
    "total": 12,
